@@ -1,0 +1,24 @@
+{
+  "schema": "vocabulary-item",
+  "why": "A3.1 is not on the path",
+  "data": {
+    "id": "v-schnell",
+    "lemma": "schnell",
+    "pos": "adjective",
+    "frequencyRank": 300,
+    "sublevel": "A3.1",
+    "translations": {
+      "en": [
+        "fast"
+      ],
+      "es": [
+        "rápido"
+      ]
+    },
+    "example": {
+      "de": "Der Zug ist schnell.",
+      "en": "The train is fast.",
+      "es": "El tren es rápido."
+    }
+  }
+}

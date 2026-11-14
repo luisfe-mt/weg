@@ -1,0 +1,24 @@
+{
+  "schema": "vocabulary-item",
+  "why": "a noun needs article and plural",
+  "data": {
+    "id": "v-wohnung",
+    "lemma": "Wohnung",
+    "pos": "noun",
+    "frequencyRank": 800,
+    "sublevel": "A1.2",
+    "translations": {
+      "en": [
+        "flat"
+      ],
+      "es": [
+        "piso"
+      ]
+    },
+    "example": {
+      "de": "Die Wohnung ist klein.",
+      "en": "The flat is small.",
+      "es": "El piso es pequeño."
+    }
+  }
+}

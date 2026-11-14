@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/common.schema.json",
+  "title": "Weg shared definitions",
+  "description": "Types reused by every other schema in this folder. Not a document type of its own.",
+  "$defs": {
+    "sublevelId": {
+      "description": "One of the 11 sublevels of the path, in order.",
+      "enum": ["A1.1", "A1.2", "A2.1", "A2.2", "B1.1", "B1.2", "B2.1", "B2.2", "B2.3", "C1.1", "C1.2"]
+    },
+    "cefrLevel": {
+      "enum": ["A1", "A2", "B1", "B2", "C1"]
+    },
+    "skill": {
+      "enum": ["speaking", "writing", "listening", "reading"]
+    },
+    "l1": {
+      "description": "A learner's first language. Weg explains in English or Spanish only.",
+      "enum": ["en", "es"]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "text": {
+      "description": "A non-empty string with no leading or trailing white space.",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^\\S(.|\\n)*\\S$|^\\S$"
+    },
+    "explanation": {
+      "description": "Text written for the learner in both explanation languages.",
+      "type": "object",
+      "properties": {
+        "en": { "$ref": "#/$defs/text" },
+        "es": { "$ref": "#/$defs/text" }
+      },
+      "required": ["en", "es"],
+      "additionalProperties": false
+    },
+    "example": {
+      "description": "A German sentence with its meaning in both explanation languages.",
+      "type": "object",
+      "properties": {
+        "de": { "$ref": "#/$defs/text" },
+        "en": { "$ref": "#/$defs/text" },
+        "es": { "$ref": "#/$defs/text" }
+      },
+      "required": ["de", "en", "es"],
+      "additionalProperties": false
+    },
+    "licence": {
+      "description": "The content licence allow-list from CLAUDE.md. 'original' means written for Weg and released under the repository licence.",
+      "enum": ["original", "CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "CC-BY-2.0-FR", "MIT", "Apache-2.0"]
+    },
+    "source": {
+      "description": "Where a piece of content came from. Required for anything not original, so attribution can be shown in the app.",
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/$defs/text" },
+        "licence": { "$ref": "#/$defs/licence" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "detail": {
+          "description": "Chapter, section, list name or sentence id inside the source.",
+          "$ref": "#/$defs/text"
+        }
+      },
+      "required": ["name", "licence"],
+      "additionalProperties": false
+    }
+  }
+}

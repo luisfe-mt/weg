@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/sublevel.schema.json",
+  "title": "Sublevel spec",
+  "description": "One file per sublevel in curriculum/, named <id>.json (curriculum/A2.2.json). It is the whole specification of that step of the path: what the learner can do at the end, the grammar in teaching order, the vocabulary band, themes, talk scenarios and the gate. The app reads these files as data; nothing about a sublevel is written in code.",
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "common.schema.json#/$defs/sublevelId" },
+    "order": { "description": "Position on the path, 1 (A1.1) to 11 (C1.2).", "type": "integer", "minimum": 1, "maximum": 11 },
+    "cefrLevel": { "$ref": "common.schema.json#/$defs/cefrLevel" },
+    "specVersion": {
+      "description": "Raised on every change that alters what is taught or tested, so stored progress can be reconciled.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "description": "draft: may be incomplete. validated: content-validator passed every check, including complete gate anchors.",
+      "enum": ["draft", "validated"]
+    },
+    "hoursBudget": {
+      "description": "Hours of work to finish the sublevel. A design assumption, recalibrated from real use.",
+      "type": "integer",
+      "minimum": 20,
+      "maximum": 200
+    },
+    "summary": { "$ref": "common.schema.json#/$defs/explanation" },
+    "canDo": {
+      "description": "What an international student in Germany can do at the end. Paraphrased from CEFR descriptors, never copied.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/slug" },
+          "skill": { "enum": ["speaking", "writing", "listening", "reading", "interaction"] },
+          "statement": { "$ref": "common.schema.json#/$defs/explanation" }
+        },
+        "required": ["id", "skill", "statement"],
+        "additionalProperties": false
+      },
+      "minItems": 8,
+      "maxItems": 15
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/slug" },
+          "title": {
+            "type": "object",
+            "properties": {
+              "de": { "$ref": "common.schema.json#/$defs/text" },
+              "en": { "$ref": "common.schema.json#/$defs/text" },
+              "es": { "$ref": "common.schema.json#/$defs/text" }
+            },
+            "required": ["de", "en", "es"],
+            "additionalProperties": false
+          },
+          "situations": {
+            "description": "Concrete situations the Generator may set texts in.",
+            "type": "array",
+            "items": { "$ref": "common.schema.json#/$defs/text" },
+            "minItems": 1
+          }
+        },
+        "required": ["id", "title", "situations"],
+        "additionalProperties": false
+      },
+      "minItems": 6,
+      "maxItems": 10
+    },
+    "grammar": {
+      "description": "In teaching order. No structure is used in examples, texts or drills before the point that teaches it.",
+      "type": "array",
+      "items": { "$ref": "grammar-point.schema.json" },
+      "minItems": 1
+    },
+    "vocabulary": {
+      "description": "The band of new lemmas for this sublevel, chosen by frequency and by the themes.",
+      "type": "array",
+      "items": { "$ref": "vocabulary-item.schema.json" },
+      "minItems": 1
+    },
+    "talkScenarios": {
+      "type": "array",
+      "items": { "$ref": "talk-scenario.schema.json" },
+      "minItems": 1
+    },
+    "gate": { "$ref": "gate-test.schema.json" },
+    "sources": {
+      "description": "Every source the spec draws on, for the attribution screen.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/source" }
+    },
+    "gaps": {
+      "description": "What the writer could not fill or verify. Must be empty for status validated.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/text" }
+    }
+  },
+  "required": [
+    "id",
+    "order",
+    "cefrLevel",
+    "specVersion",
+    "status",
+    "hoursBudget",
+    "canDo",
+    "themes",
+    "grammar",
+    "vocabulary",
+    "talkScenarios",
+    "gate",
+    "sources",
+    "gaps"
+  ],
+  "additionalProperties": false,
+  "if": { "properties": { "status": { "const": "validated" } }, "required": ["status"] },
+  "then": { "properties": { "gaps": { "maxItems": 0 } } }
+}

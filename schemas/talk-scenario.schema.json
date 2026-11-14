@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/talk-scenario.schema.json",
+  "title": "Talk scenario",
+  "description": "A role-play for the Talk screen. The same file drives the app (the scenario card and the Partner's brief) and the Partner eval (scripted learner turns with the behaviour expected in reply).",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^ts-[a-z0-9]+(-[a-z0-9]+)*$" },
+    "sublevel": { "$ref": "common.schema.json#/$defs/sublevelId" },
+    "theme": { "$ref": "common.schema.json#/$defs/slug" },
+    "title": {
+      "description": "The line on the scenario card: 'Call your landlord about the heating'.",
+      "$ref": "common.schema.json#/$defs/explanation"
+    },
+    "situation": {
+      "description": "What the learner is told before starting: where they are, who they talk to, what has happened.",
+      "$ref": "common.schema.json#/$defs/explanation"
+    },
+    "learnerRole": { "$ref": "common.schema.json#/$defs/text" },
+    "partnerRole": {
+      "description": "Who the AI plays, in German: 'Herr Krause, Vermieter, freundlich aber in Eile'.",
+      "$ref": "common.schema.json#/$defs/text"
+    },
+    "register": { "enum": ["du", "Sie"] },
+    "goals": {
+      "description": "What the learner must get done. The conversation ends when all are met or the turn limit is reached.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/explanation" },
+      "minItems": 1,
+      "maxItems": 5
+    },
+    "partnerOpening": {
+      "description": "The Partner's first line in German, at the sublevel's level.",
+      "$ref": "common.schema.json#/$defs/text"
+    },
+    "partnerFacts": {
+      "description": "Everything the Partner may assert about the situation. It must not invent facts beyond these, least of all about German law or offices.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/text" }
+    },
+    "targetGrammar": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^g-[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    },
+    "usefulPhrases": {
+      "description": "Shown to the learner on request, not before.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/example" }
+    },
+    "limits": {
+      "type": "object",
+      "properties": {
+        "maxPartnerWordsPerTurn": { "type": "integer", "minimum": 5, "maximum": 80 },
+        "maxTurns": { "type": "integer", "minimum": 4, "maximum": 30 }
+      },
+      "required": ["maxPartnerWordsPerTurn", "maxTurns"],
+      "additionalProperties": false
+    },
+    "expectedPartnerBehaviour": {
+      "description": "Checkable statements about what a good Partner does in this scenario.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/text" },
+      "minItems": 3
+    },
+    "failureExamples": {
+      "description": "Partner turns that break the rules, each with the rule it breaks.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "partnerTurn": { "$ref": "common.schema.json#/$defs/text" },
+          "breaks": {
+            "enum": [
+              "left-role",
+              "above-level",
+              "too-long",
+              "switched-language",
+              "corrected-mid-conversation",
+              "invented-facts",
+              "ignored-slow-down"
+            ]
+          },
+          "why": { "$ref": "common.schema.json#/$defs/text" }
+        },
+        "required": ["partnerTurn", "breaks", "why"],
+        "additionalProperties": false
+      },
+      "minItems": 2
+    },
+    "script": {
+      "description": "Learner turns fed to the Partner during an eval run, in order. Some contain errors or requests on purpose.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "learner": { "$ref": "common.schema.json#/$defs/text" },
+          "expect": {
+            "description": "What the Partner's reply to this turn must do or avoid.",
+            "$ref": "common.schema.json#/$defs/text"
+          }
+        },
+        "required": ["learner", "expect"],
+        "additionalProperties": false
+      },
+      "minItems": 3
+    }
+  },
+  "required": [
+    "id",
+    "sublevel",
+    "title",
+    "situation",
+    "learnerRole",
+    "partnerRole",
+    "register",
+    "goals",
+    "partnerOpening",
+    "limits",
+    "expectedPartnerBehaviour",
+    "failureExamples",
+    "script"
+  ],
+  "additionalProperties": false
+}

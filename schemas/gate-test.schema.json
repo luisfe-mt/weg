@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/gate-test.schema.json",
+  "title": "Gate test",
+  "description": "The exam-format test that ends a sublevel: tasks, the rubrics they are scored on, and anchored sample answers per score band. Results are practice scores, never a certificate. Three checks are beyond JSON Schema and belong to content-validator: every rubricId and criterion id resolves; every band of a productive task's rubric has an anchor entry before the sublevel is marked validated; criterion weights of a rubric sum to 1.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^gate-(a1|a2|b1|b2|c1)-[1-3]$" },
+    "sublevel": { "$ref": "common.schema.json#/$defs/sublevelId" },
+    "kind": {
+      "description": "mock-exam at B1.2, B2.3 and C1.2: a full mock with an exam-readiness verdict.",
+      "enum": ["gate", "mock-exam"]
+    },
+    "modelledOn": {
+      "description": "The public exam format the tasks imitate. Task types are imitated; no exam material is copied.",
+      "type": "array",
+      "items": { "enum": ["goethe", "telc"] },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "unlockAtHoursFraction": {
+      "description": "Share of the sublevel's hours budget that must be logged before the gate opens.",
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 1,
+      "default": 0.9
+    },
+    "passRule": {
+      "type": "object",
+      "properties": {
+        "minTotalPercent": { "type": "integer", "minimum": 50, "maximum": 100 },
+        "minPerSkillPercent": {
+          "description": "A learner fails if any tested skill is below this, whatever the total.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "required": ["minTotalPercent", "minPerSkillPercent"],
+      "additionalProperties": false
+    },
+    "rubrics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/rubric" },
+      "minItems": 1
+    },
+    "tasks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/task" },
+      "minItems": 2
+    }
+  },
+  "required": ["id", "sublevel", "kind", "modelledOn", "unlockAtHoursFraction", "passRule", "rubrics", "tasks"],
+  "additionalProperties": false,
+  "$defs": {
+    "rubric": {
+      "description": "Scores a speaking or writing task. The Examiner scores each criterion separately, with a reason.",
+      "type": "object",
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/slug" },
+        "skill": { "enum": ["speaking", "writing"] },
+        "bands": {
+          "description": "The score scale, lowest first. 'passing' marks the bands that count as meeting the sublevel.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "band": { "type": "integer", "minimum": 0, "maximum": 5 },
+              "label": { "$ref": "common.schema.json#/$defs/text" },
+              "passing": { "type": "boolean" }
+            },
+            "required": ["band", "label", "passing"],
+            "additionalProperties": false
+          },
+          "minItems": 3,
+          "maxItems": 6
+        },
+        "criteria": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "common.schema.json#/$defs/slug" },
+              "name": { "$ref": "common.schema.json#/$defs/explanation" },
+              "weight": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+              "descriptors": {
+                "description": "What a response at each band looks like on this criterion. One entry per band of the rubric.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "band": { "type": "integer", "minimum": 0, "maximum": 5 },
+                    "descriptor": { "$ref": "common.schema.json#/$defs/text" }
+                  },
+                  "required": ["band", "descriptor"],
+                  "additionalProperties": false
+                },
+                "minItems": 3
+              }
+            },
+            "required": ["id", "name", "weight", "descriptors"],
+            "additionalProperties": false
+          },
+          "minItems": 2
+        }
+      },
+      "required": ["id", "skill", "bands", "criteria"],
+      "additionalProperties": false
+    },
+    "task": {
+      "type": "object",
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/slug" },
+        "skill": { "$ref": "common.schema.json#/$defs/skill" },
+        "format": {
+          "description": "The exam task type this imitates: 'sich vorstellen', 'gemeinsam etwas planen', 'halbformelle E-Mail', 'Richtig/Falsch zum Text'.",
+          "$ref": "common.schema.json#/$defs/text"
+        },
+        "instructions": {
+          "description": "What the learner reads, in German, as on the exam paper.",
+          "$ref": "common.schema.json#/$defs/text"
+        },
+        "instructionsGloss": {
+          "description": "Shown only below B1, where exam instructions may be beyond the learner.",
+          "$ref": "common.schema.json#/$defs/explanation"
+        },
+        "minutes": { "type": "number", "exclusiveMinimum": 0 },
+        "points": { "description": "Share of the gate's total.", "type": "integer", "minimum": 1 },
+        "wordCount": {
+          "description": "Writing tasks only.",
+          "type": "object",
+          "properties": {
+            "min": { "type": "integer", "minimum": 10 },
+            "max": { "type": "integer", "minimum": 10 }
+          },
+          "required": ["min"],
+          "additionalProperties": false
+        },
+        "talkScenario": {
+          "description": "Speaking role-plays: id of the talk scenario the Partner plays.",
+          "type": "string",
+          "pattern": "^ts-[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "material": {
+          "description": "Reading and listening tasks: the text, or the script the TTS voice reads. Original text only.",
+          "type": "object",
+          "properties": {
+            "text": { "$ref": "common.schema.json#/$defs/text" },
+            "playsAllowed": { "description": "Listening only.", "type": "integer", "minimum": 1, "maximum": 2 }
+          },
+          "required": ["text"],
+          "additionalProperties": false
+        },
+        "items": {
+          "description": "Reading and listening tasks: questions with a fixed key, scored without AI.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "$ref": "common.schema.json#/$defs/slug" },
+              "question": { "$ref": "common.schema.json#/$defs/text" },
+              "type": { "enum": ["true-false", "multiple-choice", "matching", "short-answer"] },
+              "options": {
+                "type": "array",
+                "items": { "$ref": "common.schema.json#/$defs/text" },
+                "minItems": 2
+              },
+              "answer": {
+                "description": "The key. For short-answer, every accepted answer.",
+                "type": "array",
+                "items": { "$ref": "common.schema.json#/$defs/text" },
+                "minItems": 1
+              }
+            },
+            "required": ["id", "question", "type", "answer"],
+            "additionalProperties": false
+          },
+          "minItems": 3
+        },
+        "rubricId": {
+          "description": "Speaking and writing tasks: id of a rubric in this gate.",
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "anchors": {
+          "description": "Speaking and writing tasks: sample answers that fix what each band means. One entry per band, three samples each. The Examiner eval compares its scores with these.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "band": { "type": "integer", "minimum": 0, "maximum": 5 },
+              "samples": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "response": {
+                      "description": "The learner's text, or the transcript of what they said, errors included.",
+                      "$ref": "common.schema.json#/$defs/text"
+                    },
+                    "criterionBands": {
+                      "description": "Band per criterion id of the task's rubric.",
+                      "type": "object",
+                      "additionalProperties": { "type": "integer", "minimum": 0, "maximum": 5 },
+                      "minProperties": 2
+                    },
+                    "rationale": {
+                      "description": "Why this band, criterion by criterion.",
+                      "type": "string",
+                      "minLength": 40
+                    },
+                    "humanRated": {
+                      "description": "True once a human rater has confirmed the band.",
+                      "type": "boolean",
+                      "default": false
+                    }
+                  },
+                  "required": ["response", "criterionBands", "rationale"],
+                  "additionalProperties": false
+                },
+                "minItems": 3,
+                "maxItems": 3
+              }
+            },
+            "required": ["band", "samples"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["id", "skill", "format", "instructions", "minutes", "points"],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": { "skill": { "enum": ["speaking", "writing"] } },
+            "required": ["skill"]
+          },
+          "then": {
+            "required": ["rubricId"],
+            "properties": { "items": false, "material": false }
+          },
+          "else": {
+            "required": ["material", "items"],
+            "properties": { "rubricId": false, "anchors": false, "wordCount": false, "talkScenario": false }
+          }
+        },
+        {
+          "if": { "properties": { "skill": { "const": "writing" } }, "required": ["skill"] },
+          "then": { "required": ["wordCount"] }
+        }
+      ]
+    }
+  }
+}

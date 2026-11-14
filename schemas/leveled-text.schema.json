@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/leveled-text.schema.json",
+  "title": "Level-tagged text",
+  "description": "One line of gold/leveled_texts.jsonl: an original German text with the CEFR level it sits at and why. Used to test that the Generator writes at the level it was asked for.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^lt-(a1|a2|b1|b2|c1)-[0-9]{3}$" },
+    "level": { "$ref": "common.schema.json#/$defs/cefrLevel" },
+    "sublevel": {
+      "description": "Set when the text was written for one half of a level.",
+      "$ref": "common.schema.json#/$defs/sublevelId"
+    },
+    "title": { "$ref": "common.schema.json#/$defs/text" },
+    "textType": {
+      "enum": ["dialogue", "email", "message", "notice", "narrative", "description", "article", "opinion", "report", "formal-letter"]
+    },
+    "theme": { "$ref": "common.schema.json#/$defs/slug" },
+    "text": { "type": "string", "minLength": 80 },
+    "wordCount": { "type": "integer", "minimum": 15 },
+    "reasoning": {
+      "description": "Why this level and not the one below or above: sentence length, clause types, tenses, vocabulary range.",
+      "type": "string",
+      "minLength": 40
+    },
+    "features": {
+      "description": "Ids of the hardest grammar points the text uses.",
+      "type": "array",
+      "items": { "type": "string", "pattern": "^g-[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    },
+    "licence": {
+      "description": "Gold texts are written for Weg; nothing is copied.",
+      "const": "original"
+    }
+  },
+  "required": ["id", "level", "title", "textType", "text", "wordCount", "reasoning", "licence"],
+  "additionalProperties": false
+}

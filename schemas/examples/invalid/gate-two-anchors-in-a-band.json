@@ -1,0 +1,265 @@
+{
+  "schema": "gate-test",
+  "why": "each band needs exactly three anchored samples",
+  "data": {
+    "id": "gate-a2-2",
+    "sublevel": "A2.2",
+    "kind": "gate",
+    "modelledOn": [
+      "goethe",
+      "telc"
+    ],
+    "unlockAtHoursFraction": 0.9,
+    "passRule": {
+      "minTotalPercent": 60,
+      "minPerSkillPercent": 50
+    },
+    "rubrics": [
+      {
+        "id": "writing-a2",
+        "skill": "writing",
+        "bands": [
+          {
+            "band": 1,
+            "label": "Not yet A2.2",
+            "passing": false
+          },
+          {
+            "band": 2,
+            "label": "A2.2 reached",
+            "passing": true
+          },
+          {
+            "band": 3,
+            "label": "Secure A2.2",
+            "passing": true
+          }
+        ],
+        "criteria": [
+          {
+            "id": "task",
+            "name": {
+              "en": "Task fulfilment",
+              "es": "Cumplimiento de la tarea"
+            },
+            "weight": 0.5,
+            "descriptors": [
+              {
+                "band": 1,
+                "descriptor": "Covers at most one of the three content points, or the reader cannot tell what is wanted."
+              },
+              {
+                "band": 2,
+                "descriptor": "Covers at least two content points clearly; greeting and closing are present."
+              },
+              {
+                "band": 3,
+                "descriptor": "Covers all three content points clearly, with a fitting greeting, closing and polite register."
+              }
+            ]
+          },
+          {
+            "id": "language",
+            "name": {
+              "en": "Language",
+              "es": "Lengua"
+            },
+            "weight": 0.5,
+            "descriptors": [
+              {
+                "band": 1,
+                "descriptor": "Errors in basic structures often block understanding."
+              },
+              {
+                "band": 2,
+                "descriptor": "Simple sentences are mostly correct; errors in case or word order occur but the message stays clear."
+              },
+              {
+                "band": 3,
+                "descriptor": "Simple sentences are correct; subordinate clauses are attempted and mostly right; errors are rare slips."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "speaking-a2",
+        "skill": "speaking",
+        "bands": [
+          {
+            "band": 1,
+            "label": "Not yet A2.2",
+            "passing": false
+          },
+          {
+            "band": 2,
+            "label": "A2.2 reached",
+            "passing": true
+          },
+          {
+            "band": 3,
+            "label": "Secure A2.2",
+            "passing": true
+          }
+        ],
+        "criteria": [
+          {
+            "id": "task",
+            "name": {
+              "en": "Task fulfilment",
+              "es": "Cumplimiento de la tarea"
+            },
+            "weight": 0.4,
+            "descriptors": [
+              {
+                "band": 1,
+                "descriptor": "Does not get the problem across, or reaches no arrangement."
+              },
+              {
+                "band": 2,
+                "descriptor": "States the problem and reaches an arrangement, with help from the partner."
+              },
+              {
+                "band": 3,
+                "descriptor": "States the problem, answers questions and reaches an arrangement without help."
+              }
+            ]
+          },
+          {
+            "id": "language",
+            "name": {
+              "en": "Language",
+              "es": "Lengua"
+            },
+            "weight": 0.4,
+            "descriptors": [
+              {
+                "band": 1,
+                "descriptor": "Isolated words and memorised phrases; errors often block understanding."
+              },
+              {
+                "band": 2,
+                "descriptor": "Short sentences with frequent errors that seldom block understanding."
+              },
+              {
+                "band": 3,
+                "descriptor": "Connected sentences, some with weil or dass; errors do not block understanding."
+              }
+            ]
+          },
+          {
+            "id": "pronunciation",
+            "name": {
+              "en": "Pronunciation",
+              "es": "Pronunciación"
+            },
+            "weight": 0.2,
+            "descriptors": [
+              {
+                "band": 1,
+                "descriptor": "The listener often has to guess words."
+              },
+              {
+                "band": 2,
+                "descriptor": "Understandable with some effort; a clear accent."
+              },
+              {
+                "band": 3,
+                "descriptor": "Understandable without effort, whatever the accent."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "id": "sprechen-problem-loesen",
+        "skill": "speaking",
+        "format": "Rollenspiel: ein Problem am Telefon lösen",
+        "instructions": "Ihre Heizung funktioniert seit drei Tagen nicht. Rufen Sie Ihren Vermieter an. Sagen Sie, was das Problem ist, und vereinbaren Sie einen Termin.",
+        "instructionsGloss": {
+          "en": "Your heating has not worked for three days. Phone your landlord, say what the problem is and agree an appointment.",
+          "es": "Tu calefacción no funciona desde hace tres días. Llama a tu casero, di cuál es el problema y acuerda una cita."
+        },
+        "minutes": 4,
+        "points": 40,
+        "talkScenario": "ts-vermieter-heizung",
+        "rubricId": "speaking-a2"
+      },
+      {
+        "id": "schreiben-beschwerde",
+        "skill": "writing",
+        "format": "Halbformelle E-Mail: Beschwerde",
+        "instructions": "Ihre Heizung funktioniert seit drei Tagen nicht. Schreiben Sie eine E-Mail an Ihren Vermieter, Herrn Krause. Schreiben Sie: Was ist das Problem? Seit wann? Was soll Herr Krause tun? Schreiben Sie 40 bis 60 Wörter.",
+        "minutes": 15,
+        "points": 30,
+        "wordCount": {
+          "min": 40,
+          "max": 60
+        },
+        "rubricId": "writing-a2",
+        "anchors": [
+          {
+            "band": 2,
+            "samples": [
+              {
+                "response": "Sehr geehrter Herr Krause, ich schreibe Ihnen, weil meine Heizung ist kaputt. Seit drei Tagen ist es in der Wohnung sehr kalt. Ich habe schon den Hausmeister angerufen, aber er hat keine Zeit. Können Sie bitte einen Techniker schicken? Ich bin morgen den ganzen Tag zu Hause. Mit freundlichen Grüßen, Ana Torres",
+                "criterionBands": {
+                  "task": 3,
+                  "language": 2
+                },
+                "rationale": "Task: all three points and a fitting frame, band 3. Language: simple sentences are right, but the one weil-clause keeps the verb in second position, so band 2. Overall band 2."
+              },
+              {
+                "response": "Sehr geehrter Herr Krause, meine Heizung funktioniert seit Montag nicht. In meinem Zimmer ist es kalt und ich kann nicht gut lernen. Bitte schicken Sie schnell ein Handwerker, weil ich nächste Woche Prüfungen habe. Wann kann er kommen? Vielen Dank für Ihre Hilfe. Mit freundlichen Grüßen, Daniel Reyes",
+                "criterionBands": {
+                  "task": 3,
+                  "language": 2
+                },
+                "rationale": "Task: problem, since when and the request are all clear, band 3. Language: a correct weil-clause, but an accusative error in 'ein Handwerker' in a basic structure, so band 2. Overall band 2."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesen-aushang",
+        "skill": "reading",
+        "format": "Aushang lesen: richtig oder falsch",
+        "instructions": "Lesen Sie den Aushang. Sind die Aussagen richtig oder falsch?",
+        "minutes": 8,
+        "points": 30,
+        "material": {
+          "text": "Liebe Mieterinnen und Mieter,\nam Donnerstag, den 12. November, kommt die Firma Nordwärme und kontrolliert alle Heizungen im Haus. Die Techniker beginnen um 8 Uhr im Erdgeschoss. Bitte seien Sie zwischen 8 und 13 Uhr zu Hause oder geben Sie Ihren Schlüssel bei Frau Albers im ersten Stock ab. Wenn Ihre Heizung nicht richtig funktioniert, sagen Sie es bitte den Technikern. Die Kontrolle ist für Sie kostenlos.\nIhre Hausverwaltung"
+        },
+        "items": [
+          {
+            "id": "beginn",
+            "question": "Die Techniker beginnen im Erdgeschoss.",
+            "type": "true-false",
+            "answer": [
+              "richtig"
+            ]
+          },
+          {
+            "id": "zu-hause",
+            "question": "Alle Mieter müssen am Donnerstagvormittag zu Hause sein.",
+            "type": "true-false",
+            "answer": [
+              "falsch"
+            ]
+          },
+          {
+            "id": "kosten",
+            "question": "Die Mieter müssen für die Kontrolle nichts bezahlen.",
+            "type": "true-false",
+            "answer": [
+              "richtig"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

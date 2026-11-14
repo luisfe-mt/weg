@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/vocabulary-item.schema.json",
+  "title": "Vocabulary item",
+  "description": "One lemma in a sublevel's vocabulary band. It becomes SRS cards in both directions, and its lemma counts as known for the coverage check once the learner has it.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Stable across edits: SRS state refers to it. Form: v-<lemma slug>, plus a part-of-speech suffix when two entries share a lemma (v-sein-verb, v-sein-pronoun).",
+      "type": "string",
+      "pattern": "^v-[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "lemma": {
+      "description": "Dictionary form without article: 'Wohnung', 'anrufen', 'schnell'. Nouns are capitalised.",
+      "$ref": "common.schema.json#/$defs/text"
+    },
+    "pos": {
+      "enum": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "pronoun",
+        "article",
+        "preposition",
+        "conjunction",
+        "numeral",
+        "particle",
+        "interjection",
+        "phrase"
+      ]
+    },
+    "article": {
+      "description": "Nouns only. Plural-only nouns (die Eltern) take 'die' and pluralOnly true.",
+      "enum": ["der", "die", "das"]
+    },
+    "plural": {
+      "description": "Nouns only. The full plural form ('Wohnungen', 'Väter'), or null when the noun has no plural in normal use (das Obst).",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "pluralOnly": { "type": "boolean", "default": false },
+    "verb": {
+      "description": "Verbs only. Enough to build the forms taught up to B1.",
+      "type": "object",
+      "properties": {
+        "present3sg": { "description": "'ruft an', 'fährt'.", "$ref": "common.schema.json#/$defs/text" },
+        "praeteritum3sg": { "description": "'rief an', 'fuhr'.", "$ref": "common.schema.json#/$defs/text" },
+        "partizip2": { "description": "'angerufen', 'gefahren'.", "$ref": "common.schema.json#/$defs/text" },
+        "auxiliary": { "enum": ["haben", "sein", "haben/sein"] },
+        "separable": { "type": "boolean" },
+        "reflexive": { "type": "boolean", "default": false },
+        "governs": {
+          "description": "Case or preposition the verb requires when that must be learnt with it: 'Dat', 'auf + Akk'.",
+          "$ref": "common.schema.json#/$defs/text"
+        }
+      },
+      "required": ["present3sg", "partizip2", "auxiliary", "separable"],
+      "additionalProperties": false
+    },
+    "ipa": { "type": "string", "pattern": "^\\[.+\\]$|^/.+/$" },
+    "frequencyRank": {
+      "description": "Rank of the lemma in the frequency list named in frequencySource; 1 is the most frequent.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "frequencySource": { "$ref": "common.schema.json#/$defs/source" },
+    "sublevel": { "$ref": "common.schema.json#/$defs/sublevelId" },
+    "themes": {
+      "description": "Slugs of themes in the same sublevel spec.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/slug" },
+      "uniqueItems": true
+    },
+    "translations": {
+      "description": "Short glosses, most common meaning at this level first.",
+      "type": "object",
+      "properties": {
+        "en": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/text" }, "minItems": 1 },
+        "es": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/text" }, "minItems": 1 }
+      },
+      "required": ["en", "es"],
+      "additionalProperties": false
+    },
+    "example": {
+      "description": "A natural sentence that uses only grammar taught up to this item's sublevel.",
+      "$ref": "common.schema.json#/$defs/example"
+    },
+    "exampleSource": {
+      "description": "Omit when the example was written for Weg.",
+      "$ref": "common.schema.json#/$defs/source"
+    },
+    "notes": { "$ref": "common.schema.json#/$defs/explanation" }
+  },
+  "required": ["id", "lemma", "pos", "frequencyRank", "sublevel", "translations", "example"],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": { "properties": { "pos": { "const": "noun" } }, "required": ["pos"] },
+      "then": { "required": ["article", "plural"] },
+      "else": {
+        "properties": { "article": false, "plural": false, "pluralOnly": false }
+      }
+    },
+    {
+      "if": { "properties": { "pos": { "const": "verb" } }, "required": ["pos"] },
+      "then": { "required": ["verb"] },
+      "else": { "properties": { "verb": false } }
+    },
+    {
+      "if": { "properties": { "pluralOnly": { "const": true } }, "required": ["pluralOnly"] },
+      "then": { "properties": { "article": { "const": "die" } } }
+    }
+  ]
+}
