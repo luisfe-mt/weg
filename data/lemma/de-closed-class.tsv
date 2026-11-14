@@ -1,0 +1,37 @@
+# Articles, pronouns and determiners: base word, then its forms.
+# Written by hand for Weg (original work, MIT like the code). These override
+# Wiktionary, whose pronoun tables link every person to every other.
+# A form listed here belongs to that base word only.
+der	der die das den dem des dessen deren denen derer
+ein	ein eine einen einem einer eines
+kein	kein keine keinen keinem keiner keines
+ich	ich mich mir
+du	du dich dir
+er	er ihn ihm
+sie	sie ihnen
+es	es
+wir	wir uns
+ihr	ihr euch ihre ihren ihrem ihrer ihres Ihr Ihre Ihren Ihrem Ihrer Ihres
+Sie	Sie Ihnen
+sich	sich
+man	man
+mein	mein meine meinen meinem meiner meines
+dein	dein deine deinen deinem deiner deines
+sein	seine seinen seinem seiner seines
+unser	unser unsere unseren unserem unserer unseres unsre unsren unsrem unsrer
+euer	euer eure euren eurem eurer eures
+dieser	dieser diese dieses diesen diesem dies
+jener	jener jene jenes jenen jenem
+jeder	jeder jede jedes jeden jedem
+welcher	welcher welche welches welchen welchem welch
+solcher	solcher solche solches solchen solchem solch
+mancher	mancher manche manches manchen manchem manch
+all	all alle allen aller alles allem
+beide	beide beiden beider beides
+einige	einige einigen einiger einiges einigem
+mehrere	mehrere mehreren mehrerer
+viel	viel viele vielen vielem vieler vieles
+wenig	wenig wenige wenigen wenigem weniger weniges
+andere	andere anderen anderem anderer anderes andre andren andrem andrer andres
+wer	wer wen wem wessen
+was	was

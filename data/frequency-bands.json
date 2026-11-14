@@ -1,0 +1,13 @@
+{
+  "description": "Frequency floor per sublevel, checked by scripts/check-coverage.mjs. By the end of a sublevel, the vocabulary taught so far must hold at least minShare of the topRank most frequent lemmas of data/lemma/de-frequency.tsv. The rest of a band is theme words. minTextCoverage is the north star's 95% rule applied to the German text of the spec itself.",
+  "minShare": 0.8,
+  "minTextCoverage": 0.95,
+  "topRank": {
+    "A1.1": 200,
+    "A1.2": 400,
+    "A2.1": 700,
+    "A2.2": 1000,
+    "B1.1": 1400,
+    "B1.2": 1800
+  }
+}

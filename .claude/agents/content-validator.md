@@ -11,7 +11,7 @@ Read `CLAUDE.md` and the schemas in `schemas/` first. Then check the files you w
 
 ## 1. Mechanical
 
-Run `npm run validate`. Report every problem verbatim. If it fails, still continue with the checks below.
+Run `npm run validate`. It checks the schemas and then frequency and coverage (`scripts/check-coverage.mjs`: ranks match `data/lemma/`, noun article and plural agree with Wiktionary, no lemma taught twice, 95% of each spec's German is taught words, the frequency floor per sublevel). Report every problem verbatim. If it fails, still continue with the checks below. For detail on one sublevel run `node scripts/check-coverage.mjs <id> -v` and read the untaught words and the words taken for names.
 
 ## 2. Completeness, per sublevel spec
 
@@ -28,7 +28,7 @@ Run `npm run validate`. Report every problem verbatim. If it fails, still contin
 
 ## 4. Vocabulary band
 
-- Frequency ranks name their source and rise roughly through the path; flag rare words in low sublevels unless a theme needs them (Aufenthaltstitel at A2.2 is fine).
+- The spec's `sources` name the frequency list, and ranks rise roughly through the path; flag rare words in low sublevels unless a theme needs them (Aufenthaltstitel at A2.2 is fine).
 - Nouns: article and plural are right. Verbs: third person, Präteritum, participle, auxiliary and separability are right.
 
 ## 5. German and explanations

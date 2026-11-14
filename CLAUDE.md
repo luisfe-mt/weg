@@ -25,6 +25,7 @@ Weg is a free Windows desktop app that takes an international student in Germany
 
 ```
 curriculum/        one JSON file per sublevel, <id>.json
+data/              built data tables: lemma/ (word form to base word, lemma frequency; CC BY-SA, see ADR 0007)
 gold/              gold test bank (JSON Lines); never shipped in the app
 prompts/           one Markdown file per AI role, versioned
 evals/             eval runner, model list, scoreboard
@@ -51,7 +52,9 @@ Dependencies point one way: screens → engine → ports ← adapters. The engin
 | `npm run tauri dev` | Run the app with hot reload |
 | `npm run check` | Lint, typecheck, tests and content validation: run before every commit |
 | `npm run lint` · `npm run typecheck` · `npm test` | The parts of `check`, one at a time |
-| `npm run validate` | Validate schemas, fixtures, `curriculum/` and `gold/` |
+| `npm run validate` | Validate schemas, fixtures, `curriculum/` and `gold/`, then the frequency and coverage checks |
+| `npm run lemma -- <word …>` | Look up base word, frequency rank, gender and plural in `data/lemma/` |
+| `npm run build:lemma` | Rebuild `data/lemma/` from the pinned Wiktionary and Leipzig downloads in `.cache/` |
 | `npm run test:watch` | Vitest in watch mode |
 | `cargo test --manifest-path src-tauri/Cargo.toml` | Rust tests |
 | `cargo clippy --manifest-path src-tauri/Cargo.toml -- -D warnings` | Rust lint |
@@ -99,7 +102,8 @@ Specific sources:
 - **GPL projects (LinguaCafe, Lute):** study the idea, never read code into this repo.
 - **Deutsch im Blick** (CC BY 4.0): adapt with attribution; check each video's own licence.
 - **Tatoeba:** sentence text is CC BY 2.0 FR; audio is licensed per clip, so check each one.
-- **Wiktionary / kaikki.org** (CC BY-SA): build-time slices only, attributed, stored as data files apart from code.
+- **Wiktionary / kaikki.org** (CC BY-SA): build-time slices only, attributed, stored as data files apart from code (`data/lemma/`, ADR 0007).
+- **Leipzig Corpora Collection** (CC BY 4.0): counts only, through `data/lemma/de-frequency.tsv`; corpus sentences are never copied into content.
 - Every non-original content item records `source` and `licence` in its JSON.
 
 ## Security rules
