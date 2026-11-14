@@ -147,3 +147,22 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Tauri / Rust
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/worktrees/
+
+# Optional model downloads never belong in git
+models/
+*.onnx
