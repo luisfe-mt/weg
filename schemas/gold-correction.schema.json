@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/gold-correction.schema.json",
+  "title": "Gold correction item",
+  "description": "One line of gold/corrections.jsonl: a learner sentence with its expert correction. The Coach eval measures precision against these, so the bank also holds sentences that are already correct (errors is empty) and sentences whose only issue is style, which the Coach must not flag.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^gc-[0-9]{4}$" },
+    "level": {
+      "description": "Level of the learner who would write this.",
+      "enum": ["A1", "A2", "B1", "B2"]
+    },
+    "l1": {
+      "description": "Whose typical error this is.",
+      "$ref": "common.schema.json#/$defs/l1"
+    },
+    "learnerSentence": { "$ref": "common.schema.json#/$defs/text" },
+    "corrected": {
+      "description": "The minimal correct version: only what is wrong changes. Identical to learnerSentence when errors is empty.",
+      "$ref": "common.schema.json#/$defs/text"
+    },
+    "errors": {
+      "description": "One entry per edit, in sentence order. Empty for a correct sentence.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tag": { "$ref": "#/$defs/errorTag" },
+          "wrong": {
+            "description": "The exact substring of learnerSentence that is wrong. Empty when a word is missing.",
+            "type": "string"
+          },
+          "right": {
+            "description": "What replaces it in corrected. Empty when a word must be removed.",
+            "type": "string"
+          },
+          "rule": {
+            "description": "One line naming the rule, as the Coach should after its hint.",
+            "$ref": "common.schema.json#/$defs/explanation"
+          },
+          "grammarPoint": {
+            "description": "Id of the grammar point that teaches this, when there is one.",
+            "type": "string",
+            "pattern": "^g-[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        },
+        "required": ["tag", "wrong", "right", "rule"],
+        "additionalProperties": false
+      }
+    },
+    "mustNotFlag": {
+      "description": "Substrings that look odd but are acceptable German. Flagging one counts against precision.",
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/text" }
+    },
+    "needsHumanCheck": {
+      "description": "True for the items sent to a German teacher for spot-checking.",
+      "type": "boolean"
+    },
+    "humanCheck": {
+      "type": "object",
+      "properties": {
+        "checkedOn": { "type": "string", "format": "date" },
+        "verdict": { "enum": ["confirmed", "changed"] },
+        "note": { "type": "string" }
+      },
+      "required": ["checkedOn", "verdict"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["id", "level", "l1", "learnerSentence", "corrected", "errors", "needsHumanCheck"],
+  "additionalProperties": false,
+  "$defs": {
+    "errorTag": {
+      "description": "case: wrong case form. gender: wrong noun gender. word-order: verb or element position. verb-form: conjugation, tense form, auxiliary, participle. spelling: includes capitalisation and umlauts. lexical: wrong word or preposition, false friend. punctuation: commas. style: acceptable German that could be better; never an error.",
+      "enum": ["case", "gender", "word-order", "verb-form", "spelling", "lexical", "punctuation", "style"]
+    }
+  }
+}

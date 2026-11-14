@@ -1,0 +1,14 @@
+{
+  "schema": "leveled-text",
+  "why": "gold texts must be original",
+  "data": {
+    "id": "lt-a1-001",
+    "level": "A1",
+    "title": "Ich bin Ana",
+    "textType": "description",
+    "text": "Hallo! Ich bin Ana. Ich komme aus Kolumbien und wohne jetzt in Bremen. Ich studiere Informatik und koche gern.",
+    "wordCount": 19,
+    "reasoning": "Only short main clauses in the present tense.",
+    "licence": "CC-BY-4.0"
+  }
+}

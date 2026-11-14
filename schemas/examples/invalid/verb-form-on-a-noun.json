@@ -1,0 +1,32 @@
+{
+  "schema": "vocabulary-item",
+  "why": "only verbs carry verb forms",
+  "data": {
+    "id": "v-wohnung",
+    "lemma": "Wohnung",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Wohnungen",
+    "verb": {
+      "present3sg": "wohnt",
+      "partizip2": "gewohnt",
+      "auxiliary": "haben",
+      "separable": false
+    },
+    "frequencyRank": 800,
+    "sublevel": "A1.2",
+    "translations": {
+      "en": [
+        "flat"
+      ],
+      "es": [
+        "piso"
+      ]
+    },
+    "example": {
+      "de": "Die Wohnung ist klein.",
+      "en": "The flat is small.",
+      "es": "El piso es pequeño."
+    }
+  }
+}

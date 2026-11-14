@@ -1,0 +1,474 @@
+{
+  "$schema": "../sublevel.schema.json",
+  "id": "A2.2",
+  "order": 4,
+  "cefrLevel": "A2",
+  "specVersion": 1,
+  "status": "draft",
+  "hoursBudget": 100,
+  "summary": {
+    "en": "Schema fixture, not curriculum. It shows the shape of a sublevel spec with one grammar point, three words, one scenario and a cut-down gate.",
+    "es": "Ejemplo para probar el esquema, no es contenido del curso. Muestra la forma de una especificación con un punto de gramática, tres palabras, un escenario y una prueba reducida."
+  },
+  "canDo": [
+    {
+      "id": "report-problem-landlord",
+      "skill": "interaction",
+      "statement": {
+        "en": "I can phone my landlord, say what is broken and since when, and agree a time for the repair.",
+        "es": "Puedo llamar a mi casero, decir qué está roto y desde cuándo, y acordar una hora para la reparación."
+      }
+    },
+    {
+      "id": "give-reasons",
+      "skill": "speaking",
+      "statement": {
+        "en": "I can give a simple reason for what I do or want.",
+        "es": "Puedo dar una razón sencilla de lo que hago o quiero."
+      }
+    },
+    {
+      "id": "write-complaint-email",
+      "skill": "writing",
+      "statement": {
+        "en": "I can write a short, polite email that describes a problem and asks for something to be done.",
+        "es": "Puedo escribir un correo breve y cortés que describe un problema y pide una solución."
+      }
+    },
+    {
+      "id": "read-house-notice",
+      "skill": "reading",
+      "statement": {
+        "en": "I can find dates, times and what I have to do in a notice from the building management.",
+        "es": "Puedo encontrar fechas, horas y lo que tengo que hacer en un aviso de la administración del edificio."
+      }
+    },
+    {
+      "id": "ask-to-slow-down",
+      "skill": "interaction",
+      "statement": {
+        "en": "I can ask someone to speak more slowly or to repeat, and carry on.",
+        "es": "Puedo pedir a alguien que hable más despacio o que repita, y seguir la conversación."
+      }
+    },
+    {
+      "id": "make-appointment-office",
+      "skill": "interaction",
+      "statement": {
+        "en": "I can make or move an appointment at an office by phone.",
+        "es": "Puedo pedir o cambiar una cita en una oficina por teléfono."
+      }
+    },
+    {
+      "id": "understand-phone-message",
+      "skill": "listening",
+      "statement": {
+        "en": "I can understand who called, why, and what I should do from a short voicemail.",
+        "es": "Puedo entender quién llamó, por qué y qué debo hacer en un mensaje de voz breve."
+      }
+    },
+    {
+      "id": "compare-options",
+      "skill": "speaking",
+      "statement": {
+        "en": "I can compare two flats or two offers and say which I prefer.",
+        "es": "Puedo comparar dos pisos o dos ofertas y decir cuál prefiero."
+      }
+    }
+  ],
+  "themes": [
+    {
+      "id": "wohnen-und-vermieter",
+      "title": { "de": "Wohnen und Vermieter", "en": "Housing and landlords", "es": "Vivienda y caseros" },
+      "situations": ["Die Heizung funktioniert nicht.", "Ein Brief von der Hausverwaltung."]
+    },
+    {
+      "id": "auslaenderbehoerde",
+      "title": { "de": "Ausländerbehörde", "en": "Immigration office", "es": "Oficina de extranjería" },
+      "situations": ["Einen Termin vereinbaren.", "Ein Dokument fehlt."]
+    },
+    {
+      "id": "bank-und-geld",
+      "title": { "de": "Bank und Geld", "en": "Bank and money", "es": "Banco y dinero" },
+      "situations": ["Ein Konto eröffnen.", "Die Karte ist weg."]
+    },
+    {
+      "id": "gesundheit",
+      "title": { "de": "Gesundheit", "en": "Health", "es": "Salud" },
+      "situations": ["Einen Arzttermin verschieben."]
+    },
+    {
+      "id": "studium-und-nebenjob",
+      "title": { "de": "Studium und Nebenjob", "en": "Studies and part-time work", "es": "Estudios y trabajo a tiempo parcial" },
+      "situations": ["Mit der Chefin über die Arbeitszeiten sprechen."]
+    },
+    {
+      "id": "einkaufen-und-reklamieren",
+      "title": { "de": "Einkaufen und Reklamieren", "en": "Shopping and complaints", "es": "Compras y reclamaciones" },
+      "situations": ["Ein Paket ist nicht angekommen."]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g-weil-nebensatz",
+      "sublevel": "A2.2",
+      "order": 1,
+      "title": {
+        "de": "Nebensätze mit weil",
+        "en": "Subordinate clauses with weil",
+        "es": "Oraciones subordinadas con weil"
+      },
+      "explanation": {
+        "en": "'weil' gives a reason and starts a subordinate clause. In a subordinate clause the conjugated verb goes to the very end: 'Ich bleibe zu Hause, weil ich krank bin.' A comma always separates the two clauses. With a separable verb the two parts join again at the end ('weil er mich anruft'); with a modal verb or the Perfekt the conjugated verb comes last, after the infinitive or participle ('weil ich arbeiten muss', 'weil ich gearbeitet habe'). If the weil-clause comes first, it takes position one, so the main clause starts with its verb: 'Weil ich krank bin, bleibe ich zu Hause.'",
+        "es": "'weil' expresa una causa e introduce una oración subordinada. En la subordinada el verbo conjugado va al final: 'Ich bleibe zu Hause, weil ich krank bin.' Las dos oraciones se separan siempre con una coma. Con un verbo separable las dos partes se vuelven a unir al final ('weil er mich anruft'); con un verbo modal o con el Perfekt, el verbo conjugado va el último, después del infinitivo o del participio ('weil ich arbeiten muss', 'weil ich gearbeitet habe'). Si la oración con weil va primero, ocupa la primera posición y la principal empieza con su verbo: 'Weil ich krank bin, bleibe ich zu Hause.'"
+      },
+      "examples": [
+        {
+          "de": "Ich rufe den Vermieter an, weil die Heizung kaputt ist.",
+          "en": "I am calling the landlord because the heating is broken.",
+          "es": "Llamo al casero porque la calefacción está rota."
+        },
+        {
+          "de": "Sie kommt heute nicht, weil sie arbeiten muss.",
+          "en": "She is not coming today because she has to work.",
+          "es": "Hoy no viene porque tiene que trabajar."
+        },
+        {
+          "de": "Weil es kalt ist, bleiben wir zu Hause.",
+          "en": "Because it is cold, we are staying at home.",
+          "es": "Como hace frío, nos quedamos en casa."
+        }
+      ],
+      "typicalErrors": [
+        {
+          "wrong": "Ich lerne Deutsch, weil ich will in Deutschland arbeiten.",
+          "correct": "Ich lerne Deutsch, weil ich in Deutschland arbeiten will.",
+          "l1": ["en", "es"],
+          "why": {
+            "en": "English keeps the same word order after 'because', so the verb stays in second position. After 'weil' the conjugated verb moves to the end.",
+            "es": "En español el orden no cambia después de 'porque', así que el verbo se queda en segunda posición. Después de 'weil' el verbo conjugado va al final."
+          }
+        }
+      ],
+      "errorTags": ["word-order"],
+      "drills": [
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Join the two sentences with weil.",
+            "es": "Une las dos frases con weil."
+          },
+          "prompt": "Ich rufe den Vermieter an. Die Heizung ist kaputt.",
+          "answers": ["Ich rufe den Vermieter an, weil die Heizung kaputt ist."]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-heizung",
+      "lemma": "Heizung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Heizungen",
+      "frequencyRank": 4200,
+      "sublevel": "A2.2",
+      "themes": ["wohnen-und-vermieter"],
+      "translations": { "en": ["heating", "radiator"], "es": ["calefacción"] },
+      "example": {
+        "de": "Die Heizung in meinem Zimmer ist kaputt.",
+        "en": "The heating in my room is broken.",
+        "es": "La calefacción de mi habitación está rota."
+      }
+    },
+    {
+      "id": "v-anrufen",
+      "lemma": "anrufen",
+      "pos": "verb",
+      "verb": {
+        "present3sg": "ruft an",
+        "praeteritum3sg": "rief an",
+        "partizip2": "angerufen",
+        "auxiliary": "haben",
+        "separable": true,
+        "governs": "Akk"
+      },
+      "frequencyRank": 1100,
+      "sublevel": "A2.2",
+      "translations": { "en": ["to call", "to phone"], "es": ["llamar por teléfono"] },
+      "example": {
+        "de": "Ich habe gestern den Vermieter angerufen.",
+        "en": "I called the landlord yesterday.",
+        "es": "Ayer llamé al casero."
+      },
+      "notes": {
+        "en": "Takes the accusative, with no preposition: 'Ich rufe dich an', not 'zu dir'.",
+        "es": "Va con acusativo y sin preposición: 'Ich rufe dich an', no 'zu dir'."
+      }
+    },
+    {
+      "id": "v-weil",
+      "lemma": "weil",
+      "pos": "conjunction",
+      "frequencyRank": 90,
+      "sublevel": "A2.2",
+      "translations": { "en": ["because"], "es": ["porque"] },
+      "example": {
+        "de": "Ich bin müde, weil ich wenig geschlafen habe.",
+        "en": "I am tired because I slept little.",
+        "es": "Estoy cansado porque he dormido poco."
+      }
+    }
+  ],
+  "talkScenarios": [
+    {
+      "id": "ts-vermieter-heizung",
+      "sublevel": "A2.2",
+      "theme": "wohnen-und-vermieter",
+      "title": {
+        "en": "Call your landlord about the heating",
+        "es": "Llama a tu casero por la calefacción"
+      },
+      "situation": {
+        "en": "It is November and the heating in your flat has not worked for three days. You phone your landlord, Mr Krause.",
+        "es": "Es noviembre y la calefacción de tu piso no funciona desde hace tres días. Llamas a tu casero, el señor Krause."
+      },
+      "learnerRole": "Mieterin oder Mieter im zweiten Stock",
+      "partnerRole": "Herr Krause, Vermieter, freundlich, aber in Eile",
+      "register": "Sie",
+      "goals": [
+        {
+          "en": "Say what the problem is and since when.",
+          "es": "Di cuál es el problema y desde cuándo."
+        },
+        {
+          "en": "Agree a day and time for the technician.",
+          "es": "Acuerda un día y una hora para el técnico."
+        }
+      ],
+      "partnerOpening": "Krause, guten Tag.",
+      "partnerFacts": [
+        "Der Techniker kann am Donnerstag zwischen 8 und 12 Uhr kommen.",
+        "Herr Krause ist diese Woche nicht im Haus.",
+        "Die Reparatur kostet die Mieterin oder den Mieter nichts."
+      ],
+      "targetGrammar": ["g-weil-nebensatz"],
+      "usefulPhrases": [
+        {
+          "de": "Ich rufe an, weil meine Heizung nicht funktioniert.",
+          "en": "I am calling because my heating does not work.",
+          "es": "Llamo porque mi calefacción no funciona."
+        }
+      ],
+      "limits": { "maxPartnerWordsPerTurn": 25, "maxTurns": 12 },
+      "expectedPartnerBehaviour": [
+        "Stays Herr Krause for the whole conversation and uses Sie.",
+        "Uses main clauses and the subordinate clauses taught up to A2.2, in turns of at most 25 words.",
+        "Asks since when the heating has not worked if the learner does not say.",
+        "Offers only the technician's slot given in partnerFacts.",
+        "Does not correct the learner's German during the call."
+      ],
+      "failureExamples": [
+        {
+          "partnerTurn": "Es heißt 'seit drei Tagen', nicht 'seit drei Tage'. Aber gut, wann sind Sie zu Hause?",
+          "breaks": "corrected-mid-conversation",
+          "why": "Feedback belongs to the Coach after the conversation, not to the Partner during it."
+        },
+        {
+          "partnerTurn": "Nach dem Gesetz dürfen Sie die Miete sofort um die Hälfte kürzen.",
+          "breaks": "invented-facts",
+          "why": "A legal claim that is not in partnerFacts and that a learner might act on."
+        },
+        {
+          "partnerTurn": "Sure, I can send someone tomorrow at ten.",
+          "breaks": "switched-language",
+          "why": "The learner did not ask for English, and tomorrow at ten is not in partnerFacts."
+        }
+      ],
+      "script": [
+        {
+          "learner": "Guten Tag, Herr Krause. Hier ist Ana Torres aus dem zweiten Stock. Meine Heizung funktioniert nicht.",
+          "expect": "Reacts to the problem and asks one short question, such as since when."
+        },
+        {
+          "learner": "Seit drei Tage. Es ist sehr kalt in meine Wohnung.",
+          "expect": "Carries on without correcting 'seit drei Tage' or 'in meine Wohnung', and moves towards an appointment."
+        },
+        {
+          "learner": "Entschuldigung, können Sie bitte langsamer sprechen?",
+          "expect": "Says the same thing again in shorter, simpler sentences, in German."
+        },
+        {
+          "learner": "Can you come tomorrow?",
+          "expect": "Stays in German and in role, and offers Thursday between 8 and 12."
+        }
+      ]
+    }
+  ],
+  "gate": {
+    "id": "gate-a2-2",
+    "sublevel": "A2.2",
+    "kind": "gate",
+    "modelledOn": ["goethe", "telc"],
+    "unlockAtHoursFraction": 0.9,
+    "passRule": { "minTotalPercent": 60, "minPerSkillPercent": 50 },
+    "rubrics": [
+      {
+        "id": "writing-a2",
+        "skill": "writing",
+        "bands": [
+          { "band": 1, "label": "Not yet A2.2", "passing": false },
+          { "band": 2, "label": "A2.2 reached", "passing": true },
+          { "band": 3, "label": "Secure A2.2", "passing": true }
+        ],
+        "criteria": [
+          {
+            "id": "task",
+            "name": { "en": "Task fulfilment", "es": "Cumplimiento de la tarea" },
+            "weight": 0.5,
+            "descriptors": [
+              { "band": 1, "descriptor": "Covers at most one of the three content points, or the reader cannot tell what is wanted." },
+              { "band": 2, "descriptor": "Covers at least two content points clearly; greeting and closing are present." },
+              { "band": 3, "descriptor": "Covers all three content points clearly, with a fitting greeting, closing and polite register." }
+            ]
+          },
+          {
+            "id": "language",
+            "name": { "en": "Language", "es": "Lengua" },
+            "weight": 0.5,
+            "descriptors": [
+              { "band": 1, "descriptor": "Errors in basic structures often block understanding." },
+              { "band": 2, "descriptor": "Simple sentences are mostly correct; errors in case or word order occur but the message stays clear." },
+              { "band": 3, "descriptor": "Simple sentences are correct; subordinate clauses are attempted and mostly right; errors are rare slips." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "speaking-a2",
+        "skill": "speaking",
+        "bands": [
+          { "band": 1, "label": "Not yet A2.2", "passing": false },
+          { "band": 2, "label": "A2.2 reached", "passing": true },
+          { "band": 3, "label": "Secure A2.2", "passing": true }
+        ],
+        "criteria": [
+          {
+            "id": "task",
+            "name": { "en": "Task fulfilment", "es": "Cumplimiento de la tarea" },
+            "weight": 0.4,
+            "descriptors": [
+              { "band": 1, "descriptor": "Does not get the problem across, or reaches no arrangement." },
+              { "band": 2, "descriptor": "States the problem and reaches an arrangement, with help from the partner." },
+              { "band": 3, "descriptor": "States the problem, answers questions and reaches an arrangement without help." }
+            ]
+          },
+          {
+            "id": "language",
+            "name": { "en": "Language", "es": "Lengua" },
+            "weight": 0.4,
+            "descriptors": [
+              { "band": 1, "descriptor": "Isolated words and memorised phrases; errors often block understanding." },
+              { "band": 2, "descriptor": "Short sentences with frequent errors that seldom block understanding." },
+              { "band": 3, "descriptor": "Connected sentences, some with weil or dass; errors do not block understanding." }
+            ]
+          },
+          {
+            "id": "pronunciation",
+            "name": { "en": "Pronunciation", "es": "Pronunciación" },
+            "weight": 0.2,
+            "descriptors": [
+              { "band": 1, "descriptor": "The listener often has to guess words." },
+              { "band": 2, "descriptor": "Understandable with some effort; a clear accent." },
+              { "band": 3, "descriptor": "Understandable without effort, whatever the accent." }
+            ]
+          }
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "id": "sprechen-problem-loesen",
+        "skill": "speaking",
+        "format": "Rollenspiel: ein Problem am Telefon lösen",
+        "instructions": "Ihre Heizung funktioniert seit drei Tagen nicht. Rufen Sie Ihren Vermieter an. Sagen Sie, was das Problem ist, und vereinbaren Sie einen Termin.",
+        "instructionsGloss": {
+          "en": "Your heating has not worked for three days. Phone your landlord, say what the problem is and agree an appointment.",
+          "es": "Tu calefacción no funciona desde hace tres días. Llama a tu casero, di cuál es el problema y acuerda una cita."
+        },
+        "minutes": 4,
+        "points": 40,
+        "talkScenario": "ts-vermieter-heizung",
+        "rubricId": "speaking-a2"
+      },
+      {
+        "id": "schreiben-beschwerde",
+        "skill": "writing",
+        "format": "Halbformelle E-Mail: Beschwerde",
+        "instructions": "Ihre Heizung funktioniert seit drei Tagen nicht. Schreiben Sie eine E-Mail an Ihren Vermieter, Herrn Krause. Schreiben Sie: Was ist das Problem? Seit wann? Was soll Herr Krause tun? Schreiben Sie 40 bis 60 Wörter.",
+        "minutes": 15,
+        "points": 30,
+        "wordCount": { "min": 40, "max": 60 },
+        "rubricId": "writing-a2",
+        "anchors": [
+          {
+            "band": 2,
+            "samples": [
+              {
+                "response": "Sehr geehrter Herr Krause, ich schreibe Ihnen, weil meine Heizung ist kaputt. Seit drei Tagen ist es in der Wohnung sehr kalt. Ich habe schon den Hausmeister angerufen, aber er hat keine Zeit. Können Sie bitte einen Techniker schicken? Ich bin morgen den ganzen Tag zu Hause. Mit freundlichen Grüßen, Ana Torres",
+                "criterionBands": { "task": 3, "language": 2 },
+                "rationale": "Task: all three points and a fitting frame, band 3. Language: simple sentences are right, but the one weil-clause keeps the verb in second position, so band 2. Overall band 2."
+              },
+              {
+                "response": "Sehr geehrter Herr Krause, meine Heizung funktioniert seit Montag nicht. In meinem Zimmer ist es kalt und ich kann nicht gut lernen. Bitte schicken Sie schnell ein Handwerker, weil ich nächste Woche Prüfungen habe. Wann kann er kommen? Vielen Dank für Ihre Hilfe. Mit freundlichen Grüßen, Daniel Reyes",
+                "criterionBands": { "task": 3, "language": 2 },
+                "rationale": "Task: problem, since when and the request are all clear, band 3. Language: a correct weil-clause, but an accusative error in 'ein Handwerker' in a basic structure, so band 2. Overall band 2."
+              },
+              {
+                "response": "Guten Tag Herr Krause, ich habe ein Problem mit der Heizung. Sie ist seit drei Tage kalt. Ich habe gestern Sie angerufen, aber Sie waren nicht da. Können Sie bitte morgen kommen oder einen Techniker schicken? Ich bin ab 14 Uhr zu Hause. Mit freundlichen Grüßen, Sofia Marín",
+                "criterionBands": { "task": 2, "language": 2 },
+                "rationale": "Task: all points are present but the greeting is less formal than the task asks, band 2. Language: a dative error after seit and a pronoun placed after the adverb; the message stays clear, band 2. Overall band 2."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesen-aushang",
+        "skill": "reading",
+        "format": "Aushang lesen: richtig oder falsch",
+        "instructions": "Lesen Sie den Aushang. Sind die Aussagen richtig oder falsch?",
+        "minutes": 8,
+        "points": 30,
+        "material": {
+          "text": "Liebe Mieterinnen und Mieter,\nam Donnerstag, den 12. November, kommt die Firma Nordwärme und kontrolliert alle Heizungen im Haus. Die Techniker beginnen um 8 Uhr im Erdgeschoss. Bitte seien Sie zwischen 8 und 13 Uhr zu Hause oder geben Sie Ihren Schlüssel bei Frau Albers im ersten Stock ab. Wenn Ihre Heizung nicht richtig funktioniert, sagen Sie es bitte den Technikern. Die Kontrolle ist für Sie kostenlos.\nIhre Hausverwaltung"
+        },
+        "items": [
+          {
+            "id": "beginn",
+            "question": "Die Techniker beginnen im Erdgeschoss.",
+            "type": "true-false",
+            "answer": ["richtig"]
+          },
+          {
+            "id": "zu-hause",
+            "question": "Alle Mieter müssen am Donnerstagvormittag zu Hause sein.",
+            "type": "true-false",
+            "answer": ["falsch"]
+          },
+          {
+            "id": "kosten",
+            "question": "Die Mieter müssen für die Kontrolle nichts bezahlen.",
+            "type": "true-false",
+            "answer": ["richtig"]
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "gaps": [
+    "Fixture only: frequencyRank values are placeholders, not taken from a frequency list.",
+    "Fixture only: the writing task has anchors for one band and the speaking task has none."
+  ]
+}

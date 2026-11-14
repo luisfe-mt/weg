@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/luisfe-mt/weg/schemas/grammar-point.schema.json",
+  "title": "Grammar point",
+  "description": "One structure, taught in one day's Grammatik block: a short explanation, examples, the mistakes Spanish and English speakers typically make, and production drills.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Stable across edits: drills, the error log and other grammar points refer to it.",
+      "type": "string",
+      "pattern": "^g-[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "sublevel": { "$ref": "common.schema.json#/$defs/sublevelId" },
+    "order": {
+      "description": "Position in the sublevel's teaching order, starting at 1.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "object",
+      "properties": {
+        "de": { "$ref": "common.schema.json#/$defs/text" },
+        "en": { "$ref": "common.schema.json#/$defs/text" },
+        "es": { "$ref": "common.schema.json#/$defs/text" }
+      },
+      "required": ["de", "en", "es"],
+      "additionalProperties": false
+    },
+    "explanation": {
+      "description": "About 150 words per language. Plain text; German examples inside it are quoted, not marked up.",
+      "type": "object",
+      "properties": {
+        "en": { "type": "string", "minLength": 200, "maxLength": 1400 },
+        "es": { "type": "string", "minLength": 200, "maxLength": 1400 }
+      },
+      "required": ["en", "es"],
+      "additionalProperties": false
+    },
+    "examples": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/example" },
+      "minItems": 3
+    },
+    "typicalErrors": {
+      "description": "Real interference errors, each with the reason a Spanish or English speaker makes it.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "wrong": { "$ref": "common.schema.json#/$defs/text" },
+          "correct": { "$ref": "common.schema.json#/$defs/text" },
+          "l1": {
+            "description": "Whose error this is.",
+            "type": "array",
+            "items": { "$ref": "common.schema.json#/$defs/l1" },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "why": { "$ref": "common.schema.json#/$defs/explanation" }
+        },
+        "required": ["wrong", "correct", "l1", "why"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "prerequisites": {
+      "description": "Ids of grammar points that must be taught before this one. content-validator checks that each is earlier in the path.",
+      "type": "array",
+      "items": { "type": "string", "pattern": "^g-[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    },
+    "errorTags": {
+      "description": "Error-log tags that point back to this structure, so a remedial week can find it.",
+      "type": "array",
+      "items": { "$ref": "gold-correction.schema.json#/$defs/errorTag" },
+      "uniqueItems": true
+    },
+    "drills": {
+      "description": "Seed drills written by hand. The Generator adds more of the same types at run time.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "transform: rewrite a sentence. complete: fill a gap. build: order given words. say: produce aloud from a cue.",
+            "enum": ["transform", "complete", "build", "say"]
+          },
+          "instruction": { "$ref": "common.schema.json#/$defs/explanation" },
+          "prompt": { "$ref": "common.schema.json#/$defs/text" },
+          "answers": {
+            "description": "Every accepted answer, the preferred one first.",
+            "type": "array",
+            "items": { "$ref": "common.schema.json#/$defs/text" },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        },
+        "required": ["type", "prompt", "answers"],
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/source" }
+    }
+  },
+  "required": ["id", "sublevel", "order", "title", "explanation", "examples", "typicalErrors"],
+  "additionalProperties": false
+}

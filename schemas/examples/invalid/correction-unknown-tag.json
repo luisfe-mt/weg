@@ -1,0 +1,23 @@
+{
+  "schema": "gold-correction",
+  "why": "grammar is not an error tag",
+  "data": {
+    "id": "gc-0001",
+    "level": "A2",
+    "l1": "en",
+    "learnerSentence": "Ich fahre mit der Bus.",
+    "corrected": "Ich fahre mit dem Bus.",
+    "errors": [
+      {
+        "tag": "grammar",
+        "wrong": "der",
+        "right": "dem",
+        "rule": {
+          "en": "mit takes the dative.",
+          "es": "mit va con dativo."
+        }
+      }
+    ],
+    "needsHumanCheck": false
+  }
+}
