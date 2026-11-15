@@ -273,7 +273,10 @@
     "The speaking presentation task (sprechen-thema-praesentieren) is a monologue without a talk scenario; the app needs a recording flow for it. The follow-up task uses ts-b12-fragen-zur-praesentation, whose topic matches the presentation topic, so the two must be run in that order.",
     "A few words in the receptive gate texts are not taught anywhere on the path (Stadthalle, Regionalexpress, Frühschicht, gratis, Sommersemester, Kaffeepause, markieren, naiv, Soziologie, Medienwissenschaft); they are inferable from context or not needed for any item. Text coverage of the spec is 99.1%.",
     "Lemma and form choices to confirm: das Tausend (Wiktionary also has die), adjectival nouns entered as Verletzter, Abgeordneter, Auszubildender, Geflüchteter, Studierender, Reisender with plurals in -e; plurals Homeoffices, Fragebögen, Labore, Werkstätten; pendeln with haben/sein.",
-    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel."
+    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel.",
+    "The transcripts of the presentation anchors are shorter than the three to four minutes the task asks for, so the timing remarks in their rationales are not reliable and band 2 and band 3 cannot be told apart by length.",
+    "The follow-up scenario ts-b12-fragen-zur-praesentation assumes the learner's talk used the word Fußgängerzone; none of the presentation anchors does.",
+    "The mock exam keeps the part structure of a B1 exam on purpose (reading 2, listening 2, writing 3, speaking 3, with similar lengths). All texts and tasks are original; LuisFe or a teacher should confirm that this closeness of format is wanted."
   ],
   "id": "B1.2",
   "grammar": [
@@ -889,7 +892,7 @@
             "es"
           ],
           "why": {
-            "en": "English 'I would have' is copied word by word. With haben and sein, German uses the short forms hätte and wäre; würde haben and würde sein sound wrong in careful German.",
+            "en": "English 'I would have' is copied word by word. With haben and sein, German uses the short forms hätte and wäre; würde haben and würde sein are unusual and sound clumsy.",
             "es": "Se copia palabra por palabra el condicional 'tendría'. Con haben y sein el alemán usa las formas cortas hätte y wäre; würde haben y würde sein suenan mal en un alemán cuidado."
           }
         },
@@ -3401,7 +3404,7 @@
         ]
       },
       "example": {
-        "de": "Die Anzahl der Plätze im Seminar ist klein.",
+        "de": "Die Anzahl der Plätze im Seminar ist gering.",
         "en": "The number of places in the seminar is small.",
         "es": "El número de plazas del seminario es reducido."
       },
@@ -3835,7 +3838,7 @@
         ]
       },
       "example": {
-        "de": "Von meinem Vorhaben, in Deutschland zu promovieren, habe ich meinen Eltern erzählt.",
+        "de": "Ich habe meinen Eltern von meinem Vorhaben erzählt, in Deutschland zu promovieren.",
         "en": "I have told my parents about my plan to do a doctorate in Germany.",
         "es": "Les he contado a mis padres mi proyecto de hacer el doctorado en Alemania."
       },
@@ -5004,7 +5007,8 @@
         "praeteritum3sg": "füllte",
         "partizip2": "gefüllt",
         "auxiliary": "haben",
-        "separable": false
+        "separable": false,
+        "reflexive": true
       },
       "translations": {
         "en": [
@@ -7331,7 +7335,8 @@
         "praeteritum3sg": "unterschied",
         "partizip2": "unterschieden",
         "auxiliary": "haben",
-        "separable": false
+        "separable": false,
+        "reflexive": true
       },
       "themes": [
         "studium-forschung"
@@ -9134,7 +9139,7 @@
     {
       "id": "v-kuerzlich",
       "lemma": "kürzlich",
-      "pos": "adjective",
+      "pos": "adverb",
       "translations": {
         "en": [
           "recently"
@@ -10578,7 +10583,7 @@
         ]
       },
       "example": {
-        "de": "Ich koche, unterdessen räumst du bitte die Küche auf.",
+        "de": "Ich koche, und du räumst unterdessen bitte die Küche auf.",
         "en": "I will cook; meanwhile, please tidy the kitchen.",
         "es": "Yo cocino; mientras tanto, recoge tú la cocina, por favor."
       },
@@ -10857,7 +10862,7 @@
       "lemma": "Bundesliga",
       "pos": "noun",
       "article": "die",
-      "plural": "Bundesligen",
+      "plural": null,
       "translations": {
         "en": [
           "Bundesliga (top German league)"
@@ -14674,7 +14679,7 @@
         {
           "de": "Ich studiere im vierten Semester Medienwissenschaft.",
           "en": "I am in my fourth semester of media studies.",
-          "es": "Estudio cuarto semestre de Ciencias de la Comunicación."
+          "es": "Estoy en cuarto semestre de Ciencias de la Comunicación."
         },
         {
           "de": "In meinem Nebenjob wurde ich oft für den Kontakt mit Kunden eingesetzt.",
@@ -15881,12 +15886,12 @@
               {
                 "response": "Hallo Sara,\nwie geht es dir? Ich habe ein neue Job seit zwei Wochen. Ich arbeite in ein Lager von online shop. Ich packe Pakete und kontrolliere die Bestellungen. Die Arbeit ist langweilig, aber die Kollegen sind sehr nett. Wir essen zusammen in die Pause. Möchtest du Samstag treffen? Wir können in Kino gehen.\nViele Grüße\nKenji",
                 "criterionBands": {
-                  "task-completion": 2,
+                  "task-completion": 1,
                   "coherence": 1,
                   "grammar": 1,
                   "vocabulary-spelling": 1
                 },
-                "rationale": "Task completion 2: all three points are there, but the opinion 'langweilig' has no reason; 56 words, below the target. Coherence 1: a row of short main clauses; only 'aber' links ideas. Grammar 1: frequent case errors ('ein neue Job', 'in ein Lager', 'in die Pause', 'in Kino') and 'Möchtest du Samstag treffen' lacks 'uns' and 'am'; no subordinate clause. Vocabulary and spelling 1: basic words; 'online shop' not capitalised or joined."
+                "rationale": "Task completion 1: all three points are there, but the opinion 'langweilig' has no reason; 56 words, below the target. Coherence 1: a row of short main clauses; only 'aber' links ideas. Grammar 1: frequent case errors ('ein neue Job', 'in ein Lager', 'in die Pause', 'in Kino') and 'Möchtest du Samstag treffen' lacks 'uns' and 'am'; no subordinate clause. Vocabulary and spelling 1: basic words; 'online shop' not capitalised or joined."
               },
               {
                 "response": "Liebe Sara,\nich habe eine neue Arbeit in Restaurant. Ich bin Kellner. Ich muss viel laufen und die Gäste sind manchmal unfreundlich. Die Chef ist streng, weil er will alles perfekt. Aber ich verdiene gut Geld. Die Kollegen ich kenne noch nicht gut.\nBis bald\nDiego",
@@ -15938,10 +15943,10 @@
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
-                  "grammar": 3,
+                  "grammar": 2,
                   "vocabulary-spelling": 2
                 },
-                "rationale": "Task completion 2: all three points; the colleagues are described but not given an opinion, so that part stays thin; about 75 words. Coherence 2: aber and deshalb link ideas; the order is clear. Grammar 3: correct throughout, including a passive ('wird zweimal kontrolliert') and inversion after deshalb. Vocabulary and spelling 2: fitting but simple words; no errors."
+                "rationale": "Task completion 2: all three points; the colleagues are described but not given an opinion, so that part stays thin; about 75 words. Coherence 2: aber and deshalb link ideas; the order is clear. Grammar 2 (main clauses only, no subordinate clause, Konjunktiv II or zu-infinitive): correct throughout, including a passive ('wird zweimal kontrolliert') and inversion after deshalb. Vocabulary and spelling 2: fitting but simple words; no errors."
               }
             ]
           },
@@ -16376,7 +16381,7 @@
             "band": 2,
             "samples": [
               {
-                "response": "Ja, gute Idee! Wir sollten etwas Kleines machen.\nEin Restaurant am Abend? Hm, ich weiß nicht. Ich glaube, dass nicht alle Zeit haben, weil viele Familie haben. Wie wäre es mit dem Besprechungsraum am Nachmittag?\nAb drei Uhr, perfekt. Und zum Essen: Wenn du den Kuchen backst, kaufe ich die Getränke. Aber kein Alkohol, sie trinkt keinen.\nFür das Geschenk – sie mag Pflanzen, oder? Wir könnten eine schöne Pflanze kaufen. Jeder gibt fünf Euro, das ist okay.\nIch sammle das Geld. Also, Freitag um drei, du machst Kuchen, ich kaufe Getränke und Pflanze.",
+                "response": "Ja, gute Idee! Wir sollten etwas Kleines machen.\nEin Restaurant am Abend? Hm, ich weiß nicht. Ich glaube, dass nicht alle Zeit haben, weil viele Familie haben. Wie wäre es mit dem Besprechungsraum am Nachmittag?\nAb drei Uhr, perfekt. Und zum Essen: Wenn du den Kuchen backst, kaufe ich die Getränke. Aber keinen Alkohol, sie trinkt keinen.\nFür das Geschenk – sie mag Pflanzen, oder? Wir könnten eine schöne Pflanze kaufen. Jeder gibt fünf Euro, das ist okay.\nIch sammle das Geld. Also, Freitag um drei, du machst Kuchen, ich kaufe Getränke und Pflanze.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
