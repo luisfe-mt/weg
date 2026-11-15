@@ -10452,7 +10452,7 @@
       "frequencyRank": 1248
     },
     {
-      "id": "v-fest",
+      "id": "v-fest-noun",
       "lemma": "Fest",
       "pos": "noun",
       "article": "das",
@@ -11645,7 +11645,7 @@
       "frequencyRank": 4625
     },
     {
-      "id": "v-euer",
+      "id": "v-euer-pronoun",
       "lemma": "euer",
       "pos": "pronoun",
       "translations": {

@@ -5122,7 +5122,7 @@
       "frequencyRank": 827
     },
     {
-      "id": "v-recht",
+      "id": "v-recht-noun",
       "lemma": "Recht",
       "pos": "noun",
       "article": "das",
@@ -6947,7 +6947,7 @@
       "frequencyRank": 929
     },
     {
-      "id": "v-weg",
+      "id": "v-weg-adverb",
       "lemma": "weg",
       "pos": "adverb",
       "translations": {

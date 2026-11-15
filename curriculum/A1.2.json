@@ -234,7 +234,7 @@
     }
   ],
   "gaps": [
-    "Vocabulary band holds the core 307 lemmas; about 133 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
+    "Vocabulary band holds the core 304 lemmas; about 136 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
     "171 of the 200 lemmas of the frequency window 201-400 are included (85.5%). Left out: no learner words (S, A, Tage); structures taught later (weil, ob, während, zwar, davon, darauf, deshalb, danach, daher, dadurch, dennoch, folgen, legen, freuen, befinden, dritte, solcher); words that are almost only attributive or news language above A1 (besondere, kommend, gesamt, zahlreich, geplant, entsprechend, Einsatz, Entwicklung). Informationen (rank 311) is taught as the item Information (rank 999), so the checker counts Informationen as missing.",
     "About 60 everyday words are in this band because the texts use them and A1.1 could not be read while writing (kaufen, kochen, trinken, essen, Kaffee, Tee, Wasser, Brot, Milch, Tisch, Wohnung, wohnen, Kurs, Uni, lernen, verstehen, morgen, Abend, gern, leider, the numbers sieben to zwanzig, Hallo, danke, nein and others in the last vocabulary part). The duplicate pass must drop the ones A1.1 also teaches. In the other direction, check-coverage now reports about 70 items of A2.1 and A2.2 as already taught here (for example Praxis, Fieber, Krankenkasse, Arzt, Bahn, Wetter, WG, Mitbewohner); A1.2 keeps them because the A2.2 brief lists several of them for A1.2 and the gate role-play needs them.",
     "Assumed taught in A1.1 and not added here (the checker still lists them): bisschen, Spanisch, Adresse, halb, holen, dein, Bruder, Telefon, Pass, Test, Student, Eltern, Schwester, Vater, Oma, Wort, Satz, Übung, Obst, Käse, Bibliothek and a few one-off words in single vocabulary examples (backen, erzählen, Reise, prüfen, Einkauf, privat, per, Pflanze, Internet, Fahrt, Garten, Schwimmbad, Marktplatz, Gitarre, schlimm, nett, Super).",
@@ -844,14 +844,15 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Morgen will es regnen.",
-          "correct": "Morgen regnet es.",
+          "wrong": "Ich will einen Termin, bitte.",
+          "correct": "Ich möchte einen Termin, bitte.",
           "l1": [
-            "en"
+            "en",
+            "es"
           ],
           "why": {
-            "en": "'will' looks like the English future 'will', but it means 'wants to', and rain cannot want anything. German talks about the future with the present tense and a time word.",
-            "es": "'will' se parece al futuro inglés 'will', pero significa 'quiere', y la lluvia no puede querer nada. Para hablar del futuro el alemán usa el presente con una expresión de tiempo."
+            "en": "will looks like English will but means want, and with a stranger it sounds like a demand. The sentence is grammatical; at a reception desk the polite form is möchte.",
+            "es": "will significa quiero, y con un desconocido suena a exigencia, igual que 'quiero una cita' en español. La frase es gramatical; en una recepción la forma cortés es möchte."
           }
         },
         {
@@ -2142,15 +2143,14 @@
           }
         },
         {
-          "wrong": "Wir waret am Samstag in Köln.",
-          "correct": "Wir waren am Samstag in Köln.",
+          "wrong": "Ich hatte zwanzig Jahre.",
+          "correct": "Ich war zwanzig Jahre alt.",
           "l1": [
-            "en",
             "es"
           ],
           "why": {
-            "en": "Learners mix the endings of the present with the new form. The wir form ends in -en: wir waren, wir hatten.",
-            "es": "Se mezclan las terminaciones del presente con la forma nueva. La forma de wir termina en -en: wir waren, wir hatten."
+            "en": "Spanish has an age (tenía veinte años), so Spanish speakers reach for hatte. In German you are an age: ich bin, ich war … Jahre alt.",
+            "es": "En español la edad se tiene (tenía veinte años) y por eso se elige hatte. En alemán la edad se es: ich bin, ich war … Jahre alt."
           }
         }
       ],
@@ -2451,7 +2451,7 @@
         "es": "El Perfekt con sein y los primeros participios en -en"
       },
       "explanation": {
-        "en": "Some verbs form the Perfekt with sein instead of haben. These are mostly verbs of movement from one place to another: gehen, fahren, kommen. 'Am Samstag bin ich nach Hamburg gefahren.' 'Wir sind zu Fuß nach Hause gegangen.' 'Wann ist Paul gekommen?' The verb bleiben also takes sein, although you do not move: 'Ich bin zu Hause geblieben.' These participles do not end in -t but in -en, and some change their vowel: gegangen, gefahren, gekommen, geblieben. Four very common verbs also have a participle in -en, but they take haben: essen becomes gegessen, trinken becomes getrunken, sehen becomes gesehen, schreiben becomes geschrieben. 'Wir haben Pizza gegessen.' 'Hast du den Film gesehen?' Learn each participle together with its helping verb: ist gegangen, hat gegessen. The bracket is the same as before: sein or haben in second place, the participle at the end. More verbs of this kind follow in the next sublevel.",
+        "en": "Some verbs form the Perfekt with sein instead of haben. These are mostly verbs of movement from one place to another: gehen, fahren, kommen. 'Am Samstag bin ich nach Hamburg gefahren.' 'Wir sind zu Fuß nach Hause gegangen.' 'Wann ist Paul gekommen?' The verb bleiben also takes sein, although you do not move: 'Ich bin zu Hause geblieben.' These participles do not end in -t but in -en, and some change their vowel: gegangen, gefahren, gekommen, geblieben. Four very common verbs also have a participle in -en, but they take haben: essen becomes gegessen, trinken becomes getrunken, sehen becomes gesehen, schreiben becomes geschrieben. 'Wir haben Pizza gegessen.' 'Hast du den Film gesehen?' Learn each participle together with its helping verb: ist gegangen, hat gegessen. English uses have for all of these (I have gone, I have come), so the choice needs thought. The bracket is the same as before: sein or haben in second place, the participle at the end. More verbs of this kind follow in the next sublevel.",
         "es": "Algunos verbos forman el Perfekt con sein en lugar de haben. Son sobre todo verbos de movimiento de un lugar a otro: gehen, fahren, kommen. 'Am Samstag bin ich nach Hamburg gefahren.' 'Wir sind zu Fuß nach Hause gegangen.' 'Wann ist Paul gekommen?' El verbo bleiben también va con sein, aunque no te mueves: 'Ich bin zu Hause geblieben.' Estos participios no terminan en -t sino en -en, y algunos cambian la vocal: gegangen, gefahren, gekommen, geblieben. Cuatro verbos muy frecuentes también tienen participio en -en, pero van con haben: essen pasa a gegessen, trinken a getrunken, sehen a gesehen, schreiben a geschrieben. 'Wir haben Pizza gegessen.' 'Hast du den Film gesehen?' Aprende cada participio junto con su verbo auxiliar: ist gegangen, hat gegessen. En español todo va con 'haber' ('he ido', 'he venido'), así que este es un punto en el que hay que pensar. El marco es el mismo: sein o haben en segunda posición y el participio al final. En el siguiente subnivel vendrán más verbos de este tipo."
       },
       "examples": [
@@ -3975,7 +3975,7 @@
       "frequencyRank": 286
     },
     {
-      "id": "v-leben",
+      "id": "v-leben-verb",
       "lemma": "leben",
       "pos": "verb",
       "verb": {
@@ -4983,28 +4983,6 @@
       },
       "sublevel": "A1.2",
       "frequencyRank": 355
-    },
-    {
-      "id": "v-bitte",
-      "lemma": "bitte",
-      "pos": "particle",
-      "translations": {
-        "en": [
-          "please",
-          "you're welcome"
-        ],
-        "es": [
-          "por favor",
-          "de nada"
-        ]
-      },
-      "example": {
-        "de": "Einen Tee, bitte.",
-        "en": "A tea, please.",
-        "es": "Un té, por favor."
-      },
-      "sublevel": "A1.2",
-      "frequencyRank": 356
     },
     {
       "id": "v-direkt",
@@ -10020,27 +9998,6 @@
       "frequencyRank": 4329
     },
     {
-      "id": "v-hallo",
-      "lemma": "Hallo",
-      "pos": "interjection",
-      "translations": {
-        "en": [
-          "hello",
-          "hi"
-        ],
-        "es": [
-          "hola"
-        ]
-      },
-      "example": {
-        "de": "Hallo, wie geht's?",
-        "en": "Hi, how are you?",
-        "es": "Hola, ¿qué tal?"
-      },
-      "sublevel": "A1.2",
-      "frequencyRank": 4422
-    },
-    {
       "id": "v-auf-wiederhoeren",
       "lemma": "Auf Wiederhören",
       "pos": "phrase",
@@ -10087,26 +10044,6 @@
       },
       "sublevel": "A1.2",
       "frequencyRank": 2434
-    },
-    {
-      "id": "v-nein",
-      "lemma": "nein",
-      "pos": "interjection",
-      "translations": {
-        "en": [
-          "no"
-        ],
-        "es": [
-          "no"
-        ]
-      },
-      "example": {
-        "de": "Nein, danke!",
-        "en": "No, thank you!",
-        "es": "¡No, gracias!"
-      },
-      "sublevel": "A1.2",
-      "frequencyRank": 2847
     },
     {
       "id": "v-patient",
@@ -11443,7 +11380,7 @@
                 "rationale": "Task completion 3: all goals are reached, including the check-back. Interaction 3: asks whether today is free, repairs a misunderstanding with 'Können Sie das bitte wiederholen?' and confirms. Grammar 3: modal bracket and separable verb are correct; the only slip is the missing 'am' in 'Donnerstag kann ich nicht', which is acceptable spoken German. Vocabulary 2: wiederholen and halb drei are good, but 'die Karte', 'Super' and 'tschüss' are general or too casual for the practice."
               },
               {
-                "response": "Guten Tag, hier spricht Mateo García. Ich möchte einen Termin machen, es ist ein bisschen dringend.\nIch habe Fieber und Halsschmerzen, und ich bin sehr müde.\nAm Donnerstag muss ich zum Kurs gehen. Haben Sie am Freitag einen Termin frei?\nFreitag um 14.30 Uhr ist gut.\nGarcía: G, A, R, C, I, A.\nIch habe die Versichertenkarte, aber ich bin neu in der Praxis. Muss ich eine Formular ausfüllen?\nOkay. Freitag, 14.30 Uhr, zehn Minuten früher. Vielen Dank, auf Wiederhören.",
+                "response": "Guten Tag, hier spricht Mateo García. Ich möchte einen Termin machen, es ist ein bisschen dringend.\nIch habe Fieber und Halsschmerzen, und ich bin sehr müde.\nAm Donnerstag muss ich zum Kurs gehen. Haben Sie am Freitag einen Termin frei?\nFreitag um 14.30 Uhr ist gut.\nGarcía: G, A, R, C, I, A.\nIch habe die Versichertenkarte, aber ich bin neu in der Praxis. Muss ich ein Formular ausfüllen?\nOkay. Freitag, 14.30 Uhr, zehn Minuten früher. Vielen Dank, auf Wiederhören.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -11633,7 +11570,7 @@
         "items": [
           {
             "id": "termin-donnerstag",
-            "question": "Herr Rossi kann am Donnerstag nicht zur Ärztin kommen.",
+            "question": "Die Ärztin ist am Donnerstag krank.",
             "type": "true-false",
             "options": [
               "richtig",

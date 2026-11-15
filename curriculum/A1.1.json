@@ -790,9 +790,9 @@
           "es": "¿Toma usted café? – Sí, con gusto."
         },
         {
-          "de": "Sprecht ihr Spanisch? – Ja, wir kommen aus Mexiko.",
-          "en": "Do you speak Spanish? – Yes, we come from Mexico.",
-          "es": "¿Habláis español? – Sí, somos de México."
+          "de": "Kommt ihr aus Spanien? – Nein, wir kommen aus Mexiko.",
+          "en": "Are you from Spain? – No, we come from Mexico.",
+          "es": "¿Sois de España? – No, somos de México."
         },
         {
           "de": "Kommst du nicht? – Doch, ich komme.",
@@ -802,14 +802,15 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Machst du lernen Deutsch?",
-          "correct": "Lernst du Deutsch?",
+          "wrong": "Kommst du nicht aus Spanien? – Ja, ich komme aus Spanien.",
+          "correct": "Kommst du nicht aus Spanien? – Doch, ich komme aus Spanien.",
           "l1": [
-            "en"
+            "en",
+            "es"
           ],
           "why": {
-            "en": "English needs do to make a question: do you learn. German never does this; the main verb itself moves to the front.",
-            "es": "El inglés necesita do para preguntar: do you learn. El alemán nunca lo hace: el propio verbo principal pasa al principio."
+            "en": "English has only yes. When a German question contains nicht or kein and you want to contradict it, the answer is doch, not ja.",
+            "es": "En español solo existe sí. Cuando la pregunta alemana lleva nicht o kein y quieres contradecirla, la respuesta es doch, no ja."
           }
         },
         {
@@ -2432,14 +2433,15 @@
           }
         },
         {
-          "wrong": "Ich will einen Kaffee.",
-          "correct": "Ich möchte einen Kaffee.",
+          "wrong": "Ich habe keine Bruder.",
+          "correct": "Ich habe keinen Bruder.",
           "l1": [
-            "en"
+            "en",
+            "es"
           ],
           "why": {
-            "en": "German will looks like English will but means want, and at a counter it sounds blunt. Ordering politely uses möchte.",
-            "es": "El will alemán se parece al will inglés, pero significa 'quiero', y en un mostrador suena brusco. Para pedir con cortesía se usa möchte."
+            "en": "kein takes the same endings as ein. Bruder is masculine and here it is the object of haben, so kein becomes keinen. English no never changes.",
+            "es": "kein lleva las mismas terminaciones que ein. Bruder es masculino y aquí es el complemento directo de haben, así que kein pasa a keinen."
           }
         }
       ],
@@ -11990,9 +11992,9 @@
         ]
       },
       "example": {
-        "de": "Ich möchte einen Tee, bitte.",
-        "en": "I would like a tea, please.",
-        "es": "Quisiera un té, por favor."
+        "de": "Ich mag Tee.",
+        "en": "I like tea.",
+        "es": "Me gusta el té."
       },
       "notes": {
         "en": "At A1.1 you use the form möchte with a noun: ich möchte, du möchtest, er möchte.",

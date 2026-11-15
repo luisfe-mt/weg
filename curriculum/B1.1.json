@@ -4355,7 +4355,7 @@
       "frequencyRank": 1075
     },
     {
-      "id": "v-treffen",
+      "id": "v-treffen-noun",
       "lemma": "Treffen",
       "pos": "noun",
       "article": "das",
@@ -5750,7 +5750,7 @@
       "frequencyRank": 1144
     },
     {
-      "id": "v-franzoesisch",
+      "id": "v-franzoesisch-adjective",
       "lemma": "französisch",
       "pos": "adjective",
       "translations": {

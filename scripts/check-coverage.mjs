@@ -3,7 +3,8 @@
 // For each sublevel, in path order, with the vocabulary of all earlier ones:
 //   1. frequencyRank of every item matches data/lemma/de-frequency.tsv
 //   2. noun article and plural agree with Wiktionary where it has them
-//   3. no lemma + part of speech is taught twice on the path
+//   3. no lemma + part of speech is taught twice on the path, and no vocabulary id is used twice
+//      (learner progress refers to ids, so v-leben cannot be both Leben and leben)
 //   4. the German text of the spec uses taught words: 95% of tokens or more
 //   5. the vocabulary so far holds the required share of the most frequent lemmas
 //
@@ -61,6 +62,7 @@ const known = new Set(); // lemmas taught so far, plus the words inside taught p
 const assume = args.indexOf("--assume-below");
 if (assume >= 0) for (const [lemma, e] of data.lemmas) if (e.rank < Number(args[assume + 1])) known.add(lemma);
 const taught = new Map(); // "lemma|pos" -> sublevel
+const vocabIds = new Map(); // id -> sublevel
 let printed = false;
 
 for (const id of LEVELS) {
@@ -73,6 +75,8 @@ for (const id of LEVELS) {
     const key = `${v.lemma}|${v.pos}`;
     if (taught.has(key)) fail(id, `${v.id}: ${v.lemma} (${v.pos}) is already taught in ${taught.get(key)}`);
     else taught.set(key, id);
+    if (vocabIds.has(v.id) && vocabIds.get(v.id) !== id) fail(id, `${v.id} is already an id in ${vocabIds.get(v.id)}; add the part of speech (${v.id}-${v.pos})`);
+    else vocabIds.set(v.id, id);
 
     const words = v.lemma.split(/\s+/);
     if (words.length === 1) {
