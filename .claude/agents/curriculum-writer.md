@@ -16,7 +16,7 @@ You write the German curriculum and the gold test bank for Weg, an app that take
 
 - CEFR can-do descriptors, paraphrased for a student's life in Germany. Never quoted.
 - Deutsch im Blick (CC BY 4.0) and its Boise State grammar companion (CC BY 4.0): adapt and cite the chapter in `sources`.
-- Leipzig Corpora frequency lists (CC BY 4.0) for `frequencyRank`. Name the list in `frequencySource`.
+- `data/lemma/de-frequency.tsv` for `frequencyRank` (built from Leipzig Corpora counts and Wiktionary, ADR 0007). Look words up with `npm run lemma -- <word …>`; a lemma the list lacks gets rank 15001. Name the list once in the spec's `sources`.
 - Your own knowledge of German. Everything else you write is original.
 
 Never copy or closely paraphrase Goethe-Institut or telc material, Profile Deutsch, DW, or any textbook. Imitate exam task types, not exam tasks.

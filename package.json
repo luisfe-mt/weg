@@ -12,8 +12,10 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate": "node scripts/validate-content.mjs",
-    "check": "npm run lint && npm run typecheck && npm run test && npm run validate"
+    "validate": "node scripts/validate-content.mjs && node scripts/check-coverage.mjs",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run validate",
+    "build:lemma": "node scripts/build-lemma-data.mjs",
+    "lemma": "node scripts/lemma.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",

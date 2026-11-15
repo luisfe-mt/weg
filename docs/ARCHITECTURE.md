@@ -139,6 +139,7 @@ LanguageTool's public API receives the learner's text. That is disclosed in Sett
 
 ```
 curriculum/        one JSON file per sublevel (from session F2)
+data/lemma/        word form to base word and lemma frequency tables (ADR 0007)
 gold/              gold test bank, JSON Lines (F3)
 prompts/           one Markdown file per AI role, versioned (F4)
 evals/             eval runner, model list, scoreboard (F4)
@@ -157,7 +158,7 @@ The scaffold: the Tauri 2 shell with React, Tailwind and shadcn/ui; SQLite with 
 
 ## 11. Open questions
 
-- **Lemmatiser for the coverage check.** The 95% rule needs German lemmatisation in TypeScript without Python. The plan is a lookup table sliced at build time from Wiktionary data (kaikki.org, CC BY-SA), which must be attributed and kept separable from the MIT code. Its size and accuracy are untested.
+- **Lemmatiser for the coverage check.** Decided in ADR 0007: lookup tables in `data/lemma/` (2.5 MB), built at build time from Wiktionary and Leipzig counts, used today by `scripts/check-coverage.mjs`. Still open: its accuracy is spot-checked only, and the engine's `coverage` module and the port that serves the tables are not written.
 - **Streaming through `ai_request`.** Partner turns should start speaking before the full reply arrives. Tauri channels can carry a stream; whether the `openai` client's custom `fetch` can consume it cleanly is untested.
 - **sherpa-onnx on a clean Windows machine.** The Rust crate links a prebuilt native library. Installer size and the "no admin, under five minutes" check are unverified until the first speech ticket.
 - **Bundle identifier.** `io.github.luisfe-mt.weg` decides the data folder. Changing it after learners have data would orphan that data, so it should be settled before the first public build.
