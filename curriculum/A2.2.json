@@ -250,7 +250,7 @@
     }
   ],
   "gaps": [
-    "Vocabulary band holds the core 466 lemmas; about 334 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
+    "Vocabulary band holds the core 398 lemmas; about 402 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
     "Deutsch im Blick is not cited as a source: only the grammar list of chapter 1 could be opened, so the chapters that match these grammar points were not verified. The grammar explanations are original.",
     "29 lemmas of the frequency window 701-1000 are left out (271 of 300 included): no learner words (M, V, Mio), words for other sublevels (dein, euer, nachdem, bevor, Vorsitzender, Neues) and news vocabulary above the level (hingegen, Partie, Staatsanwaltschaft, geraten, Vorjahr, töten, laufend, bekennen, Bund, entschieden, lehnen, greifen, Mark, erleiden, Soldat, stoßen, jeweilig, betreiben, rücken, verstärken).",
     "Window words that an earlier sublevel probably teaches too (Freund, Arzt, wohnen, bezahlen, wann, Wetter, Herr, neun, zwölf, links, oben and others) are included here because the earlier specs could not be read; the duplicate pass must remove them.",
@@ -659,9 +659,9 @@
           "es": "Cuando recibo una carta de la oficina, siempre le pregunto a mi compañera de piso."
         },
         {
-          "de": "Sie müssen einen Termin vereinbaren, wenn Sie ein Konto eröffnen möchten.",
-          "en": "You have to make an appointment if you would like to open an account.",
-          "es": "Tiene que pedir una cita si quiere abrir una cuenta."
+          "de": "Ich muss einen Termin vereinbaren, wenn ich ein Konto eröffnen möchte.",
+          "en": "I have to make an appointment if I want to open an account.",
+          "es": "Tengo que pedir cita si quiero abrir una cuenta."
         }
       ],
       "typicalErrors": [
@@ -1194,9 +1194,9 @@
           "es": "El sábado voy a ver el piso."
         },
         {
-          "de": "Hast du dir den Vertrag schon angesehen?",
-          "en": "Have you had a look at the contract yet?",
-          "es": "¿Ya has mirado el contrato?"
+          "de": "Hast du dir den Vertrag angesehen?",
+          "en": "Have you had a look at the contract?",
+          "es": "¿Has mirado el contrato?"
         },
         {
           "de": "Ich kann mir die Wohnung nicht leisten.",
@@ -1533,7 +1533,7 @@
         "es": "darauf, worauf: compuestos con da- y wo-"
       },
       "explanation": {
-        "en": "When a verb has a fixed preposition, German does not say 'auf es' or 'über das' for things. It joins da to the preposition: darauf, darüber, dafür, damit, davon, daran, darum. 'Der Techniker kommt morgen. Ich warte schon darauf.' For questions about things it joins wo to the preposition: 'Worauf warten Sie?', 'Wofür interessieren Sie sich?' An r goes in between when the preposition starts with a vowel: da-r-auf, wo-r-über, da-r-an, da-r-um. These forms are only for things and ideas. For people you keep the preposition and add a pronoun or wen/wem: 'Auf wen warten Sie?' 'Ich warte auf sie.' The preposition is never left alone at the end of a question as in English 'What are you waiting for?'. You have already met one of these words in a fixed phrase you will use all the time: 'Ich kümmere mich darum.'",
+        "en": "When a verb has a fixed preposition, German does not say 'auf es' or 'über das' for things. It joins da to the preposition: darauf, darüber, dafür, damit, davon, daran, darum. 'Der Techniker kommt morgen. Ich warte schon darauf.' For questions about things it joins wo to the preposition: 'Worauf warten Sie?', 'Wofür interessieren Sie sich?' An r goes in between when the preposition starts with a vowel: da-r-auf, wo-r-über, da-r-an, da-r-um. These forms are only for things and ideas. For people you keep the preposition and add a pronoun or wen/wem: 'Auf wen warten Sie?' 'Ich warte auf sie.' The preposition is never left alone at the end of a question as in English 'What are you waiting for?'. One of these words is in a fixed phrase you will use all the time: 'Ich kümmere mich darum.'",
         "es": "Cuando un verbo lleva una preposición fija, el alemán no dice 'auf es' ni 'über das' para hablar de cosas. Une da a la preposición: darauf, darüber, dafür, damit, davon, daran, darum. 'Der Techniker kommt morgen. Ich warte schon darauf.' Para preguntar por cosas une wo a la preposición: 'Worauf warten Sie?', 'Wofür interessieren Sie sich?' Se intercala una r cuando la preposición empieza por vocal: da-r-auf, wo-r-über, da-r-an, da-r-um. Estas formas solo sirven para cosas e ideas. Para personas se mantiene la preposición y se añade un pronombre o wen/wem: 'Auf wen warten Sie?' 'Ich warte auf sie.' En español basta con 'lo espero' o 'me quejo de eso'; en alemán la preposición del verbo no puede desaparecer, así que hace falta darauf o darüber. Una de estas palabras aparece en una frase fija que vas a usar constantemente: 'Ich kümmere mich darum.'"
       },
       "examples": [
@@ -2275,8 +2275,8 @@
         "es": "Peticiones corteses: könnte, würde, hätte gern, wäre"
       },
       "explanation": {
-        "en": "At an office, in a shop and in emails, German softens requests with four forms. Learn them as fixed pieces for now; the full system comes later. 'Könnten Sie …?' and 'Könnte ich …?' ask for a favour or for permission: 'Könnten Sie mir bitte helfen?' 'Würden Sie …?' asks someone to do something: 'Würden Sie mir bitte das Formular schicken?' 'Ich hätte gern' plus a noun says what you want to have: 'Ich hätte gern eine Bescheinigung.' 'Ich würde gern' plus an infinitive at the end says what you want to do: 'Ich würde gern ein Konto eröffnen.' 'wäre' appears in set phrases: 'Das wäre sehr nett', 'Wäre Dienstag möglich?' The word order is the same as with a modal verb: the polite form is in second position, or first in a question, and the infinitive is at the end. 'Ich will …' is correct German but sounds like a demand, so do not use it with strangers. The two dots matter: 'konnten' without them is the past.",
-        "es": "En una oficina, en una tienda y en los correos, el alemán suaviza las peticiones con cuatro formas. Por ahora apréndelas como piezas fijas; el sistema completo llega más adelante. 'Könnten Sie …?' y 'Könnte ich …?' piden un favor o un permiso, como '¿podría …?': 'Könnten Sie mir bitte helfen?' 'Würden Sie …?' pide a alguien que haga algo: 'Würden Sie mir bitte das Formular schicken?' 'Ich hätte gern' más un sustantivo dice lo que quieres tener, como 'quería' o 'quisiera': 'Ich hätte gern eine Bescheinigung.' 'Ich würde gern' más un infinitivo al final dice lo que quieres hacer: 'Ich würde gern ein Konto eröffnen.' 'wäre' aparece en frases hechas: 'Das wäre sehr nett', 'Wäre Dienstag möglich?' El orden es el mismo que con un verbo modal: la forma cortés va en segunda posición, o en primera en una pregunta, y el infinitivo al final. En español 'quiero' es normal en una ventanilla; en alemán 'Ich will …' es correcto pero suena a exigencia. La diéresis importa: 'konnten' sin ella es pasado."
+        "en": "At an office, in a shop and in emails, German softens requests with five forms. Learn them as fixed pieces for now; the full system comes later. 'Könnten Sie …?' and 'Könnte ich …?' ask for a favour or for permission: 'Könnten Sie mir bitte helfen?' 'Würden Sie …?' asks someone to do something: 'Würden Sie mir bitte das Formular schicken?' 'Ich hätte gern' plus a noun says what you want to have: 'Ich hätte gern eine Bescheinigung.' 'Ich würde gern' plus an infinitive at the end says what you want to do: 'Ich würde gern ein Konto eröffnen.' 'wäre' appears in set phrases: 'Das wäre sehr nett', 'Wäre Dienstag möglich?' The word order is the same as with a modal verb: the polite form is in second position, or first in a question, and the infinitive is at the end. 'Ich will …' is correct German but sounds like a demand, so do not use it with strangers. The two dots matter: 'konnten' without them is the past.",
+        "es": "En una oficina, en una tienda y en los correos, el alemán suaviza las peticiones con cinco formas. Por ahora apréndelas como piezas fijas; el sistema completo llega más adelante. 'Könnten Sie …?' y 'Könnte ich …?' piden un favor o un permiso, como '¿podría …?': 'Könnten Sie mir bitte helfen?' 'Würden Sie …?' pide a alguien que haga algo: 'Würden Sie mir bitte das Formular schicken?' 'Ich hätte gern' más un sustantivo dice lo que quieres tener, como 'quería' o 'quisiera': 'Ich hätte gern eine Bescheinigung.' 'Ich würde gern' más un infinitivo al final dice lo que quieres hacer: 'Ich würde gern ein Konto eröffnen.' 'wäre' aparece en frases hechas: 'Das wäre sehr nett', 'Wäre Dienstag möglich?' El orden es el mismo que con un verbo modal: la forma cortés va en segunda posición, o en primera en una pregunta, y el infinitivo al final. En español 'quiero' es normal en una ventanilla; en alemán 'Ich will …' es correcto pero suena a exigencia. La diéresis importa: 'konnten' sin ella es pasado."
       },
       "examples": [
         {
@@ -2342,8 +2342,8 @@
             "es"
           ],
           "why": {
-            "en": "English and Spanish have no umlauts, so the dots are left out. Without them the form is the past of können, and the request no longer sounds polite but odd.",
-            "es": "El español y el inglés no tienen diéresis sobre la o, y se omite. Sin ella la forma es el pasado de können, y la petición ya no suena cortés sino rara."
+            "en": "English and Spanish have no umlauts, so the dots are left out. Without them the form is the past of können: the sentence then asks whether the person was able to help, and is no longer a polite request.",
+            "es": "El español y el inglés no tienen diéresis sobre la o, y se omite. Sin ella la forma es el pasado de können: la frase pregunta entonces si la persona pudo ayudar, y deja de ser una petición cortés."
           }
         }
       ],
@@ -3085,7 +3085,7 @@
         ]
       },
       "example": {
-        "de": "Ich sehe regelmäßig in meinen Briefkasten.",
+        "de": "Ich schaue regelmäßig in meinen Briefkasten.",
         "en": "I look in my letterbox regularly.",
         "es": "Miro mi buzón con regularidad."
       },
@@ -5715,9 +5715,9 @@
         ]
       },
       "example": {
-        "de": "Im Hof darf man kein Feuer machen.",
-        "en": "You are not allowed to light a fire in the courtyard.",
-        "es": "En el patio no se puede hacer fuego."
+        "de": "Im Hof haben wir kein Feuer gemacht.",
+        "en": "We did not make a fire in the courtyard.",
+        "es": "No hicimos fuego en el patio."
       },
       "sublevel": "A2.2",
       "frequencyRank": 864
@@ -13063,7 +13063,6 @@
       ],
       "targetGrammar": [
         "g-comparative",
-        "g-superlative",
         "g-polite-konjunktiv",
         "g-adjective-endings-definite-dative",
         "g-subordinate-wenn"
@@ -13672,7 +13671,7 @@
                 "rationale": "Task completion 2: understands the missing certificate, chooses email and repeats the deadline; the purpose is stated only roughly. Interaction 2: asks for slower speech, weighs the two options and gives a reason; the opening slips into English for one word. Grammar 2: one correct weil-clause; main clauses mostly work, with order errors after 'oder' and after 'Donnerstag' and missing accusative endings. Vocabulary 2: enough office words; 'für mein Aufenthaltstitel' instead of a verb for extending."
               },
               {
-                "response": "Guten Tag. Ich möchte meinen Aufenthaltstitel verlängern. Hier sind meine Papiere.\nWelche Dokument fehlt?\nIch habe nur die Karte von der Krankenkasse. Ich wusste nicht, dass ich brauche eine Bescheinigung.\nKönnen Sie bitte langsamer sprechen? … Ah, Donnerstag oder E-Mail.\nIch komme am Donnerstag um neun Uhr. Wo ist der Schalter?\nDanke, auf Wiedersehen.",
+                "response": "Guten Tag. Ich möchte meinen Aufenthaltstitel verlängern. Hier sind meine Papiere.\nWelche Dokument fehlt?\nIch habe nur die Karte von der Krankenkasse. Ich habe nicht gewusst, dass ich brauche eine Bescheinigung.\nKönnen Sie bitte langsamer sprechen? … Ah, Donnerstag oder E-Mail.\nIch komme am Donnerstag um neun Uhr. Wo ist der Schalter?\nDanke, auf Wiedersehen.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -13846,14 +13845,14 @@
             "band": 3,
             "samples": [
               {
-                "response": "Sehr geehrte Damen und Herren,\nich habe am 2. Mai in Ihrem Online-Shop eine Lampe bestellt (Bestellung Nr. 4471). Das Paket ist gestern angekommen, aber die Lampe ist leider kaputt: Das Glas ist gebrochen und das Licht funktioniert nicht.\nIch habe schon zweimal bei Ihrem Kundenservice angerufen, aber niemand hat geantwortet. Deshalb schreibe ich Ihnen jetzt.\nKönnten Sie mir bitte eine neue Lampe schicken? Wenn das nicht möglich ist, hätte ich gern mein Geld zurück. In der Anlage schicke ich Ihnen ein Foto.\nIch freue mich auf Ihre Antwort.\nMit freundlichen Grüßen\nAna Torres",
+                "response": "Sehr geehrte Damen und Herren,\nich habe am 2. Mai in Ihrem Online-Shop eine Lampe bestellt (Bestellung Nr. 4471). Das Paket ist gestern angekommen, aber die Lampe ist leider kaputt: Das Glas ist gebrochen und das Licht funktioniert nicht.\nIch habe schon zweimal bei Ihrem Kundenservice angerufen, aber niemand hat geantwortet. Deshalb schreibe ich Ihnen jetzt.\nKönnten Sie mir bitte eine neue Lampe schicken? Wenn das nicht möglich ist, hätte ich gern mein Geld zurück. Im Anhang finden Sie ein Foto.\nIch freue mich auf Ihre Antwort.\nMit freundlichen Grüßen\nAna Torres",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-spelling": 3
                 },
-                "rationale": "Task completion 3: all three points with date, order number and two possible solutions; formal frame; about 90 words. Coherence 3: problem, steps, request, linked with aber, deshalb and a wenn-clause. Grammar 3: Perfekt, inversion after deshalb, wenn-clause with verb last, könnten and hätte gern are all correct. Vocabulary and spelling 3: Bestellung, Kundenservice, Anlage and the set phrases of a formal email are right; no spelling errors."
+                "rationale": "Task completion 3: all three points with date, order number and two possible solutions; formal frame; about 90 words. Coherence 3: problem, steps, request, linked with aber, deshalb and a wenn-clause. Grammar 3: Perfekt, inversion after deshalb, wenn-clause with verb last, könnten and hätte gern are all correct. Vocabulary and spelling 3: Bestellung, Kundenservice, Anhang and the set phrases of a formal email are right; no spelling errors."
               },
               {
                 "response": "Sehr geehrte Damen und Herren,\nvor zwei Wochen habe ich bei Ihnen eine Lampe für meinen Schreibtisch bestellt. Gestern ist das Paket endlich gekommen, aber ich bin sehr enttäuscht, weil die Lampe nicht funktioniert. Außerdem ist der Karton beschädigt.\nIch habe Ihnen gestern Abend schon eine Nachricht auf der Webseite geschrieben, aber ich habe noch keine Antwort bekommen.\nIch möchte die Lampe zurückschicken und ich bitte Sie um eine neue Lampe. Können Sie mir sagen, ob ich muss das Porto bezahlen?\nVielen Dank im Voraus.\nMit freundlichen Grüßen\nTom Baker",
@@ -13885,13 +13884,13 @@
         "format": "Nachricht auf der Mailbox: richtig/falsch und Auswahl",
         "instructions": "Sie hören eine Nachricht auf der Mailbox. Sie hören die Nachricht zweimal. Lesen Sie zuerst die Aufgaben. Sind die Aussagen richtig oder falsch? Welche Antwort passt?",
         "instructionsGloss": {
-          "en": "You will hear a voicemail message twice. Read the questions first. Are the statements true or false? Which answer fits?",
-          "es": "Vas a oír dos veces un mensaje de voz. Lee primero las preguntas. ¿Las afirmaciones son verdaderas o falsas? ¿Qué respuesta es la correcta?"
+          "en": "You will hear a voicemail message twice. Every detail in it is invented. Read the questions first. Are the statements true or false? Which answer fits?",
+          "es": "Vas a oír dos veces un mensaje de voz. Todos los datos son inventados. Lee primero las preguntas. ¿Las afirmaciones son verdaderas o falsas? ¿Qué respuesta es la correcta?"
         },
         "minutes": 6,
         "points": 20,
         "material": {
-          "text": "Guten Tag, Herr Okafor, hier spricht Frau Schubert. Sie haben mir eine E-Mail geschrieben, weil Sie sich für das Zimmer in der Gartenstraße interessieren. Das Zimmer ist noch frei. Die Besichtigung ist am Samstag um elf Uhr, nicht am Freitag. Am Freitag habe ich leider keine Zeit mehr. Bitte klingeln Sie bei Schubert im zweiten Stock. Das Zimmer hat 16 Quadratmeter. Es ist heller als auf den Fotos, weil es jetzt ein größeres Fenster hat. Die Miete ist 380 Euro im Monat, die Nebenkosten sind schon dabei. Die Kaution ist 500 Euro. Bitte bringen Sie am Samstag Ihren Ausweis und eine Bescheinigung von der Uni mit. Wenn Sie am Samstag nicht kommen können, rufen Sie mich bitte bis Donnerstag um 20 Uhr an. Meine Nummer ist 0170 55 01 23. Vielen Dank und auf Wiederhören.",
+          "text": "Guten Tag, Herr Okafor, hier spricht Frau Schubert. Sie haben mir eine E-Mail geschrieben, weil Sie sich für das Zimmer in der Gartenstraße interessieren. Das Zimmer ist noch frei. Die Besichtigung ist am Samstag um elf Uhr, nicht am Freitag. Am Freitag habe ich leider keine Zeit mehr. Bitte klingeln Sie bei Schubert im zweiten Stock. Das Zimmer hat 16 Quadratmeter. Es ist heller als auf den Fotos, weil es jetzt ein größeres Fenster hat. Die Miete ist 380 Euro im Monat, die Nebenkosten sind schon dabei. Die Kaution ist 500 Euro. Bitte bringen Sie am Samstag Ihren Ausweis und eine Bescheinigung von der Uni mit. Wenn Sie am Samstag nicht kommen können, rufen Sie mich bitte bis Donnerstag um 20 Uhr an. Meine Nummer ist 0170 000 00 00. Vielen Dank und auf Wiederhören.",
           "playsAllowed": 2
         },
         "items": [
@@ -13966,8 +13965,8 @@
         "format": "E-Mail lesen: richtig/falsch und Auswahl",
         "instructions": "Lesen Sie die E-Mail. Sind die Aussagen richtig oder falsch? Welche Antwort passt?",
         "instructionsGloss": {
-          "en": "Read the email. Are the statements true or false? Which answer fits?",
-          "es": "Lee el correo. ¿Las afirmaciones son verdaderas o falsas? ¿Qué respuesta es la correcta?"
+          "en": "Read the email. Every detail in it is invented. Are the statements true or false? Which answer fits?",
+          "es": "Lee el correo. Todos los datos son inventados. ¿Las afirmaciones son verdaderas o falsas? ¿Qué respuesta es la correcta?"
         },
         "minutes": 10,
         "points": 20,

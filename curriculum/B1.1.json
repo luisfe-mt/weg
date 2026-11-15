@@ -242,7 +242,7 @@
     }
   ],
   "gaps": [
-    "Vocabulary band holds the core 430 lemmas; about 370 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
+    "Vocabulary band holds the core 435 lemmas; about 365 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
     "Deutsch im Blick is not cited as a source: its table of contents was not opened, so no chapter could be matched to these grammar points. The grammar explanations are original.",
     "Frequency window 1001-1400: 306 of 400 lemmas are taught here and 51 more are already taught in A1.2, A2.1 or A2.2 (357, 89%). 43 are left out: no learner words or name-like forms (Z, C, D, H, X, G, L, Müller, Franken, Wiener, Hamburger, Münchner, US-Dollar, Personenkraftwagen, Pläne, Freunde, Karten, israelisch, bayrisch), news and finance words above the level (Sachschaden, Quartal, Analyst, Anleger, Gemeinderat, verzeichnen, erheben, fertigen, dringen, indes, entgegen, nahe, voller, oberer, bestehend, steigend, angekündigt, durchgeführt, dar, hervor, her), and Dank, Post and Papier, which the brief expects from A1.1 or A1.2 but the finished A1.2 does not contain; the duplicate pass must make sure an earlier sublevel teaches them.",
     "Theme words that belong to the B1.2 frequency window (Fest, Heimat, Traum, vermissen, Lebensmittel, zunehmen, Ansicht, zustimmen, Eintritt, Beruf, Journalist, streng, total, Süden) are left to B1.2 to avoid a duplicate; they appear a few times in B1.1 texts and are counted as untaught there.",

@@ -250,7 +250,7 @@
     }
   ],
   "gaps": [
-    "Vocabulary band holds the core 364 lemmas; about 436 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
+    "Vocabulary band holds the core 334 lemmas; about 466 more are needed to reach roughly 10 new words a day over the hours budget, to be added in frequency order from data/lemma/de-frequency.tsv.",
     "Deutsch im Blick is not cited as a source: its table of contents was not opened, so no chapter could be matched to these grammar points. All explanations are original.",
     "Frequency window 401-700: 234 of 300 lemmas are taught here and 33 more by A1.2 (267, 89 percent). Left out: no learner words (Bayer, amtshandeln, Grüne, Ich, Du, Es, B, U), structures of later sublevels (trotz, aufgrund, innerhalb, zufolge, Beamter) and news vocabulary above the level (Verfügung, weisen, sogenannt, somit, ergeben, Umsatz, Bundesregierung, ermitteln, Angriff, äußern, hinzu, Urteil, herrschen, Verfahren, Union, Vorwurf, einsetzen, demnach, Ermittlung, erheblich).",
     "79 items first written for this band were removed because curriculum/A1.2.json already teaches them (among them Prüfung, Krankenkasse, Mensa, WG, Mitbewohner, Kellner and most body and illness words).",
@@ -1611,15 +1611,15 @@
           }
         },
         {
-          "wrong": "Wo hast du meine Jacke gehangen?",
+          "wrong": "Wohin hast du meine Jacke gehangen?",
           "correct": "Wohin hast du meine Jacke gehängt?",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "Hanging something up is the action verb, with -t: gehängt. gehangen is only for where something is. The question for an action is wohin?",
-            "es": "Colgar algo es el verbo de acción, con -t: gehängt. gehangen es solo para dónde está algo. La pregunta para una acción es wohin?"
+            "en": "Hanging something up is the action verb, with -t: gehängt. gehangen is only for where something is.",
+            "es": "Colgar algo es el verbo de acción, con -t: gehängt. gehangen es solo para dónde está algo."
           }
         }
       ],
@@ -2152,8 +2152,8 @@
             "es"
           ],
           "why": {
-            "en": "Spanish says no he podido venir with haber, so learners build a Perfekt with gekonnt. With a modal and an infinitive Germans use the simple past: konnte.",
-            "es": "En español se dice no he podido venir con haber, y se construye un Perfekt con gekonnt. Con un modal y un infinitivo se usa el pretérito: konnte."
+            "en": "Spanish says no he podido venir with haber, so learners build a Perfekt with gekonnt. The Perfekt of a modal with an infinitive exists (Ich habe nicht kommen können) but is rare; Germans use the simple past: konnte.",
+            "es": "En español se dice no he podido venir con haber, y se construye un Perfekt con gekonnt. El Perfekt de un modal con infinitivo existe (Ich habe nicht kommen können), pero es raro; se usa el pretérito: konnte."
           }
         },
         {
@@ -2334,7 +2334,7 @@
             "es"
           ],
           "why": {
-            "en": "English for two years and Spanish desde hace dos años both describe something still going on. für is only for a planned length of time; for an ongoing state use seit.",
+            "en": "English for two years and Spanish desde hace dos años both describe something still going on. für is mainly for a planned length of time; for an ongoing state use seit.",
             "es": "Desde hace dos años describe algo que sigue. für solo sirve para una duración prevista; para algo que continúa se usa seit."
           }
         },
@@ -2423,7 +2423,7 @@
             "en": "Rewrite the sentence with vor.",
             "es": "Reescribe la frase con vor."
           },
-          "prompt": "Ich bin 2024 nach Deutschland gekommen. Jetzt haben wir 2026.",
+          "prompt": "Ich bin im Mai 2024 nach Deutschland gekommen. Jetzt haben wir Mai 2026.",
           "answers": [
             "Ich bin vor zwei Jahren nach Deutschland gekommen."
           ]
@@ -3074,15 +3074,14 @@
           }
         },
         {
-          "wrong": "Jemand haben meinen Kaffee getrunken.",
-          "correct": "Jemand hat meinen Kaffee getrunken.",
+          "wrong": "Niemand hat nicht angerufen.",
+          "correct": "Niemand hat angerufen.",
           "l1": [
-            "es",
-            "en"
+            "es"
           ],
           "why": {
-            "en": "jemand can mean any person, so learners think of several people and use the plural. jemand, niemand and man always take the singular.",
-            "es": "jemand puede ser cualquier persona, así que se piensa en varias y se usa el plural. jemand, niemand y man siempre van en singular."
+            "en": "Spanish often uses two negative words together (no ha llamado nadie). In German one is enough: niemand and nichts already make the sentence negative, so nicht is left out.",
+            "es": "En español es normal la doble negación (no ha llamado nadie). En alemán basta una: niemand y nichts ya niegan la frase, así que no se añade nicht."
           }
         }
       ],
@@ -12219,7 +12218,7 @@
       ],
       "failureExamples": [
         {
-          "partnerTurn": "Als Studentin müssen Sie zehn Euro Praxisgebühr bezahlen, und die Krankenkasse zahlt das Medikament nicht.",
+          "partnerTurn": "Als Studentin müssen Sie zwanzig Euro Gebühr bezahlen, und die Krankenkasse zahlt das Medikament nicht.",
           "breaks": "invented-facts",
           "why": "Fees and insurance rules that are not in partnerFacts and that a learner might believe."
         },
@@ -12231,7 +12230,7 @@
         {
           "partnerTurn": "Ich vermute eine virale Infektion der oberen Atemwege, die in der Regel nach sieben bis zehn Tagen von selbst abklingt.",
           "breaks": "above-level",
-          "why": "Medical vocabulary, a relative clause and a reflexive-like construction far above A2.1."
+          "why": "Medical vocabulary and a relative clause far above A2.1."
         }
       ],
       "script": [
@@ -12385,7 +12384,7 @@
           "expect": "Says Paul comes back on Wednesday; suggests he takes the rubbish or that they share it."
         },
         {
-          "learner": "Wo ist das neue Regal? Ich habe nicht gesehen.",
+          "learner": "Wo ist das Regal? Ich habe nicht gesehen.",
           "expect": "Says it is standing in the hall and asks where it should go."
         },
         {
@@ -12444,7 +12443,6 @@
         "g-dative-pronouns",
         "g-modal-praeteritum",
         "g-connectors-deshalb-trotzdem",
-        "g-ordinals-dates",
         "g-time-prepositions"
       ],
       "usefulPhrases": [
@@ -13079,14 +13077,14 @@
                 "rationale": "Task completion 3: a full story of both days in order, with people, places and judgements; both questions answered with a contrast or an example. Interaction 3: fluent, about two minutes. Grammar 3: Perfekt with sein and haben, the separable anrufen, musste, trotzdem with inversion and dative after mit are all correct. Vocabulary 3: varied and precise (Kommilitone, feiern, Markt, geschienen)."
               },
               {
-                "response": "Mein Wochenende war sehr gut. Am Freitagabend bin ich mit Freunden in eine Bar gegangen. Am Samstag sind wir mit dem Zug nach Leipzig gefahren, äh, ich wollte die Stadt schon lange sehen. Zuerst haben wir das Völkerschlachtdenkmal besucht, danach haben wir in einem Café Kuchen gegessen. Der Kuchen hat mir sehr gut geschmeckt. Am Abend sind wir zurück nach Hause gefahren. Am Sonntag habe ich nur meine Wäsche gemacht und für die Uni gelesen.\n[Frage 1] Es war kalt, aber sonnig. Wir hatten Glück.\n[Frage 2] Am Sonntag ich mache normalerweise Sport und koche für die Woche.",
+                "response": "Mein Wochenende war sehr gut. Am Freitagabend bin ich mit Freunden in eine Bar gegangen. Am Samstag sind wir mit dem Zug nach Leipzig gefahren, äh, ich wollte die Stadt schon lange sehen. Zuerst haben wir das Völkerschlachtdenkmal besucht, danach haben wir in einem Café Kuchen gegessen. Der Kuchen hat mir sehr gut geschmeckt. Am Abend sind wir zurück nach Hause gefahren. Am Sonntag habe ich nur meine Wäsche gemacht und für die Uni gelesen.\n[Frage 1] Es war kalt, aber sonnig. Wir hatten Glück.\n[Frage 2] Am Sonntag mache ich normalerweise Sport und koche für die Woche.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: clear sequence over three days with places, people and a judgement; both questions answered with detail. Interaction 3: speaks freely and repairs a hesitation without help. Grammar 3: sein with movement verbs, wollte, hat mir geschmeckt and inversion after zuerst and danach are right; one inversion slip in the last answer. Vocabulary 3: fitting and varied words for a day trip."
+                "rationale": "Task completion 3: clear sequence over three days with places, people and a judgement; both questions answered with detail. Interaction 3: speaks freely and repairs a hesitation without help. Grammar 3: sein with movement verbs, wollte, hat mir geschmeckt and inversion after zuerst, danach and am Sonntag are right. Vocabulary 3: fitting and varied words for a day trip."
               },
               {
                 "response": "Am Samstag bin ich früh aufgestanden, denn ich musste von acht bis zwei Uhr im Café arbeiten. Es war sehr voll und ich habe viel Trinkgeld bekommen. Danach bin ich nach Hause gegangen und habe geduscht. Am Abend hat mich meine Freundin zum Essen eingeladen, wir haben Pizza gemacht. Am Sonntag habe ich meine Eltern angerufen, sie wohnen in Mexiko. Dann habe ich die Wohnung geputzt, deshalb war der Sonntag nicht so spannend.\n[Frage 1] Am Samstag war es warm, am Sonntag hat es ein bisschen geregnet.\n[Frage 2] Ich gehe oft spazieren, oder ich treffe Freunde.",
