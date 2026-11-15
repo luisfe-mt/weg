@@ -1013,7 +1013,7 @@
           "es": "¿Cómo se llama el pódcast que me recomendaste?"
         },
         {
-          "de": "Die Leute, die zur Feier kommen, bringen etwas zu essen mit.",
+          "de": "Die Leute, die zur Feier kommen, bringen Essen mit.",
           "en": "The people who are coming to the party are bringing something to eat.",
           "es": "La gente que viene a la fiesta trae algo de comer."
         },
@@ -1632,7 +1632,8 @@
           },
           "prompt": "Bei dies___ heiß___ Wetter kann ich nicht lernen.",
           "answers": [
-            "diesem heißen"
+            "diesem heißen",
+            "em, en"
           ]
         },
         {
@@ -1643,7 +1644,8 @@
           },
           "prompt": "Für die Feier brauchen wir kalt___ Getränke und gut___ Musik.",
           "answers": [
-            "kalte gute"
+            "kalte gute",
+            "e, e"
           ]
         },
         {
@@ -1654,7 +1656,8 @@
           },
           "prompt": "Ich wohne gern mit nett___ Leuten zusammen.",
           "answers": [
-            "netten"
+            "netten",
+            "en"
           ]
         },
         {
@@ -1665,7 +1668,8 @@
           },
           "prompt": "Trotz des schlecht___ Wetters kamen viele Gäste.",
           "answers": [
-            "schlechten"
+            "schlechten",
+            "en"
           ]
         },
         {
@@ -2495,14 +2499,15 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Gestern habe ich mir die Haare geschnitten.",
-          "correct": "Gestern habe ich mir die Haare schneiden lassen.",
+          "wrong": "Ich lasse reparieren mein Fahrrad.",
+          "correct": "Ich lasse mein Fahrrad reparieren.",
           "l1": [
+            "en",
             "es"
           ],
           "why": {
-            "en": "Spanish says 'me corté el pelo' even when the hairdresser did it. In German that sentence means you cut it yourself; for a service someone else does you need lassen.",
-            "es": "En español se dice 'me corté el pelo' aunque lo hiciera la peluquera. En alemán esa frase significa que te lo cortaste tú; para un servicio que hace otra persona hace falta lassen."
+            "en": "English keeps the two verbs close (have my bike repaired) and Spanish puts them together (hago arreglar la bici). In German lassen is in second place and the infinitive goes to the very end.",
+            "es": "En español los dos verbos van juntos (hago arreglar la bici). En alemán lassen ocupa la segunda posición y el infinitivo va al final de la frase."
           }
         },
         {
@@ -2594,6 +2599,7 @@
           },
           "prompt": "Die Professorin ___ uns zehn Minuten früher gehen.",
           "answers": [
+            "lässt",
             "ließ"
           ]
         },
@@ -2734,7 +2740,8 @@
           },
           "prompt": "Ein Bekannt___ hat mir bei der Wohnungssuche geholfen.",
           "answers": [
-            "Bekannter"
+            "Bekannter",
+            "er"
           ]
         },
         {
@@ -2745,7 +2752,8 @@
           },
           "prompt": "Die Erwachsen___ zahlen fünf Euro.",
           "answers": [
-            "Erwachsenen"
+            "Erwachsenen",
+            "en"
           ]
         },
         {
@@ -2756,7 +2764,8 @@
           },
           "prompt": "Ich wohne mit zwei Deutsch___ zusammen.",
           "answers": [
-            "Deutschen"
+            "Deutschen",
+            "en"
           ]
         },
         {
@@ -11107,7 +11116,7 @@
         ]
       },
       "example": {
-        "de": "Unser Budget für das Fest sind zweihundert Euro.",
+        "de": "Wir haben für das Fest ein Budget von zweihundert Euro.",
         "en": "Our budget for the party is two hundred euros.",
         "es": "Nuestro presupuesto para la fiesta es de doscientos euros."
       },
@@ -14386,7 +14395,7 @@
         "Lukas liest Nachrichten fast nur auf dem Handy, vor allem in sozialen Medien.",
         "Lukas hört morgens manchmal einen Podcast mit Nachrichten.",
         "Lukas hat keinen Fernseher und kauft keine Zeitung.",
-        "Lukas findet es schwer, gute Quellen von schlechten zu unterscheiden. Er hat keine Lösung."
+        "Lukas kann gute Quellen nur schwer von schlechten unterscheiden. Er hat keine Lösung."
       ],
       "targetGrammar": [
         "g-praeteritum-regular",
