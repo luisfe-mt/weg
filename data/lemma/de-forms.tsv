@@ -1,4 +1,5 @@
 form	lemmas
+A	A|Autobahn
 AA	Arbeitsamt
 AB	Altbau
 ABC	atomar
@@ -14,6 +15,7 @@ ALG	Arbeitslosengeld
 AN	Arbeitnehmer
 AW	Antwort
 AZ	Allgemeinzustand
+Aachenerin	Aachener
 Aachenern	Aachener
 Aacheners	Aachener
 Aale	Aal
@@ -40,6 +42,7 @@ Abbilds	Abbild
 Abbildungen	Abbildung
 Abbrechen	abbrechen
 Abbrechens	abbrechen
+Abbrecher	abbrechen
 Abbrennen	abbrennen
 Abbrennens	abbrennen
 Abbruche	Abbruch
@@ -167,6 +170,7 @@ Abholzungen	Abholzung
 Abhängen	abhängen
 Abhängens	abhängen
 Abhängigkeiten	Abhängigkeit
+Abhören	abhören
 Abhörer	abhören
 Abhörerin	abhören
 Abhörerinnen	abhören
@@ -175,6 +179,7 @@ Abis	Abitur
 Abiture	Abitur
 Abituren	Abitur
 Abiturienten	Abiturient
+Abiturientin	Abiturient
 Abiturium	Abitur
 Abituriums	Abitur
 Abiturs	Abitur
@@ -185,6 +190,7 @@ Abklärerin	abklären
 Abklärerinnen	abklären
 Abklärers	abklären
 Abklärungen	Abklärung
+Abkommen	Abkommen|abkommen
 Abkommens	Abkommen
 Abkühlungen	Abkühlung
 Abkürzungen	Abkürzung
@@ -235,6 +241,7 @@ Abonnemente	Abonnement
 Abonnementen	Abonnement
 Abonnements	Abonnement
 Abonnenten	Abonnent
+Abonnentin	Abonnent
 Abonnieren	abonnieren
 Abonnierens	abonnieren
 Abonnierer	abonnieren
@@ -250,6 +257,7 @@ Abrechnens	abrechnen
 Abrechnungen	Abrechnung
 Abreisen	Abreise
 Abreisens	Abreise
+Abreissen	abreißen
 Abreisser	abreißen
 Abreisserin	abreißen
 Abreißen	abreißen
@@ -273,6 +281,7 @@ Abrunden	abrunden
 Abrundens	abrunden
 Abräumen	abräumen
 Abräumens	abräumen
+Abräumer	abräumen
 Abrücken	abrücken
 Absagen	absagen|Absage
 Absagens	absagen|Absage
@@ -329,6 +338,7 @@ Abschmecken	abschmecken
 Abschmeckens	abschmecken
 Abschneiden	abschneiden
 Abschneidens	abschneiden
+Abschneider	abschneiden
 Abschnittchen	Abschnitt
 Abschnittchens	Abschnitt
 Abschnitte	Abschnitt
@@ -365,6 +375,7 @@ Absenkungen	Absenkung
 Absetzen	absetzen
 Absetzens	absetzen
 Absetzungen	Absetzung
+Absicherer	absichern
 Absichern	absichern
 Absicherns	absichern
 Absicherungen	Absicherung
@@ -388,6 +399,7 @@ Abstechern	Abstecher
 Abstechers	Abstecher
 Absteigen	absteigen
 Absteigens	absteigen
+Absteiger	absteigen|Absteiger
 Absteigerin	Absteiger
 Absteigerinnen	Absteiger
 Absteigern	Absteiger
@@ -450,6 +462,7 @@ Abwassers	Abwasser
 Abwechslungen	Abwechslung
 Abwehren	Abwehr|abwehren
 Abwehrens	Abwehr|abwehren
+Abwehrspielerin	Abwehrspieler
 Abwehrspielern	Abwehrspieler
 Abwehrspielers	Abwehrspieler
 Abweichen	abweichen
@@ -559,11 +572,14 @@ Affronts	Affront
 Affärchen	Affäre
 Affären	Affäre
 Afghanen	Afghane
+Afghanin	Afghane
 Africaner	Afrikaner
+Afrikanerin	Afrikaner
 Afrikanern	Afrikaner
 Afrikaners	Afrikaner
 Agenden	Agenda
 Agenten	Agent
+Agentin	Agent
 Agenturen	Agentur
 Aggregate	Aggregat
 Aggregaten	Aggregat
@@ -585,6 +601,7 @@ Akademien	Akademie
 Akkreditierungen	Akkreditierung
 Akkus	Akku
 Akquisitionen	Akquisition
+Akte	Akt|Akte
 Akten	Akt|Akte
 Aktes	Akt
 Akteure	Akteur
@@ -614,12 +631,15 @@ Aktionstags	Aktionstag
 Aktionäre	Aktionär
 Aktionären	Aktionär
 Aktionärs	Aktionär
+Aktive	Aktiv|Aktive
 Aktiven	Aktiv
 Aktivieren	aktivieren
 Aktivierens	aktivieren
 Aktivierer	aktivieren
 Aktivierungen	Aktivierung
+Aktivist	Aktivist|Aktivistin
 Aktivisten	Aktivist
+Aktivistin	Aktivist|Aktivistin
 Aktivistinnen	Aktivistin
 Aktivitäten	Aktivität
 Aktivs	Aktiv
@@ -647,9 +667,11 @@ Alarmieren	alarmieren
 Alarmierens	alarmieren
 Alarms	Alarm
 Alarmstufen	Alarmstufe
+Albanerin	Albaner
 Albanern	Albaner
 Albaners	Albaner
 Albanier	Albaner
+Albe	Alb
 Alben	Album|Alb
 Albes	Alb
 Albs	Alb
@@ -696,6 +718,7 @@ Allgemeinzustandes	Allgemeinzustand
 Allgemeinzustands	Allgemeinzustand
 Allgemeinzustände	Allgemeinzustand
 Allgemeinzuständen	Allgemeinzustand
+Allgäuerin	Allgäuer
 Allgäuern	Allgäuer
 Allgäuers	Allgäuer
 Allianzen	Allianz
@@ -733,6 +756,7 @@ Altenheime	Altenheim
 Altenheimen	Altenheim
 Altenheimes	Altenheim
 Altenheims	Altenheim
+Alter	Alter|Alt
 Altern	Alter|altern
 Alternativen	Alternative
 Alterns	Alter|altern
@@ -740,6 +764,7 @@ Alters	Alter
 Altersgrenzen	Altersgrenze
 Altersgruppen	Altersgruppe
 Altersklassen	Altersklasse
+Altes	Alt
 Altkanzlerin	Altkanzler
 Altkanzlerinnen	Altkanzler
 Altkanzlern	Altkanzler
@@ -769,6 +794,8 @@ Ameiserl	Ameise
 Ameislein	Ameise
 Ameisleins	Ameise
 Amelien	Amelie
+Amerikaner	Amerikaner|Amerikanerin
+Amerikanerin	Amerikaner|Amerikanerin
 Amerikanerinnen	Amerikanerin
 Amerikanern	Amerikaner
 Amerikaners	Amerikaner
@@ -797,6 +824,7 @@ Amtsgerichts	Amtsgericht
 Amtsinhabern	Amtsinhaber
 Amtsinhabers	Amtsinhaber
 Amtskollegen	Amtskollege
+Amtskollegin	Amtskollege
 Amtszeiten	Amtszeit
 Amüsieren	amüsieren
 Amüsierens	amüsieren
@@ -832,8 +860,11 @@ Andachten	Andacht
 Andauern	andauern
 Andauerns	andauern
 Andenkens	Andenken
+Andere	Andere|Anderes
 Anderem	Anderes
 Anderen	Andere|Anderes
+Anderer	Andere|Anderes
+Anderes	Andere|Anderes
 Andeuten	andeuten
 Andeutens	andeuten
 Andrange	Andrang
@@ -872,6 +903,7 @@ Anfechtens	anfechten
 Anfeindungen	Anfeindung
 Anfertigen	anfertigen
 Anfertigens	anfertigen
+Anforderer	anfordern
 Anfordern	anfordern
 Anforderns	anfordern
 Anforderungen	Anforderung
@@ -921,6 +953,7 @@ Angesichts	Angesicht
 Angestellte	Angestellter
 Angestelltem	Angestellter
 Angestellten	Angestellter
+Angler	angeln|Angler
 Anglerin	Angler
 Anglern	Angler
 Anglers	Angler
@@ -1117,8 +1150,10 @@ Anschläge	Anschlag
 Anschlägen	Anschlag
 Anschlüsse	Anschluss
 Anschlüssen	Anschluss
+Anschreiben	anschreiben
 Anschriften	Anschrift
 Anschuldigungen	Anschuldigung
+Ansehen	ansehen|Ansehen
 Ansehens	Ansehen
 Ansetzen	ansetzen
 Ansetzens	ansetzen
@@ -1140,6 +1175,7 @@ Ansporns	Ansporn
 Ansprachen	Ansprache
 Ansprechen	ansprechen
 Ansprechens	ansprechen
+Anspruch	Anspruch|ansprechen
 Anspruche	Anspruch
 Anspruches	Anspruch
 Anspruchs	Anspruch
@@ -1166,6 +1202,7 @@ Anstiegen	Anstieg
 Anstieges	Anstieg
 Anstiegs	Anstieg
 Anstoss	Anstoß
+Anstossen	anstoßen
 Anstoße	Anstoß
 Anstoßen	anstoßen
 Anstoßens	anstoßen
@@ -1215,6 +1252,7 @@ Antragstellers	Antragsteller
 Antragstellungen	Antragstellung
 Antreiben	antreiben
 Antreibens	antreiben
+Antreten	antreten
 Antriebe	Antrieb
 Antrieben	Antrieb
 Antriebes	Antrieb
@@ -1241,6 +1279,7 @@ Anweisens	anweisen
 Anweisungen	Anweisung
 Anwenden	anwenden
 Anwendens	anwenden
+Anwender	anwenden|Anwender
 Anwenderin	Anwender
 Anwendern	Anwender
 Anwenders	Anwender
@@ -1250,8 +1289,10 @@ Anwendungsbereichen	Anwendungsbereich
 Anwendungsbereiches	Anwendungsbereich
 Anwendungsbereichs	Anwendungsbereich
 Anwerben	anwerben
+Anwesende	Anwesende|Anwesender
 Anwesendem	Anwesender
 Anwesenden	Anwesende|Anwesender
+Anwesender	Anwesende|Anwesender
 Anwesens	Anwesen
 Anwohnerin	Anwohner
 Anwohnern	Anwohner
@@ -1274,6 +1315,7 @@ Anziehens	anziehen
 Anzieher	anziehen
 Anziehungskräfte	Anziehungskraft
 Anziehungskräften	Anziehungskraft
+Anzug	anziehen|Anzug
 Anzuge	Anzug
 Anzuges	Anzug
 Anzugs	Anzug
@@ -1285,6 +1327,7 @@ Apartments	Apartment
 Apfels	Apfel
 Apferl	Apfel
 Apotheken	Apotheke
+Apothekerin	Apotheker
 Apothekern	Apotheker
 Apothekers	Apotheker
 Apparate	Apparat
@@ -1314,7 +1357,9 @@ Apps	App
 Aprile	April
 Aprilen	April
 Aprils	April
+Aquarien	Aquarium
 Aquariums	Aquarium
+Araberin	Araber
 Arabern	Araber
 Arabers	Araber
 Arbeiten	arbeiten|Arbeit
@@ -1322,6 +1367,7 @@ Arbeitens	arbeiten|Arbeit
 Arbeiter	arbeiten
 Arbeitern	arbeiten
 Arbeiters	arbeiten
+Arbeitgeberin	Arbeitgeber
 Arbeitgebern	Arbeitgeber
 Arbeitgebers	Arbeitgeber
 Arbeitnehmerin	Arbeitnehmer
@@ -1336,6 +1382,7 @@ Arbeitsabläufen	Arbeitsablauf
 Arbeitsamte	Arbeitsamt
 Arbeitsamtes	Arbeitsamt
 Arbeitsamts	Arbeitsamt
+Arbeitsbedingung	Arbeitsbedingungen
 Arbeitsbereiche	Arbeitsbereich
 Arbeitsbereichen	Arbeitsbereich
 Arbeitsbereiches	Arbeitsbereich
@@ -1414,12 +1461,15 @@ Arbeitsämter	Arbeitsamt
 Arbeitsämtern	Arbeitsamt
 Archen	Arche
 Architekten	Architekt
+Architektin	Architekt
 Architekturen	Architektur
 Archive	Archiv
 Archiven	Archiv
 Archives	Archiv
 Archivs	Archiv
 Archäologen	Archäologe
+Archäologin	Archäologe
+Are	Ar
 Areale	Areal
 Arealen	Areal
 Areals	Areal
@@ -1438,8 +1488,12 @@ Armbanduhren	Armbanduhr
 Arme	Arm
 Armeeen	Armee
 Armeen	Armee
+Armeisen	Ameise
+Armen	Arm|Armen
+Armenierin	Armenier
 Armeniern	Armenier
 Armeniers	Armenier
+Armer	Arm
 Armes	Arm
 Arms	Arm
 Armutszeugnisse	Armutszeugnis
@@ -1476,10 +1530,12 @@ Artists	Artist
 Artzt	Arzt
 Arzneimitteln	Arzneimittel
 Arzneimittels	Arzneimittel
+Arzt	Arzt|Ärztin
 Arzte	Arzt
 Arztes	Arzt
 Arztpraxen	Arztpraxis
 Arzts	Arzt
+As	A
 Aschen	Asche
 Aschermittwoche	Aschermittwoch
 Aschermittwochen	Aschermittwoch
@@ -1496,6 +1552,7 @@ Asphalts	Asphalt
 Asse	Ass
 Assen	Ass
 Asses	Ass
+Assi	Assistent
 Assistenten	Assistent
 Assistentinnen	Assistentin
 Assoziationen	Assoziation
@@ -1511,6 +1568,7 @@ Astronautin	Astronaut
 Astronautinnen	Astronaut
 Astronome	Astronom
 Astronomen	Astronom
+Astronomin	Astronom
 Astronoms	Astronom
 Asts	Ast
 Asylantrage	Asylantrag
@@ -1526,6 +1584,7 @@ Asyle	Asyl
 Asylen	Asyl
 Asyls	Asyl
 Asylsuchenden	Asylsuchende
+Asylsuchender	Asylsuchende
 Asylverfahrens	Asylverfahren
 Ateliers	Atelier
 Atemlüfte	Atemluft
@@ -1549,6 +1608,7 @@ Atlasse	Atlas
 Atlassen	Atlas
 Atlasses	Atlas
 Atmen	atmen
+Atmer	atmen
 Atmo	Atmosphäre
 Atmosphären	Atmosphäre
 Atmungen	Atmung
@@ -1572,6 +1632,7 @@ Attentate	Attentat
 Attentaten	Attentat
 Attentates	Attentat
 Attentats	Attentat
+Attentäterin	Attentäter
 Attentätern	Attentäter
 Attentäters	Attentäter
 Atteste	Attest
@@ -1631,6 +1692,7 @@ Auffahrten	Auffahrt
 Auffallen	auffallen
 Auffangen	auffangen
 Auffassungen	Auffassung
+Aufforderer	auffordern
 Auffordern	auffordern
 Aufforderungen	Aufforderung
 Auffälligkeiten	Auffälligkeit
@@ -1648,6 +1710,7 @@ Aufgehern	aufgehen
 Aufgehers	aufgehen
 Aufgreifen	aufgreifen
 Aufhalten	aufhalten
+Aufheben	aufheben
 Aufheber	aufheben
 Aufhebungen	Aufhebung
 Aufholen	aufholen
@@ -1686,7 +1749,9 @@ Aufpreises	Aufpreis
 Aufprällchen	Aufprall
 Aufregen	aufregen
 Aufregungen	Aufregung
+Aufreissen	aufreißen
 Aufreißen	aufreißen
+Aufreißer	aufreißen
 Aufrufe	Aufruf
 Aufrufen	Aufruf
 Aufrufes	Aufruf
@@ -1785,6 +1850,7 @@ Auftragseingangs	Auftragseingang
 Auftragseingänge	Auftragseingang
 Auftragseingängen	Auftragseingang
 Auftragslagen	Auftragslage
+Auftreten	auftreten|Auftreten
 Auftretens	Auftreten
 Auftriebe	Auftrieb
 Auftrieben	Auftrieb
@@ -1796,6 +1862,7 @@ Auftrittes	Auftritt
 Auftritts	Auftritt
 Aufträge	Auftrag
 Aufträgen	Auftrag
+Aufwand	Aufwand|aufwenden
 Aufwande	Aufwand
 Aufwandes	Aufwand
 Aufwands	Aufwand
@@ -1806,6 +1873,7 @@ Aufwinde	Aufwind
 Aufwinden	Aufwind
 Aufwindes	Aufwind
 Aufwinds	Aufwind
+Aufwuchs	aufwachsen
 Aufwände	Aufwand
 Aufwänden	Aufwand
 Aufwärmen	aufwärmen
@@ -1817,6 +1885,7 @@ Aufzeichnen	aufzeichnen
 Aufzeichner	aufzeichnen
 Aufzeichnungen	Aufzeichnung
 Aufziehen	aufziehen
+Aufzug	Aufzug|aufziehen
 Aufzuge	Aufzug
 Aufzuges	Aufzug
 Aufzugs	Aufzug
@@ -1842,6 +1911,7 @@ Augenzeugen	Augenzeuge
 Augenzeugin	Augenzeuge
 Augenzwinkerns	Augenzwinkern
 Auges	Auge
+Augsburgerin	Augsburger
 Augsburgern	Augsburger
 Augsburgers	Augsburger
 Auguste	August
@@ -1867,6 +1937,7 @@ Ausbeuten	Ausbeute
 Ausbeutungen	Ausbeutung
 Ausbilden	ausbilden
 Ausbilder	ausbilden
+Ausbildner	ausbilden
 Ausbildungen	Ausbildung
 Ausbildungsplatze	Ausbildungsplatz
 Ausbildungsplatzes	Ausbildungsplatz
@@ -1955,6 +2026,7 @@ Ausklangs	Ausklang
 Ausklingen	ausklingen
 Ausklänge	Ausklang
 Ausklängen	Ausklang
+Auskommen	auskommen
 Auskünfte	Auskunft
 Auskünften	Auskunft
 Auslagerer	auslagern
@@ -2082,6 +2154,7 @@ Ausstellungsraumes	Ausstellungsraum
 Ausstellungsraums	Ausstellungsraum
 Ausstellungsräume	Ausstellungsraum
 Ausstellungsräumen	Ausstellungsraum
+Aussterben	Aussterben|aussterben
 Aussterbens	Aussterben
 Ausstiege	Ausstieg
 Ausstiegen	Ausstieg
@@ -2089,6 +2162,8 @@ Ausstieges	Ausstieg
 Ausstiegs	Ausstieg
 Ausstoss	Ausstoß
 Ausstosse	Ausstoß
+Ausstossen	ausstoßen
+Ausstosser	ausstoßen
 Ausstosses	Ausstoß
 Ausstoße	Ausstoß
 Ausstoßen	ausstoßen
@@ -2117,6 +2192,7 @@ Austragungsorte	Austragungsort
 Austragungsorten	Austragungsort
 Austragungsortes	Austragungsort
 Austragungsorts	Austragungsort
+Australierin	Australier
 Australiern	Australier
 Australiers	Australier
 Austritte	Austritt
@@ -2202,7 +2278,9 @@ Automobilen	Automobil
 Automobilindustrien	Automobilindustrie
 Automobils	Automobil
 Autonomien	Autonomie
+Autor	Autor|Autorin
 Autoren	Autor
+Autorin	Autor|Autorin
 Autorinnen	Autorin
 Autoritäten	Autorität
 Autors	Autor
@@ -2269,10 +2347,12 @@ Babychen	Baby
 Babylein	Baby
 Babyleins	Baby
 Babys	Baby
+Bache	Bach
 Bachelorn	Bachelor
 Bachelors	Bachelor
 Baches	Bach
 Bachs	Bach
+Backen	Backen|Back
 Backens	Backen
 Backhause	Backhaus
 Backhauses	Backhaus
@@ -2355,6 +2435,7 @@ Bambergern	Bamberger
 Bambergers	Bamberger
 Bananen	Banane
 Bandbreiten	Bandbreite
+Bande	Band|Bande
 Banden	Band|Bande
 Banderl	Band
 Bandes	Band
@@ -2395,6 +2476,8 @@ Barrels	Barrel
 Barrieren	Barriere
 Barrikaden	Barrikade
 Bars	Bar
+Barte	Bart
+Barterl	Bart
 Bartes	Bart
 Barts	Bart
 Basare	Basar
@@ -2426,6 +2509,7 @@ Bassistinnen	Bassist
 Basteln	basteln
 Bastelns	basteln
 Batterien	Batterie
+Bauarbeiterin	Bauarbeiter
 Bauarbeitern	Bauarbeiter
 Bauarbeiters	Bauarbeiter
 Bauarten	Bauart
@@ -2529,6 +2613,8 @@ Beachtens	beachten
 Beamte	Beamter
 Beamtem	Beamter
 Beamten	Beamter
+Beamter	Beamter|Beamtin
+Beamtin	Beamter|Beamtin
 Beamtinnen	Beamtin
 Beanspruchen	beanspruchen
 Beanspruchens	beanspruchen
@@ -2569,6 +2655,7 @@ Bechern	Becher
 Becherns	Becher
 Bechers	Becher
 Becke	Beck
+Becken	Beck|Becken
 Beckens	Becken
 Beckes	Beck
 Becks	Beck
@@ -2581,12 +2668,14 @@ Bedarfs	Bedarf
 Bedauerns	Bedauern
 Bedecken	bedecken
 Bedeckens	bedecken
+Bedenken	Bedenken|bedenken
 Bedenkens	Bedenken
 Bedeuten	bedeuten
 Bedeutens	bedeuten
 Bedeutungen	Bedeutung
 Bedienen	bedienen
 Bedienens	bedienen
+Bediener	bedienen
 Bedienstete	Bediensteter
 Bedienstetem	Bediensteter
 Bediensteten	Bediensteter
@@ -2674,6 +2763,7 @@ Befundes	Befund
 Befunds	Befund
 Befälle	Befall
 Befällen	Befall
+Beförderer	befördern
 Befördern	befördern
 Beförderns	befördern
 Beförderungen	Beförderung
@@ -2697,6 +2787,7 @@ Begegnens	begegnen
 Begegnungen	Begegnung
 Begehen	begehen
 Begehens	begehen
+Begehren	begehren|Begehren
 Begehrens	Begehren
 Begehungen	Begehung
 Begeisterer	begeistern
@@ -2773,6 +2864,7 @@ Beherrschens	beherrschen
 Behindern	behindern
 Behinderns	behindern
 Behinderten	Behinderte
+Behinderter	Behinderte
 Behinderungen	Behinderung
 Behältern	Behälter
 Behälters	Behälter
@@ -2826,6 +2918,7 @@ Beispiele	Beispiel
 Beispielen	Beispiel
 Beispieles	Beispiel
 Beispiels	Beispiel
+Beissen	beißen
 Beistande	Beistand
 Beistandes	Beistand
 Beistands	Beistand
@@ -2902,9 +2995,11 @@ Belegschaften	Belegschaft
 Beleidigungen	Beleidigung
 Beleuchten	beleuchten
 Beleuchtungen	Beleuchtung
+Belgierin	Belgier
 Belgiern	Belgier
 Belgiers	Belgier
 Beliebens	Belieben
+Bellen	bellen|Bellen
 Bellens	Bellen
 Belohnungen	Belohnung
 Belächeln	belächeln
@@ -2999,6 +3094,8 @@ Berichten	Bericht
 Berichterstattungen	Berichterstattung
 Berichtes	Bericht
 Berichts	Bericht
+Berliner	Berliner|Berlinerin
+Berlinerin	Berliner|Berlinerin
 Berlinerinnen	Berlinerin
 Berlinern	Berliner
 Berliners	Berliner
@@ -3051,6 +3148,7 @@ Bescheidenheiten	Bescheidenheit
 Bescheides	Bescheid
 Bescheinigungen	Bescheinigung
 Beschichtungen	Beschichtung
+Beschiessen	beschießen
 Beschiesser	beschießen
 Beschießen	beschießen
 Beschießer	beschießen
@@ -3059,6 +3157,7 @@ Beschimpfungen	Beschimpfung
 Beschleunigen	beschleunigen
 Beschleunigungen	Beschleunigung
 Beschliessen	beschließen
+Beschliesser	beschließen
 Beschließen	beschließen
 Beschließer	beschließen
 Beschlusse	Beschluss
@@ -3137,12 +3236,17 @@ Bestatterinnen	bestatten
 Bestattern	bestatten
 Bestatters	bestatten
 Bestattungen	Bestattung
+Beste	Beste|Bestes|Bester
 Bestechungen	Bestechung
+Besteller	bestellen|Besteller
+Bestellerin	Besteller
 Bestellern	Besteller
 Bestellers	Besteller
 Bestellungen	Bestellung
 Bestem	Bestes|Bester
 Besten	Beste|Bestes|Bester
+Bester	Beste|Bestes|Bester
+Bestes	Beste|Bestes|Bester
 Besteuerungen	Besteuerung
 Bestimmungen	Bestimmung
 Bestleistungen	Bestleistung
@@ -3165,6 +3269,7 @@ Besuchers	Besucher
 Besuches	Besuch
 Besuchs	Besuch
 Betas	Beta
+Bete	Bitte
 Beteiligte	Beteiligter
 Beteiligtem	Beteiligter
 Beteiligten	Beteiligter
@@ -3193,6 +3298,7 @@ Betrages	Betrag
 Betrags	Betrag
 Betrauen	betrauen
 Betreiben	betreiben
+Betreiberin	Betreiber
 Betreibern	Betreiber
 Betreibers	Betreiber
 Betretens	Betreten
@@ -3215,6 +3321,7 @@ Betriebsrates	Betriebsrat
 Betriebsrats	Betriebsrat
 Betriebsräte	Betriebsrat
 Betriebsräten	Betriebsrat
+Betriebsrätin	Betriebsrat
 Betriebssysteme	Betriebssystem
 Betriebssystemen	Betriebssystem
 Betriebssystemes	Betriebssystem
@@ -3231,6 +3338,8 @@ Beträge	Betrag
 Beträgen	Betrag
 Betrüge	Betrug
 Betrügen	Betrug
+Betrüger	Betrüger|betrügen
+Betrügerin	Betrüger
 Betrügern	Betrüger
 Betrügers	Betrüger
 Bettchen	Bett
@@ -3283,6 +3392,7 @@ Beweismitteln	Beweismittel
 Beweismittels	Beweismittel
 Bewerbe	Bewerb
 Bewerben	bewerben|Bewerb
+Bewerberin	Bewerber|Bewerberin
 Bewerberinnen	Bewerberin
 Bewerbern	Bewerber
 Bewerbers	Bewerber
@@ -3332,6 +3442,7 @@ Bezeuger	bezeugen
 Bezeugerin	bezeugen
 Bezeugerinnen	bezeugen
 Beziehen	beziehen
+Bezieher	beziehen
 Beziehungen	Beziehung
 Bezirke	Bezirk
 Bezirken	Bezirk
@@ -3349,6 +3460,7 @@ Bezugs	Bezug
 Bezweifelung	bezweifeln
 Bezweiflung	bezweifeln
 Bezwingen	bezwingen
+Bezwinger	bezwingen
 Bezüge	Bezug
 Bezügen	Bezug
 Biathleten	Biathlet
@@ -3365,6 +3477,7 @@ Bibliotheken	Bibliothek
 Bieber	Biber
 Biegen	biegen
 Biegens	biegen
+Bielefelderin	Bielefelder
 Bielefeldern	Bielefelder
 Bielefelders	Bielefelder
 Bienchen	Biene
@@ -3403,6 +3516,7 @@ Bilderchen	Bild
 Bildergalerien	Bildergalerie
 Bildern	Bild
 Bildes	Bild
+Bildhauerin	Bildhauer
 Bildhauern	Bildhauer
 Bildhauers	Bildhauer
 Bilds	Bild
@@ -3423,6 +3537,7 @@ Bindens	binden
 Bindern	Binder
 Binders	Binder
 Bindungen	Bindung
+Bio	Biografie|Biologie|Bio
 Biogase	Biogas
 Biogasen	Biogas
 Biogases	Biogas
@@ -3431,6 +3546,7 @@ Biographie	Biografie
 Biographien	Biografie
 Biologen	Biologe
 Biologien	Biologie
+Biologin	Biologe
 Bios	Bio
 Biotope	Biotop
 Biotopen	Biotop
@@ -3442,9 +3558,11 @@ Birnen	Birne
 Bischofs	Bischof
 Bischöfe	Bischof
 Bischöfen	Bischof
+Bischöfin	Bischof
 Bisschen	Biss
 Bisschens	Biss
 Bisse	Biss
+Bissen	Biss
 Bisserl	Biss
 Bisses	Biss
 Bisslein	Biss
@@ -3470,8 +3588,10 @@ Blatte	Blatt
 Blatterl	Blatt
 Blattes	Blatt
 Blatts	Blatt
+Blaue	Blauer|Blaue
 Blauem	Blauer
 Blauen	Blauer
+Blauer	Blauer|Blaue
 Blaues	Blauer|Blaue
 Blaulichte	Blaulicht
 Blaulichter	Blaulicht
@@ -3512,6 +3632,7 @@ Blindem	Blinder
 Blinden	Blinder
 Blitze	Blitz
 Blitzen	Blitz
+Blitzer	blitzen|Blitzer
 Blitzern	Blitzer
 Blitzers	Blitzer
 Blitzes	Blitz
@@ -3545,6 +3666,7 @@ Blutdrucks	Blutdruck
 Blute	Blut
 Bluten	Blut
 Blutentnahmen	Blutentnahme
+Bluter	bluten
 Blutes	Blut
 Bluthochdrucke	Bluthochdruck
 Bluthochdruckes	Bluthochdruck
@@ -3554,6 +3676,8 @@ Bluts	Blut
 Blutspenden	Blutspende
 Bluttaten	Bluttat
 Blutungen	Blutung
+Bläschen	Blase
+Blättchen	Blatt
 Blätter	Blatt
 Blättern	Blatt
 Blättlein	Blatt
@@ -3583,8 +3707,10 @@ Bodens	Boden
 Bodentruppen	Bodentruppe
 Boeings	Boeing
 Bogens	Bogen
+Bogerl	Bogen
 Bohlen	Bohle
 Bohnen	Bohne
+Bohrer	bohren
 Bohrloche	Bohrloch
 Bohrloches	Bohrloch
 Bohrlochs	Bohrloch
@@ -3623,20 +3749,26 @@ Borne	Born
 Bornen	Born
 Bornes	Born
 Borns	Born
+Bosnierin	Bosnier
 Bosniern	Bosnier
 Bosniers	Bosnier
+Bosse	Boss|Bosse
 Bossen	Boss|Bosse
 Bosses	Boss
 Boten	Bote
 Botin	Bote
 Botschaften	Botschaft
+Botschafter	Botschafter|Botschafterin
+Botschafterin	Botschafter|Botschafterin
 Botschafterinnen	Botschafterin
 Botschaftern	Botschafter
 Botschafters	Botschafter
 Boulevards	Boulevard
 Bowls	Bowl
+Boxen	Box|Boxen
 Boxens	Boxen
 Boxenstopps	Boxenstopp
+Boxerin	Boxer
 Boxern	Boxer
 Boxers	Boxer
 Boykotte	Boykott
@@ -3662,6 +3794,7 @@ Brandstifterinnen	Brandstifter
 Brandstiftern	Brandstifter
 Brandstifters	Brandstifter
 Brandstiftungen	Brandstiftung
+Brasilianerin	Brasilianer
 Brasilianern	Brasilianer
 Brasilianers	Brasilianer
 Bratens	Braten
@@ -3686,6 +3819,7 @@ Braunschweigerinnen	Braunschweiger
 Braunschweigern	Braunschweiger
 Braunschweigers	Braunschweiger
 Brauser	Browser
+Braut	Braut|Bräutigam
 Brautpaare	Brautpaar
 Brautpaaren	Brautpaar
 Brautpaares	Brautpaar
@@ -3702,6 +3836,7 @@ Bremern	Bremer
 Bremers	Bremer
 Bremsen	bremsen|Bremse
 Bremsens	bremsen|Bremse
+Bremser	bremsen
 Brennen	brennen
 Brennens	brennen
 Brennerin	Brenner
@@ -3722,6 +3857,7 @@ Bretter	Brett
 Bretterl	Brett
 Brettern	Brett
 Brettes	Brett
+Brettl	Brett
 Brettlein	Brett
 Brettleins	Brett
 Bretts	Brett
@@ -3743,8 +3879,10 @@ Bringen	bringen
 Brisanzen	Brisanz
 Brisen	Brise
 Briten	Brite
+Britin	Brite
 Brockens	Brocken
 Brockerl	Brocken
+Brod	Brot
 Bronnen	Brunnen
 Bronzemedaillen	Bronzemedaille
 Bronzen	Bronze
@@ -3783,6 +3921,7 @@ Bräuchen	Brauch
 Bräutchen	Braut
 Bräute	Braut
 Bräuten	Braut
+Bräutigam	Braut|Bräutigam
 Bräutigame	Bräutigam
 Bräutigamen	Bräutigam
 Bräutigams	Bräutigam
@@ -3792,6 +3931,7 @@ Bröckchens	Brocken
 Bröckerl	Brocken
 Bröcklein	Brocken
 Bröckleins	Brocken
+Brötchen	Brot|Brötchen
 Brötchens	Brötchen
 Brüche	Bruch
 Brüchen	Bruch
@@ -3800,6 +3940,8 @@ Brüchern	Bruch
 Brückchen	Brücke
 Brücken	Brücke
 Brückentage	Tag
+Brüder	Bruder|Brüder
+Brüderchen	Bruder
 Brüderlein	Bruder
 Brüderleins	Bruder
 Brüdern	Bruder
@@ -3824,12 +3966,15 @@ BtM	Betäubungsmittel
 BtMG	Betäubungsmittelgesetz
 Bub	Bube
 Buben	Bube
+Buche	Buch|Buche
 Buchen	Buche
 Buches	Buch
 Buchhaltungen	Buchhaltung
 Buchhandels	Buchhandel
 Buchhandlungen	Buchhandlung
 Buchmessen	Buchmesse
+Buchs	Buch|Buchs
+Buchse	Buchs
 Buchsen	Buchs
 Buchses	Buchs
 Buchstaben	Buchstabe
@@ -3887,9 +4032,11 @@ Bundesinnenministerien	Bundesinnenministerium
 Bundesinnenministeriums	Bundesinnenministerium
 Bundesinnenministern	Bundesinnenminister
 Bundesinnenministers	Bundesinnenminister
+Bundeskanzler	Bundeskanzler|Bundeskanzlerin
 Bundeskanzleramte	Bundeskanzleramt
 Bundeskanzleramtes	Bundeskanzleramt
 Bundeskanzleramts	Bundeskanzleramt
+Bundeskanzlerin	Bundeskanzler|Bundeskanzlerin
 Bundeskanzlerinnen	Bundeskanzlerin
 Bundeskanzlern	Bundeskanzler
 Bundeskanzlers	Bundeskanzler
@@ -3936,6 +4083,7 @@ Bundestagen	Bundestag
 Bundestages	Bundestag
 Bundestags	Bundestag
 Bundestagsabgeordneten	Bundestagsabgeordnete
+Bundestagsabgeordneter	Bundestagsabgeordnete
 Bundestagspräsidenten	Bundestagspräsident
 Bundestagspräsidentin	Bundestagspräsident
 Bundestagspräsidentinnen	Bundestagspräsident
@@ -3985,6 +4133,7 @@ Buschmänner	Buschmann
 Buschmännern	Buschmann
 Buschmännin	Buschmann
 Buschs	Busch
+Busfahrerin	Busfahrer
 Busfahrern	Busfahrer
 Busfahrers	Busfahrer
 Bushaltestellen	Bushaltestelle
@@ -4008,12 +4157,15 @@ Bächelchens	Bach
 Bächen	Bach
 Bächlein	Bach
 Bächleins	Bach
+Bäcker	backen|Bäcker
 Bäckereien	Bäckerei
+Bäckerin	Bäcker
 Bäckerlein	Bäcker
 Bäckern	Bäcker
 Bäckers	Bäcker
 Bäder	Bad
 Bädern	Bad
+Bällchen	Ball
 Bälle	Ball
 Bällen	Ball
 Bändchen	Band
@@ -4029,8 +4181,10 @@ Bänkchens	Bank
 Bänke	Bank
 Bänken	Bank
 Bänker	Banker
+Bärchen	Bär
 Bäre	Bär
 Bären	Bär
+Bärin	Bär
 Bärlein	Bär
 Bärli	Bär
 Bärs	Bär
@@ -4044,6 +4198,7 @@ Bäuche	Bauch
 Bäuchelchen	Bauch
 Bäuchen	Bauch
 Bäuchlein	Bauch
+Bäuerchen	Bauer
 Bäuerin	Bauer
 Bäuerinnen	Bauer
 Bäuerlein	Bauer
@@ -4100,6 +4255,7 @@ Bösewichten	Bösewicht
 Bösewichter	Bösewicht
 Bösewichtern	Bösewicht
 Bösewichtes	Bösewicht
+Bösewichtin	Bösewicht
 Bösewichtlein	Bösewicht
 Bösewichts	Bösewicht
 Bötchen	Boot|Bote
@@ -4107,6 +4263,8 @@ Bötchens	Boot|Bote
 Bötlein	Boot
 Böötchen	Boot|Bote
 Böötchens	Boot|Bote
+Bübchen	Bube
+Bübin	Bube
 Büblein	Bube
 Bübleins	Bube
 Büchelchen	Buch
@@ -4116,6 +4274,7 @@ Büchereien	Bücherei
 Büchern	Buch
 Büchlein	Buch
 Büchleins	Buch
+Büdchen	Bude
 Büfett	Buffet
 Büfetts	Buffet
 Büge	Bug
@@ -4135,6 +4294,7 @@ Bünden	Bund
 Bündnisse	Bündnis
 Bündnissen	Bündnis
 Bündnisses	Bündnis
+Bürge	Burg
 Bürgen	Burg
 Bürgergelde	Bürgergeld
 Bürgergeldes	Bürgergeld
@@ -4143,12 +4303,15 @@ Bürgerhause	Bürgerhaus
 Bürgerhauser	Bürgerhaus
 Bürgerhausern	Bürgerhaus
 Bürgerhauses	Bürgerhaus
+Bürgerin	Bürger|Bürgerin
 Bürgerinitiativen	Bürgerinitiative
 Bürgerinnen	Bürgerin
 Bürgerkriege	Bürgerkrieg
 Bürgerkriegen	Bürgerkrieg
 Bürgerkrieges	Bürgerkrieg
 Bürgerkriegs	Bürgerkrieg
+Bürgermeister	Bürgermeister|Bürgermeisterin
+Bürgermeisterin	Bürgermeister|Bürgermeisterin
 Bürgermeisterinnen	Bürgermeisterin
 Bürgermeistern	Bürgermeister
 Bürgermeisters	Bürgermeister
@@ -4231,6 +4394,7 @@ Charmes	Charme
 Chartas	Charta
 Chatbots	Chatbot
 Chats	Chat
+Check	Scheck|Check
 Checklisten	Checkliste
 Checks	Check
 Chefarzte	Chefarzt
@@ -4240,6 +4404,7 @@ Chefin	Chef
 Chefinnen	Chef
 Chefredakteure	Chefredakteur
 Chefredakteuren	Chefredakteur
+Chefredakteurin	Chefredakteur
 Chefredakteurs	Chefredakteur
 Chefs	Chef
 Chefärzte	Chefarzt
@@ -4247,6 +4412,7 @@ Chefärzten	Chefarzt
 Chefärztin	Chefarzt
 Chemien	Chemie
 Chemikalien	Chemikalie
+Chemnitzerin	Chemnitzer
 Chemnitzern	Chemnitzer
 Chemnitzers	Chemnitzer
 Chemo	Chemotherapie
@@ -4257,6 +4423,7 @@ Chipkarten	Chipkarte
 Chips	Chip
 Chirurgen	Chirurg
 Chirurgien	Chirurgie
+Chirurgin	Chirurg
 Chirurgs	Chirurg
 Chocolade	Schokolade
 Chocoladen	Schokolade
@@ -4283,6 +4450,7 @@ Christentumes	Christentum
 Christentums	Christentum
 Christentümer	Christentum
 Christentümern	Christentum
+Christin	Christ
 Christkindchen	Christkind
 Christkindchens	Christkind
 Christkinde	Christkind
@@ -4366,6 +4534,7 @@ Coupons	Coupon
 Coups	Coup
 Coupés	Coupé
 Couseng	Cousin
+Cousine	Cousin
 Cousins	Cousin
 Covern	Cover
 Covers	Cover
@@ -4403,6 +4572,7 @@ Cörperchen	Körper
 Cörperchens	Körper
 Cörpern	Körper
 Cörpers	Körper
+D	D|Dame
 DG	Dachgeschoss
 DJs	DJ
 DT	Dachterrasse
@@ -4410,10 +4580,12 @@ DVDs	DVD
 Dachbodens	Dachboden
 Dachböden	Dachboden
 Dache	Dach
+Dacherl	Dach
 Daches	Dach
 Dachgeschosse	Dachgeschoss
 Dachgeschossen	Dachgeschoss
 Dachgeschosses	Dachgeschoss
+Dachs	Dach
 Dachstuhle	Dachstuhl
 Dachstuhles	Dachstuhl
 Dachstuhls	Dachstuhl
@@ -4457,6 +4629,7 @@ Data	Daten
 Dateien	Datei
 Dateinamen	Dateiname
 Dateinamens	Dateiname
+Daten	Daten|Datum
 Datenbanken	Datenbank
 Datensatze	Datensatz
 Datensatzes	Datensatz
@@ -4481,12 +4654,14 @@ Datenübertragungen	Datenübertragung
 Dates	Date
 Datieren	datieren
 Datums	Datum
+Daube	Taube
 Dauerbrennern	Dauerbrenner
 Dauerbrenners	Dauerbrenner
 Dauern	Dauer
 Daumens	Daumen
 Deaktivieren	deaktivieren
 Deaktivierer	deaktivieren
+Dealerin	Dealer
 Dealern	Dealer
 Dealers	Dealer
 Deals	Deal
@@ -4494,6 +4669,8 @@ Debakeln	Debakel
 Debakels	Debakel
 Debatten	Debatte
 Debüts	Debüt
+Deckchen	Decke
+Decke	Decke|Deck
 Deckelchen	Deckel
 Deckelein	Deckel
 Deckeln	Deckel
@@ -4554,7 +4731,9 @@ Demenzen	Demenz
 Demo	Demonstration
 Demokraten	Demokrat
 Demokratien	Demokratie
+Demokratin	Demokrat
 Demonstranten	Demonstrant
+Demonstrantin	Demonstrant
 Demonstrationen	Demonstration
 Demontagen	Demontage
 Demos	Demonstration
@@ -4628,9 +4807,12 @@ Dialogs	Dialog
 Diamanten	Diamant
 Dias	Dia
 Dichten	Dichte
+Dichterin	Dichter
 Dichtern	Dichter
 Dichters	Dichter
 Dichtungen	Dichtung
+Dicken	Dicke
+Dicker	Dicke
 Diebchen	Dieb
 Diebe	Dieb
 Diebelein	Dieb
@@ -4699,6 +4881,7 @@ Diktaturen	Diktatur
 Diktieren	diktieren
 Dilemmas	Dilemma
 Dilemmata	Dilemma
+Dille	Dill
 Dillen	Dill
 Dilles	Dill
 Dills	Dill
@@ -4710,6 +4893,7 @@ Dingern	Ding
 Dinges	Ding
 Dinglein	Ding
 Dingleins	Ding
+Dings	Ding
 Dinnern	Dinner
 Dinners	Dinner
 Dinos	Dino
@@ -4753,6 +4937,7 @@ Diskutiererin	diskutieren
 Diskutiererinnen	diskutieren
 Displays	Display
 Dispositionen	Disposition
+Diss	Dissertation
 Disse	Disco
 Dissertationen	Dissertation
 Distanzen	Distanz
@@ -4763,10 +4948,12 @@ Diven	Diva
 Dividenden	Dividende
 Dividendenrenditen	Dividendenrendite
 Divisionen	Division
+Diäten	Diät|Diäten
 Diözesen	Diözese
 Do	Donnerstag
 Doktoren	Doktor
 Doktores	Doktor
+Doktorin	Doktor
 Doktors	Doktor
 Dokumentarfilme	Dokumentarfilm
 Dokumentarfilmen	Dokumentarfilm
@@ -4796,6 +4983,7 @@ Domizilen	Domizil
 Domizils	Domizil
 Doms	Dom
 Domänen	Domäne
+Donnern	donnern|Donner
 Donners	Donner
 Donnerstagabende	Donnerstagabend
 Donnerstagabenden	Donnerstagabend
@@ -4836,6 +5024,7 @@ Dorfplatzes	Dorfplatz
 Dorfplätze	Dorfplatz
 Dorfplätzen	Dorfplatz
 Dorfs	Dorf
+Dorne	Dorn
 Dornen	Dorn
 Dornes	Dorn
 Dorns	Dorn
@@ -4846,12 +5035,15 @@ Doserl	Dose
 Dosieren	dosieren
 Dosierer	dosieren
 Dosierungen	Dosierung
+Dotieren	dotieren
 Doublen	Double
 Doubles	Double
 Downloads	Download
 Dozenten	Dozent
 Dozentin	Dozent
+Drachen	Drachen|Drache
 Drachens	Drachen|Drache
+Drachin	Drache
 Drahte	Draht
 Drahtes	Draht
 Drahts	Draht
@@ -4906,6 +5098,7 @@ Drittstaaten	Drittstaat
 Drittstaates	Drittstaat
 Drittstaats	Drittstaat
 Drives	Drive
+Drogen	Drogen|Droge
 Drogenhandels	Drogenhandel
 Drogenkonsums	Drogenkonsum
 Drohnen	Drohne
@@ -4916,6 +5109,7 @@ Drohnenangriffs	Drohnenangriff
 Drohungen	Drohung
 Drucke	Druck
 Drucken	Druck
+Drucker	drucken|Drucker
 Druckereien	Druckerei
 Druckern	Drucker
 Druckers	Drucker
@@ -4933,6 +5127,7 @@ Drückers	Drücker
 Ds	D
 Dschungeln	Dschungel
 Dschungels	Dschungel
+Du	du|Du
 Duelle	Duell
 Duellen	Duell
 Duells	Duell
@@ -5041,6 +5236,7 @@ Dämpfen	Dampf
 Dämpfern	Dämpfer
 Dämpfers	Dämpfer
 Dänen	Däne
+Dänin	Däne
 Därme	Darm
 Därmen	Darm
 Däumchen	Daumen
@@ -5069,7 +5265,9 @@ Düften	Duft
 Dünen	Düne
 Düngern	Dünger
 Düngers	Dünger
+Dürre	Dürre|dürr
 Dürren	Dürre
+Düsseldorferin	Düsseldorfer
 Düsseldorfern	Düsseldorfer
 Düsseldorfers	Düsseldorfer
 E-Bikes	E-Bike
@@ -5092,6 +5290,7 @@ Eckbälle	Eckball
 Eckbällen	Eckball
 Eckchen	Ecke
 Eckchens	Ecke
+Ecke	Ecke|Eck
 Ecken	Ecke|Eck
 Eckerl	Ecke
 Eckern	Ecker
@@ -5122,14 +5321,17 @@ Editorin	Editor
 Editorinnen	Editor
 Editors	Editor
 Effekte	Effekt
+Effekten	Effekt
 Effektes	Effekt
 Effektivitäten	Effektivität
 Effekts	Effekt
 Effizienzen	Effizienz
+Ehefrau	Ehefrau|Ehemann
 Ehefrauchen	Ehefrau
 Ehefrauchens	Ehefrau
 Ehefrauen	Ehefrau
 Eheleuten	Eheleute
+Ehemann	Ehefrau|Ehemann
 Ehemanne	Ehemann
 Ehemannen	Ehemann
 Ehemannes	Ehemann
@@ -5172,6 +5374,7 @@ Eicheln	Eichel
 Eichen	Ei|Eiche
 Eichens	Ei|Eiche
 Eidgenossen	Eidgenosse
+Eidgenossin	Eidgenosse
 Eidgenössin	Eidgenosse
 Eie	Ei
 Eier	Ei
@@ -5200,6 +5403,7 @@ Eigentumes	Eigentum
 Eigentums	Eigentum
 Eigentumswohnungen	Eigentumswohnung
 Eigentörchen	Eigentor
+Eigentümer	Eigentümer|Eigentum
 Eigentümerin	Eigentümer
 Eigentümerinnen	Eigentümer
 Eigentümern	Eigentümer|Eigentum
@@ -5288,6 +5492,7 @@ Eingangsbereichen	Eingangsbereich
 Eingangsbereiches	Eingangsbereich
 Eingangsbereichs	Eingangsbereich
 Eingangstüren	Eingangstür
+Eingehen	eingehen
 Eingreifen	eingreifen
 Eingreifens	eingreifen
 Eingriffe	Eingriff
@@ -5328,6 +5533,7 @@ Einkommens	einkommen
 Einkommensteuern	Einkommensteuer
 Einkäufe	Einkauf
 Einkäufen	Einkauf
+Einkäufer	einkaufen
 Einkünfte	Einkunft
 Einkünften	Einkunft
 Einladen	einladen
@@ -5516,6 +5722,7 @@ Einzäunen	einzäunen
 Einzäuner	einzäunen
 Einzüge	Einzug
 Einzügen	Einzug
+Eis	Eis|Ei
 Eisberge	Eisberg
 Eisbergen	Eisberg
 Eisberges	Eisberg
@@ -5525,6 +5732,8 @@ Eisbärin	Eisbär
 Eisbärs	Eisbär
 Eischen	Eis
 Eise	Eis
+Eisen	Eis|Eisen
+Eisenacherin	Eisenacher
 Eisenachern	Eisenacher
 Eisenachers	Eisenacher
 Eisenbahnen	Eisenbahn
@@ -5572,6 +5781,7 @@ Elements	Element
 Elends	Elend
 Elephant	Elefant
 Elephanten	Elefant
+Elfe	Elf
 Elfen	Elf
 Elfern	Elfer
 Elfers	Elfer
@@ -5615,8 +5825,10 @@ Empfanges	Empfang
 Empfangs	Empfang
 Empfehlen	empfehlen
 Empfehlungen	Empfehlung
+Empfinden	empfinden
 Empfänge	Empfang
 Empfängen	Empfang
+Empfängerin	Empfänger
 Empfängern	Empfänger
 Empfängers	Empfänger
 Empören	empören
@@ -5693,6 +5905,7 @@ Engpasse	Engpass
 Engpasses	Engpass
 Engpässe	Engpass
 Engpässen	Engpass
+Enkelin	Enkel|Enkelin
 Enkelinnen	Enkelin
 Enkelkinde	Enkelkind
 Enkelkinder	Enkelkind
@@ -5702,9 +5915,11 @@ Enkelkinds	Enkelkind
 Enkeln	Enkel
 Enkels	Enkel
 Ensembles	Ensemble
+Entchen	Ente
 Entdeckungen	Entdeckung
 Enteignungen	Enteignung
 Enten	Ente
+Entfernen	entfernen|Entfernen
 Entfernens	Entfernen
 Entfernungen	Entfernung
 Entführen	entführen
@@ -5712,6 +5927,7 @@ Entführer	entführen
 Entführern	entführen
 Entführers	entführen
 Entführungen	Entführung
+Entgegenkommen	entgegenkommen|Entgegenkommen
 Entgegenkommens	Entgegenkommen
 Entgelte	Entgelt
 Entgelten	Entgelt
@@ -5720,6 +5936,7 @@ Entgelts	Entgelt
 Enthalten	enthalten
 Enthaltungen	Enthaltung
 Enthüllungen	Enthüllung
+Entkommen	entkommen
 Entladen	entladen
 Entlader	entladen
 Entlassen	entlassen
@@ -5729,6 +5946,7 @@ Entlein	Ente
 Entleins	Ente
 Entlohnungen	Entlohnung
 Entnahmen	Entnahme
+Entreissen	entreißen
 Entreisser	entreißen
 Entreisserin	entreißen
 Entreißen	entreißen
@@ -5770,6 +5988,7 @@ Entwarnungen	Entwarnung
 Entwenden	entwenden
 Entwerfen	entwerfen
 Entwerfer	entwerfen
+Entwicklerin	Entwickler
 Entwicklern	Entwickler
 Entwicklers	Entwickler
 Entwicklungen	Entwicklung
@@ -5806,6 +6025,7 @@ Erbes	Erbe
 Erbgute	Erbgut
 Erbgutes	Erbgut
 Erbguts	Erbgut
+Erbin	Erbe
 Erbrechens	Erbrechen
 Erbschaften	Erbschaft
 Erbschaftssteuern	Erbschaftssteuer
@@ -5851,6 +6071,7 @@ Erfassens	erfassen
 Erfasser	erfassen
 Erfassungen	Erfassung
 Erfinden	erfinden
+Erfinderin	Erfinder
 Erfindern	Erfinder
 Erfinders	Erfinder
 Erfindungen	Erfindung
@@ -5871,6 +6092,7 @@ Erfordernissen	Erfordernis
 Erfordernisses	Erfordernis
 Erforschungen	Erforschung
 Erfrischungen	Erfrischung
+Erfurterin	Erfurter
 Erfurtern	Erfurter
 Erfurters	Erfurter
 Erfüllungen	Erfüllung
@@ -5995,6 +6217,7 @@ Erscheinungsbildern	Erscheinungsbild
 Erscheinungsbildes	Erscheinungsbild
 Erscheinungsbilds	Erscheinungsbild
 Erschiessen	erschießen
+Erschiesser	erschießen
 Erschießen	erschießen
 Erschießer	erschießen
 Erschlagen	erschlagen
@@ -6016,6 +6239,7 @@ Ersparnisse	Ersparnis
 Ersparnissen	Ersparnis
 Ersparnisses	Ersparnis
 Erstattungen	Erstattung
+Erstaunen	erstaunen
 Erste	Erster
 Erstellungen	Erstellung
 Erstem	Erster
@@ -6050,6 +6274,8 @@ Erwachens	erwachen
 Erwachsene	Erwachsener|Erwachsenes
 Erwachsenem	Erwachsener|Erwachsenes
 Erwachsenen	Erwachsener|Erwachsenes
+Erwachsener	Erwachsener|Erwachsenes
+Erwachsenes	Erwachsener|Erwachsenes
 Erwartungen	Erwartung
 Erwartungshaltungen	Erwartungshaltung
 Erweitern	erweitern
@@ -6103,6 +6329,7 @@ Erzählers	Erzähler
 Erzählungen	Erzählung
 Eröffnungen	Eröffnung
 Eröffnungsfeiern	Eröffnungsfeier
+Es	Es|E
 Eschweilerin	Eschweiler
 Eschweilerinnen	Eschweiler
 Eschweilern	Eschweiler
@@ -6111,11 +6338,13 @@ Eselchen	Esel
 Eselchens	Esel
 Eselein	Esel
 Eseleins	Esel
+Eselin	Esel
 Eseln	Esel
 Esels	Esel
 Eserl	Esel
 Eskalationen	Eskalation
 Essays	Essay
+Essen	Essen|essen
 Essenerin	Essener
 Essenern	Essener
 Esseners	Essener
@@ -6131,10 +6360,12 @@ Etappensiege	Etappensieg
 Etappensiegs	Etappensieg
 Etats	Etat
 Ethiken	Ethik
+Etikette	Etikett
 Etiketten	Etikett
 Etikettes	Etikett
 Etiketts	Etikett
 Euch	es|er|sie|wir|ihr|ich|Sie|du
+Euer	es|er|sie|wir|ihr|ich|Sie|du|Euer
 Eulchen	Eule
 Eulen	Eule
 Euphorien	Euphorie
@@ -6174,6 +6405,7 @@ Exemplaren	Exemplar
 Exemplars	Exemplar
 Exen	Ex|exen
 Exfrauen	Exfrau
+Exfreund	Exfreundin
 Exfreundinnen	Exfreundin
 Exile	Exil
 Exilen	Exil
@@ -6189,6 +6421,7 @@ Experimentieren	experimentieren
 Experimentierens	experimentieren
 Experiments	Experiment
 Experten	Experte
+Expertin	Experte|Expertin
 Expertinnen	Expertin
 Expertisen	Expertise
 Explosionen	Explosion
@@ -6224,6 +6457,7 @@ Fachbereiches	Fachbereich
 Fachbereichs	Fachbereich
 Fache	Fach
 Faches	Fach
+Fachfrau	Fachmann
 Fachgebiete	Fachgebiet
 Fachgebieten	Fachgebiet
 Fachgebietes	Fachgebiet
@@ -6250,8 +6484,10 @@ Fachwissens	Fachwissen
 Fachzeitschriften	Fachzeitschrift
 Fachärzte	Facharzt
 Fachärzten	Facharzt
+Fachärztin	Facharzt
 Fackeln	Fackel
 Fadens	Faden
+Fahnder	fahnden|Fahnder
 Fahnderin	Fahnder
 Fahnderl	Fahne
 Fahndern	Fahnder
@@ -6282,6 +6518,7 @@ Fahrpreise	Fahrpreis
 Fahrpreises	Fahrpreis
 Fahrrade	Fahrrad
 Fahrrades	Fahrrad
+Fahrradfahrerin	Fahrradfahrer
 Fahrradfahrern	Fahrradfahrer
 Fahrradfahrers	Fahrradfahrer
 Fahrrads	Fahrrad
@@ -6320,6 +6557,7 @@ Fakts	Fakt
 Faktums	Faktum
 Fakultäten	Fakultät
 Falken	Falke
+Falle	Fall|Falle
 Fallen	fallen|Fall|Falle
 Falles	Fall
 Falls	Fall
@@ -6341,6 +6579,7 @@ Familienväter	Familienvater
 Familienvätern	Familienvater
 Familys	Family
 Fange	Fang
+Fangen	fangen
 Fanges	Fang
 Fangs	Fang
 Fans	Fan
@@ -6378,6 +6617,7 @@ Faustschlägen	Faustschlag
 Favoriten	Favorit
 Favoritin	Favorit
 Favoritinnen	Favorit
+Faxe	Fax
 Faxen	Fax
 Faxes	Fax
 Fazite	Fazit
@@ -6394,12 +6634,14 @@ Federchens	Feder
 Federn	Feder
 Feedbacks	Feedback
 Feen	Fee
+Feger	fegen
 Fehlbetrage	Fehlbetrag
 Fehlbetrages	Fehlbetrag
 Fehlbetrags	Fehlbetrag
 Fehlbeträge	Fehlbetrag
 Fehlbeträgen	Fehlbetrag
 Fehleinschätzungen	Fehleinschätzung
+Fehlen	fehlen|Fehlen
 Fehlens	Fehlen
 Fehlentscheidungen	Fehlentscheidung
 Fehlermeldungen	Fehlermeldung
@@ -6432,6 +6674,7 @@ Feindbilds	Feindbild
 Feinde	Feind
 Feinden	Feind
 Feindes	Feind
+Feindin	Feind
 Feinds	Feind
 Feinstaube	Feinstaub
 Feinstaubes	Feinstaub
@@ -6462,6 +6705,7 @@ Fellen	Fell
 Felles	Fell
 Fells	Fell
 Felse	Fels
+Felsen	Felsen|Fels
 Felsens	Felsen|Fels
 Felses	Fels
 Feminismen	Feminismus
@@ -6504,6 +6748,7 @@ Fertigen	fertigen
 Fertigkeiten	Fertigkeit
 Fertigstellungen	Fertigstellung
 Fertigungen	Fertigung
+Feste	Fest|Feste
 Festen	Fest|Feste
 Festes	Fest
 Festhalten	festhalten
@@ -6549,6 +6794,7 @@ Feuerpausen	Feuerpause
 Feuers	Feuer
 Feuerwachen	Feuerwache
 Feuerwehren	Feuerwehr
+Feuerwehrfrau	Feuerwehrmann
 Feuerwehrhause	Feuerwehrhaus
 Feuerwehrhauses	Feuerwehrhaus
 Feuerwehrhäuser	Feuerwehrhaus
@@ -6579,6 +6825,7 @@ Filialen	Filiale
 Filmchen	Film
 Filmchens	Film
 Filme	Film
+Filmemacherin	Filmemacher
 Filmemachern	Filmemacher
 Filmemachers	Filmemacher
 Filmen	Film
@@ -6597,6 +6844,7 @@ Finanzamtes	Finanzamt
 Finanzamts	Finanzamt
 Finanzen	Finanz
 Finanzexperten	Finanzexperte
+Finanzexpertin	Finanzexperte
 Finanzierungen	Finanzierung
 Finanzkrisen	Finanzkrise
 Finanzlagen	Finanzlage
@@ -6633,14 +6881,17 @@ Fingerabdrücke	Fingerabdruck
 Fingerabdrücken	Fingerabdruck
 Fingerchen	Finger
 Fingerchens	Finger
+Fingerlein	Finger
 Fingern	Finger
 Fingers	Finger
 Fingerspitzengefühle	Fingerspitzengefühl
 Fingerspitzengefühlen	Fingerspitzengefühl
 Fingerspitzengefühles	Fingerspitzengefühl
 Fingerspitzengefühls	Fingerspitzengefühl
+Finken	Fink
 Finks	Fink
 Finnen	Finne
+Finnin	Finne
 Finsternisse	Finsternis
 Finsternissen	Finsternis
 Finta	Frau|inter|Lesbe
@@ -6655,10 +6906,13 @@ Firste	First
 Firsten	First
 Firstes	First
 Firsts	First
+Fischchen	Fisch
 Fische	Fisch
 Fischen	Fisch|fischen
 Fischens	Fisch|fischen
+Fischer	Fischer|fischen
 Fischereien	Fischerei
+Fischerin	Fischer
 Fischerl	Fisch
 Fischern	Fischer
 Fischers	Fischer
@@ -6685,11 +6939,14 @@ Flauten	Flaute
 Fleckchen	Fleck
 Fleckchens	Fleck
 Flecke	Fleck
+Flecken	Flecken|Fleck
 Fleckens	Flecken
+Fleckerl	Fleck
 Flecks	Fleck
 Fledermäuse	Fledermaus
 Fledermäusen	Fledermaus
 Fleische	Fleisch
+Fleischerin	Fleischer
 Fleischern	Fleischer
 Fleischers	Fleischer
 Fleisches	Fleisch
@@ -6698,6 +6955,7 @@ Fleiss	Fleiß
 Fleisses	Fleiß
 Fleiße	Fleiß
 Fleißes	Fleiß
+Flensburgerin	Flensburger
 Flensburgern	Flensburger
 Flensburgers	Flensburger
 Fliegen	fliegen|Fliege
@@ -6826,6 +7084,7 @@ Followers	Follower
 Foltern	Folter
 Footballs	Football
 Fora	Forum
+Forderer	fordern
 Fordern	fordern
 Forderungen	Forderung
 Foren	Forum
@@ -6879,8 +7138,10 @@ Fortschrittes	Fortschritt
 Fortschritts	Fortschritt
 Fortsetzungen	Fortsetzung
 Forums	Forum
+Fotograf	Fotograf|Fotografin
 Fotografen	Fotograf
 Fotografien	Fotografie
+Fotografin	Fotograf|Fotografin
 Fotografinnen	Fotografin
 Fotographie	Fotografie
 Fotographien	Fotografie
@@ -6913,17 +7174,22 @@ Fraktionsvorsitzende	Fraktionsvorsitzender
 Fraktionsvorsitzendem	Fraktionsvorsitzender
 Fraktionsvorsitzenden	Fraktionsvorsitzender
 Frames	Frame
+Franken	Franken|Franke
 Frankens	Franken
+Frankfurterin	Frankfurter
 Frankfurtern	Frankfurter
 Frankfurters	Frankfurter
 Frankin	Franke
 Frantzose	Franzose
 Frantzösin	Französin
 Franze	Französisch
+Franzose	Franzose|Französin
 Franzosen	Franzose
+Französin	Franzose|Französin
 Französinnen	Französin
 Französischen	Französisch
 Französischs	Französisch
+Frauchen	Frau|Frauchen
 Frauchens	Frauchen
 Frauen	Frau
 Frauenhause	Frauenhaus
@@ -7002,6 +7268,7 @@ Freizeiten	Freizeit
 Freizeitparks	Freizeitpark
 Fremden	Fremde
 Fremdenverkehrs	Fremdenverkehr
+Fremder	Fremde
 Fremdsprachen	Fremdsprache
 Fremdworte	Fremdwort
 Fremdwortes	Fremdwort
@@ -7009,8 +7276,12 @@ Fremdworts	Fremdwort
 Fremdwörter	Fremdwort
 Fremdwörtern	Fremdwort
 Frequenzen	Frequenz
+Fressen	fressen
+Fresser	fressen
 Freud	Freude
 Freuden	Freude
+Freundchen	Freund
+Freunde	Freund|Freunde
 Freunden	Freund
 Freunderl	Freund
 Freundes	Freund
@@ -7042,6 +7313,7 @@ Friedhöfe	Friedhof
 Friedhöfen	Friedhof
 Friseure	Friseur
 Friseuren	Friseur
+Friseurin	Friseur
 Friseurs	Friseur
 Friseuse	Friseur
 Fristen	Frist
@@ -7050,6 +7322,7 @@ Frisör	Friseur
 Frisöre	Friseur
 Frisören	Friseur
 Frisörs	Friseur
+Fritzchen	Fritz
 Fritze	Fritz
 Fritzen	Fritz
 Fritzens	Fritz
@@ -7080,12 +7353,14 @@ Frustes	Frust
 Frustrationen	Frustration
 Frusts	Frust
 Fränkin	Franke
+Fräulein	Frau
 Fröschchen	Frosch
 Frösche	Frosch
 Fröschen	Frosch
 Fröschlein	Frosch
 Fröste	Frost
 Frösten	Frost
+Früchtchen	Frucht
 Früchte	Frucht
 Früchten	Frucht
 Früh	Frühe
@@ -7189,6 +7464,8 @@ Fußabdrucks	Fußabdruck
 Fußabdrücke	Fußabdruck
 Fußabdrücken	Fußabdruck
 Fußballe	Fußball
+Fußballer	Fußballer|Fußballerin
+Fußballerin	Fußballer|Fußballerin
 Fußballerinnen	Fußballerin
 Fußballern	Fußballer
 Fußballers	Fußballer
@@ -7235,12 +7512,15 @@ Fußwege	Fußweg
 Fußwegen	Fußweg
 Fußweges	Fußweg
 Fußwegs	Fußweg
+Fächer	Fach|Fächer
 Fächern	Fach|Fächer|fächern
 Fächers	Fächer
 Fädchen	Faden
 Fädchens	Faden
 Fäden	Faden
 Fähigkeiten	Fähigkeit
+Fähnchen	Fahne
+Fähnlein	Fahne
 Fähren	Fähre
 Fälkchen	Falke
 Fälkin	Falke
@@ -7269,6 +7549,7 @@ Fäßchen	Fass
 Fäßchens	Fass
 Föderationen	Föderation
 Föhlchen	Fohlen
+Förderer	fördern|Förderer
 Förderern	Förderer
 Förderers	Förderer
 Fördergelde	Fördergeld
@@ -7285,12 +7566,14 @@ Förmelchen	Formel
 Förmelchens	Formel
 Förste	Forst
 Försten	Forst
+Försterin	Förster
 Förstern	Förster
 Försters	Förster
 Füchschen	Fuchs
 Füchschens	Fuchs
 Füchse	Fuchs
 Füchsen	Fuchs
+Füchsin	Fuchs
 Füchslein	Fuchs
 Füchsleins	Fuchs
 Fühlen	fühlen
@@ -7329,6 +7612,7 @@ Fünkleins	Funke
 Fürchte	Furcht
 Fürchten	Furcht
 Fürsten	Fürst
+Fürstin	Fürst
 Füsschen	Fuß
 Füsschens	Fuß
 Füsse	Fuß
@@ -7349,6 +7633,7 @@ GH	Gerichtshof
 GK	Grafikkarte
 Gabeln	Gabel
 Gaben	Gabe
+Gaberl	Gabel
 Gagen	Gage
 Galas	Gala
 Galaxien	Galaxie
@@ -7418,6 +7703,8 @@ Gaten	Gate
 Gates	Gate
 Gattinnen	Gattin
 Gattungen	Gattung
+Gebaren	gebären
+Geber	geben
 Gebetchen	Gebet
 Gebete	Gebet
 Gebeten	Gebet
@@ -7485,9 +7772,12 @@ Gedächtnisse	Gedächtnis
 Gedächtnissen	Gedächtnis
 Gedächtnisses	Gedächtnis
 Gefahren	Gefahr
+Gefallen	gefallen|Gefallen
 Gefallens	Gefallen
+Gefangene	Gefangene|Gefangener
 Gefangenem	Gefangener
 Gefangenen	Gefangene|Gefangener
+Gefangener	Gefangene|Gefangener
 Gefangenschaften	Gefangenschaft
 Gefechte	Gefecht
 Gefechten	Gefecht
@@ -7505,6 +7795,7 @@ Gefrierpunkts	Gefrierpunkt
 Gefährden	gefährden
 Gefährder	gefährden
 Gefährdungen	Gefährdung
+Gefährte	Gefährt
 Gefährten	Gefährt
 Gefährtes	Gefährt
 Gefährts	Gefährt
@@ -7567,6 +7858,8 @@ Gegenzugs	Gegenzug
 Gegenzüge	Gegenzug
 Gegenzügen	Gegenzug
 Gegenübers	Gegenüber
+Gegner	Gegner|Gegnerin
+Gegnerin	Gegner|Gegnerin
 Gegnerinnen	Gegnerin
 Gegnern	Gegner
 Gegners	Gegner
@@ -7576,6 +7869,7 @@ Gehaltes	Gehalt
 Gehalts	Gehalt
 Gehegen	Gehege
 Geheges	Gehege
+Geheimdienste	Geheimdienst|Geheimdienste
 Geheimdiensten	Geheimdienst
 Geheimdienstes	Geheimdienst
 Geheimnisse	Geheimnis
@@ -7604,10 +7898,12 @@ Gehäuses	Gehäuse
 Gehölze	Gehölz
 Gehölzen	Gehölz
 Gehölzes	Gehölz
+Gehöre	Gehör
 Gehören	Gehör
 Gehöres	Gehör
 Gehörs	Gehör
 Geigen	Geige
+Geigerin	Geiger
 Geigern	Geiger
 Geigers	Geiger
 Geiseln	Geisel
@@ -7670,6 +7966,7 @@ Geliebte	Geliebter
 Geliebtem	Geliebter
 Geliebten	Geliebter
 Gelingen	gelingen
+Gelsenkirchenerin	Gelsenkirchener
 Gelsenkirchenern	Gelsenkirchener
 Gelsenkircheners	Gelsenkirchener
 Geltungen	Geltung
@@ -7720,6 +8017,7 @@ Genen	Gen
 Generaldirektoren	Generaldirektor
 Generaldirektorin	Generaldirektor
 Generaldirektors	Generaldirektor
+Generale	General
 Generalen	General
 Generales	General
 Generalin	General
@@ -7752,6 +8050,7 @@ Generäle	General
 Generälen	General
 Generälin	General
 Genesungen	Genesung
+Genferin	Genfer
 Genfern	Genfer
 Genfers	Genfer
 Genies	Genie
@@ -7762,6 +8061,7 @@ Genossinnen	Genosse
 Genres	Genre
 Gens	Gen
 Gentechniken	Gentechnik
+Gentleman	Lady|Gentleman
 Gentlemans	Gentleman
 Gentlemen	Gentleman
 Gentlemänner	Gentleman
@@ -7776,6 +8076,7 @@ Geografien	Geografie
 Geographie	Geografie
 Geographien	Geografie
 Geologen	Geologe
+Geologin	Geologe
 Geometrien	Geometrie
 Gepäcke	Gepäck
 Gepäcken	Gepäck
@@ -7783,6 +8084,7 @@ Gepäckes	Gepäck
 Gepäcks	Gepäck
 Geraden	Gerade
 Gerader	Gerade
+Geraerin	Geraer
 Geraern	Geraer
 Geraers	Geraer
 Gerangels	Gerangel
@@ -7811,6 +8113,7 @@ Gerichtsurteiles	Gerichtsurteil
 Gerichtsurteils	Gerichtsurteil
 Gerichtsverfahrens	Gerichtsverfahren
 Gerichtsverhandlungen	Gerichtsverhandlung
+Germane	German
 Germanen	German
 Germans	German
 Geruche	Geruch
@@ -7904,6 +8207,7 @@ Geschmäckern	Geschmack
 Geschosse	Geschoss
 Geschossen	Geschoss
 Geschosses	Geschoss
+Geschoß	Geschoss
 Geschwindigkeiten	Geschwindigkeit
 Geschwisterchen	Geschwister
 Geschwisterl	Geschwister
@@ -7924,6 +8228,7 @@ Geschäftsbereiche	Geschäftsbereich
 Geschäftsbereichen	Geschäftsbereich
 Geschäftsbereiches	Geschäftsbereich
 Geschäftsbereichs	Geschäftsbereich
+Geschäftsfrau	Geschäftsmann
 Geschäftsführerin	Geschäftsführer
 Geschäftsführern	Geschäftsführer
 Geschäftsführers	Geschäftsführer
@@ -7956,8 +8261,10 @@ Gesellen	Geselle
 Geselligkeiten	Geselligkeit
 Gesellin	Geselle
 Gesellschaften	Gesellschaft
+Gesellschafterin	Gesellschafter
 Gesellschaftern	Gesellschafter
 Gesellschafters	Gesellschafter
+Gesetze	Gesetz|Gesetze
 Gesetzen	Gesetz
 Gesetzentwurfe	Gesetzentwurf
 Gesetzentwurfes	Gesetzentwurf
@@ -8013,6 +8320,7 @@ Gesprächsstoffes	Gesprächsstoff
 Gesprächsstoffs	Gesprächsstoff
 Gespürs	Gespür
 Gestalten	gestalten|Gestalt
+Gestalter	gestalten
 Gestaltungen	Gestaltung
 Gestanke	Gestank
 Gestankes	Gestank
@@ -8173,10 +8481,12 @@ Glauben	Glaube
 Glaubens	Glaube
 Glaubwürdigkeiten	Glaubwürdigkeit
 Gleichbehandlungen	Gleichbehandlung
+Gleiche	Gleiche|Gleiches
 Gleichem	Gleiches
 Gleichen	Gleiche|Gleiches
 Gleicher	Gleiche|Gleiches
 Gleichgesinnten	Gleichgesinnte
+Gleichgesinnter	Gleichgesinnte
 Gleichgewichte	Gleichgewicht
 Gleichgewichten	Gleichgewicht
 Gleichgewichtes	Gleichgewicht
@@ -8199,6 +8509,7 @@ Gliederungen	Gliederung
 Gliedes	Glied
 Glieds	Glied
 Globalisierungen	Globalisierung
+Globen	Globus
 Globusse	Globus
 Globussen	Globus
 Globusses	Globus
@@ -8214,8 +8525,10 @@ Gläser	Glas
 Gläsern	Glas
 Gläslein	Glas
 Gläsleins	Glas
+Gläubige	Gläubiger|Gläubige
 Gläubigem	Gläubiger
 Gläubigen	Gläubiger|Gläubige
+Gläubiger	Gläubiger|Gläubige
 Gläubigern	Gläubiger
 Gläubigers	Gläubiger
 Glöckchen	Glocke
@@ -8259,8 +8572,10 @@ Golfplätzen	Golfplatz
 Golfs	Golf
 Gondeln	Gondel
 Gos	Go
+Gothaerin	Gothaer
 Gothaern	Gothaer
 Gothaers	Gothaer
+Gotte	Gott
 Gottes	Gott
 Gottesdienste	Gottesdienst
 Gottesdiensten	Gottesdienst
@@ -8273,6 +8588,7 @@ Gotteshäusern	Gotteshaus
 Gotts	Gott
 Gouverneure	Gouverneur
 Gouverneuren	Gouverneur
+Gouverneurin	Gouverneur
 Gouverneurs	Gouverneur
 Grabe	Grab
 Grabens	Graben
@@ -8317,6 +8633,7 @@ Grats	Grat
 Gratulationen	Gratulation
 Grauen	grauen
 Grauens	grauen
+Graus	Grau
 Grazerin	Grazer
 Grazern	Grazer
 Grazers	Grazer
@@ -8375,6 +8692,8 @@ Großbränden	Großbrand
 Große	Großes|Großer
 Großem	Großes|Großer
 Großen	Großes|Großer
+Großer	Großes|Großer
+Großes	Großes|Gros|Großer
 Großfamilien	Großfamilie
 Großhandeln	Großhandel
 Großhandels	Großhandel
@@ -8462,12 +8781,14 @@ Gruße	Gruß
 Grußes	Gruß
 Gräbchen	Grab
 Gräben	Graben
+Gräber	Grab|Gräber
 Gräberin	Gräber
 Gräberinnen	Gräber
 Gräbern	Grab|Gräber
 Gräbers	Gräber
 Gräblein	Grab
 Gräfchen	Graf
+Gräfin	Graf
 Gräflein	Graf
 Gränze	Grenze
 Gränzen	Grenze
@@ -8479,6 +8800,7 @@ Grössenordnung	Größenordnung
 Grössenordnungen	Größenordnung
 Größen	Größe
 Größenordnungen	Größenordnung
+Grübchen	Grube
 Grüblein	Grube
 Grünanlagen	Grünanlage
 Gründe	Grund
@@ -8490,8 +8812,10 @@ Gründunge	Gründung
 Gründungen	Gründung
 Gründunges	Gründung
 Gründungs	Gründung
+Grüne	Grüne|Grüner|Grünes
 Grünem	Grüner|Grünes
 Grünen	Grüne|Grüner|Grünes
+Grüner	Grüne|Grüner|Grünes
 Grünflächen	Grünfläche
 Grüns	Grün
 Grüppchen	Gruppe
@@ -8509,6 +8833,7 @@ Guitarre	Gitarre
 Guitarren	Gitarre
 Gummis	Gummi
 Gurken	Gurke
+Gurkerl	Gurke
 Gurte	Gurt
 Gurten	Gurt
 Gurtes	Gurt
@@ -8519,8 +8844,11 @@ Gutachtens	Gutachten
 Gutachterin	Gutachter
 Gutachtern	Gutachter
 Gutachters	Gutachter
+Gute	Gute|Gut|Gutes
 Gutem	Gutes
 Guten	Gute|Gutes
+Guter	Gute|Gutes
+Gutes	Gute|Gut|Gutes
 Guthabens	Guthaben
 Guts	Gut
 Gutscheine	Gutschein
@@ -8542,6 +8870,7 @@ Gäbelchens	Gabel
 Gäbelein	Gabel
 Gänge	Gang
 Gängen	Gang
+Gänschen	Gans
 Gänse	Gans
 Gänsen	Gans
 Gänslein	Gans
@@ -8552,6 +8881,7 @@ Gärten	Garten
 Gärtlein	Garten
 Gärtleins	Garten
 Gärtnereien	Gärtnerei
+Gärtnerin	Gärtner
 Gärtnern	Gärtner
 Gärtners	Gärtner
 Gässchen	Gasse
@@ -8572,6 +8902,7 @@ Gönners	gönnen
 Götter	Gott
 Götteren	Gott
 Göttern	Gott
+Göttin	Gott|Göttin
 Göttinnen	Göttin
 Götzen	Götze
 Gültigkeiten	Gültigkeit
@@ -8601,12 +8932,15 @@ Haare	Haar
 Haaren	Haar
 Haares	Haar
 Haars	Haar
+Haben	haben|Haben
 Habens	Haben
 Hacken	Hacke
+Hacker	Hacker|hacken
 Hackerin	Hacker
 Hackerinnen	Hacker
 Hackern	Hacker
 Hackers	Hacker
+Haeckse	Hacker
 Hafens	Hafen
 Hafenstädtchen	Hafenstadt
 Hafenstädte	Hafenstadt
@@ -8640,14 +8974,17 @@ Haie	Hai
 Haien	Hai
 Haies	Hai
 Hais	Hai
+Haken	Haken|haken
 Hakenkreuze	Hakenkreuz
 Hakenkreuzen	Hakenkreuz
 Hakenkreuzes	Hakenkreuz
 Hakens	Haken
+Hakerl	Haken
 Halbfinal	Halbfinale
 Halbfinalen	Halbfinale
 Halbfinales	Halbfinale
 Halbieren	halbieren
+Halbierer	halbieren
 Halbinseln	Halbinsel
 Halbjahre	Halbjahr
 Halbjahren	Halbjahr
@@ -8658,6 +8995,7 @@ Halbleiters	Halbleiter
 Halbmarathons	Halbmarathon
 Halbzeiten	Halbzeit
 Halbzeitpausen	Halbzeitpause
+Halle	Halle|Hall
 Hallen	Halle|Hall
 Hallenbade	Hallenbad
 Hallenbades	Hallenbad
@@ -8668,6 +9006,7 @@ Halles	Hall
 Hallos	Hallo
 Halloweens	Halloween
 Halls	Hall
+Halse	Hals
 Halses	Hals
 Haltbarkeiten	Haltbarkeit
 Halte	Halt
@@ -8792,7 +9131,9 @@ Harze	Harz
 Harzen	Harz
 Harzes	Harz
 Hasen	Hase
+Haserl	Hase
 Hasi	Hase
+Hasse	Hass
 Hasses	Hass
 Hauben	Haube
 Hauberl	Haube
@@ -8802,6 +9143,7 @@ Hauches	Hauch
 Hauchs	Hauch
 Haufe	Haufen
 Haufens	Haufen
+Hauferl	Haufen
 Hauptaufgaben	Hauptaufgabe
 Hauptbahnhofe	Hauptbahnhof
 Hauptbahnhofes	Hauptbahnhof
@@ -8824,6 +9166,7 @@ Hauptfeldern	Hauptfeld
 Hauptfeldes	Hauptfeld
 Hauptfelds	Hauptfeld
 Hauptfiguren	Hauptfigur
+Hauptfrau	Hauptmann
 Hauptgrunde	Hauptgrund
 Hauptgrundes	Hauptgrund
 Hauptgrunds	Hauptgrund
@@ -8921,6 +9264,7 @@ Hauswände	Hauswand
 Hauswänden	Hauswand
 Hausärzte	Hausarzt
 Hausärzten	Hausarzt
+Hausärztin	Hausarzt
 Hautfarben	Hautfarbe
 Hauß	Haus
 Hbf	Hauptbahnhof
@@ -8934,6 +9278,7 @@ Hechte	Hecht
 Hechten	Hecht
 Hechtes	Hecht
 Hechts	Hecht
+Hecke	Heck|Hecke
 Hecken	Heck|Hecke
 Heckes	Heck
 Hecks	Heck
@@ -8942,8 +9287,10 @@ Heeren	Heer
 Heeres	Heer
 Heers	Heer
 Hefen	Hefe
+Heftchen	Heft
 Hefte	Heft
 Heften	Heft
+Hefterl	Heft
 Heftes	Heft
 Heftl	Heft
 Hefts	Heft
@@ -8955,6 +9302,7 @@ Heidelbergerinnen	Heidelberger
 Heidelbergern	Heidelberger
 Heidelbergers	Heidelberger
 Heiden	Heide
+Heidin	Heide
 Heile	Heil
 Heiler	heilen
 Heilern	heilen
@@ -9004,7 +9352,9 @@ Heizöls	Heizöl
 Hektare	Hektar
 Hektaren	Hektar
 Hektars	Hektar
+Held	Held|Heldin
 Helden	Held
+Heldin	Held|Heldin
 Heldinnen	Heldin
 Helfer	helfen
 Helferin	helfen
@@ -9030,7 +9380,9 @@ Hemdes	Hemd
 Hemdlein	Hemd
 Hemdleins	Hemd
 Hemds	Hemd
+Hemmer	hemmen
 Hemmschwellen	Hemmschwelle
+Hengst	Pferd|Hengst|Stute
 Hengste	Hengst
 Hengsten	Hengst
 Hengstes	Hengst
@@ -9060,6 +9412,7 @@ Herbste	Herbst
 Herbsten	Herbst
 Herbstes	Herbst
 Herbsts	Herbst
+Herde	Herd|Herde
 Herden	Herd|Herde
 Herdes	Herd
 Herds	Herd
@@ -9081,16 +9434,20 @@ Heroine	Heroin
 Heroinen	Heroin
 Heroinnen	Heroin
 Heroins	Heroin
+Herr	Herr|Lady
+Herrchen	Herr|Herrchen
 Herrchens	Herrchen
 Herren	Herr
 Herrenhause	Herrenhaus
 Herrenhauses	Herrenhaus
 Herrenhäuser	Herrenhaus
 Herrenhäusern	Herrenhaus
+Herrin	Herr
 Herrl	Herr
 Herrlein	Herr
 Herrleins	Herr
 Herrn	Herr
+Herrschaften	Herrschaft
 Herrschen	herrschen
 Herrscher	herrschen
 Herrscherin	herrschen
@@ -9101,6 +9458,7 @@ Hersteller	herstellen
 Herstellern	herstellen
 Herstellers	herstellen
 Herstellungen	Herstellung
+Hertz	Herz
 Hertzog	Herzog
 Hervorrufen	hervorrufen
 Hervorrufer	hervorrufen
@@ -9109,9 +9467,11 @@ Hervorruferinnen	hervorrufen
 Herzblute	Herzblut
 Herzblutes	Herzblut
 Herzbluts	Herzblut
+Herzchen	Herz
 Herze	Herz
 Herzen	Herz
 Herzens	Herz
+Herzerl	Herz
 Herzes	Herz
 Herzinfarkte	Herzinfarkt
 Herzinfarkten	Herzinfarkt
@@ -9119,8 +9479,10 @@ Herzinfarktes	Herzinfarkt
 Herzinfarkts	Herzinfarkt
 Herzlein	Herz
 Herzleins	Herz
+Herzog	Herzog|Herzogin
 Herzoge	Herzog
 Herzoges	Herzog
+Herzogin	Herzog|Herzogin
 Herzoginnen	Herzogin
 Herzogs	Herzog
 Herzstillstandes	Herzstillstand
@@ -9138,9 +9500,11 @@ Hetzen	Hetze|hetzen
 Heucheleien	Heuchelei
 Heulen	heulen
 Heulens	heulen
+Hexen	Hexe|Hexen
 Hexene	Hexen
 Hexenen	Hexen
 Hexens	Hexen
+Hexer	Hexe
 Hexerin	Hexe
 Hexin	Hexe
 Heyde	Heide
@@ -9232,6 +9596,7 @@ Hinterrädchen	Hinterrad
 Hinterrädchens	Hinterrad
 Hinterräder	Hinterrad
 Hinterrädern	Hinterrad
+Hintertürchen	Hintertür
 Hintertüren	Hintertür
 Hinweise	Hinweis
 Hinweisen	Hinweis
@@ -9252,11 +9617,14 @@ Hirsche	Hirsch
 Hirschen	Hirsch
 Hirsches	Hirsch
 Hirschin	Hirsch
+Hirschkuh	Hirsch
 Hirschlein	Hirsch
 Hirschs	Hirsch
 Hirt	Hirte
 Hirten	Hirte
+Hirtin	Hirte
 Historien	Historie
+Historikerin	Historiker
 Historikern	Historiker
 Historikers	Historiker
 Hits	Hit
@@ -9285,8 +9653,10 @@ Hochwassers	Hochwasser
 Hochwässer	Hochwasser
 Hochwässern	Hochwasser
 Hochzeiten	Hochzeit
+Hocker	hocken
 Hockeys	Hockey
 Hofe	Hof
+Hoferin	Hofer
 Hofern	Hofer
 Hofers	Hofer
 Hofes	Hof
@@ -9446,15 +9816,18 @@ Hypotheken	Hypothek
 Hypothesen	Hypothese
 Hysterien	Hysterie
 Hyundais	Hyundai
+Häfen	Hafen|Häfen
 Häfens	Häfen
 Häferl	Häfen
 Häftlinge	Häftling
 Häftlingen	Häftling
 Häftlinges	Häftling
 Häftlings	Häftling
+Hähnchen	Hahn
 Hähne	Hahn
 Hähnen	Hahn
 Hähnlein	Hahn
+Häkchen	Haken
 Häklein	Haken
 Hälften	Hälfte
 Hälschen	Hals
@@ -9467,8 +9840,10 @@ Hämmerchen	Hammer
 Hämmerchens	Hammer
 Hämmerlein	Hammer
 Hämmern	Hammer|hämmern
+Händchen	Hand|Händchen
 Händchens	Händchen
 Hände	Hand
+Händel	Handel
 Händeln	Handel
 Händen	Hand
 Händlein	Hand
@@ -9483,6 +9858,7 @@ Hängen	hängen|Hang
 Härchen	Haar
 Härchens	Haar
 Härten	Härte
+Häschen	Hase
 Häsin	Hase
 Häslein	Hase
 Häsleins	Hase
@@ -9500,8 +9876,10 @@ Häupt	Haupt
 Häupter	Haupt
 Häuptern	Haupt
 Häusche	Haus
+Häuschen	Haus|Häuschen
 Häuschens	Häuschen
 Häuseken	Haus
+Häusel	Haus
 Häuselein	Haus
 Häuselin	Haus
 Häuser	Haus
@@ -9510,6 +9888,7 @@ Häuserl	Haus
 Häusern	Haus
 Häusgen	Haus
 Häusken	Haus
+Häusl	Haus
 Häusle	Haus
 Häuslein	Haus
 Häusleins	Haus
@@ -9517,6 +9896,7 @@ Häuslen	Haus
 Häusles	Haus
 Häusli	Haus
 Häuslin	Haus
+Häutchen	Haut
 Häute	Haut
 Häuten	Haut
 Häutlein	Haut
@@ -9543,6 +9923,7 @@ Höhepunktes	Höhepunkt
 Höhepunkts	Höhepunkt
 Höhlen	Höhle
 Höllen	Hölle
+Hölzchen	Holz
 Hölzer	Holz
 Hölzern	Holz
 Hölzlein	Holz
@@ -9556,6 +9937,7 @@ Hörerin	Hörer
 Hörerinnen	Hörer
 Hörern	Hörer
 Hörers	Hörer
+Hörnchen	Horn
 Hörnderl	Horn
 Hörndl	Horn
 Hörner	Horn
@@ -9573,6 +9955,7 @@ Hörspieles	Hörspiel
 Hörspiels	Hörspiel
 Hörsäle	Hörsaal
 Hörsälen	Hörsaal
+Höschen	Hose
 Höslein	Hose
 Hösleins	Hose
 Hübe	Hub
@@ -9580,19 +9963,24 @@ Hüben	Hub
 Hüften	Hüfte
 Hügeln	Hügel
 Hügels	Hügel
+Hühnchen	Huhn
+Hühner	Hühner|Huhn
 Hühnern	Huhn
 Hühnlein	Huhn
 Hühnleins	Huhn
 Hülfe	Hilfe
 Hülfen	Hilfe
 Hüllen	Hülle
+Hündchen	Hund
 Hünde	Hund
 Hünden	Hund
+Hündin	Hund|Hündin
 Hündinnen	Hündin
 Hündlein	Hund
 Hündleins	Hund
 Hüpfburgen	Hüpfburg
 Hüpfen	hüpfen
+Hüpfer	hüpfen
 Hürden	Hürde
 Hüsterchen	Husten
 Hüsterchens	Husten
@@ -9626,6 +10014,7 @@ Identifizierungen	Identifizierung
 Identitäten	Identität
 Ideologien	Ideologie
 Idioten	Idiot
+Idiotin	Idiot
 Idole	Idol
 Idolen	Idol
 Idoles	Idol
@@ -9753,6 +10142,7 @@ Informatikerin	Informatiker
 Informatikerinnen	Informatiker
 Informatikern	Informatiker
 Informatikers	Informatiker
+Informationen	Informationen|Information
 Informationsaustausche	Informationsaustausch
 Informationsaustauschen	Informationsaustausch
 Informationsaustausches	Informationsaustausch
@@ -9769,7 +10159,9 @@ Infrastrukturen	Infrastruktur
 Ingenieure	Ingenieur
 Ingenieuren	Ingenieur
 Ingenieures	Ingenieur
+Ingenieurin	Ingenieur
 Ingenieurs	Ingenieur
+Ingolstädterin	Ingolstädter
 Ingolstädtern	Ingolstädter
 Ingolstädters	Ingolstädter
 Inhaberin	Inhaber
@@ -9805,7 +10197,9 @@ Innenhofs	Innenhof
 Innenhöfe	Innenhof
 Innenhöfen	Innenhof
 Innenlebens	Innenleben
+Innenminister	Innenminister|Innenministerin
 Innenministerien	Innenministerium
+Innenministerin	Innenminister|Innenministerin
 Innenministerinnen	Innenministerin
 Innenministeriums	Innenministerium
 Innenministern	Innenminister
@@ -9830,10 +10224,12 @@ Inneren	Inneres
 Innerer	Inneres
 Innern	Inneres
 Innovationen	Innovation
+Innsbruckerin	Innsbrucker
 Innsbruckern	Innsbrucker
 Innsbruckers	Innsbrucker
 Inputs	Input
 Insassen	Insasse
+Insassin	Insasse
 Inschriften	Inschrift
 Insekte	Insekt
 Insekten	Insekt
@@ -9876,6 +10272,7 @@ Inszenierungen	Inszenierung
 Integrationen	Integration
 Integritäten	Integrität
 Intellektuellen	Intellektuelle
+Intellektueller	Intellektuelle
 Intelligenzen	Intelligenz
 Intendanten	Intendant
 Intendantin	Intendant
@@ -9936,6 +10333,7 @@ Investments	Investment
 Investoren	Investor
 Investors	Investor
 Involvieren	involvieren
+Irakerin	Iraker
 Irakern	Iraker
 Irakers	Iraker
 Iraki	Iraker
@@ -9945,8 +10343,10 @@ Iriden	Iris
 Irides	Iris
 Iridi	Iris
 Iridis	Iris
+Irin	Iris
 Ironien	Ironie
 Irren	Irre
+Irrer	Irre
 Irrtume	Irrtum
 Irrtumes	Irrtum
 Irrtums	Irrtum
@@ -10057,6 +10457,7 @@ Jecken	Jeck
 Jecks	Jeck
 Jedis	Jedi
 Jeeps	Jeep
+Jenaerin	Jenaer
 Jenaern	Jenaer
 Jenaers	Jenaer
 Jets	Jet
@@ -10083,13 +10484,16 @@ Jokern	Joker
 Jokers	Joker
 Journale	Journal
 Journalen	Journal
+Journalist	Journalist|Journalistin
 Journalisten	Journalist
+Journalistin	Journalist|Journalistin
 Journalistinnen	Journalistin
 Journals	Journal
 Js	J
 Jubels	Jubel
 Jubiläen	Jubiläum
 Jubiläums	Jubiläum
+Jude	Jude|Jüdin
 Juden	Jude
 Jugendabteilungen	Jugendabteilung
 Jugendamte	Jugendamt
@@ -10106,6 +10510,8 @@ Jugendämter	Jugendamt
 Jugendämtern	Jugendamt
 Julei	Juli
 Julis	Juli
+Jung	Junge|Jung
+Junge	Junge|Junges
 Jungem	Junges
 Jungen	Junge|Junges
 Jungens	Junge
@@ -10118,7 +10524,9 @@ Juniorinnen	Junior
 Juniors	Junior
 Junis	Juni
 Juno	Juni
+Jurist	Jurist|Juristin
 Juristen	Jurist
+Juristin	Jurist|Juristin
 Juristinnen	Juristin
 Juroren	Juror
 Jurors	Juror
@@ -10142,6 +10550,7 @@ Jährlein	Jahr
 Jährleins	Jahr
 Jännern	Jänner
 Jänners	Jänner
+Jüdin	Jude|Jüdin
 Jüdinnen	Jüdin
 Jüdlein	Jude
 Jüdleins	Jude
@@ -10153,6 +10562,7 @@ Jüngern	Jünger
 Jüngers	Jünger
 Jünglein	Junge
 Jürgens	Jürgen
+K	König|K
 KG	Kellergeschoss|Kommanditgesellschaft
 KGV	Kurs-Gewinn-Verhältnis
 KK	Krankenkasse
@@ -10190,9 +10600,11 @@ Kahns	Kahn
 Kaie	Kai
 Kaien	Kai
 Kais	Kai
+Kaiserin	Kaiser
 Kaisern	Kaiser
 Kaisers	Kaiser
 Kakaos	Kakao
+Kalbe	Kalb
 Kalbes	Kalb
 Kalbs	Kalb
 Kalendern	Kalender
@@ -10221,6 +10633,7 @@ Kameraden	Kamerad
 Kameradin	Kamerad
 Kameradinnen	Kamerad
 Kameradschaften	Kameradschaft
+Kamerafrau	Kameramann
 Kameraleute	Kameramann
 Kameramannes	Kameramann
 Kameramanns	Kameramann
@@ -10253,12 +10666,15 @@ Kanale	Kanal
 Kanales	Kanal
 Kanalisationen	Kanalisation
 Kanals	Kanal
+Kandidat	Kandidat|Kandidatin
 Kandidaten	Kandidat
+Kandidatin	Kandidat|Kandidatin
 Kandidatinnen	Kandidatin
 Kandidaturen	Kandidatur
 Kandidieren	kandidieren
 Kaninchens	Kaninchen
 Kanonen	Kanone
+Kanten	Kanten|Kante
 Kantens	Kanten
 Kantersiege	Kantersieg
 Kantersiegen	Kantersieg
@@ -10271,8 +10687,10 @@ Kantons	Kanton
 Kantzler	Kanzler
 Kanzeln	Kanzel
 Kanzleien	Kanzlei
+Kanzler	Kanzler|Kanzlerin
 Kanzleramte	Kanzleramt
 Kanzleramtes	Kanzleramt
+Kanzlerin	Kanzler|Kanzlerin
 Kanzlerinnen	Kanzlerin
 Kanzlern	Kanzler
 Kanzlers	Kanzler
@@ -10284,6 +10702,7 @@ Kanälen	Kanal
 Kapazitäten	Kapazität
 Kapellen	Kapelle
 Kapi	Kapitän
+Kapitale	Kapital
 Kapitalen	Kapital
 Kapitalerhöhungen	Kapitalerhöhung
 Kapitales	Kapital
@@ -10302,7 +10721,9 @@ Kapitulationen	Kapitulation
 Kapitäne	Kapitän
 Kapitänen	Kapitän
 Kapitänes	Kapitän
+Kapitänin	Kapitän
 Kapitäns	Kapitän
+Kappa	Kapazität
 Kappen	Kappe
 Kapperl	Kappe
 Kappl	Kappe
@@ -10311,6 +10732,7 @@ Kapuzen	Kapuze
 Karbon	Carbon
 Karbons	Carbon
 Kardinals	Kardinal
+Kardinälchen	Kardinal
 Kardinäle	Kardinal
 Kardinälen	Kardinal
 Kare	Kar
@@ -10321,6 +10743,7 @@ Karfreitagen	Karfreitag
 Karfreitages	Karfreitag
 Karfreitags	Karfreitag
 Karikaturen	Karikatur
+Karlsruherin	Karlsruher
 Karlsruhern	Karlsruher
 Karlsruhers	Karlsruher
 Karnern	Karner
@@ -10335,6 +10758,7 @@ Karste	Karst
 Karsten	Karst
 Karstes	Karst
 Karsts	Karst
+Karten	Karten|Karte
 Kartenspiele	Kartenspiel
 Kartenspielen	Kartenspiel
 Kartenspieles	Kartenspiel
@@ -10351,6 +10775,7 @@ Karusselles	Karussell
 Karussells	Karussell
 Kasernen	Kaserne
 Kasinos	Kasino
+Kasselerin	Kasseler
 Kasselern	Kasseler
 Kasselers	Kasseler
 Kassen	Kasse
@@ -10366,13 +10791,17 @@ Kassenwärtin	Kassenwart
 Kassetten	Kassette
 Kassiere	Kassier
 Kassieren	Kassier
+Kassierer	Kassiererin|Kassierer
+Kassiererin	Kassiererin|Kassierer
 Kassiererinnen	Kassiererin
 Kassierern	Kassierer
 Kassierers	Kassierer
 Kassierin	Kassier
 Kassiers	Kassier
 Kastens	Kasten
+Kasterl	Kasten
 Kastl	Kasten
+Kat	Katalysator
 Kataloge	Katalog
 Katalogen	Katalog
 Kataloges	Katalog
@@ -10384,6 +10813,7 @@ Katastrophenschutze	Katastrophenschutz
 Katastrophenschutzes	Katastrophenschutz
 Kategorien	Kategorie
 Katen	Kate
+Kater	Katze|Kater
 Katerin	Katze
 Katern	Kater
 Katers	Kater
@@ -10392,6 +10822,7 @@ Katholiken	Katholik
 Katholikin	Katholik
 Katholikinnen	Katholik
 Katz	Katze
+Katze	Katze|Kater
 Katzen	Katze
 Katzerl	Katze
 Katzi	Katze
@@ -10400,6 +10831,7 @@ Kaufe	Kauf
 Kaufen	kaufen
 Kaufens	kaufen
 Kaufes	Kauf
+Kauffrau	Kaufmann
 Kaufhause	Kaufhaus
 Kaufhauses	Kaufhaus
 Kaufhäuser	Kaufhaus
@@ -10419,6 +10851,7 @@ Kaufvertrages	Kaufvertrag
 Kaufvertrags	Kaufvertrag
 Kaufverträge	Kaufvertrag
 Kautionen	Kaution
+Kavalier	Lady
 Kayser	Kaiser
 Kaysern	Kaiser
 Kaysers	Kaiser
@@ -10428,8 +10861,10 @@ Keepers	Keeper
 Kehlchen	Kehle
 Kehlen	Kehle
 Kehllein	Kehle
+Kehrer	kehren
 Kehrseiten	Kehrseite
 Kehrtwenden	Kehrtwende
+Keile	Keil
 Keilen	Keil
 Keiles	Keil
 Keils	Keil
@@ -10445,6 +10880,7 @@ Kellergeschossen	Kellergeschoss
 Kellergeschosses	Kellergeschoss
 Kellern	Keller
 Kellers	Keller
+Kellnerin	Kellner
 Kellnern	Kellner
 Kellners	Kellner
 Kelten	Kelte
@@ -10471,6 +10907,7 @@ Keramiken	Keramik
 Kerbchen	Kerbe
 Kerben	Kerbe
 Kerblein	Kerbe
+Kerlchen	Kerl
 Kerle	Kerl
 Kerlen	Kerl
 Kerls	Kerl
@@ -10526,6 +10963,7 @@ Kiefern	Kiefer
 Kiefers	Kiefer
 Kiele	Kiel
 Kielen	Kiel
+Kielerin	Kieler
 Kielern	Kieler
 Kielers	Kieler
 Kieles	Kiel
@@ -10603,6 +11041,7 @@ Kinderwäglein	Kinderwagen
 Kinderzimmern	Kinderzimmer
 Kinderzimmers	Kinderzimmer
 Kinderärzte	Kinderarzt
+Kinderärztin	Kinderarzt
 Kindes	Kind
 Kindheiten	Kindheit
 Kindlein	Kind
@@ -10649,6 +11088,7 @@ Kirmessen	Kirmes
 Kirschen	Kirsche
 Kisschen	Kissen
 Kissens	Kissen
+Kissingerin	Kissinger
 Kissingern	Kissinger
 Kissingers	Kissinger
 Kistchen	Kiste
@@ -10668,6 +11108,7 @@ Klanges	Klang
 Klangs	Klang
 Klans	Clan
 Klappen	Klappe
+Klapperl	Klappe
 Klarheiten	Klarheit
 Klartexte	Klartext
 Klartexten	Klartext
@@ -10691,6 +11132,7 @@ Klassenzimmers	Klassenzimmer
 Klassikern	Klassiker
 Klassikers	Klassiker
 Klatschen	klatschen|Klatsche
+Klause	Klaus
 Klauseln	Klausel
 Klausen	Klaus
 Klausuren	Klausur
@@ -10747,6 +11189,7 @@ Klientelen	Klientel
 Klienten	Klient
 Klientin	Klient
 Klientinnen	Klient
+Klima	Klima|Klimaanlage
 Klimaaktivisten	Klimaaktivist
 Klimaaktivistin	Klimaaktivist
 Klimaaktivistinnen	Klimaaktivist
@@ -10780,6 +11223,7 @@ Klone	Klon
 Klonen	Klon
 Klons	Klon
 Klopfen	klopfen
+Klopfer	klopfen
 Klos	Klo
 Klosters	Kloster
 Klotze	Klotz
@@ -10803,6 +11247,7 @@ Klösterlein	Kloster
 Klöstern	Kloster
 Klötzchen	Klotz
 Klötzchens	Klotz
+Klötze	Klotz
 Klötzen	Klotz
 Klötzer	Klotz
 Klötzern	Klotz
@@ -10810,6 +11255,7 @@ Klötzlein	Klotz
 Klüfte	Kluft
 Klüften	Kluft
 Knaben	Knabe
+Knacker	knacken
 Knackpunkte	Knackpunkt
 Knackpunkten	Knackpunkt
 Knackpunktes	Knackpunkt
@@ -10823,10 +11269,12 @@ Knalls	Knall
 Knaste	Knast
 Knastes	Knast
 Knasts	Knast
+Kneipchen	Kneipe
 Kneipen	Kneipe
 Kniee	Knie
 Knieen	Knie
 Knien	Knie
+Knies	Knie
 Knoblauche	Knoblauch
 Knoblauches	Knoblauch
 Knoblauchs	Knoblauch
@@ -10863,6 +11311,7 @@ Knöcheln	Knöchel
 Knöchels	Knöchel
 Knöchlein	Knochen
 Knöchleins	Knochen
+Knöllchen	Knolle
 Knöpfchen	Knopf
 Knöpfe	Knopf
 Knöpfen	Knopf
@@ -10883,6 +11332,7 @@ Koalitionsverträge	Koalitionsvertrag
 Koalitionsverträgen	Koalitionsvertrag
 Kobeln	Kobel
 Kobels	Kobel
+Koch	Koch|Köchin
 Kochbuche	Kochbuch
 Kochbuches	Kochbuch
 Kochbuchs	Kochbuch
@@ -10904,6 +11354,8 @@ Kofferraums	Kofferraum
 Kofferräume	Kofferraum
 Kofferräumen	Kofferraum
 Koffers	Koffer
+Kogel	Kobel
+Kohle	Kohle|Kohl
 Kohlekraftwerke	Kohlekraftwerk
 Kohlekraftwerken	Kohlekraftwerk
 Kohlekraftwerkes	Kohlekraftwerk
@@ -10981,6 +11433,7 @@ Kommunen	Kommune
 Kommunikationen	Kommunikation
 Kommunismen	Kommunismus
 Kommunisten	Kommunist
+Kommunistin	Kommunist
 Kompagnie	Kompanie
 Kompagnien	Kompanie
 Kompanien	Kompanie
@@ -11003,6 +11456,7 @@ Komplizin	Komplize
 Komplizinnen	Komplize
 Komponenten	Komponente
 Komponisten	Komponist
+Komponistin	Komponist
 Kompositionen	Komposition
 Kompromisse	Kompromiss
 Kompromissen	Kompromiss
@@ -11190,6 +11644,7 @@ Koten	Kot
 Kotes	Kot
 Kots	Kot
 Krache	Krach
+Kracherl	Krach
 Krachern	Kracher
 Krachers	Kracher
 Kraches	Krach
@@ -11287,6 +11742,7 @@ Kreditinstitutes	Kreditinstitut
 Kreditinstituts	Kreditinstitut
 Kreditkarten	Kreditkarte
 Kredits	Kredit
+Krefelderin	Krefelder
 Krefeldern	Krefelder
 Krefelders	Krefelder
 Kreischen	Kreis
@@ -11320,6 +11776,7 @@ Kreutz	Kreuz
 Kreutze	Kreuz
 Kreutzen	Kreuz
 Kreutzes	Kreuz
+Kreuzchen	Kreuz
 Kreuze	Kreuz
 Kreuzen	Kreuz
 Kreuzern	Kreuzer
@@ -11365,6 +11822,7 @@ Kriegsverbrechers	Kriegsverbrecher
 Kriminalitäten	Kriminalität
 Kriminalpolizeien	Kriminalpolizei
 Kriminellen	Kriminelle
+Krimineller	Kriminelle
 Krimis	Krimi
 Kripos	Kripo
 Krippen	Krippe
@@ -11380,6 +11838,7 @@ Kriställchens	Kristall
 Kriterien	Kriterium
 Kriteriums	Kriterium
 Kritiken	Kritik
+Kritikerin	Kritiker
 Kritikern	Kritiker
 Kritikers	Kritiker
 Kritikpunkte	Kritikpunkt
@@ -11389,6 +11848,7 @@ Kritikpunkts	Kritikpunkt
 Kritisieren	kritisieren
 Kritisierer	kritisieren
 Kroaten	Kroate
+Kroatin	Kroate
 Krokodile	Krokodil
 Krokodilen	Krokodil
 Krokodiles	Krokodil
@@ -11396,6 +11856,7 @@ Krokodilin	Krokodil
 Krokodils	Krokodil
 Kronen	Krone
 Kronprinzen	Kronprinz
+Kronprinzessin	Kronprinz
 Kruge	Krug
 Kruges	Krug
 Krugs	Krug
@@ -11416,6 +11877,7 @@ Krämpfe	Krampf
 Krämpfen	Krampf
 Kräne	Kran
 Kränen	Kran
+Kränzchen	Kranz
 Kränze	Kranz
 Kränzen	Kranz
 Kränzlein	Kranz
@@ -11424,6 +11886,7 @@ Kräutchen	Kraut
 Kräuter	Kraut
 Kräutern	Kraut
 Kräutlein	Kraut
+Krönchen	Krone
 Krönlein	Krone
 Krönleins	Krone
 Krönungen	Krönung
@@ -11587,9 +12050,12 @@ Käpplein	Kappe
 Kärtchen	Karte
 Käsen	Käse
 Käses	Käse
+Kästchen	Kasten|Kästchen
 Kästchens	Kästchen
 Kästen	Kasten
 Kästlein	Kasten
+Kätzchen	Katze
+Kätzin	Katze
 Kätzlein	Katze
 Kätzleins	Katze
 Käufe	Kauf
@@ -11600,6 +12066,7 @@ Käufers	kaufen
 Käyser	Kaiser
 Köche	Koch
 Köchen	Koch
+Köchin	Koch|Köchin
 Köchinnen	Köchin
 Köfferchen	Koffer
 Köfferchens	Koffer
@@ -11621,11 +12088,13 @@ Königs	König
 Können	können
 Könnens	können
 Könner	können
+Köpfchen	Kopf
 Köpfe	Kopf
 Köpfen	Kopf
 Köpflein	Kopf
 Köppe	Kopp
 Köppen	Kopp
+Körbchen	Korb
 Körbe	Korb
 Körbelein	Korb
 Körben	Korb
@@ -11633,10 +12102,12 @@ Körberl	Korb
 Körblein	Korb
 Körnchen	Korn
 Körnchens	Korn
+Körndl	Korn
 Körner	Korn
 Körnern	Korn
 Körnlein	Korn
 Körnleins	Korn
+Körperchen	Körper
 Körperen	Körper
 Körpergewichte	Körpergewicht
 Körpergewichten	Körpergewicht
@@ -11657,6 +12128,7 @@ Kötlein	Kot
 Küchelchen	Küche|Kuchen
 Küchelein	Küche
 Küchen	Küche
+Küchlein	Küche|Kuchen
 Kücken	Küken
 Kückens	Küken
 Kügelchen	Kugel
@@ -11683,6 +12155,8 @@ Kündigungen	Kündigung
 Kündigungsfristen	Kündigungsfrist
 Künste	Kunst
 Künsten	Kunst
+Künstler	Künstler|Künstlerin
+Künstlerin	Künstler|Künstlerin
 Künstlerinnen	Künstlerin
 Künstlern	Künstler
 Künstlers	Künstler
@@ -11703,6 +12177,7 @@ Kütschchen	Kutsche
 Kütschlein	Kutsche
 Küßchen	Kuss
 Küßchens	Kuss
+L	L|Liter|Läufer
 LEDs	LED
 LKA	Landeskriminalamt
 LKW	Lastkraftwagen
@@ -11710,6 +12185,7 @@ LKWs	Lastkraftwagen
 LR	Landrat
 LRA	Landratsamt
 LSBTIQ	queer|schwul|bisexuell|lesbisch
+Labe	Lab
 Labeln	Label
 Labels	Label
 Laben	Lab
@@ -11729,6 +12205,7 @@ Lachers	Lacher
 Lachse	Lachs
 Lachsen	Lachs
 Lachses	Lachs
+Lacke	Lack
 Lacken	Lack
 Lackes	Lack
 Lackieren	lackieren
@@ -11742,7 +12219,9 @@ Ladens	Laden
 Ladezeiten	Ladezeit
 Ladies	Lady
 Ladungen	Ladung
+Lady	Lady|Lord
 Ladys	Lady
+Lagen	Lage|Lagen
 Lagerfeuern	Lagerfeuer
 Lagerfeuers	Lagerfeuer
 Lagern	Lager
@@ -11757,6 +12236,7 @@ Lagerungen	Lagerung
 Laien	Laie
 Laiin	Laie
 Laiinnen	Laie
+Laken	Lake
 Lamme	Lamm
 Lammes	Lamm
 Lamms	Lamm
@@ -11866,6 +12346,7 @@ Lastern	Laster
 Lasters	Laster
 Lastkraftwagens	Lastkraftwagen
 Lastkraftwägen	Lastkraftwagen
+Lastwagenfahrerin	Lastwagenfahrer
 Lastwagenfahrern	Lastwagenfahrer
 Lastwagenfahrers	Lastwagenfahrer
 Lastwagens	Lastwagen
@@ -11877,6 +12358,7 @@ Laubblatts	Laubblatt
 Laubblättchen	Laubblatt
 Laubblätter	Laubblatt
 Laubblättern	Laubblatt
+Laube	Laub
 Laubes	Laub
 Laubs	Laub
 Laufbahnen	Laufbahn
@@ -11897,6 +12379,7 @@ Laufwerks	Laufwerk
 Laufzeiten	Laufzeit
 Launen	Laune
 Lauschen	lauschen
+Laute	Laut
 Lauten	lauten|Laut
 Lautes	Laut
 Lauts	Laut
@@ -11906,6 +12389,7 @@ Lautstärken	Lautstärke
 Lawinen	Lawine
 Layouts	Layout
 Leaks	Leak
+Leben	Leben|leben
 Lebens	Leben
 Lebensabschnitte	Lebensabschnitt
 Lebensabschnitten	Lebensabschnitt
@@ -11972,6 +12456,7 @@ Leberleins	Leber
 Lebern	Leber
 Lebewesens	Lebewesen
 Lecke	Leck
+Lecken	Leck|lecken
 Leckerbissens	Leckerbissen
 Leckereien	Leckerei
 Leckes	Leck
@@ -11979,6 +12464,7 @@ Lecks	Leck
 Lederhosen	Lederhose
 Ledern	Leder
 Leders	Leder
+Leere	Lehre|Leere
 Leeren	Leere
 Leerstande	Leerstand
 Leerstandes	Leerstand
@@ -12030,8 +12516,10 @@ Lehrplans	Lehrplan
 Lehrpläne	Lehrplan
 Lehrplänen	Lehrplan
 Lehrstellen	Lehrstelle
+Leibchen	Leib
 Leibe	Leib
 Leiber	Leib
+Leiberl	Leib
 Leibern	Leib
 Leibes	Leib
 Leibs	Leib
@@ -12053,11 +12541,13 @@ Leids	Leid
 Leidtragende	leidtragend
 Leidtragender	leidtragend
 Leihen	Leihe
+Leinen	Leine
 Leinwände	Leinwand
 Leinwänden	Leinwand
 Leipzigerin	Leipziger
 Leipzigern	Leipziger
 Leipzigers	Leipziger
+Leisten	leisten
 Leistender	leisten
 Leistungen	Leistung
 Leistungsfähigkeiten	Leistungsfähigkeit
@@ -12077,6 +12567,7 @@ Leitbilds	Leitbild
 Leiten	leiten
 Leitens	leiten
 Leiterchen	Leiter
+Leiterin	Leiter|Leiterin
 Leiterinnen	Leiterin
 Leiterlein	Leiter
 Leitern	Leiter
@@ -12107,6 +12598,7 @@ Lenzen	Lenz
 Lenzes	Lenz
 Leoparde	Leopard
 Leoparden	Leopard
+Leopardin	Leopard
 Leopards	Leopard
 Leos	Leo
 Lernen	lernen
@@ -12135,8 +12627,12 @@ Lesungen	Lesung
 Letzte	Letzter
 Letztem	Letzter
 Letzten	Letzter
+Letztere	Letztere|Letzterer
 Letzterem	Letzterer
 Letzteren	Letztere|Letzterer
+Letzterer	Letztere|Letzterer
+Leu	Löwe
+Leuchten	leuchten|Leuchten
 Leuchtenen	Leuchten
 Leuchtens	Leuchten
 Leuchtthurm	Leuchtturm
@@ -12147,6 +12643,7 @@ Leuchttürme	Leuchtturm
 Leuchttürmen	Leuchtturm
 Leude	Leute
 Leukämien	Leukämie
+Leut	Leute
 Leutchen	Leute
 Leutchens	Leute
 Leuten	Leute
@@ -12183,6 +12680,7 @@ Lichtleins	Licht
 Lichtquellen	Lichtquelle
 Lichts	Licht
 Lidls	Lidl
+Liebe	Liebe|Lieber
 Liebem	Lieber
 Lieben	Liebe|lieben|Lieber
 Liebens	Liebe|lieben|Lieber
@@ -12195,6 +12693,7 @@ Liebhabers	Liebhaber
 Lieblinge	Liebling
 Lieblingen	Liebling
 Lieblingin	Liebling
+Lieblings	Liebling
 Liedchen	Lied
 Liedchens	Lied
 Liede	Lied
@@ -12225,6 +12724,7 @@ Lifts	Lift
 Ligen	Liga
 Likes	Like
 Lilien	Lilie
+Limite	Limit
 Limiten	Limit
 Limits	Limit
 Limo	Limousine
@@ -12233,6 +12733,7 @@ Limousinen	Limousine
 Linden	Linde
 Linien	Linie
 Linken	Linke
+Linker	Linke
 Links	Link
 Linksverteidigerin	Linksverteidiger
 Linksverteidigerinnen	Linksverteidiger
@@ -12287,6 +12788,7 @@ Lokführer	Lokomotivführer
 Lokführern	Lokomotivführer
 Lokführers	Lokomotivführer
 Lokomotiven	Lokomotive
+Lokomotivführerin	Lokomotivführer
 Lokomotivführern	Lokomotivführer
 Lokomotivführers	Lokomotivführer
 Loks	Lokomotive
@@ -12294,6 +12796,7 @@ Londonerin	Londoner
 Londonern	Londoner
 Londoners	Londoner
 Looks	Look
+Lord	Lady|Lord
 Lorde	Lord
 Lorden	Lord
 Lords	Lord
@@ -12376,6 +12879,7 @@ Lärms	Lärm
 Läser	lesen|Laser
 Läufe	Lauf
 Läufen	Lauf
+Läufer	laufen|Läufer
 Läuferin	Läufer
 Läuferinnen	Läufer
 Läufern	Läufer
@@ -12386,6 +12890,7 @@ Löcher	Loch
 Löchern	Loch
 Löchlein	Loch
 Löchleins	Loch
+Löffelchen	Löffel
 Löffelein	Löffel
 Löffellein	Löffel
 Löffeln	Löffel
@@ -12404,12 +12909,16 @@ Lösegeldes	Lösegeld
 Lösegelds	Lösegeld
 Lösen	lösen
 Lösungen	Lösung
+Löwchen	Löwe
+Löwe	Löwe|Löwin
 Löwen	Löwe
 Löwenanteile	Löwenanteil
 Löwenanteilen	Löwenanteil
 Löwenanteils	Löwenanteil
 Löwens	Löwe
+Löwin	Löwe|Löwin
 Löwinnen	Löwin
+Lübeckerin	Lübecker
 Lübeckern	Lübecker
 Lübeckers	Lübecker
 Lücken	Lücke
@@ -12422,6 +12931,7 @@ Lüftern	Lüfter
 Lüfters	Lüfter
 Lüftlein	Luft
 Lüftungen	Lüftung
+Lügen	lügen|Lüge|Lügen
 Lügens	Lügen
 Lüste	Lust
 Lüsten	Lust
@@ -12434,8 +12944,11 @@ MP	Ministerpräsident|Maschinenpistole
 Machbarkeitsstudien	Machbarkeitsstudie
 Machen	machen
 Machens	machen
+Macher	machen|Macher
+Macherin	Macher
 Machern	Macher
 Machers	Macher
+Machthaberin	Machthaber
 Machthabern	Machthaber
 Machthabers	Machthaber
 Machtkampfes	Machtkampf
@@ -12464,6 +12977,7 @@ Magazins	Magazin
 Magdeburgerin	Magdeburger
 Magdeburgern	Magdeburger
 Magdeburgers	Magdeburger
+Mage	Magen
 Magens	Magen
 Magien	Magie
 Magierin	Magier
@@ -12498,16 +13012,20 @@ Maibaums	Maibaum
 Maibäume	Maibaum
 Maibäumen	Maibaum
 Maie	Mai
+Maien	Mai
 Mail	E-Mail
 Mailboxen	Mailbox
 Mailboxes	Mailbox
 Mailinglisten	Mailingliste
 Mails	E-Mail
+Mailänderin	Mailänder
 Mailändern	Mailänder
 Mailänders	Mailänder
 Mainstreams	Mainstream
+Mainzerin	Mainzer
 Mainzern	Mainzer
 Mainzers	Mainzer
+Mais	Mai|Mais
 Maises	Mais
 Majestäten	Majestät
 Majore	Major
@@ -12526,12 +13044,14 @@ Male	Mal
 Malen	Mal|malen
 Malens	Mal|malen
 Malereien	Malerei
+Malerin	Maler
 Malern	Maler
 Malers	Maler
 Males	Mal
 Mals	Mal
 Malte	Melde
 Malten	Melde
+Malteserin	Malteser
 Maltesern	Malteser
 Maltesers	Malteser
 Mamas	Mama
@@ -12555,6 +13075,7 @@ Mangeln	Mangel
 Mangels	Mangel
 Mangelwaren	Mangelware
 Manhattans	Manhattan
+Manieren	Manier
 Manifeste	Manifest
 Manifesten	Manifest
 Manifestes	Manifest
@@ -12594,6 +13115,7 @@ Marihuanas	Marihuana
 Marinas	Marina
 Marinen	Marine
 Mariä	Mare
+Marke	Mark|Marke
 Marken	Mark|Marke
 Markennamen	Markenname
 Markennamens	Markenname
@@ -12647,6 +13169,7 @@ Mass	Maß
 Massagen	Massage
 Massakern	Massaker
 Massakers	Massaker
+Masse	Maß|Masse
 Massen	Masse
 Massnahme	Maßnahme
 Massstab	Maßstab
@@ -12703,6 +13226,7 @@ Maßstabs	Maßstab
 Maßstäbe	Maßstab
 Maßstäben	Maßstab
 Mechaniken	Mechanik
+Mechanikerin	Mechaniker
 Mechanikern	Mechaniker
 Mechanikers	Mechaniker
 Mechanismen	Mechanismus
@@ -12716,6 +13240,7 @@ Medallie	Medaille
 Mediae	Media
 Mediaen	Media
 Mediationen	Mediation
+Medien	Medien|Media|Medium
 Medienberichte	Medienbericht
 Medienberichten	Medienbericht
 Medienberichts	Medienbericht
@@ -12726,6 +13251,7 @@ Medikaments	Medikament
 Meditationen	Meditation
 Mediums	Medium
 Medizinen	Medizin
+Medizinerin	Mediziner
 Medizinern	Mediziner
 Mediziners	Mediziner
 Mediä	Media
@@ -12797,6 +13323,7 @@ Mensche	Mensch
 Menschen	Mensch
 Menschenlebens	Menschenleben
 Menschenmengen	Menschenmenge
+Menschenrechte	Menschenrechte|Menschenrecht
 Menschenrechten	Menschenrechte|Menschenrecht
 Menschenrechtes	Menschenrecht
 Menschenrechts	Menschenrecht
@@ -12856,6 +13383,7 @@ Metalls	Metall
 Metals	Metal
 Metaphern	Metapher
 Meteorologen	Meteorologe
+Meteorologin	Meteorologe
 Metern	Meter
 Meters	Meter
 Methans	Methan
@@ -12863,6 +13391,7 @@ Methoden	Methode
 Methodiken	Methodik
 Metropolen	Metropole
 Metros	Metro
+Metzgerin	Metzger
 Metzgern	Metzger
 Metzgers	Metzger
 Mexikanern	Mexikaner
@@ -12925,6 +13454,7 @@ Milchprodukte	Milchprodukt
 Milchprodukten	Milchprodukt
 Milchproduktes	Milchprodukt
 Milchprodukts	Milchprodukt
+Milde	Melde
 Milieus	Milieu
 Militärexperten	Militärexperte
 Militärexpertin	Militärexperte
@@ -12948,6 +13478,7 @@ Millionenbeträgen	Millionenbetrag
 Millionenhöhen	Millionenhöhe
 Millionäre	Millionär
 Millionären	Millionär
+Millionärin	Millionär
 Millionärs	Millionär
 Milliärdchen	Milliarde
 Milliönchen	Million
@@ -12956,6 +13487,7 @@ Milten	Melde
 Minderheiten	Minderheit
 Minderheitsregierungen	Minderheitsregierung
 Minderjährigen	Minderjährige
+Minderjähriger	Minderjährige
 Mindestaltern	Mindestalter
 Mindestalters	Mindestalter
 Mindestlohne	Mindestlohn
@@ -12964,6 +13496,7 @@ Mindestlohns	Mindestlohn
 Mindestlöhne	Mindestlohn
 Mindestlöhnen	Mindestlohn
 Minen	Mine
+Mineral	Mineral|Mineralwasser
 Minerale	Mineral
 Mineralen	Mineral
 Minerales	Mineral
@@ -12979,11 +13512,15 @@ Mineralwässer	Mineralwasser
 Mineralwässern	Mineralwasser
 Minima	Minimum
 Minimums	Minimum
+Minister	Minister|Ministerin
 Ministerien	Ministerium
+Ministerin	Minister|Ministerin
 Ministerinnen	Ministerin
 Ministeriums	Ministerium
 Ministern	Minister
+Ministerpräsident	Ministerpräsident|Ministerpräsidentin
 Ministerpräsidenten	Ministerpräsident
+Ministerpräsidentin	Ministerpräsident|Ministerpräsidentin
 Ministerpräsidentinnen	Ministerpräsidentin
 Ministers	Minister
 Minusse	Minus
@@ -12991,7 +13528,9 @@ Minussen	Minus
 Minuten	Minute
 Minuterl	Minute
 Minütchen	Minute
+Mio	Million|Mio
 Mios	Mio
+Mischen	mischen
 Mischungen	Mischung
 Miseren	Misere
 Missachten	missachten
@@ -13028,6 +13567,8 @@ Miste	Mist
 Mistes	Mist
 Mists	Mist
 Mitarbeiten	mitarbeiten
+Mitarbeiter	Mitarbeiter|Mitarbeiterin
+Mitarbeiterin	Mitarbeiter|Mitarbeiterin
 Mitarbeiterinnen	Mitarbeiterin
 Mitarbeitern	Mitarbeiter
 Mitarbeiters	Mitarbeiter
@@ -13072,6 +13613,7 @@ Mitmenschin	Mitmensch
 Mitmischen	mitmischen
 Mitnehmen	mitnehmen
 Mitnehmens	mitnehmen
+Mitreissen	mitreißen
 Mitreißen	mitreißen
 Mitschülerin	Mitschüler
 Mitschülerinnen	Mitschüler
@@ -13161,6 +13703,7 @@ Mißerfolg	Misserfolg
 Mißfallen	missfallen
 Mißhandlung	Misshandlung
 Mobbings	Mobbing
+Mobile	Mobile|Mobil
 Mobilen	Mobil
 Mobiles	Mobile
 Mobilfunknetze	Mobilfunknetz
@@ -13197,6 +13740,7 @@ Moduln	Modul
 Moduls	Modul
 Mohre	Möhre
 Mohren	Mohr
+Mohrin	Mohr
 Molde	Melde
 Molden	Melde
 Molder	Mulde
@@ -13204,6 +13748,7 @@ Moleküle	Molekül
 Molekülen	Molekül
 Moleküls	Molekül
 Molkereien	Molkerei
+Molte	Melde
 Molter	Mulde
 Momentaufnahmen	Momentaufnahme
 Momentchen	Moment
@@ -13239,6 +13784,7 @@ Monsters	Monster
 Montagabende	Montagabend
 Montagabenden	Montagabend
 Montagabends	Montagabend
+Montage	Montag|Montage
 Montagen	Montag|Montage
 Montages	Montag
 Montagmittage	Montagmittag
@@ -13314,6 +13860,7 @@ Mottos	Motto
 Mountainbikes	Mountainbike
 Mowl	Maul
 Ms	M
+Mucke	Mücke
 Mudda	Mutter
 Mulden	Mulde
 Mulder	Mulde
@@ -13334,6 +13881,7 @@ Musikantin	Musikant
 Musikchen	Musik
 Musikchens	Musik
 Musiken	Musik
+Musikerin	Musiker|Musikerin
 Musikerinnen	Musikerin
 Musikern	Musiker
 Musikers	Musiker
@@ -13352,11 +13900,15 @@ Muskeln	Muskel
 Muskels	Muskel
 Muskul	Muskel
 Muskulaturen	Muskulatur
+Muslima	Muslim
+Muslime	Muslime|Muslim
 Muslimen	Muslime|Muslim
+Muslimin	Muslim
 Muslims	Muslim
 Mustern	Muster
 Musters	Muster
 Mutationen	Mutation
+Mute	Mut
 Mutes	Mut
 Mutmassen	mutmaßen
 Mutmaßen	mutmaßen
@@ -13392,6 +13944,7 @@ Mähen	mähen
 Mäler	Mal
 Mängel	Mangel
 Mängeln	Mangel
+Männchen	Mann|Männchen
 Männchens	Männchen
 Männeken	Mann
 Männekens	Mann
@@ -13399,13 +13952,17 @@ Männekes	Mann
 Männer	Mann
 Männerchen	Männchen
 Männern	Mann
+Männin	Mann
 Männle	Mann
+Männlein	Mann
 Mäntel	Mantel|Börsenmantel
 Mäntelchen	Mantel
 Mäntelchens	Mantel
 Mänteln	Mantel
 Mäntlein	Mantel
+Mär	März
 Märchens	Märchen
+Märker	Mark
 Märkte	Markt
 Märkten	Markt
 Märsche	Marsch
@@ -13424,9 +13981,13 @@ Mäulchen	Maul
 Mäulchens	Maul
 Mäuler	Maul
 Mäulern	Maul
+Mäuschen	Maus
+Mäuse	Maus|Mäuse
 Mäuselein	Maus
 Mäusen	Maus|Mäuse
+Mäuserich	Maus
 Mäusin	Maus
+Mäusken	Maus
 Mäusle	Maus
 Mäuslein	Maus
 Mäßigen	mäßigen
@@ -13444,6 +14005,7 @@ Mönchen	Mönch
 Mönches	Mönch
 Mönchlein	Mönch
 Mönchs	Mönch
+Mörderin	Mörder
 Mördern	Mörder
 Mörders	Mörder
 Möser	Moos
@@ -13462,6 +14024,7 @@ Mülleimern	Mülleimer
 Mülleimers	Mülleimer
 Müllerchen	Müller
 Müllerchens	Müller
+Müllerin	Müller
 Müllerlein	Müller
 Müllerleins	Müller
 Müllern	Müller
@@ -13503,6 +14066,7 @@ Mützchen	Mütze
 Mützchens	Mütze
 Mützen	Mütze
 Mützlein	Mütze
+N	N|Nord
 NB	Neubau
 NK	Nebenkosten
 NO	Nordost
@@ -13514,6 +14078,8 @@ Nachahmer	nachahmen
 Nachahmern	nachahmen
 Nachahmers	nachahmen
 Nacharbeiten	nacharbeiten
+Nachbar	Nachbar|Nachbarin
+Nachbarin	Nachbar|Nachbarin
 Nachbarinnen	Nachbarin
 Nachbarlande	Nachbarland
 Nachbarlandes	Nachbarland
@@ -13569,6 +14135,7 @@ Nachmittags	Nachmittag
 Nachnahmen	Nachnahme
 Nachnamen	Nachname
 Nachnamens	Nachname
+Nachrichten	Nachricht|Nachrichten
 Nachrichtenagenturen	Nachrichtenagentur
 Nachrichtendienste	Nachrichtendienst
 Nachrichtendiensten	Nachrichtendienst
@@ -13611,6 +14178,7 @@ Nadeln	Nadel
 Nagels	Nagel
 Nagen	nagen
 Nagerl	Nagel
+Nahme	Name
 Nahrungen	Nahrung
 Nahrungsmitteln	Nahrungsmittel
 Nahrungsmittels	Nahrungsmittel
@@ -13637,6 +14205,7 @@ Nationalfeiertages	Nationalfeiertag
 Nationalfeiertags	Nationalfeiertag
 Nationalhymnen	Nationalhymne
 Nationalisten	Nationalist
+Nationalistin	Nationalist
 Nationalitäten	Nationalität
 Nationalmannschaften	Nationalmannschaft
 Nationalparke	Nationalpark
@@ -13647,6 +14216,7 @@ Nationalpärke	Nationalpark
 Nationalpärken	Nationalpark
 Nationalsozialisten	Nationalsozialist
 Nationalsozialistin	Nationalsozialist
+Nationalspielerin	Nationalspieler|Nationalspielerin
 Nationalspielerinnen	Nationalspielerin
 Nationalspielern	Nationalspieler
 Nationalspielers	Nationalspieler
@@ -13713,6 +14283,7 @@ Nests	Nest
 Nettogewinne	Nettogewinn
 Nettogewinnen	Nettogewinn
 Nettogewinns	Nettogewinn
+Netze	Netz|Netze
 Netzen	Netz
 Netzes	Netz
 Netzteile	Netzteil
@@ -13748,6 +14319,7 @@ Neueröffnungen	Neueröffnung
 Neugeborene	Neugeborenes
 Neugeborenem	Neugeborenes
 Neugeborenen	Neugeborenes
+Neugeborener	Neugeborenes
 Neugestaltungen	Neugestaltung
 Neuheiten	Neuheit
 Neuigkeiten	Neuigkeit
@@ -13766,6 +14338,7 @@ Neuorientierungen	Neuorientierung
 Neuregelungen	Neuregelung
 Neuschnees	Neuschnee
 Neustarts	Neustart
+Neustädterin	Neustädter
 Neustädtern	Neustädter
 Neustädters	Neustädter
 Neutralitäten	Neutralität
@@ -13784,7 +14357,9 @@ Newslettern	Newsletter
 Newsletters	Newsletter
 Newtonmetern	Newtonmeter
 Newtonmeters	Newtonmeter
+Nichte	Neffe|Nichte
 Nichten	Nichte
+Nichtraucherin	Nichtraucher
 Nichtrauchern	Nichtraucher
 Nichtrauchers	Nichtraucher
 Nichtregierungsorganisationen	Nichtregierungsorganisation
@@ -13792,6 +14367,7 @@ Nichtse	Nichts
 Nichtsen	Nichts
 Nickeln	Nickel
 Nickels	Nickel
+Niederbayerin	Niederbayer
 Niederbayern	Niederbayer
 Niederbayers	Niederbayer
 Niederbrennen	niederbrennen
@@ -13807,6 +14383,7 @@ Niederlandes	Niederland
 Niederlands	Niederland
 Niederlassungen	Niederlassung
 Niederlegen	niederlegen
+Niederländerin	Niederländer
 Niederländern	Niederländer
 Niederländers	Niederländer
 Niedersachsen	Niedersachse
@@ -13822,6 +14399,7 @@ Niederösterreicherin	Niederösterreicher
 Niederösterreicherinnen	Niederösterreicher
 Niederösterreichern	Niederösterreicher
 Niederösterreichers	Niederösterreicher
+Niemand	niemand|Niemand
 Niemande	Niemand
 Niemands	Niemand
 Nierchen	Niere
@@ -13862,6 +14440,7 @@ Normalfälle	Normalfall
 Normalfällen	Normalfall
 Normalisierungen	Normalisierung
 Normen	Norm
+Norwegerin	Norweger
 Norwegern	Norweger
 Norwegers	Norweger
 Nostalgien	Nostalgie
@@ -13877,6 +14456,7 @@ Notdiensten	Notdienst
 Notdienstes	Notdienst
 Notdiensts	Notdienst
 Notebooks	Notebook
+Noten	Note|Noten
 Notenbanken	Notenbank
 Notfalle	Notfall
 Notfalles	Notfall
@@ -13900,6 +14480,7 @@ Notunterkünften	Notunterkunft
 Notwendigkeiten	Notwendigkeit
 Notärzte	Notarzt
 Notärzten	Notarzt
+Notärztin	Notarzt
 Nova	Novum
 Novellen	Novelle
 Novembern	November
@@ -13915,6 +14496,8 @@ Nullmeilensteines	Meilenstein
 Nullmeilensteins	Meilenstein
 Numero	Nummer
 Nummern	Nummer
+Nusserl	Nuss
+Nutzen	nutzen|Nutzen
 Nutzens	Nutzen
 Nutzerin	Nutzer
 Nutzern	Nutzer
@@ -13963,6 +14546,7 @@ Nüssen	Nuss
 Nüsslein	Nuss
 Nüssli	Nuss
 Nüßchen	Nuss
+O	O|Ost
 OB	Oberbürgermeister
 OG	Obergeschoss
 OLG	Oberlandesgericht
@@ -13979,6 +14563,7 @@ Oberarme	Oberarm
 Oberarmen	Oberarm
 Oberarmes	Oberarm
 Oberarms	Oberarm
+Oberbayerin	Oberbayer
 Oberbayern	Oberbayer
 Oberbayers	Oberbayer
 Oberbürgermeisterin	Oberbürgermeister
@@ -13992,6 +14577,7 @@ Oberfränkinnen	Oberfranke
 Obergeschosse	Obergeschoss
 Obergeschossen	Obergeschoss
 Obergeschosses	Obergeschoss
+Obergeschoß	Obergeschoss|Obergeschoß
 Obergeschoße	Obergeschoß
 Obergeschoßen	Obergeschoß
 Obergeschoßes	Obergeschoß
@@ -14007,6 +14593,7 @@ Oberhäupter	Oberhaupt
 Oberhäuptern	Oberhaupt
 Oberhäuser	Oberhaus
 Oberhäusern	Oberhaus
+Oberin	Ober
 Oberkörpern	Oberkörper
 Oberkörpers	Oberkörper
 Oberlandesgerichte	Oberlandesgericht
@@ -14015,6 +14602,7 @@ Oberlandesgerichtes	Oberlandesgericht
 Oberlandesgerichts	Oberlandesgericht
 Oberleitungen	Oberleitung
 Obern	Ober
+Obers	Ober
 Oberschenkeln	Oberschenkel
 Oberschenkels	Oberschenkel
 Oberschulen	Oberschule
@@ -14197,6 +14785,7 @@ Ortsteils	Ortsteil
 Ortszeiten	Ortszeit
 Ortszentren	Ortszentrum
 Ortszentrums	Ortszentrum
+Os	O
 Osnabrückerin	Osnabrücker
 Osnabrückerinnen	Osnabrücker
 Osnabrückern	Osnabrücker
@@ -14247,6 +14836,7 @@ Paares	Paar
 Paars	Paar
 Paarungen	Paarung
 Pachten	pachten
+Packen	packen
 Packungen	Packung
 Paderbornerin	Paderborner
 Paderbornerinnen	Paderborner
@@ -14274,6 +14864,7 @@ Palästinensergebiete	Palästinensergebiet
 Palästinensergebieten	Palästinensergebiet
 Palästinensergebietes	Palästinensergebiet
 Palästinensergebiets	Palästinensergebiet
+Palästinenserin	Palästinenser
 Palästinensern	Palästinenser
 Palästinensers	Palästinenser
 Pandemien	Pandemie
@@ -14293,6 +14884,7 @@ Papageien	Papagei
 Papageies	Papagei
 Papageis	Papagei
 Papas	Papa
+Papiere	Papier|Papiere
 Papieren	Papier
 Papieres	Papier
 Papiers	Papier
@@ -14364,6 +14956,7 @@ Parteitagen	Parteitag
 Parteitages	Parteitag
 Parteitags	Parteitag
 Parteivorsitzenden	Parteivorsitzende
+Parteivorsitzender	Parteivorsitzende
 Parten	Part
 Partes	Part
 Partien	Partie
@@ -14390,6 +14983,7 @@ Passate	Passat
 Passaten	Passat
 Passates	Passat
 Passats	Passat
+Passe	Pass
 Passes	Pass
 Passionen	Passion
 Passworte	Passwort
@@ -14399,6 +14993,7 @@ Passwörter	Passwort
 Passwörtern	Passwort
 Pastore	Pastor
 Pastoren	Pastor
+Pastorin	Pastor
 Pastors	Pastor
 Pastöre	Pastor
 Pastören	Pastor
@@ -14409,8 +15004,11 @@ Patentes	Patent
 Patents	Patent
 Patern	Pater
 Paters	Pater
+Patient	Patient|Patientin
 Patienten	Patient
+Patientin	Patient|Patientin
 Patientinnen	Patientin
+Patin	Pate
 Patres	Pater
 Patrioten	Patriot
 Patriotin	Patriot
@@ -14492,6 +15090,7 @@ Pestizides	Pestizid
 Pestizids	Pestizid
 Petitionen	Petition
 Petri	Petrus
+Petze	Hund
 Peugeots	Peugeot
 Pfade	Pfad
 Pfaden	Pfad
@@ -14509,6 +15108,8 @@ Pfands	Pfand
 Pfannen	Pfanne
 Pfarreien	Pfarrei
 Pfarren	Pfarre
+Pfarrer	Pfarrer|Pfarrerin
+Pfarrerin	Pfarrer|Pfarrerin
 Pfarrerinnen	Pfarrerin
 Pfarrern	Pfarrer
 Pfarrers	Pfarrer
@@ -14578,6 +15179,7 @@ Pflegeheims	Pflegeheim
 Pflegekräfte	Pflegekraft
 Pflegekräften	Pflegekraft
 Pflegen	pflegen
+Pfleger	pflegen|Pfleger
 Pflegerin	Pfleger
 Pflegerinnen	Pfleger
 Pflegern	Pfleger
@@ -14630,6 +15232,7 @@ Philo	Philosophie
 Philosophei	Philosophie
 Philosophen	Philosoph
 Philosophien	Philosophie
+Philosophin	Philosoph
 Photo	Foto
 Photograph	Fotograf
 Photographen	Fotograf
@@ -14662,6 +15265,7 @@ Pillchen	Pille
 Pillchens	Pille
 Pillen	Pille
 Piloten	Pilot
+Pilotin	Pilot
 Pilotprojekte	Pilotprojekt
 Pilotprojekten	Pilotprojekt
 Pilotprojekts	Pilotprojekt
@@ -14682,6 +15286,7 @@ Pionierinnen	Pionier
 Pioniers	Pionier
 Pipelines	Pipeline
 Piraten	Pirat
+Piratin	Pirat
 Pisten	Piste
 Pistolen	Pistole
 Pixeln	Pixel
@@ -14699,6 +15304,7 @@ Plakaten	Plakat
 Plakates	Plakat
 Plakats	Plakat
 Plaketten	Plakette
+Plane	Plan|Plane
 Planen	planen|Plan|Plane
 Planens	planen|Plan|Plane
 Planern	Planer
@@ -14714,6 +15320,7 @@ Planungsphasen	Planungsphase
 Plastiken	Plastik
 Plastiks	Plastik
 Plastiktüten	Plastiktüte
+Platten	Platte|Platten
 Plattens	Platten
 Plattformen	Plattform
 Platze	Platz
@@ -14741,7 +15348,9 @@ Pluspunkts	Pluspunkt
 Plusse	Plus
 Plussen	Plus
 Plädoyers	Plädoyer
+Pläne	Pläne|Plan
 Plänen	Pläne|Plan
+Plätzchen	Platz|Plätzchen
 Plätzchens	Plätzchen
 Plätze	Platz
 Plätzen	Platz
@@ -14779,10 +15388,12 @@ Polarlichter	Polarlicht
 Polarlichtern	Polarlicht
 Polarlichtes	Polarlicht
 Polarlichts	Polarlicht
+Pole	Pole|Pol
 Polemiken	Polemik
 Polen	Pole|Pol
 Poles	Pol
 Policen	Police
+Polin	Pole
 Politiken	Politik
 Politikerin	Politiker
 Politikerinnen	Politiker
@@ -14812,6 +15423,7 @@ Polizeiwachen	Polizeiwache
 Polizeiwagens	Polizeiwagen
 Polizeiwägen	Polizeiwagen
 Polizisten	Polizist
+Polizistin	Polizist|Polizistin
 Polizistinnen	Polizistin
 Pollens	Pollen
 Polos	Polo
@@ -14854,6 +15466,7 @@ Porträtes	Porträt
 Porträts	Porträt
 Ports	Port
 Portugiesen	Portugiese
+Portugiesin	Portugiese
 Porzellane	Porzellan
 Porzellanen	Porzellan
 Porzellans	Porzellan
@@ -14867,6 +15480,8 @@ Positionspapiers	Positionspapier
 Positive	Positiv
 Positiven	Positiv
 Positivs	Positiv
+Post	Post|Porst
+Posten	Post|Posten
 Postens	Posten
 Postern	Poster
 Posters	Poster
@@ -14893,6 +15508,7 @@ Pragmatismen	Pragmatismus
 Prakti	Praktikant
 Praktika	Praktikum
 Praktikanten	Praktikant
+Praktikantin	Praktikant
 Praktikas	Praktikum
 Praktiken	Praktik
 Praktikerin	Praktiker
@@ -14926,6 +15542,7 @@ Preisverleihungen	Preisverleihung
 Prellungen	Prellung
 Premieren	Premiere
 Premierin	Premier
+Premierministerin	Premierminister
 Premierministern	Premierminister
 Premierministers	Premierminister
 Premiers	Premier
@@ -14944,8 +15561,10 @@ Preußen	Preuße
 Preußens	Preuße
 Preußin	Preuße
 Preußinnen	Preuße
+Priesterin	Priester
 Priestern	Priester
 Priesters	Priester
+Prinz	Prinz|Prinzessin
 Prinzen	Prinz
 Prinzess	Prinzessin
 Prinzessen	Prinzessin
@@ -15004,9 +15623,11 @@ Produzenten	Produzent
 Produzentin	Produzent
 Produzentinnen	Produzent
 Prof	Professor
+Professor	Professor|Professorin
 Professorchen	Professor
 Professorchens	Professor
 Professoren	Professor
+Professorin	Professor|Professorin
 Professorinnen	Professorin
 Professorlein	Professor
 Professorleins	Professor
@@ -15033,6 +15654,7 @@ Prognosen	Prognose
 Programme	Programm
 Programmen	Programm
 Programmes	Programm
+Programmiererin	Programmierer
 Programmierern	Programmierer
 Programmierers	Programmierer
 Programmiersprachen	Programmiersprache
@@ -15069,6 +15691,7 @@ Prostituierten	Prostituierter
 Prostitutierte	Prostituierter
 Prostitutierten	Prostituierter
 Protagonisten	Protagonist
+Protagonistin	Protagonist
 Proteine	Protein
 Proteinen	Protein
 Proteines	Protein
@@ -15128,8 +15751,10 @@ Präsentes	Präsent
 Präsents	Präsent
 Präsenzen	Präsenz
 Präsi	Präsident|Präsentation
+Präsident	Präsident|Präsidentin
 Präsidenten	Präsident
 Präsidentenwahlen	Präsidentenwahl
+Präsidentin	Präsident|Präsidentin
 Präsidentinnen	Präsidentin
 Präsidentschaften	Präsidentschaft
 Präsidentschaftskandidaten	Präsidentschaftskandidat
@@ -15151,12 +15776,16 @@ Prüfständen	Prüfstand
 Prüfungen	Prüfung
 Prügeleien	Prügelei
 Prügler	prügeln
+Ps	P
 Psychen	Psyche
+Psychiaterin	Psychiater
 Psychiatern	Psychiater
 Psychiaters	Psychiater
 Psychiatrien	Psychiatrie
+Psychologe	Psychologe|Psychologin
 Psychologen	Psychologe
 Psychologien	Psychologie
+Psychologin	Psychologe|Psychologin
 Psychologinnen	Psychologin
 Psychotherapien	Psychotherapie
 Publika	Publikum
@@ -15194,6 +15823,7 @@ Punktes	Punkt
 Punkts	Punkt
 Punktzahlen	Punktzahl
 Puppen	Puppe
+Pupperl	Puppe
 Puppi	Puppe
 Putsche	Putsch
 Putschen	Putsch
@@ -15201,7 +15831,9 @@ Putsches	Putsch
 Putschisten	Putschist
 Putschistin	Putschist
 Putschistinnen	Putschist
+Putze	Putz
 Putzen	putzen|Putz
+Putzer	putzen
 Putzes	Putz
 Puzzlen	Puzzle
 Puzzles	Puzzle
@@ -15212,11 +15844,15 @@ Pächterin	pachten
 Pächterinnen	pachten
 Pächters	pachten
 Päckchens	Päckchen
+Pädagoge	Pädagoge|Pädagogin
 Pädagogen	Pädagoge
 Pädagogiken	Pädagogik
+Pädagogin	Pädagoge|Pädagogin
 Pädagoginnen	Pädagogin
 Päpste	Papst
 Päpsten	Papst
+Päpstin	Papst
+Pärchen	Paar|Pärchen
 Pärchens	Pärchen
 Pärke	Park
 Pärken	Park
@@ -15232,6 +15868,7 @@ Pülverlein	Pulver
 Pünktchen	Punkt
 Pünktchens	Punkt
 Pünktlein	Punkt
+Püppchen	Puppe
 Püppel	Puppe
 Püpplein	Puppe
 QR-Codes	QR-Code
@@ -15290,6 +15927,7 @@ RA	Rechtsanwalt
 RAMs	RAM
 RH	Reihenhaus
 RZ	Rechenzentrum
+Rabatte	Rabatt|Rabatte
 Rabatten	Rabatt|Rabatte
 Rabatts	Rabatt
 Raben	Rabe
@@ -15300,6 +15938,7 @@ Rade	Rad
 Raderl	Rad
 Rades	Rad
 Radfahrens	Radfahren
+Radfahrerin	Radfahrer|Radfahrerin
 Radfahrerinnen	Radfahrerin
 Radfahrern	Radfahrer
 Radfahrers	Radfahrer
@@ -15308,6 +15947,7 @@ Radii	Radius
 Radios	Radio
 Radiosendern	Radiosender
 Radiosenders	Radiosender
+Radl	Rad
 Radlerin	Radler
 Radlern	Radler
 Radlers	Radler
@@ -15346,9 +15986,11 @@ Randaliererin	Randalierer
 Randaliererinnen	Randalierer
 Randalierern	Randalierer
 Randalierers	Randalierer
+Rande	Rand|Rande
 Randen	Rande
 Randes	Rand
 Rands	Rand
+Range	Rang
 Rangeleien	Rangelei
 Ranges	Rang
 Ranglisten	Rangliste
@@ -15356,6 +15998,7 @@ Rangs	Rang
 Rapperin	Rapper
 Rappern	Rapper
 Rappers	Rapper
+Raps	Rap|Raps
 Rapse	Raps
 Rapsen	Raps
 Rapses	Raps
@@ -15372,6 +16015,7 @@ Rastplatzes	Rastplatz
 Rastplätze	Rastplatz
 Rastplätzen	Rastplatz
 Raststätten	Raststätte
+Rate	Rat|Rate
 Raten	Rate
 Rates	Rat
 Ratgeberin	Ratgeber
@@ -15459,11 +16103,13 @@ Rebellen	Rebell
 Rebellin	Rebell
 Rebellinnen	Rebell
 Rebellionen	Rebellion
+Rechen	rechen
 Rechenschaften	Rechenschaft
 Rechenzentren	Rechenzentrum
 Rechenzentrums	Rechenzentrum
 Recherchen	Recherche
 Rechnen	rechnen
+Rechner	rechnen|Rechner
 Rechnerin	Rechner
 Rechnern	Rechner
 Rechners	Rechner
@@ -15473,7 +16119,9 @@ Rechnungshofes	Rechnungshof
 Rechnungshofs	Rechnungshof
 Rechnungshöfe	Rechnungshof
 Rechnungshöfen	Rechnungshof
+Rechte	Recht|Rechte
 Rechten	Recht|Rechte
+Rechter	Rechte
 Rechtes	Recht
 Rechtfertigungen	Rechtfertigung
 Rechtmässigkeit	Rechtmäßigkeit
@@ -15515,8 +16163,10 @@ Rechtsverteidigern	Rechtsverteidiger
 Rechtsverteidigers	Rechtsverteidiger
 Recyclingen	Recycling
 Recyclings	Recycling
+Redakteur	Redakteur|Redakteurin
 Redakteure	Redakteur
 Redakteuren	Redakteur
+Redakteurin	Redakteur|Redakteurin
 Redakteurinnen	Redakteurin
 Redakteurs	Redakteur
 Redaktionen	Redaktion
@@ -15526,6 +16176,7 @@ Redaktionsschlüsse	Redaktionsschluss
 Redaktionsschlüssen	Redaktionsschluss
 Reden	reden|Rede
 Redens	reden|Rede
+Rednerin	Redner
 Rednern	Redner
 Redners	Redner
 Reduktionen	Reduktion
@@ -15582,6 +16233,7 @@ Regenfalls	Regenfall
 Regenfälle	Regenfall
 Regenfällen	Regenfall
 Regens	Regen
+Regensburgerin	Regensburger
 Regensburgern	Regensburger
 Regensburgers	Regensburger
 Regenschauern	Regenschauer
@@ -15619,6 +16271,7 @@ Regierungsrates	Regierungsrat
 Regierungsrats	Regierungsrat
 Regierungsräte	Regierungsrat
 Regierungsräten	Regierungsrat
+Regierungssprecherin	Regierungssprecher
 Regierungssprechern	Regierungssprecher
 Regierungssprechers	Regierungssprecher
 Regimen	Regime
@@ -15660,6 +16313,7 @@ Reibens	reiben
 Reibungen	Reibung
 Reiche	Reich
 Reichen	Reich
+Reicher	Reich
 Reiches	Reich
 Reichs	Reich
 Reichsbürgerin	Reichsbürger
@@ -15671,6 +16325,7 @@ Reichtums	Reichtum
 Reichtümer	Reichtum
 Reichtümern	Reichtum
 Reichweiten	Reichweite
+Reifen	Reifen|reifen
 Reifens	Reifen
 Reigens	Reigen
 Reihen	Reihe|Reigen
@@ -15689,6 +16344,8 @@ Reingewinnen	Reingewinn
 Reingewinns	Reingewinn
 Reinigen	reinigen
 Reinigungen	Reinigung
+Reis	Real|Reis
+Reise	Reise|Reis
 Reisebusse	Reisebus
 Reisebussen	Reisebus
 Reisebusses	Reisebus
@@ -15714,6 +16371,7 @@ Reisezieles	Reiseziel
 Reiseziels	Reiseziel
 Reissen	reißen
 Reissleine	Reißleine
+Reiten	reiten|Reiten
 Reitens	Reiten
 Reiterin	Reiter
 Reiterinnen	Reiter
@@ -15740,6 +16398,7 @@ Rekordwertes	Rekordwert
 Rekordwerts	Rekordwert
 Rekruten	Rekrut
 Rektoren	Rektor
+Rektorin	Rektor
 Rektors	Rektor
 Relationen	Relation
 Relativieren	relativieren
@@ -15769,6 +16428,7 @@ Renen	Ren
 Rener	Ren
 Renes	Ren
 Rennens	Rennen
+Renner	rennen|Renner
 Rennerin	Renner
 Rennerinnen	Renner
 Rennern	Renner
@@ -15789,6 +16449,8 @@ Rentenmarkts	Rentenmarkt
 Rentenmärkte	Rentenmarkt
 Rentenmärkten	Rentenmarkt
 Rentenversicherungen	Rentenversicherung
+Rentner	Rentner|Rentnerin
+Rentnerin	Rentner|Rentnerin
 Rentnerinnen	Rentnerin
 Rentnern	Rentner
 Rentners	Rentner
@@ -15801,6 +16463,8 @@ Repertoires	Repertoire
 Reportagen	Reportage
 Reporte	Report
 Reporten	Report
+Reporter	Reporter|Reporterin
+Reporterin	Reporter|Reporterin
 Reporterinnen	Reporterin
 Reportern	Reporter
 Reporters	Reporter
@@ -15823,6 +16487,7 @@ Requiems	Requiem
 Reserven	Reserve
 Reservierungen	Reservierung
 Reservisten	Reservist
+Reservistin	Reservist
 Residenzen	Residenz
 Resolutionen	Resolution
 Resonanzen	Resonanz
@@ -15888,6 +16553,8 @@ Rheinländern	Rheinländer
 Rheinländers	Rheinländer
 Rhetoriken	Rhetorik
 Rhythmen	Rhythmus
+Richter	Richter|Richterin
+Richterin	Richter|Richterin
 Richterinnen	Richterin
 Richtern	Richter
 Richters	Richter
@@ -15901,16 +16568,19 @@ Rieds	Ried
 Riegeln	Riegel
 Riegels	Riegel
 Riegen	Riege
+Riese	Riese|Ries
 Riesen	Riese|Ries
 Riesenrades	Riesenrad
 Riesenrads	Riesenrad
 Riesenräder	Riesenrad
 Riesenslaloms	Riesenslalom
 Rieses	Ries
+Riesin	Riese
 Riffe	Riff
 Riffen	Riff
 Riffes	Riff
 Riffs	Riff
+Rinde	Rind
 Rinder	Rind
 Rindern	Rind
 Rindes	Rind
@@ -15921,12 +16591,14 @@ Rinds	Rind
 Ringchen	Ring
 Ringchens	Ring
 Ringe	Ring
+Ringen	Ring|ringen|Ringen
 Ringens	Ringen
 Ringerl	Ring
 Ringes	Ring
 Ringlein	Ring
 Ringleins	Ring
 Rings	Ring
+Rippchen	Rippe
 Rippen	Rippe
 Ripperl	Rippe
 Risiken	Risiko
@@ -15984,6 +16656,7 @@ Rohöle	Rohöl
 Rohölen	Rohöl
 Rohöles	Rohöl
 Rohöls	Rohöl
+Rollen	Rolle|Rollen
 Rollens	Rollen
 Rollenspiele	Rollenspiel
 Rollenspielen	Rollenspiel
@@ -16022,6 +16695,7 @@ Rosses	Ross
 Roste	Rost
 Rosten	Rost
 Rostes	Rost
+Rostockerin	Rostocker
 Rostockern	Rostocker
 Rostockers	Rostocker
 Rot-Grüns	Rot-Grün
@@ -16063,6 +16737,7 @@ Ruderern	rudern
 Ruderers	rudern
 Ruderin	rudern
 Ruderinnen	rudern
+Rudern	Ruder
 Ruders	Ruder
 Rufe	Ruf
 Rufen	Ruf
@@ -16091,6 +16766,8 @@ Rumpfe	Rumpf
 Rumpfes	Rumpf
 Rumpfs	Rumpf
 Rumänen	Rumäne
+Rumänin	Rumäne
+Runde	Runde|Rund
 Runden	Runde|Rund
 Rundes	Rund
 Rundfahrten	Rundfahrt
@@ -16103,8 +16780,10 @@ Rundgängen	Rundgang
 Runds	Rund
 Runs	Run
 Russ	Ruß
+Russe	Russe|Russin
 Russen	Russe
 Russes	Ruß
+Russin	Russe|Russin
 Russinnen	Russin
 Russischen	Russisch
 Russischs	Russisch
@@ -16116,6 +16795,7 @@ Räbchen	Rabe
 Räbin	Rabe
 Räblein	Rabe
 Räbleins	Rabe
+Rächer	rächen
 Rädchen	Rad
 Rädchens	Rad
 Räder	Rad
@@ -16156,6 +16836,7 @@ Röckleins	Rock
 Röhrchen	Rohr|Röhre
 Röhrchens	Rohr|Röhre
 Röhren	Röhre
+Röllchen	Rolle
 Römerin	Römer
 Römern	Römer
 Römers	Römer
@@ -16170,6 +16851,7 @@ Röselein	Rose
 Röslein	Rose
 Rössal	Ross
 Rösschen	Ross
+Rössel	Ross
 Rösser	Ross
 Rösserl	Ross
 Rössern	Ross
@@ -16215,6 +16897,7 @@ Rückhalte	Rückhalt
 Rückhalten	Rückhalt
 Rückhaltes	Rückhalt
 Rückhalts	Rückhalt
+Rückkehrerin	Rückkehrer
 Rückkehrern	Rückkehrer
 Rückkehrers	Rückkehrer
 Rücklagen	Rücklage
@@ -16264,6 +16947,7 @@ Rückwegs	Rückweg
 Rückzuges	Rückzug
 Rückzugs	Rückzug
 Rückzüge	Rückzug
+Rüde	Hund|Rüde
 Rüden	Rüde
 Rügen	Rüge
 Rümpfe	Rumpf
@@ -16274,6 +16958,7 @@ Rüstungen	Rüstung
 Rüstungsindustrien	Rüstungsindustrie
 Rütteln	rütteln
 Rüttelns	rütteln
+S	S|Süd|Springer
 S-Bahnen	S-Bahn
 SE	Seminar
 SEV	Schienenersatzverkehr
@@ -16305,6 +16990,7 @@ Sachen	Sache
 Sachlagen	Sachlage
 Sachschadens	Sachschaden
 Sachschäden	Sachschaden
+Sachse	Sachs|Sachse
 Sachsen	Sachs|Sachse
 Sachsens	Sachs|Sachse
 Sachses	Sachs
@@ -16353,8 +17039,10 @@ Salzen	Salz
 Salzes	Salz
 Salätchen	Salat
 Salätchens	Salat
+Same	Samen
 Samens	Samen
 Sammelns	Sammeln
+Sammlerin	Sammler
 Sammlern	Sammler
 Sammlers	Sammler
 Sammlungen	Sammlung
@@ -16398,6 +17086,7 @@ Sani	Sanitäter
 Sanieren	sanieren
 Sanierungen	Sanierung
 Sanis	Sanitäter
+Sanitäterin	Sanitäter
 Sanitätern	Sanitäter
 Sanitäters	Sanitäter
 Sanktionen	Sanktion
@@ -16426,6 +17115,7 @@ Sausen	sausen
 Scannen	scannen
 Scannern	Scanner
 Scanners	Scanner
+Schach	König|Schach
 Schachs	Schach
 Schachte	Schacht
 Schachteln	Schachtel
@@ -16458,6 +17148,7 @@ Schaffes	Schaff
 Schaffs	Schaff
 Schaffungen	Schaffung
 Schafs	Schaf
+Schale	Schale|Schal
 Schalen	Schale|Schal
 Schales	Schal
 Schalke	Schalk
@@ -16475,6 +17166,7 @@ Schaltern	Schalter
 Schalters	Schalter
 Schaltflächen	Schaltfläche
 Schaltungen	Schaltung
+Schank	schenken
 Schanzen	Schanze
 Schare	Schar
 Scharen	Schar
@@ -16490,6 +17182,7 @@ Schatzmeisterin	Schatzmeister
 Schatzmeistern	Schatzmeister
 Schatzmeisters	Schatzmeister
 Schauen	schauen|Schau
+Schauer	schauen|Schauer
 Schauern	Schauer
 Schauers	Schauer
 Schaufenstern	Schaufenster
@@ -16506,6 +17199,8 @@ Schauplätze	Schauplatz
 Schauplätzen	Schauplatz
 Schauspiele	Schauspiel
 Schauspielen	Schauspiel
+Schauspieler	Schauspieler|Schauspielerin
+Schauspielerin	Schauspieler|Schauspielerin
 Schauspielerinnen	Schauspielerin
 Schauspielern	Schauspieler
 Schauspielers	Schauspieler
@@ -16529,10 +17224,12 @@ Scheins	Schein
 Scheinwerfern	Scheinwerfer
 Scheinwerfers	Scheinwerfer
 Scheisse	Scheiße
+Scheitern	scheitern|Scheitern
 Scheiterns	Scheitern
 Schemas	Schema
 Schemata	Schema
 Schematan	Schema
+Schemen	Schema
 Schenken	Schenk
 Schenker	schenken
 Scherbenhaufens	Scherbenhaufen
@@ -16558,10 +17255,12 @@ Schicksalsschläge	Schicksalsschlag
 Schicksalsschlägen	Schicksalsschlag
 Schicksäler	Schicksal
 Schicksälern	Schicksal
+Schieber	schieben
 Schiedsgerichte	Schiedsgericht
 Schiedsgerichten	Schiedsgericht
 Schiedsgerichtes	Schiedsgericht
 Schiedsgerichts	Schiedsgericht
+Schiedsrichterin	Schiedsrichter
 Schiedsrichtern	Schiedsrichter
 Schiedsrichters	Schiedsrichter
 Schieflagen	Schieflage
@@ -16591,6 +17290,7 @@ Schießstände	Schießstand
 Schießständen	Schießstand
 Schiff-Fahrt	Schifffahrt
 Schiff-Fahrten	Schifffahrt
+Schiffchen	Schiff
 Schiffe	Schiff
 Schiffen	Schiff
 Schifferl	Schiff
@@ -16604,9 +17304,11 @@ Schigebiete	Skigebiet
 Schigebietes	Skigebiet
 Schigebiets	Skigebiet
 Schikanen	Schikane
+Schildchen	Schild
 Schilde	Schild
 Schilden	Schild
 Schilder	Schild
+Schilderer	schildern
 Schildern	Schild
 Schilderungen	Schilderung
 Schildes	Schild
@@ -16669,6 +17371,7 @@ Schlaganfalls	Schlaganfall
 Schlaganfälle	Schlaganfall
 Schlaganfällen	Schlaganfall
 Schlage	Schlag
+Schlagerl	Schlag
 Schlagern	Schlager
 Schlagers	Schlager
 Schlages	Schlag
@@ -16695,6 +17398,7 @@ Schlamme	Schlamm
 Schlammes	Schlamm
 Schlamms	Schlamm
 Schlangen	Schlange
+Schlappen	Schlappe
 Schlauche	Schlauch
 Schlauches	Schlauch
 Schlauchs	Schlauch
@@ -16710,6 +17414,7 @@ Schleppers	Schlepper
 Schleudern	schleudern
 Schleuderns	schleudern
 Schleusen	Schleuse
+Schleuserin	Schleuser
 Schleusern	Schleuser
 Schleusers	Schleuser
 Schlichten	schlichten
@@ -16721,6 +17426,7 @@ Schliessen	schließen
 Schliessung	Schließung
 Schliessungen	Schließung
 Schließen	schließen
+Schließer	schließen
 Schließungen	Schließung
 Schlittens	Schlitten
 Schlosse	Schloss
@@ -16735,6 +17441,7 @@ Schlosspärken	Schlosspark
 Schluchten	Schlucht
 Schlucke	Schluck
 Schlucken	Schluck
+Schlucker	schlucken
 Schluckerl	Schluck
 Schluckes	Schluck
 Schlucks	Schluck
@@ -16766,6 +17473,8 @@ Schlussstriche	Schlussstrich
 Schlussstrichen	Schlussstrich
 Schlussstriches	Schlussstrich
 Schlussstrichs	Schlussstrich
+Schläfchen	Schlaf
+Schläfe	Schlaf
 Schläfen	Schlaf
 Schläflein	Schlaf
 Schlägchen	Schlag
@@ -16827,8 +17536,10 @@ Schmetterlinges	Schmetterling
 Schmetterlings	Schmetterling
 Schmidt	Schmied
 Schmidts	Schmied
+Schmiede	Schmied
 Schmieden	Schmied|schmieden
 Schmiedes	Schmied
+Schmiedin	Schmied
 Schmieds	Schmied
 Schmieren	schmieren
 Schmucke	Schmuck
@@ -16863,12 +17574,14 @@ Schneefälle	Schneefall
 Schneefällen	Schneefall
 Schnees	Schnee
 Schneiden	schneiden
+Schneider	schneiden|Schneider
 Schneiderlein	Schneider
 Schneiderleins	Schneider
 Schneidern	Schneider
 Schneiders	Schneider
 Schnellen	Schnelle
 Schnelligkeiten	Schnelligkeit
+Schnitte	Schnitt|Schnitte
 Schnitten	Schnitt|Schnitte
 Schnittes	Schnitt
 Schnitts	Schnitt
@@ -16905,18 +17618,25 @@ Schornsteine	Schornstein
 Schornsteinen	Schornstein
 Schornsteines	Schornstein
 Schornsteins	Schornstein
+Schoss	Schoß
 Schotten	Schott|Schotte
+Schottin	Schotte
 Schotts	Schott
 Schoße	Schoß
 Schoßes	Schoß
+Schranke	Schrank|Schranke
+Schranken	Schranken|Schranke
 Schrankens	Schranken
 Schrankes	Schrank
 Schranks	Schrank
 Schrauben	schrauben|Schraube
 Schrauberl	Schraube
+Schrecke	Schreck
+Schrecken	Schrecken|Schreck
 Schreckens	Schrecken
 Schreckes	Schreck
 Schrecks	Schreck
+Schreiben	schreiben|Schreiben
 Schreibens	Schreiben
 Schreiberchen	Schreiber
 Schreiberin	Schreiber
@@ -16943,6 +17663,8 @@ Schreitens	schreiten
 Schrifft	Schrift
 Schrifften	Schrift
 Schriften	Schrift
+Schriftsteller	Schriftsteller|Schriftstellerin
+Schriftstellerin	Schriftsteller|Schriftstellerin
 Schriftstellerinnen	Schriftstellerin
 Schriftstellern	Schriftsteller
 Schriftstellers	Schriftsteller
@@ -16971,6 +17693,7 @@ Schräublein	Schraube
 Schube	Schub
 Schubes	Schub
 Schubladen	Schublade
+Schubs	Schub
 Schuhe	Schuh
 Schuhen	Schuh
 Schuhes	Schuh
@@ -16991,6 +17714,8 @@ Schulbussen	Schulbus
 Schulbusses	Schulbus
 Schulbücher	Schulbuch
 Schulbüchern	Schulbuch
+Schuld	Schuld|Schulden
+Schulden	Schuld|Schulden
 Schuldenberge	Schuldenberg
 Schuldenbergen	Schuldenberg
 Schuldenberges	Schuldenberg
@@ -17024,6 +17749,8 @@ Schulkinder	Schulkind
 Schulkindern	Schulkind
 Schulkindes	Schulkind
 Schulkinds	Schulkind
+Schulleiter	Schulleiter|Schulleiterin
+Schulleiterin	Schulleiter|Schulleiterin
 Schulleiterinnen	Schulleiterin
 Schulleitern	Schulleiter
 Schulleiters	Schulleiter
@@ -17036,6 +17763,7 @@ Schulterschlusse	Schulterschluss
 Schulterschlusses	Schulterschluss
 Schulterschlüsse	Schulterschluss
 Schulterschlüssen	Schulterschluss
+Schulung	Schulung|schulen
 Schulungen	Schulung
 Schulwege	Schulweg
 Schulwegen	Schulweg
@@ -17121,6 +17849,7 @@ Schweigens	Schweigen
 Schweigerin	Schweiger
 Schweigern	Schweiger
 Schweigers	Schweiger
+Schweinchen	Schwein
 Schweinderl	Schwein
 Schweinderln	Schwein
 Schweinderls	Schwein
@@ -17132,6 +17861,8 @@ Schweines	Schwein
 Schweins	Schwein
 Schweitzer	Schweizer
 Schweitzerin	Schweizerin
+Schweizer	Schweizer|Schweizerin
+Schweizerin	Schweizer|Schweizerin
 Schweizerinnen	Schweizerin
 Schweizern	Schweizer
 Schweizers	Schweizer
@@ -17152,6 +17883,7 @@ Schwergewichte	Schwergewicht
 Schwergewichten	Schwergewicht
 Schwergewichtes	Schwergewicht
 Schwergewichts	Schwergewicht
+Schwerinerin	Schweriner
 Schwerinern	Schweriner
 Schweriners	Schweriner
 Schwerpunkte	Schwerpunkt
@@ -17187,24 +17919,29 @@ Schwimmers	Schwimmer
 Schwimmhallen	Schwimmhalle
 Schwindels	Schwindel
 Schwinden	schwinden
+Schwingen	schwingen
 Schwingungen	Schwingung
 Schwitzen	schwitzen
 Schwob	Schwabe
 Schwule	Schwuler
 Schwulem	Schwuler
 Schwulen	Schwuler
+Schwund	schwinden
 Schwunge	Schwung
 Schwunges	Schwung
 Schwungs	Schwung
+Schwäbin	Schwabe
 Schwächen	Schwäche
 Schwächungen	Schwächung
 Schwäger	Schwager
+Schwägerin	Schwager
 Schwägern	Schwager
 Schwämme	Schwamm
 Schwämmen	Schwamm
 Schwänchen	Schwan
 Schwäne	Schwan
 Schwänen	Schwan
+Schwänin	Schwan
 Schwänlein	Schwan
 Schwänzchen	Schwanz
 Schwänzchens	Schwanz
@@ -17213,6 +17950,7 @@ Schwänzen	Schwanz
 Schwänzlein	Schwanz
 Schwärme	Schwarm
 Schwärmen	Schwarm
+Schwärmer	schwärmen
 Schwören	schwören
 Schwünge	Schwung
 Schwüngen	Schwung
@@ -17235,6 +17973,8 @@ Schäferhunde	Schäferhund
 Schäferhunden	Schäferhund
 Schäferhundes	Schäferhund
 Schäferhunds	Schäferhund
+Schäferhündin	Schäferhund
+Schäferin	Schäfer
 Schäfern	Schäfer
 Schäfers	Schäfer
 Schäflein	Schaf
@@ -17249,15 +17989,19 @@ Schälkin	Schalk
 Schälle	Schall
 Schällen	Schall
 Schärfen	Schärfe
+Schätzchen	Schatz
 Schätze	Schatz
 Schätzel	Schatz
 Schätzelchen	Schatz
 Schätzen	schätzen|Schatz
 Schätzungen	Schätzung
 Schäume	Schaum
+Schäumen	Schaum
 Schöckchen	Schock
 Schöffen	Schöffe
 Schöffin	Schöffe
+Schöne	Schöne|Schönes
+Schönebergerin	Schöneberger
 Schönebergern	Schöneberger
 Schönebergers	Schöneberger
 Schönem	Schönes
@@ -17275,6 +18019,8 @@ Schühchen	Schuh
 Schühchens	Schuh
 Schühlein	Schuh
 Schühleins	Schuh
+Schüler	Schüler|Schülerin
+Schülerin	Schüler|Schülerin
 Schülerinnen	Schülerin
 Schülern	Schüler
 Schülers	Schüler
@@ -17290,6 +18036,7 @@ Schütteln	schütteln
 Schüttelns	schütteln
 Schütten	schütten
 Schüttens	schütten
+Schütze	Schutz|Schütze|Schütz
 Schützen	Schutz|Schütze|Schütz
 Schützenfeste	Schützenfest
 Schützenfesten	Schützenfest
@@ -17311,6 +18058,7 @@ Sechzehnern	Sechzehner
 Sechzehners	Sechzehner
 Sect	Sekt
 Seefrau	Seemann
+Seelchen	Seele
 Seelen	Seele
 Seeleute	Seemann
 Seeleuten	Seemann
@@ -17359,8 +18107,10 @@ Sekretariate	Sekretariat
 Sekretariaten	Sekretariat
 Sekretariates	Sekretariat
 Sekretariats	Sekretariat
+Sekretär	Sekretärin
 Sekretärinnen	Sekretärin
 Sektchen	Sekt
+Sekte	Sekt|Sekte
 Sekten	Sekt|Sekte
 Sektes	Sekt
 Sektionen	Sektion
@@ -17452,6 +18202,7 @@ Septembern	September
 Septembers	September
 Sequenzen	Sequenz
 Serben	Serbe
+Serbin	Serbe
 Serien	Serie
 Servern	Server
 Servers	Server
@@ -17466,6 +18217,7 @@ Sessionen	Session
 Sessions	Session
 Sets	Set
 Setzen	setzen
+Setzer	setzen
 Seuchen	Seuche
 Seufzen	seufzen
 Sexes	Sex
@@ -17500,6 +18252,7 @@ Sichtungen	Sichtung
 Sichtweisen	Sichtweise
 Sichtweiten	Sichtweite
 Siebe	Sieb
+Sieben	sieben|Sieb|Sieben
 Siebenen	Sieben
 Siebens	Sieben
 Siebes	Sieb
@@ -17594,6 +18347,7 @@ Skigebiets	Skigebiet
 Skis	Ski
 Skizzen	Skizze
 Sklaven	Sklave
+Sklavin	Sklave
 Skorpione	Skorpion
 Skorpionen	Skorpion
 Skorpions	Skorpion
@@ -17626,9 +18380,11 @@ Sohns	Sohn
 Solaranlagen	Solaranlage
 Solarzellen	Solarzelle
 Soldaten	Soldat
+Soldatin	Soldat|Soldatin
 Soldatinnen	Soldatin
 Soli	Solo
 Solidaritäten	Solidarität
+Solingerin	Solinger
 Solingern	Solinger
 Solingers	Solinger
 Solisten	Solist
@@ -17750,6 +18506,7 @@ Souveränitäten	Souveränität
 Sozialamte	Sozialamt
 Sozialamtes	Sozialamt
 Sozialamts	Sozialamt
+Sozialarbeiterin	Sozialarbeiter
 Sozialarbeitern	Sozialarbeiter
 Sozialarbeiters	Sozialarbeiter
 Sozialdemokraten	Sozialdemokrat
@@ -17769,12 +18526,14 @@ Sozialämter	Sozialamt
 Sozialämtern	Sozialamt
 Soziologen	Soziologe
 Soziologien	Soziologie
+Soziologin	Soziologe
 Soßen	Soße
 Soßerl	Soße
 Spagate	Spagat
 Spagaten	Spagat
 Spagates	Spagat
 Spagats	Spagat
+Spalte	Spalte|Spalt
 Spalten	spalten|Spalte|Spalt
 Spaltes	Spalt
 Spalts	Spalt
@@ -17803,7 +18562,9 @@ Spass	Spaß
 Spasses	Spaß
 Spatze	Spatz
 Spatzen	Spatz
+Spatzerl	Spatz
 Spatzes	Spatz
+Spatzi	Spatz
 Spaziergange	Spaziergang
 Spazierganges	Spaziergang
 Spaziergangs	Spaziergang
@@ -17832,6 +18593,7 @@ Speers	Speer
 Speichern	Speicher
 Speichers	Speicher
 Speicherungen	Speicherung
+Speise	Speis|Speise
 Speisekarten	Speisekarte
 Speisen	speisen|Speis|Speise
 Speisens	speisen|Speis|Speise
@@ -17841,6 +18603,7 @@ Speiseplans	Speiseplan
 Speisepläne	Speiseplan
 Speiseplänen	Speiseplan
 Speises	Speis
+Speisung	speisen
 Spektakeln	Spektakel
 Spektakels	Spektakel
 Spektra	Spektrum
@@ -17948,7 +18711,9 @@ Spirits	Spirit
 Spitals	Spital
 Spittel	Spital
 Spitzen	Spitze|spitzen
+Spitzenkandidat	Spitzenkandidat|Spitzenkandidatin
 Spitzenkandidaten	Spitzenkandidat
+Spitzenkandidatin	Spitzenkandidat|Spitzenkandidatin
 Spitzenkandidatinnen	Spitzenkandidatin
 Spitzenplatze	Spitzenplatz
 Spitzenplatzes	Spitzenplatz
@@ -17964,6 +18729,7 @@ Spitzenspiele	Spitzenspiel
 Spitzenspielen	Spitzenspiel
 Spitzenspieles	Spitzenspiel
 Spitzenspiels	Spitzenspiel
+Spitzer	spitzen
 Spitznamen	Spitzname
 Spitznamens	Spitzname
 Spitäler	Spital
@@ -18026,8 +18792,10 @@ Sprichworts	Sprichwort
 Sprichwörter	Sprichwort
 Sprichwörtern	Sprichwort
 Springen	springen
+Springerin	Springer
 Springern	Springer
 Springers	Springer
+Sprinterin	Sprinter
 Sprintern	Sprinter
 Sprinters	Sprinter
 Sprints	Sprint
@@ -18093,11 +18861,13 @@ Staatsanwalts	Staatsanwalt
 Staatsanwaltschaften	Staatsanwaltschaft
 Staatsanwälte	Staatsanwalt
 Staatsanwälten	Staatsanwalt
+Staatsanwältin	Staatsanwalt|Staatsanwältin
 Staatsanwältinnen	Staatsanwältin
 Staatsbesuche	Staatsbesuch
 Staatsbesuchen	Staatsbesuch
 Staatsbesuches	Staatsbesuch
 Staatsbesuchs	Staatsbesuch
+Staatsbürgerin	Staatsbürger
 Staatsbürgern	Staatsbürger
 Staatsbürgers	Staatsbürger
 Staatsbürgerschaften	Staatsbürgerschaft
@@ -18131,6 +18901,7 @@ Staatssekretäres	Staatssekretär
 Staatssekretärs	Staatssekretär
 Staatsverschuldungen	Staatsverschuldung
 Stabe	Stab
+Staberl	Stab
 Stabes	Stab
 Stabilisierungen	Stabilisierung
 Stabs	Stab
@@ -18171,6 +18942,7 @@ Stadtplänen	Stadtplan
 Stadtrande	Stadtrand
 Stadtrandes	Stadtrand
 Stadtrands	Stadtrand
+Stadtrat	Stadtrat|Stadträtin
 Stadtrate	Stadtrat
 Stadtrates	Stadtrat
 Stadtrats	Stadtrat
@@ -18178,6 +18950,7 @@ Stadtränder	Stadtrand
 Stadträndern	Stadtrand
 Stadträte	Stadtrat
 Stadträten	Stadtrat
+Stadträtin	Stadtrat|Stadträtin
 Stadträtinnen	Stadträtin
 Stadtteile	Stadtteil
 Stadtteilen	Stadtteil
@@ -18298,11 +19071,13 @@ Staudämme	Staudamm
 Staudämmen	Staudamm
 Staue	Stau
 Stauen	Stau
+Staunen	staunen|Staunen
 Staunens	Staunen
 Staus	Stau
 Stauseen	Stausee
 Stausees	Stausee
 Steckdosen	Steckdose
+Stecken	stecken
 Steckern	Stecker
 Steckers	Stecker
 Stege	Steg
@@ -18311,6 +19086,7 @@ Steges	Steg
 Stegs	Steg
 Steigen	steigen
 Steigens	steigen
+Steiger	steigen
 Steigerungen	Steigerung
 Steigungen	Steigung
 Steinbruche	Steinbruch
@@ -18340,6 +19116,7 @@ Stellplatze	Stellplatz
 Stellplatzes	Stellplatz
 Stellplätze	Stellplatz
 Stellplätzen	Stellplatz
+Stellung	stellen|Stellung
 Stellungen	Stellung
 Stellungnahmen	Stellungnahme
 Stellvertreterin	Stellvertreter
@@ -18356,6 +19133,7 @@ Sternbilder	Sternbild
 Sternbildern	Sternbild
 Sternbildes	Sternbild
 Sternbilds	Sternbild
+Sternchen	Stern
 Sternderl	Stern
 Sterne	Stern
 Sternen	Stern
@@ -18466,6 +19244,7 @@ Stipendiums	Stipendium
 Stirne	Stirn
 Stirnen	Stirn
 Stocke	Stock
+Stockerl	Stock
 Stockern	Stocker
 Stockers	Stocker
 Stockes	Stock
@@ -18489,6 +19268,7 @@ Stolpersteines	Stolperstein
 Stolpersteins	Stolperstein
 Stolze	Stolz
 Stolzes	Stolz
+Stopfen	stopfen
 Stopfer	stopfen
 Stopps	Stopp
 Storche	Storch
@@ -18498,6 +19278,8 @@ Storen	Store
 Stores	Store
 Stornierungen	Stornierung
 Storys	Story
+Stossen	stoßen
+Stosser	stoßen
 Stottern	stottern
 Stotterns	stottern
 Stoßen	stoßen
@@ -18606,6 +19388,7 @@ Streichs	Streich
 Streichungen	Streichung
 Streifchen	Streifen
 Streifchens	Streifen
+Streifen	Streifen|streifen|Streife
 Streifens	Streifen
 Streifenwagens	Streifenwagen
 Streifenwägen	Streifenwagen
@@ -18641,6 +19424,7 @@ Streubesitzes	Streubesitz
 Streß	Stress
 Strg	Steuerung
 Striche	Strich
+Strichelchen	Strich
 Strichen	Strich
 Stricherl	Strich
 Striches	Strich
@@ -18649,6 +19433,7 @@ Strichleins	Strich
 Strichs	Strich
 Stricken	stricken
 Strickens	stricken
+Strike	Streik
 Strohe	Stroh
 Strohes	Stroh
 Strohs	Stroh
@@ -18673,6 +19458,7 @@ Stränge	Strang
 Strängen	Strang
 Strässchen	Straße
 Strässchens	Straße
+Strässlein	Straße
 Sträuchelchen	Strauch
 Sträucher	Strauch
 Sträuchern	Strauch
@@ -18726,17 +19512,23 @@ Sturmtiefs	Sturmtief
 Sturze	Sturz
 Sturzen	Sturz
 Sturzes	Sturz
+Stute	Pferd|Stute
+Stuten	Stute
 Stuttgarterin	Stuttgarter
 Stuttgarterinnen	Stuttgarter
 Stuttgartern	Stuttgarter
 Stuttgarters	Stuttgarter
+Stutz	stutzen
+Stutzen	Stütze
 Styles	Style
+Stäbchen	Stab
 Stäbe	Stab
 Stäben	Stab
 Städtchen	Stadt
 Städtchens	Stadt
 Städte	Stadt
 Städten	Stadt
+Städtl	Stadt
 Städtlein	Stadt
 Städtleins	Stadt
 Stähle	Stahl
@@ -18747,6 +19539,7 @@ Ställe	Stall
 Ställen	Stall
 Stämme	Stamm
 Stämmen	Stamm
+Ständchen	Stand
 Stände	Stand
 Ständen	Stand
 Ständerate	Ständerat
@@ -18907,6 +19700,7 @@ Szenarium	Szenario
 Szenen	Szene
 Sächelchen	Sache
 Sächlein	Sache
+Sächsin	Sachse
 Säckchen	Sack
 Säcke	Sack
 Säckelchen	Sack
@@ -18926,7 +19720,9 @@ Säle	Saal
 Sälen	Saal
 Sände	Sand
 Sänden	Sand
+Sänger	singen|Sängerin|Sänger
 Sängerchen	Sänger
+Sängerin	Sängerin|Sänger
 Sängerinnen	Sängerin
 Sängerlein	Sänger
 Sängern	Sänger
@@ -18959,6 +19755,7 @@ Söhne	Sohn
 Söhnen	Sohn
 Söhnlein	Sohn
 Söhnleins	Sohn
+Söldnerin	Söldner
 Söldnern	Söldner
 Söldners	Söldner
 Sölle	Soll
@@ -18984,6 +19781,7 @@ Südtirolern	Südtiroler
 Südtirolers	Südtiroler
 Südwestens	Südwesten
 Südwests	Südwest
+Sümmchen	Summe
 Sümpfe	Sumpf
 Sümpfen	Sumpf
 Sünden	Sünde
@@ -19000,6 +19798,7 @@ Tabellen	Tabelle
 Tabellenführern	Tabellenführer
 Tabellenführers	Tabellenführer
 Tablets	Tablet
+Tablette	Tablett|Tablette
 Tabletten	Tablett|Tablette
 Tablettes	Tablett
 Tabletts	Tablett
@@ -19009,6 +19808,7 @@ Tach	Tag
 Tafeln	Tafel
 Taferl	Tafel
 Tagbau	Tagebau
+Tage	Tag|Tage
 Tagebaue	Tagebau
 Tagebauen	Tagebau
 Tagebaues	Tagebau
@@ -19090,6 +19890,7 @@ Tarifvertrages	Tarifvertrag
 Tarifvertrags	Tarifvertrag
 Tarifverträge	Tarifvertrag
 Tarifverträgen	Tarifvertrag
+Tarte	Torte
 Taschen	Tasche
 Taschengelde	Taschengeld
 Taschengelder	Taschengeld
@@ -19129,13 +19930,16 @@ Tatvorwurfes	Tatvorwurf
 Tatvorwurfs	Tatvorwurf
 Tatvorwürfe	Tatvorwurf
 Tatvorwürfen	Tatvorwurf
+Taube	Taube|Tauber
 Taubem	Tauber
 Tauben	Taube|Tauber
+Tauber	Taube|Tauber
 Tauberl	Taube
 Taubern	Tauber
 Taubers	Tauber
 Tauchen	tauchen
 Tauchens	tauchen
+Taucher	tauchen|Taucher
 Taucherin	Taucher
 Taucherinnen	Taucher
 Tauchern	Taucher
@@ -19150,8 +19954,10 @@ Tausende	Tausend
 Tausenden	Tausend
 Tausends	Tausend
 Tauziehens	Tauziehen
+Taxe	Taxi
 Taxen	Taxi
 Taxieren	taxieren
+Taxifahrerin	Taxifahrer
 Taxifahrern	Taxifahrer
 Taxifahrers	Taxifahrer
 Taxis	Taxi
@@ -19303,6 +20109,7 @@ Terroranschläge	Terroranschlag
 Terroranschlägen	Terroranschlag
 Terrorgruppen	Terrorgruppe
 Terroristen	Terrorist
+Terroristin	Terrorist
 Terrororganisationen	Terrororganisation
 Terrors	Terror
 Teslas	Tesla
@@ -19366,9 +20173,11 @@ Themenbereiches	Themenbereich
 Themenbereichs	Themenbereich
 Theologen	Theologe
 Theologien	Theologie
+Theologin	Theologe
 Theorien	Theorie
 Thera	Therapeut
 Therapeuten	Therapeut
+Therapeutin	Therapeut
 Therapien	Therapie
 Thermen	Therme
 Thermometern	Thermometer
@@ -19392,6 +20201,7 @@ Throns	Thron
 Thum	Dom
 Thurm	Turm
 Thüre	Tür
+Thüringerin	Thüringer
 Thüringern	Thüringer
 Thüringers	Thüringer
 Ticke	Tick
@@ -19500,6 +20310,7 @@ Tochtergesellschaften	Tochtergesellschaft
 Tode	Tod
 Toden	Tod
 Todes	Tod
+Todesfalle	Todesfall
 Todesfalles	Todesfall
 Todesfalls	Todesfall
 Todesfälle	Todesfall
@@ -19576,6 +20387,7 @@ Torwartes	Torwart
 Torwarts	Torwart
 Tosen	tosen
 Tote	Toter
+Totem	Toter
 Toten	Toter
 Totschlage	Totschlag
 Totschlages	Totschlag
@@ -19607,6 +20419,8 @@ Tragen	tragen
 Tragödien	Tragödie
 Trailern	Trailer
 Trailers	Trailer
+Trainer	Trainer|Trainerin
+Trainerin	Trainer|Trainerin
 Trainerinnen	Trainerin
 Trainern	Trainer
 Trainers	Trainer
@@ -19635,6 +20449,7 @@ Transportern	Transporter
 Transporters	Transporter
 Transportes	Transport
 Transportieren	transportieren
+Transportierer	transportieren
 Transports	Transport
 Trassen	Trasse
 Trauben	Traube
@@ -19652,6 +20467,7 @@ Traumes	Traum
 Traums	Traum
 Traurigkeiten	Traurigkeit
 Trauungen	Trauung
+Treffen	treffen|Treffen
 Treffens	Treffen
 Treffern	Treffer
 Treffers	Treffer
@@ -19674,6 +20490,7 @@ Trends	Trend
 Trendwenden	Trendwende
 Trennen	trennen
 Trennungen	Trennung
+Treppchen	Treppe
 Treppen	Treppe
 Treppenhause	Treppenhaus
 Treppenhauses	Treppenhaus
@@ -19725,6 +20542,7 @@ Trojanern	Trojaner
 Trojaners	Trojaner
 Trommeln	Trommel|trommeln
 Trompeten	Trompete
+Tropfen	Tropfen|tropfen
 Tropfens	Tropfen
 Tropferl	Tropfen
 Trophäen	Trophäe
@@ -19743,6 +20561,7 @@ Trumpfs	Trumpf
 Trunkenheiten	Trunkenheit
 Truppen	Truppe
 Trupps	Trupp
+Träger	tragen|Träger
 Trägerin	Träger
 Trägern	Träger
 Trägers	Träger
@@ -19757,7 +20576,9 @@ Tränengases	Tränengas
 Tränlein	Träne
 Träubchen	Traube
 Träublein	Traube
+Träume	Traum|Träume
 Träumen	Traum|träumen
+Tröpfchen	Tropfen
 Tröpflein	Tropfen
 Tröpfleins	Tropfen
 Trösten	trösten
@@ -19767,6 +20588,7 @@ Trümpfe	Trumpf
 Trümpfen	Trumpf
 Ts	T
 Tschechen	Tscheche
+Tschechin	Tscheche
 Tschuldigung	Entschuldigung
 Tschungel	Dschungel
 Tsunamis	Tsunami
@@ -19791,6 +20613,7 @@ Turbulenzen	Turbulenz
 Turme	Turm
 Turmes	Turm
 Turms	Turm
+Turnerin	Turner
 Turnern	Turner
 Turners	Turner
 Turnhallen	Turnhalle
@@ -19805,6 +20628,7 @@ Turnschuhs	Turnschuh
 Tweets	Tweet
 Typchen	Typ
 Typen	Typ
+Typin	Typ
 Typs	Typ
 Täfelchen	Tafel
 Täfelein	Tafel
@@ -19835,6 +20659,8 @@ Tätern	Täter
 Täters	Täter
 Tätigen	tätigen
 Tätigkeiten	Tätigkeit
+Täubchen	Taube
+Täubin	Tauber
 Täublein	Taube
 Täubleins	Taube
 Täuschen	täuschen
@@ -19846,12 +20672,14 @@ Töchterl	Tochter
 Töchterlein	Tochter
 Töchterleins	Tochter
 Töchtern	Tochter
+Tölzerin	Tölzer
 Tölzern	Tölzer
 Tölzers	Tölzer
 Töne	Ton
 Tönen	Ton|tönen
 Tönens	Ton|tönen
 Tönnchen	Tonne
+Töpfchen	Topf
 Töpfe	Topf
 Töpfen	Topf
 Töpflein	Topf
@@ -19863,6 +20691,7 @@ Tötungsdelikte	Tötungsdelikt
 Tötungsdelikten	Tötungsdelikt
 Tötungsdeliktes	Tötungsdelikt
 Tötungsdelikts	Tötungsdelikt
+Tübingerin	Tübinger
 Tübingern	Tübinger
 Tübingers	Tübinger
 Tücher	Tuch
@@ -19874,7 +20703,9 @@ Türchen	Tür
 Türchens	Tür
 Türe	Tür
 Türen	Tür
+Türken	Türken|Türke
 Türkens	Türken
+Türkin	Türke
 Türl	Tür
 Türlein	Tür
 Türleins	Tür
@@ -19888,6 +20719,7 @@ Türsteherin	Türsteher
 Türsteherinnen	Türsteher
 Türstehern	Türsteher
 Türstehers	Türsteher
+Tütchen	Tüte
 Tüten	Tüte
 Tüterl	Tüte
 U-Ausschuss	Untersuchungsausschuss
@@ -19926,9 +20758,12 @@ Uhren	Uhr
 Uhrzeiten	Uhrzeit
 Uibersetzung	Übersetzung
 Uibersetzungen	Übersetzung
+Ukrainer	Ukrainer|Ukrainerin
+Ukrainerin	Ukrainer|Ukrainerin
 Ukrainerinnen	Ukrainerin
 Ukrainern	Ukrainer
 Ukrainers	Ukrainer
+Ulmerin	Ulmer
 Ulmern	Ulmer
 Ulmers	Ulmer
 Ultimaten	Ultimatum
@@ -20068,6 +20903,7 @@ Umstande	Umstand
 Umstandes	Umstand
 Umstands	Umstand
 Umsteigen	umsteigen
+Umsteiger	umsteigen
 Umstellen	umstellen
 Umstellungen	Umstellung
 Umstiege	Umstieg
@@ -20128,6 +20964,7 @@ Unfuges	Unfug
 Unfugs	Unfug
 Unfälle	Unfall
 Unfällen	Unfall
+Ungarin	Ungar
 Ungarn	Ungar
 Ungarns	Ungar
 Ungerechtigkeiten	Ungerechtigkeit
@@ -20208,6 +21045,7 @@ Untergehen	untergehen
 Untergeschosse	Untergeschoss
 Untergeschossen	Untergeschoss
 Untergeschosses	Untergeschoss
+Untergeschoß	Untergeschoss
 Untergraben	untergraben
 Untergrabens	untergraben
 Untergrundes	Untergrund
@@ -20237,6 +21075,7 @@ Unterlegen	unterlegen
 Unterliegen	unterliegen
 Untermauern	untermauern
 Untern	Unter
+Unternehmen	Unternehmen|unternehmen
 Unternehmens	Unternehmen
 Unternehmensführungen	Unternehmensführung
 Unternehmerin	Unternehmer
@@ -20290,6 +21129,7 @@ Untersuchungsergebnissen	Untersuchungsergebnis
 Untersuchungsergebnisses	Untersuchungsergebnis
 Untersuchungskommissionen	Untersuchungskommission
 Untertauchen	untertauchen
+Untertaucher	untertauchen
 Unterteilen	unterteilen
 Unterteilens	unterteilen
 Untertiteln	Untertitel
@@ -20366,6 +21206,7 @@ Us	U
 Utopien	Utopie
 VB	Vereinbarung
 VG	Verwaltungsgericht|Vorstellungsgespräch
+VHS	Volkshochschule|VHS
 VL	Vorlesung
 VO	Verordnung|Vorlesung
 VVK	Vorverkauf
@@ -20476,6 +21317,8 @@ Verboten	Verbot
 Verbotes	Verbot
 Verbots	Verbot
 Verbrauche	Verbrauch
+Verbrauchen	verbrauchen
+Verbraucher	Verbraucher|verbrauchen
 Verbraucherin	Verbraucher
 Verbraucherinnen	Verbraucher
 Verbrauchern	Verbraucher
@@ -20494,6 +21337,7 @@ Verbreiters	verbreiten
 Verbreitungen	Verbreitung
 Verbrennen	verbrennen
 Verbrennens	verbrennen
+Verbrenner	verbrennen|Verbrenner
 Verbrennern	Verbrenner
 Verbrenners	Verbrenner
 Verbrennungen	Verbrennung
@@ -20514,8 +21358,10 @@ Verbände	Verband
 Verbänden	Verband
 Verbünde	Verbund
 Verbünden	Verbund|verbünden
+Verbündete	Verbündete|Verbündeter
 Verbündetem	Verbündeter
 Verbündeten	Verbündete|Verbündeter
+Verbündeter	Verbündete|Verbündeter
 Verbüßen	verbüßen
 Verbüßens	verbüßen
 Verdachte	Verdacht
@@ -20525,6 +21371,8 @@ Verdachts	Verdacht
 Verdanken	verdanken
 Verdauen	verdauen
 Verdecken	verdecken
+Verderben	verderben
+Verderber	verderben
 Verdeutlichen	verdeutlichen
 Verdichten	verdichten
 Verdichtens	verdichten
@@ -20538,9 +21386,11 @@ Verdiensts	Verdienst
 Verdoppeln	verdoppeln
 Verdoppelns	verdoppeln
 Verdoppelungen	Verdoppelung
+Verdoppler	verdoppeln
 Verdrehen	verdrehen
 Verdrehens	verdrehen
 Verdreifachen	verdreifachen
+Verdreifacher	verdreifachen
 Verdrängen	verdrängen
 Verdrängens	verdrängen
 Verdächte	Verdacht
@@ -20693,11 +21543,13 @@ Verkaufsraums	Verkaufsraum
 Verkaufsräume	Verkaufsraum
 Verkaufsräumen	Verkaufsraum
 Verkaufszahlen	Verkaufszahl
+Verkehr	Verkehr|verkehren
 Verkehre	Verkehr
 Verkehren	Verkehr|verkehren
 Verkehres	Verkehr
 Verkehrs	Verkehr
 Verkehrsanbindungen	Verkehrsanbindung
+Verkehrsministerin	Verkehrsminister
 Verkehrsministern	Verkehrsminister
 Verkehrsministers	Verkehrsminister
 Verkehrsmitteln	Verkehrsmittel
@@ -20733,6 +21585,8 @@ Verkomplizieren	komplizieren
 Verkraften	verkraften
 Verkäufe	Verkauf
 Verkäufen	Verkauf
+Verkäufer	Verkäufer|Verkäuferin
+Verkäuferin	Verkäufer|Verkäuferin
 Verkäuferinnen	Verkäuferin
 Verkäufern	Verkäufer
 Verkäufers	Verkäufer
@@ -20813,6 +21667,7 @@ Vermerken	vermerken
 Vermessen	vermessen
 Vermeßen	vermessen
 Vermieten	vermieten
+Vermieterin	Vermieter
 Vermietern	Vermieter
 Vermieters	Vermieter
 Vermietungen	Vermietung
@@ -20825,6 +21680,7 @@ Vermissten	Vermisster
 Vermitteln	vermitteln
 Vermittelung	Vermittlung
 Vermittelungen	Vermittlung
+Vermittler	vermitteln|Vermittler
 Vermittlerin	Vermittler
 Vermittlern	Vermittler
 Vermittlers	Vermittler
@@ -20880,8 +21736,10 @@ Verrücken	verrücken
 Verrühren	verrühren
 Verrührer	verrühren
 Verrührers	verrühren
+Versagen	versagen|Versagen
 Versagens	Versagen
 Versammeln	versammeln
+Versammler	versammeln
 Versammlungen	Versammlung
 Versande	Versand
 Versandes	Versand
@@ -20890,6 +21748,7 @@ Verschaffen	verschaffen
 Verschaffer	verschaffen
 Verschafferin	verschaffen
 Verschanzen	verschanzen
+Verschanzer	verschanzen
 Verschen	Vers
 Verschenken	verschenken
 Verschens	Vers
@@ -20897,10 +21756,13 @@ Verschicken	verschicken
 Verschieben	verschieben
 Verschiebungen	Verschiebung
 Verschiessen	verschießen
+Verschiesser	verschießen
 Verschießen	verschießen
 Verschissmus	Faschismus
 Verschlafen	verschlafen
+Verschlafer	verschlafen
 Verschlagen	verschlagen
+Verschlechterer	verschlechtern
 Verschlechtern	verschlechtern
 Verschlechterungen	Verschlechterung
 Verschleiern	verschleiern
@@ -20910,8 +21772,10 @@ Verschleißen	Verschleiß
 Verschleißes	Verschleiß
 Verschleppen	verschleppen
 Verschliessen	verschließen
+Verschliesser	verschließen
 Verschließen	verschließen
 Verschließer	verschließen
+Verschlimmerer	verschlimmern
 Verschlimmern	verschlimmern
 Verschlingen	verschlingen
 Verschlingens	verschlingen
@@ -20939,11 +21803,13 @@ Verschweigers	verschweigen
 Verschwenden	verschwenden
 Verschwendungen	Verschwendung
 Verschwimmen	verschwimmen
+Verschwinden	verschwinden|Verschwinden
 Verschwindens	Verschwinden
 Verschwörungen	Verschwörung
 Verschwörungstheorien	Verschwörungstheorie
 Verschärfen	verschärfen
 Verschärfungen	Verschärfung
+Verschönerer	verschönern
 Verschönern	verschönern
 Verschütten	verschütten
 Verschüttens	verschütten
@@ -20951,9 +21817,12 @@ Verse	Vers
 Versehens	Versehen
 Versen	Vers
 Versenden	versenden
+Versender	versenden
 Versenken	versenken
+Versenker	versenken
 Verses	Vers
 Verseuchen	verseuchen
+Verseucher	verseuchen
 Versicherern	Versicherer
 Versicherers	Versicherer
 Versichern	versichern
@@ -20971,7 +21840,9 @@ Versorger	versorgen
 Versorgungen	Versorgung
 Versorgungssicherheiten	Versorgungssicherheit
 Versperren	versperren
+Versperrer	versperren
 Verspielen	verspielen
+Verspieler	verspielen
 Versprechens	Versprechen
 Versprechungen	Versprechung
 Versprühen	versprühen
@@ -20985,6 +21856,7 @@ Verstandes	Verstand
 Verstands	Verstand
 Verstauen	verstauen
 Verstecke	Versteck
+Verstecken	verstecken|Versteck
 Versteckes	Versteck
 Verstecks	Versteck
 Verstehen	verstehen
@@ -21002,7 +21874,10 @@ Versterben	versterben
 Versteuern	versteuern
 Verstopfen	verstopfen
 Verstorbenen	Verstorbene
+Verstorbener	Verstorbene
 Verstoss	Verstoß
+Verstossen	verstoßen
+Verstosser	verstoßen
 Verstoße	Verstoß
 Verstoßen	verstoßen
 Verstoßer	verstoßen
@@ -21032,6 +21907,7 @@ Versus	Vers
 Versände	Versand
 Versänden	Versand
 Versäumen	versäumen
+Versäumer	versäumen
 Versäumnisse	Versäumnis
 Versäumnissen	Versäumnis
 Versäumnisses	Versäumnis
@@ -21050,13 +21926,16 @@ Verteidigern	Verteidiger
 Verteidigers	Verteidiger
 Verteidigungen	Verteidigung
 Verteidigungsministerien	Verteidigungsministerium
+Verteidigungsministerin	Verteidigungsminister|Verteidigungsministerin
 Verteidigungsministerinnen	Verteidigungsministerin
 Verteidigungsministeriums	Verteidigungsministerium
 Verteidigungsministern	Verteidigungsminister
 Verteidigungsministers	Verteidigungsminister
 Verteilen	verteilen
+Verteiler	verteilen
 Verteilungen	Verteilung
 Vertiefen	vertiefen
+Vertiefung	vertiefen|Vertiefung
 Vertiefungen	Vertiefung
 Vertrage	Vertrag
 Vertragen	vertragen
@@ -21074,6 +21953,7 @@ Vertrauten	Vertrauter
 Vertreiben	vertreiben
 Vertreibungen	Vertreibung
 Vertreten	vertreten
+Vertreter	vertreten|Vertreter
 Vertreterin	Vertreter
 Vertreterinnen	Vertreter
 Vertretern	Vertreter
@@ -21130,6 +22010,7 @@ Verwechselungen	Verwechslung
 Verwechslungen	Verwechslung
 Verwehren	verwehren
 Verweigern	verweigern
+Verweilen	Verweilen|verweilen
 Verweilens	Verweilen
 Verweise	Verweis
 Verweisen	Verweis
@@ -21179,6 +22060,7 @@ Verzweifeln	verzweifeln
 Verzweiflungen	Verzweiflung
 Verzögern	verzögern
 Verzögerungen	Verzögerung
+Veränderer	verändern
 Verändern	verändern
 Veränderns	verändern
 Veränderungen	Veränderung
@@ -21222,12 +22104,15 @@ Viertelfinales	Viertelfinale
 Vierteln	Viertel
 Viertels	Viertel
 Viertelstunden	Viertelstunde
+Viertelstündchen	Viertelstunde
 Viertelstündlein	Viertelstunde
+Vierterl	Viertel
 Villen	Villa
 Vira	Virus
 Viren	Virus
 Virusse	Virus
 Virussen	Virus
+Visa	Visum|Visa
 Visas	Visa
 Visen	Visum
 Visiere	Visier
@@ -21381,7 +22266,9 @@ Vorderseiten	Vorderseite
 Vordringen	vordringen
 Vorentscheidungen	Vorentscheidung
 Vorfahr	Vorfahre|Vorfahrin
+Vorfahre	Vorfahre|Vorfahrin
 Vorfahren	Vorfahre|Vorfahrin
+Vorfahrin	Vorfahre|Vorfahrin
 Vorfahrinnen	Vorfahrin
 Vorfahrten	Vorfahrt
 Vorfalle	Vorfall
@@ -21394,6 +22281,7 @@ Vorfelds	Vorfeld
 Vorfreuden	Vorfreude
 Vorfälle	Vorfall
 Vorfällen	Vorfall
+Vorführer	vorführen
 Vorführungen	Vorführung
 Vorgaben	Vorgabe
 Vorgange	Vorgang
@@ -21452,6 +22340,7 @@ Vorlesungen	Vorlesung
 Vorlieben	Vorliebe
 Vorläufe	Vorlauf
 Vorläufen	Vorlauf
+Vorläuferin	Vorläufer
 Vorläufern	Vorläufer
 Vorläufers	Vorläufer
 Vormachen	vormachen
@@ -21529,8 +22418,10 @@ Vorstandsmitgliedern	Vorstandsmitglied
 Vorstandsmitgliedes	Vorstandsmitglied
 Vorstandsmitglieds	Vorstandsmitglied
 Vorstandssitzungen	Vorstandssitzung
+Vorstandsvorsitzende	Vorstandsvorsitzender|Vorstandsvorsitzende
 Vorstandsvorsitzendem	Vorstandsvorsitzender
 Vorstandsvorsitzenden	Vorstandsvorsitzender
+Vorstandsvorsitzender	Vorstandsvorsitzender|Vorstandsvorsitzende
 Vorstellungen	Vorstellung
 Vorstellungsgespräche	Vorstellungsgespräch
 Vorstellungsgesprächen	Vorstellungsgespräch
@@ -21635,6 +22526,7 @@ Völkerrechte	Völkerrecht
 Völkerrechtes	Völkerrecht
 Völkerrechts	Völkerrecht
 Völklein	Volk
+W	W|West
 WCs	WC
 WE	Wochenende|Wohneinheit
 WG	Wohngemeinschaft
@@ -21675,6 +22567,7 @@ Waffenstillstands	Waffenstillstand
 Waffenstillstände	Waffenstillstand
 Waffenstillständen	Waffenstillstand
 Wage	Waage
+Wagen	Wagen|wagen
 Wagens	Wagen
 Wagerl	Wagen|Kinderwagen|Einkaufswagen
 Waggone	Waggon
@@ -21688,6 +22581,7 @@ Wagon	Waggon
 Wagone	Waggon
 Wagons	Waggon
 Wahlberechtigten	Wahlberechtigte
+Wahlberechtigter	Wahlberechtigte
 Wahlbeteiligungen	Wahlbeteiligung
 Wahlbetruge	Wahlbetrug
 Wahlbetruges	Wahlbetrug
@@ -21763,6 +22657,7 @@ Waldwegs	Waldweg
 Wale	Wal
 Walen	Wal
 Wales	Wal
+Wallach	Pferd
 Walle	Wall
 Wallen	Wall
 Waller	Wels
@@ -21860,12 +22755,14 @@ Wasserwerke	Wasserwerk
 Wasserwerken	Wasserwerk
 Wasserwerkes	Wasserwerk
 Wasserwerks	Wasserwerk
+Watten	Watt
 Wattenmeere	Wattenmeer
 Wattenmeeren	Wattenmeer
 Wattenmeeres	Wattenmeer
 Wattenmeers	Wattenmeer
 Watts	Watt
 Weben	weben
+Weber	Weber|weben
 Weberin	Weber
 Weberinnen	Weber
 Webern	Weber
@@ -21880,6 +22777,8 @@ Wechselrichtern	Wechselrichter
 Wechselrichters	Wechselrichter
 Wechsels	Wechsel
 Wechselwirkungen	Wechselwirkung
+Wecken	wecken
+Wecker	wecken|Wecker
 Weckern	Wecker
 Weckers	Wecker
 Weckrufe	Weckruf
@@ -22003,6 +22902,7 @@ Weingüter	Weingut
 Weingütern	Weingut
 Weins	Wein
 Weisen	weisen|Weise
+Weiser	Weise
 Weisheiten	Weisheit
 Weiss	Weiß
 Weisse	Weiße
@@ -22027,7 +22927,9 @@ Weiterleiter	weiterleiten
 Weitermachen	weitermachen
 Weiterverkaufen	weiterverkaufen
 Weizens	Weizen
+Weiße	Weiße|Weiß|Weizen
 Weißen	Weiße|Weizen|weißen
+Weißer	Weiße
 Weißes	Weiß
 Weißweine	Weißwein
 Weißweinen	Weißwein
@@ -22118,6 +23020,7 @@ Werften	Werft
 Werkchen	Werk
 Werke	Werk
 Werkeln	werkeln
+Werken	Werk|Werken
 Werkens	Werken
 Werkes	Werk
 Werklein	Werk
@@ -22166,6 +23069,7 @@ Wespen	Wespe
 Westdeutsche	Westdeutscher
 Westdeutschem	Westdeutscher
 Westdeutschen	Westdeutscher
+Westen	Westen|West|Weste
 Westens	Westen
 Westerns	Western
 Westfalen	Westfale
@@ -22209,6 +23113,7 @@ WiFis	Wi-Fi
 WiGa	Wintergarten
 Wichtigkeiten	Wichtigkeit
 Wickeln	wickeln
+Wickler	wickeln
 Widerlegen	widerlegen
 Widerrufe	Widerruf
 Widerrufen	Widerruf|widerrufen
@@ -22293,6 +23198,7 @@ Windanlage	Windkraftanlage
 Windanlagen	Windkraftanlage
 Windchen	Wind
 Windchens	Wind
+Winde	Wind|Wende|Winde
 Windeln	Windel
 Winden	Wind|Winde|winden
 Windes	Wind
@@ -22337,6 +23243,7 @@ Wintersporte	Wintersport
 Wintersporten	Wintersport
 Wintersportes	Wintersport
 Wintersports	Wintersport
+Winzerin	Winzer
 Winzern	Winzer
 Winzers	Winzer
 Wirbeln	Wirbel|wirbeln
@@ -22364,6 +23271,7 @@ Wirkungsgrads	Wirkungsgrad
 Wirte	Wirt
 Wirten	Wirt
 Wirtes	Wirt
+Wirtin	Wirt
 Wirts	Wirt
 Wirtschaften	Wirtschaft
 Wirtschaftlichkeiten	Wirtschaftlichkeit
@@ -22371,6 +23279,7 @@ Wirtschaftskrisen	Wirtschaftskrise
 Wirtschaftslagen	Wirtschaftslage
 Wirtschaftsleistungen	Wirtschaftsleistung
 Wirtschaftsministerien	Wirtschaftsministerium
+Wirtschaftsministerin	Wirtschaftsminister
 Wirtschaftsministeriums	Wirtschaftsministerium
 Wirtschaftsministern	Wirtschaftsminister
 Wirtschaftsministers	Wirtschaftsminister
@@ -22391,12 +23300,15 @@ Wirtshäuser	Wirtshaus
 Wirtshäusern	Wirtshaus
 Wischen	wischen
 Wischens	wischen
+Wischer	wischen
 Wissens	Wissen
 Wissenschaften	Wissenschaft
 Wissenschafterin	Wissenschaftlerin|Wissenschafter
 Wissenschafterinnen	Wissenschaftlerin|Wissenschafter
 Wissenschaftern	Wissenschafter
 Wissenschafters	Wissenschafter
+Wissenschaftler	Wissenschaftler|Wissenschaftlerin
+Wissenschaftlerin	Wissenschaftler|Wissenschaftlerin
 Wissenschaftlerinnen	Wissenschaftlerin
 Wissenschaftlern	Wissenschaftler
 Wissenschaftlers	Wissenschaftler
@@ -22405,6 +23317,7 @@ Wittern	wittern
 Witterungen	Witterung
 Wittib	Witwe
 Witwen	Witwe
+Witwer	Witwe
 Witzchen	Witz
 Witze	Witz
 Witzen	Witz
@@ -22520,6 +23433,7 @@ Wunsche	Wunsch
 Wunsches	Wunsch
 Wunschlisten	Wunschliste
 Wunschs	Wunsch
+Wuppertalerin	Wuppertaler
 Wuppertalern	Wuppertaler
 Wuppertalers	Wuppertaler
 Wurfe	Wurf
@@ -22567,6 +23481,7 @@ Wärmepumpen	Wärmepumpe
 Wärmewenden	Wärmewende
 Wäschen	Wäsche
 Wässer	Wasser
+Wässerchen	Wasser
 Wässerlein	Wasser
 Wässern	Wasser
 Wässerns	Wasser
@@ -22578,6 +23493,7 @@ Wölfen	Wolf
 Wölfin	Wolf
 Wölfinnen	Wolf
 Wölflein	Wolf
+Wölkchen	Wolke
 Wölklein	Wolke
 Wörtchen	Wort
 Wörtchens	Wort
@@ -22607,6 +23523,7 @@ Würfelns	Würfel
 Würfels	Würfel
 Würfen	Wurf
 Würgen	würgen
+Würger	würgen
 Würmchen	Wurm
 Würmchens	Wurm
 Würme	Wurm
@@ -22615,8 +23532,10 @@ Würmer	Wurm
 Würmern	Wurm
 Würmlein	Wurm
 Würmleins	Wurm
+Würstchen	Wurst|Würstchen
 Würstchens	Würstchen
 Würste	Wurst
+Würstel	Wurst|Würstel
 Würstelen	Würstel
 Würsteln	Würstel
 Würstels	Würstel
@@ -22624,6 +23543,7 @@ Würsten	Wurst
 Würsterl	Wurst
 Würstlein	Wurst
 Würstleins	Wurst
+Würzburgerin	Würzburger
 Würzburgern	Würzburger
 Würzburgers	Würzburger
 Würzelchen	Wurzel
@@ -22667,6 +23587,7 @@ Zahnes	Zahn
 Zahns	Zahn
 Zahnärzte	Zahnarzt
 Zahnärzten	Zahnarzt
+Zahnärztin	Zahnarzt
 Zauberer	zaubern
 Zauberern	zaubern
 Zauberers	zaubern
@@ -22686,10 +23607,12 @@ Zebras	Zebra
 Zechen	Zeche
 Zecken	Zecke
 Zehchen	Zeh
+Zehe	Zeh
 Zehen	Zeh
 Zehes	Zeh
 Zehnen	Zehn
 Zehnjährigen	Zehnjährige
+Zehnjähriger	Zehnjährige
 Zehnteln	Zehntel
 Zehntels	Zehntel
 Zehren	zehren
@@ -22712,6 +23635,7 @@ Zeilchens	Zeile
 Zeilen	Zeile
 Zeitaltern	Zeitalter
 Zeitalters	Zeitalter
+Zeitangabe	timen
 Zeitaufwande	Zeitaufwand
 Zeitaufwandes	Zeitaufwand
 Zeitaufwands	Zeitaufwand
@@ -22787,6 +23711,7 @@ Zerlegen	zerlegen
 Zerreissen	zerreißen
 Zerreißen	zerreißen
 Zerren	zerren
+Zerrung	zerren
 Zerrütten	zerrütten
 Zerschlagen	zerschlagen
 Zerschlagungen	Zerschlagung
@@ -22794,6 +23719,7 @@ Zersplittern	zersplittern
 Zerstreiten	zerstreiten
 Zerstreuen	zerstreuen
 Zerstören	zerstören
+Zerstörer	zerstören
 Zerstörungen	Zerstörung
 Zertifikate	Zertifikat
 Zertifikaten	Zertifikat
@@ -22805,13 +23731,17 @@ Zettelchen	Zettel
 Zetteln	Zettel
 Zettels	Zettel
 Zetterl	Zettel
+Zeuge	Zeuge|Zeug|Zeugin
 Zeugen	Zeuge|zeugen|Zeug
 Zeugenaussagen	Zeugenaussage
 Zeuges	Zeug
+Zeugin	Zeuge|Zeugin
 Zeuginnen	Zeugin
 Zeugnisse	Zeugnis
 Zeugnissen	Zeugnis
 Zeugnisses	Zeugnis
+Zeugs	Zeug
+Zibbe	Hund
 Ziegen	Ziege
 Zieglern	Ziegler
 Zieglers	Ziegler
@@ -22832,6 +23762,7 @@ Ziffern	Ziffer
 Zigarettchen	Zigarette
 Zigaretten	Zigarette
 Zimmerchen	Zimmer
+Zimmerfrau	Zimmermann
 Zimmerleute	Zimmermann
 Zimmerleuten	Zimmermann
 Zimmermanne	Zimmermann
@@ -22945,6 +23876,7 @@ Zugänge	Zugang
 Zugängen	Zugang
 Zuhauses	Zuhause
 Zuhören	zuhören
+Zuhörer	Zuhörer|zuhören
 Zuhörerin	Zuhörer
 Zuhörerinnen	Zuhörer
 Zuhörern	Zuhörer
@@ -23040,6 +23972,7 @@ Zusammenspieles	Zusammenspiel
 Zusammenspiels	Zusammenspiel
 Zusammenstellungen	Zusammenstellung
 Zusammenstoss	Zusammenstoß
+Zusammenstossen	zusammenstoßen
 Zusammenstoße	Zusammenstoß
 Zusammenstoßen	zusammenstoßen
 Zusammenstoßes	Zusammenstoß
@@ -23121,6 +24054,7 @@ Zwanges	Zwang
 Zwangs	Zwang
 Zwanzigern	Zwanziger
 Zwanzigers	Zwanziger
+Zwecke	Zweck|Zwecke
 Zwecken	Zweck|Zwecke
 Zweckes	Zweck
 Zwecks	Zweck
@@ -23130,6 +24064,7 @@ Zweifeln	Zweifel
 Zweifels	Zweifel
 Zweifelsfalls	Zweifelsfall
 Zweifelsfälle	Zweifelsfall
+Zweifler	zweifeln
 Zweigchen	Zweig
 Zweige	Zweig
 Zweigen	Zweig
@@ -23148,9 +24083,11 @@ Zweitem	Zweiter
 Zweiten	Zweiter
 Zwergchen	Zwerg
 Zwergchens	Zwerg
+Zwerge	Zwerg|Zwerge
 Zwergen	Zwerg
 Zwergerl	Zwerg
 Zwerges	Zwerg
+Zwergin	Zwerg
 Zwerglein	Zwerg
 Zwergleins	Zwerg
 Zwergs	Zwerg
@@ -23180,6 +24117,7 @@ Zylindern	Zylinder
 Zylinders	Zylinder
 Zählen	zählen
 Zählens	zählen
+Zähler	zählen|Zähler
 Zählerin	Zähler
 Zählern	Zähler
 Zählers	Zähler
@@ -23199,6 +24137,7 @@ Zögerers	zögern
 Zögern	zögern
 Zölle	Zoll
 Zöllen	Zoll
+Zöllnerin	Zöllner
 Zöllnern	Zöllner
 Zöllners	Zöllner
 Züchten	züchten
@@ -23210,6 +24149,7 @@ Zügen	Zug
 Zünfte	Zunft
 Zünften	Zunft
 Züngelchen	Zunge
+Zünglein	Zunge
 Zürcherin	Zürcher
 Zürchern	Zürcher
 Zürchers	Zürcher
@@ -23675,6 +24615,7 @@ abgeschreckt	abschrecken
 abgeschrieben	abschreiben
 abgeschwächt	abschwächen
 abgeschätzt	abschätzen
+abgesehen	abgesehen|absehen
 abgesendet	absenden
 abgesenkt	absenken
 abgesessen	absitzen
@@ -24275,6 +25216,7 @@ abschlepptet	abschleppen
 abschliessen	abschließen
 abschliessend	abschließen
 abschließe	abschließen
+abschließend	abschließen|abschließend
 abschließende	abschließend
 abschließendem	abschließend
 abschließenden	abschließend
@@ -24722,6 +25664,7 @@ abwarfen	abwerfen
 abwarfst	abwerfen
 abwarft	abwerfen
 abwarte	abwarten
+abwartend	abwarten
 abwartest	abwarten
 abwartet	abwarten
 abwartete	abwarten
@@ -24774,6 +25717,7 @@ abwehrten	abwehren
 abwehrtest	abwehren
 abwehrtet	abwehren
 abweiche	abweichen
+abweichend	abweichen|abweichend
 abweichende	abweichend
 abweichendem	abweichend
 abweichenden	abweichend
@@ -25000,6 +25944,7 @@ abzöget	abziehen
 abzögst	abziehen
 abzögt	abziehen
 accusative	Träume
+acht	acht|achten
 achte	achten|achte
 achtem	achte
 achten	achten|achte
@@ -25593,6 +26538,7 @@ altmodischstes	altmodisch
 altre	altern
 altrest	altern
 altret	altern
+am	auf|an|am
 ambitionierte	ambitioniert
 ambitioniertem	ambitioniert
 ambitionierten	ambitioniert
@@ -26298,6 +27244,7 @@ angepfiffen	anpfeifen
 angeprangert	anprangern
 angeraten	anraten
 angerechnet	anrechnen
+angeregt	angeregt|anregen
 angeregte	angeregt
 angeregtem	angeregt
 angeregten	angeregt
@@ -26769,6 +27716,7 @@ annäher	annähern
 annähere	annähern
 annäherest	annähern
 annäheret	annähern
+annähernd	annähernd|annähern
 annäherst	annähern
 annähert	annähern
 annäherte	annähern
@@ -26966,6 +27914,7 @@ anschlagt	anschlagen
 anschliessen	anschließen
 anschliessend	anschließend
 anschließe	anschließen
+anschließend	anschließend|anschließen
 anschließende	anschließend
 anschließendem	anschließend
 anschließenden	anschließend
@@ -27152,6 +28101,7 @@ ansteigest	ansteigen
 ansteiget	ansteigen
 ansteigst	ansteigen
 ansteigt	ansteigen
+anstelle	anstelle|anstellen
 anstellend	anstellen
 anstellest	anstellen
 anstellet	anstellen
@@ -27979,6 +28929,7 @@ auffahrest	auffahren
 auffahret	auffahren
 auffahrt	auffahren
 auffalle	auffallen
+auffallend	auffallen|auffallend
 auffallende	auffallend
 auffallendem	auffallend
 auffallenden	auffallend
@@ -29807,6 +30758,7 @@ ausgesetztem	ausgesetzt
 ausgesetzten	ausgesetzt
 ausgesetzter	ausgesetzt
 ausgesetztes	ausgesetzt
+ausgesprochen	ausgesprochen|aussprechen
 ausgesprochene	ausgesprochen
 ausgesprochenem	ausgesprochen
 ausgesprochenen	ausgesprochen
@@ -29909,6 +30861,7 @@ ausgewählter	ausgewählt
 ausgewähltes	ausgewählt
 ausgezahlt	auszahlen
 ausgezahlter	auszahlen
+ausgezeichnet	ausgezeichnet|auszeichnen
 ausgezeichnete	ausgezeichnet
 ausgezeichnetem	ausgezeichnet
 ausgezeichneten	ausgezeichnet
@@ -30347,6 +31300,7 @@ ausnahmsloses	ausnahmslos
 ausnahmst	ausnehmen
 ausnahmt	ausnehmen
 ausnehme	ausnehmen
+ausnehmend	ausnehmen
 ausnehmest	ausnehmen
 ausnehmet	ausnehmen
 ausnehmt	ausnehmen
@@ -30404,6 +31358,7 @@ ausraubten	ausrauben
 ausraubtest	ausrauben
 ausraubtet	ausrauben
 ausreiche	ausreichen
+ausreichend	ausreichend|ausreichen
 ausreichende	ausreichend
 ausreichendem	ausreichend
 ausreichenden	ausreichend
@@ -31507,6 +32462,7 @@ bannte	bannen
 bannten	bannen
 banntest	bannen
 banntet	bannen
+bar	paar|bar
 bare	bar
 barem	bar
 baren	bar
@@ -32870,6 +33826,7 @@ behinderest	behindern
 behinderet	behindern
 behindernd	behindern
 behinderst	behindern
+behindert	behindert|behindern
 behinderte	behindert|behindern
 behindertem	behindert
 behinderten	behindert|behindern
@@ -33416,6 +34373,7 @@ beleidigendes	beleidigen
 beleidigest	beleidigen
 beleidiget	beleidigen
 beleidigst	beleidigen
+beleidigt	beleidigt|beleidigen
 beleidigte	beleidigt|beleidigen
 beleidigtem	beleidigt
 beleidigten	beleidigt|beleidigen
@@ -34939,6 +35897,7 @@ bestimmend	bestimmen
 bestimmest	bestimmen
 bestimmet	bestimmen
 bestimmst	bestimmen
+bestimmt	bestimmt|bestimmen
 bestimmte	bestimmt|bestimmen
 bestimmtem	bestimmt
 bestimmten	bestimmt|bestimmen
@@ -35214,6 +36173,7 @@ betrauten	betrauen
 betrautest	betrauen
 betrautet	betrauen
 betreffe	betreffen
+betreffend	betreffen|betreffend
 betreffende	betreffend
 betreffendem	betreffend
 betreffenden	betreffend
@@ -36062,6 +37022,7 @@ billigeres	billig
 billiges	billig
 billigest	billigen
 billiget	billigen
+billigst	billigen
 billigste	billig
 billigstem	billig
 billigsten	billig
@@ -36169,6 +37130,7 @@ biste	sein
 bists	sein
 bisweylen	bisweilen
 bitt	bitten
+bitte	bitte|bitten
 bittend	bitten
 bittere	bitter
 bitterem	bitter
@@ -36766,6 +37728,7 @@ bravster	brav
 bravstes	brav
 brech	brechen
 breche	brechen
+brechend	brechen
 brechest	brechen
 brechet	brechen
 brecht	brechen
@@ -37520,22 +38483,31 @@ cyklischen	zyklisch
 cyklischer	zyklisch
 cyklisches	zyklisch
 d	D
+dabei	bei|dabei
 dabey	dabei
 dachte	denken
 dachten	denken
 dachtest	denken
 dachtet	denken
+dadurch	durch|dadurch
+dafür	für|dafür
+dagegen	gegen|dagegen
 dagestanden	dastehen
 dahingehende	dahingehend
 dahingehendem	dahingehend
 dahingehenden	dahingehend
 dahingehender	dahingehend
 dahingehendes	dahingehend
+dahinter	hinter|dahinter
 damalige	damalig
 damaligem	damalig
 damaligen	damalig
 damaliger	damalig
 damaliges	damalig
+damit	mit|damit
+danach	nach|danach
+daneben	neben|daneben
+dank	dank|danken
 dankbare	dankbar
 dankbarem	dankbar
 dankbaren	dankbar
@@ -37551,6 +38523,7 @@ dankbarstem	dankbar
 dankbarsten	dankbar
 dankbarster	dankbar
 dankbarstes	dankbar
+danke	danken|danke
 dankend	danken
 dankest	danken
 danket	danken
@@ -37561,11 +38534,14 @@ dankten	danken
 danktest	danken
 danktet	danken
 dankö	danke
+daran	an|daran
+darauf	auf|darauf
 darauffolgende	darauffolgend
 darauffolgendem	darauffolgend
 darauffolgenden	darauffolgend
 darauffolgender	darauffolgend
 darauffolgendes	darauffolgend
+daraus	aus|daraus
 darf	dürfen
 darfs	dürfen
 darfst	dürfen
@@ -37576,6 +38552,7 @@ dargestelltem	dargestellt
 dargestellten	dargestellt
 dargestellter	dargestellt
 dargestelltes	dargestellt
+darin	in|darin
 darinn	darin
 darinne	darin
 dariñ	darin
@@ -37600,9 +38577,12 @@ darstellte	darstellen
 darstellten	darstellen
 darstelltest	darstellen
 darstelltet	darstellen
+darum	um|darum
+darunter	unter|darunter
 darzu	dazu
 darzulegen	darlegen
 darzustellen	darstellen
+darüber	über|darüber
 das	der
 dasjenige	derjenige
 dasselbe	derselbe
@@ -37626,6 +38606,7 @@ dastünden	dastehen
 dastündest	dastehen
 dastündet	dastehen
 dasz	dass
+dat	dass|das|dat
 datenschutzrechtliche	datenschutzrechtlich
 datenschutzrechtlichem	datenschutzrechtlich
 datenschutzrechtlichen	datenschutzrechtlich
@@ -37679,6 +38660,7 @@ dauertet	dauern
 daure	dauern
 daurest	dauern
 dauret	dauern
+davon	von|davon
 davongekommen	davonkommen
 davongetragen	davontragen
 davonkam	davonkommen
@@ -37716,6 +38698,8 @@ davontrügst	davontragen
 davontrügt	davontragen
 davonzukommen	davonkommen
 davonzutragen	davontragen
+davor	vor|davor
+dazu	zu|dazu
 dazugehöre	dazugehören
 dazugehörend	dazugehören
 dazugehörest	dazugehören
@@ -37751,6 +38735,7 @@ dazukämt	dazukommen
 dazustehen	dastehen
 dazuzugehören	dazugehören
 dazuzukommen	dazukommen
+dazwischen	zwischen|dazwischen
 daß	das
 deaktivier	deaktivieren
 deaktiviere	deaktivieren
@@ -38071,6 +39056,7 @@ demütige	demütigen
 demütigend	demütigen
 demütigest	demütigen
 demütiget	demütigen
+demütigst	demütigen
 demütigt	demütigen
 demütigte	demütigen
 demütigten	demütigen
@@ -38096,6 +39082,7 @@ denkbarsten	denkbar
 denkbarster	denkbar
 denkbarstes	denkbar
 denke	denken
+denkend	denken
 denkest	denken
 denket	denken
 denkmalgeschützte	denkmalgeschützt
@@ -38226,6 +39213,7 @@ desolatester	desolat
 desolatestes	desolat
 desselben	derselbe
 dessen	der
+det	das
 detaillierte	detailliert
 detailliertem	detailliert
 detaillierten	detailliert
@@ -38365,6 +39353,7 @@ dichtestem	dicht
 dichtesten	dicht
 dichtester	dicht
 dichtestes	dicht
+dicke	dick|dicke
 dickem	dick
 dicken	dick
 dicker	dick
@@ -38609,6 +39598,7 @@ dokumentierte	dokumentieren
 dokumentierten	dokumentieren
 dokumentiertest	dokumentieren
 dokumentiertet	dokumentieren
+dolle	doll
 dollem	doll
 dollen	doll
 doller	doll
@@ -39253,6 +40243,7 @@ durchgegangen	durchgehen
 durchgegriffen	durchgreifen
 durchgehalten	durchhalten
 durchgehe	durchgehen
+durchgehend	durchgehend|durchgehen
 durchgehende	durchgehend
 durchgehendem	durchgehend
 durchgehenden	durchgehend
@@ -39908,6 +40899,8 @@ ehemaligem	ehemalig
 ehemaligen	ehemalig
 ehemaliger	ehemalig
 ehemaliges	ehemalig
+eher	eher|früh|bald
+ehesten	bald|ehesten
 ehr	ehren
 ehre	ehren
 ehrenamtliche	ehrenamtlich
@@ -40595,6 +41588,7 @@ eingegrenzt	eingrenzen
 eingegriffen	eingreifen
 eingehalten	einhalten
 eingehe	eingehen
+eingehend	eingehen|eingehend
 eingehende	eingehend
 eingehendem	eingehend
 eingehenden	eingehend
@@ -40869,6 +41863,7 @@ einholtest	einholen
 einholtet	einholen
 einhält	einhalten
 einhältst	einhalten
+einig	einigen|einig
 einigem	einige
 einigen	einige
 einigend	einigen
@@ -41167,6 +42162,7 @@ einräumte	einräumen
 einräumten	einräumen
 einräumtest	einräumen
 einräumtet	einräumen
+eins	ein|eins
 einsah	einsehen
 einsahen	einsehen
 einsahst	einsehen
@@ -41338,6 +42334,7 @@ einschüchter	einschüchtern
 einschüchtere	einschüchtern
 einschüchterest	einschüchtern
 einschüchteret	einschüchtern
+einschüchternd	einschüchtern
 einschüchterst	einschüchtern
 einschüchtert	einschüchtern
 einschüchterte	einschüchtern
@@ -41448,6 +42445,7 @@ einspurigem	einspurig
 einspurigen	einspurig
 einspuriger	einspurig
 einspuriges	einspurig
+einst	einst|einen
 einstach	einstechen
 einstachen	einstechen
 einstachst	einstechen
@@ -42916,6 +43914,7 @@ entscheidest	entscheiden
 entscheidet	entscheiden
 entschied	entscheiden
 entschiede	entscheiden
+entschieden	entscheiden|entschieden
 entschiedene	entschieden
 entschiedenem	entschieden
 entschiedenen	entschieden
@@ -43090,6 +44089,7 @@ entsprangen	entspringen
 entsprangst	entspringen
 entsprangt	entspringen
 entspreche	entsprechen
+entsprechend	entsprechend|entsprechen
 entsprechende	entsprechend
 entsprechendem	entsprechend
 entsprechenden	entsprechend
@@ -43800,6 +44800,7 @@ ergäbst	ergeben
 ergäbt	ergeben
 ergänz	ergänzen
 ergänze	ergänzen
+ergänzend	ergänzen|ergänzend
 ergänzende	ergänzend
 ergänzendem	ergänzend
 ergänzenden	ergänzend
@@ -44591,6 +45592,7 @@ erregender	erregen
 erregest	erregen
 erreget	erregen
 erregst	erregen
+erregt	erregt|erregen
 erregte	erregt|erregen
 erregtem	erregt
 erregten	erregt|erregen
@@ -45760,6 +46762,7 @@ existierte	existieren
 existierten	existieren
 existiertest	existieren
 existiertet	existieren
+exklusive	exklusiv|exklusive
 exklusivem	exklusiv
 exklusiven	exklusiv
 exklusiver	exklusiv
@@ -46341,6 +47344,7 @@ fegte	fegen
 fegten	fegen
 fegtest	fegen
 fegtet	fegen
+fehl	fehlen|fehl
 fehle	fehlen
 fehlend	fehlen|fehlend
 fehlende	fehlend
@@ -46495,6 +47499,7 @@ feministischstes	feministisch
 ferne	fern
 fernem	fern
 fernen	fern
+ferner	ferner|fern
 fernere	fern
 fernerem	fern
 ferneren	fern
@@ -47756,6 +48761,7 @@ fotographiertest	fotografieren
 fotographiertet	fotografieren
 frag	fragen
 frage	fragen
+fragend	fragen|fragend
 fragender	fragend
 fragendsten	fragend
 fragest	fragen
@@ -48140,6 +49146,7 @@ frierest	frieren
 frieret	frieren
 frierst	frieren
 friert	frieren
+frisch	frisch|frischen
 frische	frisch|frischen
 frischem	frisch
 frischen	frisch|frischen
@@ -48328,6 +49335,7 @@ frügt	fragen
 frühe	früh
 frühem	früh
 frühen	früh
+früher	früh|früher
 frühere	früh|früher
 früherem	früh|früher
 früheren	früh|früher
@@ -49548,6 +50556,7 @@ geförderten	gefördert
 geförderter	gefördert
 gefördertes	gefördert
 gefügt	fügen
+gefühlt	fühlen|gefühlt
 gefühlvolle	gefühlvoll
 gefühlvollem	gefühlvoll
 gefühlvollen	gefühlvoll
@@ -49988,6 +50997,7 @@ gekommenem	kommen
 gekommenen	kommen
 gekommener	kommen
 gekommenes	kommen
+gekonnt	können|gekonnt
 gekonnte	gekonnt
 gekonntem	gekonnt
 gekonnten	gekonnt
@@ -51007,6 +52017,7 @@ gerissensten	gerissen
 gerissenster	gerissen
 gerissenstes	gerissen
 geritten	reiten
+gerne	gerne|gern
 gerochen	riechen|rächen
 gerockt	rocken
 gerodet	roden
@@ -51114,6 +52125,7 @@ gescheitertem	gescheitert
 gescheiterten	gescheitert
 gescheiterter	gescheitert
 gescheitertes	gescheitert
+geschenkt	schenken|geschenkt
 geschenkte	geschenkt
 geschenktem	geschenkt
 geschenkten	geschenkt
@@ -51134,6 +52146,7 @@ geschichtlichem	geschichtlich
 geschichtlichen	geschichtlich
 geschichtlicher	geschichtlich
 geschichtliches	geschichtlich
+geschickt	schicken|geschickt
 geschickte	geschickt
 geschicktem	geschickt
 geschickten	geschickt
@@ -51463,6 +52476,7 @@ gesolltem	sollen
 gesollten	sollen
 gesollter	sollen
 gesolltes	sollen
+gesondert	sondern|gesondert
 gesonderte	gesondert
 gesondertem	gesondert
 gesonderten	gesondert
@@ -51778,6 +52792,7 @@ getragen	tragen
 getrappt	trappen
 getrauert	trauern
 getraut	trauen
+getrennt	getrennt|trennen
 getrennte	getrennt
 getrenntem	getrennt
 getrennten	getrennt
@@ -51923,6 +52938,7 @@ gewalttätigster	gewalttätig
 gewalttätigstes	gewalttätig
 gewandelt	wandeln
 gewandert	wandern
+gewandt	wenden|gewandt
 gewandte	gewandt
 gewandtem	gewandt
 gewandten	gewandt
@@ -52180,6 +53196,7 @@ gewütet	wüten
 gezahlt	zahlen
 gezaubert	zaubern
 gezehrt	zehren
+gezeichnet	zeichnen|gezeichnet
 gezeichnete	gezeichnet
 gezeigt	zeigen
 gezerrt	zerren
@@ -52421,6 +53438,7 @@ glawbten	glauben
 glawbtest	glauben
 glawbtet	glauben
 glb	glauben
+gleich	gleich|gleichen
 gleichalterige	gleichalterig
 gleichalterigem	gleichalterig
 gleichalterigen	gleichalterig
@@ -53551,6 +54569,8 @@ haktest	haken
 haktet	haken
 halbe	halb
 halbem	halb
+halben	halb|halben
+halber	halb|halber
 halbes	halb
 halbier	halbieren
 halbiere	halbieren
@@ -53593,6 +54613,7 @@ hallte	hallen
 hallten	hallen
 halltest	hallen
 halltet	hallen
+halt	halten|halt
 haltbare	haltbar
 haltbarem	haltbar
 haltbaren	haltbar
@@ -54871,6 +55892,7 @@ hieltet	halten
 hieltst	halten
 hieng	hängen
 hiengen	hängen
+hieran	an
 hierarchische	hierarchisch
 hierarchischem	hierarchisch
 hierarchischen	hierarchisch
@@ -54886,12 +55908,22 @@ hierarchischstem	hierarchisch
 hierarchischsten	hierarchisch
 hierarchischster	hierarchisch
 hierarchischstes	hierarchisch
+hierauf	auf|hierauf
+hieraus	aus|hieraus
+hierbei	bei|hierbei
+hierdurch	durch|hierdurch
+hierfür	für|hierfür
+hiergegen	gegen
 hierhinter	hinter
 hierin	in|herein
+hiermit	mit|hiermit
+hiernach	nach
 hierneben	neben
 hierum	um
 hierunter	unter
+hiervon	von|hiervon
 hiervor	vor
+hierzu	zu|hierzu
 hierzwischen	zwischen
 hierüber	über
 hiesige	hiesig
@@ -55775,6 +56807,7 @@ hungrigsten	hungrig
 hungrigster	hungrig
 hungrigstes	hungrig
 hupfen	hüpfen
+husch	huschen
 husche	huschen
 huschend	huschen
 huschest	huschen
@@ -55932,6 +56965,7 @@ höbest	heben
 höbet	heben
 höbst	heben
 höbt	heben
+höchst	hoch|höchst
 höchste	hoch
 höchstem	hoch
 höchsten	hoch
@@ -56001,6 +57035,7 @@ hörten	hören
 hörtest	hören
 hörtet	hören
 hübe	heben
+hüben	heben
 hübest	heben
 hübet	heben
 hübsche	hübsch
@@ -59930,6 +60965,8 @@ landwirtschaftlichem	landwirtschaftlich
 landwirtschaftlichen	landwirtschaftlich
 landwirtschaftlicher	landwirtschaftlich
 landwirtschaftliches	landwirtschaftlich
+lang	lang|langen
+lange	lang|lange|langen
 langem	lang
 langen	lang|langen
 langend	langen
@@ -60114,6 +61151,7 @@ lauertest	lauern
 lauertet	lauern
 lauf	laufen
 laufe	laufen
+laufend	laufen|laufend
 laufende	laufend
 laufendem	laufend
 laufenden	laufend
@@ -60147,10 +61185,12 @@ lauschte	lauschen
 lauschten	lauschen
 lauschtest	lauschen
 lauschtet	lauschen
+laut	laut|lauten
 laute	laut|lauten
 lautem	laut
 lauten	laut|lauten
 lautend	lauten
+lauter	laut|lauter
 lautere	laut|lauter
 lauterem	laut|lauter
 lauteren	laut|lauter
@@ -60741,6 +61781,7 @@ letztjähriger	letztjährig
 letztjähriges	letztjährig
 leucht	leuchten
 leuchte	leuchten
+leuchtend	leuchten|leuchtend
 leuchtende	leuchtend
 leuchtendem	leuchtend
 leuchtenden	leuchtend
@@ -61058,6 +62099,7 @@ lobtet	loben
 lock	locken
 locke	locken
 lockend	locken
+locker	locker|lockern
 lockere	locker|lockern
 lockerem	locker
 lockeren	locker
@@ -61193,6 +62235,7 @@ lokalisierte	lokalisieren
 lokalisierten	lokalisieren
 lokalisiertest	lokalisieren
 lokalisiertet	lokalisieren
+los	los|lose|losen
 lose	lose|losen
 losem	lose
 losen	lose|losen
@@ -61713,6 +62756,7 @@ makellosestem	makellos
 makellosesten	makellos
 makellosester	makellos
 makellosestes	makellos
+mal	mal|malen
 male	malen
 malend	malen
 malerische	malerisch
@@ -62049,6 +63093,7 @@ maximalen	maximal
 maximaler	maximal
 maximales	maximal
 maß	messen
+maßen	messen
 maßest	messen
 maßgebende	maßgebend
 maßgebendem	maßgebend
@@ -62150,6 +63195,7 @@ medizinischem	medizinisch
 medizinischen	medizinisch
 medizinischer	medizinisch
 medizinisches	medizinisch
+mehr	viel|mehr|sehr|mehren
 mehre	viel|mehren
 mehrem	viel
 mehrend	mehren
@@ -62232,6 +63278,7 @@ meinte	meinen
 meinten	meinen
 meintest	meinen
 meintet	meinen
+meist	viel|meist
 meiste	viel|meist
 meistem	viel|meist
 meisten	viel|meist
@@ -63621,6 +64668,7 @@ mächtigstem	mächtig
 mächtigsten	mächtig
 mächtigster	mächtig
 mächtigstes	mächtig
+mäh	mähen
 mähe	mähen
 mähend	mähen
 mähest	mähen
@@ -63811,6 +64859,7 @@ müsstet	müssen
 müßte	müssen
 müßten	müssen
 n	N|Rallye
+na	nein|na
 nachahme	nachahmen
 nachahmend	nachahmen
 nachahmest	nachahmen
@@ -64216,6 +65265,8 @@ nagte	nagen
 nagten	nagen
 nagtest	nagen
 nagtet	nagen
+nah	nah|nahen
+nahe	nah|nahe|nahen
 nahegelegen	naheliegen
 nahegelegene	naheliegen
 nahegelegenem	naheliegen
@@ -64424,6 +65475,7 @@ navigierten	navigieren
 navigiertest	navigieren
 navigiertet	navigieren
 nd	nicht
+ne	nein|ne
 nebenstehende	nebenstehend
 nebenstehendem	nebenstehend
 nebenstehenden	nebenstehend
@@ -64701,6 +65753,7 @@ newestem	neu
 newesten	neu
 newester	neu
 newestes	neu
+nh	ne
 nich	nicht
 nichtige	nichtig
 nichtigem	nichtig
@@ -64877,6 +65930,7 @@ nimm	nehmen
 nimmst	nehmen
 nimmt	nehmen
 nischt	nichts
+nix	nichts|nix
 nobelste	nobel
 nobelstem	nobel
 nobelsten	nobel
@@ -65080,6 +66134,7 @@ notwendigster	notwendig
 notwendigstes	notwendig
 ns	N|Rallye
 ntl	natürlich
+nu	nun
 nukleare	nuklear
 nuklearem	nuklear
 nuklearen	nuklear
@@ -65242,6 +66297,7 @@ nördlichstem	nördlich
 nördlichsten	nördlich
 nördlichster	nördlich
 nördlichstes	nördlich
+nötig	nötig|nötigen
 nötige	nötig|nötigen
 nötigem	nötig
 nötigen	nötig|nötigen
@@ -65307,6 +66363,7 @@ nützte	nutzen
 nützten	nutzen
 nütztest	nutzen
 nütztet	nutzen
+o	o|O
 obdachlose	obdachlos
 obdachlosem	obdachlos
 obdachlosen	obdachlos
@@ -65406,6 +66463,7 @@ obläget	obliegen
 oblägst	obliegen
 oblägt	obliegen
 off	offline
+offenbar	offenbar|offenbaren
 offenbare	offenbar|offenbaren
 offenbarem	offenbar
 offenbaren	offenbar|offenbaren
@@ -65879,6 +66937,7 @@ outeten	outen
 outetest	outen
 outetet	outen
 p	P
+paar	paar|bar|paaren
 paare	paaren
 paarend	paaren
 paarest	paaren
@@ -68541,6 +69600,7 @@ rechneten	rechnen
 rechnetest	rechnen
 rechnetet	rechnen
 rechst	rechen
+recht	recht|rechen
 rechte	recht|rechen
 rechteckige	rechteckig
 rechteckigem	rechteckig
@@ -70099,6 +71159,7 @@ rumänischem	rumänisch
 rumänischen	rumänisch
 rumänischer	rumänisch
 rumänisches	rumänisch
+rund	rund|runden
 runde	rund|runden
 rundem	rund
 runden	rund|runden
@@ -71138,6 +72199,7 @@ schlaustes	schlau
 schlechte	schlecht
 schlechtem	schlecht
 schlechten	schlecht
+schlechter	schlecht|schlechter
 schlechtere	schlecht
 schlechterem	schlecht
 schlechteren	schlecht
@@ -71282,6 +72344,7 @@ schlifft	schleifen
 schlimme	schlimm
 schlimmem	schlimm
 schlimmen	schlimm
+schlimmer	schlimm|schlimmer
 schlimmere	schlimm
 schlimmerem	schlimm
 schlimmeren	schlimm
@@ -71668,6 +72731,7 @@ schneite	schneien
 schneiten	schneien
 schneitest	schneien
 schneitet	schneien
+schnell	schnell|schnellen
 schnelle	schnell|schnellen
 schnellem	schnell
 schnellen	schnell|schnellen
@@ -71681,6 +72745,7 @@ schnelleres	schnell
 schnelles	schnell
 schnellest	schnellen
 schnellet	schnellen
+schnellst	schnellen
 schnellste	schnell
 schnellstem	schnell
 schnellsten	schnell
@@ -71762,6 +72827,7 @@ scholl	schallen
 schollen	schallen
 schollst	schallen
 schollt	schallen
+schon	schon|schonen
 schone	schonen
 schonend	schonen|schonend
 schonende	schonend
@@ -72767,6 +73833,7 @@ seiender	sein
 seiendes	sein
 seiest	sein
 seiet	sein
+sein	sein|es|er|sie|wir|ihr|ich|Sie|du
 seind	sein
 seine	sein
 seinem	sein
@@ -73070,6 +74137,7 @@ setzte	setzen
 setzten	setzen
 setztest	setzen
 setztet	setzen
+seufz	seufzen
 seufze	seufzen
 seufzend	seufzen
 seufzest	seufzen
@@ -73143,6 +74211,7 @@ shoppte	shoppen
 shoppten	shoppen
 shopptest	shoppen
 shopptet	shoppen
+sicher	sicher|sichern
 sichere	sicher|sichern
 sicherem	sicher
 sicheren	sicher
@@ -73300,6 +74369,7 @@ siegtet	siegen
 sieh	sehen
 siehe	sehen
 siehst	sehen
+siehste	sehen
 sieht	sehen
 sies	sie
 signalisier	signalisieren
@@ -73660,6 +74730,7 @@ sommerlichstem	sommerlich
 sommerlichsten	sommerlich
 sommerlichster	sommerlich
 sommerlichstes	sommerlich
+sonder	sondern
 sonderbare	sonderbar
 sonderbarem	sonderbar
 sonderbaren	sonderbar
@@ -74311,6 +75382,7 @@ sprengte	sprengen
 sprengten	sprengen
 sprengtest	sprengen
 sprengtet	sprengen
+sprich	sprechen|sprich
 sprichst	sprechen
 spricht	sprechen
 sprichwörtliche	sprichwörtlich
@@ -74443,6 +75515,7 @@ spärlichstes	spärlich
 späte	spät
 spätem	spät
 späten	spät
+später	später|spät
 spätere	spät
 späterem	spät
 späteren	spät
@@ -75069,6 +76142,7 @@ stilistischstem	stilistisch
 stilistischsten	stilistisch
 stilistischster	stilistisch
 stilistischstes	stilistisch
+still	still|stillen
 stille	still|stillen
 stillem	still
 stillen	still|stillen
@@ -75161,6 +76235,7 @@ stimmigsten	stimmig
 stimmigster	stimmig
 stimmigstes	stimmig
 stimmst	stimmen
+stimmt	stimmen|stimmt
 stimmte	stimmen
 stimmten	stimmen
 stimmtest	stimmen
@@ -75350,6 +76425,7 @@ straftest	strafen
 straftet	strafen
 strahl	strahlen
 strahle	strahlen
+strahlend	strahlen|strahlend
 strahlende	strahlend
 strahlendem	strahlend
 strahlenden	strahlend
@@ -77013,6 +78089,7 @@ tollten	tollen
 tolltest	tollen
 tolltet	tollen
 top	top|topp
+topp	topp|toppen
 toppe	toppen
 toppend	toppen
 toppest	toppen
@@ -77533,6 +78610,7 @@ trostlosestem	trostlos
 trostlosesten	trostlos
 trostlosester	trostlos
 trostlosestes	trostlos
+trotz	trotz|trotzen
 trotze	trotzen
 trotzend	trotzen
 trotzest	trotzen
@@ -77925,6 +79003,7 @@ türmten	türmen
 türmtest	türmen
 türmtet	türmen
 u	U
+uff	auf
 ukrainische	ukrainisch
 ukrainischem	ukrainisch
 ukrainischen	ukrainisch
@@ -78122,6 +79201,7 @@ umgefasst	umfassen
 umgegangen	umgehen
 umgeh	umgehen
 umgehe	umgehen
+umgehend	umgehend|umgehen
 umgehende	umgehend
 umgehendem	umgehend
 umgehenden	umgehend
@@ -78131,6 +79211,7 @@ umgehest	umgehen
 umgehet	umgehen
 umgehst	umgehen
 umgeht	umgehen
+umgekehrt	umgekehrt|umkehren
 umgekehrte	umgekehrt
 umgekehrtem	umgekehrt
 umgekehrten	umgekehrt
@@ -81374,6 +82455,7 @@ verabschiedetest	verabschieden
 verabschiedetet	verabschieden
 veracht	verachten
 verachte	verachten
+verachtend	verachten
 verachtest	verachten
 verachtet	verachten
 verachtete	verachten
@@ -83566,6 +84648,7 @@ vermöchte	vermögen
 vermöchten	vermögen
 vermöchtest	vermögen
 vermöchtet	vermögen
+vermöge	vermögen
 vermögend	vermögen|vermögend
 vermögende	vermögend
 vermögendem	vermögend
@@ -84619,6 +85702,7 @@ verstehend	verstehen
 verstehest	verstehen
 verstehet	verstehen
 verstehst	verstehen
+verstehste	verstehen
 versteht	verstehen
 versteiger	versteigern
 versteigere	versteigern
@@ -84828,6 +85912,7 @@ versuchte	versuchen
 versuchten	versuchen
 versuchtest	versuchen
 versuchtet	versuchen
+versunken	versinken|versunken
 versunkene	versunken
 versunkenem	versunken
 versunkenen	versunken
@@ -85551,6 +86636,7 @@ verzweifelest	verzweifeln
 verzweifelet	verzweifeln
 verzweifelnd	verzweifeln
 verzweifelst	verzweifeln
+verzweifelt	verzweifelt|verzweifeln
 verzweifelte	verzweifelt|verzweifeln
 verzweifeltem	verzweifelt
 verzweifelten	verzweifelt|verzweifeln
@@ -85890,6 +86976,7 @@ vollendeter	vollendet
 vollendetes	vollendet
 vollendetest	vollenden
 vollendetet	vollenden
+voller	voll|voller
 vollere	voll
 vollerem	voll
 volleren	voll
@@ -86596,6 +87683,7 @@ vormachte	vormachen
 vormachten	vormachen
 vormachtest	vormachen
 vormachtet	vormachen
+vorn	vor|vorn
 vornahm	vornehmen
 vornahmen	vornehmen
 vornahmst	vornehmen
@@ -87005,6 +88093,7 @@ völligen	völlig
 völliger	völlig
 völliges	völlig
 w	W
+wa	wir
 wach	wachen|wach
 wache	wachen|wach
 wachem	wach
@@ -87533,6 +88622,8 @@ wegzögest	wegziehen
 wegzöget	wegziehen
 wegzögst	wegziehen
 wegzögt	wegziehen
+weh	wehen|weh
+wehe	wehen|weh
 wehem	weh
 wehen	wehen|weh
 wehend	wehen
@@ -87679,6 +88770,7 @@ weihte	weihen
 weihten	weihen
 weihtest	weihen
 weihtet	weihen
+weil	weil|weilen
 weile	weilen
 weilend	weilen
 weilest	weilen
@@ -87708,10 +88800,12 @@ weiset	weisen
 weiss	weiß
 weisst	wissen|weißen
 weist	weisen
+weit	weit|weiten
 weite	weit|weiten
 weitem	weit
 weiten	weit|weiten
 weitend	weiten
+weiter	weit|weiter
 weiterarbeite	weiterarbeiten
 weiterarbeitend	weiterarbeiten
 weiterarbeitest	weiterarbeiten
@@ -87972,6 +89066,7 @@ weißester	weiß
 weißestes	weiß
 weißet	weißen
 weißt	wissen|weißen
+weißte	weißen
 weißten	weißen
 weißtest	weißen
 weißtet	weißen
@@ -88090,6 +89185,7 @@ werklet	werkeln
 wers	wer
 wert	werten
 werte	werten
+wertend	werten
 wertest	werten
 wertet	werten
 wertete	werten
@@ -88493,6 +89589,7 @@ wiederholend	wiederholen
 wiederholest	wiederholen
 wiederholet	wiederholen
 wiederholst	wiederholen
+wiederholt	wiederholt|wiederholen
 wiederholte	wiederholen
 wiederholten	wiederholen
 wiederholtest	wiederholen
@@ -88948,6 +90045,7 @@ witzigster	witzig
 witzigstes	witzig
 wob	weben
 wobe	weben
+wobei	bei|wobei
 woben	weben
 wobest	weben
 wobet	weben
@@ -88964,11 +90062,15 @@ wodraus	woraus
 wodrin	worin
 wodrum	worum
 wodrüber	worüber
+wodurch	durch|wodurch
 wofern	sofern
+wofür	für|wofür
 wog	wiegen
+wogegen	gegen
 wogen	wiegen
 wogst	wiegen
 wogt	wiegen
+wohinter	hinter
 wohlbehaltene	wohlbehalten
 wohlbehaltenem	wohlbehalten
 wohlbehaltenen	wohlbehalten
@@ -89073,6 +90175,7 @@ wolkigstem	wolkig
 wolkigsten	wolkig
 wolkigster	wolkig
 wolkigstes	wolkig
+woll	wohl
 wolle	wollen
 wollend	wollen
 wollende	wollen
@@ -89097,12 +90200,26 @@ wollte	wollen
 wollten	wollen
 wolltest	wollen
 wolltet	wollen
+womit	mit|womit
+wonach	nach|wonach
+woneben	neben
+woran	an|woran
+worauf	auf|worauf
+woraus	aus|woraus
 worden	werden
+worin	in|worin
 wortlose	wortlos
 wortlosem	wortlos
 wortlosen	wortlos
 wortloser	wortlos
 wortloses	wortlos
+worum	um|worum
+worunter	unter
+worüber	über|worüber
+wovon	von|wovon
+wovor	vor
+wozu	zu|wozu
+wozwischen	zwischen
 wrm	warum
 ws	W
 wsl	wahrscheinlich
@@ -89217,6 +90334,7 @@ wurzeltet	wurzeln
 wurzle	wurzeln
 wurzlest	wurzeln
 wurzlet	wurzeln
+wusch	waschen
 wuschen	waschen
 wuschst	waschen
 wuscht	waschen
@@ -89265,6 +90383,7 @@ wähntest	wähnen
 wähntet	wähnen
 währ	währen
 währe	währen
+während	während|währen
 währest	währen
 währet	währen
 währst	währen
@@ -89460,6 +90579,7 @@ wüstester	wüst
 wüstestes	wüst
 wüt	wüten
 wüte	wüten
+wütend	wütend|wüten
 wütende	wütend
 wütendem	wütend
 wütenden	wütend
@@ -90712,6 +91832,7 @@ zurückgäbet	zurückgeben
 zurückgäbst	zurückgeben
 zurückgäbt	zurückgeben
 zurückhalte	zurückhalten
+zurückhaltend	zurückhaltend|zurückhalten
 zurückhaltende	zurückhaltend
 zurückhaltendem	zurückhaltend
 zurückhaltenden	zurückhaltend
@@ -91745,6 +92866,7 @@ zwiespältigster	zwiespältig
 zwiespältigstes	zwiespältig
 zwing	zwingen
 zwinge	zwingen
+zwingend	zwingen|zwingend
 zwingende	zwingend
 zwingendem	zwingend
 zwingenden	zwingend
@@ -91966,6 +93088,7 @@ zünftigstes	zünftig
 zů	zu
 Äbte	Abt
 Äbten	Abt
+Äbtissin	Abt
 Ächzen	ächzen
 Ächzens	ächzen
 Äcker	Acker
@@ -91975,10 +93098,13 @@ zů	zu
 Äderchen	Ader
 Äderchens	Ader
 Äffchen	Affe
+Äffin	Affe
 Äfflein	Affe
+Ägypterin	Ägypter
 Ägyptern	Ägypter
 Ägypters	Ägypter
 Ähnlichkeiten	Ähnlichkeit
+Älchen	Aal
 Äle	Aal
 Älteste	Ältester
 Ältestem	Ältester
@@ -92015,6 +93141,7 @@ zů	zu
 Ärschen	Arsch
 Ärzte	Arzt
 Ärzten	Arzt
+Ärztin	Arzt|Ärztin
 Ärztinn	Ärztin
 Ärztinnen	Ärztin
 Ässer	Ass
@@ -92063,10 +93190,13 @@ zů	zu
 Öls	Öl
 Öpferchen	Opfer
 Örden	Orden
+Örtchen	Ort
 Örter	Ort
 Örtern	Ort
 Örtlichkeiten	Örtlichkeit
 Ös	Ö
+Österreicher	Österreicher|Österreicherin
+Österreicherin	Österreicher|Österreicherin
 Österreicherinnen	Österreicherin
 Österreichern	Österreicher
 Österreichers	Österreicher
@@ -92183,6 +93313,7 @@ zů	zu
 Überschüsse	Überschuss
 Überschüssen	Überschuss
 Übersehen	übersehen
+Übersetzen	übersetzen
 Übersetzerin	Übersetzer
 Übersetzerinnen	Übersetzer
 Übersetzern	Übersetzer
@@ -92237,6 +93368,8 @@ zů	zu
 Überziehene	überziehen
 Überziehenen	überziehen
 Überziehens	überziehen
+Überzieher	überziehen
+Überzug	überziehen
 Übungen	Übung
 Üs	Ü
 ächt	echt
@@ -92422,6 +93555,7 @@ zů	zu
 äußerlicher	äußerlich
 äußerliches	äußerlich
 äußernd	äußern
+äußerst	äußern|äußerst
 äußerstem	äußerste
 äußersten	äußerste
 äußerster	äußerste
@@ -92469,6 +93603,7 @@ zů	zu
 öffneten	öffnen
 öffnetest	öffnen
 öffnetet	öffnen
+öfter	oft|öfter
 öftesten	oft
 öko	ökologisch
 ökologische	ökologisch
@@ -93004,6 +94139,7 @@ zů	zu
 überlegnerer	überlegen
 überlegneres	überlegen
 überlegst	überlegen
+überlegt	überlegen|überlegt
 überlegte	überlegen|überlegt
 überlegtem	überlegt
 überlegten	überlegen|überlegt
@@ -93177,6 +94313,7 @@ zů	zu
 überragtet	überragen
 überrasch	überraschen
 überrasche	überraschen
+überraschend	überraschend|überraschen
 überraschende	überraschend
 überraschendem	überraschend
 überraschenden	überraschend
@@ -93521,6 +94658,7 @@ zů	zu
 übertreibt	übertreiben
 übertrieb	übertreiben
 übertriebe	übertreiben
+übertrieben	übertrieben|übertreiben
 übertriebene	übertrieben
 übertriebenem	übertrieben
 übertriebenen	übertrieben
@@ -93586,6 +94724,7 @@ zů	zu
 überweist	überweisen
 überwieg	überwiegen
 überwiege	überwiegen
+überwiegend	überwiegend|überwiegen
 überwiegende	überwiegend
 überwiegendem	überwiegend
 überwiegenden	überwiegend
@@ -93627,6 +94766,7 @@ zů	zu
 überwunden	überwinden
 überwältig	überwältigen
 überwältige	überwältigen
+überwältigend	überwältigen|überwältigend
 überwältigende	überwältigend
 überwältigendem	überwältigend
 überwältigenden	überwältigend

@@ -276,10 +276,14 @@ async function main() {
 
   // Every Wiktionary form of a ranked lemma, whether or not the corpus has it:
   // the reader meets forms the corpus never did. A form that is also a lemma
-  // lists itself, so a reader of this file needs no second rule.
+  // lists itself, so a reader of this file needs no second rule. Unlike the
+  // counting above, the table keeps every reading ("stimmt": the interjection
+  // and stimmen), because a reader should accept any of them; only the
+  // closed-class table stays exclusive.
   const formLines = [];
   for (const form of new Set([...formOf.keys(), ...closed.keys()])) {
-    const ls = [...resolve(form)].filter((l) => rankOf.has(l));
+    const all = closed.has(form) ? resolve(form) : lemmasOf(form);
+    const ls = [...all].filter((l) => rankOf.has(l));
     if (ls.length && !(ls.length === 1 && ls[0] === form)) {
       formLines.push(`${form}\t${ls.sort((a, b) => rankOf.get(a) - rankOf.get(b)).join("|")}`);
     }
