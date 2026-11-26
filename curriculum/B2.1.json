@@ -6,7 +6,7 @@
   "status": "draft",
   "hoursBudget": 100,
   "summary": {
-    "en": "You learn the German of a student who is starting to work and study at full strength: reading job adverts and writing a CV and a cover letter, following and joining meetings, writing work e-mails, giving an argued presentation, and following lectures and seminar discussion. The grammar lets you report what others said (Konjunktiv I and its substitutes), look back at what could have been (Konjunktiv II in the past), judge how likely something is (dürfte, soll, will), say what can or cannot be done without naming who does it (sich lassen, sein + zu, the state passive), and build longer arguments with connectors for contrast, conditions, results and concessions. Correlates (darauf, dass …) and relative clauses with was, wo- and wer finish the toolkit. At the end you take a gate with a five-minute argued presentation and a formal letter, plus reading and listening. Its result is a practice score, never a certificate.",
+    "en": "You learn the German of a student who is starting to work and study at full strength: reading job adverts and writing a CV and a cover letter, following and joining meetings, writing work e-mails, giving an argued presentation, and following lectures and seminar discussion. The grammar lets you report what others said (Konjunktiv I and its substitutes), look back at what could have been (Konjunktiv II in the past), judge how likely something is (dürfte, soll, will), say what can or cannot be done without naming who does it (sich lassen, sein + zu, the state passive), and build longer arguments with connectors for contrast, conditions, results and concessions. Correlates (darauf, dass …) and relative clauses with was, wo-, wer and the genitive dessen and deren finish the toolkit. At the end you take a gate with a five-minute argued presentation and a formal letter, plus reading and listening. Its result is a practice score, never a certificate.",
     "es": "Aprendes el alemán de un estudiante que empieza a trabajar y a estudiar a pleno rendimiento: leer ofertas de empleo y escribir un currículum y una carta de motivación, seguir y participar en reuniones, escribir correos de trabajo, hacer una exposición argumentada y seguir clases y debates en seminarios. La gramática te permite contar lo que han dicho otros (Konjunktiv I y sus formas de sustitución), mirar atrás a lo que podría haber sido (Konjunktiv II del pasado), valorar la probabilidad de algo (dürfte, soll, will), decir qué se puede o no se puede hacer sin nombrar quién lo hace (sich lassen, sein + zu, pasiva de estado) y construir argumentos más largos con conectores de contraste, condición, consecuencia y concesión. Los correlatos (darauf, dass …) y las oraciones de relativo con was, wo- y wer completan el repertorio. Al final haces una prueba con una exposición argumentada de cinco minutos y una carta formal, además de lectura y comprensión auditiva. El resultado es una puntuación de práctica, nunca un certificado."
   },
   "canDo": [
@@ -243,7 +243,7 @@
     "The speaking presentation task (sprechen-vortrag-viertagewoche) is a monologue without a talk scenario, so the app needs a recording flow for it. The follow-up task uses ts-b21-fragen-zum-vortrag-viertagewoche, whose topic matches the presentation topic (the four-day week), so the two must be run in that order. The two scenarios ts-b21-wohnungsuebergabe-kaution and ts-b21-seminar-referat-thema already exist in gold/talk_scenarios.jsonl for B2.1 and are not repeated here.",
     "A few words in the receptive gate texts are not taught anywhere on the path (Fotograf, Notdienst, Pilotstudie, Arbeitstag, gliedern, Kundenumfrage, Werkstudentin, einigen); they are inferable from context or not needed for any item. Text coverage of the spec is 97.9%.",
     "Lemma and form choices to confirm: wägt ab / wog ab (abwägen), wendete ein (einwenden, also wandte ein), plurals Betreffe, Fazits, Plena, Exposés, Tutorien, Mottos, Umbauten; Flucht, Verständnis, Minus, Vollzeit, Austausch, Verfahren given without or with a single plural form; reißen, antreten and umgehen with their auxiliary (haben/sein, sein); the Konjunktiv I sei/habe examples in vocabulary items; noun Angehöriger entered with plural Angehörige.",
-    "Gold coverage: the spec has no gold corrections or leveled texts; the grammar points of this sublevel (g-konjunktiv1-forms, g-reported-speech, g-konjunktiv2-past, g-modal-subjective-intro, g-passive-alternatives, g-zustandspassiv, the four connector points, g-correlates-da, g-es-placeholder, g-relative-was-wo, g-relative-wer) need gold items, especially correct and style-only sentences that the Coach must not flag (reported speech with the indicative is acceptable in speech). No IPA is given for any vocabulary item.",
+    "Gold coverage: the spec has no gold corrections or leveled texts; the grammar points of this sublevel (g-konjunktiv1-forms, g-reported-speech, g-konjunktiv2-past, g-modal-subjective-intro, g-passive-alternatives, g-zustandspassiv, the four connector points, g-correlates-da, g-es-placeholder, g-relative-was-wo, g-relative-wer, g-relative-dessen-deren) need gold items, especially correct and style-only sentences that the Coach must not flag (reported speech with the indicative is acceptable in speech). No IPA is given for any vocabulary item.",
     "Teacher check needed in the e-mail gate rationales: whether \"im Verzug\" or \"in Verzug\" is the better usage after \"sein\" (the Band 2 rationale calls \"im Verzug\" a wrong preposition; \"in Verzug sein\" is the fixed phrase)."
   ],
   "id": "B2.1",
@@ -2828,6 +2828,230 @@
       ],
       "sublevel": "B2.1",
       "order": 14
+    },
+    {
+      "id": "g-relative-dessen-deren",
+      "title": {
+        "de": "Relativpronomen im Genitiv: dessen und deren",
+        "en": "Relative pronouns in the genitive: dessen and deren",
+        "es": "Pronombres relativos en genitivo: dessen y deren"
+      },
+      "explanation": {
+        "en": "To say whose something is, German uses the genitive of the relative pronoun: dessen for a masculine or neuter owner, deren for a feminine or plural owner. 'Der Kollege, dessen Auto kaputt ist, kommt mit dem Bus.' 'Die Kollegin, deren Bericht ich lese, sitzt im Büro nebenan.' Two rules. First, the pronoun follows the owner, the person or thing before the comma, not the noun that is owned: 'die Frau, deren Sohn …', although Sohn is masculine. Second, dessen or deren already does the work of the article, so the owned noun has no article after it: never 'dessen das Auto'. The owned noun keeps the ending its job in the clause needs, for example the -n of the dative plural: 'der Chef, mit dessen Kollegen ich gesprochen habe'. A preposition stands in front of the whole group: 'der Kollege, mit dessen Hilfe ich die Wohnung gefunden habe'. Do not use wessen here: it only asks a question ('Wessen Auto ist das?'). Dessen and deren are common in writing and a little formal in speech.",
+        "es": "Para decir de quién es algo, el alemán usa el genitivo del pronombre relativo: dessen si el poseedor es masculino o neutro, deren si es femenino o plural. 'Der Kollege, dessen Auto kaputt ist, kommt mit dem Bus.' ('El compañero cuyo coche está estropeado viene en autobús.') 'Die Kollegin, deren Bericht ich lese, sitzt im Büro nebenan.' Dos reglas. Primera: el pronombre concuerda con el poseedor, la persona o cosa que va antes de la coma, y no con lo poseído, al revés que 'cuyo / cuya': 'die Frau, deren Sohn …', aunque Sohn sea masculino. Segunda: dessen o deren ya hace de artículo, así que el sustantivo poseído no lleva artículo detrás: nunca 'dessen das Auto'. Ese sustantivo conserva la terminación que le pide su función en la oración, por ejemplo la -n del dativo plural: 'der Chef, mit dessen Kollegen ich gesprochen habe'. La preposición va delante de todo el grupo: 'der Kollege, mit dessen Hilfe ich die Wohnung gefunden habe'. No uses wessen: solo sirve para preguntar ('Wessen Auto ist das?'). Dessen y deren son frecuentes por escrito y algo formales al hablar."
+      },
+      "examples": [
+        {
+          "de": "Der Kollege, dessen Auto kaputt ist, kommt heute mit dem Bus.",
+          "en": "The colleague whose car is broken is coming by bus today.",
+          "es": "El compañero cuyo coche está estropeado viene hoy en autobús."
+        },
+        {
+          "de": "Die Kollegin, deren Bericht ich gerade lese, sitzt im Büro nebenan.",
+          "en": "The colleague whose report I am reading just now sits in the office next door.",
+          "es": "La compañera cuyo informe estoy leyendo ahora se sienta en la oficina de al lado."
+        },
+        {
+          "de": "Die Studenten, deren Namen ich nicht kenne, sitzen ganz hinten.",
+          "en": "The students whose names I do not know are sitting right at the back.",
+          "es": "Los estudiantes cuyos nombres no conozco están sentados al fondo."
+        },
+        {
+          "de": "Das Unternehmen, dessen Angebot mich interessiert, sucht neue Mitarbeiter.",
+          "en": "The company whose offer interests me is looking for new employees.",
+          "es": "La empresa cuya oferta me interesa busca nuevos empleados."
+        },
+        {
+          "de": "Der Kollege, mit dessen Hilfe ich die Wohnung gefunden habe, ist leider krank.",
+          "en": "The colleague with whose help I found the flat is unfortunately ill.",
+          "es": "El compañero con cuya ayuda encontré el piso está enfermo, por desgracia."
+        },
+        {
+          "de": "Die Professorin, deren Seminar ich besuche, ist sehr streng.",
+          "en": "The professor whose seminar I attend is very strict.",
+          "es": "La profesora cuyo seminario sigo es muy estricta."
+        },
+        {
+          "de": "Mein Vermieter, dessen Frau im Haus nebenan wohnt, repariert viel selbst.",
+          "en": "My landlord, whose wife lives in the house next door, does a lot of repairs himself.",
+          "es": "Mi casero, cuya mujer vive en la casa de al lado, arregla muchas cosas él mismo."
+        }
+      ],
+      "typicalErrors": [
+        {
+          "wrong": "Der Mann, wessen Auto vor dem Haus steht, ist mein Vermieter.",
+          "correct": "Der Mann, dessen Auto vor dem Haus steht, ist mein Vermieter.",
+          "l1": [
+            "en",
+            "es"
+          ],
+          "why": {
+            "en": "English 'whose' and Spanish 'cuyo' are both relative words, and German wessen looks like 'whose'. But wessen only asks questions ('Wessen Auto ist das?'). In a relative clause German takes the genitive of der, die, das: dessen or deren.",
+            "es": "El inglés 'whose' y el español 'cuyo' son relativos, y wessen se parece a 'whose'. Pero wessen solo sirve para preguntar ('Wessen Auto ist das?'). En una oración de relativo el alemán usa el genitivo de der, die, das: dessen o deren."
+          }
+        },
+        {
+          "wrong": "Die Frau, dessen Sohn bei uns arbeitet, ist sehr nett.",
+          "correct": "Die Frau, deren Sohn bei uns arbeitet, ist sehr nett.",
+          "l1": [
+            "es"
+          ],
+          "why": {
+            "en": "Spanish 'cuyo / cuya' agrees with the owned noun (la mujer cuyo hijo), so a Spanish speaker picks the form from Sohn, which is masculine. German dessen or deren agrees with the owner: die Frau is feminine, so deren.",
+            "es": "El español 'cuyo / cuya' concuerda con lo poseído (la mujer cuyo hijo), así que se elige la forma por Sohn, que es masculino. En alemán dessen o deren concuerda con el poseedor: die Frau es femenino, luego deren."
+          }
+        },
+        {
+          "wrong": "Die Studentin, die ihre Arbeit ausgezeichnet wurde, kommt aus Chile.",
+          "correct": "Die Studentin, deren Arbeit ausgezeichnet wurde, kommt aus Chile.",
+          "l1": [
+            "en",
+            "es"
+          ],
+          "why": {
+            "en": "In speech both languages let the pronoun and a possessive stand side by side ('the student who her work won a prize'; 'la estudiante que su trabajo ganó un premio'). German has one word for both jobs: deren replaces the possessive and the article.",
+            "es": "En el habla ambas lenguas dejan el pronombre y un posesivo uno junto a otro ('la estudiante que su trabajo ganó un premio'; en inglés 'the student who her work won a prize'). El alemán tiene una sola palabra para las dos funciones: deren sustituye al posesivo y al artículo."
+          }
+        },
+        {
+          "wrong": "Das Hotel, dessen das Frühstück sehr gut ist, kostet nicht viel.",
+          "correct": "Das Hotel, dessen Frühstück sehr gut ist, kostet nicht viel.",
+          "l1": [
+            "en",
+            "es"
+          ],
+          "why": {
+            "en": "Learners think of 'the hotel of which the breakfast …' (English) or 'del cual el desayuno' (Spanish) and add an article. In German dessen already replaces the article of the owned noun.",
+            "es": "Se piensa en 'el hotel del cual el desayuno …' (español) o en 'of which the breakfast' (inglés) y se añade un artículo. En alemán dessen ya sustituye al artículo del sustantivo poseído."
+          }
+        },
+        {
+          "wrong": "Die Kollegen, denen Namen ich vergessen habe, sind schon gegangen.",
+          "correct": "Die Kollegen, deren Namen ich vergessen habe, sind schon gegangen.",
+          "l1": [
+            "en",
+            "es"
+          ],
+          "why": {
+            "en": "English 'whose' and Spanish 'cuyos' look like no German pronoun, so learners reach for the plural relative pronoun they already know, denen. But denen is dative. The genitive plural is deren, the same word as the feminine.",
+            "es": "Como 'whose' y 'cuyos' no se parecen a ningún pronombre alemán, se recurre al relativo plural que ya se conoce, denen. Pero denen es dativo. El genitivo plural es deren, igual que el femenino."
+          }
+        }
+      ],
+      "prerequisites": [
+        "g-relative-clauses-nominative-accusative",
+        "g-relative-clauses-dative-prepositions",
+        "g-genitive"
+      ],
+      "errorTags": [
+        "case",
+        "gender",
+        "lexical"
+      ],
+      "drills": [
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Write dessen or deren.",
+            "es": "Escribe dessen o deren."
+          },
+          "prompt": "Der Kollege, ___ Auto kaputt ist, kommt mit dem Bus.",
+          "answers": [
+            "dessen"
+          ]
+        },
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Write dessen or deren.",
+            "es": "Escribe dessen o deren."
+          },
+          "prompt": "Die Nachbarin, ___ Kinder oft laut sind, ist sehr freundlich.",
+          "answers": [
+            "deren"
+          ]
+        },
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Write dessen or deren.",
+            "es": "Escribe dessen o deren."
+          },
+          "prompt": "Meine Kollegen, ___ Büro im dritten Stock liegt, laden uns ein.",
+          "answers": [
+            "deren"
+          ]
+        },
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Write dessen or deren. A preposition comes first.",
+            "es": "Escribe dessen o deren. Delante va una preposición."
+          },
+          "prompt": "Der Mann, mit ___ Hilfe ich die Wohnung gefunden habe, ist mein Kollege.",
+          "answers": [
+            "dessen"
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Join the two sentences with dessen or deren.",
+            "es": "Une las dos frases con dessen o deren."
+          },
+          "prompt": "Das ist der Student. Seine Arbeit hat einen Preis bekommen.",
+          "answers": [
+            "Das ist der Student, dessen Arbeit einen Preis bekommen hat."
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Join the two sentences with dessen or deren.",
+            "es": "Une las dos frases con dessen o deren."
+          },
+          "prompt": "Die Firma sucht Mitarbeiter. Ihr Angebot ist sehr gut.",
+          "answers": [
+            "Die Firma, deren Angebot sehr gut ist, sucht Mitarbeiter."
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Join the two sentences with dessen or deren.",
+            "es": "Une las dos frases con dessen o deren."
+          },
+          "prompt": "Ich kenne die Kollegin. Ihren Bericht habe ich gelesen.",
+          "answers": [
+            "Ich kenne die Kollegin, deren Bericht ich gelesen habe."
+          ]
+        },
+        {
+          "type": "build",
+          "instruction": {
+            "en": "Put the words in order.",
+            "es": "Ordena las palabras."
+          },
+          "prompt": "das / ist / die Kollegin / deren / Bericht / ich / gelesen / habe",
+          "answers": [
+            "Das ist die Kollegin, deren Bericht ich gelesen habe."
+          ]
+        },
+        {
+          "type": "say",
+          "instruction": {
+            "en": "Say aloud in one sentence: your landlord is very kind, his wife lives next door.",
+            "es": "Di en voz alta en una sola frase: tu casero es muy amable y su mujer vive al lado."
+          },
+          "prompt": "Vermieter: sehr freundlich. Seine Frau wohnt nebenan.",
+          "answers": [
+            "Mein Vermieter, dessen Frau nebenan wohnt, ist sehr freundlich.",
+            "Mein Vermieter, dessen Frau im Haus nebenan wohnt, ist sehr freundlich."
+          ]
+        }
+      ],
+      "sublevel": "B2.1",
+      "order": 15
     }
   ],
   "vocabulary": [

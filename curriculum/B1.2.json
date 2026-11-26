@@ -268,14 +268,15 @@
     "Deutsch im Blick is not cited as a source: its table of contents was not opened for this spec, so no chapter could be matched to these grammar points. All grammar explanations are original.",
     "Frequency window 1401-1800: 313 lemmas are taught here and 53 by earlier sublevels (366 of 400, 91.5%). Left out: 34 that are no learner words or news vocabulary above B1 (mutmaßlich, R, E, K, P, F, Er, Wenn, Nein, Zweiter, Ganzes, Nachrichten, Linke, Einsatzkraft, derweil, genannt, bergen, alarmieren, werten, Truppe, tätigen, Index, Ermittler, Leiche, Schuss, Klub, Anschlag, Frankfurter, militärisch, Wolf, Flamme, Hesse, Jürgen, bedürfen).",
     "B1.1 handed Beruf, Fest and vermissen to this sublevel, but A1.1 (Beruf) and A2.1 (Fest, vermissen) already teach them, so they are not repeated here. The other hand-offs (Heimat, Traum, Lebensmittel, zunehmen, Ansicht, zustimmen, Eintritt, Journalist, streng, total, Süden) are included.",
-    "Gate anchors are written, not human-rated: all 72 samples (6 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of each sample's criterion bands was kept within half a band of its anchor band.",
+    "Gate anchors are written, not human-rated: all 72 samples (6 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of each sample's criterion bands was kept within half a band of its anchor band. The two scenario-based speaking tasks use two scenarios that only the gate uses (ts-b12-gate-wg-willkommensessen and ts-b12-gate-rueckfragen-kaan); the practice scenarios ts-b12-abschied-planen and ts-b12-fragen-zur-praesentation are for the Talk screen. The anchors of these two tasks were rewritten for the new situations with the same bands as before, and a script checked that no anchor sentence equals or shares a five-word run with a line in any scenario's script or usefulPhrases.",
     "The mock exam imitates the task types of the Goethe and telc B1 exams with original texts; its timing (about 2 hours for the receptive and writing parts) and point split (25 per skill) are Weg design choices, not the official ones, and the readiness verdict built on it has not been calibrated against real exam results.",
-    "The speaking presentation task (sprechen-thema-praesentieren) is a monologue without a talk scenario; the app needs a recording flow for it. The follow-up task uses ts-b12-fragen-zur-praesentation, whose topic matches the presentation topic, so the two must be run in that order.",
+    "The speaking presentation task (sprechen-thema-praesentieren) is a monologue without a talk scenario; the app needs a recording flow for it. The follow-up task uses ts-b12-gate-rueckfragen-kaan, whose topic matches the presentation topic (cars in city centres), so the two must be run in that order.",
     "A few words in the receptive gate texts are not taught anywhere on the path (Stadthalle, Regionalexpress, Frühschicht, gratis, Sommersemester, Kaffeepause, markieren, naiv, Soziologie, Medienwissenschaft); they are inferable from context or not needed for any item. Text coverage of the spec is 99.1%.",
     "Lemma and form choices to confirm: das Tausend (Wiktionary also has die), adjectival nouns entered as Verletzter, Abgeordneter, Auszubildender, Geflüchteter, Studierender, Reisender with plurals in -e; plurals Homeoffices, Fragebögen, Labore, Werkstätten; pendeln with haben/sein.",
     "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel.",
     "The transcripts of the presentation anchors are shorter than the three to four minutes the task asks for, so the timing remarks in their rationales are not reliable and band 2 and band 3 cannot be told apart by length.",
-    "The follow-up scenario ts-b12-fragen-zur-praesentation assumes the learner's talk used the word Fußgängerzone; none of the presentation anchors does."
+    "The follow-up scenario ts-b12-gate-rueckfragen-kaan asks the learner to explain the part about advantages and disadvantages again, as the presentation task requires, but it does not depend on any particular word in the talk.",
+    "ts-b12-gate-wg-willkommensessen has no theme: none of the nine themes of this sublevel fits life in a shared flat."
   ],
   "id": "B1.2",
   "grammar": [
@@ -15183,6 +15184,279 @@
         }
       ],
       "sublevel": "B1.2"
+    },
+    {
+      "id": "ts-b12-gate-wg-willkommensessen",
+      "title": {
+        "en": "Plan a welcome dinner for a new flatmate",
+        "es": "Planifica una cena de bienvenida para una nueva compañera de piso"
+      },
+      "situation": {
+        "en": "You share a flat with Tarek. On Saturday a new flatmate, Mia, moves in, and you two want to cook a small welcome dinner for her that evening. Plan it together: time and place, what to cook and drink, the shopping, cleaning and who does what, and how to share the cost. Make suggestions, react to Tarek's ideas, solve the small problems that come up and agree on a plan. Everything in this conversation is invented for the exercise.",
+        "es": "Compartes piso con Tarek. El sábado se muda una nueva compañera, Mia, y vosotros dos queréis cocinarle una pequeña cena de bienvenida esa noche. Planificadla juntos: hora y lugar, qué cocinar y beber, las compras, la limpieza y quién hace qué, y cómo repartir el gasto. Haz propuestas, reacciona a las ideas de Tarek, resuelve los pequeños problemas que surjan y acordad un plan. Todo lo que se dice en esta conversación es inventado para el ejercicio."
+      },
+      "learnerRole": "Mitbewohnerin oder Mitbewohner in einer WG",
+      "partnerRole": "Tarek, Mitbewohner, locker und hilfsbereit, nennt kleine Probleme",
+      "register": "du",
+      "goals": [
+        {
+          "en": "Agree on a time and a place for the dinner.",
+          "es": "Acordad una hora y un lugar para la cena."
+        },
+        {
+          "en": "Decide what to cook, taking Mia's wishes into account.",
+          "es": "Decidid qué cocinar, teniendo en cuenta lo que Mia necesita."
+        },
+        {
+          "en": "Find a solution for at least one small problem Tarek mentions.",
+          "es": "Encuentra una solución para al menos un pequeño problema que menciona Tarek."
+        },
+        {
+          "en": "Agree on money, shopping and cleaning.",
+          "es": "Acordad el dinero, las compras y la limpieza."
+        },
+        {
+          "en": "Sum up who does what.",
+          "es": "Resume quién hace qué."
+        }
+      ],
+      "partnerOpening": "Hallo! Am Samstag zieht Mia bei uns ein. Sollen wir abends etwas für sie kochen? Hast du schon eine Idee?",
+      "partnerFacts": [
+        "Alles in diesem Gespräch ist für die Übung erfunden.",
+        "Mia zieht am Samstag um zehn Uhr morgens ein und isst kein Fleisch.",
+        "Am Tisch sollen fünf Personen sitzen: Tarek, die Lernerin oder der Lerner, Mia und zwei Nachbarn.",
+        "Die Küche ist klein; im Wohnzimmer steht ein großer Tisch.",
+        "Tarek kocht gern eine Gemüsesuppe, hat aber keinen großen Topf.",
+        "Die Nachbarin im ersten Stock hat einen großen Topf, den man leihen könnte.",
+        "Tarek hat am Freitag bis 18 Uhr ein Seminar und kann erst danach einkaufen; am Samstagvormittag hilft er Mia beim Umzug.",
+        "Tarek findet, dass jeder von der WG zehn Euro für das Essen geben könnte; die Nachbarn zahlen nichts."
+      ],
+      "targetGrammar": [
+        "g-konjunktiv2-forms",
+        "g-konjunktiv2-wishes-advice",
+        "g-subordinate-falls-sodass-indem",
+        "g-um-zu-damit",
+        "g-nicht-brauchen-zu"
+      ],
+      "usefulPhrases": [
+        {
+          "de": "Was hältst du von Samstagabend, so gegen sieben?",
+          "en": "What do you think of Saturday evening, around seven?",
+          "es": "¿Qué te parece el sábado por la noche, hacia las siete?"
+        },
+        {
+          "de": "Falls die Küche zu klein ist, könnten wir im Wohnzimmer essen.",
+          "en": "If the kitchen is too small, we could eat in the living room.",
+          "es": "Si la cocina es demasiado pequeña, podríamos comer en el salón."
+        },
+        {
+          "de": "Wir sollten etwas ohne Fleisch kochen, damit Mia auch satt wird.",
+          "en": "We should cook something without meat so that Mia gets enough to eat too.",
+          "es": "Deberíamos cocinar algo sin carne para que Mia también se quede satisfecha."
+        },
+        {
+          "de": "Du brauchst nicht alles allein zu kaufen.",
+          "en": "You do not need to buy everything on your own.",
+          "es": "No hace falta que compres todo tú solo."
+        },
+        {
+          "de": "Gut, dann fasse ich kurz zusammen, wer was macht.",
+          "en": "Good, then let me briefly sum up who does what.",
+          "es": "Bien, entonces resumo brevemente quién hace qué."
+        }
+      ],
+      "limits": {
+        "maxPartnerWordsPerTurn": 40,
+        "maxTurns": 16
+      },
+      "expectedPartnerBehaviour": [
+        "Stays Tarek, a flatmate, and uses du; relaxed, friendly and practical.",
+        "Uses only grammar up to B1.2 and at most 40 words per turn.",
+        "Lets the learner propose time and place first and brings in the small problems one at a time: the small kitchen, the missing pot, the shopping time.",
+        "Accepts reasonable solutions from the learner and does not agree to everything at once.",
+        "Does not invent facts (allergies, prices, other guests) beyond partnerFacts and does not correct the learner's German."
+      ],
+      "failureExamples": [
+        {
+          "partnerTurn": "Mia hat mir gesagt, dass sie Nüsse nicht verträgt, also kein Nachtisch mit Nüssen.",
+          "breaks": "invented-facts",
+          "why": "An allergy is not in partnerFacts; the Partner must not add facts about Mia."
+        },
+        {
+          "partnerTurn": "Ich plädiere dafür, dass wir im Anschluss an das Abendessen die Küche gemeinschaftlich instand setzen.",
+          "breaks": "above-level",
+          "why": "Stiff, nominal wording far above B1.2; a flatmate would say 'Danach räumen wir zusammen auf.'"
+        },
+        {
+          "partnerTurn": "Du hast gesagt 'Wir könnten essen im Wohnzimmer'. Richtig ist: 'Wir könnten im Wohnzimmer essen.'",
+          "breaks": "corrected-mid-conversation",
+          "why": "Corrections belong to the Coach after the conversation."
+        }
+      ],
+      "script": [
+        {
+          "learner": "Gute Idee! Wie wäre es mit Samstagabend um sieben? Dann ist Mia schon eingezogen.",
+          "expect": "Agrees and says that he helps Mia with the move in the morning; asks where to eat."
+        },
+        {
+          "learner": "Wir könnten im Wohnzimmer essen, weil die Küche zu klein ist.",
+          "expect": "Agrees that the big table is in the living room; asks what to cook."
+        },
+        {
+          "learner": "Mia isst kein Fleisch. Ich schlage vor, dass wir eine Gemüsesuppe kochen.",
+          "expect": "Likes the idea, but says he has no big pot."
+        },
+        {
+          "learner": "Ich frage die Nachbarin, ob sie uns einen Topf leiht, dann haben wir ein Problem weniger.",
+          "expect": "Says the neighbour on the first floor has a big pot; mentions that he can only shop after 6 pm on Friday."
+        },
+        {
+          "learner": "Wenn du am Freitag einkaufst, ich putze die Küche und das Bad.",
+          "expect": "Does not correct the word order. Agrees and asks how to share the cost."
+        },
+        {
+          "learner": "Jeder von uns gibt zehn Euro, damit wir genug Geld für alles haben. Also, ich fasse zusammen: Samstag um sieben, du kochst, ich putze und frage wegen des Topfes.",
+          "expect": "Confirms the plan briefly and ends the conversation in a friendly way."
+        }
+      ],
+      "sublevel": "B1.2"
+    },
+    {
+      "id": "ts-b12-gate-rueckfragen-kaan",
+      "theme": "praesentation",
+      "title": {
+        "en": "Answer feedback and questions from a course mate after your talk",
+        "es": "Responde a los comentarios y preguntas de un compañero tras tu exposición"
+      },
+      "situation": {
+        "en": "You have just given a short presentation in your German course on the topic 'Should cars be banned from city centres?'. You talked about your own situation, about your home country and about advantages and disadvantages. Now your course mate Kaan gives you feedback and asks questions. Thank him, react to the feedback, explain one point again in simpler words, answer his counter-argument politely and say honestly when you do not know something.",
+        "es": "Acabas de hacer una exposición breve en tu curso de alemán sobre el tema '¿Deberían prohibirse los coches en el centro de las ciudades?'. Has hablado de tu propia situación, de tu país y de las ventajas y desventajas. Ahora tu compañero de curso Kaan te da su valoración y te hace preguntas. Dale las gracias, reacciona a sus comentarios, explica un punto de nuevo con palabras más sencillas, responde con cortesía a su contraargumento y di con sinceridad cuándo no sabes algo."
+      },
+      "learnerRole": "Kursteilnehmerin oder Kursteilnehmer nach der eigenen Präsentation",
+      "partnerRole": "Kaan, Kursteilnehmer, höflich und neugierig, arbeitet am Wochenende in einem Geschäft",
+      "register": "du",
+      "goals": [
+        {
+          "en": "Thank Kaan and react to his feedback.",
+          "es": "Da las gracias a Kaan y reacciona a su valoración."
+        },
+        {
+          "en": "Explain the advantages and disadvantages again in simpler words.",
+          "es": "Explica de nuevo las ventajas y desventajas con palabras más sencillas."
+        },
+        {
+          "en": "Answer his counter-argument about shops and older people, politely.",
+          "es": "Responde con cortesía a su contraargumento sobre las tiendas y las personas mayores."
+        },
+        {
+          "en": "Give an example from your home country.",
+          "es": "Da un ejemplo de tu país."
+        },
+        {
+          "en": "Say honestly when you do not know an answer.",
+          "es": "Di con sinceridad cuándo no sabes una respuesta."
+        }
+      ],
+      "partnerOpening": "Danke für deinen Vortrag! Das Thema war spannend. Ich möchte dir kurz eine Rückmeldung geben und dir dann ein paar Fragen stellen. Ist das okay?",
+      "partnerFacts": [
+        "Kaan hat die ganze Präsentation gehört.",
+        "Er fand den Aufbau klar und das Beispiel aus dem Heimatland gut.",
+        "Er fand, dass die Lernerin oder der Lerner oft auf den Zettel geschaut und manchmal zu leise gesprochen hat.",
+        "Er hat den Teil über Vor- und Nachteile nicht ganz verstanden und bittet darum, ihn noch einmal in einfachen Worten zu erklären.",
+        "Kaan arbeitet am Wochenende in einem Geschäft in der Innenstadt. Er meint, dass die Geschäfte ohne Autos weniger Kunden hätten und dass ältere Menschen nicht weit laufen könnten.",
+        "Kaan fragt einmal nach einer Zahl, die nicht in der Präsentation war: wie viele Menschen in der Hauptstadt des Heimatlandes jeden Tag mit Bus oder U-Bahn fahren. Er kennt die Zahl selbst nicht."
+      ],
+      "targetGrammar": [
+        "g-konjunktiv2-conditions",
+        "g-subordinate-falls-sodass-indem",
+        "g-passive-present",
+        "g-je-desto",
+        "g-um-zu-damit"
+      ],
+      "usefulPhrases": [
+        {
+          "de": "Danke für die Rückmeldung. Nächstes Mal spreche ich lauter.",
+          "en": "Thanks for the feedback. Next time I will speak louder.",
+          "es": "Gracias por los comentarios. La próxima vez hablaré más alto."
+        },
+        {
+          "de": "Ich versuche es noch einmal in einfachen Worten.",
+          "en": "Let me try again in simple words.",
+          "es": "Lo intento de nuevo con palabras sencillas."
+        },
+        {
+          "de": "Das stimmt, aber wenn die Busse öfter fahren würden, bräuchten viele kein Auto.",
+          "en": "That is true, but if the buses ran more often, many people would not need a car.",
+          "es": "Es verdad, pero si los autobuses pasaran más a menudo, mucha gente no necesitaría coche."
+        },
+        {
+          "de": "Für ältere Menschen könnte es Ausnahmen geben, sodass sie nicht weit laufen müssen.",
+          "en": "There could be exceptions for older people, so that they do not have to walk far.",
+          "es": "Podría haber excepciones para las personas mayores, de modo que no tengan que andar mucho."
+        },
+        {
+          "de": "Das ist eine gute Frage. Die Zahl kenne ich nicht, aber ich kann sie nachschauen.",
+          "en": "That is a good question. I do not know the number, but I can look it up.",
+          "es": "Es una buena pregunta. No conozco la cifra, pero puedo buscarla."
+        }
+      ],
+      "limits": {
+        "maxPartnerWordsPerTurn": 35,
+        "maxTurns": 14
+      },
+      "expectedPartnerBehaviour": [
+        "Stays Kaan, a course mate, and uses du.",
+        "Uses only grammar up to B1.2 and at most 35 words per turn.",
+        "Gives one positive and one critical piece of feedback, then asks one question at a time.",
+        "Asks for the part about advantages and disadvantages to be explained again and accepts a simpler explanation.",
+        "Brings one counter-argument from partnerFacts (shops, older people) and listens to the learner's answer without giving up his view at once.",
+        "Accepts 'I do not know' calmly when he asks for the number of passengers, and does not supply a number himself.",
+        "Does not correct the learner's German."
+      ],
+      "failureExamples": [
+        {
+          "partnerTurn": "In deinem Land fahren jeden Tag fünf Millionen Menschen mit der U-Bahn, das habe ich gelesen.",
+          "breaks": "invented-facts",
+          "why": "Kaan must not supply a statistic; partnerFacts say he asks for a number he does not know."
+        },
+        {
+          "partnerTurn": "Wie gesagt, wenn ich nochmal fragen darf: Was sind die Vor- und Nachteile deiner Meinung nach?",
+          "breaks": "ignored-slow-down",
+          "why": "This turn only counts as a failure after the learner has asked him to speak more slowly: he repeats the question with no simplification."
+        },
+        {
+          "partnerTurn": "Du hast 'ich habe gewesen in Mexiko' gesagt. Richtig wäre: 'Ich bin in Mexiko gewesen.'",
+          "breaks": "corrected-mid-conversation",
+          "why": "Corrections belong to the Coach after the conversation."
+        }
+      ],
+      "script": [
+        {
+          "learner": "Danke, Kaan! Du hast recht, ich war am Anfang sehr nervös.",
+          "expect": "Accepts the reaction and asks the learner to explain the advantages and disadvantages again in simple words."
+        },
+        {
+          "learner": "Die Luft wird besser, und es gibt weniger Lärm. Aber manche Leute brauchen ein Auto.",
+          "expect": "Shows he has understood and brings his counter-argument: shops would lose customers."
+        },
+        {
+          "learner": "Sorry, kannst du das bitte langsamer sagen?",
+          "expect": "Repeats the counter-argument more slowly and in shorter sentences, in German."
+        },
+        {
+          "learner": "Ich verstehe. Aber wenn es mehr Busse geben würde, die Leute kommen auch ohne Auto in die Stadt.",
+          "expect": "Does not correct the word order. Reacts to the argument and adds that older people cannot walk far."
+        },
+        {
+          "learner": "Für ältere Leute sollte es Ausnahmen geben. In meinem Land haben viele Städte einen autofreien Sonntag.",
+          "expect": "Shows interest, then asks how many people in the capital use bus or underground every day."
+        },
+        {
+          "learner": "Die Zahl weiß ich leider nicht. Ich kann sie später suchen und dir schreiben.",
+          "expect": "Accepts this calmly, does not give a number, and thanks the learner for the talk."
+        }
+      ],
+      "sublevel": "B1.2"
     }
   ],
   "gate": {
@@ -16300,44 +16574,44 @@
         "id": "sprechen-gemeinsam-planen",
         "skill": "speaking",
         "format": "Gemeinsam etwas planen",
-        "instructions": "Ihre Kollegin, Frau Berger, verlässt nach zehn Jahren die Firma. Ihr letzter Arbeitstag ist nächster Freitag. Sie und Ihr Kollege Jonas möchten einen kleinen Abschied für sie organisieren. Planen Sie zusammen: Wann und wo feiern Sie? Was gibt es zu essen und zu trinken? Was schenken Sie Frau Berger, und wer bezahlt? Wer übernimmt welche Aufgabe? Machen Sie Vorschläge und reagieren Sie auf die Vorschläge Ihres Partners. Am Ende sollten Sie sich auf einen Plan einigen.",
+        "instructions": "Am Samstag zieht eine neue Mitbewohnerin, Mia, in Ihre WG ein. Sie und Ihr Mitbewohner Tarek möchten am Abend ein kleines Willkommensessen für sie kochen. Planen Sie zusammen: Wann und wo essen Sie? Was kochen Sie, und was trinken Sie? Wer kauft ein, wer putzt, und wie teilen Sie die Kosten? Machen Sie Vorschläge und reagieren Sie auf die Vorschläge Ihres Partners. Am Ende sollten Sie sich auf einen Plan einigen.",
         "minutes": 6,
         "points": 9,
-        "talkScenario": "ts-b12-abschied-planen",
+        "talkScenario": "ts-b12-gate-wg-willkommensessen",
         "rubricId": "speaking",
         "anchors": [
           {
             "band": 0,
             "samples": [
               {
-                "response": "Ja.\nÄh … Party.\nIch weiß nicht. Okay.\nSorry, I don't understand.\nJa, Kuchen. Gut.",
+                "response": "Ja. Mia. Gut.\nÄh … essen? Pizza.\nIch weiß nicht. Okay.\nSorry, what?\nJa, du kochst. Danke.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary": 0
                 },
-                "rationale": "Task completion 0: no time, place, present or division of tasks is agreed; the partner does all the planning. Interaction 0: single words and a switch to English when something is not understood. Grammar 0: no sentence of its own. Vocabulary 0: only Party and Kuchen."
+                "rationale": "Task completion 0: no time, place, menu or division of tasks is agreed; the partner does all the planning. Interaction 0: single words and a switch to English when something is not understood. Grammar 0: no sentence of its own. Vocabulary 0: only Mia and Pizza."
               },
               {
-                "response": "Hallo Jonas. Ja, Frau Berger … Abschied. Gut.\nRestaurant ist teuer. Nein.\nIm Büro? Freitag.\nGeschenk … ich weiß nicht. Blumen?\nÄh, wie sagt man … money, Geld, jeder fünf Euro, ja.",
+                "response": "Hallo Tarek. Mia, ja, Samstag. Gut.\nKüche klein. Nein.\nWohnzimmer? Okay.\nEssen … Suppe? Ich weiß nicht. Vegetarian?\nGeld … ten Euro, ja. Jeder.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 0: rejects the restaurant and names the office and flowers, but nothing is agreed: there is no plan and no division of tasks. Interaction 0: one- or two-word turns, long pauses, an English word to fill a gap. Grammar 0: almost no verbs. Vocabulary 1: a few relevant words (Restaurant, Büro, Geschenk, Blumen)."
+                "rationale": "Task completion 0: names the small kitchen, the living room and money, but nothing is agreed: there is no time, no decision on the menu and no division of tasks. Interaction 0: one- or two-word turns, long pauses, an English word to fill a gap. Grammar 0: almost no verbs. Vocabulary 1: a few relevant words (Küche, Wohnzimmer, Suppe, Geld)."
               },
               {
-                "response": "Sí, sí, Party. Ich mag Party.\nWo? Ich weiß nicht. Was du denkst?\nOkay, Raum. Und essen … pizza?\nIch habe keine Zeit Donnerstag. Ich arbeite.\nOkay, du machst. Danke.",
+                "response": "Sí, sí, Essen. Ich mag Essen.\nWann? Ich weiß nicht. Was du machst?\nOkay, Samstag. Und ich kaufen … Brot?\nFreitag ich habe Prüfung. Ich lerne.\nOkay, du kochst. Gracias.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 1,
                   "grammar": 0,
                   "vocabulary": 0
                 },
-                "rationale": "Task completion 0: agrees to the room and suggests pizza, but leaves every decision and every task to the partner; no present. Interaction 1: reacts and asks the partner's opinion once, but does not keep the planning going. Grammar 0: fragments; 'Was du denkst?' with wrong word order; no subordinate clause. Vocabulary 0: very few words for the task; Spanish filler."
+                "rationale": "Task completion 0: accepts Saturday and offers bread, but leaves every decision and every task to the partner; no place, no money. Interaction 1: reacts and asks the partner's opinion once, but does not keep the planning going. Grammar 0: fragments; 'Was du machst?' with wrong word order; 'ich kaufen'. Vocabulary 0: very few words for the task; Spanish filler."
               }
             ]
           },
@@ -16345,34 +16619,34 @@
             "band": 1,
             "samples": [
               {
-                "response": "Ja, das ist eine gute Idee. Wir machen eine Party für Frau Berger.\nRestaurant? Hm, ich finde das teuer für alle. Wir können im Büro feiern.\nUm drei Uhr ist gut. Die Kantine ist zu, ja?\nZum Essen … ich bringe Chips und Getränke. Cola, Wasser.\nGeschenk, ich weiß nicht. Was magst sie?\nAh, Bücher. Gut, ein Buch.\nOkay. Tschüss.",
+                "response": "Ja, gut. Wir kochen zusammen für Mia.\nSamstag um sieben, okay. Wir essen im Wohnzimmer, die Küche ist klein.\nIch koche nicht gut. Du kochst, ich mache Salat.\nUnd was trinken wir? Wasser, Saft, Tee.\nMia isst kein Fleisch. Was magst du kochen?\nAh, Suppe. Gut. Tschüss.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 1: place, time, drinks and a book are agreed, but who pays and who buys the present stay open and nothing is summed up. Interaction 1: reacts to the restaurant idea with a reason, but mostly follows the partner; ends abruptly. Grammar 1: simple main clauses, mostly correct; 'Was magst sie?'; no subordinate clause or Konjunktiv II. Vocabulary 2: enough everyday words for the task (feiern, Getränke, Geschenk)."
+                "rationale": "Task completion 1: time, place, food and drinks are agreed, but shopping, money and cleaning stay open and nothing is summed up. Interaction 1: gives a reason for the room, but mostly follows the partner; ends abruptly. Grammar 1: simple main clauses, mostly correct; 'Was magst du kochen?' for 'Was möchtest du kochen?'; no subordinate clause or Konjunktiv II. Vocabulary 2: enough everyday words for the task (Wohnzimmer, Salat, Saft)."
               },
               {
-                "response": "Hallo Jonas. Ja, wir müssen etwas machen. Ich denke, wir machen eine kleine Fest.\nIn Restaurant ist schön, aber viele Kollegen haben nicht viel Geld. Im Besprechungsraum ist besser, weil ist kostenlos.\nEntschuldigung, kannst du wiederholen? … Ah, ab drei Uhr. Gut.\nIch kann Kuchen kaufen. Ah, du machst Kuchen? Super. Dann ich kaufe Saft.\nUnd für Geschenk, vielleicht eine Pflanze?",
+                "response": "Hallo Tarek. Ja, wir müssen etwas machen. Ich denke, wir machen eine kleine Essen.\nIn die Küche ist nicht gut, weil ist zu klein. Im Wohnzimmer ist besser, hat große Tisch.\nEntschuldigung, kannst du wiederholen? … Ah, um sieben Uhr. Gut.\nIch kann Gemüse kaufen. Ah, du kochst Suppe? Super. Dann ich kaufe Brot.\nUnd wer hat Topf? Wir haben nur kleine Topf.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 2,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 1: place, time, food and drinks are settled and a present is suggested, but payment and the final plan are missing. Interaction 2: gives a reason against the restaurant, asks for repetition and adjusts to the partner's offer to bake. Grammar 1: 'weil ist kostenlos' with no subject and the verb second, 'eine kleine Fest', 'In Restaurant', 'Dann ich kaufe'. Vocabulary 1: basic words; 'Fest' for a small office farewell is a slightly odd choice."
+                "rationale": "Task completion 1: time, place, food and part of the shopping are settled, but money, cleaning and the final plan are missing. Interaction 2: gives a reason for the room, asks for repetition and raises the problem of the pot on its own. Grammar 1: 'eine kleine Essen', 'In die Küche', 'weil ist zu klein' with no subject, 'hat große Tisch', 'Dann ich kaufe'. Vocabulary 1: basic words; 'Essen' for a dinner is a little vague."
               },
               {
-                "response": "Okay, für mich ist gut im Büro. Ich habe nicht Geld für Restaurant.\nFreitag um drei, im Raum. Okay.\nGetränke, ich kaufe. Aber Donnerstag ich kann nicht, ich habe Uni bis spät. Freitag Morgen ich kaufe.\nGeschenk: Frau Berger reist gern? Dann ein Buch über Reisen. Jeder gibt fünf Euro.\nGut, also du Kuchen und ich Getränke.",
+                "response": "Okay, für mich ist Samstag gut. Aber Freitag ich kann nicht einkaufen, ich habe Uni bis spät.\nSieben Uhr, im Wohnzimmer. Okay.\nSamstag Morgen ich putze das Bad und die Küche. Du hilfst Mia, ja?\nMia isst kein Fleisch. Dann Suppe mit Gemüse. Jeder gibt zehn Euro, nicht Geld für Fleisch.\nGut, also du kochst und ich putze.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 2: time, place, drinks, present and money are agreed and roughly summed up; who buys the book stays open. Interaction 1: short turns that answer the partner; hardly any own suggestion beyond the present; long pauses. Grammar 1: frequent verb-position errors after a time phrase ('Donnerstag ich kann nicht', 'Freitag Morgen ich kaufe'), 'nicht Geld'. Vocabulary 1: basic words; much is said with fragments ('also du Kuchen und ich Getränke')."
+                "rationale": "Task completion 2: time, place, menu, money and cleaning are agreed and roughly summed up; the pot stays open. Interaction 1: short turns that answer the partner; hardly any own suggestion beyond the cleaning; long pauses. Grammar 1: frequent verb-position errors after a time phrase ('Freitag ich kann nicht', 'Samstag Morgen ich putze'), 'nicht Geld'. Vocabulary 1: basic words; much is said with fragments ('Dann Suppe mit Gemüse')."
               }
             ]
           },
@@ -16380,34 +16654,34 @@
             "band": 2,
             "samples": [
               {
-                "response": "Ja, gute Idee! Wir sollten etwas Kleines machen.\nEin Restaurant am Abend? Hm, ich weiß nicht. Ich glaube, dass nicht alle Zeit haben, weil viele Familie haben. Wie wäre es mit dem Besprechungsraum am Nachmittag?\nAb drei Uhr, perfekt. Und zum Essen: Wenn du den Kuchen backst, kaufe ich die Getränke. Aber keinen Alkohol, sie trinkt keinen.\nFür das Geschenk – sie mag Pflanzen, oder? Wir könnten eine schöne Pflanze kaufen. Jeder gibt fünf Euro, das ist okay.\nIch sammle das Geld. Also, Freitag um drei, du machst Kuchen, ich kaufe Getränke und Pflanze.",
+                "response": "Ja, gute Idee! Wir sollten etwas Einfaches machen.\nWann? Ich glaube, dass Samstagabend gut ist, weil Mia am Morgen einzieht. Wie findest du sieben Uhr im Wohnzimmer? Die Küche ist zu klein.\nZum Essen: Wenn du die Suppe kochst, kaufe ich das Brot und die Getränke. Mia isst kein Fleisch, das ist wichtig.\nWir brauchen einen großen Topf. Ich könnte die Nachbarin fragen, ob sie uns einen leiht.\nJeder gibt zehn Euro, das ist okay. Ich putze am Samstagnachmittag.\nAlso, du kochst, ich kaufe Brot und frage wegen Topf, Samstagabend um sieben.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: every point is agreed, the tasks are divided and the plan is summed up. Interaction 2: rejects the restaurant with a reason, makes own suggestions and checks with 'oder?'; the turns are adequate but not very long. Grammar 2: dass, weil and wenn with the verb at the end, könnten and wie wäre es; 'weil viele Familie haben' and 'kaufe ich … Pflanze' without an article. Vocabulary 2: fitting phrases for planning; some gaps ('etwas Kleines' is well used)."
+                "rationale": "Task completion 3: every point is agreed, the tasks are divided and the plan is summed up. Interaction 2: gives a reason for the time, makes own suggestions and solves the pot problem; the turns are adequate but not very long. Grammar 2: dass, weil, wenn and ob with the verb at the end, könnte; 'frage wegen Topf' without an article. Vocabulary 2: fitting phrases for planning; some gaps ('etwas Einfaches' is well used)."
               },
               {
-                "response": "Hallo Jonas! Ja, wir müssen unbedingt etwas für Frau Berger machen, sie ist so nett.\nEin Restaurant ist eine Idee, aber ich finde es zu teuer für zwölf Personen. Ich würde lieber im Büro feiern.\nAh, der Besprechungsraum ist frei ab drei? Super, dann um drei.\nIch kann nicht so gut backen, deshalb … kannst du das Kuchen machen? Ich kaufe Saft und Wasser am Freitagmorgen.\nZum Geschenk: Ein Buch über Reisen wäre schön, weil sie viel reist. Wer kauft das? Ich kann am Mittwoch in die Buchhandlung gehen.\nOkay, also: du Kuchen, ich Getränke und Buch, und wir sammeln morgen das Geld.",
+                "response": "Hallo Tarek! Ja, wir müssen unbedingt etwas für Mia machen, sie kennt hier noch niemanden.\nEin Essen am Samstagabend ist schön. Ich würde lieber im Wohnzimmer essen, denn in der Küche haben nicht alle Platz.\nUm sieben? Super, dann habe ich nachmittags noch Zeit zum Putzen.\nIch kann nicht so gut kochen, deshalb … machst du die Suppe? Ich kaufe die Saft und das Brot am Samstagmorgen.\nUnd ein Topf? Wir haben nur einen kleinen. Ich gehe zur Nachbarin im ersten Stock.\nOkay, also: du Suppe, ich Saft, Brot und Topf, und wir sammeln morgen das Geld.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: all points agreed, tasks divided, summed up. Interaction 2: own suggestions and reasons, a clarifying question, reacts to the partner's facts; some hesitation. Grammar 2: würde lieber, wäre, weil and deshalb correct; 'der Besprechungsraum ist frei ab drei' order is colloquial; 'das Kuchen'. Vocabulary 2: adequate (unbedingt, Buchhandlung, sammeln); the summary uses fragments."
+                "rationale": "Task completion 3: all points agreed, tasks divided, summed up. Interaction 2: own suggestions and reasons, a clarifying question, reacts to the partner's facts; some hesitation. Grammar 2: würde lieber, deshalb and denn correct; 'die Saft'; 'Und ein Topf?' is a fragment. Vocabulary 2: adequate (unbedingt, nachmittags, sammeln); the summary uses fragments."
               },
               {
-                "response": "Ja, das finde ich auch. Was machen wir?\nIm Restaurant am Abend … das ist schwierig für mich, ich arbeite am Abend in einem Café. Können wir es im Büro machen?\nOkay, um drei im Besprechungsraum. Ist gut.\nEssen: Du backst einen Kuchen? Sehr gut. Getränke … du hast keine Zeit am Donnerstag, dann kaufe ich die Getränke.\nGeschenk … vielleicht etwas für den Garten? Eine Pflanze? Oder ein Buch.\nJa, Buch über Reisen ist besser, wenn sie so gern reist. Und jeder bezahlt fünf Euro, gut.\nWer kauft das Buch? Ich kann, kein Problem.",
+                "response": "Ja, das finde ich auch. Was kochen wir?\nAm Samstag um sieben im Wohnzimmer, das ist gut. In der Küche ist es zu eng für fünf Personen.\nMia isst kein Fleisch? Dann kochen wir etwas mit Gemüse. Du kannst eine Suppe machen, oder?\nDer Topf ist ein Problem, oder? Ich kann die Nachbarin fragen, wenn du keine Zeit hast.\nGeld: Zehn Euro für jeden, gut. Und ich putze das Bad.\nWer kauft das Brot? Ich kann, kein Problem.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 2: every point is decided, but mostly by accepting the partner's ideas, and there is no final summary. Interaction 2: reacts with reasons ('ich arbeite am Abend'), asks questions and takes on tasks; pauses for planning. Grammar 2: mostly correct main clauses, a wenn-clause; few B1.2 structures; 'Buch über Reisen' without article. Vocabulary 2: enough for the task, with paraphrase ('etwas für den Garten')."
+                "rationale": "Task completion 2: every point is decided, but mostly by accepting the partner's ideas, and there is no final summary. Interaction 2: reacts with reasons ('zu eng für fünf Personen'), asks questions and takes on tasks; pauses for planning. Grammar 2: mostly correct main clauses, a wenn-clause; few B1.2 structures; 'Ich kann, kein Problem' drops the verb. Vocabulary 2: enough for the task, with paraphrase ('etwas mit Gemüse')."
               }
             ]
           },
@@ -16415,34 +16689,34 @@
             "band": 3,
             "samples": [
               {
-                "response": "Ja, unbedingt! Frau Berger hat so vielen von uns geholfen, da sollten wir uns richtig verabschieden.\nEin Restaurant wäre natürlich schön, aber ich fürchte, dass am Freitagabend nur wenige Zeit haben. Was hältst du davon, wenn wir direkt nach der Arbeit im Besprechungsraum feiern? Dann könnten alle kommen.\nAb drei Uhr, das passt gut. Wenn du den Kuchen backst, kümmere ich mich um die Getränke. Alkohol brauchen wir ja nicht zu kaufen, sie trinkt keinen.\nBeim Geschenk würde ich etwas Persönliches nehmen. Sie reist doch so gern – wie wäre es mit einem schönen Reiseführer? Wenn jeder fünf Euro gibt, haben wir sechzig Euro, das reicht sogar noch für Blumen.\nGut, dann fassen wir zusammen: Freitag um drei im Besprechungsraum, du backst, ich besorge Getränke, Buch und Blumen und sammle bis Mittwoch das Geld ein.",
+                "response": "Ja, unbedingt! Mia kennt hier noch niemanden, da sollten wir sie richtig willkommen heißen.\nSamstagabend wäre ideal, denn am Morgen zieht sie erst ein und braucht Ruhe. Wie findest du es, wenn wir um sieben im Wohnzimmer essen? Die Küche ist leider zu klein, sodass wir dort nicht alle sitzen könnten.\nDa Mia kein Fleisch isst, schlage ich eine Gemüsesuppe vor. Wenn du kochst, kümmere ich mich um Brot und Getränke. Du brauchst auch nicht zu putzen, das übernehme ich.\nEin großer Topf fehlt uns noch. Ich könnte die Nachbarin im ersten Stock bitten, uns einen zu leihen.\nWenn jeder von uns zehn Euro gibt, reicht das sicher, sogar für einen Nachtisch.\nGut, dann fassen wir zusammen: Samstag um sieben im Wohnzimmer, du kochst und kaufst am Freitag ein, ich putze, leihe den Topf und besorge Brot und Getränke.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: every point agreed with reasons, details (sixty euros, deadline for the money) and a full summary. Interaction 3: takes the initiative, weighs the restaurant politely, links own turns to the partner's offers, long connected turns. Grammar 3: Konjunktiv II, dass, wenn, nicht brauchen zu all correct. Vocabulary 3: idiomatic (sich verabschieden, Was hältst du davon, Reiseführer, besorgen, einsammeln)."
+                "rationale": "Task completion 3: every point agreed with reasons, details (the pot, a dessert) and a full summary. Interaction 3: takes the initiative, weighs the kitchen politely, links own turns to the partner's offers, long connected turns. Grammar 3: Konjunktiv II, sodass, wenn and nicht brauchen zu all correct. Vocabulary 3: idiomatic (willkommen heißen, vorschlagen, leihen, besorgen, Nachtisch)."
               },
               {
-                "response": "Hallo Jonas, ja, ich habe auch schon daran gedacht.\nRestaurant – hm. Das wäre zwar gemütlich, aber für viele zu teuer, und manche haben Kinder und müssen früh nach Hause. Ich würde vorschlagen, dass wir im Besprechungsraum feiern, sobald er frei ist.\nUm drei, super. Kuchen von dir klingt toll! Ich kann am Donnerstag nach der Uni die Getränke kaufen, also Saft, Wasser und vielleicht Kaffee, da sie keinen Alkohol trinkt.\nFür das Geschenk hätte ich zwei Ideen: eine Pflanze für ihren Balkon oder ein Buch über Reisen. Was meinst du? … Okay, dann das Buch. Ich schicke heute eine Nachricht an alle, damit jeder fünf Euro mitbringt.\nAlso: du backst, ich kümmere mich um Getränke, Geschenk und Geld. Und wer hält eine kleine Rede? Vielleicht du, du kennst sie länger.",
+                "response": "Hallo Tarek, ja, daran habe ich auch schon gedacht.\nIm Wohnzimmer wäre es gemütlicher als in der Küche, die ist für fünf Personen wirklich zu eng. Ich würde vorschlagen, dass wir am Samstag um sieben anfangen, sobald Mia ausgepackt hat.\nSuppe klingt toll! Ich kann am Samstagnachmittag das Bad und die Küche putzen, falls du am Freitag einkaufst.\nFür den Topf hätte ich eine Idee: Die Nachbarin im ersten Stock hat bestimmt einen. Was meinst du? … Okay, dann frage ich sie heute Abend. Ich schicke außerdem den Nachbarn eine Nachricht, damit sie pünktlich kommen.\nAlso: du kochst und kaufst ein, ich putze und kümmere mich um den Topf. Und wer sagt ein paar Worte zur Begrüßung? Vielleicht du, du kennst Mia schon länger.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: all points settled, tasks divided, summary, and even a new idea (a speech). Interaction 3: offers alternatives, asks the partner's view and acts on it, fluent with only short pauses. Grammar 3: zwar … aber, dass, sobald, damit, hätte and würde vorschlagen used correctly. Vocabulary 3: varied and precise (gemütlich, eine Rede halten, mitbringen)."
+                "rationale": "Task completion 3: all points settled, tasks divided, summary, and even a new idea (a few words of welcome). Interaction 3: offers alternatives, asks the partner's view and acts on it, fluent with only short pauses. Grammar 3: dass, sobald, falls, damit, hätte and würde vorschlagen used correctly. Vocabulary 3: varied and precise (gemütlich, auspacken, außerdem, Begrüßung)."
               },
               {
-                "response": "Stimmt, das sollten wir machen. Hast du schon eine Idee?\nEin Restaurant am Abend ist eine schöne Idee, aber ich glaube, es wäre einfacher im Büro. Dann müsste niemand am Abend extra kommen, und es kostet nichts.\nDie Kantine schließt um zwei, oder? Dann nehmen wir den Besprechungsraum um drei Uhr.\nDu backst einen Kuchen? Das ist super. Und weil du am Donnerstag keine Zeit hast, kaufe ich die Getränke, ohne Alkohol natürlich.\nWas das Geschenk betrifft: Je persönlicher, desto besser, finde ich. Sie liest gern Bücher über Reisen, also schenken wir ihr eins. Fünf Euro pro Person ist fair.\nGut, ich fasse zusammen: Freitag, fünfzehn Uhr, Besprechungsraum. Du bringst den Kuchen mit, ich kaufe die Getränke und das Buch, und das Geld sammle ich morgen ein.",
+                "response": "Stimmt, das sollten wir machen. Hast du schon eine Idee?\nWir könnten auch Pizza bestellen, aber selbst kochen ist persönlicher, und es kostet weniger.\nDie Küche ist zu klein, oder? Dann nehmen wir das Wohnzimmer. Samstag, sieben Uhr.\nDu kochst eine Suppe? Das ist super. Und weil du am Freitag erst nach sechs einkaufen kannst, putze ich schon am Nachmittag das Bad.\nWas den Topf betrifft: Ich frage die Nachbarin. Je größer der Topf, desto besser, weil wir viele sind. Zehn Euro pro Person sind fair.\nGut, ich fasse zusammen: Samstag, neunzehn Uhr, Wohnzimmer. Du kochst die Suppe, ich bringe Brot mit, und das Geld sammle ich morgen ein.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: all points agreed with reasons and a clear summary. Interaction 3: asks, weighs, builds on the partner's facts and leads to the result. Grammar 3: Konjunktiv II, weil, je … desto, word order after 'Was das Geschenk betrifft' all correct. Vocabulary 2: appropriate and correct, but less varied than the other band-3 samples (machen, kaufen, kommen recur)."
+                "rationale": "Task completion 3: all points agreed with reasons and a clear summary. Interaction 3: asks, weighs, builds on the partner's facts and leads to the result. Grammar 3: Konjunktiv II, weil, je … desto, word order after 'Was den Topf betrifft' all correct. Vocabulary 2: appropriate and correct, but less varied than the other band-3 samples (kochen, kaufen, machen recur)."
               }
             ]
           }
@@ -16603,44 +16877,44 @@
         "id": "sprechen-feedback-fragen",
         "skill": "speaking",
         "format": "Über eine Präsentation sprechen: auf Feedback und Fragen reagieren",
-        "instructions": "Nach Ihrer Präsentation gibt Ihnen eine Kursteilnehmerin, Mira, ein Feedback und stellt Ihnen Fragen. Reagieren Sie auf das Feedback und beantworten Sie die Fragen. Wenn Sie etwas nicht verstehen, fragen Sie nach. Wenn Sie etwas nicht wissen, sagen Sie das.",
+        "instructions": "Nach Ihrer Präsentation gibt Ihnen ein Kursteilnehmer, Kaan, ein Feedback und stellt Ihnen Fragen. Reagieren Sie auf das Feedback und beantworten Sie die Fragen. Wenn Sie etwas nicht verstehen, fragen Sie nach. Wenn Sie etwas nicht wissen, sagen Sie das.",
         "minutes": 3,
         "points": 8,
-        "talkScenario": "ts-b12-fragen-zur-praesentation",
+        "talkScenario": "ts-b12-gate-rueckfragen-kaan",
         "rubricId": "speaking",
         "anchors": [
           {
             "band": 0,
             "samples": [
               {
-                "response": "Danke.\nJa.\nÄh … Fußgängerzone … I don't know how to explain.\nSorry, what?\nIch weiß nicht.",
+                "response": "Danke.\nJa. Leise … sorry.\nÄh … Vorteil … I don't know how to say.\nSorry, what?\nIch weiß nicht.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary": 0
                 },
-                "rationale": "Task completion 0: no reaction to the feedback, no explanation, no answer to the counter-argument. Interaction 0: single words and English. Grammar 0: no sentence of its own. Vocabulary 0: cannot explain a word from the own talk."
+                "rationale": "Task completion 0: no reaction to the feedback, no explanation of the point, no answer to the counter-argument. Interaction 0: single words and English. Grammar 0: no sentence of its own. Vocabulary 0: cannot explain a point from the own talk."
               },
               {
-                "response": "Danke, danke.\nFußgängerzone ist … Straße … no cars. Nur Leute.\nJa, Kinder, Auto … ich weiß nicht. Vielleicht.\nIn Kolumbien? Viele Autos. Sehr viele.\nZahl? Nein, ich weiß nicht.",
+                "response": "Danke, danke.\nVorteile … Luft gut. Nachteil … Auto, no Auto, Leute nicht kommen.\nGeschäfte? Ja, vielleicht. Ich weiß nicht.\nIn Mexiko? Viele Busse. Sehr viele.\nZahl? Nein, ich weiß nicht.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 0: the word is only hinted at and the number question is answered honestly, but the feedback and the counter-argument get no real reaction. Interaction 0: fragments with long pauses, an English phrase. Grammar 0: no complete sentences. Vocabulary 1: a few relevant words (Straße, Leute, Autos)."
+                "rationale": "Task completion 0: the key points are only hinted at and the number question is answered honestly, but the feedback and the counter-argument get no real reaction. Interaction 0: fragments with long pauses, an English phrase. Grammar 0: no complete sentences. Vocabulary 1: a few relevant words (Luft, Geschäfte, Busse)."
               },
               {
-                "response": "Thank you. Ja, ich war nervös.\nFußgängerzone? Es ist … wie sagt man … pedestrian.\nNo, no, ich denke Auto ist nicht gut.\nWeil … Luft.\nOkay.",
+                "response": "Thank you. Ja, ich war nervös.\nVorteil … es ist … cleaner, sauber? Luft.\nNo, no, ich denke Geschäfte ist okay.\nWeil … Leute gehen.\nOkay.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 1,
                   "grammar": 0,
                   "vocabulary": 0
                 },
-                "rationale": "Task completion 0: reacts to the feedback in one phrase, explains the key word only in English and gives no real answer. Interaction 1: does react to each turn, but very briefly and partly in English. Grammar 0: one correct sentence, otherwise fragments. Vocabulary 0: has no German words for the explanation."
+                "rationale": "Task completion 0: reacts to the feedback in one phrase, explains the key point only with an English word and gives no real answer. Interaction 1: does react to each turn, but very briefly and partly in English. Grammar 0: one correct sentence, otherwise fragments. Vocabulary 0: has no German words for the explanation."
               }
             ]
           },
@@ -16648,34 +16922,34 @@
             "band": 1,
             "samples": [
               {
-                "response": "Danke! Ja, am Anfang ich war nervös.\nFußgängerzone ist eine Straße für Fußgänger. Keine Autos.\nJa, für Familie mit Kinder ist Auto praktisch. Aber die Luft ist schlecht mit viele Autos.\nEntschuldigung, noch einmal bitte?\nAh, in meine Stadt. Am Sonntag ist eine große Straße ohne Autos. Alle fahren Fahrrad.\nWie viele Autos? Das weiß ich nicht.",
+                "response": "Danke! Ja, am Anfang ich habe leise gesprochen.\nEin Vorteil ist: Die Luft ist besser. Ein Nachteil ist: Autos sind weg, und die Leute können nicht fahren.\nJa, für Geschäfte ist das schwierig. Aber Leute können mit Bus kommen.\nEntschuldigung, noch einmal bitte?\nAh, ältere Leute. Ich denke, für alte Mensch gibt es kleine Busse. In meine Stadt es gibt das.\nWie viele Menschen? Das weiß ich nicht.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 2: reacts to the feedback, explains the word, answers the counter-argument and the questions, all very briefly. Interaction 1: answers but never develops a point; one request for repetition. Grammar 1: 'am Anfang ich war', 'mit Kinder', 'mit viele Autos', 'in meine Stadt'. Vocabulary 1: basic words; the explanation of Fußgängerzone just repeats the word."
+                "rationale": "Task completion 2: reacts to the feedback, explains advantage and disadvantage, answers the counter-argument and the questions, all very briefly. Interaction 1: answers but never develops a point; one request for repetition. Grammar 1: 'am Anfang ich habe', 'alte Mensch', 'In meine Stadt es gibt'. Vocabulary 1: basic words; 'Autos sind weg' is a simple way to say 'verboten'."
               },
               {
-                "response": "Oh, danke für dein Feedback. Ja, ich spreche schnell, wenn ich bin nervös.\nEine Fußgängerzone … das ist, wo die Leute gehen und Autos dürfen nicht fahren.\nDu sagst, Familien brauchen Auto. Ja, das stimmt. Aber in Deutschland die Busse sind gut.\nZahl von Autos in Bogotá? Hm … ich glaube, sehr viel. Zwei Millionen? Ich bin nicht sicher.",
+                "response": "Oh, danke für dein Feedback. Ja, ich schaue viel auf Zettel, wenn ich bin nervös.\nVorteile und Nachteile … das ist, was gut ist und was nicht gut ist. Weniger Autos ist gut für Luft, aber manche Leute brauchen Auto.\nDu sagst, Geschäfte verlieren Kunden. Ja, das kann sein. Aber in Spanien die Geschäfte sind auch in Fußgängerzone.\nZahl von Leute in Madrid? Hm … ich glaube, sehr viel. Drei Millionen? Ich bin nicht sicher.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 2,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 1: reacts and explains, but invents an uncertain number instead of saying clearly that it is not known, and the counter-argument is answered in one sentence. Interaction 2: takes up the partner's words ('Du sagst …') and keeps going. Grammar 1: verb position wrong in wenn-clause, relative 'wo … dürfen nicht fahren', and after 'in Deutschland'. Vocabulary 1: simple words, 'Zahl von Autos'."
+                "rationale": "Task completion 1: reacts and explains, but invents an uncertain number instead of saying clearly that it is not known, and the counter-argument is answered in one sentence. Interaction 2: takes up the partner's words ('Du sagst …') and keeps going. Grammar 1: verb position wrong in the wenn-clause and after 'in Spanien', missing articles. Vocabulary 1: simple words, 'Zahl von Leute'."
               },
               {
-                "response": "Danke. Ja, das stimmt, ich habe schnell gesprochen.\nFußgängerzone … das ist eine Zone, wo nur … Fußgänger … äh … ja.\nSorry, kannst du langsamer sprechen?\nAh, Kinder. Ja, mit Kinder braucht man Auto, ich weiß. Aber nicht in die Innenstadt, finde ich.\nIn Kolumbien es gibt Ciclovía, das ist am Sonntag, keine Autos.\nDie Zahl weiß ich nicht, sorry.",
+                "response": "Danke. Ja, das stimmt, ich habe oft auf mein Zettel geschaut.\nVorteile … das ist, wo … äh … was gut ist für die Stadt, und Nachteile, was schlecht ist. Ja.\nSorry, kannst du langsamer sprechen?\nAh, alte Leute. Ja, sie können nicht weit gehen, ich weiß. Aber nicht in die Innenstadt, finde ich.\nIn Indien es gibt Rikschas, das sind kleine Taxis.\nDie Zahl weiß ich nicht, sorry.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 1: all prompts are touched, but the explanation of the key word fails and the example from home is only named. Interaction 1: asks for slower speech, but long searches and 'sorry' interrupt the flow. Grammar 1: 'mit Kinder', 'in die Innenstadt' for location, 'In Kolumbien es gibt'. Vocabulary 2: Innenstadt, Fußgänger and the polite reactions are there."
+                "rationale": "Task completion 1: all prompts are touched, but the explanation of the key point stays vague and the example from home is only named. Interaction 1: asks for slower speech, but long searches and 'sorry' interrupt the flow. Grammar 1: 'auf mein Zettel', 'in die Innenstadt' for location, 'In Indien es gibt'. Vocabulary 2: Innenstadt, Rikschas and the polite reactions are there."
               }
             ]
           },
@@ -16683,34 +16957,34 @@
             "band": 2,
             "samples": [
               {
-                "response": "Danke für das Feedback! Das stimmt, am Anfang war ich ein bisschen nervös. Nächstes Mal spreche ich langsamer.\nEine Fußgängerzone ist eine Straße, wo keine Autos fahren dürfen. Dort gibt es nur Menschen zu Fuß, und oft viele Geschäfte.\nDu hast recht, Familien mit kleinen Kindern brauchen manchmal ein Auto. Aber ich denke, wenn die Busse besser wären, würden viele Leute das Auto nicht brauchen.\nIn meiner Stadt in Kolumbien werden am Sonntag große Straßen gesperrt. Dann fahren alle mit dem Rad, auch Familien.\nWie viele Autos es in Bogotá gibt, weiß ich leider nicht genau. Ich kann es nachschauen.",
+                "response": "Danke für die Rückmeldung! Ja, am Anfang war ich wirklich zu leise. Nächstes Mal schaue ich weniger auf den Zettel.\nEin Vorteil ist, dass die Luft in der Stadt besser wird. Ein Nachteil ist, dass manche Leute ihr Ziel dann nur schwer erreichen.\nDu hast recht, wenn weniger Kunden kämen, hätten die Geschäfte ein Problem. Aber ich denke, wenn es mehr Busse gäbe, würden viele trotzdem in die Stadt fahren.\nIn meiner Stadt in Peru gibt es eine Straße, wo samstags keine Autos fahren dürfen. Dort sind die Geschäfte voll.\nWie viele Menschen in Lima täglich mit dem Bus fahren, kann ich leider nicht sagen. Ich kann es nachschauen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: reacts to the feedback, explains the word clearly, answers the counter-argument with a condition, gives an example and says honestly what is not known. Interaction 2: reacts to every point and repairs smoothly; the turns are adequate but do not lead the conversation. Grammar 2: relative clause, Konjunktiv II condition, passive and an indirect question correct; overall correct but cautious. Vocabulary 2: fitting words (gesperrt, nachschauen)."
+                "rationale": "Task completion 3: reacts to the feedback, explains both sides, answers the counter-argument with a condition, gives an example and says honestly what is not known. Interaction 2: reacts to every point and repairs smoothly; the turns are adequate but do not lead the conversation. Grammar 2: dass-clauses, Konjunktiv II conditions and an indirect question correct; overall correct but cautious. Vocabulary 2: fitting words (erreichen, nachschauen)."
               },
               {
-                "response": "Danke, das ist nett. Ja, am Anfang war ich zu schnell, weil ich so nervös war.\nFußgängerzone – das ist ein Teil von der Stadt, wo man nur zu Fuß gehen darf. Zum Beispiel die Hohe Straße in Köln.\nEntschuldigung, kannst du die Frage bitte wiederholen? … Ah, okay. Ja, das ist ein guter Punkt. Aber man könnte für Familien Ausnahmen machen. Oder Carsharing.\nIn Kolumbien gibt es das am Sonntag, die Ciclovía. Dann sind die Straßen ohne Autos, das ist sehr schön.\nDie Zahl? Das weiß ich leider nicht.",
+                "response": "Danke, das ist nett. Ja, ich habe leise gesprochen, weil ich so nervös war.\nDie Vorteile und die Nachteile, das sind zwei Seiten. Gut ist, dass es weniger Lärm gibt. Schlecht ist, dass für Lieferungen und für Handwerker die Straße zu ist.\nEntschuldigung, kannst du die Frage bitte wiederholen? … Ah, okay. Ja, das ist ein guter Punkt. Aber man könnte für ältere Menschen Ausnahmen machen. Oder einen kleinen Bus.\nIn Mexiko gibt es das am Sonntag, die Straßen sind dann nur für Fahrräder. Das ist sehr schön.\nDie Zahl? Die kenne ich leider nicht.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: every prompt is handled, including an example to explain the key word and an alternative for families. Interaction 2: asks for repetition and acknowledges the point before answering; some short answers. Grammar 2: weil-, wo- and könnte-sentences correct; 'ein Teil von der Stadt' is colloquial; 'Oder Carsharing' is a fragment. Vocabulary 2: Ausnahmen and Carsharing are good; otherwise simple."
+                "rationale": "Task completion 3: every prompt is handled, including an example and an alternative for older people. Interaction 2: asks for repetition and acknowledges the point before answering; some short answers. Grammar 2: weil-, dass- and könnte-sentences correct; 'die Straße zu ist' is colloquial; 'Oder einen kleinen Bus' is a fragment. Vocabulary 2: Ausnahmen and Lärm are good; otherwise simple."
               },
               {
-                "response": "Danke für dein Feedback. Ja, ich habe am Anfang schnell gesprochen, das weiß ich.\nEine Fußgängerzone ist eine Straße, wo die Autos verboten sind. Man kann dort einkaufen und spazieren gehen.\nHmm, Familien. Ich verstehe dein Argument, aber ich glaube, dass Familien auch mit dem Bus fahren können, wenn der Bus oft kommt.\nIn Kolumbien wir haben am Sonntag die Ciclovía. Viele Straßen sind dann zu für die Autos.\nWie viele Autos? Ich weiß es nicht, tut mir leid.",
+                "response": "Danke für dein Feedback. Ja, ich habe am Anfang leise gesprochen, das weiß ich.\nEin Vorteil ist: Es gibt weniger Abgase. Ein Nachteil ist: Man kann nicht mit dem Auto in die Stadt fahren.\nHmm, die Geschäfte. Ich verstehe dein Argument, aber ich glaube, dass die Leute auch mit dem Bus einkaufen gehen können, wenn der Bus oft kommt.\nIn Spanien wir haben in vielen Städten eine Fußgängerzone. Dort sind viele Cafés und Leute.\nWie viele Menschen mit dem Bus fahren? Ich weiß es nicht, tut mir leid.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 2: all prompts are answered, but the answers stay short and the counter-argument is answered with only one idea. Interaction 2: acknowledges Mira's point ('Ich verstehe dein Argument') and continues in German. Grammar 2: dass and wenn correct; 'In Kolumbien wir haben'. Vocabulary 2: adequate; 'zu für die Autos' for 'gesperrt'."
+                "rationale": "Task completion 2: all prompts are answered, but the answers stay short and the counter-argument is answered with only one idea. Interaction 2: acknowledges Kaan's point ('Ich verstehe dein Argument') and continues in German. Grammar 2: dass and wenn correct; 'In Spanien wir haben'. Vocabulary 2: adequate; Abgase is good, the rest is simple."
               }
             ]
           },
@@ -16718,34 +16992,34 @@
             "band": 3,
             "samples": [
               {
-                "response": "Vielen Dank, das freut mich! Und du hast recht, am Anfang war ich ziemlich nervös, deshalb habe ich zu schnell gesprochen. Das muss ich noch üben.\nMit Fußgängerzone meine ich einen Bereich in der Innenstadt, in dem keine Autos fahren dürfen. Dort gibt es meistens Geschäfte und Cafés, und man kann in Ruhe spazieren gehen.\nDas ist ein wichtiger Punkt. Ich glaube auch nicht, dass man Familien das Auto ganz wegnehmen sollte. Aber wenn Busse und Bahnen öfter fahren würden, müssten viele gar nicht mehr mit dem Auto in die Stadt. Und für Lieferungen oder für Menschen, die schlecht laufen können, könnte es Ausnahmen geben.\nIn Bogotá werden jeden Sonntag über hundert Kilometer Straßen für Autos gesperrt. Das zeigt, dass es funktionieren kann.\nWie viele Autos es insgesamt gibt, weiß ich ehrlich gesagt nicht. Ich schaue es aber gern nach und schreibe es dir.",
+                "response": "Vielen Dank für die Rückmeldung, das hilft mir. Du hast recht, ich habe am Anfang zu leise gesprochen und zu oft auf meinen Zettel geschaut. Das muss ich noch üben.\nIch erkläre es gern noch einmal einfacher: Ein Vorteil ist, dass die Luft sauberer wird und die Straßen ruhiger sind. Ein Nachteil ist, dass manche Menschen, die ein Auto wirklich brauchen, nicht mehr in die Stadt kommen können.\nDas ist ein wichtiger Punkt. Ich möchte auch nicht, dass die Geschäfte darunter leiden. Aber wenn Busse und Bahnen öfter fahren würden, kämen viele Kunden auch ohne Auto. Und für ältere Menschen wären Haltestellen direkt vor den Geschäften möglich, sodass niemand weit laufen muss.\nIn Mexiko-Stadt werden an manchen Sonntagen große Straßen für Autos gesperrt. Dann gehen viele Familien spazieren und kaufen dabei ein.\nWie viele Menschen jeden Tag mit Bus oder Metro fahren, weiß ich ehrlich gesagt nicht. Ich schaue es aber gern nach und schreibe dir.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: thanks and accepts the feedback, explains the key word precisely, answers the counter-argument with several ideas, gives a concrete example and handles the unknown number honestly. Interaction 3: builds on each of Mira's turns, long connected answers. Grammar 3: relative clauses, Konjunktiv II, passive, indirect question all correct. Vocabulary 3: precise and varied (Bereich, in Ruhe, Ausnahmen, insgesamt, nachschauen)."
+                "rationale": "Task completion 3: thanks and accepts the feedback, restates the point more simply, answers the counter-argument with several ideas, gives a concrete example and handles the unknown number honestly. Interaction 3: builds on each of Kaan's turns, long connected answers. Grammar 3: relative clauses, Konjunktiv II, sodass, passive and indirect question all correct. Vocabulary 3: precise and varied (sauberer, leiden, Haltestellen, nachschauen)."
               },
               {
-                "response": "Danke schön, das ist ein hilfreiches Feedback. Beim nächsten Mal mache ich vor der ersten Folie eine kurze Pause und atme durch.\nEine Fußgängerzone ist eine Zone, in der man nur zu Fuß gehen darf. Autos dürfen dort nicht fahren, höchstens morgens die Lieferwagen.\nIch verstehe, was du meinst. Wenn man zwei kleine Kinder hat und spät arbeitet, ist es ohne Auto wirklich schwer. Trotzdem denke ich, dass die meisten Wege in der Stadt kurz sind. Man könnte zum Beispiel Parkplätze am Stadtrand bauen, sodass Familien von dort mit der Bahn weiterfahren.\nIn meiner Heimat gibt es so etwas schon: Am Sonntag gehört die Straße den Radfahrern.\nDie genaue Zahl kenne ich leider nicht. Aber das ist eine gute Frage, die nehme ich für die nächste Präsentation mit.",
+                "response": "Danke schön, das ist eine hilfreiche Rückmeldung. Beim nächsten Mal übe ich den Anfang laut, damit ich nicht so leise bin.\nKurz gesagt: Ohne Autos ist die Stadt ruhiger und gesünder, aber man kommt schwerer mit großen Einkäufen nach Hause. Das ist der Nachteil.\nIch verstehe, was du meinst. Wenn man in einem Laden arbeitet, sieht man jeden Tag, wie wichtig die Kunden sind. Trotzdem denke ich, dass viele Menschen lieber in einer ruhigen Straße einkaufen. Die Geschäfte könnten zum Beispiel einen Lieferservice anbieten, sodass die schweren Sachen nach Hause gebracht werden.\nIn meiner Heimat gibt es so etwas schon: Am Wochenende gehört das Zentrum den Fußgängern.\nDie genaue Zahl kenne ich leider nicht. Das wäre aber eine gute Ergänzung für meinen Vortrag, ich suche sie später heraus.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: every prompt is handled with detail and a constructive proposal. Interaction 3: shows understanding of Mira's view before disagreeing, natural and fluent. Grammar 3: relative clauses, wenn, trotzdem, dass, sodass and könnte correct. Vocabulary 3: idiomatic (durchatmen, höchstens, Stadtrand, mitnehmen)."
+                "rationale": "Task completion 3: every prompt handled with detail and a constructive proposal. Interaction 3: shows understanding of Kaan's view before disagreeing, natural and fluent. Grammar 3: damit, wenn, trotzdem, dass, sodass and a passive correct. Vocabulary 3: idiomatic (kurz gesagt, Lieferservice, schwere Einkäufe, heraussuchen)."
               },
               {
-                "response": "Danke, Mira. Ja, das habe ich auch gemerkt: Je nervöser ich bin, desto schneller spreche ich.\nEine Fußgängerzone ist eine Straße oder ein Platz nur für Fußgänger. Autos sind dort verboten.\nDa hast du teilweise recht. Für Familien ist das Auto oft bequemer. Aber in meiner Erfahrung fahren in Deutschland viele Familien mit dem Lastenrad, und das funktioniert gut, solange die Wege nicht zu lang sind.\nIn Bogotá werden sonntags viele große Straßen für Autos gesperrt, und dann sind dort Tausende Menschen mit dem Fahrrad unterwegs.\nDie Zahl weiß ich leider nicht genau, da müsste ich nachschauen.",
+                "response": "Danke, Kaan. Ja, das habe ich gemerkt: Je mehr ich auf den Zettel schaue, desto leiser spreche ich.\nZu Vorteilen und Nachteilen: Weniger Autos bedeuten weniger Lärm und bessere Luft. Dafür ist es für manche Leute schwieriger, die Stadt zu erreichen.\nDa hast du teilweise recht. Für Geschäfte ist es am Anfang oft schwer. Aber in vielen Städten kommen sogar mehr Kunden, solange die Geschäfte gut mit Bus und Bahn zu erreichen sind.\nIn Lima gibt es neben dem Hauptplatz eine Straße nur für Fußgänger, und dort sind die Geschäfte immer voll.\nWie viele Menschen es genau sind, kann ich nicht sagen, dafür müsste ich in der Statistik nachsehen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: every prompt handled, with a personal observation and an example. Interaction 3: confident, links to Mira's words, keeps the exchange going. Grammar 3: je … desto, solange, passive and müsste correct. Vocabulary 2: mostly fitting; 'in meiner Erfahrung' is an English calque ('nach meiner Erfahrung'), otherwise correct but less varied."
+                "rationale": "Task completion 3: every prompt handled, with a personal observation and an example. Interaction 3: confident, links to Kaan's words, keeps the exchange going. Grammar 3: je … desto, solange, a zu-infinitive and müsste correct. Vocabulary 2: mostly fitting; 'Lärm' and 'bessere Luft' are simple and the range is narrower than in the other band-3 samples."
               }
             ]
           }
