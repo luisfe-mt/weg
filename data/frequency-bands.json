@@ -1,6 +1,13 @@
 {
-  "description": "Frequency floor per sublevel, checked by scripts/check-coverage.mjs. By the end of a sublevel, the vocabulary taught so far must hold at least minShare of the topRank most frequent lemmas of data/lemma/de-frequency.tsv. The rest of a band is theme words. minTextCoverage is the north star's 95% rule applied to the German text of the spec itself.",
+  "description": "Frequency floor per sublevel, checked by scripts/check-coverage.mjs. By the end of a sublevel, the vocabulary taught so far must hold at least minShare of the topRank most frequent lemmas of data/lemma/de-frequency.tsv. The rest of a band is theme words. minShareBySublevel overrides minShare for one sublevel: the B2 and C1 floors are 70% on purpose, because the path is expected to grow toward about rank 8000 by C1.2 in a later step, so these floors are a minimum, not the target. minTextCoverage is the north star's 95% rule applied to the German text of the spec itself.",
   "minShare": 0.8,
+  "minShareBySublevel": {
+    "B2.1": 0.7,
+    "B2.2": 0.7,
+    "B2.3": 0.7,
+    "C1.1": 0.7,
+    "C1.2": 0.7
+  },
   "minTextCoverage": 0.95,
   "topRank": {
     "A1.1": 200,
@@ -8,6 +15,11 @@
     "A2.1": 700,
     "A2.2": 1000,
     "B1.1": 1400,
-    "B1.2": 1800
+    "B1.2": 1800,
+    "B2.1": 2300,
+    "B2.2": 2800,
+    "B2.3": 3300,
+    "C1.1": 3800,
+    "C1.2": 4300
   }
 }

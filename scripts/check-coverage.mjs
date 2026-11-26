@@ -16,6 +16,7 @@ import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
+import { bandFloor, pluralAccepted } from "./lib/checks.mjs";
 import { candidates, coverage, loadLemmaData, rankOf, tokenize, UNRANKED } from "./lib/lemma.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -28,6 +29,7 @@ const only = args.find((a) => LEVELS.includes(a));
 
 const data = loadLemmaData();
 const bands = JSON.parse(readFileSync(path.join(root, "data", "frequency-bands.json"), "utf8"));
+const pluralVariants = JSON.parse(readFileSync(path.join(root, "data", "plural-variants.json"), "utf8"));
 const errors = [];
 const fail = (id, message) => errors.push(`curriculum/${id}.json: ${message}`);
 
@@ -91,7 +93,7 @@ for (const id of LEVELS) {
       const entry = data.lemmas.get(v.lemma);
       const articles = (entry?.genders ?? []).map((g) => ARTICLE[g]);
       if (articles.length && !articles.includes(v.article)) fail(id, `${v.id}: article ${v.article}, Wiktionary has ${articles.join("/")}`);
-      if (entry?.plurals.length && v.plural !== null && !entry.plurals.includes(v.plural)) {
+      if (entry?.plurals.length && v.plural !== null && !pluralAccepted(v.plural, v.lemma, entry, pluralVariants)) {
         fail(id, `${v.id}: plural ${v.plural}, Wiktionary has ${entry.plurals.join("/")}`);
       }
     }
@@ -119,8 +121,9 @@ for (const id of LEVELS) {
   const missing = [];
   if (top) for (const [lemma, e] of data.lemmas) if (e.rank <= top && !known.has(lemma)) missing.push(lemma);
   const bandShare = top ? 1 - missing.length / top : 1;
-  if (bandShare < bands.minShare) {
-    fail(id, `only ${(bandShare * 100).toFixed(1)}% of the top ${top} lemmas are taught by the end of ${id}; ${bands.minShare * 100}% required`);
+  const floor = bandFloor(bands, id);
+  if (bandShare < floor) {
+    fail(id, `only ${(bandShare * 100).toFixed(1)}% of the top ${top} lemmas are taught by the end of ${id}; ${Math.round(floor * 100)}% required`);
   }
 
   if (show) {

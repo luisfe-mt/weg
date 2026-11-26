@@ -85,6 +85,7 @@ Dependencies point one way: screens → engine → ports ← adapters. The engin
 - Content changes must pass `npm run validate`. A schema change updates the fixtures in `schemas/examples/` in the same PR, including an invalid fixture for each new rule.
 - A change to a prompt or to the model list re-runs the evals for that role; the scoreboard is committed with the change. **A change that puts a role below its bar is not merged**, even if every code test passes.
 - Never weaken, skip or delete a test to make a change pass. If a test is wrong, say why in the PR.
+- **Gold items never appear in curriculum content.** `gold/` is the yardstick the evals measure against, so a gold sentence, text or talk scenario is never copied into `curriculum/` as practice material, a drill, a gate task or an anchor. Gold talk scenarios are eval-only, even where a spec has a scenario on a similar topic.
 
 ## Licence allow-list
 
