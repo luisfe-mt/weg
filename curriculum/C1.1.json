@@ -502,8 +502,8 @@
         }
       ],
       "prerequisites": [
-        "g-erweitertes-partizip-1",
-        "g-erweitertes-partizip-2",
+        "g-extended-participle-present",
+        "g-extended-participle-past",
         "g-subordinate-falls-sodass-indem"
       ],
       "errorTags": [
@@ -678,7 +678,7 @@
         "g-infinitive-zu",
         "g-um-zu-damit",
         "g-participial-clauses",
-        "g-nominalstil-satz-zu-nominalgruppe"
+        "g-nominal-style-clause-to-noun-phrase"
       ],
       "errorTags": [
         "word-order",
@@ -778,8 +778,8 @@
         "es": "Pares verbo-sustantivo y sus preposiciones"
       },
       "explanation": {
-        "en": "This point builds on B2.2 (g-nominalstil-satz-zu-nominalgruppe), where you turned clauses into noun phrases; here the focus is on the pairs and the preposition each pair takes. Some nouns have a suffix: entscheiden, die Entscheidung; flexibel, die Flexibilität. Others have none and are often masculine: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Verbs with ge- often give neuter nouns: sprechen, das Gespräch. Learn the gender with the noun. The preposition of the verb often goes with the noun. Same: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Different: sich interessieren für, das Interesse an; kritisieren (no preposition), die Kritik an. The subject becomes a genitive: 'der Verzicht der Firma auf eine Erhöhung'. When the genitive could mean subject or object, use von, an or durch for one of them: 'die Kritik des Chefs an den Kollegen'. A noun cannot show tense or mood, so keep the verb if time matters.",
-        "es": "Este punto continúa B2.2 (g-nominalstil-satz-zu-nominalgruppe), donde convertías oraciones en grupos nominales; aquí el foco son los pares y la preposición de cada uno. Algunos sustantivos llevan sufijo: entscheiden, die Entscheidung; flexibel, die Flexibilität. Otros no lo llevan y suelen ser masculinos: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Los verbos con ge- dan a menudo sustantivos neutros: sprechen, das Gespräch. Aprende el género con el sustantivo. La preposición del verbo suele pasar al sustantivo. Igual: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Distinta: sich interessieren für, das Interesse an; kritisieren (sin preposición), die Kritik an. El sujeto pasa al genitivo: 'der Verzicht der Firma auf eine Erhöhung'. Cuando el genitivo podría ser sujeto o complemento, se usa von, an o durch para uno de ellos: 'die Kritik des Chefs an den Kollegen'. Un sustantivo no muestra tiempo ni modo; si el tiempo importa, conserva el verbo."
+        "en": "This point builds on B2.2 (g-nominal-style-clause-to-noun-phrase), where you turned clauses into noun phrases; here the focus is on the pairs and the preposition each pair takes. Some nouns have a suffix: entscheiden, die Entscheidung; flexibel, die Flexibilität. Others have none and are often masculine: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Verbs with ge- often give neuter nouns: sprechen, das Gespräch. Learn the gender with the noun. The preposition of the verb often goes with the noun. Same: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Different: sich interessieren für, das Interesse an; kritisieren (no preposition), die Kritik an. The subject becomes a genitive: 'der Verzicht der Firma auf eine Erhöhung'. When the genitive could mean subject or object, use von, an or durch for one of them: 'die Kritik des Chefs an den Kollegen'. A noun cannot show tense or mood, so keep the verb if time matters.",
+        "es": "Este punto continúa B2.2 (g-nominal-style-clause-to-noun-phrase), donde convertías oraciones en grupos nominales; aquí el foco son los pares y la preposición de cada uno. Algunos sustantivos llevan sufijo: entscheiden, die Entscheidung; flexibel, die Flexibilität. Otros no lo llevan y suelen ser masculinos: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Los verbos con ge- dan a menudo sustantivos neutros: sprechen, das Gespräch. Aprende el género con el sustantivo. La preposición del verbo suele pasar al sustantivo. Igual: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Distinta: sich interessieren für, das Interesse an; kritisieren (sin preposición), die Kritik an. El sujeto pasa al genitivo: 'der Verzicht der Firma auf eine Erhöhung'. Cuando el genitivo podría ser sujeto o complemento, se usa von, an o durch para uno de ellos: 'die Kritik des Chefs an den Kollegen'. Un sustantivo no muestra tiempo ni modo; si el tiempo importa, conserva el verbo."
       },
       "examples": [
         {
@@ -862,9 +862,9 @@
         }
       ],
       "prerequisites": [
-        "g-nominalstil-satz-zu-nominalgruppe",
-        "g-attribute-nach-dem-nomen",
-        "g-funktionsverbgefuege",
+        "g-nominal-style-clause-to-noun-phrase",
+        "g-attributes-after-the-noun",
+        "g-support-verb-constructions",
         "g-genitive"
       ],
       "errorTags": [
@@ -1048,8 +1048,8 @@
       ],
       "prerequisites": [
         "g-prepositions-genitive-formal",
-        "g-praepositionen-grund-einraeumung-bedingung",
-        "g-praepositionen-zeit-mittel-zweck-bezug"
+        "g-prepositions-cause-concession-condition",
+        "g-prepositions-time-means-purpose-reference"
       ],
       "errorTags": [
         "case",
@@ -2092,7 +2092,7 @@
       "prerequisites": [
         "g-subordinate-falls-sodass-indem",
         "g-connectors-consequence",
-        "g-praepositionen-zeit-mittel-zweck-bezug",
+        "g-prepositions-time-means-purpose-reference",
         "g-participial-clauses"
       ],
       "errorTags": [

@@ -273,7 +273,7 @@
   "id": "B2.3",
   "grammar": [
     {
-      "id": "g-register-sie-du-anrede-gruss",
+      "id": "g-register-address-and-greeting",
       "title": {
         "de": "Sie oder du? Anrede, Gruß und Tonfall bei der Arbeit",
         "en": "Sie or du? Salutation, closing and tone at work",
@@ -461,7 +461,7 @@
       "order": 1
     },
     {
-      "id": "g-register-schriftlich-muendlich",
+      "id": "g-register-written-spoken",
       "title": {
         "de": "Geschriebenes und gesprochenes Deutsch",
         "en": "Written and spoken German",
@@ -537,7 +537,7 @@
         }
       ],
       "prerequisites": [
-        "g-register-sie-du-anrede-gruss",
+        "g-register-address-and-greeting",
         "g-subordinate-weil",
         "g-praeteritum-regular"
       ],
@@ -649,7 +649,7 @@
       "order": 2
     },
     {
-      "id": "g-abtoenungspartikeln-doch-ja-mal",
+      "id": "g-modal-particles-doch-ja-mal",
       "title": {
         "de": "Kleine Wörter mit großer Wirkung: doch, ja, mal",
         "en": "Small words, big effect: doch, ja, mal",
@@ -725,7 +725,7 @@
         }
       ],
       "prerequisites": [
-        "g-register-schriftlich-muendlich",
+        "g-register-written-spoken",
         "g-word-order-midfield",
         "g-imperative"
       ],
@@ -835,7 +835,7 @@
       "order": 3
     },
     {
-      "id": "g-abtoenungspartikeln-eben-halt-schon-wohl-eigentlich",
+      "id": "g-modal-particles-eben-halt-schon-wohl-eigentlich",
       "title": {
         "de": "eben, halt, schon, wohl, eigentlich",
         "en": "eben, halt, schon, wohl, eigentlich",
@@ -915,7 +915,7 @@
         }
       ],
       "prerequisites": [
-        "g-abtoenungspartikeln-doch-ja-mal",
+        "g-modal-particles-doch-ja-mal",
         "g-noch-schon-nicht-mehr"
       ],
       "errorTags": [
@@ -1021,7 +1021,7 @@
       "order": 4
     },
     {
-      "id": "g-redewendungen-arbeit",
+      "id": "g-idioms-at-work",
       "title": {
         "de": "Feste Wendungen und Redewendungen im Berufsalltag",
         "en": "Fixed expressions and idioms in everyday work",
@@ -1101,7 +1101,7 @@
         }
       ],
       "prerequisites": [
-        "g-register-schriftlich-muendlich",
+        "g-register-written-spoken",
         "g-verbs-with-prepositions",
         "g-adjectives-as-nouns"
       ],
@@ -1208,7 +1208,7 @@
       "order": 5
     },
     {
-      "id": "g-wortbildung-nomen",
+      "id": "g-word-formation-nouns",
       "title": {
         "de": "Wörter bilden I: Nomen mit -ung, -heit, -keit, -schaft, -nis und Komposita",
         "en": "Word formation I: nouns with -ung, -heit, -keit, -schaft, -nis, and compounds",
@@ -1286,7 +1286,7 @@
       "prerequisites": [
         "g-plural-nouns",
         "g-adjectives-as-nouns",
-        "g-register-schriftlich-muendlich"
+        "g-register-written-spoken"
       ],
       "errorTags": [
         "gender",
@@ -1386,7 +1386,7 @@
       "order": 6
     },
     {
-      "id": "g-wortbildung-verben",
+      "id": "g-word-formation-verbs",
       "title": {
         "de": "Wörter bilden II: Verben mit be-, ent-, er-, ver-, zer- und über-",
         "en": "Word formation II: verbs with be-, ent-, er-, ver-, zer- and über-",
@@ -1464,7 +1464,7 @@
       "prerequisites": [
         "g-perfekt-separable-inseparable",
         "g-separable-verbs",
-        "g-wortbildung-nomen"
+        "g-word-formation-nouns"
       ],
       "errorTags": [
         "verb-form",
@@ -1567,7 +1567,7 @@
       "order": 7
     },
     {
-      "id": "g-wortbildung-adjektive",
+      "id": "g-word-formation-adjectives",
       "title": {
         "de": "Wörter bilden III: Adjektive mit -bar, -los, -reich, -haft, -voll und un-",
         "en": "Word formation III: adjectives with -bar, -los, -reich, -haft, -voll and un-",
@@ -1643,7 +1643,7 @@
         }
       ],
       "prerequisites": [
-        "g-wortbildung-verben",
+        "g-word-formation-verbs",
         "g-adjective-endings-system",
         "g-passive-alternatives"
       ],
@@ -1749,7 +1749,7 @@
       "order": 8
     },
     {
-      "id": "g-modalverben-subjektiv-soll-will-mag",
+      "id": "g-modal-subjective-deepened",
       "title": {
         "de": "Subjektive Modalverben vertieft: mag, worden sein und Konjunktiv I",
         "en": "Subjective modal verbs deepened: mag, worden sein and Konjunktiv I",
@@ -1935,7 +1935,7 @@
       "order": 9
     },
     {
-      "id": "g-verstaerkung-abschwaechung",
+      "id": "g-intensifiers-and-softeners",
       "title": {
         "de": "Verstärken und Abschwächen: ziemlich, durchaus, eher, etwas",
         "en": "Intensifying and hedging: ziemlich, durchaus, eher, etwas",
@@ -2017,7 +2017,7 @@
       "prerequisites": [
         "g-comparative",
         "g-adjective-endings-system",
-        "g-abtoenungspartikeln-eben-halt-schon-wohl-eigentlich"
+        "g-modal-particles-eben-halt-schon-wohl-eigentlich"
       ],
       "errorTags": [
         "lexical",
@@ -2121,7 +2121,7 @@
       "order": 10
     },
     {
-      "id": "g-fehler-kasus-nach-praepositionen",
+      "id": "g-error-review-case-after-prepositions",
       "title": {
         "de": "Fehler aufräumen I: Fälle nach Präpositionen",
         "en": "Error clean-up I: cases after prepositions",
@@ -2309,7 +2309,7 @@
       "order": 11
     },
     {
-      "id": "g-fehler-nebensatz-verbstellung",
+      "id": "g-error-review-verb-final",
       "title": {
         "de": "Fehler aufräumen II: Verbstellung in Haupt- und Nebensätzen",
         "en": "Error clean-up II: verb position in main and subordinate clauses",
@@ -2507,7 +2507,7 @@
       "order": 12
     },
     {
-      "id": "g-fehler-adjektivendung-trennbare-verben",
+      "id": "g-error-review-adjective-endings-separable-verbs",
       "title": {
         "de": "Fehler aufräumen III: Adjektivendungen und trennbare Verben",
         "en": "Error clean-up III: adjective endings and separable verbs",
@@ -2707,7 +2707,7 @@
       "order": 13
     },
     {
-      "id": "g-fehler-text-ueberarbeiten",
+      "id": "g-error-review-revising-texts",
       "title": {
         "de": "Fehler aufräumen IV: den eigenen Text überarbeiten",
         "en": "Error clean-up IV: proofreading your own text",
@@ -2794,9 +2794,9 @@
         }
       ],
       "prerequisites": [
-        "g-fehler-kasus-nach-praepositionen",
-        "g-fehler-nebensatz-verbstellung",
-        "g-fehler-adjektivendung-trennbare-verben",
+        "g-error-review-case-after-prepositions",
+        "g-error-review-verb-final",
+        "g-error-review-adjective-endings-separable-verbs",
         "g-um-zu-damit"
       ],
       "errorTags": [
@@ -13173,10 +13173,10 @@
         "Herr Brandt möchte eine Bestätigung per E-Mail."
       ],
       "targetGrammar": [
-        "g-register-sie-du-anrede-gruss",
-        "g-register-schriftlich-muendlich",
-        "g-verstaerkung-abschwaechung",
-        "g-wortbildung-nomen"
+        "g-register-address-and-greeting",
+        "g-register-written-spoken",
+        "g-intensifiers-and-softeners",
+        "g-word-formation-nouns"
       ],
       "usefulPhrases": [
         {
@@ -13301,10 +13301,10 @@
         "Die Teamleiterin Frau Wagner würde einer Änderung der Aufgaben zustimmen."
       ],
       "targetGrammar": [
-        "g-abtoenungspartikeln-doch-ja-mal",
-        "g-abtoenungspartikeln-eben-halt-schon-wohl-eigentlich",
-        "g-verstaerkung-abschwaechung",
-        "g-redewendungen-arbeit"
+        "g-modal-particles-doch-ja-mal",
+        "g-modal-particles-eben-halt-schon-wohl-eigentlich",
+        "g-intensifiers-and-softeners",
+        "g-idioms-at-work"
       ],
       "usefulPhrases": [
         {
@@ -13428,10 +13428,10 @@
         "Mira ist am Anfang unsicher, wenn der Ablauf zu schnell erklärt wird."
       ],
       "targetGrammar": [
-        "g-register-schriftlich-muendlich",
-        "g-wortbildung-verben",
-        "g-fehler-adjektivendung-trennbare-verben",
-        "g-fehler-nebensatz-verbstellung"
+        "g-register-written-spoken",
+        "g-word-formation-verbs",
+        "g-error-review-adjective-endings-separable-verbs",
+        "g-error-review-verb-final"
       ],
       "usefulPhrases": [
         {
@@ -13555,10 +13555,10 @@
         "Wer in der Zeit Überstunden macht, bekommt sie im September als freie Tage."
       ],
       "targetGrammar": [
-        "g-abtoenungspartikeln-doch-ja-mal",
-        "g-abtoenungspartikeln-eben-halt-schon-wohl-eigentlich",
-        "g-redewendungen-arbeit",
-        "g-verstaerkung-abschwaechung"
+        "g-modal-particles-doch-ja-mal",
+        "g-modal-particles-eben-halt-schon-wohl-eigentlich",
+        "g-idioms-at-work",
+        "g-intensifiers-and-softeners"
       ],
       "usefulPhrases": [
         {
@@ -13682,10 +13682,10 @@
         "Frau Demir hat am Mittwoch von 10 bis 11 Uhr Zeit für eine Besprechung über den Entwurf."
       ],
       "targetGrammar": [
-        "g-verstaerkung-abschwaechung",
-        "g-register-sie-du-anrede-gruss",
-        "g-wortbildung-nomen",
-        "g-modalverben-subjektiv-soll-will-mag"
+        "g-intensifiers-and-softeners",
+        "g-register-address-and-greeting",
+        "g-word-formation-nouns",
+        "g-modal-subjective-deepened"
       ],
       "usefulPhrases": [
         {

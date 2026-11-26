@@ -241,16 +241,15 @@
     "Gate anchors are written, not human-rated: all 48 samples (4 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of each sample's criterion bands is within half a band of its anchor band (checked by script). The two speaking tasks use two scenarios that only the gate uses (ts-c12-gate-journalistin-empfehlung and ts-c12-gate-verhandlung-projektumfang); a script checked that no anchor sentence equals a line in any scenario's script or usefulPhrases. Writing samples: the opinion piece (range 200 to 320 words, about 250 asked) has band 2 samples of 221 to 256 words and band 3 samples of 218 to 231 words; the summary (range 80 to 150, about 120 asked) has band 2 samples of 99 to 104 words and band 3 samples of 117 to 122 words. Band 0 and band 1 samples are deliberately short. Speaking samples are transcripts of the learner side only, with the pauses marked by three dots, 10 to 145 words; they are shorter than a real 7 minute performance, so timing cannot be judged from them.",
     "The mock exam uses task types common in C1 exams, with original texts: a newspaper article with true/false and multiple choice, two commentaries compared by matching, a radio feature with multiple choice and a short answer, a panel discussion with speaker matching and an item on irony, an argued opinion piece, a summary of two positions without own opinion, a talk with a journalist about the recommendation of a report, and a negotiation with a client. It has no separate task for a long monologue and no task of the official part where a speaker presents and discusses a chart. Its timing (59 minutes of reading and listening and 65 minutes of writing, plus 14 minutes of speaking), the 25 points per skill and the pass rule (60 percent total, 50 percent per skill, as at B1.2 and B2.3) are Weg design choices, not official ones. The exam-readiness verdict is computed by the app from the pass rule and has not been calibrated against real exam results. The reading texts run to about 450 words and the listening scripts to about 410 words; whether that is long enough for C1 is a teacher's call. The listening material is a script for the TTS voice; no audio was produced or checked. The irony in the panel item hoeren-podium-homeoffice-kontrolle (item zu-einfach, Dr. Lang's viel zu einfach) depends on TTS intonation, which a TTS voice may not carry; the wording before it (Warum reden wir nicht zuerst miteinander?) is meant to make the key answerable from the words alone, but a teacher should listen to the audio before the item counts.",
     "gold/talk_scenarios.jsonl already holds ts-c12-fachgespraech-ki-pruefungen. This spec does not use or replace it and uses its own seven ids (five practice scenarios and two used only by the gate); the two sets should be reconciled by a human. ts-c12-podium-hochschulbildung was changed from a panel to a one-to-one debate with a student representative so that it does not repeat the format of the gold scenario; its id was kept. ts-c12-kollegenkritik-hoeflich uses du (a peer); the others use Sie.",
-    "Language to check first: the typical errors of g-konzessiv-restriktiv-c1 (so ... auch and mag ... auch followed by a main clause that may start with its subject, which is attested but loose), the claim in g-hervorhebung-spaltsatz-es-ist that the main clause after a was ... betrifft clause starts with its verb or with so or a pronoun, the register of Ausklammerung in g-ausklammerung-nachfeld (Das Ergebnis war besser, als erwartet wurde), the typical error 'Der Zug kam erst nach vier Stunden; das war ein bisschen unangenehm' and the register error 'Die Beteiligung war ja super' in g-ironie-untertreibung-implizit (the second is a matter of text type, not grammar), the claim that nouns in -yse and -ion are mostly feminine (die Analyse), the typical error 'plädiert auf eine Reform' in g-verben-feste-praepositionen-c1 (plädieren auf is correct in the legal phrase auf Freispruch plädieren), and the false-friend claims in g-fehler-c1-wiederkehrende-fehler: eventuell and sensibel for English speakers, assistieren for Spanish speakers, and the statement that adverbial aktuell (currently) is standard German. For a teacher: realisieren in that point is presented as a style preference (formal writing prefers bemerken or erkennen) and not as an error, because realisieren in the sense of becoming aware is increasingly common in German; please confirm that wording. g-ironie-untertreibung-implizit and g-paraphrasieren-zusammenfassen are labelled in their explanations as skill points with a grammar core. g-nominal-verbalstil-wahl was removed because it repeated B2.2 and C1.1; its advice on chains of genitives and on choosing by reader now sits in g-register-sachlich-persoenlich. Order within the sublevel was checked by hand only: for example the examples of g-paraphrasieren-zusammenfassen use Konjunktiv I and the passive from earlier sublevels, and g-wortwahl-synonyme-kollokationen uses behaupten with Konjunktiv I.",
+    "Language to check first: the typical errors of g-concessive-restrictive-c1 (so ... auch and mag ... auch followed by a main clause that may start with its subject, which is attested but loose), the claim in g-emphasis-cleft-es-ist that the main clause after a was ... betrifft clause starts with its verb or with so or a pronoun, the register of Ausklammerung in g-extraposition-nachfeld (Das Ergebnis war besser, als erwartet wurde), the typical error 'Der Zug kam erst nach vier Stunden; das war ein bisschen unangenehm' and the register error 'Die Beteiligung war ja super' in g-irony-understatement-implicit (the second is a matter of text type, not grammar), the claim that nouns in -yse and -ion are mostly feminine (die Analyse), the typical error 'plädiert auf eine Reform' in g-verbs-fixed-prepositions-c1 (plädieren auf is correct in the legal phrase auf Freispruch plädieren), and the false-friend claims in g-error-review-c1: eventuell and sensibel for English speakers, assistieren for Spanish speakers, and the statement that adverbial aktuell (currently) is standard German. For a teacher: realisieren in that point is presented as a style preference (formal writing prefers bemerken or erkennen) and not as an error, because realisieren in the sense of becoming aware is increasingly common in German; please confirm that wording. g-irony-understatement-implicit and g-paraphrasing-summarising are labelled in their explanations as skill points with a grammar core. g-nominal-verbalstil-wahl was removed because it repeated B2.2 and C1.1; its advice on chains of genitives and on choosing by reader now sits in g-register-factual-personal. Order within the sublevel was checked by hand only: for example the examples of g-paraphrasing-summarising use Konjunktiv I and the passive from earlier sublevels, and g-word-choice-synonyms-collocations uses behaupten with Konjunktiv I.",
     "Forms to confirm: Vorsitzender-type adjectival nouns were avoided (Vorgesetzter is taught at B1.1 and was dropped); plurals Denkmäler, Ironien, Zwischenergebnisse, Folgekosten (plural only), Stadtwerke (plural only), Mehrwertsteuer (no plural, entered as null), Fotograf with n-declension, Status with the unchanged plural, Block with Blöcke; verbs erliegen, kollidieren (sein), eskalieren (sein), auslaufen (sein), ausweichen (sein), ergehen (sein), spalten with gespalten, anfechten with focht an and angefochten, ansiedeln and wandeln entered as reflexive although they are also transitive; erstrecken and unterziehen as reflexive; abgesehen entered as an adverb and wider and abseits as prepositions; gucken is informal and was kept for the irony theme.",
     "The examples of a few vocabulary items touch German institutions in general terms (Verwaltungsgericht, Handwerkskammer, Mindestlohn, Tarifvertrag, Verordnung, Zulassung, Haftung); no figures, fees or deadlines are stated, but a German teacher should check that none of the sentences reads as a statement of current law.",
-    "Open drills (say, transform with several possible wordings) list a few accepted answers only; the Coach or Generator should accept other natural answers. No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points.",
-    "The ids of three gate tasks no longer describe their content because the topics were changed and ids are kept stable: lesen-vier-tage-woche-stadtwerke (now a study-leave style trial, not a four-day week), sprechen-projekt-verteidigen (now a talk with a journalist about a report) and sprechen-jahresgespraech-belastung (now a client negotiation). They may be renamed before the spec is merged."
+    "Open drills (say, transform with several possible wordings) list a few accepted answers only; the Coach or Generator should accept other natural answers. No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points."
   ],
   "id": "C1.2",
   "grammar": [
     {
-      "id": "g-wortwahl-synonyme-kollokationen",
+      "id": "g-word-choice-synonyms-collocations",
       "title": {
         "de": "Präzise Wortwahl: Synonyme und feste Wortverbindungen",
         "en": "Precise word choice: near-synonyms and collocations",
@@ -340,8 +339,8 @@
         }
       ],
       "prerequisites": [
-        "g-funktionsverbgefuege",
-        "g-verstaerkung-abschwaechung"
+        "g-support-verb-constructions",
+        "g-intensifiers-and-softeners"
       ],
       "errorTags": [
         "lexical"
@@ -420,7 +419,7 @@
       "order": 1
     },
     {
-      "id": "g-verben-feste-praepositionen-c1",
+      "id": "g-verbs-fixed-prepositions-c1",
       "title": {
         "de": "Verben mit festen Präpositionen auf C1-Niveau",
         "en": "Verbs with fixed prepositions at C1",
@@ -591,7 +590,7 @@
       "order": 2
     },
     {
-      "id": "g-register-sachlich-persoenlich",
+      "id": "g-register-factual-personal",
       "title": {
         "de": "Sachlich oder persönlich: das Register im Text wechseln",
         "en": "Factual or personal: switching the register of a text",
@@ -672,8 +671,8 @@
         }
       ],
       "prerequisites": [
-        "g-register-schriftlich-muendlich",
-        "g-nominalstil-satz-zu-nominalgruppe",
+        "g-register-written-spoken",
+        "g-nominal-style-clause-to-noun-phrase",
         "g-nominalisation-verb-noun-pairs"
       ],
       "errorTags": [
@@ -756,7 +755,7 @@
       "order": 3
     },
     {
-      "id": "g-paraphrasieren-zusammenfassen",
+      "id": "g-paraphrasing-summarising",
       "title": {
         "de": "Quellen genau paraphrasieren und zusammenfassen",
         "en": "Paraphrasing and summarising sources accurately",
@@ -919,7 +918,7 @@
       "order": 4
     },
     {
-      "id": "g-hervorhebung-spaltsatz-es-ist",
+      "id": "g-emphasis-cleft-es-ist",
       "title": {
         "de": "Hervorheben: es ist ... der, was ... betrifft",
         "en": "Emphasis: es ist ... der, was ... betrifft",
@@ -1081,7 +1080,7 @@
       "order": 5
     },
     {
-      "id": "g-ausklammerung-nachfeld",
+      "id": "g-extraposition-nachfeld",
       "title": {
         "de": "Ausklammerung und Nachfeld",
         "en": "Placing elements after the verb bracket",
@@ -1242,7 +1241,7 @@
       "order": 6
     },
     {
-      "id": "g-konzessiv-restriktiv-c1",
+      "id": "g-concessive-restrictive-c1",
       "title": {
         "de": "Einräumen und Einschränken: wenngleich, wiewohl, so ... auch, mag ... auch",
         "en": "Conceding and restricting: wenngleich, wiewohl, so ... auch, mag ... auch",
@@ -1404,7 +1403,7 @@
       "order": 7
     },
     {
-      "id": "g-konjunktiv2-kritik-hypothese",
+      "id": "g-konjunktiv2-criticism-hypothesis",
       "title": {
         "de": "Konjunktiv II für höfliche Kritik und Hypothesen im Beruf",
         "en": "Konjunktiv II for polite criticism and hypotheses at work",
@@ -1488,7 +1487,7 @@
         "g-konjunktiv2-past",
         "g-konjunktiv2-conditions",
         "g-konjunktiv2-wishes-advice",
-        "g-doppelinfinitiv-nebensatz"
+        "g-double-infinitive-subordinate"
       ],
       "errorTags": [
         "verb-form",
@@ -1568,7 +1567,7 @@
       "order": 8
     },
     {
-      "id": "g-passiv-alternativen-stil",
+      "id": "g-passive-alternatives-style",
       "title": {
         "de": "Passiv und Passiversatz als Stilmittel",
         "en": "Passive and its alternatives as a stylistic choice",
@@ -1653,7 +1652,7 @@
         "g-passive-present",
         "g-passive-past",
         "g-zustandspassiv",
-        "g-nominalstil-satz-zu-nominalgruppe"
+        "g-nominal-style-clause-to-noun-phrase"
       ],
       "errorTags": [
         "style",
@@ -1733,7 +1732,7 @@
       "order": 9
     },
     {
-      "id": "g-wortbildung-fachwortschatz",
+      "id": "g-word-formation-technical-terms",
       "title": {
         "de": "Wortbildung im Fachwortschatz: Vorsilben, Endungen, Fremdwörter",
         "en": "Word formation in technical vocabulary: prefixes, endings, loan words",
@@ -1813,9 +1812,9 @@
         }
       ],
       "prerequisites": [
-        "g-wortbildung-nomen",
-        "g-wortbildung-verben",
-        "g-wortbildung-adjektive",
+        "g-word-formation-nouns",
+        "g-word-formation-verbs",
+        "g-word-formation-adjectives",
         "g-nominalisation-verb-noun-pairs"
       ],
       "errorTags": [
@@ -1896,7 +1895,7 @@
       "order": 10
     },
     {
-      "id": "g-ironie-untertreibung-implizit",
+      "id": "g-irony-understatement-implicit",
       "title": {
         "de": "Ironie, Untertreibung und Gemeintes zwischen den Zeilen",
         "en": "Irony, understatement and implied meaning",
@@ -1977,9 +1976,9 @@
         }
       ],
       "prerequisites": [
-        "g-abtoenungspartikeln-doch-ja-mal",
-        "g-verstaerkung-abschwaechung",
-        "g-konjunktiv2-kritik-hypothese"
+        "g-modal-particles-doch-ja-mal",
+        "g-intensifiers-and-softeners",
+        "g-konjunktiv2-criticism-hypothesis"
       ],
       "errorTags": [
         "style",
@@ -2060,7 +2059,7 @@
       "order": 11
     },
     {
-      "id": "g-fehler-c1-wiederkehrende-fehler",
+      "id": "g-error-review-c1",
       "title": {
         "de": "Letzter Feinschliff: falsche Freunde und hartnäckige Verbfehler",
         "en": "Final clean-up: false friends and persistent verb errors",
@@ -2151,10 +2150,10 @@
         }
       ],
       "prerequisites": [
-        "g-fehler-kasus-nach-praepositionen",
-        "g-fehler-nebensatz-verbstellung",
-        "g-fehler-text-ueberarbeiten",
-        "g-verben-feste-praepositionen-c1"
+        "g-error-review-case-after-prepositions",
+        "g-error-review-verb-final",
+        "g-error-review-revising-texts",
+        "g-verbs-fixed-prepositions-c1"
       ],
       "errorTags": [
         "lexical",
@@ -13088,10 +13087,10 @@
         "Prof. Lehmann macht keine Aussagen über Gesetze oder Hochschulregeln."
       ],
       "targetGrammar": [
-        "g-konzessiv-restriktiv-c1",
-        "g-hervorhebung-spaltsatz-es-ist",
-        "g-verben-feste-praepositionen-c1",
-        "g-konjunktiv2-kritik-hypothese"
+        "g-concessive-restrictive-c1",
+        "g-emphasis-cleft-es-ist",
+        "g-verbs-fixed-prepositions-c1",
+        "g-konjunktiv2-criticism-hypothesis"
       ],
       "usefulPhrases": [
         {
@@ -13220,10 +13219,10 @@
         "Dr. Kaiser macht keine Aussagen über Gesetze, Gehaltszahlen oder Arbeitsrecht."
       ],
       "targetGrammar": [
-        "g-konjunktiv2-kritik-hypothese",
-        "g-konzessiv-restriktiv-c1",
-        "g-register-sachlich-persoenlich",
-        "g-hervorhebung-spaltsatz-es-ist"
+        "g-konjunktiv2-criticism-hypothesis",
+        "g-concessive-restrictive-c1",
+        "g-register-factual-personal",
+        "g-emphasis-cleft-es-ist"
       ],
       "usefulPhrases": [
         {
@@ -13352,10 +13351,10 @@
         "Frau Reuter macht keine Aussagen über Gesetze oder Hochschulregeln."
       ],
       "targetGrammar": [
-        "g-konzessiv-restriktiv-c1",
-        "g-hervorhebung-spaltsatz-es-ist",
-        "g-ironie-untertreibung-implizit",
-        "g-konjunktiv2-kritik-hypothese"
+        "g-concessive-restrictive-c1",
+        "g-emphasis-cleft-es-ist",
+        "g-irony-understatement-implicit",
+        "g-konjunktiv2-criticism-hypothesis"
       ],
       "usefulPhrases": [
         {
@@ -13485,9 +13484,9 @@
         "Hanna macht keine Aussagen über Gesetze oder Regeln der Hochschule."
       ],
       "targetGrammar": [
-        "g-konjunktiv2-kritik-hypothese",
-        "g-register-sachlich-persoenlich",
-        "g-hervorhebung-spaltsatz-es-ist"
+        "g-konjunktiv2-criticism-hypothesis",
+        "g-register-factual-personal",
+        "g-emphasis-cleft-es-ist"
       ],
       "usefulPhrases": [
         {
@@ -13616,10 +13615,10 @@
         "Herr Hofmann nennt kein Gehalt und macht keine Aussagen über Gesetze oder Verträge."
       ],
       "targetGrammar": [
-        "g-wortwahl-synonyme-kollokationen",
-        "g-verben-feste-praepositionen-c1",
-        "g-konjunktiv2-kritik-hypothese",
-        "g-konzessiv-restriktiv-c1"
+        "g-word-choice-synonyms-collocations",
+        "g-verbs-fixed-prepositions-c1",
+        "g-konjunktiv2-criticism-hypothesis",
+        "g-concessive-restrictive-c1"
       ],
       "usefulPhrases": [
         {
@@ -13749,10 +13748,10 @@
         "Frau Jansen macht keine Aussagen über Gesetze, Gebühren oder Hochschulregeln."
       ],
       "targetGrammar": [
-        "g-konzessiv-restriktiv-c1",
-        "g-hervorhebung-spaltsatz-es-ist",
-        "g-ironie-untertreibung-implizit",
-        "g-register-sachlich-persoenlich"
+        "g-concessive-restrictive-c1",
+        "g-emphasis-cleft-es-ist",
+        "g-irony-understatement-implicit",
+        "g-register-factual-personal"
       ],
       "usefulPhrases": [
         {
@@ -13880,10 +13879,10 @@
         "Herr Behrens nennt keine Preise und macht keine Aussagen über Verträge oder Gesetze."
       ],
       "targetGrammar": [
-        "g-konzessiv-restriktiv-c1",
-        "g-konjunktiv2-kritik-hypothese",
-        "g-hervorhebung-spaltsatz-es-ist",
-        "g-register-sachlich-persoenlich"
+        "g-concessive-restrictive-c1",
+        "g-konjunktiv2-criticism-hypothesis",
+        "g-emphasis-cleft-es-ist",
+        "g-register-factual-personal"
       ],
       "usefulPhrases": [
         {
@@ -14245,7 +14244,7 @@
     ],
     "tasks": [
       {
-        "id": "lesen-vier-tage-woche-stadtwerke",
+        "id": "lesen-lerntage-erprobung",
         "skill": "reading",
         "format": "Zeitungsartikel lesen: richtig/falsch und Auswahl",
         "instructions": "Lesen Sie den Artikel aus einer Regionalzeitung. Sind die Aussagen 1, 2, 4, 6 und 8 richtig oder falsch? Bei den Aufgaben 3, 5 und 7 wählen Sie die passende Antwort.",
@@ -14950,7 +14949,7 @@
         ]
       },
       {
-        "id": "sprechen-projekt-verteidigen",
+        "id": "sprechen-gespraech-journalistin",
         "skill": "speaking",
         "format": "Die Empfehlung eines Berichts erklären und verteidigen: Interview mit einer Journalistin",
         "instructions": "Sie gehören zu einer studentischen Arbeitsgruppe, die einen Bericht darüber geschrieben hat, wie internationale Studierende ihre ersten Wochen erleben. Der Bericht empfiehlt eine zentrale Anlaufstelle. Frau Jansen, Journalistin der Studierendenzeitung, interviewt Sie. Nennen Sie die Empfehlung und ihren wichtigsten Grund, räumen Sie eine Grenze der Befragung ein, antworten Sie auf den Einwand zu den Kosten, reagieren Sie ruhig auf eine ironische Bemerkung und sagen Sie, was als Nächstes geschieht. Der Bericht und die Personen sind für die Übung erfunden.",
@@ -15102,7 +15101,7 @@
         ]
       },
       {
-        "id": "sprechen-jahresgespraech-belastung",
+        "id": "sprechen-verhandlung-projektumfang",
         "skill": "speaking",
         "format": "Verhandlung mit einem Kunden: den Umfang eines Projekts aushandeln",
         "instructions": "Sie leiten in einer kleinen Agentur ein Projekt: ein Online-Bestellsystem für eine Bäckereikette. Herr Behrens, der Geschäftsführer des Kunden, möchte drei zusätzliche Funktionen und denselben Starttermin. Erklären Sie, was bis zum Start möglich ist und was nicht, räumen Sie ein, was berechtigt ist, schlagen Sie einen Plan in zwei Phasen mit einer Bedingung vor, bleiben Sie höflich bei Ihrer Position, wenn Herr Behrens zögert, und vereinbaren Sie einen nächsten Schritt. Die Agentur, der Kunde und die Angaben sind für die Übung erfunden.",

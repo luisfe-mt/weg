@@ -252,13 +252,12 @@
     "Overlap with B2.1: B2.1 already teaches sofern, vorausgesetzt, dass and andernfalls (g-connectors-condition), the es placeholder, sein + zu, and hätte + infinitive + modal. B2.2 uses them in the negotiation and report tasks but has no grammar point for the skills of negotiating or writing minutes: those skills sit in the can-dos, the report rubric and the vocabulary phrases (unter der Bedingung, dass; im Gegenzug; sich einigen auf). The scenario about a late delivery (print shop) and the one about working hours (lab course, dispatch team) were changed so that they do not repeat B2.1's furniture delivery and its formal-letter gate task, and the interview figures differ from the gold scenario ts-b22-gehalt-werkstudent; a reviewer should still compare the three sets.",
     "Forms and choices to confirm: die Steuer (Wiktionary also has das), Schock plural Schocks, Fazit plural Fazits, Flur as der, Event as das, adjectival nouns entered as Angestellter, Befragter and Freiwilliger with plurals in -e, anwenden with the Präteritum wendete an (wandte an also exists), rollen with haben/sein, beklagen, eignen, nähern and orientieren entered under the verb with reflexive true, verdoppeln and halbieren entered as reflexive verbs, letztere and dran as adjective and adverb entries.",
     "Language to check first: the typical errors of the Funktionsverbgefüge point (einen Antrag machen, eine Entscheidung nehmen, in Betracht nehmen), the claim that 'wie wenn' is informal or regional after unreal comparisons (a teacher should confirm how the register is described), the rule that quantifiers such as viele and einige take strong adjective endings (viele neue, mit vielen neuen, wegen vieler neuer), and the statement that the modal participle takes only the Partizip I of transitive verbs.",
-    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points.",
-    "Gate listening: the task ids hoeren-verhandlung-laptops and hoeren-besprechung-beschluesse were kept although the texts now deal with a catering order and a student-team meeting; rename them only if no other file refers to them. C1.2 still names the removed point g-sprache-von-protokoll-und-bericht as a prerequisite and needs the reference replaced."
+    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points."
   ],
   "id": "B2.2",
   "grammar": [
     {
-      "id": "g-nominalstil-satz-zu-nominalgruppe",
+      "id": "g-nominal-style-clause-to-noun-phrase",
       "title": {
         "de": "Nominalstil: vom Satz zur Nominalgruppe",
         "en": "Nominal style: from clause to noun phrase",
@@ -448,7 +447,7 @@
       "order": 1
     },
     {
-      "id": "g-praepositionen-grund-einraeumung-bedingung",
+      "id": "g-prepositions-cause-concession-condition",
       "title": {
         "de": "Präpositionen für Grund, Einräumung und Bedingung",
         "en": "Prepositions for cause, concession and condition",
@@ -529,7 +528,7 @@
         }
       ],
       "prerequisites": [
-        "g-nominalstil-satz-zu-nominalgruppe",
+        "g-nominal-style-clause-to-noun-phrase",
         "g-genitive",
         "g-prepositions-genitive-formal",
         "g-subordinate-obwohl"
@@ -638,7 +637,7 @@
       "order": 2
     },
     {
-      "id": "g-praepositionen-zeit-mittel-zweck-bezug",
+      "id": "g-prepositions-time-means-purpose-reference",
       "title": {
         "de": "Präpositionen für Zeit, Mittel, Zweck und Bezug",
         "en": "Prepositions for time, means, purpose and reference",
@@ -718,7 +717,7 @@
         }
       ],
       "prerequisites": [
-        "g-praepositionen-grund-einraeumung-bedingung",
+        "g-prepositions-cause-concession-condition",
         "g-plusquamperfekt-nachdem",
         "g-subordinate-falls-sodass-indem",
         "g-um-zu-damit"
@@ -826,7 +825,7 @@
       "order": 3
     },
     {
-      "id": "g-attribute-nach-dem-nomen",
+      "id": "g-attributes-after-the-noun",
       "title": {
         "de": "Genitiv- und Präpositionalattribute nach dem Nomen",
         "en": "Genitive and prepositional attributes after a noun",
@@ -909,7 +908,7 @@
       "prerequisites": [
         "g-genitive",
         "g-verbs-with-prepositions",
-        "g-nominalstil-satz-zu-nominalgruppe"
+        "g-nominal-style-clause-to-noun-phrase"
       ],
       "errorTags": [
         "case",
@@ -1010,7 +1009,7 @@
       "order": 4
     },
     {
-      "id": "g-funktionsverbgefuege",
+      "id": "g-support-verb-constructions",
       "title": {
         "de": "Funktionsverbgefüge",
         "en": "Verb-noun phrases (Funktionsverbgefüge)",
@@ -1090,8 +1089,8 @@
         }
       ],
       "prerequisites": [
-        "g-nominalstil-satz-zu-nominalgruppe",
-        "g-attribute-nach-dem-nomen"
+        "g-nominal-style-clause-to-noun-phrase",
+        "g-attributes-after-the-noun"
       ],
       "errorTags": [
         "lexical",
@@ -1193,7 +1192,7 @@
       "order": 5
     },
     {
-      "id": "g-erweitertes-partizip-1",
+      "id": "g-extended-participle-present",
       "title": {
         "de": "Das erweiterte Partizip I",
         "en": "The extended Partizip I",
@@ -1378,7 +1377,7 @@
       "order": 6
     },
     {
-      "id": "g-erweitertes-partizip-2",
+      "id": "g-extended-participle-past",
       "title": {
         "de": "Das erweiterte Partizip II",
         "en": "The extended Partizip II",
@@ -1458,7 +1457,7 @@
         }
       ],
       "prerequisites": [
-        "g-erweitertes-partizip-1",
+        "g-extended-participle-present",
         "g-passive-past",
         "g-perfekt-sein-vs-haben"
       ],
@@ -1561,7 +1560,7 @@
       "order": 7
     },
     {
-      "id": "g-modalpartizip-zu-partizip-1",
+      "id": "g-modal-participle",
       "title": {
         "de": "Das Modalpartizip: zu + Partizip I",
         "en": "The modal participle: zu + Partizip I",
@@ -1642,8 +1641,8 @@
         }
       ],
       "prerequisites": [
-        "g-erweitertes-partizip-1",
-        "g-erweitertes-partizip-2",
+        "g-extended-participle-present",
+        "g-extended-participle-past",
         "g-passive-modal",
         "g-passive-alternatives",
         "g-separable-verbs"
@@ -1750,7 +1749,7 @@
       "order": 8
     },
     {
-      "id": "g-als-ob-irrealer-vergleich",
+      "id": "g-als-ob-unreal-comparison",
       "title": {
         "de": "Irrealer Vergleich: als ob, als wenn, als",
         "en": "Unreal comparison: als ob, als wenn, als",
@@ -1939,7 +1938,7 @@
       "order": 9
     },
     {
-      "id": "g-adjektivendungen-mengenwoerter",
+      "id": "g-adjective-endings-quantifiers",
       "title": {
         "de": "Adjektivendungen nach viele, einige, mehrere, alle",
         "en": "Adjective endings after viele, einige, mehrere, alle",
@@ -2122,7 +2121,7 @@
       "order": 10
     },
     {
-      "id": "g-doppelinfinitiv-nebensatz",
+      "id": "g-double-infinitive-subordinate",
       "title": {
         "de": "Der Doppelinfinitiv im Nebensatz",
         "en": "The double infinitive in subordinate clauses",
@@ -2308,7 +2307,7 @@
       "order": 11
     },
     {
-      "id": "g-zahlen-und-grafiken-beschreiben",
+      "id": "g-describing-figures",
       "title": {
         "de": "Zahlen und Grafiken: Präpositionen und Vergleiche",
         "en": "Figures and charts: prepositions and comparisons",
@@ -2389,7 +2388,7 @@
       "prerequisites": [
         "g-comparative",
         "g-superlative",
-        "g-nominalstil-satz-zu-nominalgruppe",
+        "g-nominal-style-clause-to-noun-phrase",
         "g-verbs-with-prepositions"
       ],
       "errorTags": [
@@ -13343,10 +13342,10 @@
         "Herr Winkler spricht nicht über Gesetze zu Arbeitszeiten oder Steuern."
       ],
       "targetGrammar": [
-        "g-nominalstil-satz-zu-nominalgruppe",
-        "g-funktionsverbgefuege",
-        "g-doppelinfinitiv-nebensatz",
-        "g-adjektivendungen-mengenwoerter"
+        "g-nominal-style-clause-to-noun-phrase",
+        "g-support-verb-constructions",
+        "g-double-infinitive-subordinate",
+        "g-adjective-endings-quantifiers"
       ],
       "usefulPhrases": [
         {
@@ -13485,9 +13484,9 @@
         "Herr Roth schickt nach dem Gespräch eine schriftliche Bestätigung per E-Mail."
       ],
       "targetGrammar": [
-        "g-praepositionen-grund-einraeumung-bedingung",
-        "g-praepositionen-zeit-mittel-zweck-bezug",
-        "g-funktionsverbgefuege"
+        "g-prepositions-cause-concession-condition",
+        "g-prepositions-time-means-purpose-reference",
+        "g-support-verb-constructions"
       ],
       "usefulPhrases": [
         {
@@ -13621,9 +13620,9 @@
         "Herr Steiner trägt die neue Regelung bis Donnerstag in den Dienstplan ein."
       ],
       "targetGrammar": [
-        "g-praepositionen-grund-einraeumung-bedingung",
-        "g-nominalstil-satz-zu-nominalgruppe",
-        "g-doppelinfinitiv-nebensatz"
+        "g-prepositions-cause-concession-condition",
+        "g-nominal-style-clause-to-noun-phrase",
+        "g-double-infinitive-subordinate"
       ],
       "usefulPhrases": [
         {
@@ -13757,9 +13756,9 @@
         "Sie möchte bis Freitag einen kurzen schriftlichen Zwischenbericht mit dem Balkendiagramm bekommen."
       ],
       "targetGrammar": [
-        "g-zahlen-und-grafiken-beschreiben",
-        "g-erweitertes-partizip-2",
-        "g-praepositionen-grund-einraeumung-bedingung"
+        "g-describing-figures",
+        "g-extended-participle-past",
+        "g-prepositions-cause-concession-condition"
       ],
       "usefulPhrases": [
         {
@@ -13892,9 +13891,9 @@
         "Das Team trifft sich erst wieder in zwei Wochen."
       ],
       "targetGrammar": [
-        "g-praepositionen-zeit-mittel-zweck-bezug",
-        "g-praepositionen-grund-einraeumung-bedingung",
-        "g-als-ob-irrealer-vergleich"
+        "g-prepositions-time-means-purpose-reference",
+        "g-prepositions-cause-concession-condition",
+        "g-als-ob-unreal-comparison"
       ],
       "usefulPhrases": [
         {
@@ -14425,7 +14424,7 @@
         ]
       },
       {
-        "id": "hoeren-verhandlung-laptops",
+        "id": "hoeren-verhandlung-catering",
         "skill": "listening",
         "format": "Verhandlungsgespräch am Telefon: Auswahl",
         "instructions": "Sie hören ein Telefongespräch zwischen Frau Albrecht aus der Fachschaft einer Universität und Herrn Pohl von einem Catering-Service. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben 1 bis 6. Welche Antwort passt?",
@@ -14517,7 +14516,7 @@
         ]
       },
       {
-        "id": "hoeren-besprechung-beschluesse",
+        "id": "hoeren-besprechung-studententeam",
         "skill": "listening",
         "format": "Zusammenfassung einer Besprechung: kurze Antworten",
         "instructions": "Sie hören die Zusammenfassung am Ende einer Teambesprechung. Sie hören den Text zweimal. Lesen Sie zuerst die Fragen 1 bis 6. Schreiben Sie kurze Antworten.",
