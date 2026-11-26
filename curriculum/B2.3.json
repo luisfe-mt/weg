@@ -300,9 +300,9 @@
           "es": "Buenos días, señor Aydin, ¿podría enviarme los documentos antes del miércoles?"
         },
         {
-          "de": "Wir arbeiten ja schon seit drei Monaten zusammen. Sollen wir uns nicht duzen?",
-          "en": "We have been working together for three months now. Shall we use du?",
-          "es": "Llevamos ya tres meses trabajando juntos. ¿Nos tuteamos?"
+          "de": "Wir arbeiten seit drei Monaten zusammen. Sollen wir uns duzen?",
+          "en": "We have been working together for three months. Shall we use du?",
+          "es": "Llevamos tres meses trabajando juntos. ¿Nos tuteamos?"
         },
         {
           "de": "Liebes Team, vielen Dank für eure Hilfe bei der Inventur. Bis Montag!",
@@ -320,7 +320,7 @@
           ],
           "why": {
             "en": "English has only one 'you', so the choice is easy to forget. Mixing a formal salutation with du sounds careless or rude in German. Choose one register and keep it through the whole message.",
-            "es": "Un hispanohablante de España tutea con facilidad en el trabajo y un anglohablante solo conoce un 'you'. En alemán, un saludo formal con du suena descuidado o maleducado. Elige un registro y mantenlo en todo el mensaje."
+            "es": "En muchos entornos de habla hispana se tutea pronto en el trabajo, y un anglohablante solo conoce un 'you'. En alemán, un saludo formal con du suena descuidado o maleducado. Elige un registro y mantenlo en todo el mensaje."
           }
         },
         {
@@ -707,8 +707,8 @@
             "es"
           ],
           "why": {
-            "en": "Learners put the particle straight after the verb, as an adverb would be placed in English. In German a pronoun stands before the particle.",
-            "es": "El estudiante coloca la partícula justo después del verbo, como colocaría un adverbio en inglés o español. En alemán el pronombre va antes de la partícula."
+            "en": "Learners put the particle right after the subject du, as an adverb would stand in English. In German a pronoun object such as mir comes before the particle: du mir mal.",
+            "es": "El estudiante coloca la partícula justo después del sujeto du, como colocaría un adverbio en inglés o español. En alemán un pronombre objeto como mir va antes de la partícula: du mir mal."
           }
         },
         {
@@ -778,8 +778,7 @@
           },
           "prompt": "Wir haben den Termin schon besprochen.",
           "answers": [
-            "Wir haben den Termin doch schon besprochen.",
-            "Wir haben den Termin schon doch besprochen."
+            "Wir haben den Termin doch schon besprochen."
           ]
         },
         {
@@ -892,15 +891,15 @@
           }
         },
         {
-          "wrong": "Das schaffen schon wir.",
-          "correct": "Das schaffen wir schon.",
+          "wrong": "Wohl, wir fangen jetzt an.",
+          "correct": "Also, wir fangen jetzt an.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "The particle follows the subject pronoun in the middle field. Putting it before the pronoun sounds wrong.",
-            "es": "La partícula va detrás del pronombre sujeto en el campo medio. Colocarla antes del pronombre suena mal."
+            "en": "English 'well' and Spanish 'bien' open a sentence, so learners start with wohl. German wohl is a particle inside the sentence that marks a guess ('Sie ist wohl krank'); to open a sentence use also or na ja.",
+            "es": "El 'well' inglés y el 'bien' español abren una frase, y el estudiante empieza con wohl. En alemán wohl es una partícula dentro de la frase que marca una suposición ('Sie ist wohl krank'); para abrir una frase se usa also o na ja."
           }
         },
         {
@@ -966,8 +965,7 @@
           },
           "prompt": "Wie lange arbeitest du schon hier?",
           "answers": [
-            "Wie lange arbeitest du eigentlich schon hier?",
-            "Wie lange arbeitest du schon eigentlich hier?"
+            "Wie lange arbeitest du eigentlich schon hier?"
           ]
         },
         {
@@ -976,9 +974,9 @@
             "en": "Choose eigentlich or aktuell.",
             "es": "Elige eigentlich o aktuell."
           },
-          "prompt": "Wir haben ___ keinen Urlaub mehr, aber ich frage trotzdem.",
+          "prompt": "___ wollte ich früher gehen, aber der Kunde rief an.",
           "answers": [
-            "eigentlich"
+            "Eigentlich"
           ]
         },
         {
@@ -1217,8 +1215,8 @@
         "es": "Formación de palabras I: sustantivos con -ung, -heit, -keit, -schaft, -nis y compuestos"
       },
       "explanation": {
-        "en": "German builds new nouns from words you know, and the ending tells you the gender. -ung turns a verb into a feminine noun: besprechen, die Besprechung, plural Besprechungen. -heit and -keit turn an adjective into a feminine noun: frei, die Freiheit; möglich, die Möglichkeit; after -ig, -lich and -bar the ending is -keit (die Zuverlässigkeit). -schaft names a group or a state, also feminine: die Belegschaft, die Freundschaft. -nis is usually neuter (das Ergebnis, das Erlebnis, das Zeugnis, plural -nisse), but a few words are feminine: die Kenntnis, die Erlaubnis. Compounds take their gender and plural from the last part: das Telefon + die Nummer = die Telefonnummer. Between the parts there is sometimes a linking s, as after -ung, -heit, -keit and -schaft: der Besprechungsraum, die Arbeitszeit. After many nouns in -e it is -n: der Kundenservice. Write the compound as one word, never as two.",
-        "es": "El alemán construye sustantivos nuevos a partir de palabras que ya conoces, y la terminación indica el género. -ung convierte un verbo en un sustantivo femenino: besprechen, die Besprechung, plural Besprechungen. -heit y -keit convierten un adjetivo en sustantivo femenino: frei, die Freiheit; möglich, die Möglichkeit; tras -ig, -lich y -bar la terminación es -keit (die Zuverlässigkeit). -schaft nombra un grupo o un estado, también femenino: die Belegschaft, die Freundschaft. -nis suele ser neutro (das Ergebnis, das Erlebnis, das Zeugnis, plural -nisse), pero unas pocas palabras son femeninas: die Kenntnis, die Erlaubnis. Los compuestos toman el género y el plural de la última parte: das Telefon + die Nummer = die Telefonnummer. Entre las partes hay a veces una s de unión, por ejemplo tras -ung, -heit, -keit y -schaft: der Besprechungsraum, die Arbeitszeit. Tras muchos sustantivos en -e aparece -n: der Kundenservice. Escribe el compuesto en una sola palabra, nunca en dos."
+        "en": "German builds new nouns from words you know, and the ending tells you the gender. -ung turns a verb into a feminine noun: besprechen, die Besprechung, plural Besprechungen. -heit and -keit turn an adjective into a feminine noun: frei, die Freiheit; möglich, die Möglichkeit; after -ig, -lich and -bar the ending is -keit (die Zuverlässigkeit). -schaft names a group or a state, also feminine: die Belegschaft, die Freundschaft. -nis is usually neuter (das Ergebnis, das Erlebnis, das Zeugnis, plural -nisse), but a few words are feminine: die Kenntnis, die Erlaubnis. Compounds take their gender and plural from the last part: das Telefon + die Nummer = die Telefonnummer. Between the parts there is sometimes a linking s, as after -ung, -heit, -keit and -schaft: der Besprechungsraum; it also appears after some other nouns, for example Arbeit: die Arbeitszeit. After many nouns in -e it is -n: der Kundenservice. Write the compound as one word, never as two.",
+        "es": "El alemán construye sustantivos nuevos a partir de palabras que ya conoces, y la terminación indica el género. -ung convierte un verbo en un sustantivo femenino: besprechen, die Besprechung, plural Besprechungen. -heit y -keit convierten un adjetivo en sustantivo femenino: frei, die Freiheit; möglich, die Möglichkeit; tras -ig, -lich y -bar la terminación es -keit (die Zuverlässigkeit). -schaft nombra un grupo o un estado, también femenino: die Belegschaft, die Freundschaft. -nis suele ser neutro (das Ergebnis, das Erlebnis, das Zeugnis, plural -nisse), pero unas pocas palabras son femeninas: die Kenntnis, die Erlaubnis. Los compuestos toman el género y el plural de la última parte: das Telefon + die Nummer = die Telefonnummer. Entre las partes hay a veces una s de unión, como tras -ung, -heit, -keit y -schaft: der Besprechungsraum; aparece también tras algunos otros sustantivos, por ejemplo Arbeit: die Arbeitszeit. Tras muchos sustantivos en -e aparece -n: der Kundenservice. Escribe el compuesto en una sola palabra, nunca en dos."
       },
       "examples": [
         {
@@ -1451,15 +1449,15 @@
           }
         },
         {
-          "wrong": "Wir haben den Termin geschoben.",
-          "correct": "Wir haben den Termin verschoben.",
+          "wrong": "Ich habe die Frage geantwortet.",
+          "correct": "Ich habe die Frage beantwortet.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'postpone' and Spanish 'aplazar' are single verbs, so learners pick the base verb schieben, which means to push. 'Put off, postpone' needs the prefix: verschieben.",
-            "es": "El inglés 'postpone' y el español 'aplazar' son verbos simples, así que el estudiante elige el verbo base schieben, que significa empujar. 'Aplazar' necesita el prefijo: verschieben."
+            "en": "English 'answer a question' takes a direct object, so learners use antworten the same way. German antworten takes auf + accusative (auf die Frage antworten); with a direct object you need the prefix: beantworten.",
+            "es": "En inglés 'answer a question' lleva complemento directo, y el estudiante usa antworten igual, como el español 'responder una pregunta'. El alemán antworten lleva auf + acusativo (auf die Frage antworten); con complemento directo hace falta el prefijo: beantworten."
           }
         }
       ],
@@ -1753,81 +1751,81 @@
     {
       "id": "g-modalverben-subjektiv-soll-will-mag",
       "title": {
-        "de": "Subjektive Modalverben vertieft: soll, will, mag",
-        "en": "Subjective modal verbs deepened: soll, will, mag",
-        "es": "Verbos modales subjetivos en profundidad: soll, will, mag"
+        "de": "Subjektive Modalverben vertieft: mag, worden sein und Konjunktiv I",
+        "en": "Subjective modal verbs deepened: mag, worden sein and Konjunktiv I",
+        "es": "Verbos modales subjetivos en profundidad: mag, worden sein y Konjunktiv I"
       },
       "explanation": {
-        "en": "You already know that modal verbs can show how sure the speaker is. The three verbs here show who is the source of the information. Soll says that somebody else says it, and I do not vouch for it: 'Der neue Chef soll sehr streng sein.' Will says that the subject says it about himself, and I doubt it: 'Er will das nicht gewusst haben.' Mag admits that something may well be true, usually before aber: 'Das mag sein, aber …', 'Sie mag recht haben, doch …'. For the past the modal stays in the present and the infinitive of the Perfekt follows at the end: 'Sie soll gestern angerufen haben.' A passive uses worden: 'Der Fehler soll behoben worden sein.' Do not use the Präteritum sollte for hearsay; 'Er sollte kommen' means he was supposed to come, which is a different meaning. In a report on what other people say you can also use the Konjunktiv I, but the modal is shorter and common in speech and news.",
-        "es": "Ya sabes que los verbos modales pueden mostrar cuán seguro está el hablante. Los tres verbos de este punto muestran quién es la fuente de la información. Soll dice que otra persona lo dice y que yo no me hago responsable: 'Der neue Chef soll sehr streng sein.' Will dice que el sujeto lo afirma de sí mismo y que yo lo dudo: 'Er will das nicht gewusst haben.' Mag admite que algo bien puede ser verdad, normalmente antes de aber: 'Das mag sein, aber …', 'Sie mag recht haben, doch …'. Para el pasado el modal queda en presente y detrás va el infinitivo de Perfekt al final: 'Sie soll gestern angerufen haben.' Una pasiva usa worden: 'Der Fehler soll behoben worden sein.' No uses el Präteritum sollte para el rumor; 'Er sollte kommen' significa que tenía que venir, que es otra cosa. Para informar de lo que dicen otros también se puede usar el Konjunktiv I, pero el modal es más corto y frecuente en el habla y en las noticias."
+        "en": "Review: B2.1 (g-modal-subjective-intro) taught soll for hearsay and will for a claim; this point only deepens three things. First, mag admits that something may well be true, usually before aber or doch: 'Das mag sein, aber …'. With a plural subject it is mögen: 'Die Zahlen mögen stimmen, doch …'. Mag sounds formal and fits an argument or a report. Second, the passive in the past: modal + Partizip II + worden sein. 'Die Rechnung soll bezahlt worden sein.' It is worden, not geworden. Third, modal or Konjunktiv I? Soll leaves the source open and needs no reporting verb: 'Das Werk soll im Herbst schließen.' If you name the source, use Konjunktiv I and no modal: 'Der Chef sagt, das Werk schließe im Herbst.' Do not put both in one sentence. In a negative sentence nicht stands before the infinitive: 'Er soll nicht gekommen sein.'",
+        "es": "Repaso: B2.1 (g-modal-subjective-intro) enseñó soll para el rumor y will para una afirmación propia; aquí solo se profundizan tres cosas. Primero, mag admite que algo bien puede ser cierto, normalmente antes de aber o doch: 'Das mag sein, aber …'. Con sujeto plural es mögen: 'Die Zahlen mögen stimmen, doch …'. Mag suena formal y encaja en una argumentación o en un informe. Segundo, la pasiva en pasado: modal + Partizip II + worden sein. 'Die Rechnung soll bezahlt worden sein.' Es worden, no geworden. Tercero, ¿modal o Konjunktiv I? Soll deja abierta la fuente y no necesita verbo de habla: 'Das Werk soll im Herbst schließen.' Si nombras la fuente, usa Konjunktiv I y ningún modal: 'Der Chef sagt, das Werk schließe im Herbst.' No pongas los dos en una misma frase. En una frase negativa nicht va delante del infinitivo: 'Er soll nicht gekommen sein.'"
       },
       "examples": [
-        {
-          "de": "Der neue Abteilungsleiter soll sehr streng sein, aber ich kenne ihn nicht.",
-          "en": "The new head of department is said to be very strict, but I do not know him.",
-          "es": "Se dice que el nuevo jefe de departamento es muy estricto, pero no lo conozco."
-        },
-        {
-          "de": "Der Lieferant will die Rechnung längst bezahlt haben, aber bei uns ist nichts angekommen.",
-          "en": "The supplier claims to have paid the invoice long ago, but nothing has arrived with us.",
-          "es": "El proveedor afirma haber pagado la factura hace tiempo, pero a nosotros no nos ha llegado nada."
-        },
         {
           "de": "Das mag sein, aber die Kosten sind trotzdem zu hoch.",
           "en": "That may well be, but the costs are still too high.",
           "es": "Puede ser, pero los costes siguen siendo demasiado altos."
         },
         {
-          "de": "Die Kundin soll gestern dreimal angerufen haben.",
-          "en": "The customer is said to have called three times yesterday.",
-          "es": "Se dice que la clienta llamó ayer tres veces."
+          "de": "Die Zahlen mögen stimmen, doch die Kundinnen sind trotzdem unzufrieden.",
+          "en": "The figures may well be right, but the customers are still unhappy.",
+          "es": "Puede que las cifras sean correctas, pero las clientas siguen descontentas."
         },
         {
-          "de": "Der Fehler soll schon behoben worden sein.",
-          "en": "The error is said to have been fixed already.",
-          "es": "Se dice que el error ya ha sido corregido."
+          "de": "Die Rechnung soll schon bezahlt worden sein, aber wir finden keine Buchung.",
+          "en": "The invoice is said to have been paid already, but we cannot find a booking.",
+          "es": "Se dice que la factura ya ha sido pagada, pero no encontramos ningún asiento."
         },
         {
-          "de": "Er will von den Änderungen nichts gewusst haben.",
-          "en": "He claims not to have known anything about the changes.",
-          "es": "Afirma no haber sabido nada de los cambios."
+          "de": "Der Vertrag soll noch nicht unterschrieben worden sein.",
+          "en": "The contract is said not to have been signed yet.",
+          "es": "Se dice que el contrato todavía no ha sido firmado."
+        },
+        {
+          "de": "Sie mag recht haben, aber ich möchte es noch einmal prüfen.",
+          "en": "She may be right, but I would like to check it once more.",
+          "es": "Puede que tenga razón, pero quiero comprobarlo una vez más."
+        },
+        {
+          "de": "Der Chef sagt, das Lager schließe im Herbst. Es soll aber noch nichts entschieden sein.",
+          "en": "The boss says the warehouse is closing in the autumn. But nothing is said to be decided yet.",
+          "es": "El jefe dice que el almacén cierra en otoño. Pero se dice que todavía no hay nada decidido."
         }
       ],
       "typicalErrors": [
         {
-          "wrong": "Der Kunde soll gestern angerufen.",
-          "correct": "Der Kunde soll gestern angerufen haben.",
+          "wrong": "Der Fehler soll behoben geworden sein.",
+          "correct": "Der Fehler soll behoben worden sein.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'is said to have called' and Spanish 'se dice que llamó' do not show the Perfekt infinitive at the end. In German haben or sein must follow the Partizip II.",
-            "es": "El inglés 'is said to have called' y el español 'se dice que llamó' no muestran el infinitivo de Perfekt al final. En alemán haben o sein tienen que ir detrás del Partizip II."
+            "en": "Learners know that werden is 'become' and use geworden in the passive. In the Perfekt of the passive German uses the short form worden.",
+            "es": "El estudiante sabe que werden es 'llegar a ser' y usa geworden en la pasiva. En el Perfekt de la pasiva el alemán usa la forma corta worden."
           }
         },
         {
-          "wrong": "Mein Kollege soll ein Experte sein, sagt er selbst.",
-          "correct": "Mein Kollege will ein Experte sein, sagt er selbst.",
+          "wrong": "Die Kunden mag unzufrieden sein, aber wir haben alles richtig gemacht.",
+          "correct": "Die Kunden mögen unzufrieden sein, aber wir haben alles richtig gemacht.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "'Is supposed to be' covers both hearsay and self-description in English. German separates them: soll if others say it, will if the person says it about himself.",
-            "es": "'Se supone que es' cubre en español tanto el rumor como la autodescripción. El alemán los separa: soll si lo dicen otros, will si la persona lo dice de sí misma."
+            "en": "English 'may' never changes, so learners keep mag for every subject. In German the modal agrees with the subject: mag for one person, mögen for several.",
+            "es": "El 'may' inglés no cambia nunca, y el estudiante mantiene mag con todos los sujetos. En alemán el modal concuerda con el sujeto: mag para una persona, mögen para varias."
           }
         },
         {
-          "wrong": "Sie sollte gestern krank gewesen sein.",
-          "correct": "Sie soll gestern krank gewesen sein.",
+          "wrong": "Der Chef sagt, die Firma soll Gewinn gemacht haben.",
+          "correct": "Der Chef sagt, die Firma habe Gewinn gemacht.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "Learners put the modal into the past because the event was in the past. For hearsay about the past, the modal stays in the present; the past is in the Perfekt infinitive.",
-            "es": "El estudiante pone el modal en pasado porque el hecho es pasado. En el rumor sobre el pasado el modal queda en presente; el pasado va en el infinitivo de Perfekt."
+            "en": "English 'the boss says the firm is supposed to have made a profit' stacks a source and a hedge. In German a named source takes Konjunktiv I; soll without a source does the same job and the two do not combine.",
+            "es": "El inglés 'the boss says the firm is supposed to have made a profit' acumula fuente y reserva. En alemán una fuente nombrada lleva Konjunktiv I; soll sin fuente cumple la misma función y los dos no se combinan."
           }
         }
       ],
@@ -1844,79 +1842,81 @@
         {
           "type": "transform",
           "instruction": {
-            "en": "Say it with soll: others say it.",
-            "es": "Dilo con soll: lo dicen otros."
+            "en": "Admit the point with mag, then continue with aber.",
+            "es": "Admite el punto con mag y sigue con aber."
           },
-          "prompt": "Man sagt, das Restaurant ist sehr gut.",
+          "prompt": "Sie hat vielleicht recht. Aber ich bin anderer Meinung.",
           "answers": [
-            "Das Restaurant soll sehr gut sein."
+            "Sie mag recht haben, aber ich bin anderer Meinung.",
+            "Sie mag recht haben, doch ich bin anderer Meinung."
           ]
         },
         {
           "type": "transform",
           "instruction": {
-            "en": "Say it with soll: others say it.",
-            "es": "Dilo con soll: lo dicen otros."
+            "en": "Admit the point with mögen, then continue with aber.",
+            "es": "Admite el punto con mögen y sigue con aber."
           },
-          "prompt": "Man sagt, die Firma hat 200 Leute entlassen.",
+          "prompt": "Die Argumente sind vielleicht richtig. Aber wir haben kein Geld.",
           "answers": [
-            "Die Firma soll 200 Leute entlassen haben."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Say it with will: he claims it himself.",
-            "es": "Dilo con will: lo afirma él mismo."
-          },
-          "prompt": "Er behauptet, er hat die Mail nie bekommen.",
-          "answers": [
-            "Er will die Mail nie bekommen haben."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Say it with will: she claims it herself.",
-            "es": "Dilo con will: lo afirma ella misma."
-          },
-          "prompt": "Sie behauptet, sie war an dem Tag nicht im Büro.",
-          "answers": [
-            "Sie will an dem Tag nicht im Büro gewesen sein."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Admit the point with mag, then add aber.",
-            "es": "Admite el punto con mag y añade aber."
-          },
-          "prompt": "Das stimmt vielleicht. Aber wir haben keine Zeit.",
-          "answers": [
-            "Das mag stimmen, aber wir haben keine Zeit.",
-            "Das mag sein, aber wir haben keine Zeit."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Use the passive with worden.",
-            "es": "Usa la pasiva con worden."
-          },
-          "prompt": "Man sagt, die Rechnung wurde schon bezahlt.",
-          "answers": [
-            "Die Rechnung soll schon bezahlt worden sein."
+            "Die Argumente mögen richtig sein, aber wir haben kein Geld.",
+            "Die Argumente mögen richtig sein, doch wir haben kein Geld."
           ]
         },
         {
           "type": "complete",
           "instruction": {
-            "en": "Complete the verb at the end.",
-            "es": "Completa el verbo del final."
+            "en": "Choose mag or mögen.",
+            "es": "Elige mag o mögen."
           },
-          "prompt": "Der Techniker soll gestern hier gewesen ___.",
+          "prompt": "Die Zahlen ___ stimmen, aber die Lage bleibt schwierig.",
           "answers": [
-            "sein"
+            "mögen"
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Use soll and the passive with worden sein.",
+            "es": "Usa soll y la pasiva con worden sein."
+          },
+          "prompt": "Man sagt, der Antrag wurde abgelehnt.",
+          "answers": [
+            "Der Antrag soll abgelehnt worden sein."
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Use soll and the passive with worden sein.",
+            "es": "Usa soll y la pasiva con worden sein."
+          },
+          "prompt": "Man sagt, die Mails wurden nie gelesen.",
+          "answers": [
+            "Die Mails sollen nie gelesen worden sein."
+          ]
+        },
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Complete the passive.",
+            "es": "Completa la pasiva."
+          },
+          "prompt": "Der Fehler soll schon behoben ___ sein.",
+          "answers": [
+            "worden"
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Name the source and use Konjunktiv I instead of soll.",
+            "es": "Nombra la fuente y usa Konjunktiv I en lugar de soll."
+          },
+          "prompt": "Das Werk soll im Herbst schließen. (Der Chef sagt, ...)",
+          "answers": [
+            "Der Chef sagt, das Werk schließe im Herbst.",
+            "Der Chef sagt, dass das Werk im Herbst schließe."
           ]
         },
         {
@@ -1927,9 +1927,7 @@
           },
           "prompt": "Ihre Kollegen sagen: Die Chefin kündigt. Was sagen Sie?",
           "answers": [
-            "Die Chefin soll kündigen.",
-            "Die Chefin soll kündigen wollen.",
-            "Die Chefin soll gekündigt haben."
+            "Die Chefin soll kündigen."
           ]
         }
       ],
@@ -2011,8 +2009,8 @@
             "es"
           ],
           "why": {
-            "en": "In English slang 'too good' is praise. German zu always means 'more than is acceptable', so zu gut sounds like a complaint.",
-            "es": "En la jerga inglesa 'too good' es un elogio. En alemán zu significa siempre 'más de lo aceptable', así que zu gut suena a queja."
+            "en": "In English slang 'too good' is praise. German zu always means 'more than is acceptable', so in formal German 'zu gut' usually sounds like a complaint.",
+            "es": "En la jerga inglesa 'too good' es un elogio. En alemán zu significa siempre 'más de lo aceptable', así que en alemán formal 'zu gut' suele sonar a queja."
           }
         }
       ],
@@ -2130,8 +2128,8 @@
         "es": "Limpieza de errores I: los casos tras las preposiciones"
       },
       "explanation": {
-        "en": "A wrong case after a preposition is one of the longest-lasting errors. Check it in four steps. First find the preposition. Second recall its case: accusative after durch, für, gegen, ohne, um; dative after aus, bei, mit, nach, seit, von, zu; genitive after wegen, trotz, während, innerhalb and aufgrund. Third, with in, an, auf, über, unter, vor, hinter, neben and zwischen, ask 'Wohin?' (accusative, movement to) or 'Wo?' (dative, place). Fourth, check gender and number of the noun and put the article and the adjective ending in: 'mit meiner neuen Kollegin', 'für den neuen Plan', plural dative 'mit den Kollegen'. Remember the contractions: im, ins, am, beim, zum, zur, vom. Verbs bring their own preposition: warten auf plus accusative, sich interessieren für plus accusative, Angst haben vor plus dative. English 'wait for' and Spanish 'esperar' use no matching preposition, so you must learn the pairs. Read your own text once, only looking at the prepositions.",
-        "es": "Un caso equivocado tras una preposición es uno de los errores más persistentes. Compruébalo en cuatro pasos. Primero, localiza la preposición. Segundo, recuerda su caso: acusativo tras durch, für, gegen, ohne, um; dativo tras aus, bei, mit, nach, seit, von, zu; genitivo tras wegen, trotz, während, innerhalb y aufgrund. Tercero, con in, an, auf, über, unter, vor, hinter, neben y zwischen, pregunta 'Wohin?' (acusativo, movimiento hacia) o 'Wo?' (dativo, lugar). Cuarto, comprueba el género y el número del sustantivo y pon el artículo y la terminación del adjetivo: 'mit meiner neuen Kollegin', 'für den neuen Plan', dativo plural 'mit den Kollegen'. Recuerda las contracciones: im, ins, am, beim, zum, zur, vom. Los verbos traen su propia preposición: warten auf con acusativo, sich interessieren für con acusativo, Angst haben vor con dativo. El 'wait for' inglés y el 'esperar' español no usan una preposición equivalente, así que hay que aprender los pares. Lee tu texto una vez fijándote solo en las preposiciones."
+        "en": "A wrong case after a preposition is one of the longest-lasting errors. Check it in four steps. First find the preposition. Second recall its case: accusative after durch, für, gegen, ohne, um; dative after aus, bei, mit, nach, seit, von, zu; genitive after wegen, trotz, während, innerhalb and aufgrund. Third, with in, an, auf, über, unter, vor, hinter, neben and zwischen, ask 'Wohin?' (accusative, movement to) or 'Wo?' (dative, place). Fourth, check gender and number of the noun and put the article and the adjective ending in: 'mit meiner neuen Kollegin', 'für den neuen Plan', plural dative 'mit den Kollegen'. Remember the contractions: im, ins, am, beim, zum, zur, vom. Verbs bring their own preposition: warten auf plus accusative, sich interessieren für plus accusative, Angst haben vor plus dative. English 'wait for' looks like für, but German uses auf; Spanish 'esperar' has no preposition. So you must learn the pairs. Read your own text once, only looking at the prepositions.",
+        "es": "Un caso equivocado tras una preposición es uno de los errores más persistentes. Compruébalo en cuatro pasos. Primero, localiza la preposición. Segundo, recuerda su caso: acusativo tras durch, für, gegen, ohne, um; dativo tras aus, bei, mit, nach, seit, von, zu; genitivo tras wegen, trotz, während, innerhalb y aufgrund. Tercero, con in, an, auf, über, unter, vor, hinter, neben y zwischen, pregunta 'Wohin?' (acusativo, movimiento hacia) o 'Wo?' (dativo, lugar). Cuarto, comprueba el género y el número del sustantivo y pon el artículo y la terminación del adjetivo: 'mit meiner neuen Kollegin', 'für den neuen Plan', dativo plural 'mit den Kollegen'. Recuerda las contracciones: im, ins, am, beim, zum, zur, vom. Los verbos llevan su propia preposición: warten auf con acusativo, sich interessieren für con acusativo, Angst haben vor con dativo. El 'wait for' inglés se parece a für, pero el alemán usa auf; el 'esperar' español no lleva preposición. Por eso hay que aprender los pares. Lee tu texto una vez fijándote solo en las preposiciones."
       },
       "examples": [
         {
@@ -2674,9 +2672,9 @@
             "en": "Put the sentence after weil.",
             "es": "Pon la frase tras weil."
           },
-          "prompt": "Ich bin spät, ... Mein Zug kommt erst um neun an.",
+          "prompt": "Ich komme spät, ... Mein Zug kommt erst um neun an.",
           "answers": [
-            "Ich bin spät, weil mein Zug erst um neun ankommt."
+            "Ich komme spät, weil mein Zug erst um neun ankommt."
           ]
         },
         {
@@ -3049,7 +3047,7 @@
         ]
       },
       "example": {
-        "de": "Eine Masse von E-Mails wartet auf mich.",
+        "de": "Eine Masse E-Mails wartet auf mich.",
         "en": "A mass of e-mails is waiting for me.",
         "es": "Una gran cantidad de correos me está esperando."
       },
@@ -3207,7 +3205,7 @@
       "lemma": "Posten",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Posten",
       "themes": [
         "kurzbericht-statusmeldung"
       ],
@@ -3234,7 +3232,7 @@
       "lemma": "Finger",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Finger",
       "translations": {
         "en": [
           "finger"
@@ -3490,7 +3488,7 @@
       "lemma": "Abenteuer",
       "pos": "noun",
       "article": "das",
-      "plural": null,
+      "plural": "Abenteuer",
       "translations": {
         "en": [
           "adventure"
@@ -3845,7 +3843,7 @@
       "lemma": "Entwickler",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Entwickler",
       "translations": {
         "en": [
           "developer"
@@ -4476,7 +4474,7 @@
       "lemma": "Server",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Server",
       "translations": {
         "en": [
           "server"
@@ -6009,7 +6007,7 @@
       "lemma": "Kilogramm",
       "pos": "noun",
       "article": "das",
-      "plural": null,
+      "plural": "Kilogramme",
       "translations": {
         "en": [
           "kilogram"
@@ -6598,7 +6596,7 @@
       "lemma": "Vermögen",
       "pos": "noun",
       "article": "das",
-      "plural": null,
+      "plural": "Vermögen",
       "translations": {
         "en": [
           "wealth",
@@ -7312,7 +7310,7 @@
       "lemma": "Reifen",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Reifen",
       "translations": {
         "en": [
           "tyre"
@@ -7848,7 +7846,7 @@
       "lemma": "Rechner",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Rechner",
       "translations": {
         "en": [
           "computer",
@@ -7872,7 +7870,7 @@
       "lemma": "Vorgänger",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Vorgänger",
       "translations": {
         "en": [
           "predecessor"
@@ -8120,9 +8118,9 @@
         ]
       },
       "example": {
-        "de": "Ich habe die Fahrkarten ausgelegt und möchte das Geld zurück.",
-        "en": "I paid for the tickets in advance and would like the money back.",
-        "es": "He adelantado el dinero de los billetes y quisiera que me lo devolvieran."
+        "de": "Ich habe die Kosten für die Fahrkarten ausgelegt.",
+        "en": "I paid the cost of the tickets in advance.",
+        "es": "He adelantado el coste de los billetes."
       },
       "sublevel": "B2.3",
       "frequencyRank": 3175
@@ -8706,7 +8704,7 @@
       "lemma": "Gewitter",
       "pos": "noun",
       "article": "das",
-      "plural": null,
+      "plural": "Gewitter",
       "translations": {
         "en": [
           "thunderstorm"
@@ -9171,7 +9169,7 @@
       "lemma": "Träger",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Träger",
       "translations": {
         "en": [
           "carrier",
@@ -9962,7 +9960,7 @@
         ]
       },
       "example": {
-        "de": "In unserem Team arbeiten Menschen mit verschiedener Religion.",
+        "de": "In unserem Team arbeiten Menschen mit verschiedenen Religionen.",
         "en": "People of different religions work in our team.",
         "es": "En nuestro equipo trabajan personas de distintas religiones."
       },
@@ -10138,7 +10136,7 @@
       "lemma": "Anrufbeantworter",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Anrufbeantworter",
       "themes": [
         "telefon-kundenkontakt"
       ],
@@ -11832,7 +11830,7 @@
       "lemma": "Tippfehler",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Tippfehler",
       "themes": [
         "register-nachrichten-mails"
       ],
@@ -11882,7 +11880,7 @@
       "lemma": "Satzzeichen",
       "pos": "noun",
       "article": "das",
-      "plural": null,
+      "plural": "Satzzeichen",
       "themes": [
         "pruefung-b2"
       ],
@@ -12042,7 +12040,7 @@
       "lemma": "Vermittler",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Vermittler",
       "themes": [
         "konflikt-im-team"
       ],
@@ -12490,7 +12488,7 @@
       "lemma": "Hacker",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Hacker",
       "themes": [
         "texte-uni-betrieb-b2"
       ],
@@ -12798,7 +12796,7 @@
       "lemma": "Fußgänger",
       "pos": "noun",
       "article": "der",
-      "plural": null,
+      "plural": "Fußgänger",
       "translations": {
         "en": [
           "pedestrian"
@@ -13035,9 +13033,9 @@
         ]
       },
       "example": {
-        "de": "Die Scheibe im Büro ist gebrochen.",
-        "en": "The pane in the office is broken.",
-        "es": "El cristal de la oficina está roto."
+        "de": "Die Scheibe im Büro ist zerbrochen.",
+        "en": "The pane in the office has shattered.",
+        "es": "El cristal de la oficina se ha roto."
       },
       "sublevel": "B2.3",
       "frequencyRank": 2876
@@ -13122,9 +13120,9 @@
         ]
       },
       "example": {
-        "de": "Es hat sich ein Fehler in die Tabelle geschlichen.",
-        "en": "An error has crept into the table.",
-        "es": "Se ha colado un error en la tabla."
+        "de": "Er ist leise aus dem Büro geschlichen.",
+        "en": "He crept quietly out of the office.",
+        "es": "Salió sigilosamente de la oficina."
       },
       "sublevel": "B2.3",
       "frequencyRank": 2813
@@ -14338,12 +14336,12 @@
       {
         "id": "hoeren-teambesprechung-antwortfrist",
         "skill": "listening",
-        "format": "Teambesprechung: Auswahl, richtig/falsch und kurze Antworten",
+        "format": "Teambesprechung im Studierendenservice: Auswahl, richtig/falsch und kurze Antworten",
         "instructions": "Sie hören ein Gespräch in einer Teambesprechung. Sie hören das Gespräch zweimal. Wählen Sie die richtige Antwort, entscheiden Sie, ob die Aussage richtig oder falsch ist, oder antworten Sie kurz.",
         "minutes": 12,
         "points": 12,
         "material": {
-          "text": "Frau Wagner: Gut, dann zum letzten Punkt. Die Geschäftsleitung möchte, dass wir Kundenmails künftig innerhalb von 24 Stunden beantworten. Was haltet ihr davon?\nJonas: Ehrlich gesagt finde ich das ziemlich knapp. Wir haben ja nicht nur Mails, sondern auch den Telefondienst. Und am Montag liegen oft über hundert Nachrichten im Posteingang.\nLeyla: Das stimmt schon, aber für die Kunden ist es doch viel besser. Ich würde sagen, wir probieren es einfach mal aus. Wenn es nicht klappt, ändern wir es eben wieder.\nFrau Wagner: Ich schlage vor, dass wir es sechs Wochen testen. Jonas, du könntest eine Liste führen, wie viele Mails jeden Tag kommen.\nJonas: Von mir aus. Aber dann brauche ich am Montag jemanden, der mir hilft. Alleine schaffe ich das nicht.\nLeyla: Ich kann montags helfen. Ich habe da eigentlich nicht so viel zu tun.\nFrau Wagner: Prima, dann ziehen wir an einem Strang. Ich schicke heute noch eine Zusammenfassung an alle. Und Jonas, bitte sag Bescheid, wenn die Liste fertig ist.",
+          "text": "Herr Schulte: Gut, dann zum letzten Punkt. Die Hochschule möchte, dass jede Anfrage im Ticketsystem spätestens am nächsten Werktag eine erste Antwort bekommt. Wie seht ihr das?\nSelin: Ich finde das richtig, aber nur, wenn wir die neuen Tickets jeden Morgen verteilen. Sonst antworten zwei Leute auf dasselbe Ticket, und ein anderes bleibt liegen.\nMarek: Ich arbeite nur dienstags und donnerstags. Wenn montags ein Ticket kommt, kann ich es erst am Dienstag lesen. Das ist doch schon mehr als ein Werktag.\nHerr Schulte: Stimmt, das Argument zählt. Ich schlage vor, dass wir es vier Wochen testen. Selin, du könntest morgens um neun die Tickets verteilen.\nSelin: Gern, aber bitte nicht mittwochs. Da bin ich in der Vorlesung.\nHerr Schulte: Gut, dann verteile ich die Tickets mittwochs selbst. Ich schicke heute noch eine Übersicht an alle. Und Marek, bitte sag mir nach den vier Wochen, wie es für dich war.",
           "playsAllowed": 2
         },
         "items": [
@@ -14352,17 +14350,17 @@
             "question": "1. Worum geht es in der Besprechung?",
             "type": "multiple-choice",
             "options": [
-              "Kundenmails sollen schneller beantwortet werden.",
-              "Der Telefondienst soll abgeschafft werden.",
-              "Das Team bekommt einen neuen Posteingang."
+              "Jede Anfrage soll schneller eine erste Antwort bekommen.",
+              "Das Ticketsystem soll abgeschafft werden.",
+              "Das Team bekommt neue Mitarbeiter."
             ],
             "answer": [
-              "Kundenmails sollen schneller beantwortet werden."
+              "Jede Anfrage soll schneller eine erste Antwort bekommen."
             ]
           },
           {
-            "id": "jonas-knapp",
-            "question": "2. Jonas findet die neue Frist zu knapp.",
+            "id": "selin-machbar",
+            "question": "2. Selin hält die neue Regel grundsätzlich für richtig.",
             "type": "true-false",
             "options": [
               "richtig",
@@ -14373,16 +14371,16 @@
             ]
           },
           {
-            "id": "leyla-meinung",
-            "question": "3. Was schlägt Leyla vor?",
+            "id": "selin-bedingung",
+            "question": "3. Welche Bedingung nennt Selin?",
             "type": "multiple-choice",
             "options": [
-              "Man soll die Regel ausprobieren und im Notfall wieder ändern.",
-              "Man soll die Regel ablehnen.",
-              "Man soll mehrere Monate warten, bevor man entscheidet."
+              "Die neuen Tickets werden jeden Morgen verteilt.",
+              "Das Team arbeitet am Wochenende.",
+              "Die Frist wird auf eine Woche verlängert."
             ],
             "answer": [
-              "Man soll die Regel ausprobieren und im Notfall wieder ändern."
+              "Die neuen Tickets werden jeden Morgen verteilt."
             ]
           },
           {
@@ -14390,21 +14388,22 @@
             "question": "4. Wie lange soll der Test dauern?",
             "type": "short-answer",
             "answer": [
-              "sechs Wochen",
-              "6 Wochen"
+              "vier Wochen",
+              "4 Wochen"
             ]
           },
           {
-            "id": "hilfe-montag",
-            "question": "5. Wer hilft Jonas am Montag?",
+            "id": "tickets-mittwoch",
+            "question": "5. Wer verteilt die Tickets am Mittwoch?",
             "type": "short-answer",
             "answer": [
-              "Leyla"
+              "Herr Schulte",
+              "Schulte"
             ]
           },
           {
             "id": "zusammenfassung",
-            "question": "6. Frau Wagner schickt am Ende der Woche eine Zusammenfassung an alle.",
+            "question": "6. Herr Schulte schickt am Ende der Woche eine Übersicht an alle.",
             "type": "true-false",
             "options": [
               "richtig",
@@ -14440,7 +14439,7 @@
                   "grammar": 0,
                   "vocabulary-register": 0
                 },
-                "rationale": "Task completion 0: seven words; no apology, no explanation, only one half-solution, no deadline, and greeting and closing do not fit. Coherence 0: isolated fragments. Grammar 0: no sentence has a full structure. Vocabulary and register 0: Hallo and Tschüss in a formal reply to a customer; far too few words."
+                "rationale": "Task completion 0: 7 words; no apology, no explanation, only one half-solution, no deadline, and greeting and closing do not fit. Coherence 0: isolated fragments. Grammar 0: no sentence has a full structure. Vocabulary and register 0: Hallo and Tschüss in a formal reply to a customer; far too few words."
               },
               {
                 "response": "Frau Sommer, sorry Stuhl. Neue Stuhl oder money. Antwort Freitag. Danke",
@@ -14460,7 +14459,7 @@
                   "grammar": 1,
                   "vocabulary-register": 0
                 },
-                "rationale": "Task completion 0: about 17 words; only an apology and one solution, with no reason for the delay, no refund option and no request for a reply. Coherence 0: three unrelated sentences. Grammar 1: the sentences are correct but trivial. Vocabulary and register 0: the salutation and closing are right, but the text has almost no content words."
+                "rationale": "Task completion 0: 16 words; only an apology and one solution, with no reason for the delay, no refund option and no request for a reply. Coherence 0: three unrelated sentences. Grammar 1: the sentences are correct but trivial. Vocabulary and register 0: the salutation and closing are right, but the text has almost no content words."
               }
             ]
           },
@@ -14475,7 +14474,7 @@
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 1: both solutions and the deadline are there, but no durations and the apology for the long wait is missing; about 40 words, far too short. Coherence 1: a list of short sentences. Grammar 1: 'ein neue Stuhl', 'Die Mail ist verloren in andere Abteilung' (word order and case). Vocabulary and register 1: Hallo, Tschüss and 'Ich will wissen' are too blunt for a formal reply."
+                "rationale": "Task completion 1: both solutions and the deadline are there, but no durations and the apology for the long wait is missing; 37 words, far too short. Coherence 1: a list of short sentences. Grammar 1: 'ein neue Stuhl', 'Die Mail ist verloren in andere Abteilung' (word order and case). Vocabulary and register 1: Hallo, Tschüss and 'Ich will wissen' are too blunt for a formal reply."
               },
               {
                 "response": "Sehr geehrte Frau Sommer,\nwir haben Ihre Mail bekommen und wir sind traurig für der kaputte Stuhl. Warum Sie haben keine Antwort bekommen? Weil die Mail ist gegangen in die falsche Abteilung.\nSie können ein neuer Stuhl haben, fünf Tage. Oder Geld zurück, zehn Tage. Sie sagen bitte bis Freitag.\nMit freundliche Gruss\nKundenservice",
@@ -14485,7 +14484,7 @@
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 2: all points are present, but briefly, about 55 words. Coherence 1: short sentences with a weil-clause that is broken. Grammar 1: verb position in 'Warum Sie haben', 'Weil die Mail ist gegangen', and the cases 'für der kaputte Stuhl', 'ein neuer Stuhl haben'. Vocabulary and register 1: 'traurig sein für' is a literal translation, 'Sie sagen bitte' is a command, and 'Gruss' and 'freundliche' are misspelled."
+                "rationale": "Task completion 2: all points are present, but briefly, 54 words. Coherence 1: short sentences with a weil-clause that is broken. Grammar 1: verb position in 'Warum Sie haben', 'Weil die Mail ist gegangen', and the cases 'für der kaputte Stuhl', 'ein neuer Stuhl haben'. Vocabulary and register 1: 'traurig sein für' is a literal translation, 'Sie sagen bitte' is a command, and 'Gruss' and 'freundliche' are misspelled."
               },
               {
                 "response": "Sehr geehrte Frau Sommer, ich entschuldige mich für der Problem. Ich habe nicht gewusst, dass Sie warten. Sie können Geld bekommen oder neue Stuhl. Bitte antworten Sie mir. Mit freundlichen Grüßen, Sara",
@@ -14495,7 +14494,7 @@
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 1: apology and two options are mentioned, but there is no durations, no deadline and no real explanation; about 33 words, clearly too short. Coherence 1: short sentences with no connectors. Grammar 1: 'für der Problem', 'neue Stuhl'. Vocabulary and register 1: salutation and closing fit and the tone is polite, but the vocabulary is very basic and 'Ich habe nicht gewusst' hides the actual reason."
+                "rationale": "Task completion 1: apology and two options are mentioned, but there is no durations, no deadline and no real explanation; 32 words, clearly too short. Coherence 1: short sentences with no connectors. Grammar 1: 'für der Problem', 'neue Stuhl'. Vocabulary and register 1: salutation and closing fit and the tone is polite, but the vocabulary is very basic and 'Ich habe nicht gewusst' hides the actual reason."
               }
             ]
           },
@@ -14503,34 +14502,34 @@
             "band": 2,
             "samples": [
               {
-                "response": "Sehr geehrte Frau Sommer,\n\ndanke für Ihre E-Mail. Es tut mir leid, dass der Stuhl kaputt angekommen ist. Entschuldigung auch, dass Sie keine Antwort bekommen haben. Ihre E-Mail ist in die falsche Abteilung gegangen, deshalb hat niemand sie gelesen.\n\nWir haben zwei Möglichkeiten für Sie. Erstens können wir Ihnen einen neuen Stuhl schicken. Er kommt in fünf Werktagen. Zweitens können wir Ihnen das Geld zurückgeben, das dauert ungefähr zehn Tage.\n\nBitte schreiben Sie mir bis Freitag, was Sie möchten. Dann machen wir es sofort.\n\nMit freundlichen Grüßen\nLucía Ramos",
+                "response": "Sehr geehrte Frau Sommer,\n\ndanke für Ihre E-Mail. Es tut mir leid, dass der Stuhl kaputt angekommen ist. Ich möchte mich auch entschuldigen, dass Sie keine Antwort bekommen haben. Ihre erste E-Mail ist in die falsche Abteilung gegangen, deshalb hat niemand sie gelesen. Das war nicht gut, und wir wissen es jetzt.\n\nWir haben zwei Möglichkeiten für Ihnen. Erstens können wir einen neuen Stuhl schicken. Er kommt in fünf Werktagen bei Ihnen an. Zweitens können wir Ihnen das Geld zurückgeben, das dauert ungefähr zehn Tage. Beide Lösungen sind für uns kein Problem. Wir hoffen, dass Sie damit zufrieden sind.\n\nBitte schreiben Sie mir bis Freitag, welche Lösung Sie möchten. Dann machen wir es sofort. Wenn Sie noch eine Frage haben, rufen Sie mich einfach an. Ich bin morgen und am Donnerstag im Büro.\n\nMit freundlichen Grüßen\nLucía Ramos",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: every point is covered clearly, but at about 100 words the text is short of the target. Coherence 2: a clear order with Erstens/Zweitens and deshalb. Grammar 2: mostly correct, with 'in fünf Werktagen' instead of innerhalb von fünf Werktagen. Vocabulary and register 2: polite and consistent, but 'kaputt' and 'machen wir es' are plain; no set phrases beyond the basics."
+                "rationale": "Task completion 2: every point is covered clearly, with 138 words, near the target. Coherence 2: a clear order with Erstens/Zweitens and deshalb. Grammar 2: mostly correct; the one clear slip is 'für Ihnen' (für takes the accusative: für Sie); 'in fünf Werktagen' is acceptable. Vocabulary and register 2: polite and consistent, but 'kaputt', 'Das war nicht gut' and 'machen wir es' are plain; no set phrases beyond the basics."
               },
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nwir haben Ihre E-Mail bekommen. Es tut uns leid für das Problem mit dem Stuhl und dass Sie so lange warten. Der Grund ist, dass Ihre erste E-Mail an die falsche Abteilung geschickt wurde. Das ist ein Fehler von uns.\n\nWir können Ihnen einen neuen Stuhl schicken, er kommt innerhalb fünf Werktage. Oder wir zahlen Ihnen das Geld zurück, das dauert circa zehn Tage. Was möchten Sie? Bitte sagen Sie uns Bescheid bis Freitag, weil wir müssen alles organisieren.\n\nMit freundlichen Grüße\nIhr Kundenservice",
+                "response": "Sehr geehrte Frau Sommer,\n\nwir haben Ihre E-Mail bekommen. Es tut uns leid für das Problem mit dem Stuhl und dass Sie so lange warten. Der Grund ist, dass Ihre erste E-Mail an die falsche Abteilung geschickt wurde. Das ist ein Fehler von uns, und wir möchten uns dafür entschuldigen.\n\nWir können Ihnen einen neuen Stuhl schicken, er kommt innerhalb fünf Werktage. Oder wir zahlen Ihnen das Geld zurück, das dauert circa zehn Tage. Was möchten Sie lieber? Wir wissen, dass das für Sie sehr ärgerlich ist. Wir hoffen, dass eine der beiden Lösungen für Sie passt. Bitte sagen Sie uns Bescheid bis Freitag, weil wir müssen alles organisieren.\n\nDanach kümmern wir uns sofort um Ihren Wunsch. Wenn Sie noch Fragen haben, schreiben Sie uns gern. Wir freuen uns über Ihre Antwort.\n\nMit freundlichen Grüße\nIhr Kundenservice",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: all points are present and clear; about 100 words. Coherence 2: the passive and the weil-clause link the ideas, with some short jumps. Grammar 2: 'innerhalb fünf Werktage' (case) and 'weil wir müssen' (verb position) and 'Grüße' are errors that do not hide the meaning; the passive 'geschickt wurde' is right. Vocabulary and register 2: formal and consistent, with Bescheid sagen as a good set phrase; 'zahlen Ihnen das Geld zurück' is plain."
+                "rationale": "Task completion 2: all points are present and clear; 137 words, near the target. Coherence 2: the passive and the weil-clause link the ideas, with some short jumps. Grammar 2: 'innerhalb fünf Werktage' (innerhalb von fünf Werktagen), 'weil wir müssen' (verb position) and 'Grüße' (Grüßen) are errors that do not hide the meaning; the passive 'geschickt wurde' is right. Vocabulary and register 2: formal and consistent, with Bescheid sagen as a good set phrase; 'zahlen Ihnen das Geld zurück' is plain."
               },
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Es tut mir sehr leid, dass die Armlehne vom Stuhl gebrochen war. Ich entschuldige mich auch für die späte Antwort: Ihre erste Mail wurde leider an einer anderen Abteilung geschickt, und dort hat sie keiner bearbeitet.\n\nAls Lösung können wir Ihnen einen neuen Stuhl liefern. Das dauert fünf Werktage. Möchten Sie lieber Ihr Geld zurück, bekommen Sie die Erstattung in etwa zehn Tagen.\n\nKönnten Sie mir bitte bis Freitag antworten, welche Lösung Sie bevorzugen? Danach kann ich alles sofort veranlassen.\n\nMit freundlichen Grüßen\nTomás Vega",
+                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Es tut mir sehr leid, dass die Armlehne vom Stuhl gebrochen war. Ich entschuldige mich auch für die späte Antwort: Ihre erste Mail wurde leider an einer anderen Abteilung geschickt, und dort hat sie keiner bearbeitet. Das hätte nicht passieren sollen. Ich verstehe, dass Sie sehr verärgert sind.\n\nAls Lösung können wir Ihnen einen neuen Stuhl liefern. Das dauert fünf Werktage. Möchten Sie lieber Ihr Geld zurück, bekommen Sie die Erstattung in etwa zehn Tagen. Die Entscheidung liegt ganz bei Ihnen.\n\nKönnten Sie mir bitte bis Freitag antworten, welche Lösung Sie bevorzugen? Danach kann ich alles sofort veranlassen. Wir hoffen, dass wir das Problem so schnell lösen können. Sollten Sie vorher noch Fragen haben, erreichen Sie mich jederzeit unter der Nummer in meiner Signatur.\n\nMit freundlichen Grüßen\nTomás Vega",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 2: all points covered, about 105 words. Coherence 2: logical order with a clear request at the end, but few connectors. Grammar 2: 'an einer anderen Abteilung geschickt' (an eine andere Abteilung, accusative) is the one clear error; the polite Konjunktiv II and the subordinate clauses are right. Vocabulary and register 3: polite and consistent, with fitting phrases such as 'Ich entschuldige mich', 'Erstattung' and 'veranlassen'."
+                "rationale": "Task completion 2: all points covered, with 138 words, near the target. Coherence 2: logical order with a clear request at the end, but few connectors. Grammar 2: 'an einer anderen Abteilung geschickt' (an eine andere Abteilung, accusative after a movement verb) is the one clear error; the polite Konjunktiv II and the subordinate clauses are right. Vocabulary and register 3: polite and consistent, with fitting phrases such as 'Ich entschuldige mich', 'Erstattung' and 'veranlassen'."
               }
             ]
           },
@@ -14538,34 +14537,34 @@
             "band": 3,
             "samples": [
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht, und bitte entschuldigen Sie die lange Wartezeit. Dass Ihr Bürostuhl mit einer gebrochenen Armlehne angekommen ist, tut uns sehr leid.\n\nIhre erste E-Mail ist leider an die falsche Abteilung gegangen und deshalb liegen geblieben. Das hätte nicht passieren dürfen. Wir haben das intern geklärt, damit es nicht noch einmal vorkommt.\n\nGern bieten wir Ihnen zwei Lösungen an: Wir können Ihnen einen neuen Stuhl schicken, der innerhalb von fünf Werktagen bei Ihnen ankommt. Alternativ erstatten wir Ihnen den Kaufpreis; das Geld ist dann in etwa zehn Tagen auf Ihrem Konto.\n\nBitte teilen Sie uns bis Freitag mit, welche Lösung Sie bevorzugen. Wenn Sie noch Fragen haben, melden Sie sich jederzeit bei uns.\n\nMit freundlichen Grüßen\nAna Torres\nKundenservice Bürowelt Nord",
+                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht, und bitte entschuldigen Sie die lange Wartezeit. Dass Ihr Bürostuhl mit einer gebrochenen Armlehne angekommen ist, tut uns sehr leid. Wir bitten Sie um Entschuldigung für die Unannehmlichkeiten.\n\nIhre erste E-Mail ist leider an die falsche Abteilung gegangen und deshalb liegen geblieben. Das hätte nicht passieren dürfen. Wir haben das intern geklärt, damit es nicht noch einmal vorkommt.\n\nGern bieten wir Ihnen zwei Lösungen an: Wir können Ihnen einen neuen Stuhl schicken, der innerhalb von fünf Werktagen bei Ihnen ankommt. Alternativ erstatten wir Ihnen den Kaufpreis; das Geld ist dann in etwa zehn Tagen auf Ihrem Konto.\n\nBitte teilen Sie uns bis Freitag mit, welche Lösung Sie bevorzugen. Sobald wir Ihre Antwort haben, veranlassen wir alles Weitere. Wenn Sie noch Fragen haben, melden Sie sich jederzeit bei uns.\n\nMit freundlichen Grüßen\nAna Marín\nKundenservice Bürowelt Nord",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: every point is covered clearly and in detail, about 150 words, and Frau Sommer could act on it. Coherence 3: apology, reason, solutions and request follow each other, linked with deshalb, damit and alternativ. Grammar 3: dass-clause in first position, Konjunktiv II in the past ('hätte nicht passieren dürfen'), relative clause; no errors. Vocabulary and register 3: consistent, natural customer-service register (erstatten, bevorzugen, Wartezeit)."
+                "rationale": "Task completion 3: every point is covered clearly and in detail, with 145 words, on target, and Frau Sommer could act on it. Coherence 3: apology, reason, solutions and request follow each other, linked with deshalb, damit, alternativ and sobald. Grammar 3: dass-clause in first position, Konjunktiv II in the past ('hätte nicht passieren dürfen'), relative clause; no errors. Vocabulary and register 3: consistent, natural customer-service register (erstatten, bevorzugen, Wartezeit, veranlassen)."
               },
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre E-Mail. Es tut mir aufrichtig leid, dass Ihr Bürostuhl mit einer gebrochenen Armlehne bei Ihnen angekommen ist und dass Sie so lang auf eine Antwort warten mussten.\n\nDer Grund für die Verspätung ist, dass Ihre erste Nachricht in der falschen Abteilung gelandet ist. Dafür möchte ich mich ausdrücklich entschuldigen.\n\nWir können Ihnen jetzt zwei Möglichkeiten anbieten. Entweder schicken wir Ihnen einen neuen Stuhl; er wäre innerhalb von fünf Werktagen bei Ihnen. Oder wir erstatten Ihnen den Kaufpreis, was etwa zehn Tage dauert. Welche Lösung wäre Ihnen lieber?\n\nIch würde mich freuen, wenn Sie mir bis Freitag kurz Bescheid geben könnten. Dann kümmere ich mich sofort um alles Weitere.\n\nFreundliche Grüße\nMehmet Aydin\nKundenservice",
+                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre E-Mail. Es tut mir aufrichtig leid, dass Ihr Bürostuhl mit einer gebrochenen Armlehne bei Ihnen angekommen ist und dass Sie so lang auf eine Antwort warten mussten.\n\nDer Grund für die Verspätung ist, dass Ihre erste Nachricht in der falschen Abteilung gelandet ist. Dafür möchte ich mich ausdrücklich entschuldigen. Wir prüfen jetzt, wie wir solche Fehler künftig vermeiden können.\n\nWir können Ihnen jetzt zwei Möglichkeiten anbieten. Entweder schicken wir Ihnen einen neuen Stuhl; er wäre innerhalb von fünf Werktagen bei Ihnen. Oder wir erstatten Ihnen den Kaufpreis, was etwa zehn Tage dauert. Welche Lösung wäre Ihnen lieber?\n\nIch würde mich freuen, wenn Sie mir bis Freitag kurz Bescheid geben könnten. Dann kümmere ich mich sofort um alles Weitere.\n\nFreundliche Grüße\nMehmet Yıldız\nKundenservice",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: all points in detail with a clear request, about 140 words. Coherence 3: clear line from apology to request, with a good use of Entweder/Oder and 'was etwa zehn Tage dauert'. Grammar 3: only one slip ('so lang' instead of so lange); Konjunktiv II for politeness and a was-relative clause are correct. Vocabulary and register 3: warm and formal at once; 'sich um etwas kümmern' and 'ausdrücklich' are natural."
+                "rationale": "Task completion 3: all points in detail with a clear request, 131 words, on target. Coherence 3: a clear line from apology to request, with a good use of Entweder/Oder and 'was etwa zehn Tage dauert'. Grammar 3: only one slip ('so lang' instead of so lange); Konjunktiv II for politeness and a was-relative clause are correct. Vocabulary and register 3: warm and formal at once; 'sich um etwas kümmern' and 'ausdrücklich' are natural."
               },
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Wir bedauern sehr, dass Ihr Stuhl beschädigt geliefert wurde, und wir entschuldigen uns dafür, dass Sie so lange auf eine Antwort warten mussten. Ihre erste Mail ist bei uns leider in der falschen Abteilung gelandet, daher hat sie niemand rechtzeitig gelesen.\n\nWir möchten Ihnen zwei Lösungen anbieten. Zum einen schicken wir Ihnen einen neuen Stuhl, den Sie innerhalb von fünf Werktagen erhalten. Zum anderen können wir Ihnen den Kaufpreis erstatten. Die Erstattung dauert in der Regel etwa zehn Tage.\n\nBitte lassen Sie uns bis Freitag wissen, für welche Möglichkeit Sie sich entscheiden. Wir kümmern uns dann umgehend darum.\n\nMit freundlichen Grüßen\nSofía Marín\nKundenservice Bürowelt Nord",
+                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Wir bedauern sehr, dass Ihr Stuhl beschädigt geliefert wurde, und wir entschuldigen uns dafür, dass Sie so lange auf eine Antwort warten mussten. Ihre erste Mail ist bei uns leider in der falschen Abteilung gelandet, daher hat sie niemand rechtzeitig gelesen. Das ist ärgerlich, und wir möchten es wiedergutmachen.\n\nWir möchten Ihnen zwei Lösungen anbieten. Zum einen schicken wir Ihnen einen neuen Stuhl, den Sie innerhalb von fünf Werktagen erhalten. Zum anderen können wir Ihnen den Kaufpreis erstatten. Die Erstattung dauert in der Regel etwa zehn Tage. Beide Möglichkeiten stehen Ihnen offen.\n\nBitte lassen Sie uns bis Freitag wissen, für welche Möglichkeit Sie sich entscheiden. Wir kümmern uns dann umgehend darum und melden uns, sobald alles auf dem Weg ist.\n\nMit freundlichen Grüßen\nSofía Marín\nKundenservice Bürowelt Nord",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 3: every point is covered with fitting detail, about 135 words. Coherence 3: Zum einen / Zum anderen and daher give a clear structure. Grammar 3: passive in the past, relative clause with den, and the verb at the end are all correct; no errors. Vocabulary and register 2: correct and formal, but the wording stays close to the task text (bedauern, erstatten) and 'in der Regel' is the only extra phrase, so it is a slightly narrower range than a full band 3."
+                "rationale": "Task completion 3: every point is covered with fitting detail, with 137 words, on target. Coherence 3: Zum einen / Zum anderen and daher give a clear structure. Grammar 3: passive in the past, relative clause with den, and the verb at the end are all correct; no errors. Vocabulary and register 2: correct and formal, but the wording stays close to the task text (bedauern, erstatten) and 'in der Regel' is the only extra phrase, so it is a slightly narrower range than a full band 3."
               }
             ]
           }
@@ -14574,8 +14573,8 @@
       {
         "id": "schreiben-teamnachricht-terminaenderung",
         "skill": "writing",
-        "format": "Kurze informelle Nachricht an das Team: Terminänderung mitteilen",
-        "instructions": "Die Teambesprechung am Donnerstag wird von 10 Uhr auf 14 Uhr verschoben, weil Ihre Teamleiterin, Frau Wagner, am Vormittag einen Kundentermin hat. Schreiben Sie eine Chat-Nachricht an das Team. Sie duzen sich im Team. Sagen Sie, was sich ändert und warum. Bitten Sie alle, Ihnen bis morgen Mittag zu bestätigen, dass die neue Zeit passt. Bitten Sie außerdem jeden, vor der Besprechung die eigene Aufgabenliste zu aktualisieren. Schreiben Sie etwa 90 Wörter.",
+        "format": "Kurze informelle Nachricht an das Team: Änderung des Schichtbeginns mitteilen",
+        "instructions": "Sie arbeiten in Teilzeit im Team eines kleinen Ladens (erfunden). Der Beginn der Frühschicht am Montag verschiebt sich von 7 auf 8 Uhr, weil die Warenlieferung erst um 8 Uhr kommt. Schreiben Sie eine Chat-Nachricht an das Team. Sie duzen sich im Team. Sagen Sie, was sich ändert und warum. Bitten Sie alle, Ihnen bis morgen Mittag zu bestätigen, dass die neue Zeit passt. Bitten Sie außerdem jeden, vor Schichtbeginn die eigene Aufgabenliste zu aktualisieren. Schreiben Sie etwa 90 Wörter.",
         "minutes": 15,
         "points": 10,
         "wordCount": {
@@ -14588,34 +14587,34 @@
             "band": 0,
             "samples": [
               {
-                "response": "Besprechung 14 Uhr. Danke.",
+                "response": "Montag 8 Uhr. Danke.",
                 "criterionBands": {
                   "task-completion": 0,
                   "coherence": 0,
                   "grammar": 0,
                   "vocabulary-register": 0
                 },
-                "rationale": "Task completion 0: only the new time is given; no reason, no request to confirm, no task list, no greeting; four words. Coherence 0: two fragments. Grammar 0: no verbs. Vocabulary and register 0: the message is too short to show a register."
+                "rationale": "Task completion 0: only the new time is given; no reason, no request to confirm, no task list, no greeting; 4 words. Coherence 0: two fragments. Grammar 0: no verbs. Vocabulary and register 0: the message is too short to show a register."
               },
               {
-                "response": "Hallo, Donnerstag Besprechung neu. ok?",
+                "response": "Hallo, Montag Schicht neu. ok?",
                 "criterionBands": {
                   "task-completion": 0,
                   "coherence": 0,
                   "grammar": 0,
                   "vocabulary-register": 0
                 },
-                "rationale": "Task completion 0: says that something is new, but gives neither the time nor the reason nor the two requests; five words. Coherence 0: words in a row. Grammar 0: no verb. Vocabulary and register 0: a greeting, but almost no German words for the content."
+                "rationale": "Task completion 0: says that something is new, but gives neither the time nor the reason nor the two requests; 5 words. Coherence 0: words in a row. Grammar 0: no verb. Vocabulary and register 0: a greeting, but almost no German words for the content."
               },
               {
-                "response": "Hi Team, wir haben morgen eine Besprechung. Bis dann!",
+                "response": "Hi Team, wir haben morgen Schicht. Bis dann!",
                 "criterionBands": {
                   "task-completion": 0,
                   "coherence": 0,
                   "grammar": 1,
                   "vocabulary-register": 0
                 },
-                "rationale": "Task completion 0: the content is wrong (tomorrow instead of Thursday at 14 Uhr) and no point of the task is covered. Coherence 0: one statement, no structure. Grammar 1: the sentences are correct but trivial. Vocabulary and register 0: the relaxed tone fits, but there are too few content words."
+                "rationale": "Task completion 0: the content is wrong (tomorrow instead of Monday at 8 Uhr) and no point of the task is covered; 8 words. Coherence 0: one statement, no structure. Grammar 1: the sentences are correct but trivial. Vocabulary and register 0: the relaxed tone fits, but there are too few content words."
               }
             ]
           },
@@ -14623,34 +14622,34 @@
             "band": 1,
             "samples": [
               {
-                "response": "Hallo, Besprechung Donnerstag ist 14 Uhr nicht 10 weil Frau Wagner hat Kunde. Bitte Antwort bis morgen. Tschüss",
+                "response": "Hallo, Frühschicht Montag ist 8 Uhr nicht 7 weil Lieferung kommt spät. Bitte Antwort bis morgen. Tschüss",
                 "criterionBands": {
                   "task-completion": 1,
                   "coherence": 1,
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 1: new time, reason and a request to answer are present, but the task list is missing and 'Antwort bis morgen' lacks Mittag; about 20 words. Coherence 1: weil appears but the clause is broken. Grammar 1: 'weil Frau Wagner hat Kunde', no article, no verb in the request. Vocabulary and register 1: the relaxed tone fits, but the wording is telegraphic."
+                "rationale": "Task completion 1: new time, reason and a request to answer are present, but the task list is missing and 'Antwort bis morgen' lacks Mittag; 17 words, clearly too short. Coherence 1: weil appears but the clause is broken. Grammar 1: 'weil Lieferung kommt spät' (verb position, no article), no verb in the request. Vocabulary and register 1: the relaxed tone fits, but the wording is telegraphic."
               },
               {
-                "response": "Liebe Team, die Besprechung wir müssen verschieben. Neue Zeit ist 14 Uhr. Warum? Frau Wagner ist beim Kunden. Ihr müsst bestätigen morgen. Aufgabenliste auch. Danke",
+                "response": "Liebe Team, die Schicht wir müssen verschieben. Neue Zeit ist 8 Uhr. Warum? Lieferung kommt später. Ihr müsst bestätigen morgen. Aufgabenliste auch. Danke",
                 "criterionBands": {
                   "task-completion": 1,
                   "coherence": 1,
                   "grammar": 1,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 1: all points are touched, but the day is missing and the requests are very curt ('Aufgabenliste auch'); about 25 words. Coherence 1: a chain of short statements. Grammar 1: 'Liebe Team' (Liebes), 'die Besprechung wir müssen verschieben' and 'Ihr müsst bestätigen morgen' are word-order errors. Vocabulary and register 2: the tone and the words (verschieben, bestätigen, Aufgabenliste) fit a team chat."
+                "rationale": "Task completion 1: all points are touched, but the day is missing and the requests are very curt ('Aufgabenliste auch'); 23 words, clearly too short. Coherence 1: a chain of short statements. Grammar 1: 'Liebe Team' (Liebes), 'die Schicht wir müssen verschieben' and 'Ihr müsst bestätigen morgen' are word-order errors. Vocabulary and register 2: the tone and the words (verschieben, bestätigen, Aufgabenliste) fit a team chat."
               },
               {
-                "response": "Sehr geehrte Kollegen, ich informiere Sie, dass die Besprechung am Donnerstag um 14 Uhr stattfindet. Ich bitte Sie, bis morgen zu antworten. Mit freundlichen Grüßen",
+                "response": "Sehr geehrte Kollegen, ich informiere Sie, dass die Frühschicht am Montag um 8 Uhr beginnt. Ich bitte Sie, bis morgen zu antworten. Mit freundlichen Grüßen",
                 "criterionBands": {
                   "task-completion": 1,
                   "coherence": 1,
                   "grammar": 2,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 1: gives the new time and asks for an answer, but no reason and no task list; about 25 words. Coherence 1: two statements without connection. Grammar 2: the sentences are correct, including the dass-clause. Vocabulary and register 1: the wrong register: Sie and a formal closing in a chat with colleagues who say du."
+                "rationale": "Task completion 1: gives the new time and asks for an answer, but no reason and no task list; 25 words, clearly too short. Coherence 1: two statements without connection. Grammar 2: the sentences are correct, including the dass-clause. Vocabulary and register 1: the wrong register: Sie and a formal closing in a chat with colleagues who say du."
               }
             ]
           },
@@ -14658,34 +14657,34 @@
             "band": 2,
             "samples": [
               {
-                "response": "Hallo Team,\ndie Besprechung am Donnerstag ist jetzt um 14 Uhr, nicht um 10 Uhr. Frau Wagner hat am Vormittag einen Termin mit einem Kunde. Bitte sagt mir bis morgen Mittag ob das geht. Ihr müsst auch eure Aufgabenlisten aktualisieren vor der Besprechung, dann können wir schneller anfangen. Falls jemand um 14 Uhr nicht kann, schreibt mir bitte. Danke und bis Donnerstag!",
+                "response": "Hallo Team,\ndie Frühschicht am Montag beginnt jetzt um 8 Uhr, nicht um 7 Uhr. Ich habe mit dem Lieferant gesprochen, die Lieferung mit den neuen Waren kommt erst um 8 Uhr, deshalb können wir nicht früher anfangen. Bitte sagt mir bis morgen Mittag ob das für euch geht. Ihr müsst auch eure Aufgabenlisten aktualisieren vor der Schicht, dann können wir schneller anfangen. Falls jemand um 8 Uhr nicht kann, schreibt mir bitte. Wenn die Lieferung noch später kommt, sage ich euch sofort Bescheid. Danke und bis Montag!",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: every point is covered, about 65 words, a little short; 'Ihr müsst' is blunter than a request. Coherence 2: logical order with dann and falls. Grammar 2: 'einem Kunde' (Kunden), a missing comma before ob, and 'aktualisieren vor der Besprechung' in the wrong order; the meaning is clear. Vocabulary and register 2: the relaxed register fits; the words are everyday."
+                "rationale": "Task completion 2: every point is covered, with 88 words, within the range; 'Ihr müsst' is blunter than a request. Coherence 2: logical order with deshalb, dann and falls. Grammar 2: 'dem Lieferant' (dem Lieferanten, n-declension) and the missing comma before ob are slips; the meaning is clear. Vocabulary and register 2: the relaxed register fits; the words are everyday."
               },
               {
-                "response": "Liebe Kollegen,\nwir müssen die Besprechung verschieben, weil die Chefin am Donnerstag einen Kundentermin hat. Wir treffen uns jetzt um 14 Uhr statt um 10 Uhr. Bitte bestätigt mir bis morgen Mittag, damit ich weiß, wer kommt. Außerdem bitte aktualisiert ihr die Aufgabenliste vorher. Das ist wichtig, denn wir brauchen sie in der Besprechung. Danke!",
+                "response": "Liebe Kollegen,\nwir müssen die Frühschicht am Montag verschieben, weil die Lieferung erst um 8 Uhr kommt. Wir fangen deshalb jetzt um 8 Uhr statt um 7 Uhr an. Bitte bestätigt mir bis morgen Mittag, damit ich weiß, wer kommt. Außerdem bitte aktualisiert ihr die Aufgabenliste vorher. Das ist wichtig, denn wir brauchen sie am Montag gleich am Anfang. Wenn jemand um 8 Uhr nicht kann, sagt es mir bitte. Danke!",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: all points are covered clearly, about 60 words. Coherence 2: weil, damit and denn link the ideas. Grammar 2: 'bitte aktualisiert ihr' has the wrong word order; the weil- and damit-clauses are correct. Vocabulary and register 2: 'Liebe Kollegen' is a little formal for a chat, but the team words (Kundentermin, bestätigen) fit."
+                "rationale": "Task completion 2: all points are covered clearly, with 71 words, within the range. Coherence 2: weil, damit and denn link the ideas. Grammar 2: 'bitte aktualisiert ihr' has the wrong word order; the weil- and damit-clauses are correct. Vocabulary and register 2: 'Liebe Kollegen' is a little formal for a chat, but the team words (Lieferung, bestätigen) fit."
               },
               {
-                "response": "Hi alle,\nkurze Info: Der Termin am Donnerstag ändert sich. Wir treffen uns um 14 Uhr, denn Frau Wagner muss zu einem Kunden gehen. Könnt ihr mir bitte bis morgen Mittag schreiben, ob ihr Zeit habt? Und vorher bitte eure Aufgabenliste aktualisieren, weil wir sie in der Besprechung brauchen. Wenn es für jemanden nicht passt, sagt es mir einfach, dann finden wir eine Lösung. Danke!",
+                "response": "Hi alle,\nkurze Info: Die Schicht am Montag ändert sich. Wir fangen um 8 Uhr an, denn die Lieferung kommt erst dann. Könnt ihr mir bitte bis morgen Mittag schreiben, ob ihr Zeit habt? Und vorher bitte eure Aufgabenliste aktualisieren, weil wir brauchen sie am Montag gleich. Wenn es für jemand nicht passt, sagt es mir einfach, dann finden wir eine Lösung. Ich bin morgen früh im Laden, falls ihr Fragen habt. Danke euch und bis Montag!",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 3: every point in detail with a friendly offer to find a solution, about 70 words. Coherence 2: clear order, simple connectors. Grammar 2: 'Aufgabenliste' singular instead of Aufgabenlisten and the infinitive as an order are acceptable, but 'muss zu einem Kunden gehen' repeats the task text; no clear errors beyond slips. Vocabulary and register 2: relaxed and fitting, with 'einfach' as a small word."
+                "rationale": "Task completion 3: every point in detail with a friendly offer to find a solution, with 77 words, within the range. Coherence 2: clear order, simple connectors. Grammar 2: two real errors: 'weil wir brauchen sie' (verb at the end) and 'für jemand' (für jemanden); the rest is correct. Vocabulary and register 2: relaxed and fitting, with 'einfach' as a small word."
               }
             ]
           },
@@ -14693,34 +14692,34 @@
             "band": 3,
             "samples": [
               {
-                "response": "Hallo zusammen,\nkleine Änderung: Die Besprechung am Donnerstag beginnt nicht um zehn, sondern erst um 14 Uhr, weil Frau Wagner vormittags einen Kundentermin hat. Bitte gebt mir bis morgen Mittag kurz Bescheid, ob die neue Zeit bei euch passt. Und bitte aktualisiert vor der Besprechung eure Aufgabenlisten, damit wir nicht lange suchen müssen. Falls jemand um 14 Uhr schon etwas anderes hat, sagt es mir einfach, dann finden wir eine Lösung. Danke euch und bis Donnerstag!\nLeyla",
+                "response": "Hallo zusammen,\nkleine Änderung: Die Frühschicht am Montag beginnt nicht um sieben, sondern erst um 8 Uhr, weil die Lieferung mit den neuen Waren später kommt. Bitte gebt mir bis morgen Mittag kurz Bescheid, ob die neue Zeit bei euch passt. Und bitte aktualisiert vor Schichtbeginn eure Aufgabenlisten, damit wir dann nicht lange suchen müssen. Falls jemand um 8 Uhr schon etwas anderes hat, sagt es mir einfach, dann finden wir eine Lösung. Danke euch und bis Montag!\nLeyla",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: all points in detail and a friendly offer, about 80 words. Coherence 3: a clear line from the change to the two requests, linked with nicht … sondern, weil, damit and falls. Grammar 3: subordinate clauses are all correct; no errors. Vocabulary and register 3: natural team chat (Bescheid geben, einfach, Danke euch)."
+                "rationale": "Task completion 3: all points in detail and a friendly offer, with 79 words. Coherence 3: a clear line from the change to the two requests, linked with nicht … sondern, weil, damit and falls. Grammar 3: subordinate clauses are all correct; no errors. Vocabulary and register 3: natural team chat (Bescheid geben, einfach, Danke euch)."
               },
               {
-                "response": "Hi Team,\ndie Besprechung am Donnerstag wird leider verschoben: Wir treffen uns erst um 14 Uhr statt um 10 Uhr. Frau Wagner hat nämlich am Vormittag einen Kundentermin. Könnt ihr bitte bis morgen Mittag bestätigen, dass der neue Termin für euch geht? Außerdem wäre es super, wenn jeder seine Aufgabenliste vorher auf den neuesten Stand bringt. So können wir direkt loslegen. Falls jemand um 14 Uhr nicht kann, meldet euch bitte gleich bei mir. Danke!",
+                "response": "Hi Team,\ndie Frühschicht am Montag wird leider verschoben: Wir fangen erst um 8 Uhr an statt um 7 Uhr. Die Lieferung kommt nämlich später als geplant. Könnt ihr bitte bis morgen Mittag bestätigen, dass die neue Zeit für euch geht? Außerdem wäre es super, wenn jeder seine Aufgabenliste vorher auf den neuesten Stand bringt. So können wir direkt loslegen, sobald der Wagen da ist. Falls jemand um 8 Uhr nicht kann, meldet euch bitte gleich bei mir. Danke!",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: all points clearly, about 85 words. Coherence 3: nämlich, außerdem and so give a clear flow. Grammar 3: dass-clause, wenn-clause with Konjunktiv II in the main clause, all correct. Vocabulary and register 3: nämlich, loslegen and 'auf den neuesten Stand bringen' are idiomatic and fit a team chat."
+                "rationale": "Task completion 3: all points clearly, with 79 words. Coherence 3: nämlich, außerdem and so give a clear flow. Grammar 3: dass-clause, wenn-clause with Konjunktiv II in the main clause, all correct. Vocabulary and register 3: nämlich, loslegen and 'auf den neuesten Stand bringen' are idiomatic and fit a team chat."
               },
               {
-                "response": "Liebes Team,\nwir müssen die Besprechung am Donnerstag von 10 auf 14 Uhr verschieben, weil Frau Wagner einen Termin bei einem Kunden hat. Ich hoffe, das geht für euch klar. Bitte schreibt mir bis morgen Mittag, ob ihr kommen könnt. Und denkt bitte daran, vor dem Treffen eure Aufgabenlisten zu aktualisieren, dann geht es schneller. Falls jemand Probleme mit der neuen Zeit hat, finden wir bestimt eine Lösung. Vielen Dank und bis Donnerstag!",
+                "response": "Liebes Team,\nwir müssen den Beginn der Frühschicht am Montag von 7 auf 8 Uhr verschieben, weil die Lieferung erst um 8 Uhr kommt. Ich hoffe, das geht für euch klar. Bitte schreibt mir bis morgen Mittag, ob ihr kommen könnt. Und denkt bitte daran, vor Schichtbeginn eure Aufgabenlisten zu aktualisieren, dann geht es schneller. Falls jemand Probleme mit der neuen Zeit hat, finden wir bestimt eine Lösung. Vielen Dank und bis Montag!",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 3: all points covered with a clear request, about 80 words. Coherence 3: logical order with weil, ob, dann and falls. Grammar 3: zu-infinitive with a separable verb (zu aktualisieren) and the subordinate clauses are correct. Vocabulary and register 2: the register fits, but the spelling error 'bestimt' and the plain wording keep it from a full band 3."
+                "rationale": "Task completion 3: all points covered with a clear request, with 73 words. Coherence 3: logical order with weil, ob, dann and falls. Grammar 3: zu-infinitive with a separable verb (zu aktualisieren) and the subordinate clauses are correct. Vocabulary and register 2: the register fits, but the spelling error 'bestimt' and the plain wording keep it from a full band 3."
               }
             ]
           }
@@ -14830,14 +14829,14 @@
                 "rationale": "Task completion 2: apology, details, two options with times and a confirmation; the closing summary is missing. Interaction and fluency 2: reacts to what the customer says and keeps going. Grammar 2: 'Können Sie mir sagen die Bestellnummer' has the wrong order, but the rest is correct. Vocabulary and register 2: polite and consistent; 'Das ist nicht gut' is a little blunt."
               },
               {
-                "response": "Guten Tag, Herr Brandt. Ich bin Mehmet vom Kundenservice. Entschuldigen Sie bitte die Verspätung. Ihre Mail ist bei uns leider liegen geblieben.\nWie lautet denn Ihre Bestellnummer? Und seit wann ist das Kabel gebrochen?\nAlso, ich schlage vor, wir schicken Ihnen eine neue Lampe. Oder möchten Sie lieber das Geld zurück?\nDie Lampe ist in fünf Tagen da. Beim Geld dauert es etwa zehn Tage. Dann bleibt es dabei: Sie bekommen die neue Lampe und eine Bestätigung von mir per E-Mail.",
+                "response": "Guten Tag, Herr Brandt. Ich bin Mehmet vom Kundenservice. Entschuldigen Sie bitte die Verspätung. Ihre Mail hat bei uns leider liegen geblieben.\nWie lautet denn Ihre Bestellnummer? Und seit wann ist das Kabel gebrochen?\nAlso, ich schlage vor, wir schicken Ihnen eine neue Lampe. Oder möchten Sie lieber das Geld zurück?\nDie Lampe ist in fünf Tagen da. Beim Geld dauert es etwa zehn Tage. Dann bleibt es dabei: Sie bekommen die neue Lampe und eine Bestätigung von mir per E-Mail.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 2: apology, details, choice, time frames and a summary of the agreement, but the complaint itself is handled briefly. Interaction and fluency 2: smooth, but the customer's reactions are not picked up in detail. Grammar 2: 'liegen geblieben' without sein is the one clear slip; the polite forms are right. Vocabulary and register 3: 'Wie lautet denn', 'Es bleibt dabei' and 'schlage vor' show a natural customer-service register."
+                "rationale": "Task completion 2: apology, details, choice, time frames and a summary of the agreement, but the complaint itself is handled briefly. Interaction and fluency 2: smooth, but the customer's reactions are not picked up in detail. Grammar 2: 'hat ... liegen geblieben' with haben instead of ist (the Perfekt of bleiben takes sein) is the one clear slip; the polite forms are right. Vocabulary and register 3: 'Wie lautet denn', 'Es bleibt dabei' and 'schlage vor' show a natural customer-service register."
               }
             ]
           },

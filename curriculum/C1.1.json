@@ -14,8 +14,8 @@
       "id": "lead-a-meeting",
       "skill": "interaction",
       "statement": {
-        "en": "I can open and lead a meeting or committee session: set the agenda, give the floor, keep to the topic and the time, and close with the decisions and who does what.",
-        "es": "Puedo abrir y dirigir una reunión o una sesión de comité: fijar el orden del día, dar la palabra, mantener el tema y el tiempo, y cerrar con las decisiones y quién hace qué."
+        "en": "I can open and lead a meeting or committee session: set the agenda, give the floor, keep to the topic and the time, and close with the decisions and who does what, using fixed chairing forms such as 'Kommen wir zum zweiten Punkt', 'Wenn ich Sie richtig verstehe, ...', 'Darf ich kurz zusammenfassen?' and 'Halten wir fest: ...'.",
+        "es": "Puedo abrir y dirigir una reunión o una sesión de comité: fijar el orden del día, dar la palabra, mantener el tema y el tiempo, y cerrar con las decisiones y quién hace qué, usando fórmulas fijas de presidencia como 'Kommen wir zum zweiten Punkt', 'Wenn ich Sie richtig verstehe, ...', 'Darf ich kurz zusammenfassen?' y 'Halten wir fest: ...'."
       }
     },
     {
@@ -234,16 +234,17 @@
     }
   ],
   "gaps": [
-    "Deutsch im Blick is not cited: it covers A1 to B1 and has no chapter on participial clauses, information structure, hedging, citing sources or chairing meetings, so all 14 grammar explanations are original. No chapter could be matched.",
+    "Deutsch im Blick is not cited: it covers A1 to B1 and has no chapter on participial clauses, information structure, hedging, citing sources or chairing meetings, so all 13 grammar explanations are original. No chapter could be matched.",
     "Frequency window 3301-3800: of 500 lemmas, 84 are taught by earlier sublevels and 416 were free; 316 are taught here (76 percent of the free ones). About 100 are left out as no learner words: names (Benjamin, Fritz, Porst, Opel, Telekom, Bonner), nationalities and religion (arabisch, iranisch, tschechisch, sächsisch, islamisch, christlich, Spanier, Kloster, Heiliger, Engel), politics, crime and war (Landtagswahl, Bundespräsident, Bundesverfassungsgericht, Verteidigungsminister, Staatsanwalt, Terrorist, Angriffskrieg, Überfall, Dieb, entführen, evakuieren, explodieren), sport (Torwart, Torhüter, Mittelfeld, Viertelfinale, Medaille), forms that are not lemmas (verloren, geschädigt, aufgeführt, verstorben, abgelaufen, lebend, geführt, sinkend, das, J, Rande) and a few rare or very informal words (Story, Deal, Match, Duo, Ensemble, Fuchs, Bär, stechen, krachen, wehen, jagen, grauen, Missbrauch, Sex). By this reading 316 of about 345 learner-relevant lemmas (92 percent) are taught; a reviewer may count differently. Learner-relevant but not taught: Silber, Flagge, Regie, Areal, Schwarz, Nord, West, Krebs, stationär, ambulant, legendär, humanitär.",
-    "The vocabulary has 521 items: 316 from the window, then theme words (meetings and committees, academic writing, statements, talks, negotiating and mediating, formal letters, theses) and 15 phrases. 117 items have rank 15001 because the frequency list does not hold them (compounds such as Beschlussvorlage and Schreibblockade, adjectival nouns and phrases). A few theme words have a rank below 2801 (erheben); none lies in the windows of B2.1 to B2.3.",
-    "Text coverage of the spec is 97.0 percent with B2.1 and B2.2 present. Ranks 2801 to 3300 belong to B2.3, which was not on disk when this spec was checked, so words from that window (for example ungeeignet, verallgemeinert, erschöpfen, bedürfen, anhören, Abhängigkeit, beunruhigen, Verzicht) count as uncovered until B2.3 is merged; coverage should rise by about one point. Other uncovered words are the invented names (Lenz, Weber, Aydin, Koch) and compounds in the gate texts (Studierendenvertretung, Prüfungsphase, Raumplanung).",
-    "Gate anchors are written, not human-rated: all 24 samples (2 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of the criterion bands of each sample is within half a band of its anchor band. Writing samples run from 16 to 148 words; the task asks for about 150 words (minimum 110), so band 3 samples are compact. The speaking samples are transcripts of the learner side only.",
+    "The vocabulary has 511 items: 316 from the window, then theme words (meetings and committees, academic writing, statements, talks, negotiating and mediating, formal letters, theses) and 13 phrases. 118 items have rank 15001 because the frequency list does not hold them (compounds such as Beschlussvorlage and Schreibblockade, adjectival nouns and phrases). A few theme words have a rank below 2801 (erheben); none lies in the windows of B2.1 to B2.3.",
+    "Text coverage of the spec is 97.0 percent with B2.1 and B2.2 present. Ranks 2801 to 3300 belong to B2.3, which was not on disk when this spec was checked, so words from that window (for example ungeeignet, verallgemeinert, erschöpfen, bedürfen, anhören, Abhängigkeit, beunruhigen, Verzicht) count as uncovered until B2.3 is merged; coverage should rise by about one point. Other uncovered words are the invented names (Henrik, Raabe, Rahn, Vogt, Siebert, Franke, Ullrich, Pfeiffer) and compounds in the gate texts (Wochenendzuschläge, Übergangsfrist, Buchungssystem, Prüfungsphase, Raumplanung).",
+    "Gate anchors are written, not human-rated: all 24 samples (2 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of the criterion bands of each sample is within half a band of its anchor band. Writing samples run from 16 to 152 words; the task asks for about 150 words (minimum 110), and every sample of bands 2 and 3 has at least 113 words. One band 2 sample (writing, sample 1) contains a deliberate misuse of geschweige denn, named in its rationale. The speaking samples are transcripts of the learner side only.",
     "The gate has one speaking task (leading a discussion with the Partner scenario ts-c11-fachschaft-sitzung-leiten) and one writing task (an opinion piece). The point split (15 + 10 reading, 15 + 10 listening, 25 speaking, 25 writing), the timings, the 60 percent pass rule and the 50 percent per-skill minimum are Weg design choices, not official ones, and are not calibrated against real exam results. Rubric bands run 0 to 3 as in B1.2 and B2.2. The listening material is a script for the TTS voice; no audio was produced or checked.",
     "gold/talk_scenarios.jsonl already holds ts-c11-sprechstunde-masterarbeit and ts-c11-mieterversammlung-sanierung. This spec does not use or replace them and uses its own five ids; the two sets should be reconciled by a human. The scenario ts-c11-vermittlung-projektgruppe uses du (a peer); the others use Sie.",
-    "Forms and choices to confirm: Herkunft with plural Herkünfte, Zwischenfazit with plural Zwischenfazits, Rettungswagen with plural Rettungswägen (as the frequency data has it), Kapital, Sand and Hinsicht entered without or with a rare plural, adjectival nouns Vorsitzender and Vortragender entered with plurals in -e, erschrecken entered only as the intransitive strong verb (sein), kippen and schweben with haben/sein, beipflichten and nachgeben with the dative, scheinbar entered as adjective, indes as conjunction, namens as adverb, Zoll as der with plural Zölle (customs).",
-    "Language to check first: the typical errors of g-connectors-insofern-zumal-geschweige (insofern dass does not exist; geschweige denn only after a negative statement), the claim that ersterer and letzterer need exactly two items, the rule that a Partizip I does not express means (g-participial-clauses), zufolge after its noun with the dative, the Konjunktiv I and Konjunktiv II examples in g-citing-sources-distance, and the explanation that indem needs an agent while dadurch, dass does not. Order within the sublevel was checked by hand only: for example gilt appears in an example of g-prepositions-genitive-c1 earlier than g-hedging-scheinen-gelten, though gelten is known from B2.",
-    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points."
+    "Forms and choices to confirm: Herkunft with plural Herkünfte, Zwischenfazit with plural Zwischenfazits, Rettungswagen with plural Rettungswägen (the form the validator takes from Wiktionary; many dictionaries give the plural as Rettungswagen, unchanged, so a teacher should decide), Kapital, Sand and Hinsicht entered without or with a rare plural, adjectival nouns entered under the lemmas Vorsitzende and Vortragende (article der, plural in -n, a note gives the feminine and the ein-forms; the schema has no field for adjectival nouns), erschrecken entered only as the intransitive strong verb (sein), kippen and schweben with haben/sein, beipflichten and nachgeben with the dative, scheinbar entered as adjective, indes as adverb (main-clause word order in the example), namens as adverb, Zoll as der with plural Zölle (customs).",
+    "Language to check first: the typical errors of g-connectors-insofern-zumal-geschweige (insofern dass is described as not standard with insofern als as the form to use; a teacher should confirm whether to call it an error or only non-standard, and that geschweige denn is shown only after a negative or limited statement), the claim that ersterer and letzterer need exactly two items, the rule that a Partizip I does not express means (g-participial-clauses), zufolge after its noun with the dative, the Konjunktiv I and Konjunktiv II examples in g-citing-sources-distance, and the explanation that indem needs an agent while dadurch, dass does not. Order within the sublevel was checked by hand only: for example gilt appears in an example of g-prepositions-genitive-c1 earlier than g-hedging-scheinen-gelten, though gelten is known from B2.",
+    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points.",
+    "g-moderating-and-summarising was removed as a grammar point because it re-taught structures from B2.1 and earlier (wenn-clauses, dass-clauses, Konjunktiv I). Its fixed chairing forms now sit in the usefulPhrases of ts-c11-fachschaft-sitzung-leiten (used by the gate) and ts-c11-vermittlung-projektgruppe, and its skill in the can-do lead-a-meeting."
   ],
   "id": "C1.1",
   "grammar": [
@@ -255,8 +256,8 @@
         "es": "Estructura de la información y primera posición"
       },
       "explanation": {
-        "en": "In a main clause the finite verb stands in second place, but the place before it, the Vorfeld, is free. It does not have to hold the subject. A good writer chooses what goes first. The Vorfeld usually holds what is already known or sets the frame: a time, a place or the topic. The new and most important information moves towards the end of the middle field, just before the last part of the verb. 'Im letzten Semester hat die Fakultät zwei neue Studiengänge eingeführt.' To contrast, put the element in focus at the front: 'Den Bericht schreibe ich, die Präsentation macht Jonas.' Passive sentences let the object come first without changing the meaning. A dass-clause is heavy: put it after the main clause with es: 'Es ist wichtig, dass ...'. If another element fills the Vorfeld, es disappears: 'Heute gibt es eine Besprechung.' Pronouns come before nouns in the middle field.",
-        "es": "En una oración principal el verbo conjugado ocupa el segundo lugar, pero lo que va delante, la primera posición (Vorfeld), es libre. No tiene que ser el sujeto. Un buen redactor elige qué va primero. En esa posición suele ir lo que ya se conoce o el marco: un tiempo, un lugar o el tema. La información nueva y más importante se desplaza hacia el final del campo medio, justo antes de la última parte del verbo. 'Im letzten Semester hat die Fakultät zwei neue Studiengänge eingeführt.' Para contrastar, pon delante el elemento que quieres destacar: 'Den Bericht schreibe ich, die Präsentation macht Jonas.' La pasiva permite que el complemento vaya primero sin cambiar el sentido. Una oración con dass es pesada: ponla después de la principal con es: 'Es ist wichtig, dass ...'. Si otro elemento ocupa la primera posición, es desaparece: 'Heute gibt es eine Besprechung.' Los pronombres van antes que los sustantivos en el campo medio."
+        "en": "In a main clause the finite verb stands in second place, but the first position, the Vorfeld, is free. It holds exactly one element: the subject, an object, a time, a place or a whole clause, however long it is. A good writer chooses what goes first. The Vorfeld usually holds what is already known or sets the frame: a time, a place or the topic. The new and most important information moves towards the end of the middle field, just before the last part of the verb. 'Im letzten Semester hat die Fakultät zwei neue Studiengänge eingeführt.' To contrast, put the element in focus at the front: 'Den Bericht schreibe ich, die Präsentation macht Herr Rahn.' A passive sentence lets the object come first without changing the meaning: 'Bis Freitag muss der Antrag abgegeben werden.' A very long Vorfeld delays the point, so keep it short. You can also link sentences by starting with what the previous sentence ended with.",
+        "es": "En una oración principal el verbo conjugado ocupa el segundo lugar, pero la primera posición, el Vorfeld, es libre. Contiene exactamente un elemento: el sujeto, un complemento, un tiempo, un lugar o una oración entera, por largo que sea. Un buen redactor elige qué va primero. En esa posición suele ir lo que ya se conoce o el marco: un tiempo, un lugar o el tema. La información nueva y más importante se desplaza hacia el final del campo medio, justo antes de la última parte del verbo. 'Im letzten Semester hat die Fakultät zwei neue Studiengänge eingeführt.' Para contrastar, pon delante el elemento que quieres destacar: 'Den Bericht schreibe ich, die Präsentation macht Herr Rahn.' La pasiva permite que el complemento vaya primero sin cambiar el sentido: 'Bis Freitag muss der Antrag abgegeben werden.' Un Vorfeld muy largo retrasa lo importante, así que mantenlo breve. También puedes enlazar oraciones empezando por lo que terminaba la anterior."
       },
       "examples": [
         {
@@ -265,9 +266,9 @@
           "es": "El semestre pasado la facultad introdujo dos nuevos programas de estudios."
         },
         {
-          "de": "Den Bericht schreibe ich, die Präsentation macht Jonas.",
-          "en": "I will write the report; Jonas does the presentation.",
-          "es": "El informe lo escribo yo; la presentación la hace Jonas."
+          "de": "Den Bericht schreibe ich, die Präsentation macht Henrik.",
+          "en": "I will write the report; Henrik does the presentation.",
+          "es": "El informe lo escribo yo; la presentación la hace Henrik."
         },
         {
           "de": "Bis Freitag muss der Antrag abgegeben werden.",
@@ -280,9 +281,9 @@
           "es": "Lo decisivo no es la cantidad de datos, sino su calidad."
         },
         {
-          "de": "Es ist wichtig, dass alle Teilnehmer die Regeln kennen.",
-          "en": "It is important that all participants know the rules.",
-          "es": "Es importante que todos los participantes conozcan las reglas."
+          "de": "Auf der Sitzung am Mittwoch hat der Ausschuss den Antrag abgelehnt.",
+          "en": "At the meeting on Wednesday the committee rejected the motion.",
+          "es": "En la sesión del miércoles el comité rechazó la solicitud."
         },
         {
           "de": "Von dieser Regelung sind vor allem Studierende betroffen.",
@@ -292,49 +293,50 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Heute es gibt eine Besprechung im Büro.",
-          "correct": "Heute gibt es eine Besprechung im Büro.",
+          "wrong": "Auf der Sitzung am Mittwoch der Ausschuss hat den Antrag abgelehnt.",
+          "correct": "Auf der Sitzung am Mittwoch hat der Ausschuss den Antrag abgelehnt.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'today there is' and Spanish 'hoy hay' keep the subject word right after the time phrase. In German the verb must be in second place, so after 'heute' it comes first: gibt, then es.",
-            "es": "El inglés 'today there is' y el español 'hoy hay' mantienen el sujeto justo después del complemento de tiempo. En alemán el verbo debe ir en segundo lugar, así que tras 'heute' va primero gibt y después es."
+            "en": "English and Spanish let a time or place phrase come first and then the subject, and the verb follows later. In German the Vorfeld holds one element only, even a long one, and the finite verb comes straight after it.",
+            "es": "El inglés y el español permiten una expresión de tiempo o lugar y luego el sujeto, y el verbo viene después. En alemán el Vorfeld contiene un solo elemento, aunque sea largo, y el verbo conjugado viene justo detrás."
           }
         },
         {
           "wrong": "Den Bericht, ich schreibe.",
           "correct": "Den Bericht schreibe ich.",
           "l1": [
+            "en",
             "es"
           ],
           "why": {
             "en": "In Spanish you can put the object first, repeat it with a pronoun and add a pause ('El informe, lo escribo yo'). German has no pause and no repeating pronoun: the fronted object is directly followed by the verb.",
-            "es": "En español se puede poner el complemento primero, repetirlo con un pronombre y hacer una pausa ('El informe, lo escribo yo'). El alemán no tiene pausa ni pronombre repetido: tras el complemento va directamente el verbo."
+            "es": "En español puedes poner el complemento primero, repetirlo con un pronombre y hacer una pausa ('El informe, lo escribo yo'). El alemán no tiene pausa ni pronombre repetido: el complemento adelantado va seguido directamente del verbo."
           }
         },
         {
-          "wrong": "Ich habe dem Kollegen sie gegeben.",
-          "correct": "Ich habe sie dem Kollegen gegeben.",
+          "wrong": "Zehn Prozent mehr Studierende haben sich beworben, im letzten Jahr.",
+          "correct": "Im letzten Jahr haben sich zehn Prozent mehr Studierende beworben.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'I gave my colleague it' is not possible, and Spanish puts both pronouns before the verb. In the German middle field, a pronoun comes before a noun, whatever the case.",
-            "es": "En inglés no se dice 'I gave my colleague it' y en español ambos pronombres van antes del verbo. En el campo medio alemán, un pronombre va antes que un sustantivo, sea cual sea el caso."
+            "en": "In English and Spanish a time phrase is often tacked on at the end. In German the time frame belongs in the Vorfeld, and the new information (zehn Prozent mehr) belongs near the end of the middle field. The wrong order buries the frame and puts the news first.",
+            "es": "En inglés y en español una expresión de tiempo se añade a menudo al final. En alemán el marco temporal va en el Vorfeld y la información nueva (zehn Prozent mehr) hacia el final del campo medio. El orden incorrecto entierra el marco y pone primero la novedad."
           }
         }
       ],
       "prerequisites": [
         "g-word-order-midfield",
-        "g-es-placeholder",
         "g-passive-present",
         "g-passive-modal"
       ],
       "errorTags": [
-        "word-order"
+        "word-order",
+        "style"
       ],
       "drills": [
         {
@@ -343,9 +345,9 @@
             "en": "Put the object first to contrast it with the second part.",
             "es": "Pon el complemento en primera posición para contrastarlo con la segunda parte."
           },
-          "prompt": "Ich schreibe den Bericht, Jonas macht die Präsentation.",
+          "prompt": "Ich schreibe den Bericht, Herr Rahn macht die Präsentation.",
           "answers": [
-            "Den Bericht schreibe ich, die Präsentation macht Jonas."
+            "Den Bericht schreibe ich, die Präsentation macht Herr Rahn."
           ]
         },
         {
@@ -371,47 +373,48 @@
           ]
         },
         {
-          "type": "transform",
+          "type": "build",
           "instruction": {
-            "en": "Move the dass-clause to the end. Use es.",
-            "es": "Pasa la oración con dass al final. Usa es."
+            "en": "Build a sentence that starts with the place and time.",
+            "es": "Forma una oración que empiece con el lugar y el tiempo."
           },
-          "prompt": "Dass die Frist verlängert wird, ist wichtig.",
+          "prompt": "hat / der Ausschuss / den Antrag / abgelehnt / auf der Sitzung am Mittwoch",
           "answers": [
-            "Es ist wichtig, dass die Frist verlängert wird."
+            "Auf der Sitzung am Mittwoch hat der Ausschuss den Antrag abgelehnt."
           ]
         },
         {
           "type": "complete",
           "instruction": {
-            "en": "Fill in the gap.",
-            "es": "Completa el hueco."
+            "en": "Fill in the finite verb.",
+            "es": "Completa el verbo conjugado."
           },
-          "prompt": "Heute ___ es eine Besprechung im Büro.",
+          "prompt": "Im letzten Jahr ___ sich zehn Prozent mehr Studierende beworben.",
           "answers": [
-            "gibt"
+            "haben"
           ]
         },
         {
           "type": "transform",
           "instruction": {
-            "en": "Replace the noun with a pronoun and keep the order correct.",
-            "es": "Sustituye el sustantivo por un pronombre y mantén el orden correcto."
+            "en": "Start with the time frame. The news stays in the middle field.",
+            "es": "Empieza con el marco temporal. La novedad queda en el campo medio."
           },
-          "prompt": "Ich gebe dem Kollegen den Bericht.",
+          "prompt": "Zehn Prozent mehr Studierende haben sich im letzten Jahr beworben.",
           "answers": [
-            "Ich gebe ihn dem Kollegen."
+            "Im letzten Jahr haben sich zehn Prozent mehr Studierende beworben."
           ]
         },
         {
           "type": "say",
           "instruction": {
-            "en": "Say it aloud with the underlined idea first: 'die Zahlen' is the topic.",
-            "es": "Dilo en voz alta con la idea destacada primero: 'die Zahlen' es el tema."
+            "en": "The topic is die Zahlen. Say the sentence with the topic first.",
+            "es": "El tema es die Zahlen. Di la oración con el tema primero."
           },
-          "prompt": "Herr Weber erklärt Ihnen die Zahlen später. -> Die Zahlen ...",
+          "prompt": "Herr Rahn erklärt Ihnen die Zahlen später. -> Die Zahlen ...",
           "answers": [
-            "Die Zahlen erklärt Ihnen Herr Weber später."
+            "Die Zahlen erklärt Ihnen Herr Rahn später.",
+            "Die Zahlen erklärt Ihnen später Herr Rahn."
           ]
         }
       ],
@@ -436,9 +439,9 @@
           "es": "Al revisar los documentos, la funcionaria notó un error."
         },
         {
-          "de": "Von der langen Sitzung erschöpft, ging Herr Kaya früh nach Hause.",
-          "en": "Exhausted by the long meeting, Mr Kaya went home early.",
-          "es": "Agotado por la larga reunión, el señor Kaya se fue pronto a casa."
+          "de": "Von der langen Sitzung erschöpft, ging Herr Thiele früh nach Hause.",
+          "en": "Exhausted by the long meeting, Mr Thiele went home early.",
+          "es": "Agotado por la larga reunión, el señor Thiele se fue pronto a casa."
         },
         {
           "de": "Vor zwei Jahren nach Deutschland gekommen, spricht sie heute fließend Deutsch.",
@@ -482,8 +485,8 @@
             "es"
           ],
           "why": {
-            "en": "English 'by selling cars' and Spanish 'vendiendo coches' use an -ing form or a gerund for the means. A German Partizip I does not express means or method. For that use indem, or durch plus a noun.",
-            "es": "El inglés 'by selling cars' y el español 'vendiendo coches' usan una forma en -ing o un gerundio para el medio. Un Partizip I alemán no expresa el medio o el modo. Para eso se usa indem, o durch más un sustantivo."
+            "en": "English 'by selling cars' and Spanish 'vendiendo coches' use an -ing form or a gerund for the means. A Partizip I rarely and unreliably expresses means; use indem, or durch plus a noun.",
+            "es": "El inglés 'by selling cars' y el español 'vendiendo coches' usan una forma en -ing o un gerundio para el medio. Un Partizip I expresa el medio solo raramente y de forma poco fiable; usa indem, o durch más un sustantivo."
           }
         },
         {
@@ -598,14 +601,24 @@
         "es": "Equivalentes de oración: una idea, varias formas"
       },
       "explanation": {
-        "en": "The same idea can be written as a subordinate clause, a participial clause, an infinitive group or a noun phrase with a preposition. A good writer chooses by register and by clarity. When both parts have the same subject, an infinitive group is short and clear: 'Er verließ den Raum, ohne ein Wort zu sagen.' 'Statt auf Antwort zu warten, rief sie im Büro an.' For the past, use the perfect infinitive: 'ohne den Vertrag gelesen zu haben'. When the subjects differ, you need ohne dass or statt dass with a finite verb. The noun version says less: 'ohne Rücksprache', 'anstelle einer Antwort'. Compare: 'Nachdem die Sitzung zu Ende war, ...' / 'Die Sitzung beendet, ...' / 'Nach dem Ende der Sitzung, ...'. In letters and reports the compact forms sound formal; in speech the clause is normal. If a compact form hides who acts, go back to the clause.",
-        "es": "Una misma idea puede escribirse como oración subordinada, como oración de participio, como grupo de infinitivo o como grupo nominal con preposición. Un buen redactor elige según el registro y la claridad. Cuando las dos partes tienen el mismo sujeto, el grupo de infinitivo es breve y claro: 'Er verließ den Raum, ohne ein Wort zu sagen.' 'Statt auf Antwort zu warten, rief sie im Büro an.' Para el pasado se usa el infinitivo perfecto: 'ohne den Vertrag gelesen zu haben'. Si los sujetos son distintos, hace falta ohne dass o statt dass con verbo conjugado. La versión nominal dice menos: 'ohne Rücksprache', 'anstelle einer Antwort'. Compara: 'Nachdem die Sitzung zu Ende war, ...' / 'Die Sitzung beendet, ...' / 'Nach dem Ende der Sitzung, ...'. En cartas e informes las formas compactas suenan formales; al hablar lo normal es la oración. Si una forma compacta oculta quién actúa, vuelve a la oración."
+        "en": "The same idea can be written in three forms: a subordinate clause, a participial clause or a noun phrase with a preposition. Compare: 'Nachdem sie die Sitzung beendet hatten, gingen alle zum Mittagessen.' / 'Die Sitzung beendet, gingen alle zum Mittagessen.' / 'Nach Beendigung der Sitzung gingen alle zum Mittagessen.' The clause is the clearest and is normal in speech; the participle and the noun are compact and sound formal. You already know ohne … zu and statt … zu with the same subject (B1.2, B2.1). Two C1 points remain. When the subjects differ, use ohne dass or statt dass with a finite verb: 'ohne dass die Leitung ihn gelesen hatte'. After ohne you can also use the perfect infinitive for something earlier: 'ohne ihn gelesen zu haben'. Never mix dass with zu. Choose the form by register and clarity, and if a compact form hides who acts, go back to the clause.",
+        "es": "Una misma idea puede escribirse de tres formas: como oración subordinada, como oración de participio o como grupo nominal con preposición. Compara: 'Nachdem sie die Sitzung beendet hatten, gingen alle zum Mittagessen.' / 'Die Sitzung beendet, gingen alle zum Mittagessen.' / 'Nach Beendigung der Sitzung gingen alle zum Mittagessen.' La oración es la más clara y la normal al hablar; el participio y el sustantivo son compactos y suenan formales. Ya conoces ohne … zu y statt … zu con el mismo sujeto (B1.2, B2.1). Quedan dos puntos de nivel C1. Cuando los sujetos son distintos, se usa ohne dass o statt dass con verbo conjugado: 'ohne dass die Leitung ihn gelesen hatte'. Tras ohne también se puede usar el infinitivo perfecto para algo anterior: 'ohne ihn gelesen zu haben'. No mezcles nunca dass con zu. Elige la forma según el registro y la claridad, y si una forma compacta oculta quién actúa, vuelve a la oración."
       },
       "examples": [
         {
-          "de": "Er verließ den Raum, ohne ein Wort zu sagen.",
-          "en": "He left the room without saying a word.",
-          "es": "Salió de la sala sin decir una palabra."
+          "de": "Nachdem sie die Sitzung beendet hatten, gingen alle zum Mittagessen.",
+          "en": "After they had ended the meeting, everyone went for lunch.",
+          "es": "Después de que terminaron la sesión, todos se fueron a comer."
+        },
+        {
+          "de": "Die Sitzung beendet, gingen alle zum Mittagessen.",
+          "en": "The meeting over, everyone went for lunch.",
+          "es": "Terminada la sesión, todos se fueron a comer."
+        },
+        {
+          "de": "Nach Beendigung der Sitzung gingen alle zum Mittagessen.",
+          "en": "After the end of the meeting everyone went for lunch.",
+          "es": "Tras el final de la sesión, todos se fueron a comer."
         },
         {
           "de": "Sie hat den Vertrag unterschrieben, ohne ihn gelesen zu haben.",
@@ -613,61 +626,51 @@
           "es": "Firmó el contrato sin haberlo leído."
         },
         {
-          "de": "Statt auf Antwort zu warten, rief sie im Büro an.",
-          "en": "Instead of waiting for an answer, she called the office.",
-          "es": "En lugar de esperar respuesta, llamó a la oficina."
+          "de": "Der Ausschuss lehnte den Antrag ab, ohne dass die Leitung ihn gelesen hatte.",
+          "en": "The committee rejected the motion without the management having read it.",
+          "es": "El comité rechazó la solicitud sin que la dirección la hubiera leído."
         },
         {
-          "de": "Der Chef änderte den Plan, ohne dass jemand es bemerkte.",
-          "en": "The boss changed the plan without anyone noticing.",
-          "es": "El jefe cambió el plan sin que nadie lo notara."
-        },
-        {
-          "de": "Anstelle einer Antwort schickte die Firma nur eine Eingangsbestätigung.",
-          "en": "Instead of an answer, the company only sent a confirmation of receipt.",
-          "es": "En lugar de una respuesta, la empresa solo envió un acuse de recibo."
-        },
-        {
-          "de": "Nach dem Ende der Sitzung gingen alle zum Mittagessen.",
-          "en": "After the end of the meeting everyone went for lunch.",
-          "es": "Tras el final de la reunión todos fueron a comer."
+          "de": "Statt dass jemand antwortete, kam nur eine automatische Bestätigung.",
+          "en": "Instead of anyone answering, only an automatic confirmation came.",
+          "es": "En lugar de que alguien respondiera, solo llegó una confirmación automática."
         }
       ],
       "typicalErrors": [
         {
-          "wrong": "Anstatt zu zahlen die Miete, hat er den Vermieter angerufen.",
-          "correct": "Anstatt die Miete zu zahlen, hat er den Vermieter angerufen.",
+          "wrong": "Die Leitung lehnte den Antrag ab, ohne dass sie ihn gelesen zu haben.",
+          "correct": "Die Leitung lehnte den Antrag ab, ohne ihn gelesen zu haben.",
           "l1": [
-            "es",
-            "en"
+            "en",
+            "es"
           ],
           "why": {
-            "en": "English 'instead of paying the rent' and Spanish 'en lugar de pagar el alquiler' put the verb first. In a German infinitive group the object comes first, then zu and the infinitive at the end.",
-            "es": "El inglés 'instead of paying the rent' y el español 'en lugar de pagar el alquiler' ponen el verbo primero. En un grupo de infinitivo alemán primero va el complemento y al final zu más el infinitivo."
+            "en": "Learners mix the two constructions. With the same subject use ohne + perfect infinitive and no dass; with ohne dass you need a finite verb: ohne dass sie ihn gelesen hatte.",
+            "es": "El estudiante mezcla las dos construcciones. Con el mismo sujeto se usa ohne + infinitivo perfecto y sin dass; con ohne dass hace falta un verbo conjugado: ohne dass sie ihn gelesen hatte."
           }
         },
         {
-          "wrong": "Sie hat den Vertrag unterschrieben, ohne sie ihn gelesen hat.",
-          "correct": "Sie hat den Vertrag unterschrieben, ohne ihn gelesen zu haben.",
+          "wrong": "Nachdem Beendigung der Sitzung gingen alle zum Mittagessen.",
+          "correct": "Nach Beendigung der Sitzung gingen alle zum Mittagessen.",
           "l1": [
-            "es",
-            "en"
+            "en",
+            "es"
           ],
           "why": {
-            "en": "With the same subject German uses ohne + zu + perfect infinitive, like English 'without having read'. Adding a second subject and a finite verb is only right when the subjects differ: ohne dass sie ihn las.",
-            "es": "Con el mismo sujeto el alemán usa ohne + zu + infinitivo perfecto, como el español 'sin haberlo leído'. Añadir un segundo sujeto y un verbo conjugado solo es correcto cuando los sujetos son distintos: ohne dass sie ihn las."
+            "en": "English 'after' is one word for both a conjunction and a preposition, and Spanish 'después de' covers both too. In German nachdem introduces a clause with a finite verb; before a noun phrase you use the preposition nach.",
+            "es": "El inglés 'after' sirve para conjunción y preposición, y el español 'después de' también cubre ambas. En alemán nachdem introduce una oración con verbo conjugado; ante un grupo nominal se usa la preposición nach."
           }
         },
         {
           "wrong": "Der Chef änderte den Plan, ohne zu bemerken jemand.",
           "correct": "Der Chef änderte den Plan, ohne dass jemand es bemerkte.",
           "l1": [
-            "es",
-            "en"
+            "en",
+            "es"
           ],
           "why": {
             "en": "An infinitive group needs the same subject as the main clause. 'Anyone' is a new subject here, so German needs ohne dass and a finite verb at the end.",
-            "es": "Un grupo de infinitivo necesita el mismo sujeto que la oración principal. 'Nadie' es aquí un sujeto nuevo, así que el alemán exige ohne dass y un verbo conjugado al final."
+            "es": "Un grupo de infinitivo necesita el mismo sujeto que la oración principal. 'Alguien' es aquí un sujeto nuevo, así que el alemán necesita ohne dass y un verbo conjugado al final."
           }
         }
       ],
@@ -682,40 +685,6 @@
         "verb-form"
       ],
       "drills": [
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Replace the second clause with an ohne ... zu group.",
-            "es": "Sustituye la segunda oración por un grupo con ohne ... zu."
-          },
-          "prompt": "Er verließ den Raum und sagte kein Wort.",
-          "answers": [
-            "Er verließ den Raum, ohne ein Wort zu sagen."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Use ohne ... zu with the perfect infinitive.",
-            "es": "Usa ohne ... zu con el infinitivo perfecto."
-          },
-          "prompt": "Sie hat den Vertrag unterschrieben. Sie hat ihn nicht gelesen.",
-          "answers": [
-            "Sie hat den Vertrag unterschrieben, ohne ihn gelesen zu haben."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Use statt ... zu.",
-            "es": "Usa statt ... zu."
-          },
-          "prompt": "Sie wartete nicht auf Antwort. Sie rief im Büro an.",
-          "answers": [
-            "Statt auf Antwort zu warten, rief sie im Büro an.",
-            "Anstatt auf Antwort zu warten, rief sie im Büro an."
-          ]
-        },
         {
           "type": "transform",
           "instruction": {
@@ -734,31 +703,67 @@
             "en": "Replace the clause with a noun phrase.",
             "es": "Sustituye la oración por un grupo nominal."
           },
-          "prompt": "Nachdem die Sitzung zu Ende war, gingen alle zum Mittagessen.",
+          "prompt": "Nachdem die Sitzung beendet war, gingen alle zum Mittagessen.",
           "answers": [
-            "Nach dem Ende der Sitzung gingen alle zum Mittagessen."
+            "Nach Beendigung der Sitzung gingen alle zum Mittagessen.",
+            "Nach der Beendigung der Sitzung gingen alle zum Mittagessen."
           ]
         },
         {
-          "type": "build",
+          "type": "transform",
           "instruction": {
-            "en": "Build the infinitive group and the main clause.",
-            "es": "Forma el grupo de infinitivo y la oración principal."
+            "en": "Replace the nachdem-clause with a participial clause.",
+            "es": "Sustituye la oración con nachdem por una oración de participio."
           },
-          "prompt": "hat er / die Miete / anstatt / den Vermieter angerufen / zu zahlen",
+          "prompt": "Nachdem sie die Sitzung beendet hatten, gingen alle zum Mittagessen.",
           "answers": [
-            "Anstatt die Miete zu zahlen, hat er den Vermieter angerufen."
+            "Die Sitzung beendet, gingen alle zum Mittagessen."
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Use ohne and the perfect infinitive.",
+            "es": "Usa ohne y el infinitivo perfecto."
+          },
+          "prompt": "Die Leitung lehnte den Antrag ab. Sie hatte ihn nicht gelesen.",
+          "answers": [
+            "Die Leitung lehnte den Antrag ab, ohne ihn gelesen zu haben."
+          ]
+        },
+        {
+          "type": "transform",
+          "instruction": {
+            "en": "Use statt dass.",
+            "es": "Usa statt dass."
+          },
+          "prompt": "Niemand antwortete. Es kam nur eine automatische Bestätigung.",
+          "answers": [
+            "Statt dass jemand antwortete, kam nur eine automatische Bestätigung.",
+            "Anstatt dass jemand antwortete, kam nur eine automatische Bestätigung."
+          ]
+        },
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Complete the verb.",
+            "es": "Completa el verbo."
+          },
+          "prompt": "Der Ausschuss lehnte den Antrag ab, ohne dass die Leitung ihn gelesen ___.",
+          "answers": [
+            "hatte"
           ]
         },
         {
           "type": "say",
           "instruction": {
-            "en": "Say it aloud without a finite verb in the second part.",
-            "es": "Dilo en voz alta sin verbo conjugado en la segunda parte."
+            "en": "Say it aloud with ohne dass: the subjects differ.",
+            "es": "Dilo en voz alta con ohne dass: los sujetos son distintos."
           },
-          "prompt": "Sie ging, und sie verabschiedete sich nicht. -> Sie ging, ohne ...",
+          "prompt": "Sie hat den Raum gebucht. Keiner hat sie gefragt. -> Sie hat den Raum gebucht, ohne dass ...",
           "answers": [
-            "Sie ging, ohne sich zu verabschieden."
+            "Sie hat den Raum gebucht, ohne dass jemand sie gefragt hat.",
+            "Sie hat den Raum gebucht, ohne dass sie jemand gefragt hat."
           ]
         }
       ],
@@ -768,13 +773,13 @@
     {
       "id": "g-nominalisation-verb-noun-pairs",
       "title": {
-        "de": "Nominalisierung: Verb-Nomen-Paare",
-        "en": "Nominalisation: verb-noun pairs",
-        "es": "Nominalización: pares verbo-sustantivo"
+        "de": "Verb-Nomen-Paare und ihre Präpositionen",
+        "en": "Verb-noun pairs and their prepositions",
+        "es": "Pares verbo-sustantivo y sus preposiciones"
       },
       "explanation": {
-        "en": "In academic texts you need many pairs of a verb and its noun. Some nouns have a suffix: entscheiden, die Entscheidung; flexibel, die Flexibilität. Others have none and are often masculine: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Verbs with ge- often give neuter nouns: sprechen, das Gespräch. Learn the gender with the noun. The preposition of the verb usually goes with the noun, but not always. Same: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Different: sich interessieren für, das Interesse an; sich ärgern über, der Ärger über. The subject becomes a genitive: 'der Verzicht der Firma auf eine Erhöhung'. When the genitive could mean subject or object, use von, an or durch for one of them: 'die Kritik des Chefs an den Kollegen'. A noun cannot show tense or mood, so keep the verb if time matters.",
-        "es": "En los textos académicos hacen falta muchos pares de verbo y sustantivo. Algunos sustantivos llevan sufijo: entscheiden, die Entscheidung; flexibel, die Flexibilität. Otros no lo llevan y suelen ser masculinos: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Los verbos con ge- dan a menudo sustantivos neutros: sprechen, das Gespräch. Aprende el género con el sustantivo. La preposición del verbo suele pasar al sustantivo, pero no siempre. Igual: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Distinta: sich interessieren für, das Interesse an; sich ärgern über, der Ärger über. El sujeto pasa al genitivo: 'der Verzicht der Firma auf eine Erhöhung'. Cuando el genitivo podría ser sujeto o complemento, se usa von, an o durch para uno de ellos: 'die Kritik des Chefs an den Kollegen'. Un sustantivo no muestra tiempo ni modo; si el tiempo importa, conserva el verbo."
+        "en": "This point builds on B2.2 (g-nominalstil-satz-zu-nominalgruppe), where you turned clauses into noun phrases; here the focus is on the pairs and the preposition each pair takes. Some nouns have a suffix: entscheiden, die Entscheidung; flexibel, die Flexibilität. Others have none and are often masculine: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Verbs with ge- often give neuter nouns: sprechen, das Gespräch. Learn the gender with the noun. The preposition of the verb often goes with the noun. Same: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Different: sich interessieren für, das Interesse an; kritisieren (no preposition), die Kritik an. The subject becomes a genitive: 'der Verzicht der Firma auf eine Erhöhung'. When the genitive could mean subject or object, use von, an or durch for one of them: 'die Kritik des Chefs an den Kollegen'. A noun cannot show tense or mood, so keep the verb if time matters.",
+        "es": "Este punto continúa B2.2 (g-nominalstil-satz-zu-nominalgruppe), donde convertías oraciones en grupos nominales; aquí el foco son los pares y la preposición de cada uno. Algunos sustantivos llevan sufijo: entscheiden, die Entscheidung; flexibel, die Flexibilität. Otros no lo llevan y suelen ser masculinos: ansteigen, der Anstieg; verzichten, der Verzicht; ablaufen, der Ablauf. Los verbos con ge- dan a menudo sustantivos neutros: sprechen, das Gespräch. Aprende el género con el sustantivo. La preposición del verbo suele pasar al sustantivo. Igual: verzichten auf, der Verzicht auf; zweifeln an, der Zweifel an; abhängen von, die Abhängigkeit von. Distinta: sich interessieren für, das Interesse an; kritisieren (sin preposición), die Kritik an. El sujeto pasa al genitivo: 'der Verzicht der Firma auf eine Erhöhung'. Cuando el genitivo podría ser sujeto o complemento, se usa von, an o durch para uno de ellos: 'die Kritik des Chefs an den Kollegen'. Un sustantivo no muestra tiempo ni modo; si el tiempo importa, conserva el verbo."
       },
       "examples": [
         {
@@ -841,6 +846,18 @@
           "why": {
             "en": "Two genitives in a row are unclear: who criticises whom? Use the preposition that belongs to the noun for the target of the criticism: Kritik an.",
             "es": "Dos genitivos seguidos no son claros: ¿quién critica a quién? Usa la preposición que acompaña al sustantivo para el destinatario de la crítica: Kritik an."
+          }
+        },
+        {
+          "wrong": "Das Interesse für Nachhaltigkeit wächst.",
+          "correct": "Das Interesse an Nachhaltigkeit wächst.",
+          "l1": [
+            "en",
+            "es"
+          ],
+          "why": {
+            "en": "The verb is sich interessieren für, so learners carry für over to the noun. The noun takes a different preposition: das Interesse an. Spanish 'interés por' pushes in the same direction.",
+            "es": "El verbo es sich interessieren für, y el estudiante pasa für al sustantivo. El sustantivo lleva otra preposición: das Interesse an. El español 'interés por' empuja en la misma dirección."
           }
         }
       ],
@@ -932,6 +949,17 @@
           "prompt": "Dass die Preise steigen, beunruhigt die Kunden. -> Der Anstieg ...",
           "answers": [
             "Der Anstieg der Preise beunruhigt die Kunden."
+          ]
+        },
+        {
+          "type": "complete",
+          "instruction": {
+            "en": "Fill in the preposition of the noun.",
+            "es": "Completa la preposición del sustantivo."
+          },
+          "prompt": "Die Kritik ___ dem Plan war deutlich.",
+          "answers": [
+            "an"
           ]
         }
       ],
@@ -1064,8 +1092,8 @@
         {
           "type": "complete",
           "instruction": {
-            "en": "Fill in the ending.",
-            "es": "Completa con la terminación."
+            "en": "Fill in the verb.",
+            "es": "Completa el verbo."
           },
           "prompt": "Dem Bericht zufolge ___ der Umsatz gestiegen.",
           "answers": [
@@ -1293,8 +1321,8 @@
         "es": "Afirmar con cautela: scheinen, gelten als, sich erweisen als"
       },
       "explanation": {
-        "en": "Academic writers do not claim more than they can show. German has verbs that mark how sure you are. Scheinen + zu + infinitive reports an impression: 'Die Methode scheint zuverlässig zu sein.' For the past use the perfect infinitive: 'Der Autor scheint die Daten nicht geprüft zu haben.' Gelten als + nominative or adjective says what people consider something to be: 'Die Studie gilt in der Fachwelt als wegweisend.' Do not mix it with gelten für, which means to be valid for: 'Die Regel gilt für alle.' Sich erweisen als says what something turned out to be: 'Die Annahme erwies sich später als falsch.' Erscheinen and wirken describe how something looks: 'Das Argument erscheint überzeugend.' With these verbs you say 'it seems', 'it counts as', 'it proved' without an I. Combine them with dürfte for a probable statement. Choose the verb that fits what you know: an impression, a general view or a result.",
-        "es": "Quien escribe un texto académico no afirma más de lo que puede demostrar. El alemán tiene verbos que marcan el grado de seguridad. Scheinen + zu + infinitivo expresa una impresión: 'Die Methode scheint zuverlässig zu sein.' Para el pasado se usa el infinitivo perfecto: 'Der Autor scheint die Daten nicht geprüft zu haben.' Gelten als + nominativo o adjetivo dice lo que se considera que algo es: 'Die Studie gilt in der Fachwelt als wegweisend.' No lo confundas con gelten für, que significa ser válido para: 'Die Regel gilt für alle.' Sich erweisen als dice en qué resultó algo: 'Die Annahme erwies sich später als falsch.' Erscheinen y wirken describen cómo se ve algo: 'Das Argument erscheint überzeugend.' Con estos verbos dices 'parece', 'se considera', 'resultó' sin un yo. Se combinan con dürfte para una afirmación probable. Elige el verbo según lo que sepas: una impresión, una opinión general o un resultado."
+        "en": "Academic writers do not claim more than they can show. German has verbs that mark how sure you are. Scheinen + zu + infinitive reports an impression: 'Die Methode scheint zuverlässig zu sein.' For the past use the perfect infinitive: 'Der Autor scheint die Daten nicht geprüft zu haben.' Gelten als + nominative or adjective says what people consider something to be: 'Die Studie gilt in der Fachwelt als wegweisend.' Do not mix it with gelten für, which means to be valid for: 'Die Regel gilt für alle.' Sich erweisen als says what something turned out to be: 'Die Annahme erwies sich später als falsch.' Erscheinen and wirken describe how something looks: 'Das Argument erscheint überzeugend.' With these verbs you say 'it seems', 'it counts as', 'it proved' without an I. Choose the verb that fits what you know: an impression, a general view or a result.",
+        "es": "Quien escribe un texto académico no afirma más de lo que puede demostrar. El alemán tiene verbos que marcan el grado de seguridad. Scheinen + zu + infinitivo expresa una impresión: 'Die Methode scheint zuverlässig zu sein.' Para el pasado se usa el infinitivo perfecto: 'Der Autor scheint die Daten nicht geprüft zu haben.' Gelten als + nominativo o adjetivo dice lo que se considera que algo es: 'Die Studie gilt in der Fachwelt als wegweisend.' No lo confundas con gelten für, que significa ser válido para: 'Die Regel gilt für alle.' Sich erweisen als dice en qué resultó algo: 'Die Annahme erwies sich später als falsch.' Erscheinen y wirken describen cómo se ve algo: 'Das Argument erscheint überzeugend.' Con estos verbos dices 'parece', 'se considera', 'resultó' sin un yo. Elige el verbo según lo que sepas: una impresión, una opinión general o un resultado."
       },
       "examples": [
         {
@@ -1466,8 +1494,8 @@
         "es": "Citar fuentes y tomar distancia"
       },
       "explanation": {
-        "en": "In academic writing it must be clear what is your claim and what comes from a source. For a source you agree with, the indicative is fine: 'Schneider betont, dass die Ergebnisse nicht verallgemeinert werden dürfen.' Use reporting verbs such as betonen, darlegen, einräumen, anführen and zu bedenken geben. To keep your distance, use Konjunktiv I or a frame with zufolge, laut or nach Ansicht von: 'Meyer zufolge sei die Methode ungeeignet.' If the Konjunktiv I looks like the indicative, use Konjunktiv II. Sollen + infinitive says that a source claims something you cannot check: 'Die Studie soll belegen, dass kurze Pausen helfen.' Wollen says that a person claims something about himself or herself: 'Der Autor will die Daten selbst erhoben haben.' For the past use the perfect infinitive, and no zu: 'erhoben haben'. To paraphrase, change the structure, not just single words. A paraphrase still needs the source. Say what a text says in the present tense.",
-        "es": "En la escritura académica debe quedar claro qué es afirmación tuya y qué viene de una fuente. Para una fuente con la que estás de acuerdo basta el indicativo: 'Schneider betont, dass die Ergebnisse nicht verallgemeinert werden dürfen.' Usa verbos de cita como betonen, darlegen, einräumen, anführen y zu bedenken geben. Para tomar distancia, usa el Konjunktiv I o una fórmula con zufolge, laut o nach Ansicht von: 'Meyer zufolge sei die Methode ungeeignet.' Si el Konjunktiv I coincide con el indicativo, usa el Konjunktiv II. Sollen + infinitivo dice que una fuente afirma algo que no puedes comprobar: 'Die Studie soll belegen, dass kurze Pausen helfen.' Wollen dice que una persona afirma algo sobre sí misma: 'Der Autor will die Daten selbst erhoben haben.' Para el pasado se usa el infinitivo perfecto, sin zu: 'erhoben haben'. Para parafrasear, cambia la estructura, no solo palabras sueltas. Una paráfrasis también necesita la fuente. Lo que dice un texto se cuenta en presente."
+        "en": "In academic writing it must be clear what is your claim and what comes from a source. For a source you agree with, the indicative is fine: 'Schneider betont, dass die Ergebnisse nicht verallgemeinert werden dürfen.' Use reporting verbs such as betonen, darlegen, einräumen, anführen and zu bedenken geben. To keep your distance, use Konjunktiv I or a frame with zufolge, laut or nach Ansicht von: 'Meyer zufolge sei die Methode ungeeignet.' If the Konjunktiv I looks like the indicative (for example plural haben), use Konjunktiv II: 'Die Autoren schreiben, sie hätten die Daten geprüft.' The modal verbs sollen and wollen can also mark a claim you cannot check; they were taught in B2.1 (g-modal-subjective-intro) and B2.3 and are not repeated here. To paraphrase, change the structure, not just single words. A paraphrase still needs the source. Say what a text says in the present tense.",
+        "es": "En la escritura académica debe quedar claro qué es afirmación tuya y qué viene de una fuente. Para una fuente con la que estás de acuerdo basta el indicativo: 'Schneider betont, dass die Ergebnisse nicht verallgemeinert werden dürfen.' Usa verbos de cita como betonen, darlegen, einräumen, anführen y zu bedenken geben. Para tomar distancia, usa el Konjunktiv I o una fórmula con zufolge, laut o nach Ansicht von: 'Meyer zufolge sei die Methode ungeeignet.' Si el Konjunktiv I coincide con el indicativo (por ejemplo haben en plural), usa el Konjunktiv II: 'Die Autoren schreiben, sie hätten die Daten geprüft.' Los verbos modales sollen y wollen también pueden marcar una afirmación que no puedes comprobar; se enseñaron en B2.1 (g-modal-subjective-intro) y B2.3 y aquí no se repiten. Para parafrasear, cambia la estructura, no solo palabras sueltas. Una paráfrasis también necesita la fuente. Lo que dice un texto se cuenta en presente."
       },
       "examples": [
         {
@@ -1481,14 +1509,14 @@
           "es": "Según Meyer, el método no es adecuado para muestras pequeñas."
         },
         {
-          "de": "Die Studie soll belegen, dass kurze Pausen die Konzentration verbessern.",
-          "en": "The study is said to show that short breaks improve concentration.",
-          "es": "Se dice que el estudio demuestra que las pausas breves mejoran la concentración."
+          "de": "Die Verfasserin legt dar, dass die Methode auch für größere Gruppen geeignet ist.",
+          "en": "The author explains that the method is also suitable for larger groups.",
+          "es": "La autora expone que el método también es adecuado para grupos mayores."
         },
         {
-          "de": "Der Autor will die Daten selbst erhoben haben.",
-          "en": "The author claims to have collected the data himself.",
-          "es": "El autor afirma haber recogido los datos él mismo."
+          "de": "Die Autoren schreiben, sie hätten die Daten sorgfältig geprüft.",
+          "en": "The authors write that they have checked the data carefully.",
+          "es": "Los autores escriben que han comprobado los datos con cuidado."
         },
         {
           "de": "Die Verfasserin räumt ein, dass die Stichprobe klein war.",
@@ -1496,22 +1524,22 @@
           "es": "La autora admite que la muestra era pequeña."
         },
         {
-          "de": "Laut Hoffmann hätten sich die Arbeitszeiten stark verändert.",
-          "en": "According to Hoffmann, working hours have changed a lot.",
-          "es": "Según Hoffmann, los horarios de trabajo habrían cambiado mucho."
+          "de": "Laut Arndt hätten sich die Arbeitszeiten stark verändert.",
+          "en": "According to Arndt, working hours have changed a lot.",
+          "es": "Según Arndt, los horarios de trabajo habrían cambiado mucho."
         }
       ],
       "typicalErrors": [
         {
-          "wrong": "Der Autor will die Daten selbst erhoben zu haben.",
-          "correct": "Der Autor will die Daten selbst erhoben haben.",
+          "wrong": "Die Autoren schreiben, sie haben die Daten geprüft.",
+          "correct": "Die Autoren schreiben, sie hätten die Daten geprüft.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'claims to have collected' has 'to'. After the modal verb wollen the German infinitive has no zu: erhoben haben.",
-            "es": "El inglés 'claims to have collected' lleva 'to'. Tras el verbo modal wollen el infinitivo alemán no lleva zu: erhoben haben."
+            "en": "English and Spanish report with the plain past or present perfect. The Konjunktiv I of plural haben (sie haben) is the same as the indicative, so it does not show distance. In that case German uses Konjunktiv II: hätten.",
+            "es": "El inglés y el español informan con el pasado o el perfecto simples. El Konjunktiv I de haben en plural (sie haben) coincide con el indicativo y no marca distancia. En ese caso el alemán usa el Konjunktiv II: hätten."
           }
         },
         {
@@ -1566,23 +1594,23 @@
         {
           "type": "transform",
           "instruction": {
-            "en": "Use sollen: you cannot check the claim.",
-            "es": "Usa sollen: no puedes comprobar la afirmación."
+            "en": "The Konjunktiv I is the same as the indicative. Use Konjunktiv II.",
+            "es": "El Konjunktiv I coincide con el indicativo. Usa Konjunktiv II."
           },
-          "prompt": "Man sagt, dass die Studie den Effekt belegt.",
+          "prompt": "Die Autoren schreiben: Wir haben die Daten geprüft. -> Die Autoren schreiben, sie ...",
           "answers": [
-            "Die Studie soll den Effekt belegen."
+            "Die Autoren schreiben, sie hätten die Daten geprüft."
           ]
         },
         {
           "type": "transform",
           "instruction": {
-            "en": "Use wollen: the author claims it about himself.",
-            "es": "Usa wollen: el autor lo afirma de sí mismo."
+            "en": "Keep your distance with nach Ansicht von and Konjunktiv I.",
+            "es": "Toma distancia con nach Ansicht von y Konjunktiv I."
           },
-          "prompt": "Der Autor behauptet, dass er die Daten selbst erhoben hat.",
+          "prompt": "Die Verfasserin sagt: Die Methode ist neu. -> Nach Ansicht der Verfasserin ...",
           "answers": [
-            "Der Autor will die Daten selbst erhoben haben."
+            "Nach Ansicht der Verfasserin sei die Methode neu."
           ]
         },
         {
@@ -1621,12 +1649,12 @@
         {
           "type": "say",
           "instruction": {
-            "en": "Say it aloud: the author says he has collected the data himself.",
-            "es": "Dilo en voz alta: el autor dice que ha recogido los datos él mismo."
+            "en": "Say it aloud with a reporting verb: Schneider stresses it.",
+            "es": "Dilo en voz alta con un verbo de cita: Schneider lo subraya."
           },
-          "prompt": "Der Autor will die Daten ...",
+          "prompt": "Die Ergebnisse dürfen nicht verallgemeinert werden. (betonen) -> Schneider betont, dass ...",
           "answers": [
-            "Der Autor will die Daten selbst erhoben haben."
+            "Schneider betont, dass die Ergebnisse nicht verallgemeinert werden dürfen."
           ]
         }
       ],
@@ -1815,8 +1843,8 @@
         "es": "Argumentar: insofern als, zumal, geschweige denn"
       },
       "explanation": {
-        "en": "Three connectors give an argument finer shades. Insofern ... als limits a statement: it is true only to the extent that something else holds. 'Das Argument überzeugt nur insofern, als es durch Daten gestützt wird.' 'Der Vorschlag ist insofern problematisch, als er die Kosten nicht nennt.' The clause after als has the verb last. Do not write insofern dass. Zumal adds a stronger extra reason, like 'especially since': 'Wir sollten die Frist nicht verlängern, zumal die Kosten ohnehin hoch sind.' It introduces a subordinate clause with the verb at the end. Geschweige denn means 'let alone' and follows a negative or limited statement: 'Er hat kaum Zeit zum Schlafen, geschweige denn für ein Hobby.' After it comes a noun phrase or a clause, often with dass: 'Sie versteht die Vorlesung kaum, geschweige denn, dass sie Fragen stellen könnte.' Use these connectors in writing and in formal talks, and do not overdo them.",
-        "es": "Tres conectores dan matices más finos a un argumento. Insofern ... als limita una afirmación: solo es cierta en la medida en que se cumple otra cosa. 'Das Argument überzeugt nur insofern, als es durch Daten gestützt wird.' 'Der Vorschlag ist insofern problematisch, als er die Kosten nicht nennt.' En la oración con als el verbo va al final. No escribas insofern dass. Zumal añade una razón extra más fuerte, como 'sobre todo porque': 'Wir sollten die Frist nicht verlängern, zumal die Kosten ohnehin hoch sind.' Introduce una oración subordinada con el verbo al final. Geschweige denn significa 'y mucho menos' y sigue a una afirmación negativa o limitada: 'Er hat kaum Zeit zum Schlafen, geschweige denn für ein Hobby.' Después viene un grupo nominal o una oración, a menudo con dass: 'Sie versteht die Vorlesung kaum, geschweige denn, dass sie Fragen stellen könnte.' Usa estos conectores al escribir y en charlas formales, y no abuses de ellos."
+        "en": "Three connectors give an argument finer shades. Insofern ... als limits a statement: it is true only to the extent that something else holds. 'Das Argument überzeugt nur insofern, als es durch Daten gestützt wird.' 'Der Vorschlag ist insofern problematisch, als er die Kosten nicht nennt.' The clause after als has the verb last. Insofern dass is not standard; use insofern als. Zumal adds a stronger extra reason, like 'especially since': 'Wir sollten die Frist nicht verlängern, zumal die Kosten ohnehin hoch sind.' It introduces a subordinate clause with the verb at the end. Geschweige denn means 'let alone' and follows a negative or limited statement: 'Er hat kaum Zeit zum Schlafen, geschweige denn für ein Hobby.' After it comes a noun phrase or a clause, often with dass: 'Sie versteht die Vorlesung kaum, geschweige denn, dass sie Fragen stellen könnte.' Use these connectors in writing and in formal talks, and do not overdo them.",
+        "es": "Tres conectores dan matices más finos a un argumento. Insofern ... als limita una afirmación: solo es cierta en la medida en que se cumple otra cosa. 'Das Argument überzeugt nur insofern, als es durch Daten gestützt wird.' 'Der Vorschlag ist insofern problematisch, als er die Kosten nicht nennt.' En la oración con als el verbo va al final. Insofern dass no es estándar; usa insofern als. Zumal añade una razón extra más fuerte, como 'sobre todo porque': 'Wir sollten die Frist nicht verlängern, zumal die Kosten ohnehin hoch sind.' Introduce una oración subordinada con el verbo al final. Geschweige denn significa 'y mucho menos' y sigue a una afirmación negativa o limitada: 'Er hat kaum Zeit zum Schlafen, geschweige denn für ein Hobby.' Después viene un grupo nominal o una oración, a menudo con dass: 'Sie versteht die Vorlesung kaum, geschweige denn, dass sie Fragen stellen könnte.' Usa estos conectores al escribir y en charlas formales, y no abuses de ellos."
       },
       "examples": [
         {
@@ -1859,8 +1887,8 @@
             "es"
           ],
           "why": {
-            "en": "English 'in so far as' and Spanish 'en la medida en que' have no dass. The German partner of insofern is als (or wie). Insofern dass does not exist.",
-            "es": "El inglés 'in so far as' y el español 'en la medida en que' no tienen dass. El compañero alemán de insofern es als (o wie). Insofern dass no existe."
+            "en": "English 'in so far as' and Spanish 'en la medida en que' have no dass, but learners add it after 'that'. Insofern dass is not standard; the German partner of insofern is als (or wie).",
+            "es": "El inglés 'in so far as' y el español 'en la medida en que' no llevan dass, pero el estudiante lo añade por influencia de 'que'. Insofern dass no es estándar; la pareja alemana de insofern es als (o wie)."
           }
         },
         {
@@ -2376,38 +2404,39 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Er sagt, dass die Studie, die er hat gelesen, interessant ist.",
-          "correct": "Er sagt, dass die Studie, die er gelesen hat, interessant ist.",
+          "wrong": "Die Leiterin bat die Dekanin, den Antrag zu prüfen, nachdem sie ihn abgelehnt hatte.",
+          "correct": "Die Leiterin hatte den Antrag abgelehnt. Nun bat sie die Dekanin, ihn zu prüfen.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "In every subordinate clause the finite verb is last, and the auxiliary comes after the participle: gelesen hat. English 'he has read' and Spanish 'ha leído' put the auxiliary first.",
-            "es": "En cada oración subordinada el verbo conjugado va al final, y el auxiliar va detrás del participio: gelesen hat. El inglés 'he has read' y el español 'ha leído' ponen el auxiliar primero."
+            "en": "In a long period English and Spanish let a pronoun reach back across several clauses. Here sie can mean either woman and the reader cannot tell who rejected the motion. Name the person or split the period.",
+            "es": "En un período largo el inglés y el español dejan que un pronombre remita hacia atrás a través de varias oraciones. Aquí sie puede ser cualquiera de las dos mujeres y el lector no sabe quién rechazó la solicitud. Nombra a la persona o divide el período."
           }
         },
         {
-          "wrong": "Die Studie die ich gelesen habe ist interessant.",
-          "correct": "Die Studie, die ich gelesen habe, ist interessant.",
-          "l1": [
-            "en"
-          ],
-          "why": {
-            "en": "English often leaves out commas around a relative clause ('the study I read is interesting'). German always marks the beginning and end of every clause with commas, so the relative clause is closed by a second comma.",
-            "es": "El inglés suele omitir las comas alrededor de una oración de relativo ('the study I read is interesting'). El alemán marca siempre con comas el principio y el final de cada oración, así que la oración de relativo se cierra con una segunda coma."
-          }
-        },
-        {
-          "wrong": "Der Vorschlag, die die Fachschaft vorlegte, wurde abgelehnt.",
-          "correct": "Der Vorschlag, den die Fachschaft vorlegte, wurde abgelehnt.",
+          "wrong": "Die Leitung hat den Bericht dem Ausschuss vorgelegt, der zu lang war.",
+          "correct": "Die Leitung hat dem Ausschuss den Bericht, der zu lang war, vorgelegt.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'which' and Spanish 'que' do not change. The German relative pronoun takes its gender from the noun it refers to (der Vorschlag, masculine) and its case from its role in the clause (accusative object: den).",
-            "es": "El inglés 'which' y el español 'que' no cambian. El pronombre relativo alemán toma el género del sustantivo al que se refiere (der Vorschlag, masculino) y el caso de su función en la oración (complemento directo: den)."
+            "en": "A relative clause belongs directly behind its noun. English and Spanish tolerate a longer distance. In German, der can refer to Ausschuss or Bericht, and the reader takes the nearer noun first.",
+            "es": "Una oración de relativo va justo detrás de su sustantivo. El inglés y el español toleran más distancia. En alemán der puede referirse a Ausschuss o a Bericht, y el lector toma primero el sustantivo más cercano."
+          }
+        },
+        {
+          "wrong": "Die Fachschaft hat dem Ausschuss gestern nach der Sitzung wegen der Frist für die Anträge der Erstsemester dringend einen Vorschlag vorgelegt.",
+          "correct": "Die Fachschaft hat dem Ausschuss gestern nach der Sitzung einen Vorschlag vorgelegt. Anlass war die Frist für die Anträge der Erstsemester.",
+          "l1": [
+            "en",
+            "es"
+          ],
+          "why": {
+            "en": "Learners know that the middle field can hold many elements and stuff it with time, reason and attributes before the last verb part. The reader loses the thread; move some of the information into a second sentence.",
+            "es": "El estudiante sabe que el campo medio admite muchos elementos y lo llena de tiempo, motivo y atributos antes de la última parte del verbo. El lector pierde el hilo; pasa parte de la información a una segunda oración."
           }
         }
       ],
@@ -2421,8 +2450,7 @@
       ],
       "errorTags": [
         "word-order",
-        "punctuation",
-        "case"
+        "style"
       ],
       "drills": [
         {
@@ -2505,184 +2533,6 @@
       ],
       "sublevel": "C1.1",
       "order": 13
-    },
-    {
-      "id": "g-moderating-and-summarising",
-      "title": {
-        "de": "Besprechungen leiten und Positionen zusammenfassen",
-        "en": "Leading meetings and summarising positions",
-        "es": "Dirigir reuniones y resumir posturas"
-      },
-      "explanation": {
-        "en": "A chair or moderator uses a small set of fixed forms. To lead: 'Kommen wir zum zweiten Punkt der Tagesordnung.' 'Halten wir fest: Wir sind uns einig, dass ...' These wir-invitations have the verb first and no imperative ending. To give the floor: 'Herr Aydin, Sie wollten noch etwas ergänzen?' To check understanding: 'Wenn ich Sie richtig verstehe, möchten Sie den Beitrag senken.' After the wenn-clause the verb comes straight away. To sum up: 'Darf ich kurz zusammenfassen, was bisher gesagt wurde?' To mark a split: 'Hier gehen die Meinungen auseinander; ich schlage vor, dass wir abstimmen.' You can report a position with a reporting verb or with Konjunktiv I: 'Frau Lenz meint, man müsse die Frist verlängern.' Keep your own view out: a moderator restates, asks and structures. Keep every clause complete, since the others will take notes: a verb at the end of each subordinate clause, and Sie for people you do not know well.",
-        "es": "Quien preside o modera una reunión usa un pequeño conjunto de formas fijas. Para dirigir: 'Kommen wir zum zweiten Punkt der Tagesordnung.' 'Halten wir fest: Wir sind uns einig, dass ...' Estas invitaciones con wir llevan el verbo en primer lugar y no tienen terminación de imperativo. Para dar la palabra: 'Herr Aydin, Sie wollten noch etwas ergänzen?' Para comprobar que se ha entendido: 'Wenn ich Sie richtig verstehe, möchten Sie den Beitrag senken.' Después de la oración con wenn el verbo viene enseguida. Para resumir: 'Darf ich kurz zusammenfassen, was bisher gesagt wurde?' Para marcar una división: 'Hier gehen die Meinungen auseinander; ich schlage vor, dass wir abstimmen.' Una postura se puede transmitir con un verbo de cita o con Konjunktiv I: 'Frau Lenz meint, man müsse die Frist verlängern.' Deja fuera tu opinión: el moderador reformula, pregunta y estructura. Mantén completa cada oración, porque los demás toman notas: verbo al final en cada subordinada, y Sie con personas que no conoces bien."
-      },
-      "examples": [
-        {
-          "de": "Kommen wir zum zweiten Punkt der Tagesordnung.",
-          "en": "Let us move to the second item on the agenda.",
-          "es": "Pasemos al segundo punto del orden del día."
-        },
-        {
-          "de": "Wenn ich Sie richtig verstehe, möchten Sie den Beitrag senken.",
-          "en": "If I understand you correctly, you would like to lower the fee.",
-          "es": "Si le entiendo bien, usted querría reducir la cuota."
-        },
-        {
-          "de": "Halten wir fest: Wir sind uns einig, dass wir ein zweites Treffen brauchen.",
-          "en": "Let us note: we agree that we need a second meeting.",
-          "es": "Dejemos constancia: estamos de acuerdo en que necesitamos una segunda reunión."
-        },
-        {
-          "de": "Darf ich kurz zusammenfassen, was bisher gesagt wurde?",
-          "en": "May I briefly sum up what has been said so far?",
-          "es": "¿Puedo resumir brevemente lo que se ha dicho hasta ahora?"
-        },
-        {
-          "de": "Herr Aydin, Sie wollten noch etwas ergänzen?",
-          "en": "Mr Aydin, you wanted to add something?",
-          "es": "Señor Aydin, ¿quería añadir algo?"
-        },
-        {
-          "de": "Hier gehen die Meinungen auseinander; ich schlage vor, dass wir abstimmen.",
-          "en": "Opinions differ here; I suggest that we vote.",
-          "es": "Aquí las opiniones divergen; propongo que votemos."
-        }
-      ],
-      "typicalErrors": [
-        {
-          "wrong": "Wenn ich Sie richtig verstehe, Sie möchten den Beitrag senken.",
-          "correct": "Wenn ich Sie richtig verstehe, möchten Sie den Beitrag senken.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "The wenn-clause fills the first position, so the verb of the main clause comes next. English 'if I understand, you want' keeps the subject first.",
-            "es": "La oración con wenn ocupa la primera posición, así que el verbo de la principal va a continuación. El inglés 'if I understand, you want' y el español 'si entiendo, usted quiere' mantienen el sujeto delante."
-          }
-        },
-        {
-          "wrong": "Halten wir fest, dass wir sind uns einig.",
-          "correct": "Halten wir fest, dass wir uns einig sind.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "After dass the finite verb goes to the end. English and Spanish keep the normal order in 'that we are agreed'.",
-            "es": "Tras dass el verbo conjugado va al final. El inglés y el español mantienen el orden normal en 'que estamos de acuerdo'."
-          }
-        },
-        {
-          "wrong": "Ich möchte zusammenfassen, was Frau Lenz hat gesagt.",
-          "correct": "Ich möchte zusammenfassen, was Frau Lenz gesagt hat.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "Was Frau Lenz gesagt hat is a subordinate clause, so the auxiliary hat stands last, after the participle.",
-            "es": "Was Frau Lenz gesagt hat es una oración subordinada, así que el auxiliar hat va el último, detrás del participio."
-          }
-        }
-      ],
-      "prerequisites": [
-        "g-reported-speech",
-        "g-konjunktiv1-forms",
-        "g-polite-konjunktiv",
-        "g-indirect-questions",
-        "g-conditionals-without-wenn",
-        "g-complex-periods"
-      ],
-      "errorTags": [
-        "word-order",
-        "verb-form"
-      ],
-      "drills": [
-        {
-          "type": "build",
-          "instruction": {
-            "en": "Build the sentence.",
-            "es": "Forma la oración."
-          },
-          "prompt": "wir / zum zweiten Punkt / kommen",
-          "answers": [
-            "Kommen wir zum zweiten Punkt."
-          ]
-        },
-        {
-          "type": "build",
-          "instruction": {
-            "en": "Build the sentence.",
-            "es": "Forma la oración."
-          },
-          "prompt": "wenn ich Sie richtig verstehe / Sie / möchten / den Beitrag senken",
-          "answers": [
-            "Wenn ich Sie richtig verstehe, möchten Sie den Beitrag senken."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Report the position with Konjunktiv I.",
-            "es": "Transmite la postura con Konjunktiv I."
-          },
-          "prompt": "Frau Lenz sagt: Wir müssen die Frist verlängern.",
-          "answers": [
-            "Frau Lenz meint, man müsse die Frist verlängern.",
-            "Frau Lenz meint, sie müssten die Frist verlängern.",
-            "Frau Lenz sagt, man müsse die Frist verlängern."
-          ]
-        },
-        {
-          "type": "complete",
-          "instruction": {
-            "en": "Fill in the verb.",
-            "es": "Completa con el verbo."
-          },
-          "prompt": "Halten wir fest, dass wir uns einig ___.",
-          "answers": [
-            "sind"
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Make it a polite question to give the floor.",
-            "es": "Conviértelo en una pregunta cortés para dar la palabra."
-          },
-          "prompt": "Herr Aydin will noch etwas ergänzen. (Sie)",
-          "answers": [
-            "Herr Aydin, Sie wollten noch etwas ergänzen?",
-            "Herr Aydin, möchten Sie noch etwas ergänzen?"
-          ]
-        },
-        {
-          "type": "build",
-          "instruction": {
-            "en": "Build the sentence.",
-            "es": "Forma la oración."
-          },
-          "prompt": "zusammenfassen / darf ich / was bisher gesagt wurde / kurz",
-          "answers": [
-            "Darf ich kurz zusammenfassen, was bisher gesagt wurde?"
-          ]
-        },
-        {
-          "type": "say",
-          "instruction": {
-            "en": "Say it aloud: propose a vote.",
-            "es": "Dilo en voz alta: propón una votación."
-          },
-          "prompt": "Ich schlage vor, dass ...",
-          "answers": [
-            "Ich schlage vor, dass wir abstimmen."
-          ]
-        }
-      ],
-      "sublevel": "C1.1",
-      "order": 14
     }
   ],
   "vocabulary": [
@@ -10109,38 +9959,43 @@
         ]
       },
       "example": {
-        "de": "Frau Lenz übernimmt heute den Vorsitz der Sitzung.",
-        "en": "Ms Lenz takes the chair of the meeting today.",
-        "es": "La señora Lenz preside hoy la sesión."
+        "de": "Frau Raabe übernimmt heute den Vorsitz der Sitzung.",
+        "en": "Ms Raabe takes the chair of the meeting today.",
+        "es": "La señora Raabe preside hoy la sesión."
       },
       "sublevel": "C1.1",
       "frequencyRank": 5365
     },
     {
       "id": "v-vorsitzender",
-      "lemma": "Vorsitzender",
+      "lemma": "Vorsitzende",
       "pos": "noun",
       "article": "der",
-      "plural": "Vorsitzende",
+      "plural": "Vorsitzenden",
       "themes": [
         "besprechungen-leiten"
       ],
       "translations": {
         "en": [
-          "chairman",
+          "chair",
           "chairperson"
         ],
         "es": [
-          "presidente"
+          "presidente",
+          "presidenta"
         ]
       },
       "example": {
-        "de": "Der Vorsitzende eröffnet die Sitzung um 18 Uhr.",
-        "en": "The chairman opens the meeting at 6 pm.",
-        "es": "El presidente abre la sesión a las 18 horas."
+        "de": "Die Vorsitzende eröffnet die Sitzung um 18 Uhr.",
+        "en": "The chair opens the meeting at 6 pm.",
+        "es": "La presidenta abre la sesión a las 18 horas."
+      },
+      "notes": {
+        "en": "Adjectival noun: der Vorsitzende (man), die Vorsitzende (woman); ein Vorsitzender, eine Vorsitzende; plural die Vorsitzenden.",
+        "es": "Sustantivo adjetival: der Vorsitzende (hombre), die Vorsitzende (mujer); ein Vorsitzender, eine Vorsitzende; plural die Vorsitzenden."
       },
       "sublevel": "C1.1",
-      "frequencyRank": 884
+      "frequencyRank": 15001
     },
     {
       "id": "v-minderheit",
@@ -10412,9 +10267,9 @@
         ]
       },
       "example": {
-        "de": "Die Moderation der Diskussion übernimmt Herr Aydin.",
-        "en": "Mr Aydin takes over the moderation of the discussion.",
-        "es": "La moderación del debate la asume el señor Aydin."
+        "de": "Die Moderation der Diskussion übernimmt Herr Rahn.",
+        "en": "Mr Rahn takes over the moderation of the discussion.",
+        "es": "La moderación del debate la asume el señor Rahn."
       },
       "sublevel": "C1.1",
       "frequencyRank": 15001
@@ -13427,10 +13282,10 @@
     },
     {
       "id": "v-vortragender",
-      "lemma": "Vortragender",
+      "lemma": "Vortragende",
       "pos": "noun",
       "article": "der",
-      "plural": "Vortragende",
+      "plural": "Vortragenden",
       "themes": [
         "vortrag-fachgespraech"
       ],
@@ -13440,13 +13295,18 @@
           "lecturer"
         ],
         "es": [
-          "conferenciante"
+          "conferenciante",
+          "ponente"
         ]
       },
       "example": {
-        "de": "Der Vortragende hielt sich genau an die Zeit.",
+        "de": "Die Vortragende hielt sich genau an die Zeit.",
         "en": "The speaker kept exactly to the time.",
-        "es": "El conferenciante respetó exactamente el tiempo."
+        "es": "La conferenciante respetó exactamente el tiempo."
+      },
+      "notes": {
+        "en": "Adjectival noun: der Vortragende (man), die Vortragende (woman); ein Vortragender, eine Vortragende; plural die Vortragenden.",
+        "es": "Sustantivo adjetival: der Vortragende (hombre), die Vortragende (mujer); ein Vortragender, eine Vortragende; plural die Vortragenden."
       },
       "sublevel": "C1.1",
       "frequencyRank": 15001
@@ -13683,9 +13543,9 @@
         ]
       },
       "example": {
-        "de": "Ich möchte an den Beitrag von Frau Kaya anknüpfen.",
-        "en": "I would like to build on Ms Kaya's contribution.",
-        "es": "Quisiera enlazar con la intervención de la señora Kaya."
+        "de": "Ich möchte an den Beitrag von Frau Thiele anknüpfen.",
+        "en": "I would like to build on Ms Thiele's contribution.",
+        "es": "Quisiera enlazar con la intervención de la señora Thiele."
       },
       "sublevel": "C1.1",
       "frequencyRank": 6957
@@ -14522,7 +14382,7 @@
     {
       "id": "v-indes",
       "lemma": "indes",
-      "pos": "conjunction",
+      "pos": "adverb",
       "themes": [
         "stellungnahme-meinungsbeitrag"
       ],
@@ -14537,9 +14397,9 @@
         ]
       },
       "example": {
-        "de": "Die Kosten steigen, indes bleibt die Qualität gleich.",
-        "en": "The costs rise, while the quality stays the same.",
-        "es": "Los costes suben, mientras que la calidad sigue igual."
+        "de": "Die Kosten steigen. Die Qualität bleibt indes gleich.",
+        "en": "Costs are rising. Quality, however, stays the same.",
+        "es": "Los costes suben. La calidad, sin embargo, sigue igual."
       },
       "sublevel": "C1.1",
       "frequencyRank": 1326
@@ -14913,9 +14773,9 @@
         ]
       },
       "example": {
-        "de": "Ich erteile Frau Kaya das Wort.",
-        "en": "I give Ms Kaya the floor.",
-        "es": "Le doy la palabra a la señora Kaya."
+        "de": "Ich erteile Frau Thiele das Wort.",
+        "en": "I give Ms Thiele the floor.",
+        "es": "Le doy la palabra a la señora Thiele."
       },
       "sublevel": "C1.1",
       "frequencyRank": 15001
@@ -15211,20 +15071,20 @@
         "es": "Dirige una reunión del consejo de estudiantes y modera el debate"
       },
       "situation": {
-        "en": "You chair the meeting of the student council of your department. The topic is how to spend a small budget: a printer for the common room or a speaker series. Jonas, a member, has strong views and talks a lot. Open the item, give the floor, summarise the positions, steer towards a decision and close with who does what. The budget and the people are invented for the exercise.",
-        "es": "Diriges la reunión del consejo de estudiantes de tu departamento. El tema es cómo gastar un presupuesto pequeño: una impresora para la sala común o un ciclo de charlas. Jonas, un miembro, tiene opiniones firmes y habla mucho. Abre el punto, da la palabra, resume las posturas, orienta hacia una decisión y cierra diciendo quién hace qué. El presupuesto y las personas son inventados para el ejercicio."
+        "en": "You chair the meeting of the student council of your department. The topic is how to spend a small budget: a printer for the common room or a speaker series. Henrik, a member, has strong views and talks a lot. Open the item, give the floor, summarise the positions, steer towards a decision and close with who does what. The budget and the people are invented for the exercise.",
+        "es": "Diriges la reunión del consejo de estudiantes de tu departamento. El tema es cómo gastar un presupuesto pequeño: una impresora para la sala común o un ciclo de charlas. Henrik, un miembro, tiene opiniones firmes y habla mucho. Abre el punto, da la palabra, resume las posturas, orienta hacia una decisión y cierra diciendo quién hace qué. El presupuesto y las personas son inventados para el ejercicio."
       },
       "learnerRole": "Sitzungsleiterin oder Sitzungsleiter der Fachschaft",
-      "partnerRole": "Jonas Reiter, Mitglied der Fachschaft, engagiert, redet gern lang und möchte die Druckeranschaffung durchsetzen",
+      "partnerRole": "Henrik Reiter, Mitglied der Fachschaft, engagiert, redet gern lang und möchte die Druckeranschaffung durchsetzen",
       "register": "Sie",
       "goals": [
         {
-          "en": "Open the agenda item and give Jonas the floor.",
-          "es": "Abre el punto del orden del día y da la palabra a Jonas."
+          "en": "Open the agenda item and give Henrik the floor.",
+          "es": "Abre el punto del orden del día y da la palabra a Henrik."
         },
         {
-          "en": "Restate Jonas's position correctly and ask for his reasons.",
-          "es": "Reformula correctamente la postura de Jonas y pide sus razones."
+          "en": "Restate Henrik's position correctly and ask for his reasons.",
+          "es": "Reformula correctamente la postura de Henrik y pide sus razones."
         },
         {
           "en": "Keep the discussion on the topic and within the time.",
@@ -15245,13 +15105,13 @@
         "Das Budget der Fachschaft für dieses Semester beträgt 800 Euro.",
         "Ein Drucker mit Papier und Toner kostet etwa 500 Euro.",
         "Eine kleine Vortragsreihe mit zwei Gästen würde etwa 600 Euro kosten.",
-        "Jonas ist für den Drucker, weil viele Studierende ihre Arbeiten ausdrucken müssen.",
-        "Jonas gibt nach, wenn jemand seine Position fair zusammenfasst und ihm eine Aufgabe gibt.",
+        "Henrik ist für den Drucker, weil viele Studierende ihre Arbeiten ausdrucken müssen.",
+        "Henrik gibt nach, wenn jemand seine Position fair zusammenfasst und ihm eine Aufgabe gibt.",
         "Die nächste Sitzung ist in zwei Wochen.",
-        "Jonas macht keine Aussagen über Gesetze oder Hochschulregeln."
+        "Henrik macht keine Aussagen über Gesetze oder Hochschulregeln."
       ],
       "targetGrammar": [
-        "g-moderating-and-summarising",
+        "g-complex-periods",
         "g-vorfeld-information-structure",
         "g-conditionals-without-wenn",
         "g-connectors-insofern-zumal-geschweige",
@@ -15279,9 +15139,24 @@
           "es": "Aquí las opiniones divergen; propongo que votemos."
         },
         {
-          "de": "Halten wir fest: Jonas kümmert sich bis zur nächsten Sitzung um drei Angebote.",
-          "en": "Let us note: Jonas will get three quotes by the next meeting.",
-          "es": "Dejemos constancia: Jonas se ocupa de tres presupuestos hasta la próxima sesión."
+          "de": "Halten wir fest: Henrik kümmert sich bis zur nächsten Sitzung um drei Angebote.",
+          "en": "Let us note: Henrik will get three quotes by the next meeting.",
+          "es": "Dejemos constancia: Henrik se ocupa de tres presupuestos hasta la próxima sesión."
+        },
+        {
+          "de": "Herr Reiter, Sie wollten noch etwas ergänzen?",
+          "en": "Mr Reiter, you wanted to add something?",
+          "es": "Señor Reiter, ¿quería añadir algo?"
+        },
+        {
+          "de": "Herr Reiter meint, man müsse zuerst den Drucker kaufen.",
+          "en": "Mr Reiter thinks that the printer should be bought first.",
+          "es": "El señor Reiter opina que primero hay que comprar la impresora."
+        },
+        {
+          "de": "Ich möchte zusammenfassen, was Herr Reiter gesagt hat, und dann die Gegenposition nennen.",
+          "en": "I would like to sum up what Mr Reiter said and then name the opposing position.",
+          "es": "Quisiera resumir lo que ha dicho el señor Reiter y luego mencionar la postura contraria."
         }
       ],
       "limits": {
@@ -15289,7 +15164,7 @@
         "maxTurns": 20
       },
       "expectedPartnerBehaviour": [
-        "Stays Jonas Reiter for the whole conversation and uses Sie with the chair.",
+        "Stays Henrik Reiter for the whole conversation and uses Sie with the chair.",
         "Argues for the printer with reasons from partnerFacts and talks a little too long until the chair steers him.",
         "Accepts a fair summary of his position and reacts to it; may correct a wrong summary.",
         "Gives way on the decision only if the chair summarises his view and offers him a task.",
@@ -15315,8 +15190,8 @@
       ],
       "script": [
         {
-          "learner": "Guten Abend zusammen. Kommen wir zum zweiten Punkt der Tagesordnung: die Verwendung des Budgets. Jonas, Sie haben das Wort.",
-          "expect": "Jonas argues for the printer in at most 60 words, using the facts given."
+          "learner": "Guten Abend zusammen. Kommen wir zum zweiten Punkt der Tagesordnung: die Verwendung des Budgets. Henrik, Sie haben das Wort.",
+          "expect": "Henrik argues for the printer in at most 60 words, using the facts given."
         },
         {
           "learner": "Wenn ich Sie richtig verstehe, möchten Sie den Drucker kaufen, weil viele Studierende ihre Arbeiten ausdrucken müssen.",
@@ -15331,7 +15206,7 @@
           "expect": "Reacts to the summary and the proposal to vote; does not invent rules about votes."
         },
         {
-          "learner": "Halten wir fest: Jonas holt bis zur nächsten Sitzung drei Angebote für einen Drucker ein. Sind Sie damit einverstanden?",
+          "learner": "Halten wir fest: Henrik holt bis zur nächsten Sitzung drei Angebote für einen Drucker ein. Sind Sie damit einverstanden?",
           "expect": "Agrees if he feels treated fairly; closes the item; names no new facts."
         }
       ],
@@ -15345,11 +15220,11 @@
         "es": "Media entre dos miembros de un grupo de proyecto"
       },
       "situation": {
-        "en": "Two members of your seminar project group disagree: Mara wants to hand in early, Tobias wants more time to improve the data. You have been asked to mediate. In this role-play you talk to Mara. Find out her interests, check what she can accept and suggest a compromise with a condition. The group and the seminar are invented for the exercise.",
-        "es": "Dos miembros de tu grupo de proyecto del seminario no se ponen de acuerdo: Mara quiere entregar pronto, Tobias quiere más tiempo para mejorar los datos. Te han pedido que medies. En este juego de rol hablas con Mara. Averigua sus intereses, comprueba qué puede aceptar y propón un compromiso con una condición. El grupo y el seminario son inventados para el ejercicio."
+        "en": "Two members of your seminar project group disagree: Mara wants to hand in early, Florian wants more time to improve the data. You have been asked to mediate. In this role-play you talk to Mara. Find out her interests, check what she can accept and suggest a compromise with a condition. The group and the seminar are invented for the exercise.",
+        "es": "Dos miembros de tu grupo de proyecto del seminario no se ponen de acuerdo: Mara quiere entregar pronto, Florian quiere más tiempo para mejorar los datos. Te han pedido que medies. En este juego de rol hablas con Mara. Averigua sus intereses, comprueba qué puede aceptar y propón un compromiso con una condición. El grupo y el seminario son inventados para el ejercicio."
       },
       "learnerRole": "Vermittlerin oder Vermittler in der Projektgruppe",
-      "partnerRole": "Mara Lenz, Studentin im Projektseminar, unter Zeitdruck, höflich, aber nicht kompromissbereit am Anfang",
+      "partnerRole": "Mara Raabe, Studentin im Projektseminar, unter Zeitdruck, höflich, aber nicht kompromissbereit am Anfang",
       "register": "du",
       "goals": [
         {
@@ -15369,17 +15244,17 @@
           "es": "Comprueba que puede aceptarlo y acordad el siguiente paso."
         }
       ],
-      "partnerOpening": "Ehrlich gesagt verstehe ich Tobias nicht. Wir haben genug Daten, und ich habe nächste Woche noch zwei andere Abgaben.",
+      "partnerOpening": "Ehrlich gesagt verstehe ich Florian nicht. Wir haben genug Daten, und ich habe nächste Woche noch zwei andere Abgaben.",
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
         "Die Abgabe des Projekts ist in zehn Tagen.",
         "Mara hat in der Woche danach ein Praktikum und kann dann kaum arbeiten.",
         "Mara fürchtet vor allem Zeitnot, nicht eine bessere Analyse.",
-        "Mara würde drei zusätzliche Tage für die Daten akzeptieren, wenn Tobias die Auswertung selbst übernimmt.",
+        "Mara würde drei zusätzliche Tage für die Daten akzeptieren, wenn Florian die Auswertung selbst übernimmt.",
         "Mara spricht nicht über Prüfungsregeln oder Noten-Gesetze."
       ],
       "targetGrammar": [
-        "g-moderating-and-summarising",
+        "g-text-cohesion-references",
         "g-conditionals-without-wenn",
         "g-connectors-insofern-zumal-geschweige",
         "g-indem-dadurch-dass"
@@ -15396,14 +15271,24 @@
           "es": "Si te entiendo bien, lo que te importa sobre todo es el tiempo después de la entrega."
         },
         {
-          "de": "Wärst du einverstanden, wenn wir drei Tage zugeben und Tobias die Auswertung übernimmt?",
-          "en": "Would you agree if we add three days and Tobias takes over the analysis?",
-          "es": "¿Estarías de acuerdo si añadimos tres días y Tobias se encarga del análisis?"
+          "de": "Wärst du einverstanden, wenn wir drei Tage zugeben und Florian die Auswertung übernimmt?",
+          "en": "Would you agree if we add three days and Florian takes over the analysis?",
+          "es": "¿Estarías de acuerdo si añadimos tres días y Florian se encarga del análisis?"
         },
         {
           "de": "Sollte er das ablehnen, sprechen wir noch einmal über andere Möglichkeiten.",
           "en": "Should he refuse, we will talk again about other options.",
           "es": "Si lo rechazara, volveremos a hablar de otras opciones."
+        },
+        {
+          "de": "Darf ich kurz zusammenfassen, was du gesagt hast?",
+          "en": "May I briefly sum up what you said?",
+          "es": "¿Puedo resumir brevemente lo que has dicho?"
+        },
+        {
+          "de": "Halten wir fest: Du bist einverstanden, wenn Florian die Auswertung übernimmt.",
+          "en": "Let us note: you agree if Florian takes over the analysis.",
+          "es": "Dejemos constancia: estás de acuerdo si Florian se encarga del análisis."
         }
       ],
       "limits": {
@@ -15411,9 +15296,9 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Mara Lenz and uses du with the learner.",
+        "Stays Mara Raabe and uses du with the learner.",
         "Starts firm about the early deadline and softens only when her real interest, the time after the deadline, is addressed.",
-        "Accepts the compromise of three extra days only with the condition that Tobias does the analysis.",
+        "Accepts the compromise of three extra days only with the condition that Florian does the analysis.",
         "Uses only partnerFacts and invents no rules or dates.",
         "Does not correct the learner's German."
       ],
@@ -15424,7 +15309,7 @@
           "why": "A rule about deadlines that is not in partnerFacts."
         },
         {
-          "partnerTurn": "Wir können uns auf drei Tage einigen, wenn Tobias die Auswertung übernimmt, und ich schlage außerdem vor, dass wir danach ein Protokoll schreiben, einen Zeitplan erstellen und der Dozentin eine E-Mail schicken.",
+          "partnerTurn": "Wir können uns auf drei Tage einigen, wenn Florian die Auswertung übernimmt, und ich schlage außerdem vor, dass wir danach ein Protokoll schreiben, einen Zeitplan erstellen und der Dozentin eine E-Mail schicken.",
           "breaks": "too-long",
           "why": "Mara solves the whole task herself and uses more than 50 words."
         }
@@ -15443,11 +15328,11 @@
           "expect": "Says it depends on who does the work; does not agree at once."
         },
         {
-          "learner": "Wärst du einverstanden, wenn wir drei Tage zugeben und Tobias die Auswertung übernimmt?",
+          "learner": "Wärst du einverstanden, wenn wir drei Tage zugeben und Florian die Auswertung übernimmt?",
           "expect": "Accepts with the stated condition."
         },
         {
-          "learner": "Gut, dann fasse ich zusammen: drei Tage mehr, Tobias macht die Auswertung. Ich spreche heute noch mit ihm.",
+          "learner": "Gut, dann fasse ich zusammen: drei Tage mehr, Florian macht die Auswertung. Ich spreche heute noch mit ihm.",
           "expect": "Agrees and closes; invents no further facts."
         }
       ],
@@ -15461,8 +15346,8 @@
         "es": "Responde a preguntas críticas tras tu exposición en el seminario"
       },
       "situation": {
-        "en": "You have just given a talk in a seminar on student housing. Dr Hartmann, the lecturer, asks critical questions about your sample and your conclusion. Defend what you can, admit limits and keep your distance from claims you cannot prove. The study and the figures are invented for the exercise.",
-        "es": "Acabas de dar una exposición en un seminario sobre la vivienda estudiantil. El doctor Hartmann, el docente, hace preguntas críticas sobre tu muestra y tu conclusión. Defiende lo que puedas, admite los límites y toma distancia de lo que no puedas demostrar. El estudio y las cifras son inventados para el ejercicio."
+        "en": "You have just given a talk in a seminar on how students travel to campus. Dr Hartmann, the lecturer, asks critical questions about your sample and your conclusion. Defend what you can, admit limits and keep your distance from claims you cannot prove. The study and the figures are invented for the exercise.",
+        "es": "Acabas de dar una exposición en un seminario sobre cómo llegan los estudiantes al campus. El doctor Hartmann, el docente, hace preguntas críticas sobre tu muestra y tu conclusión. Defiende lo que puedas, admite los límites y toma distancia de lo que no puedas demostrar. El estudio y las cifras son inventados para el ejercicio."
       },
       "learnerRole": "Studentin oder Student, hat im Seminar einen Vortrag gehalten",
       "partnerRole": "Dr. Hartmann, Dozent im Seminar, sachlich, stellt gezielte kritische Fragen",
@@ -15485,11 +15370,11 @@
           "es": "Promete cómo comprobarás un punto abierto."
         }
       ],
-      "partnerOpening": "Vielen Dank für den Vortrag. Eine Frage zur Methode: Sie haben nur zwölf Studierende befragt. Warum halten Sie das für ausreichend?",
+      "partnerOpening": "Vielen Dank für den Vortrag. Eine Frage zur Methode: Sie haben nur sechzig Studierende aus einem Fachbereich befragt. Warum halten Sie das für ausreichend?",
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
-        "Die Studie des Vortrags beruht auf zwölf Interviews mit Studierenden eines Wohnheims.",
-        "Dr. Hartmann hält zwölf Interviews für knapp, akzeptiert sie aber für eine erste Untersuchung.",
+        "Die Studie des Vortrags beruht auf einer Online-Umfrage unter sechzig Studierenden eines Fachbereichs.",
+        "Dr. Hartmann hält sechzig Befragte für knapp, akzeptiert sie aber für eine erste Untersuchung.",
         "Er fragt außerdem, ob die Ergebnisse für alle Städte gelten.",
         "Er fragt, woher eine Zahl aus dem Vortrag stammt, und möchte eine Quelle hören.",
         "Dr. Hartmann nennt keine Regeln der Universität und keine Fristen."
@@ -15535,7 +15420,7 @@
       ],
       "failureExamples": [
         {
-          "partnerTurn": "Nach der Seminarordnung müssen Vorträge mindestens dreißig Interviews haben.",
+          "partnerTurn": "Nach der Seminarordnung müssen Umfragen mindestens dreihundert Befragte haben.",
           "breaks": "invented-facts",
           "why": "A requirement that is not in partnerFacts."
         },
@@ -15555,7 +15440,7 @@
           "expect": "Agrees and asks where one number in the talk comes from."
         },
         {
-          "learner": "Die Zahl stammt aus einer Studie. Dem Autor zufolge sei die Wohnungsnot in Großstädten besonders groß.",
+          "learner": "Die Zahl stammt aus einer Studie. Dem Autor zufolge sei der Anteil der Pendler in Großstädten besonders hoch.",
           "expect": "Asks about the source or notes the distance taken; does not invent sources."
         },
         {
@@ -15577,11 +15462,11 @@
         "es": "Presenta una toma de postura sobre un borrador ante un comité de facultad"
       },
       "situation": {
-        "en": "A faculty committee is discussing a draft change to the study regulations of a fictional degree programme. You speak for the students. State your position, give two reasons, answer an objection and ask for a concrete step. Professor Koch chairs the committee. The draft and all details are invented for the exercise.",
-        "es": "Un comité de facultad discute un borrador de cambio del reglamento de estudios de un grado ficticio. Hablas en nombre de los estudiantes. Expón tu postura, da dos razones, responde a una objeción y pide un paso concreto. La profesora Koch preside el comité. El borrador y todos los detalles son inventados para el ejercicio."
+        "en": "A faculty committee is discussing a draft change to the study regulations of a fictional degree programme. You speak for the students. State your position, give two reasons, answer an objection and ask for a concrete step. Professor Vogt chairs the committee. The draft and all details are invented for the exercise.",
+        "es": "Un comité de facultad discute un borrador de cambio del reglamento de estudios de un grado ficticio. Hablas en nombre de los estudiantes. Expón tu postura, da dos razones, responde a una objeción y pide un paso concreto. La profesora Vogt preside el comité. El borrador y todos los detalles son inventados para el ejercicio."
       },
       "learnerRole": "Vertreterin oder Vertreter der Studierenden im Gremium",
-      "partnerRole": "Prof. Dr. Koch, Vorsitzende des Fakultätsausschusses, höflich, genau, stellt Nachfragen",
+      "partnerRole": "Prof. Dr. Vogt, Vorsitzende des Fakultätsausschusses, höflich, genau, stellt Nachfragen",
       "register": "Sie",
       "goals": [
         {
@@ -15606,9 +15491,9 @@
         "Alles in dieser Sitzung ist für die Übung erfunden.",
         "Der Entwurf sieht vor, dass ein Pflichtseminar vom dritten ins fünfte Semester verschoben wird.",
         "Die Studierenden möchten die Verschiebung nicht, weil viele im fünften Semester ein Praktikum machen.",
-        "Prof. Koch wendet ein, dass im dritten Semester der Raum fehlt.",
+        "Prof. Vogt wendet ein, dass im dritten Semester der Raum fehlt.",
         "Sie kann zusagen, dass das Thema in der nächsten Sitzung noch einmal behandelt wird.",
-        "Prof. Koch macht keine Aussage zu Gesetzen oder zu echten Regeln anderer Hochschulen."
+        "Prof. Vogt macht keine Aussage zu Gesetzen oder zu echten Regeln anderer Hochschulen."
       ],
       "targetGrammar": [
         "g-prepositions-genitive-c1",
@@ -15643,7 +15528,7 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Prof. Koch, chairs politely and uses Sie.",
+        "Stays Prof. Vogt, chairs politely and uses Sie.",
         "Asks the learner for the position first, then raises the objection about the room.",
         "Agrees to put the topic on the next agenda if the learner asks clearly.",
         "Uses only partnerFacts and names no real rules or laws.",
@@ -15689,11 +15574,11 @@
         "es": "Comenta tu borrador de artículo de opinión con la redactora"
       },
       "situation": {
-        "en": "You wrote an opinion piece about the semester ticket for the student newspaper. The editor, Ms Brandt, has read it and has three comments: the thesis is not clear, one argument is one-sided and a source is missing. Respond to each comment, say what you will change and agree on the next step. The newspaper and the facts are invented for the exercise.",
-        "es": "Has escrito un artículo de opinión sobre el abono semestral para el periódico estudiantil. La redactora, la señora Brandt, lo ha leído y tiene tres comentarios: la tesis no está clara, un argumento es parcial y falta una fuente. Responde a cada comentario, di qué cambiarás y acordad el siguiente paso. El periódico y los datos son inventados para el ejercicio."
+        "en": "You wrote an opinion piece about the semester ticket for the student newspaper. The editor, Ms Kessler, has read it and has three comments: the thesis is not clear, one argument is one-sided and a source is missing. Respond to each comment, say what you will change and agree on the next step. The newspaper and the facts are invented for the exercise.",
+        "es": "Has escrito un artículo de opinión sobre el abono semestral para el periódico estudiantil. La redactora, la señora Kessler, lo ha leído y tiene tres comentarios: la tesis no está clara, un argumento es parcial y falta una fuente. Responde a cada comentario, di qué cambiarás y acordad el siguiente paso. El periódico y los datos son inventados para el ejercicio."
       },
       "learnerRole": "Autorin oder Autor eines Meinungsbeitrags für die Studierendenzeitung",
-      "partnerRole": "Frau Brandt, Redakteurin der Studierendenzeitung, freundlich, direkt, achtet auf klare Thesen",
+      "partnerRole": "Frau Kessler, Redakteurin der Studierendenzeitung, freundlich, direkt, achtet auf klare Thesen",
       "register": "Sie",
       "goals": [
         {
@@ -15717,10 +15602,10 @@
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
         "Der Text fordert, das Semesterticket günstiger zu machen.",
-        "Frau Brandt findet, dass die Gegenseite im Text gar nicht vorkommt.",
+        "Frau Kessler findet, dass die Gegenseite im Text gar nicht vorkommt.",
         "Eine Zahl im Text hat keine Quelle.",
         "Die überarbeitete Fassung kann bis nächsten Freitag eingereicht werden.",
-        "Frau Brandt macht keine Aussagen über echte Preise oder Gesetze."
+        "Frau Kessler macht keine Aussagen über echte Preise oder Gesetze."
       ],
       "targetGrammar": [
         "g-text-cohesion-references",
@@ -15755,7 +15640,7 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Frau Brandt and uses Sie.",
+        "Stays Frau Kessler and uses Sie.",
         "Makes one comment per turn in the order thesis, one-sided argument, missing source.",
         "Accepts clear answers and agrees the date from partnerFacts.",
         "Invents no prices or facts about the ticket.",
@@ -16165,55 +16050,55 @@
         "id": "lesen-stellungnahme-entwurf",
         "skill": "reading",
         "format": "Förmliche Stellungnahme lesen: Zuordnung und Kurzantwort",
-        "instructions": "Lesen Sie die Stellungnahme der Studierendenvertretung an einen Ausschuss. Bei den Aufgaben 1 bis 3 wählen Sie die passende Antwort. Bei Aufgabe 4 schreiben Sie eine kurze Antwort.",
+        "instructions": "Lesen Sie die Stellungnahme der Aushilfen an die Geschäftsleitung. Bei den Aufgaben 1 bis 3 wählen Sie die passende Antwort. Bei Aufgabe 4 schreiben Sie eine kurze Antwort.",
         "minutes": 10,
         "points": 10,
         "material": {
-          "text": "Stellungnahme der Studierendenvertretung zum Entwurf einer Änderung der Seminarordnung\n\nSehr geehrte Damen und Herren,\n\nunter Bezugnahme auf den Entwurf vom 12. Mai nehmen wir wie folgt Stellung. Alle Angaben in diesem Text sind für die Übung erfunden.\n\n1. Wir begrüßen, dass das Abstract künftig vorab eingereicht werden soll. Dies erleichtert die Planung.\n\n2. Ungeachtet dieser Verbesserung lehnen wir die geplante Verkürzung der Bearbeitungszeit ab. Sie ginge zulasten der Studierenden, die neben dem Studium arbeiten müssen.\n\n3. Sollte der Ausschuss an der Verkürzung festhalten, bitten wir darum, eine Ausnahme für Berufstätige vorzusehen.\n\n4. Wir bitten um eine Antwort bis zum 30. Juni und stehen für ein Gespräch gern zur Verfügung.\n\nMit freundlichen Grüßen\nDie Studierendenvertretung"
+          "text": "Stellungnahme der Aushilfen zum Entwurf einer neuen Schichtregelung\n\nSehr geehrte Damen und Herren,\n\nunter Bezugnahme auf den Entwurf vom 12. Mai nehmen wir wie folgt Stellung. Alle Angaben in diesem Text sind für die Übung erfunden.\n\n1. Wir begrüßen, dass der Schichtplan künftig zwei Wochen im Voraus veröffentlicht werden soll. Dies erleichtert die Planung.\n\n2. Ungeachtet dieser Verbesserung lehnen wir die geplante Streichung der Wochenendzuschläge ab. Sie ginge zulasten der Aushilfen, die vor allem am Wochenende arbeiten.\n\n3. Sollte die Geschäftsleitung an der Streichung festhalten, bitten wir darum, eine Übergangsfrist vorzusehen.\n\n4. Wir bitten um eine Antwort bis zum 30. Juni und stehen für ein Gespräch gern zur Verfügung.\n\nMit freundlichen Grüßen\nDie Vertretung der Aushilfen"
         },
         "items": [
           {
             "id": "begruesst",
-            "question": "1. Was begrüßt die Studierendenvertretung?",
+            "question": "1. Was begrüßen die Aushilfen?",
             "type": "multiple-choice",
             "options": [
-              "Dass das Abstract vorab eingereicht werden soll.",
-              "Dass die Bearbeitungszeit kürzer wird.",
-              "Dass es keine Ausnahmen gibt."
+              "Dass der Schichtplan früher veröffentlicht werden soll.",
+              "Dass die Wochenendzuschläge wegfallen.",
+              "Dass es keine Übergangsfrist gibt."
             ],
             "answer": [
-              "Dass das Abstract vorab eingereicht werden soll."
+              "Dass der Schichtplan früher veröffentlicht werden soll."
             ]
           },
           {
             "id": "lehnt-ab",
-            "question": "2. Was lehnt die Studierendenvertretung ab?",
+            "question": "2. Was lehnen die Aushilfen ab?",
             "type": "multiple-choice",
             "options": [
-              "Die Einreichung des Abstracts.",
-              "Die Verkürzung der Bearbeitungszeit.",
-              "Das Gespräch mit dem Ausschuss."
+              "Die frühere Veröffentlichung des Schichtplans.",
+              "Die Streichung der Wochenendzuschläge.",
+              "Das Gespräch mit der Geschäftsleitung."
             ],
             "answer": [
-              "Die Verkürzung der Bearbeitungszeit."
+              "Die Streichung der Wochenendzuschläge."
             ]
           },
           {
             "id": "bedingung",
-            "question": "3. Unter welcher Bedingung bittet sie um eine Ausnahme?",
+            "question": "3. Unter welcher Bedingung bitten sie um eine Übergangsfrist?",
             "type": "multiple-choice",
             "options": [
-              "Falls der Ausschuss die Verkürzung beibehält.",
-              "Falls alle Studierenden zustimmen.",
-              "Falls das Abstract zu spät kommt."
+              "Falls die Geschäftsleitung an der Streichung festhält.",
+              "Falls alle Aushilfen zustimmen.",
+              "Falls der Schichtplan zu spät kommt."
             ],
             "answer": [
-              "Falls der Ausschuss die Verkürzung beibehält."
+              "Falls die Geschäftsleitung an der Streichung festhält."
             ]
           },
           {
             "id": "antwortfrist",
-            "question": "4. Bis wann bittet die Studierendenvertretung um eine Antwort?",
+            "question": "4. Bis wann bitten die Aushilfen um eine Antwort?",
             "type": "short-answer",
             "answer": [
               "bis zum 30. Juni",
@@ -16231,34 +16116,34 @@
         "minutes": 12,
         "points": 15,
         "material": {
-          "text": "Guten Morgen. Ich möchte Ihnen heute eine kleine Untersuchung vorstellen. Alle Angaben sind für die Übung erfunden. Wir haben fünfzehn Studierende gefragt, wie sie ihren Tag planen. Die Studie soll zeigen, dass feste Lernzeiten die Zufriedenheit erhöhen. Ich muss aber gleich sagen: Die Ergebnisse dürfen nicht verallgemeinert werden, zumal die Stichprobe klein ist und nur aus einem Studiengang stammt. Dennoch scheint sich ein Muster abzuzeichnen. Wer feste Lernzeiten hat, gibt an, weniger gestresst zu sein. Dies ist insofern interessant, als die Befragten sehr unterschiedlich viel lernen. Ob feste Lernzeiten die Ursache sind oder ob ruhige Menschen einfach eher Pläne machen, kann ich nicht sagen. Meyer zufolge sei diese Frage nur mit einer größeren Untersuchung zu klären. Genau dafür plane ich im nächsten Semester eine Befragung mit hundert Studierenden aus drei Studiengängen.",
+          "text": "Guten Morgen. Ich möchte Ihnen heute eine kleine Messung vorstellen. Alle Angaben sind für die Übung erfunden. Wir haben zwei Wochen lang in vier Lesesälen einer Bibliothek den Lärm gemessen. Die Messung soll zeigen, dass es montags am Vormittag am lautesten ist. Ich muss aber gleich sagen: Die Ergebnisse dürfen nicht verallgemeinert werden, zumal wir nur eine Bibliothek untersucht haben und die Messzeit kurz war. Dennoch scheint sich ein Muster abzuzeichnen. Wo viele Gruppen arbeiten, ist der Lärm deutlich höher. Dies ist insofern interessant, als alle vier Säle gleich groß sind. Ob der Lärm die Konzentration tatsächlich stört oder ob sich die Studierenden einfach daran gewöhnen, kann ich nicht sagen. Meyer zufolge sei diese Frage nur mit einer Befragung der Nutzer zu klären. Genau dafür plane ich im nächsten Semester eine Messung in drei weiteren Bibliotheken.",
           "playsAllowed": 2
         },
         "items": [
           {
-            "id": "anzahl-befragte",
-            "question": "1. Wie viele Studierende wurden befragt?",
+            "id": "anzahl-saele",
+            "question": "1. In wie vielen Lesesälen wurde gemessen?",
             "type": "multiple-choice",
             "options": [
-              "Zehn",
-              "Fünfzehn",
-              "Hundert"
+              "In zwei",
+              "In vier",
+              "In zehn"
             ],
             "answer": [
-              "Fünfzehn"
+              "In vier"
             ]
           },
           {
             "id": "was-soll-zeigen",
-            "question": "2. Was soll die Studie zeigen?",
+            "question": "2. Was soll die Messung zeigen?",
             "type": "multiple-choice",
             "options": [
-              "Dass feste Lernzeiten die Zufriedenheit erhöhen.",
-              "Dass Studierende zu wenig lernen.",
-              "Dass Stress die Noten verbessert."
+              "Dass es montags am Vormittag am lautesten ist.",
+              "Dass Gruppenarbeit verboten werden soll.",
+              "Dass die Bibliothek zu klein ist."
             ],
             "answer": [
-              "Dass feste Lernzeiten die Zufriedenheit erhöhen."
+              "Dass es montags am Vormittag am lautesten ist."
             ]
           },
           {
@@ -16266,12 +16151,12 @@
             "question": "3. Warum dürfen die Ergebnisse nicht verallgemeinert werden?",
             "type": "multiple-choice",
             "options": [
-              "Weil die Stichprobe klein ist und aus einem Studiengang stammt.",
-              "Weil die Fragen unklar waren.",
-              "Weil niemand geantwortet hat."
+              "Weil nur eine Bibliothek untersucht wurde und die Messzeit kurz war.",
+              "Weil die Geräte nicht funktioniert haben.",
+              "Weil niemand die Säle benutzt hat."
             ],
             "answer": [
-              "Weil die Stichprobe klein ist und aus einem Studiengang stammt."
+              "Weil nur eine Bibliothek untersucht wurde und die Messzeit kurz war."
             ]
           },
           {
@@ -16279,22 +16164,23 @@
             "question": "4. Was kann der Sprecher nicht sagen?",
             "type": "multiple-choice",
             "options": [
-              "Ob feste Lernzeiten die Ursache für weniger Stress sind.",
-              "Wie viele Personen befragt wurden.",
-              "Ob die Befragten unterschiedlich viel lernen."
+              "Ob der Lärm die Konzentration tatsächlich stört.",
+              "In wie vielen Sälen gemessen wurde.",
+              "Ob alle Säle gleich groß sind."
             ],
             "answer": [
-              "Ob feste Lernzeiten die Ursache für weniger Stress sind."
+              "Ob der Lärm die Konzentration tatsächlich stört."
             ]
           },
           {
-            "id": "naechste-befragung",
-            "question": "5. Wie viele Studierende will der Sprecher im nächsten Semester befragen?",
+            "id": "naechste-messung",
+            "question": "5. In wie vielen weiteren Bibliotheken will der Sprecher im nächsten Semester messen?",
             "type": "short-answer",
             "answer": [
-              "hundert",
-              "100",
-              "hundert Studierende"
+              "drei",
+              "3",
+              "drei Bibliotheken",
+              "in drei Bibliotheken"
             ]
           }
         ]
@@ -16307,52 +16193,52 @@
         "minutes": 10,
         "points": 10,
         "material": {
-          "text": "Frau Koch: Wir kommen zum nächsten Punkt, dem Raum für die Fachschaft. Herr Aydin, Sie wollten dazu etwas sagen.\nHerr Aydin: Ja. Ich bin für den kleinen Raum im Erdgeschoss, zumal er sofort frei ist. Ein größerer Raum wäre schön, aber wir können nicht monatelang warten.\nFrau Lenz: Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um die Zeit. Ich sehe das anders. Der kleine Raum ist für unsere Treffen zu eng, geschweige denn für Gäste.\nHerr Aydin: Das stimmt, insofern haben Sie recht. Gleichwohl würde ich ihn nehmen und später wechseln.\nFrau Koch: Halten wir fest: Herr Aydin möchte den kleinen Raum sofort, Frau Lenz möchte warten. Hier gehen die Meinungen auseinander. Ich schlage vor, dass wir abstimmen.\nFrau Lenz: Einverstanden, sollte der kleine Raum aber nur ein Jahr gelten, stimme ich zu.\nHerr Aydin: Das ist für mich in Ordnung.\nFrau Koch: Dann halte ich fest: Der kleine Raum, befristet auf ein Jahr. Herr Aydin fragt bei der Verwaltung nach.",
+          "text": "Frau Franke: Ich möchte kurz über das neue Buchungssystem für die Seminarräume sprechen. Herr Ullrich, Sie testen es seit einer Woche.\nHerr Ullrich: Ja. Ich bin dafür, es zum Semesterbeginn einzuführen, zumal das alte System ständig abstürzt. Perfekt ist das neue nicht, aber es läuft stabil.\nFrau Pfeiffer: Ich sehe das anders. Die Dozierenden kennen das System kaum, geschweige denn die Funktion für Raumänderungen, und für eine Schulung bleibt bis Semesterbeginn kaum Zeit.\nHerr Ullrich: Das stimmt, insofern haben Sie recht. Gleichwohl würde ich es einführen und die Schulungen später nachholen.\nFrau Franke: Dann ist die Lage klar. Sie möchten sofort starten, Sie möchten erst schulen. Beides hat Gewicht.\nFrau Pfeiffer: Ich stimme zu, sollte es in den ersten zwei Wochen eine Telefonhotline geben.\nHerr Ullrich: Das ist für mich in Ordnung. Ich richte die Hotline ein.\nFrau Franke: Dann machen wir es so: Start zum Semesterbeginn, mit Hotline. Herr Ullrich kümmert sich um die Einrichtung.",
           "playsAllowed": 2
         },
         "items": [
           {
-            "id": "position-aydin",
-            "question": "1. Was möchte Herr Aydin?",
+            "id": "position-ullrich",
+            "question": "1. Was möchte Herr Ullrich?",
             "type": "multiple-choice",
             "options": [
-              "Den kleinen Raum sofort nehmen.",
-              "Auf einen größeren Raum warten.",
-              "Keinen Raum für die Fachschaft."
+              "Das neue Buchungssystem zum Semesterbeginn einführen.",
+              "Beim alten System bleiben.",
+              "Das neue System nur weiter testen."
             ],
             "answer": [
-              "Den kleinen Raum sofort nehmen."
+              "Das neue Buchungssystem zum Semesterbeginn einführen."
             ]
           },
           {
-            "id": "einwand-lenz",
-            "question": "2. Welchen Einwand hat Frau Lenz?",
+            "id": "einwand-pfeiffer",
+            "question": "2. Welchen Einwand hat Frau Pfeiffer?",
             "type": "multiple-choice",
             "options": [
-              "Der kleine Raum ist zu teuer.",
-              "Der kleine Raum ist zu eng.",
-              "Der kleine Raum ist schon belegt."
+              "Das neue System ist zu teuer.",
+              "Für die Schulung der Dozierenden bleibt kaum Zeit.",
+              "Das neue System läuft nicht stabil."
             ],
             "answer": [
-              "Der kleine Raum ist zu eng."
+              "Für die Schulung der Dozierenden bleibt kaum Zeit."
             ]
           },
           {
-            "id": "bedingung-lenz",
-            "question": "3. Unter welcher Bedingung stimmt Frau Lenz zu?",
+            "id": "bedingung-pfeiffer",
+            "question": "3. Unter welcher Bedingung stimmt Frau Pfeiffer zu?",
             "type": "multiple-choice",
             "options": [
-              "Wenn der kleine Raum nur ein Jahr gilt.",
-              "Wenn die Verwaltung zahlt.",
-              "Wenn Gäste nicht kommen."
+              "Wenn es in den ersten zwei Wochen eine Hotline gibt.",
+              "Wenn die Dozierenden bezahlt werden.",
+              "Wenn das alte System sofort abgeschaltet wird."
             ],
             "answer": [
-              "Wenn der kleine Raum nur ein Jahr gilt."
+              "Wenn es in den ersten zwei Wochen eine Hotline gibt."
             ]
           },
           {
-            "id": "aufgabe-aydin",
-            "question": "4. Herr Aydin fragt bei der Verwaltung nach.",
+            "id": "aufgabe-ullrich",
+            "question": "4. Herr Ullrich richtet die Hotline ein.",
             "type": "true-false",
             "options": [
               "richtig",
@@ -16368,7 +16254,7 @@
         "id": "sprechen-sitzung-leiten",
         "skill": "speaking",
         "format": "Eine Diskussion leiten",
-        "instructions": "Sie leiten die Sitzung der Fachschaft Ihres Fachbereichs. Heute geht es um die Frage, wie ein kleines Budget verwendet wird: Drucker für den Gemeinschaftsraum oder Vortragsreihe. Jonas, ein Mitglied, hat das Wort. Eröffnen Sie den Punkt und geben Sie Jonas das Wort. Fassen Sie seine Position mit eigenen Worten zusammen und fragen Sie nach Gründen. Führen Sie die Diskussion zu einem Vorschlag und schließen Sie mit den Beschlüssen und den Zuständigkeiten. Alle Angaben in der Aufgabe sind für die Übung erfunden.",
+        "instructions": "Sie leiten die Sitzung der Fachschaft Ihres Fachbereichs. Heute geht es um die Frage, wie ein kleines Budget verwendet wird: Drucker für den Gemeinschaftsraum oder Vortragsreihe. Henrik, ein Mitglied, hat das Wort. Eröffnen Sie den Punkt und geben Sie Henrik das Wort. Fassen Sie seine Position mit eigenen Worten zusammen und fragen Sie nach Gründen. Führen Sie die Diskussion zu einem Vorschlag und schließen Sie mit den Beschlüssen und den Zuständigkeiten. Alle Angaben in der Aufgabe sind für die Übung erfunden.",
         "minutes": 12,
         "points": 25,
         "talkScenario": "ts-c11-fachschaft-sitzung-leiten",
@@ -16378,7 +16264,7 @@
             "band": 0,
             "samples": [
               {
-                "response": "Ja... Guten Abend. Wir sprechen Drucker. Jonas... du sprechen. ... Ich nicht weiß. Danke. Tschüss.",
+                "response": "Ja... Guten Abend. Wir sprechen Drucker. Henrik... du sprechen. ... Ich nicht weiß. Danke. Tschüss.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -16398,14 +16284,14 @@
                 "rationale": "Nothing of the chair's job is done: no floor given, no restating, no decision. Single words, no verbs, one or two basic nouns from the topic."
               },
               {
-                "response": "Guten Tag. Jonas, sagen Sie. ... Drucker. Das ist gut. ... Nächste Sitzung. Ja. Danke.",
+                "response": "Guten Tag. Henrik, sagen Sie. ... Drucker. Das ist gut. ... Nächste Sitzung. Ja. Danke.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 1,
                   "grammar": 0,
                   "vocabulary": 0
                 },
-                "rationale": "Gives Jonas the floor with one word and names the next meeting, but does not restate, sum up or decide. Fragments only, almost no vocabulary for meetings."
+                "rationale": "Gives Henrik the floor with one word and names the next meeting, but does not restate, sum up or decide. Fragments only, almost no vocabulary for meetings."
               }
             ]
           },
@@ -16413,7 +16299,7 @@
             "band": 1,
             "samples": [
               {
-                "response": "Guten Abend. Wir sprechen jetzt über das Geld. Jonas, bitte sagen Sie Ihre Meinung. ... Ah, Sie wollen einen Drucker, weil die Studenten müssen drucken. Das ist gut. Aber wir haben auch Vortragsreihe. Was wir machen? ... Ich weiß nicht. Vielleicht abstimmen. Okay, nächste Woche wir sprechen noch mal.",
+                "response": "Guten Abend. Wir sprechen jetzt über das Geld. Henrik, bitte sagen Sie Ihre Meinung. ... Ah, Sie wollen einen Drucker, weil die Studenten müssen drucken. Das ist gut. Aber wir haben auch Vortragsreihe. Was wir machen? ... Ich weiß nicht. Vielleicht abstimmen. Okay, nächste Woche wir sprechen noch mal.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
@@ -16423,7 +16309,7 @@
                 "rationale": "Task completion 1: opens and gives the floor and restates once, but no real summary of both positions and no named task. Fluency 1: hesitant, long pauses. Grammar 1: verb position errors (weil ... müssen drucken, wir sprechen), missing article. Vocabulary 1: basic words, Geld instead of Budget."
               },
               {
-                "response": "Guten Abend zusammen. Jonas, Sie haben das Wort. ... Ja, Drucker ist wichtig für die Studenten. Ich verstehe. Aber das Geld ist nicht genug für alles. Wir müssen entscheiden, was wir kaufen. Wer ist für Drucker? Wer für Vortrag? ... Okay. Wir machen Drucker. Jonas, Sie suchen Angebot.",
+                "response": "Guten Abend zusammen. Henrik, Sie haben das Wort. ... Ja, Drucker ist wichtig für die Studenten. Ich verstehe. Aber das Geld ist nicht genug für alles. Wir müssen entscheiden, was wir kaufen. Wer ist für Drucker? Wer für Vortrag? ... Okay. Wir machen Drucker. Henrik, Sie suchen Angebot.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
@@ -16433,7 +16319,7 @@
                 "rationale": "The decision and a task are present, but the positions are not summarised and the opposing view is not examined; it is a one-step vote. Short turns, hesitations. Verb forms mostly right but no subordinate clauses and article errors. A few meeting words (Wort, entscheiden, Angebot)."
               },
               {
-                "response": "Guten Abend. Das Thema ist das Budget. Jonas will Drucker, ich auch denke Drucker ist gut. Aber andere vielleicht wollen Vortrag. Jonas, was ist ihr Grund? ... Ah okay. Wir können ein Treffen machen und dann nochmal sprechen. Das ist besser, glaube ich.",
+                "response": "Guten Abend. Das Thema ist das Budget. Henrik will Drucker, ich auch denke Drucker ist gut. Aber andere vielleicht wollen Vortrag. Henrik, was ist ihr Grund? ... Ah okay. Wir können ein Treffen machen und dann nochmal sprechen. Das ist besser, glaube ich.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 2,
@@ -16448,7 +16334,7 @@
             "band": 2,
             "samples": [
               {
-                "response": "Guten Abend zusammen. Kommen wir zum zweiten Punkt, das Budget. Jonas, Sie haben das Wort. ... Wenn ich Sie richtig verstehe, möchten Sie den Drucker kaufen, weil viele Studierende ihre Arbeiten ausdrucken müssen. Ist das richtig? ... Gut. Eine Vortragsreihe wäre auch interessant, aber sie ist teurer. Wie sehen Sie das? ... Ich verstehe. Hier gehen die Meinungen auseinander, deshalb ich schlage vor, dass wir abstimmen. ... Dann halten wir fest: Jonas holt drei Angebote für einen Drucker bis zur nächsten Sitzung. Sind Sie einverstanden? Danke.",
+                "response": "Guten Abend zusammen. Kommen wir zum zweiten Punkt, das Budget. Henrik, Sie haben das Wort. ... Wenn ich Sie richtig verstehe, möchten Sie den Drucker kaufen, weil viele Studierende ihre Arbeiten ausdrucken müssen. Ist das richtig? ... Gut. Eine Vortragsreihe wäre auch interessant, aber sie ist teurer. Wie sehen Sie das? ... Ich verstehe. Hier gehen die Meinungen auseinander, deshalb ich schlage vor, dass wir abstimmen. ... Dann halten wir fest: Henrik holt drei Angebote für einen Drucker bis zur nächsten Sitzung. Sind Sie einverstanden? Danke.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -16458,7 +16344,7 @@
                 "rationale": "Task completion 2: opens, gives the floor, restates, asks for a reason, proposes a vote and closes with a named task. Fluency 2: keeps going, short pauses. Grammar 2: mostly correct with Wenn-clause and dass-clause, one verb position error after deshalb. Vocabulary 2: Tagesordnung-style formulas, Budget, Angebot, einverstanden."
               },
               {
-                "response": "Guten Abend. Wir kommen zum Punkt Budget. Jonas, bitte, Ihre Position. ... Wenn ich Sie richtig verstehe, ist der Drucker für Sie wichtiger als die Vortragsreihe, zumal viele Studierende drucken müssen. ... Danke. Darf ich kurz zusammenfassen? Sie sind für den Drucker, ich höre aber, dass ein Teil der Gruppe lieber Gäste einladen möchte. Können Sie damit leben, wenn wir beides prüfen? ... Dann schlage ich vor, wir bitten Sie, drei Angebote einzuholen. Und wir entscheiden in zwei Wochen.",
+                "response": "Guten Abend. Wir kommen zum Punkt Budget. Henrik, bitte, Ihre Position. ... Wenn ich Sie richtig verstehe, ist der Drucker für Sie wichtiger als die Vortragsreihe, zumal viele Studierende drucken müssen. ... Danke. Darf ich kurz zusammenfassen? Sie sind für den Drucker, ich höre aber, dass ein Teil der Gruppe lieber Gäste einladen möchte. Können Sie damit leben, wenn wir beides prüfen? ... Dann schlage ich vor, wir bitten Sie, drei Angebote einzuholen. Und wir entscheiden in zwei Wochen.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -16468,7 +16354,7 @@
                 "rationale": "Restates fairly, summarises both views and proposes a next step with a task and a date. Interaction polite and continuous. Grammar: correct zumal and wenn clauses; one missing dass in 'schlage ich vor, wir bitten' (acceptable but uneven). Vocabulary: summary formulas, prüfen, einholen. No conditional without wenn or participial clause yet."
               },
               {
-                "response": "Guten Abend. Ich eröffne den Punkt Budget. Jonas, Sie wollten etwas sagen? ... Ich fasse zusammen: Sie brauchen den Drucker, denn man läuft ständig in die Bibliothek. Das habe ich richtig verstanden? ... Sollte es mehr Geld geben, könnte man auch die Vortragsreihe machen. Aber wir haben nur achthundert Euro. ... Hier sind wir nicht einig, deshalb stimmen wir ab. ... Ergebnis: Drucker. Jonas fragt bei drei Firmen an, und ich schreibe das ins Protokoll.",
+                "response": "Guten Abend. Ich eröffne den Punkt Budget. Henrik, Sie wollten etwas sagen? ... Ich fasse zusammen: Sie brauchen den Drucker, denn man läuft ständig in die Bibliothek. Das habe ich richtig verstanden? ... Sollte es mehr Geld geben, könnte man auch die Vortragsreihe machen. Aber wir haben nur achthundert Euro. ... Hier sind wir nicht einig, deshalb stimmen wir ab. ... Ergebnis: Drucker. Henrik fragt bei drei Firmen an, und ich schreibe das ins Protokoll.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -16483,7 +16369,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Guten Abend zusammen, ich eröffne den zweiten Punkt der Tagesordnung, die Verwendung des Budgets. Jonas, Sie haben das Wort. ... Wenn ich Sie richtig verstehe, halten Sie den Drucker für dringender als die Vortragsreihe, zumal viele Studierende ihre Arbeiten ausdrucken müssen. Habe ich Ihr Hauptargument getroffen? ... Gut. Darf ich kurz zusammenfassen, was bisher gesagt wurde? Der Drucker nützt dem Alltag vieler, die Vortragsreihe wäre dagegen ein Gewinn für wenige. Hier gehen die Meinungen auseinander. Sollte niemand noch etwas ergänzen wollen, schlage ich vor, dass wir abstimmen. ... Halten wir fest: Der Drucker wird gekauft, und Jonas holt bis zur nächsten Sitzung drei Angebote ein. Sind Sie damit einverstanden?",
+                "response": "Guten Abend zusammen, ich eröffne den zweiten Punkt der Tagesordnung, die Verwendung des Budgets. Henrik, Sie haben das Wort. ... Wenn ich Sie richtig verstehe, halten Sie den Drucker für dringender als die Vortragsreihe, zumal viele Studierende ihre Arbeiten ausdrucken müssen. Habe ich Ihr Hauptargument getroffen? ... Gut. Darf ich kurz zusammenfassen, was bisher gesagt wurde? Der Drucker nützt dem Alltag vieler, die Vortragsreihe wäre dagegen ein Gewinn für wenige. Hier gehen die Meinungen auseinander. Sollte niemand noch etwas ergänzen wollen, schlage ich vor, dass wir abstimmen. ... Halten wir fest: Der Drucker wird gekauft, und Henrik holt bis zur nächsten Sitzung drei Angebote ein. Sind Sie damit einverstanden?",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -16493,7 +16379,7 @@
                 "rationale": "Task completion 3: clear opening, fair restating with a check, summary of both positions, vote and a closing with task and responsibility. Fluency 3: smooth and polite. Grammar 3: Wenn-clause, zumal, conditional with sollte, passive, no real errors. Vocabulary 3: precise formulas of chairing (Tagesordnung, ergänzen, abstimmen, festhalten)."
               },
               {
-                "response": "Guten Abend. Kommen wir zum Budget. Jonas, bitte. ... Danke. Ich möchte Ihre Position kurz wiedergeben: Der Drucker erspart den Studierenden die Wege zur Bibliothek, und das ist Ihnen wichtiger als eine Vortragsreihe. Stimmt das so? ... Dann bitte ich Sie noch um einen Gedanken: Was geschieht, wenn der Drucker zu teuer wird? ... Das ist insofern ein guter Punkt, als wir ein Limit setzen sollten. Ich schlage vor: Bis fünfhundert Euro kaufen wir ihn, darüber hinaus sprechen wir erneut. Wäre das für Sie annehmbar? ... Prima. Dann halten wir fest: Jonas holt Angebote ein, und ich setze das Thema auf die nächste Tagesordnung.",
+                "response": "Guten Abend. Kommen wir zum Budget. Henrik, bitte. ... Danke. Ich möchte Ihre Position kurz wiedergeben: Der Drucker erspart den Studierenden die Wege zur Bibliothek, und das ist Ihnen wichtiger als eine Vortragsreihe. Stimmt das so? ... Dann bitte ich Sie noch um einen Gedanken: Was geschieht, wenn der Drucker zu teuer wird? ... Das ist insofern ein guter Punkt, als wir ein Limit setzen sollten. Ich schlage vor: Bis fünfhundert Euro kaufen wir ihn, darüber hinaus sprechen wir erneut. Wäre das für Sie annehmbar? ... Prima. Dann halten wir fest: Henrik holt Angebote ein, und ich setze das Thema auf die nächste Tagesordnung.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -16503,14 +16389,14 @@
                 "rationale": "Restates in own words, checks, asks for reasons, uses insofern ... als and a conditional question with Wäre, proposes a compromise and closes with tasks. Natural interaction and smooth repairs. Grammar and vocabulary at the upper end of the band, only tiny slips."
               },
               {
-                "response": "Guten Abend. Ich eröffne die Sitzung. Der Punkt ist das Budget, und Jonas hat das Wort. ... Verstehe ich Sie richtig? Sie möchten den Drucker, weil sonst jemand ständig in die Bibliothek laufen muss. ... Ich danke Ihnen. Bevor wir entscheiden, noch ein Blick auf die Alternative: Eine Vortragsreihe würde mehr Studierende erreichen, zumal sie das Fach nach außen zeigt. Beide Argumente haben Gewicht, geschweige denn, dass eines davon unwichtig wäre. Ich schlage daher vor, dass wir abstimmen. ... Das Ergebnis halte ich fest: Drucker, drei Angebote, Zuständigkeit bei Jonas. Gibt es dazu noch Wortmeldungen? Dann schließe ich den Punkt.",
+                "response": "Guten Abend. Ich eröffne die Sitzung. Der Punkt ist das Budget, und Henrik hat das Wort. ... Verstehe ich Sie richtig? Sie möchten den Drucker, weil sonst jemand ständig in die Bibliothek laufen muss. ... Ich danke Ihnen. Bevor wir entscheiden, noch ein Blick auf die Alternative: Eine Vortragsreihe würde mehr Studierende erreichen, zumal sie das Fach nach außen zeigt. Beide Argumente haben Gewicht; keines davon ist unwichtig. Ich schlage daher vor, dass wir abstimmen. ... Das Ergebnis halte ich fest: Drucker, drei Angebote, Zuständigkeit bei Henrik. Gibt es dazu noch Wortmeldungen? Dann schließe ich den Punkt.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
-                  "grammar": 2,
+                  "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion, fluency and vocabulary at band 3: fair restating, both positions weighed, vote, result, call for further contributions and a closing. Grammar 2: 'geschweige denn, dass' is used without a negative statement before it (misuse), otherwise accurate."
+                "rationale": "Task completion, fluency, grammar and vocabulary at band 3: fair restating, both positions weighed, vote, result, call for further contributions and a closing. Accurate complex sentences with weil, bevor, zumal and a semicolon; no errors."
               }
             ]
           }
@@ -16540,7 +16426,7 @@
                   "grammar": 0,
                   "vocabulary-register": 1
                 },
-                "rationale": "About 22 words, far below the minimum. No clear thesis argued, no reasons or counter-argument, no conclusion. No connectors. Verbs and cases wrong throughout. A few basic words only."
+                "rationale": "20 words, far below the minimum. No clear thesis argued, no reasons or counter-argument, no conclusion. No connectors. Verbs and cases wrong throughout. A few basic words only."
               },
               {
                 "response": "Ich denke Seminar Pflicht schlecht. Warum? Weil ich muss arbeiten. Mein Freund auch. Seminar langweilig. Danke.",
@@ -16560,7 +16446,7 @@
                   "grammar": 0,
                   "vocabulary-register": 1
                 },
-                "rationale": "About 22 words in loose fragments with a greeting and farewell as in a message, not an opinion piece. Verb position wrong, no reasons developed. Only everyday words."
+                "rationale": "20 words in loose fragments with a greeting and farewell as in a message, not an opinion piece. Verb position wrong, no reasons developed. Only everyday words."
               }
             ]
           },
@@ -16575,7 +16461,7 @@
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "About 75 words, under the minimum. A thesis, two reasons and a counter-argument are there, but without examples; the counter-argument is only dismissed. Connectors: erstens, zweitens, aber. Grammar: verb position errors after erstens, weil, deshalb; missing article. Vocabulary basic, informal ending."
+                "rationale": "67 words, under the minimum. A thesis, two reasons and a counter-argument are there, but without examples; the counter-argument is only dismissed. Connectors: erstens, zweitens, aber. Grammar: verb position errors after erstens, weil, deshalb; missing article. Vocabulary basic, informal ending."
               },
               {
                 "response": "Sollen Seminare Anwesenheitspflicht haben? Ich meine ja. Wenn Studierende nicht kommen, sie lernen nicht viel. Ein Seminar ist für Diskussion und man kann nicht diskutieren alleine. Außerdem ist es unfair für die Lehrer, wenn nur drei Studierende kommen. Manche sagen, dass die Studierende erwachsen sind. Das stimmt, aber trotzdem ich denke, die Pflicht ist gut. Ich hoffe die Hochschule macht das.",
@@ -16585,7 +16471,7 @@
                   "grammar": 1,
                   "vocabulary-register": 2
                 },
-                "rationale": "About 70 words, under the minimum. Thesis and two reasons without examples; the counter-argument is named and brushed aside. Few connectors. Grammar: verb position in wenn-clause and after trotzdem, wrong plural form, missing comma and dass. Vocabulary mostly basic with Diskussion, unfair, erwachsen."
+                "rationale": "61 words, under the minimum. Thesis and two reasons without examples; the counter-argument is named and brushed aside. Few connectors. Grammar: verb position in wenn-clause and after trotzdem, wrong plural form, missing comma and dass. Vocabulary mostly basic with Diskussion, unfair, erwachsen."
               },
               {
                 "response": "Anwesenheitspflicht ist ein Thema an unserer Hochschule. Für mich ist sie nicht gut. Der erste Grund: Studierende haben Nebenjobs. Der zweite Grund ist, dass manche Studierende krank sind und müssen trotzdem kommen. Viele sagen, die Pflicht hilft beim Lernen. Aber ich glaube das nicht. Zum Schluss ich sage: Die Hochschule sollte die Pflicht nicht machen, weil das ist nicht modern.",
@@ -16595,7 +16481,7 @@
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "About 70 words, below the minimum. Order is visible (erster Grund, zweiter Grund, Zum Schluss) but the counter-argument is not answered. Grammar: verb position after und, Zum Schluss ich sage, weil das ist. Vocabulary basic, modern as an argument is vague."
+                "rationale": "60 words, below the minimum. Order is visible (erster Grund, zweiter Grund, Zum Schluss) but the counter-argument is not answered. Grammar: verb position after und, Zum Schluss ich sage, weil das ist. Vocabulary basic, modern as an argument is vague."
               }
             ]
           },
@@ -16603,14 +16489,14 @@
             "band": 2,
             "samples": [
               {
-                "response": "Sollen Seminare eine Anwesenheitspflicht haben? Meiner Meinung nach sollte man sie abschaffen.\n\nErstens arbeiten viele Studierende neben dem Studium, zumal das Leben in großen Städten teuer ist. Wenn sie ein Seminar verpassen, bekommen sie sofort Probleme, obwohl sie haben den Stoff zu Hause gelernt. Zweitens motiviert eine Pflicht nicht. Wer nur kommt, weil er muss, hört selten richtig zu.\n\nNatürlich gibt es auch Gegenargumente. Die Lehrenden sagen, dass ein Seminar von der Diskussion lebt. Das stimmt, aber wer wirklich interessiert ist, kommt auch ohne Pflicht. Dies zeigt sich bei freiwillige Veranstaltungen, die oft voll sind.\n\nDeshalb schlage ich vor, die Pflicht abzuschaffen und stattdessen mehr Gruppenarbeit anzubieten. Damit würden die Studierenden aktiver, und die Hochschule könnte den Studierenden mehr vertrauen.",
+                "response": "Sollen Seminare eine Anwesenheitspflicht haben? Meiner Meinung nach sollte man sie abschaffen.\n\nErstens arbeiten viele Studierende neben dem Studium, zumal das Leben in großen Städten teuer ist. Wenn sie ein Seminar verpassen, bekommen sie sofort Probleme, obwohl sie haben den Stoff zu Hause gelernt. Zweitens motiviert eine Pflicht nicht. Wer nur kommt, weil er muss, hört selten richtig zu.\n\nNatürlich gibt es auch Gegenargumente. Die Lehrenden sagen, dass ein Seminar von der Diskussion lebt. Das stimmt, aber wer wirklich interessiert ist, kommt auch ohne Pflicht. Viele Studierende kommen gern zu Seminaren, geschweige denn zu Vorlesungen. Dies zeigt sich bei freiwillige Veranstaltungen, die oft voll sind.\n\nDeshalb schlage ich vor, die Pflicht abzuschaffen und stattdessen mehr Gruppenarbeit anzubieten. Damit würden die Studierenden aktiver, und die Hochschule könnte den Studierenden mehr vertrauen.",
                 "criterionBands": {
                   "task-completion": 2,
                   "organisation-cohesion": 2,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "About 150 words. Clear thesis, two reasons, a counter-argument that is answered with an example, and a conclusion with a proposal. Connectors zumal, obwohl, Dies, Damit. Grammar: verb position error after obwohl, ending error freiwillige Veranstaltungen; otherwise secure. Formal register kept, vocabulary adequate."
+                "rationale": "130 words. Clear thesis, two reasons, a counter-argument that is answered with an example, and a conclusion with a proposal. Connectors zumal, obwohl, Dies, Damit. Grammar: verb position error after obwohl, ending error freiwillige Veranstaltungen, and one misuse on purpose: geschweige denn after a positive statement ('kommen gern zu Seminaren'); it needs a negative or limited statement before it. This is the only misuse of geschweige denn in the anchors. Formal register kept, vocabulary adequate."
               },
               {
                 "response": "Anwesenheitspflicht in Seminaren: sinnvoll oder nicht? Ich bin der Meinung, dass sie sinnvoll ist.\n\nZum einen lebt ein Seminar vom Gespräch. Wenn nur wenige Personen kommen, kann man kaum diskutieren. Zum anderen lernt man in der Gruppe viel von den anderen, was man alleine nicht lernt. Ein Beispiel: In meinem Seminar über Soziologie hat der Austausch mit Kommilitonen mir sehr geholfen.\n\nDie Gegner sagen, dass viele Studierende arbeiten müssen. Das ist ein wichtiger Punkt. Deshalb sollte die Pflicht Ausnahmen kennen, zum Beispiel für Berufstätige. Damit ist das Problem nicht ganz gelöst, aber es wird kleiner.\n\nInsgesamt halte ich die Pflicht für richtig, wenn sie fair geregelt wird. Die Hochschule sollte darüber mit den Studierenden sprechen.",
@@ -16620,7 +16506,7 @@
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "About 140 words. Thesis, two reasons with an example, a counter-argument taken seriously and answered with a compromise, a conclusion. Connectors zum einen/zum anderen, deshalb, damit. Grammar mostly correct; errors in mir sehr geholfen position and one unnatural phrase. No C1.1 structure used beyond relative clauses, so grammar stays at 2."
+                "rationale": "115 words. Thesis, two reasons with an example, a counter-argument taken seriously and answered with a compromise, a conclusion. Connectors zum einen/zum anderen, deshalb, damit. Grammar mostly correct; errors in mir sehr geholfen position and one unnatural phrase. No C1.1 structure used beyond relative clauses, so grammar stays at 2."
               },
               {
                 "response": "Brauchen wir die Anwesenheitspflicht? Ich glaube, dass sie mehr schadet als nützt.\n\nDer wichtigste Grund ist die Freiheit. Studierende sind erwachsen und sollten selbst entscheiden, wie sie lernen. Wer einen Text lieber zu Hause liest, verliert durch die Pflicht Zeit. Außerdem scheint die Pflicht vor allem Verwaltungsaufwand zu erzeugen, denn jemand muss die Listen führen.\n\nDie Lehrenden argumentieren, dass die Qualität der Diskussion sinkt, wenn viele fehlen. Dieses Argument ist nicht unwichtig. Gleichwohl hilft eine Liste nicht, wenn die Studierenden nicht motiviert sind. Besser wäre es, die Seminare interessanter zu machen, indem man mehr Beispiele aus der Praxis nutzt.\n\nIch fordere deshalb, die Pflicht zu streichen und die Qualität der Lehre zu verbessern.",
@@ -16630,7 +16516,7 @@
                   "grammar": 3,
                   "vocabulary-register": 2
                 },
-                "rationale": "About 140 words. Clear thesis, two reasons, an answered counter-argument and a conclusion. Uses scheinen zu, indem, Dieses and Besser wäre es; correct commas. Grammar at 3; the examples are thin and the argument stays general, so the other criteria stay at 2."
+                "rationale": "113 words. Clear thesis, two reasons, an answered counter-argument and a conclusion. Uses scheinen zu, indem, Dieses and Besser wäre es; correct commas. Grammar at 3; the examples are thin and the argument stays general, so the other criteria stay at 2."
               }
             ]
           },
@@ -16645,27 +16531,27 @@
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "About 175 words. Sharp thesis, two reasons with a concrete observation, a counter-argument answered with insofern als and a conditional without wenn, and a forward-looking conclusion. Cohesion with Dies, Dieses, Dadurch, dass; correct commas. Grammar uses scheinen zu, zumal, indem, Wäre ... ; precise formal register."
+                "rationale": "148 words. Sharp thesis, two reasons with a concrete observation, a counter-argument answered with insofern als and a conditional without wenn, and a forward-looking conclusion. Cohesion with Dies, Dieses, Dadurch, dass; correct commas. Grammar uses scheinen zu, zumal, indem, Wäre ... ; precise formal register."
               },
               {
-                "response": "Pflicht oder Freiheit? Ein Plädoyer für die Anwesenheit\n\nSeminare leben vom Gespräch, und ein Gespräch braucht Menschen im Raum. Deshalb halte ich eine Anwesenheitspflicht für sinnvoll, sofern sie vernünftig geregelt ist.\n\nDer erste Grund liegt im Lernen selbst. Wer regelmäßig teilnimmt, kann Gedanken ausprobieren, widersprechen und sich korrigieren lassen. Dies gelingt kaum mit einem Skript allein. Zweitens verhindert die Pflicht, dass die Gruppe zerfällt: Dadurch, dass alle kommen, entsteht Verbindlichkeit.\n\nDie Kritiker verweisen auf Studierende mit Nebenjob. Dieser Einwand ist ernst zu nehmen und überzeugt insofern, als starre Regeln Berufstätige tatsächlich belasten. Sollte die Hochschule Ausnahmen vorsehen, ließe sich dieses Problem lösen.\n\nMein Fazit: Eine Pflicht mit Ausnahmen schützt das Gespräch und die Fairness zugleich.",
+                "response": "Pflicht oder Freiheit? Ein Plädoyer für die Anwesenheit\n\nSeminare leben vom Gespräch, und ein Gespräch braucht Menschen im Raum. Deshalb halte ich eine Anwesenheitspflicht für sinnvoll, sofern sie vernünftig geregelt ist.\n\nDer erste Grund liegt im Lernen selbst. Wer regelmäßig teilnimmt, kann Gedanken ausprobieren, widersprechen und sich korrigieren lassen. Dies gelingt kaum mit einem Skript allein. Ein Beispiel: In einem Seminar über Stadtplanung hat erst die Gegenrede einer Kommilitonin meine These geschärft. Zweitens verhindert die Pflicht, dass die Gruppe zerfällt: Dadurch, dass alle kommen, entsteht Verbindlichkeit.\n\nDie Kritiker verweisen auf Studierende mit Nebenjob. Dieser Einwand ist ernst zu nehmen und überzeugt insofern, als starre Regeln Berufstätige tatsächlich belasten. Sollte die Hochschule Ausnahmen vorsehen, ließe sich dieses Problem lösen.\n\nMein Fazit: Eine Pflicht mit Ausnahmen schützt das Gespräch und die Fairness zugleich. Die Hochschule sollte sie einführen und nach einem Jahr mit den Studierenden prüfen, ob sie wirkt.",
                 "criterionBands": {
                   "task-completion": 3,
                   "organisation-cohesion": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "About 150 words. Thesis with a condition (sofern), two reasons, a fair counter-argument answered with a conditional and Sollte, and a clear conclusion. Connectors and references vary (Dies, Dieser Einwand, Dadurch, dass, insofern als). Few slips; formal register and precise vocabulary (Verbindlichkeit, Plädoyer, Einwand)."
+                "rationale": "147 words. Thesis with a condition (sofern), two reasons with an example, a fair counter-argument answered with a conditional and Sollte, and a clear conclusion with a next step. Connectors and references vary (Dies, Dieser Einwand, Dadurch, dass, insofern als). Few slips; formal register and precise vocabulary (Verbindlichkeit, Plädoyer, Einwand)."
               },
               {
-                "response": "Anwesenheitspflicht: Ein Zwang, der nichts bringt\n\nDie Debatte über die Pflicht scheint sich im Kreis zu drehen. Dabei lässt sich die Frage nüchtern beantworten: Eine Pflicht, die Anwesenheit mit Lernen verwechselt, löst kein Problem.\n\nDie Befürworter argumentieren, dass Seminare Gespräche brauchen. Ersteres stimmt, letzteres folgt daraus nicht. Gespräche entstehen, indem Lehrende Fragen stellen, die Studierende interessieren, und nicht durch Listen. Zudem verschärft die Pflicht die Lage der Studierenden, die arbeiten müssen, geschweige denn jener, die pflegen oder Kinder betreuen.\n\nWürde man die Pflicht streichen, bliebe das Seminar nicht leer; es müsste nur besser werden. Das wäre kein Verlust, zumal gute Lehre ohnehin Interesse weckt.\n\nIch fordere die Hochschule auf, mit den Studierenden über bessere Lösungen zu sprechen.",
+                "response": "Anwesenheitspflicht: Ein Zwang, der nichts bringt\n\nDie Debatte über die Pflicht scheint sich im Kreis zu drehen. Dabei lässt sich die Frage nüchtern beantworten: Eine Pflicht, die Anwesenheit mit Lernen verwechselt, löst kein Problem.\n\nDie Befürworter argumentieren, dass Seminare Gespräche brauchen. Das stimmt, folgt aber nicht daraus, dass man Anwesenheit erzwingen muss. Gespräche entstehen, indem Lehrende Fragen stellen, die Studierende interessieren, und nicht durch Listen. Zudem verschärft die Pflicht die Lage jener, die neben dem Studium arbeiten müssen. Sie haben kaum Zeit zum Lernen, geschweige denn für zusätzliche Wege zur Hochschule.\n\nWürde man die Pflicht streichen, bliebe das Seminar nicht leer; es müsste nur besser werden. Das wäre kein Verlust, zumal gute Lehre ohnehin Interesse weckt. Ein Beispiel: Freiwillige Tutorien sind an unserer Fakultät oft voll, obwohl niemand eine Liste führt.\n\nIch fordere die Hochschule auf, mit den Studierenden über bessere Lösungen zu sprechen und die Pflicht zumindest für ein Semester auszusetzen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "organisation-cohesion": 3,
-                  "grammar": 2,
+                  "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "About 140 words. Sharp thesis, fair reconstruction of the other side, answer and conclusion. Cohesion strong (Dabei, Ersteres/letzteres, Zudem). Grammar 2 to 3: geschweige denn used without a negative statement before it, and 'Ersteres/letzteres' is slightly forced; otherwise correct use of Würde-conditional, indem and zumal."
+                "rationale": "152 words. Sharp thesis, fair reconstruction of the other side, an answer with an example, and a conclusion with a demand. Cohesion is strong (Dabei, Zudem, Das stimmt, folgt aber nicht daraus). Grammar 3: Würde-conditional, indem, zumal, obwohl and a correct geschweige denn after a limited statement ('kaum Zeit zum Lernen'); no errors. Precise formal register."
               }
             ]
           }

@@ -999,7 +999,7 @@
       "prerequisites": [
         "g-citing-sources-distance",
         "g-reported-speech",
-        "g-moderating-and-summarising"
+        "g-text-cohesion-references"
       ],
       "errorTags": [
         "lexical",
