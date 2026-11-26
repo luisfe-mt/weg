@@ -243,7 +243,8 @@
     "The speaking presentation task (sprechen-vortrag-viertagewoche) is a monologue without a talk scenario, so the app needs a recording flow for it. The follow-up task uses ts-b21-fragen-zum-vortrag-viertagewoche, whose topic matches the presentation topic (the four-day week), so the two must be run in that order. The two scenarios ts-b21-wohnungsuebergabe-kaution and ts-b21-seminar-referat-thema already exist in gold/talk_scenarios.jsonl for B2.1 and are not repeated here.",
     "A few words in the receptive gate texts are not taught anywhere on the path (Fotograf, Notdienst, Pilotstudie, Arbeitstag, gliedern, Kundenumfrage, Werkstudentin, einigen); they are inferable from context or not needed for any item. Text coverage of the spec is 97.9%.",
     "Lemma and form choices to confirm: wägt ab / wog ab (abwägen), wendete ein (einwenden, also wandte ein), plurals Betreffe, Fazits, Plena, Exposés, Tutorien, Mottos, Umbauten; Flucht, Verständnis, Minus, Vollzeit, Austausch, Verfahren given without or with a single plural form; reißen, antreten and umgehen with their auxiliary (haben/sein, sein); the Konjunktiv I sei/habe examples in vocabulary items; noun Angehöriger entered with plural Angehörige.",
-    "Gold coverage: the spec has no gold corrections or leveled texts; the grammar points of this sublevel (g-konjunktiv1-forms, g-reported-speech, g-konjunktiv2-past, g-modal-subjective-intro, g-passive-alternatives, g-zustandspassiv, the four connector points, g-correlates-da, g-es-placeholder, g-relative-was-wo, g-relative-wer) need gold items, especially correct and style-only sentences that the Coach must not flag (reported speech with the indicative is acceptable in speech). No IPA is given for any vocabulary item."
+    "Gold coverage: the spec has no gold corrections or leveled texts; the grammar points of this sublevel (g-konjunktiv1-forms, g-reported-speech, g-konjunktiv2-past, g-modal-subjective-intro, g-passive-alternatives, g-zustandspassiv, the four connector points, g-correlates-da, g-es-placeholder, g-relative-was-wo, g-relative-wer) need gold items, especially correct and style-only sentences that the Coach must not flag (reported speech with the indicative is acceptable in speech). No IPA is given for any vocabulary item.",
+    "Teacher check needed in the e-mail gate rationales: whether \"im Verzug\" or \"in Verzug\" is the better usage after \"sein\" (the Band 2 rationale calls \"im Verzug\" a wrong preposition; \"in Verzug sein\" is the fixed phrase)."
   ],
   "id": "B2.1",
   "grammar": [
@@ -502,15 +503,15 @@
           }
         },
         {
-          "wrong": "Der Film muss sehr gut sein. (Ich habe gehört, dass er gut ist.)",
+          "wrong": "Der Film muss sehr gut sein.",
           "correct": "Der Film soll sehr gut sein.",
           "l1": [
             "es",
             "en"
           ],
           "why": {
-            "en": "'Must be good' covers both a conclusion and hearsay in English and Spanish ('debe de ser bueno'). German keeps them apart: muss is your own conclusion, soll is what others say.",
-            "es": "'Debe de ser bueno' cubre a la vez la deducción y lo que dicen otros, y el inglés 'must be good' también. El alemán los separa: muss es tu propia conclusión, soll es lo que cuentan los demás."
+            "en": "Context: you have only heard that the film is good. 'Must be good' covers both a conclusion and hearsay in English and Spanish ('debe de ser bueno'). German keeps them apart: muss is your own conclusion, soll is what others say.",
+            "es": "Contexto: solo has oído que la película es buena. 'Debe de ser bueno' cubre a la vez la deducción y lo que dicen otros, y el inglés 'must be good' también. El alemán los separa: muss es tu propia conclusión, soll es lo que cuentan los demás."
           }
         }
       ],
@@ -859,15 +860,15 @@
           }
         },
         {
-          "wrong": "Sie sagen, sie würden haben keine Zeit.",
+          "wrong": "Sie sagen, sie haben keine Zeit.",
           "correct": "Sie sagen, sie hätten keine Zeit.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "würde + infinitive is a substitute for verbs without a distinct Konjunktiv II. Haben and sein have their own forms, hätten and wären, and these are always used instead.",
-            "es": "würde + infinitivo es un sustituto para los verbos sin Konjunktiv II propio. Haben y sein tienen sus formas, hätten y wären, y se usan siempre en su lugar."
+            "en": "In the plural the Konjunktiv I form (haben) looks exactly like the indicative, so it does not mark reported speech. In that case German takes the Konjunktiv II: hätten. English and Spanish learners just keep the present tense.",
+            "es": "En plural la forma del Konjunktiv I (haben) es idéntica al indicativo, así que no señala el estilo indirecto. En ese caso el alemán usa el Konjunktiv II: hätten. Quien viene del inglés o del español suele dejar el presente."
           }
         },
         {
@@ -935,8 +936,7 @@
           },
           "prompt": "Die Dozentin sagte: \"Lesen Sie den Text bis Montag.\"",
           "answers": [
-            "Die Dozentin sagte, wir sollten den Text bis Montag lesen.",
-            "Die Dozentin sagte, wir sollen den Text bis Montag lesen."
+            "Die Dozentin sagte, wir sollten den Text bis Montag lesen."
           ]
         },
         {
@@ -1354,8 +1354,8 @@
         "es": "Contraste: während, wohingegen, dagegen, statt zu"
       },
       "explanation": {
-        "en": "To set two things against each other, B2 German offers several connectors. 'während' is a subordinating conjunction: the verb goes to the end. Here it does not mean 'at the same time', but 'whereas': 'Während die Miete hier niedrig ist, ist sie in München hoch.' 'wohingegen' works the same way and is more formal: 'Ich arbeite gern im Team, wohingegen meine Kollegin lieber allein arbeitet.' 'dagegen' and 'hingegen' are adverbs: they take position one or sit in the middle of a main clause, with the usual word order: 'Ich wohne in der Stadt, meine Schwester dagegen wohnt auf dem Land.' 'allerdings' and 'jedoch' add a limit or a contrast: 'Die Stelle ist interessant, die Bezahlung ist allerdings niedrig.' When you say what someone does instead, use 'statt' or 'anstatt' with zu and the infinitive: 'Statt anzurufen, schreibt er eine E-Mail.' If the subjects differ, use 'anstatt dass': 'Anstatt dass sie anruft, schreibt sie nur eine Nachricht.' A comma separates the clauses each time.",
-        "es": "Para contraponer dos cosas, el alemán de nivel B2 ofrece varios conectores. 'während' es una conjunción subordinante: el verbo va al final. Aquí no significa 'al mismo tiempo', sino 'mientras que': 'Während die Miete hier niedrig ist, ist sie in München hoch.' 'wohingegen' funciona igual y es más formal: 'Ich arbeite gern im Team, wohingegen meine Kollegin lieber allein arbeitet.' 'dagegen' y 'hingegen' son adverbios: ocupan la primera posición o van en medio de una frase principal, con el orden habitual: 'Ich wohne in der Stadt, meine Schwester dagegen wohnt auf dem Land.' 'allerdings' y 'jedoch' añaden un límite o un contraste: 'Die Stelle ist interessant, die Bezahlung ist allerdings niedrig.' Para decir lo que alguien hace en lugar de otra cosa, usa 'statt' o 'anstatt' con zu e infinitivo: 'Statt anzurufen, schreibt er eine E-Mail.' Si los sujetos son distintos, usa 'anstatt dass': 'Anstatt dass sie anruft, schreibt sie nur eine Nachricht.' Cada vez una coma separa las partes. Equivalen al español 'mientras que', 'en cambio', 'sin embargo' y 'en lugar de'."
+        "en": "To set two things against each other, B2 German offers several connectors. 'während' is a subordinating conjunction: the verb goes to the end. Here it does not mean 'at the same time', but 'whereas': 'Während die Miete hier niedrig ist, ist sie in München hoch.' 'wohingegen' works the same way and is more formal: 'Ich arbeite gern im Team, wohingegen meine Kollegin lieber allein arbeitet.' 'dagegen' and 'hingegen' are adverbs: they take position one or sit in the middle of a main clause, with the usual word order: 'Ich wohne in der Stadt, meine Schwester dagegen wohnt auf dem Land.' 'allerdings' and 'jedoch' add a limit or a contrast: 'Die Stelle ist interessant, die Bezahlung ist allerdings niedrig.' Review from B1.2: when the same person does something instead, you already know 'statt' or 'anstatt' with zu and the infinitive: 'Statt anzurufen, schreibt er eine E-Mail.' New is 'anstatt dass' for two different subjects: 'Anstatt dass der Chef anruft, schreibt die Sekretärin nur eine Nachricht.' It is a subordinating conjunction, so the verb goes to the end. A comma separates the clauses each time.",
+        "es": "Para contraponer dos cosas, el alemán de nivel B2 ofrece varios conectores. 'während' es una conjunción subordinante: el verbo va al final. Aquí no significa 'al mismo tiempo', sino 'mientras que': 'Während die Miete hier niedrig ist, ist sie in München hoch.' 'wohingegen' funciona igual y es más formal: 'Ich arbeite gern im Team, wohingegen meine Kollegin lieber allein arbeitet.' 'dagegen' y 'hingegen' son adverbios: ocupan la primera posición o van en medio de una frase principal, con el orden habitual: 'Ich wohne in der Stadt, meine Schwester dagegen wohnt auf dem Land.' 'allerdings' y 'jedoch' añaden un límite o un contraste: 'Die Stelle ist interessant, die Bezahlung ist allerdings niedrig.' Repaso de B1.2: cuando la misma persona hace algo en lugar de otra cosa, ya conoces 'statt' o 'anstatt' con zu e infinitivo: 'Statt anzurufen, schreibt er eine E-Mail.' Nuevo es 'anstatt dass' para dos sujetos distintos: 'Anstatt dass der Chef anruft, schreibt die Sekretärin nur eine Nachricht.' Es una conjunción subordinante, así que el verbo va al final. Cada vez una coma separa las partes. Equivalen al español 'mientras que', 'en cambio', 'sin embargo' y 'en lugar de'."
       },
       "examples": [
         {
@@ -1389,9 +1389,9 @@
           "es": "En lugar de llamar, solo escribió un mensaje corto."
         },
         {
-          "de": "Anstatt dass sie ihre Meinung sagt, schweigt sie in jeder Sitzung.",
-          "en": "Instead of saying her opinion, she stays silent in every meeting.",
-          "es": "En lugar de dar su opinión, se queda callada en cada reunión."
+          "de": "Anstatt dass der Chef anruft, schreibt die Sekretärin nur eine Nachricht.",
+          "en": "Instead of the boss calling, the secretary only writes a message.",
+          "es": "En lugar de que llame el jefe, la secretaria solo escribe un mensaje."
         }
       ],
       "typicalErrors": [
@@ -1420,15 +1420,15 @@
           }
         },
         {
-          "wrong": "Statt er ruft an, schreibt er eine E-Mail.",
-          "correct": "Statt anzurufen, schreibt er eine E-Mail.",
+          "wrong": "Anstatt dass der Chef ruft an, schreibt die Sekretärin nur eine Nachricht.",
+          "correct": "Anstatt dass der Chef anruft, schreibt die Sekretärin nur eine Nachricht.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'instead of calling' and Spanish 'en lugar de llamar' use a verb form without a subject. German does the same with statt + zu + infinitive, or with 'anstatt dass er anruft'.",
-            "es": "El inglés 'instead of calling' y el español 'en lugar de llamar' usan una forma verbal sin sujeto. El alemán hace lo mismo con statt + zu + infinitivo, o con 'anstatt dass er anruft'."
+            "en": "Anstatt dass opens a subordinate clause, so the conjugated verb goes to the end and the separable prefix joins it: anruft. English 'instead of the boss calling' and Spanish 'en lugar de que llame' do not show this order.",
+            "es": "Anstatt dass abre una subordinada, así que el verbo conjugado va al final y el prefijo separable se une a él: anruft. El inglés 'instead of the boss calling' y el español 'en lugar de que llame' no muestran este orden."
           }
         }
       ],
@@ -1991,8 +1991,8 @@
             "en"
           ],
           "why": {
-            "en": "Both halves of an unreal sentence need the Konjunktiv II. Spanish 'aunque tenga tiempo' and English 'even if I have time' use the present, so learners keep habe.",
-            "es": "Las dos mitades de una frase irreal necesitan el Konjunktiv II. El español 'aunque tenga tiempo' y el inglés 'even if I have time' usan el presente, por eso se deja habe."
+            "en": "For an unreal or very unlikely case, selbst wenn is usually followed by Konjunktiv II in both halves. Spanish 'aunque tenga tiempo' and English 'even if I have time' use the present, so learners keep habe.",
+            "es": "Para un caso irreal o muy improbable, selbst wenn suele llevar Konjunktiv II en las dos mitades. El español 'aunque tenga tiempo' y el inglés 'even if I have time' usan el presente, por eso se deja habe."
           }
         }
       ],
@@ -2037,7 +2037,7 @@
             "en": "Say it with selbst wenn in the past.",
             "es": "Dilo con selbst wenn en pasado."
           },
-          "prompt": "Der Zug war nicht pünktlich. Ich habe den Termin verpasst.",
+          "prompt": "Der Zug hatte Verspätung. Ich hätte den Termin auch sonst verpasst.",
           "answers": [
             "Selbst wenn der Zug pünktlich gewesen wäre, hätte ich den Termin verpasst."
           ]
@@ -2659,8 +2659,8 @@
         "es": "Oraciones de relativo generales con wer … der"
       },
       "explanation": {
-        "en": "When you speak about people in general, not about a particular person, German uses wer as a relative pronoun: 'Wer Fragen hat, kann sich jederzeit melden.' It means 'anyone who' or 'whoever'. The clause with wer comes first and the verb stands at the end. The main clause follows. It often starts with the demonstrative der, which repeats the person: 'Wer zu spät kommt, der muss draußen warten.' Der is optional when wer and der would have the same case. When the cases differ, the second pronoun is needed and takes its own case: 'Wem die Aufgabe zu schwer ist, der soll mich fragen.' (wem for the dative verb, der for the subject.) 'Wen ich nicht verstehe, den frage ich noch einmal.' The forms are wer, wen, wem. For things the same pattern uses was … das: 'Was man nicht versteht, (das) sollte man nachfragen.' You find wer-clauses in rules, advice and sayings: 'Wer nicht fragt, bleibt dumm.'",
-        "es": "Cuando hablas de personas en general, no de una persona concreta, el alemán usa wer como pronombre relativo: 'Wer Fragen hat, kann sich jederzeit melden.' Significa 'quien' o 'el que'. La oración con wer va primero y el verbo al final. Después viene la principal, que a menudo empieza con el demostrativo der, que repite a la persona: 'Wer zu spät kommt, der muss draußen warten.' Der es opcional cuando wer y der tendrían el mismo caso. Cuando los casos son distintos, el segundo pronombre es necesario y lleva su propio caso: 'Wem die Aufgabe zu schwer ist, der soll mich fragen.' (wem por el verbo con dativo, der por el sujeto.) 'Wen ich nicht verstehe, den frage ich noch einmal.' Las formas son wer, wen, wem. Para cosas se usa el mismo esquema con was … das: 'Was man nicht versteht, (das) sollte man nachfragen.' Las oraciones con wer aparecen en normas, consejos y refranes: 'Wer nicht fragt, bleibt dumm.' El español dice 'quien tenga preguntas…' o 'el que…'; el alemán no necesita subjuntivo."
+        "en": "When you speak about people in general, not about a particular person, German uses wer as a relative pronoun: 'Wer Fragen hat, kann sich jederzeit melden.' It means 'anyone who' or 'whoever'. The clause with wer comes first and the verb stands at the end. The main clause follows. It often starts with the demonstrative der, which repeats the person: 'Wer zu spät kommt, der muss draußen warten.' Der is optional when wer and der would have the same case. When the cases differ, the second pronoun is needed and takes its own case: 'Wem die Aufgabe zu schwer ist, der soll mich fragen.' (wem for the dative verb, der for the subject.) 'Wen ich nicht verstehe, den frage ich noch einmal.' The forms are wer, wen, wem. For things the same pattern uses was … das: 'Was man nicht versteht, (das) sollte man sich erklären lassen.' You find wer-clauses in rules, advice and sayings: 'Wer nicht fragt, bleibt dumm.'",
+        "es": "Cuando hablas de personas en general, no de una persona concreta, el alemán usa wer como pronombre relativo: 'Wer Fragen hat, kann sich jederzeit melden.' Significa 'quien' o 'el que'. La oración con wer va primero y el verbo al final. Después viene la principal, que a menudo empieza con el demostrativo der, que repite a la persona: 'Wer zu spät kommt, der muss draußen warten.' Der es opcional cuando wer y der tendrían el mismo caso. Cuando los casos son distintos, el segundo pronombre es necesario y lleva su propio caso: 'Wem die Aufgabe zu schwer ist, der soll mich fragen.' (wem por el verbo con dativo, der por el sujeto.) 'Wen ich nicht verstehe, den frage ich noch einmal.' Las formas son wer, wen, wem. Para cosas se usa el mismo esquema con was … das: 'Was man nicht versteht, (das) sollte man sich erklären lassen.' Las oraciones con wer aparecen en normas, consejos y refranes: 'Wer nicht fragt, bleibt dumm.' El español dice 'quien tenga preguntas…' o 'el que…'; el alemán no necesita subjuntivo."
       },
       "examples": [
         {
@@ -2689,9 +2689,9 @@
           "es": "Quien se presente tiene que entregar un currículum."
         },
         {
-          "de": "Was man nicht versteht, sollte man nachfragen.",
-          "en": "What one does not understand, one should ask about.",
-          "es": "Lo que no se entiende, hay que preguntarlo."
+          "de": "Was man nicht versteht, (das) sollte man sich erklären lassen.",
+          "en": "What one does not understand, one should have explained.",
+          "es": "Lo que no se entiende, hay que pedir que se lo expliquen a uno."
         },
         {
           "de": "Wer nicht fragt, bleibt dumm.",
@@ -8189,9 +8189,9 @@
         ]
       },
       "example": {
-        "de": "Der Zeitplan ist uns weit voraus.",
-        "en": "The schedule is far ahead of us.",
-        "es": "El calendario nos lleva mucha ventaja."
+        "de": "Wir sind dem Zeitplan weit voraus.",
+        "en": "We are far ahead of schedule.",
+        "es": "Vamos muy adelantados respecto al calendario."
       },
       "sublevel": "B2.1",
       "frequencyRank": 2158
@@ -8743,9 +8743,9 @@
         ]
       },
       "example": {
-        "de": "Bei einer Erkrankung brauchen Sie ein Attest.",
-        "en": "In case of illness you need a medical certificate.",
-        "es": "En caso de enfermedad necesita un certificado médico."
+        "de": "Bei einer Erkrankung brauchen Sie in unserer Firma ab dem dritten Tag ein Attest.",
+        "en": "In our company, you need a medical certificate from the third day of an illness.",
+        "es": "En nuestra empresa, en caso de enfermedad se necesita un certificado médico a partir del tercer día."
       },
       "sublevel": "B2.1",
       "frequencyRank": 2201
@@ -9720,9 +9720,9 @@
         ]
       },
       "example": {
-        "de": "Die Pandemie hat die Arbeit in vielen Firmen verwandelt.",
-        "en": "The pandemic has transformed work in many companies.",
-        "es": "La pandemia ha transformado el trabajo en muchas empresas."
+        "de": "Die Pandemie hat viele Wohnzimmer in Büros verwandelt.",
+        "en": "The pandemic has turned many living rooms into offices.",
+        "es": "La pandemia ha convertido muchas salas de estar en oficinas."
       },
       "sublevel": "B2.1",
       "frequencyRank": 2256
@@ -17714,11 +17714,11 @@
             "type": "multiple-choice",
             "options": [
               "a) Ab zwanzig Minuten.",
-              "b) Ab vierzig Minuten.",
+              "b) Ab mehr als vierzig Minuten.",
               "c) Ab einer Stunde."
             ],
             "answer": [
-              "b) Ab vierzig Minuten."
+              "b) Ab mehr als vierzig Minuten."
             ]
           },
           {
@@ -17792,7 +17792,7 @@
         "minutes": 35,
         "points": 15,
         "wordCount": {
-          "min": 150,
+          "min": 120,
           "max": 230
         },
         "rubricId": "writing",
@@ -17888,7 +17888,7 @@
                   "grammar": 2,
                   "vocabulary-spelling": 2
                 },
-                "rationale": "Task completion 3: all points with detail, including a proposal, a condition and an offer of a meeting, in a polite formal tone. Coherence 2: weil, deswegen, obwohl and falls link the ideas; one sentence breaks off the logic. Grammar 2: Konjunktiv II in the past ('hätte ich gefragt') is used correctly; the sentence 'Obwohl …, ich denke' lacks inversion, and 'das früher nicht gewusst' has an odd order. Vocabulary and spelling 2: Umstellung, Sprachkurs and the closing phrases are right; some very general words."
+                "rationale": "Task completion 3: all points with detail, including a proposal, a condition and an offer of a meeting, in a polite formal tone. Coherence 2: weil, deswegen, obwohl and falls link the ideas; one sentence breaks off the logic. Grammar 2: Konjunktiv II in the past ('hätte ich gefragt') is used correctly; the sentence 'Obwohl …, ich denke' lacks inversion. Vocabulary and spelling 2: Umstellung, Sprachkurs and the closing phrases are right; some very general words."
               },
               {
                 "response": "Madrid, 5.9.\n\nBetreff: Arbeitszeiten\n\nSehr geehrte Frau Dr. Vogel,\n\nim neuen Semester muss ich dienstags und donnerstags bis 18 Uhr in die Uni gehen. Deshalb kann ich nicht mehr von 14 bis 19 Uhr arbeiten, wie bisher. Ich arbeite sehr gern in Ihrem Team und möchte die Stelle nicht verlieren.\n\nKönnten wir eine andere Lösung finden? Ich könnte von Montag bis Mittwoch am Vormittag arbeiten, die Seminare beginnen ja erst später. Außerdem würde ich bei Bedarf auch samstags arbeiten, aber nur wenn ich frei bekomme am Montag danach. Ich habe gelesen, dass andere Werkstudenten die Zeiten auch tauschen, das ist vielleicht eine Möglichkeit.\n\nIch bitte Sie um eine Antwort bis Ende nächster Woche.\n\nVielen Dank im Voraus und freundliche Grüße\nLucía Soto",
@@ -17916,7 +17916,7 @@
                 "rationale": "Task completion 3: every point is covered fully: situation, reason, a concrete proposal with hours, a condition (sofern, es sei denn), a deadline and an offer to talk; formal tone throughout. Coherence 3: one clear line in four paragraphs with während, jedoch, folglich, sofern, ansonsten, es sei denn. Grammar 3: Konjunktiv II in the past (Hätte ich … gekannt, hätte ich … gefragt), a sich-lassen construction, passive and the connectors are all correct. Vocabulary and spelling 3: precise formal vocabulary (anpassen, ausgleichen, erreichbar, erläutern); no errors."
               },
               {
-                "response": "Hamburg, 18. September\n\nBetreff: Anpassung meiner Arbeitszeiten ab Oktober\n\nSehr geehrte Frau Dr. Vogel,\n\nich arbeite seit einem halben Jahr mit viel Freude im Kundenservice. Da sich mein Stundenplan für das kommende Semester geändert hat, möchte ich Sie um eine kleine Anpassung meiner Arbeitszeiten bitten. Dienstags und donnerstags haben meine Pflichtseminare bis 18 Uhr, wohingegen ich bisher von 14 bis 19 Uhr eingeteilt war.\n\nEs wäre für mich ideal, wenn ich stattdessen montags und mittwochs jeweils von 13 bis 18 Uhr arbeiten könnte. Selbst wenn das für das Team eine Umstellung bedeutet, lässt sich die Arbeit meiner Einschätzung nach gut verteilen. Sollte ein Tausch nicht möglich sein, könnte ich auch an einem Samstag im Monat aushelfen.\n\nEine Einschränkung gibt es allerdings: Am ersten Montag im Monat besuche ich einen Sprachkurs, den ich nur ungern absagen würde. Ich bitte Sie daher um Verständnis.\n\nÜber eine Antwort bis zum 25. September würde ich mich sehr freuen. Falls Sie es für sinnvoll halten, besprechen wir die Details gern in einem Gespräch.\n\nMit freundlichen Grüßen\nTom Baker",
+                "response": "Hamburg, 18. September\n\nBetreff: Anpassung meiner Arbeitszeiten ab Oktober\n\nSehr geehrte Frau Dr. Vogel,\n\nich arbeite seit einem halben Jahr mit viel Freude im Kundenservice. Da sich mein Stundenplan für das kommende Semester geändert hat, möchte ich Sie um eine kleine Anpassung meiner Arbeitszeiten bitten. Dienstags und donnerstags dauern meine Pflichtseminare bis 18 Uhr, wohingegen ich bisher von 14 bis 19 Uhr eingeteilt war.\n\nEs wäre für mich ideal, wenn ich stattdessen montags und mittwochs jeweils von 13 bis 18 Uhr arbeiten könnte. Selbst wenn das für das Team eine Umstellung bedeuten würde, lässt sich die Arbeit meiner Einschätzung nach gut verteilen. Sollte ein Tausch nicht möglich sein, könnte ich auch an einem Samstag im Monat aushelfen.\n\nEine Einschränkung gibt es allerdings: Am ersten Montag im Monat besuche ich einen Sprachkurs, den ich nur ungern absagen würde. Ich bitte Sie daher um Verständnis.\n\nÜber eine Antwort bis zum 25. September würde ich mich sehr freuen. Falls Sie es für sinnvoll halten, besprechen wir die Details gern in einem Gespräch.\n\nMit freundlichen Grüßen\nTom Baker",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
@@ -17926,14 +17926,14 @@
                 "rationale": "Task completion 3: all content points with relevant detail, an alternative if the first proposal fails, a restriction and a deadline; the tone is polite and formal. Coherence 3: da, wohingegen, selbst wenn, sollte, allerdings and daher give a clear line. Grammar 3: Konjunktiv II forms, selbst wenn with Konjunktiv II, 'Sollte … nicht möglich sein' and sich lassen are used correctly; 'für das kommende Semester geändert hat' is fine. Vocabulary and spelling 3: very good range (Anpassung, eingeteilt, Einschätzung, Verständnis); no errors."
               },
               {
-                "response": "Granada, den 2. Oktober\n\nBetreff: Bitte um geänderte Arbeitszeiten im Wintersemester\n\nSehr geehrte Frau Dr. Vogel,\n\nich arbeite seit sechs Monaten gern als Werkstudent in Ihrem Team. Leider liegen meine Pflichtseminare im Wintersemester dienstags und donnerstags bis 18 Uhr, sodass ich an diesen Tagen nicht um 14 Uhr anfangen kann. Ich habe die Termine erst letzte Woche erfahren; wenn ich sie früher gewusst hätte, wäre ich schon im Sommer zu Ihnen gekommen.\n\nDeshalb möchte ich vorschlagen, dass ich an diesen beiden Tagen erst um 18.30 Uhr beginne und die fehlenden Stunden am Samstagvormittag nachhole. Ich weiß, dass dies für Sie nicht ideal ist. Dennoch halte ich es für die beste Lösung, weil die Kunden am Samstag oft Fragen haben. Eine Bedingung wäre allerdings, dass ich an einem Samstag im Monat frei bekomme, denn dann habe ich ein Deutschkurs.\n\nIch wäre Ihnen sehr dankbar, wenn ich bis zum 15. Oktober von Ihnen hören könnte.\n\nMit freundlichen Grüßen\nCarlos Navarro",
+                "response": "Granada, den 2. Oktober\n\nBetreff: Bitte um geänderte Arbeitszeiten im Wintersemester\n\nSehr geehrte Frau Dr. Vogel,\n\nich arbeite seit sechs Monaten gern als Werkstudent in Ihrem Team. Leider liegen meine Pflichtseminare im Wintersemester dienstags und donnerstags bis 18 Uhr, sodass ich an diesen Tagen nicht um 14 Uhr anfangen kann. Ich habe die Termine erst letzte Woche erfahren; wenn ich früher davon gewusst hätte, wäre ich schon im Sommer zu Ihnen gekommen.\n\nDeshalb möchte ich vorschlagen, dass ich an diesen beiden Tagen erst um 18.30 Uhr beginne und die fehlenden Stunden am Samstagvormittag nachhole. Ich weiß, dass dies für Sie nicht ideal ist. Dennoch halte ich es für die beste Lösung, weil die Kunden am Samstag oft Fragen haben. Eine Bedingung wäre allerdings, dass ich an einem Samstag im Monat frei bekomme, denn dann habe ich ein Deutschkurs.\n\nIch wäre Ihnen sehr dankbar, wenn ich bis zum 15. Oktober von Ihnen hören könnte.\n\nMit freundlichen Grüßen\nCarlos Navarro",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-spelling": 3
                 },
-                "rationale": "Task completion 3: all points are covered with detail, including a justified proposal, a condition, an admission of the disadvantage and a deadline. Coherence 3: sodass, deshalb, dennoch, weil and allerdings build a clear argument. Grammar 3: Konjunktiv II in the past is correct (wenn ich sie früher gewusst hätte, wäre ich … gekommen) and the subordinate clauses are right; the one slip is the gender in 'ein Deutschkurs' (der Deutschkurs, so 'einen'). Vocabulary and spelling 3: precise and varied (nachholen, Einschränkung, Bedingung); spelling is correct."
+                "rationale": "Task completion 3: all points are covered with detail, including a justified proposal, a condition, an admission of the disadvantage and a deadline. Coherence 3: sodass, deshalb, dennoch, weil and allerdings build a clear argument. Grammar 3: Konjunktiv II in the past is correct (wenn ich früher davon gewusst hätte, wäre ich … gekommen) and the subordinate clauses are right; the one slip is the gender in 'ein Deutschkurs' (der Deutschkurs, so 'einen'). Vocabulary and spelling 3: precise and varied (nachholen, Einschränkung, Bedingung); spelling is correct."
               }
             ]
           }
@@ -18036,14 +18036,14 @@
                 "rationale": "Task completion 3: all four notes with who, what and when, Herr Wagner reported correctly, Betreff, greeting and closing. Coherence 2: clear blocks with weil, deshalb and damit, but it reads partly as a list. Grammar 2: reported speech with Konjunktiv I ('laufe'), a passive ('wird besprochen') and the connectors are correct, but 'mit sie' should be 'mit ihnen' (case after mit). Vocabulary and spelling 2: right words (Verzug, Ergebnisse, Archiv), one wrong preposition in 'im Verzug' (in Verzug); spelling is correct."
               },
               {
-                "response": "Betreff: Teambesprechung am Montag\n\nLiebes Team,\n\nich fasse kurz zusammen, was wir heute besprochen haben. Die Website hat eine Woche Verzug, weil die Fotos fehlen. Lea schreibt die Texte schon jetzt, damit wir Zeit sparen. Kemal sucht bis Mittwoch alte Fotos im Archiv, so dass wir zur Not damit arbeiten können.\n\nBei der Umfrage haben bisher nur 30 Kunden geantwortet. Herr Wagner hat gesagt, dass die Umfrage noch eine Woche länger läuft. Das Protokoll schreibt Frau Kaya, sie schickt es bis Freitag. Über den Urlaubsplan wir sprechen nächste Woche.\n\nGrüße, Tim",
+                "response": "Betreff: Ergebnisse der Teambesprechung\n\nLiebes Team,\n\nich fasse kurz zusammen, was wir heute besprochen haben. Die Website hat eine Woche Verzug, weil die Fotos fehlen. Lea schreibt die Texte schon jetzt, damit wir Zeit sparen. Kemal sucht bis Mittwoch alte Fotos im Archiv, so dass wir zur Not damit arbeiten können.\n\nBei der Umfrage haben bisher nur 30 Kunden geantwortet. Herr Wagner hat gesagt, dass die Umfrage noch eine Woche länger läuft. Das Protokoll schreibt Frau Kaya, sie schickt es bis Freitag. Über den Urlaubsplan wir sprechen nächste Woche.\n\nGrüße, Tim",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-spelling": 2
                 },
-                "rationale": "Task completion 2: all points with who and when are covered, Betreff and closing are present; Herr Wagner is reported only with the indicative ('läuft'), which is acceptable but does not use the Konjunktiv I the task invites; the closing is short. Coherence 2: weil, damit and so dass link the ideas well. Grammar 2: the dass-clause is correct; 'Über den Urlaubsplan wir sprechen' lacks inversion; 'so dass' should be 'sodass'. Vocabulary and spelling 2: fitting words and phrases (Ergebnisse zusammenfassen, zur Not), one small spelling slip."
+                "rationale": "Task completion 2: all points with who and when are covered, Betreff and closing are present; Herr Wagner is reported only with the indicative ('läuft'), which is acceptable but does not use the Konjunktiv I the task invites; the closing is short. Coherence 2: weil, damit and so dass link the ideas well. Grammar 2: the dass-clause is correct; 'Über den Urlaubsplan wir sprechen' lacks inversion. Vocabulary and spelling 2: fitting words and phrases (Ergebnisse zusammenfassen, zur Not), spelling is correct, but the range is general."
               },
               {
                 "response": "Betreff: Ergebnisse Besprechung\n\nLiebe Kollegen,\n\nhier eine kurze Zusammenfassung. Die Website ist leider eine Woche in Verzug, weil Fotos fehlen. Lea schreibt die Texte schon, und Kemal sammelt Fotos aus dem alten Archiv. Er macht das bis Mittwoch, falls er keine neuen Aufgaben bekommt. Zur Umfrage: Es haben nur 30 Kunden geantwortet. Herr Wagner meint, die Umfrage könne noch eine Woche laufen. Frau Kaya schreibt das Protokoll bis Freitag. Der Urlaubsplan wird verschoben auf nächste Woche.\n\nViele Grüße\nNora",
@@ -18061,7 +18061,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Betreff: Ergebnisse der Teambesprechung vom Montag\n\nLiebe Kolleginnen und Kollegen,\n\nhier die wichtigsten Ergebnisse unserer Besprechung.\n\nWebsite: Wir liegen etwa eine Woche hinter dem Plan, weil die Fotos fehlen. Lea schreibt deshalb schon jetzt die Texte, und Kemal sammelt bis Mittwoch Fotos aus dem alten Archiv, sodass wir zur Not damit arbeiten können.\n\nUmfrage: Bisher haben nur dreißig Kunden geantwortet. Herr Wagner sagte, die Umfrage laufe deshalb noch eine Woche länger.\n\nFrau Kaya schreibt das Protokoll und schickt es bis Freitag. Der Urlaubsplan wird erst nächste Woche besprochen.\n\nFalls ich etwas vergessen habe, sagt mir bitte Bescheid.\n\nViele Grüße\nMia",
+                "response": "Betreff: Ergebnisse der Teambesprechung\n\nLiebe Kolleginnen und Kollegen,\n\nhier die wichtigsten Ergebnisse unserer Besprechung.\n\nWebsite: Wir liegen etwa eine Woche hinter dem Plan, weil die Fotos fehlen. Lea schreibt deshalb schon jetzt die Texte, und Kemal sammelt bis Mittwoch Fotos aus dem alten Archiv, sodass wir zur Not damit arbeiten können.\n\nUmfrage: Bisher haben nur dreißig Kunden geantwortet. Herr Wagner sagte, die Umfrage laufe deshalb noch eine Woche länger.\n\nFrau Kaya schreibt das Protokoll und schickt es bis Freitag. Der Urlaubsplan wird erst nächste Woche besprochen. So ist für alle klar, wer bis wann welche Aufgabe übernimmt.\n\nFalls ich etwas vergessen habe, sagt mir bitte Bescheid.\n\nViele Grüße\nMia",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
@@ -18071,17 +18071,17 @@
                 "rationale": "Task completion 3: every note is covered with who, what and when, Herr Wagner is reported correctly, Betreff, greeting, closing and a polite last line. Coherence 3: blocks with clear headings and the links weil, deshalb and sodass. Grammar 3: Konjunktiv I ('laufe'), passive and subordinate clauses are all correct. Vocabulary and spelling 3: fitting work language (hinter dem Plan, zur Not, Bescheid sagen), no errors."
               },
               {
-                "response": "Betreff: Zusammenfassung der Besprechung\n\nLiebes Team,\n\nhier kurz, was wir heute vereinbart haben:\n\n1. Die Website ist eine Woche in Verzug, da die Fotos noch fehlen. Um keine Zeit zu verlieren, schreibt Lea die Texte schon jetzt. Kemal sammelt bis Mittwoch Fotos aus dem alten Archiv.\n2. Bei der Kundenumfrage haben bisher nur 30 Personen geantwortet. Herr Wagner erklärte, sie werde deshalb noch eine Woche verlängert.\n3. Das Protokoll schreibt Frau Kaya bis Freitag. Der Urlaubsplan wird erst in der nächsten Woche besprochen.\n\nGibt es Fragen, antwortet gern Frau Kaya oder ich.\n\nBeste Grüße\nLeon",
+                "response": "Betreff: Zusammenfassung der Besprechung\n\nLiebes Team,\n\nhier kurz, was wir heute vereinbart haben:\n\n1. Die Website ist eine Woche in Verzug, da die Fotos noch fehlen. Um keine Zeit zu verlieren, schreibt Lea die Texte schon jetzt. Kemal sammelt bis Mittwoch Fotos aus dem alten Archiv.\n2. Bei der Kundenumfrage haben bisher nur 30 Personen geantwortet. Herr Wagner erklärte, sie werde deshalb noch eine Woche verlängert.\n3. Das Protokoll schreibt Frau Kaya bis Freitag. Der Urlaubsplan wird erst in der nächsten Woche besprochen.\n\nIch hoffe, damit ist für alle klar, wer bis wann welche Aufgabe übernimmt. Bei Fragen antworte ich gern.\n\nBeste Grüße\nLeon",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-spelling": 3
                 },
-                "rationale": "Task completion 3: all points with who and when in a clear numbered list, Herr Wagner reported with a passive Konjunktiv I ('werde verlängert'), a helpful closing line. Coherence 3: da, um … zu and deshalb give a clear line. Grammar 3: Konjunktiv I in the passive, um … zu and the passive are correct; the last sentence 'Gibt es Fragen, antwortet …' is fine as a conditional without wenn. Vocabulary and spelling 3: precise words (vereinbaren, in Verzug, Zusammenfassung); no errors."
+                "rationale": "Task completion 3: all points with who and when in a clear numbered list, Herr Wagner reported with a passive Konjunktiv I ('werde verlängert'), a helpful closing line. Coherence 3: da, um … zu and deshalb give a clear line. Grammar 3: Konjunktiv I in the passive, um … zu and the passive are correct; the closing lines are correct and helpful. Vocabulary and spelling 3: precise words (vereinbaren, in Verzug, Zusammenfassung); no errors."
               },
               {
-                "response": "Betreff: Besprechung vom Montag: Ergebnisse\n\nLiebe Kolleginnen und Kollegen,\n\nhier eine kurze Zusammenfassung. Die Website liegt eine Woche hinter dem Zeitplan, weil die Fotos fehlen. Folglich schreibt Lea die Texte jetzt schon, während Kemal bis Mittwoch Fotos aus dem alten Archiv sammelt. Zur Umfrage: Bisher haben nur 30 Kunden mitgemacht. Herr Wagner hat gesagt, die Umfrage dauere noch eine Woche länger. Das Protokoll wird von Frau Kaya bis Freitag geschrieben. Den Urlaubsplan besprechen wir erst nächste Woche. Wenn jemand noch Fragen hat, melde er oder sie sich bitte bei mir.\n\nViele Grüße\nAnja",
+                "response": "Betreff: Ergebnisse der Besprechung\n\nLiebe Kolleginnen und Kollegen,\n\nhier eine kurze Zusammenfassung. Die Website liegt eine Woche hinter dem Zeitplan, weil die Fotos fehlen. Folglich schreibt Lea die Texte jetzt schon, während Kemal bis Mittwoch Fotos aus dem alten Archiv sammelt. Zur Umfrage: Bisher haben nur 30 Kunden mitgemacht. Herr Wagner hat gesagt, die Umfrage dauere noch eine Woche länger. Das Protokoll wird von Frau Kaya bis Freitag geschrieben. Den Urlaubsplan besprechen wir erst nächste Woche. So ist für alle klar, wer bis wann welche Aufgabe übernimmt. Wenn jemand noch Fragen hat, melde er oder sie sich bitte bei mir.\n\nViele Grüße\nAnja",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
@@ -18232,14 +18232,14 @@
                 "rationale": "Task completion 3: preview, personal experience, both sides with a source reported in own words, a position with a reason and a closing. Fluency 3: confident signposting (Erstens, Zweitens, Zu den Nachteilen, Dazu kommt). Grammar 3: unreal condition with Konjunktiv II, reported speech with hätten … gehabt, während, folglich, a correlate ('dafür, dass') and 'was' are used correctly. Vocabulary 3: precise words (Belastung, Fachkräfte, flexibel organisieren, Beschäftigte)."
               },
               {
-                "response": "Guten Tag, meine Damen und Herren. Mein Thema ist die Viertagewoche. Ich spreche erst über meine Erfahrung, dann über Vor- und Nachteile, und zum Schluss sage ich, was ich selbst denke.\nIch bin in Spanien aufgewachsen. Dort arbeiten viele Menschen von neun bis zwei und dann wieder am Nachmittag, sodass der Tag sehr lang wird. Hier in Deutschland habe ich gesehen, dass die Arbeit mehr nach Stunden gemessen wird. Mich interessiert deshalb, ob vier Tage genug sind.\nEine Studie, über die ich gelesen habe, kommt zu dem Ergebnis, dass die Beschäftigten zufriedener seien und weniger krank gewesen wären. Das klingt gut, aber ich zweifle ein bisschen daran, weil nur Büros untersucht wurden. Dafür spricht, dass die Menschen mehr Zeit für Familie und Hobbys haben. Dagegen spricht, dass in der Pflege oder im Verkauf nicht einfach jemand fehlen kann. Man müsste mehr Personal einstellen, was teuer wäre.\nTrotzdem bin ich dafür, dass man es versucht, es sei denn, die Kosten sind für kleine Firmen zu hoch. Mein Fazit: Eine Chance, aber kein Wundermittel. Vielen Dank.",
+                "response": "Guten Tag, meine Damen und Herren. Mein Thema ist die Viertagewoche. Ich spreche erst über meine Erfahrung, dann über Vor- und Nachteile, und zum Schluss sage ich, was ich selbst denke.\nIch bin in Spanien aufgewachsen. Dort arbeiten viele Menschen von neun bis zwei und dann wieder am Nachmittag, sodass der Tag sehr lang wird. Hier in Deutschland habe ich gesehen, dass die Arbeit mehr nach Stunden gemessen wird. Mich interessiert deshalb, ob vier Tage genug sind.\nEine Studie, über die ich gelesen habe, kommt zu dem Ergebnis, dass die Beschäftigten zufriedener und weniger oft krank gewesen seien. Das klingt gut, aber ich zweifle ein bisschen daran, weil nur Büros untersucht wurden. Dafür spricht, dass die Menschen mehr Zeit für Familie und Hobbys haben. Dagegen spricht, dass in der Pflege oder im Verkauf nicht einfach jemand fehlen kann. Man müsste mehr Personal einstellen, was teuer wäre.\nTrotzdem bin ich dafür, dass man es versucht, es sei denn, die Kosten sind für kleine Firmen zu hoch. Mein Fazit: Eine Chance, aber kein Wundermittel. Vielen Dank.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: all parts with experience, two sides, a critical view of the source and a position with an exception. Fluency 3: connected, with a natural pace and a clear conclusion. Grammar 3: relative clause with a preposition, reported speech ('seien … gewesen wären' mixes Konjunktiv I and II but is understandable), a relative clause with was, a correlate and 'es sei denn' are used correctly. Vocabulary 2: mostly precise, but 'Wundermittel' is the only more varied expression and 'Stunden gemessen' is a little unusual."
+                "rationale": "Task completion 3: all parts with experience, two sides, a critical view of the source and a position with an exception. Fluency 3: connected, with a natural pace and a clear conclusion. Grammar 3: relative clause with a preposition, reported speech in the past ('zufriedener und weniger oft krank gewesen seien', Konjunktiv I), a relative clause with was, a correlate and 'es sei denn' are used correctly. Vocabulary 2: mostly precise, but 'Wundermittel' is the only more varied expression and 'Stunden gemessen' is a little unusual."
               }
             ]
           }

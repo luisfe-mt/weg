@@ -30,16 +30,16 @@
       "id": "negotiate-pay-and-hours",
       "skill": "interaction",
       "statement": {
-        "en": "I can negotiate pay, working hours or a change of tasks with a manager: state what I want and why, react to a counter-offer, name conditions and agree on a compromise.",
-        "es": "Puedo negociar sueldo, horario o cambio de tareas con un superior: decir qué quiero y por qué, reaccionar a una contraoferta, plantear condiciones y acordar un compromiso."
+        "en": "I can negotiate pay, working hours or a change of tasks with a manager: state what I want and why, react to a counter-offer, set conditions (unter der Bedingung, dass; sofern), offer something in return (im Gegenzug), agree on a compromise (sich einigen auf) and confirm it ('Dann halten wir fest …').",
+        "es": "Puedo negociar sueldo, horario o cambio de tareas con un superior: decir qué quiero y por qué, reaccionar a una contraoferta, plantear condiciones (unter der Bedingung, dass; sofern), ofrecer algo a cambio (im Gegenzug), acordar un compromiso (sich einigen auf) y confirmarlo ('Dann halten wir fest …')."
       }
     },
     {
       "id": "negotiate-deadlines-suppliers",
       "skill": "interaction",
       "statement": {
-        "en": "I can discuss a delay, a price or a delivery date with a supplier or a colleague, state what is not acceptable, propose a solution and confirm what was agreed.",
-        "es": "Puedo hablar con un proveedor o un compañero sobre un retraso, un precio o una fecha de entrega, decir qué no es aceptable, proponer una solución y confirmar lo acordado."
+        "en": "I can discuss a delay, a price or a delivery date with a supplier or a colleague, state what is not acceptable (andernfalls), propose a solution with a condition and confirm what was agreed.",
+        "es": "Puedo hablar con un proveedor o un compañero sobre un retraso, un precio o una fecha de entrega, decir qué no es aceptable (andernfalls), proponer una solución con una condición y confirmar lo acordado."
       }
     },
     {
@@ -54,24 +54,24 @@
       "id": "describe-figures-and-charts",
       "skill": "speaking",
       "statement": {
-        "en": "I can describe figures in a chart or table, name the trend, compare values and say what stands out, using the usual verbs, nouns and prepositions.",
-        "es": "Puedo describir las cifras de un gráfico o una tabla, indicar la tendencia, comparar valores y decir qué llama la atención, con los verbos, sustantivos y preposiciones habituales."
+        "en": "I can describe figures in a chart or table, name the trend with the usual verbs and nouns of change (steigen, sinken, der Anstieg, der Rückgang), give the size and the new value with um and auf, compare values and say what stands out.",
+        "es": "Puedo describir las cifras de un gráfico o una tabla, indicar la tendencia con los verbos y sustantivos habituales del cambio (steigen, sinken, der Anstieg, der Rückgang), dar la magnitud y el nuevo valor con um y auf, comparar valores y decir qué llama la atención."
       }
     },
     {
       "id": "write-short-report",
       "skill": "writing",
       "statement": {
-        "en": "I can write a short, objective report of about 120 words on a project, an event or a chart, with a clear order, figures, a result and a recommendation.",
-        "es": "Puedo escribir un informe breve y objetivo de unas 120 palabras sobre un proyecto, un evento o un gráfico, con un orden claro, cifras, un resultado y una recomendación."
+        "en": "I can write a short, objective report of about 120 words on a project, an event or a chart, in the usual order (aim, method, results, conclusion, recommendation), with figures, a neutral style without I and we, and a recommendation.",
+        "es": "Puedo escribir un informe breve y objetivo de unas 120 palabras sobre un proyecto, un evento o un gráfico, en el orden habitual (objetivo, método, resultados, conclusión, recomendación), con cifras, un estilo neutro sin yo ni nosotros y una recomendación."
       }
     },
     {
       "id": "write-minutes-and-memos",
       "skill": "writing",
       "statement": {
-        "en": "I can write minutes of a short meeting and a brief internal message that record decisions, responsibilities and deadlines in a compact, neutral style.",
-        "es": "Puedo redactar el acta de una reunión corta y un mensaje interno breve que recojan decisiones, responsables y plazos en un estilo compacto y neutro."
+        "en": "I can write minutes of a short meeting and a brief internal message in a compact, neutral style: decisions with the es-passive ('Es wurde beschlossen, dass …'), one consistent tense, and short list entries for who does what by when.",
+        "es": "Puedo redactar el acta de una reunión corta y un mensaje interno breve en un estilo compacto y neutro: decisiones con el pasivo con es ('Es wurde beschlossen, dass …'), un tiempo verbal coherente y entradas de lista cortas con quién hace qué y para cuándo."
       }
     },
     {
@@ -139,7 +139,7 @@
       },
       "situations": [
         "Mit der Teamleiterin über den Stundenlohn und die Wochenstunden sprechen.",
-        "Einem Lieferanten sagen, dass die Lieferung zu spät kommt, und eine Lösung finden.",
+        "Einer Druckerei sagen, dass die Lieferung zu spät kommt, und eine Lösung finden.",
         "Eine Abgabefrist mit einer Kollegin neu vereinbaren.",
         "Nach einem Gespräch schriftlich festhalten, was vereinbart wurde."
       ]
@@ -161,15 +161,15 @@
     {
       "id": "bericht-protokoll",
       "title": {
-        "de": "Berichte und Protokolle",
-        "en": "Reports and minutes",
-        "es": "Informes y actas"
+        "de": "Schriftliche Berichte und Zahlen",
+        "en": "Written reports and figures",
+        "es": "Informes escritos y cifras"
       },
       "situations": [
-        "Das Protokoll einer Teambesprechung schreiben.",
         "Einen Kurzbericht über ein abgeschlossenes Projekt verfassen.",
-        "Ergebnisse und Empfehlungen in wenigen Sätzen zusammenfassen.",
-        "Ein Protokoll lesen und die offenen Aufgaben herausfinden."
+        "Zahlen aus einer Tabelle in einem Bericht zusammenfassen.",
+        "Ergebnisse und Empfehlungen in wenigen Sätzen formulieren.",
+        "Mit einem Kollegen klären, welche Frist in einem schriftlichen Dokument gelten soll."
       ]
     },
     {
@@ -189,15 +189,15 @@
     {
       "id": "interne-texte",
       "title": {
-        "de": "Richtlinien und interne Mitteilungen",
-        "en": "Guidelines and internal memos",
-        "es": "Normas y comunicados internos"
+        "de": "Memos, Richtlinien und interne Mitteilungen",
+        "en": "Memos, guidelines and internal announcements",
+        "es": "Memorandos, normas y comunicados internos"
       },
       "situations": [
+        "Ein Memo der Geschäftsleitung über neue Abläufe lesen.",
         "Eine Richtlinie zur Nutzung der Dienstgeräte lesen.",
         "Eine interne Mitteilung über neue Arbeitszeiten verstehen.",
-        "Ein Rundschreiben des Betriebsrats lesen.",
-        "Eine Datenschutzregel für Praktikanten erklären."
+        "Ein Rundschreiben des Betriebsrats lesen und eine Datenschutzregel für Praktikanten erklären."
       ]
     },
     {
@@ -242,17 +242,18 @@
     }
   ],
   "gaps": [
-    "Deutsch im Blick is not cited: it covers A1 to B1 and has no chapter on nominal style, extended participles, Funktionsverbgefüge or reports, so all 14 grammar explanations are original. No chapter could be matched.",
+    "Deutsch im Blick is not cited: it covers A1 to B1 and has no chapter on nominal style, extended participles, Funktionsverbgefüge or reports, so all 12 grammar explanations are original. No chapter could be matched.",
     "Frequency window 2301-2800: of 500 lemmas, 72 are taught by earlier sublevels, 13 by B2.1 (it took Stellung, Widerspruch, Begründung, Bewerber and others) and 324 here. 91 are left out as no learner words: names and places (Johannes, Wagner, Bernd, Leipziger, Stuttgarter, Nordrhein-Westfale), nationalities and religion (Franzose, Russe, Ungar, polnisch, hessisch, palästinensisch, evangelisch, Jude, Papst, Pfarrer, Gottesdienst), sport (Weltmeister, Stürmer, Kader, Heimspiel, Schiedsrichter, Nationalmannschaft, olympisch, Held), crime, court and war news (Tatort, Straftat, Verbrechen, Festnahme, Untersuchungshaft, Körperverletzung, Kläger, Explosion, Rakete), politics (Republik, Kanton, Bundesrepublik, Regierungschef, Aktivist, Aktionär, Fonds), single letters (N, I, o), forms that are not lemmas (schlechter, halben, mittel, Beste, Gute, Letzter, Großes, Inneres, Ja, Rot, sechste, participles such as angegeben, entstanden, gegründet, gewählt, eingeführt, versehen, berufen) and a few rare words (angehen, angreifen, begehen, kassieren, prallen, fällen, ehren, jubeln, einkommen, austragen, letzen, Krone, Reich, Mission, Landwirt, Feuerwehrmann, Sänger, Sängerin, Schauspielerin, Justiz, Verteidigung, Corona-Pandemie, Hektar, Unfallstelle, City, Front, Prinz, Jury). This is 324 of about 345 learner-relevant lemmas (94%) by this reading; a reviewer may count differently.",
     "The vocabulary has 428 items: 324 from the window, then theme words (interview, negotiating, figures, internal texts, university reports) and the prepositions and phrases the grammar points teach. 42 items have rank 15001 because the frequency list does not hold them (compounds such as Gehaltserhöhung and Balkendiagramm, and phrases). Words that B2.1 already teaches (Stellenbeschreibung, Gehaltsvorstellung, Fazit, Schulung, Protokoll-related nouns, andernfalls and about 55 more) were removed from this spec.",
-    "Text coverage of the spec is 98.9% with B2.1 present. Before B2.1 existed it was 97.6% when ranks 1801 to 2300 were counted as known, and every word below that rank that it lacked was a participle form or a compound. What stays uncovered now: adjective forms of participles in the participle drills (erledigenden, wartend, abzugebenden, einzuhaltenden: the forms table has no entries for them), the invented names (Lenz, Kramer, Nordlicht) and two compounds in the memo text (Monatsende, Zeitliste).",
+    "Text coverage of the spec is 98.9% with B2.1 present. Before B2.1 existed it was 97.6% when ranks 1801 to 2300 were counted as known, and every word below that rank that it lacked was a participle form or a compound. What stays uncovered now: adjective forms of participles in the participle drills (erledigenden, wartend, abzugebenden, einzuhaltenden: the forms table has no entries for them), the invented names (Nordlicht, Albrecht, Pohl) and two compounds in the memo text (Monatsende, Zeitliste).",
     "Gate anchors are written, not human-rated: all 24 samples (2 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of each sample's criterion bands is within half a band of its anchor band. The writing samples are 97 to 127 words and the speaking samples are transcripts of the learner's side only.",
     "The gate has one speaking task (the mock job interview) and one writing task (the short report on a chart given as numbers). Its point split (15 + 10 reading, 15 + 10 listening, 25 speaking, 25 writing), the timings, the 60 percent pass rule and the 50 percent per-skill minimum are Weg design choices, not official ones, and are not calibrated against real exam results. Rubric bands run 0 to 3 as in B1.2.",
     "The gate speaking task needs the Partner scenario ts-b22-vorstellungsgespraech-werkstudent. gold/talk_scenarios.jsonl also holds ts-b22-gehalt-werkstudent and ts-b22-debatte-autofreie-innenstadt; this spec does not use or replace them, so the two sets should be reconciled by a human.",
-    "Overlap with B2.1 to check: B2.1 already teaches sofern, vorausgesetzt, dass and andernfalls (g-connectors-condition), the es placeholder, sein + zu, and hätte + infinitive + modal. B2.2 builds on these in g-verhandeln-angebot-bedingung-kompromiss, g-sprache-von-protokoll-und-bericht, g-modalpartizip-zu-partizip-1 and g-doppelinfinitiv-nebensatz and lists them as prerequisites. B2.1 also has the theme besprechung-protokoll and the scenario ts-b21-lieferverzoegerung-kundin, which are close to this spec's bericht-protokoll theme and ts-b22-lieferant-lieferverzug-verhandeln; a reviewer should decide whether to merge or differentiate them.",
-    "Forms and choices to confirm: die Steuer (Wiktionary also has das), Schock plural Schock, Fazit plural Fazits, Flur as der, Event as das, adjectival nouns entered as Angestellter, Befragter and Freiwilliger with plurals in -e, anwenden with the Präteritum wendete an (wandte an also exists), rollen with haben/sein, beklagen, eignen, nähern and orientieren entered under the verb with reflexive true, verdoppeln and halbieren entered as reflexive verbs, letztere and dran as adjective and adverb entries.",
-    "Language to check first: the typical errors of the Funktionsverbgefüge point (einen Antrag machen, eine Entscheidung nehmen, in Betracht nehmen), the claim that 'wie wenn' is rare and old-fashioned after unreal comparisons, the rule that quantifiers such as viele and einige take strong adjective endings (viele neue, mit vielen neuen, wegen vieler neuer), and the statement that the modal participle takes only the Partizip I of transitive verbs.",
-    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points."
+    "Overlap with B2.1: B2.1 already teaches sofern, vorausgesetzt, dass and andernfalls (g-connectors-condition), the es placeholder, sein + zu, and hätte + infinitive + modal. B2.2 uses them in the negotiation and report tasks but has no grammar point for the skills of negotiating or writing minutes: those skills sit in the can-dos, the report rubric and the vocabulary phrases (unter der Bedingung, dass; im Gegenzug; sich einigen auf). The scenario about a late delivery (print shop) and the one about working hours (lab course, dispatch team) were changed so that they do not repeat B2.1's furniture delivery and its formal-letter gate task, and the interview figures differ from the gold scenario ts-b22-gehalt-werkstudent; a reviewer should still compare the three sets.",
+    "Forms and choices to confirm: die Steuer (Wiktionary also has das), Schock plural Schocks, Fazit plural Fazits, Flur as der, Event as das, adjectival nouns entered as Angestellter, Befragter and Freiwilliger with plurals in -e, anwenden with the Präteritum wendete an (wandte an also exists), rollen with haben/sein, beklagen, eignen, nähern and orientieren entered under the verb with reflexive true, verdoppeln and halbieren entered as reflexive verbs, letztere and dran as adjective and adverb entries.",
+    "Language to check first: the typical errors of the Funktionsverbgefüge point (einen Antrag machen, eine Entscheidung nehmen, in Betracht nehmen), the claim that 'wie wenn' is informal or regional after unreal comparisons (a teacher should confirm how the register is described), the rule that quantifiers such as viele and einige take strong adjective endings (viele neue, mit vielen neuen, wegen vieler neuer), and the statement that the modal participle takes only the Partizip I of transitive verbs.",
+    "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel's grammar points.",
+    "Gate listening: the task ids hoeren-verhandlung-laptops and hoeren-besprechung-beschluesse were kept although the texts now deal with a catering order and a student-team meeting; rename them only if no other file refers to them. C1.2 still names the removed point g-sprache-von-protokoll-und-bericht as a prerequisite and needs the reference replaced."
   ],
   "id": "B2.2",
   "grammar": [
@@ -515,14 +516,15 @@
           }
         },
         {
-          "wrong": "Wegen von dem Streik komme ich später.",
+          "wrong": "Wegen dem Streik komme ich später.",
           "correct": "Wegen des Streiks komme ich später.",
           "l1": [
+            "en",
             "es"
           ],
           "why": {
-            "en": "Spanish 'a causa de' contains 'de', which learners translate as von. Wegen already governs the genitive and needs no von.",
-            "es": "El español 'a causa de' contiene 'de', que se traduce como von. Wegen ya rige el genitivo y no necesita von."
+            "en": "In speech the dative after wegen is very common, and Spanish and English give no hint about the case. In a written text, a report or a formal letter the genitive is expected: wegen des Streiks.",
+            "es": "En el habla, el dativo después de wegen es muy frecuente, y ni el español ni el inglés dan una pista sobre el caso. En un texto escrito, un informe o una carta formal se espera el genitivo: wegen des Streiks."
           }
         }
       ],
@@ -802,9 +804,9 @@
             "en": "Turn the phrase back into a wenn-clause.",
             "es": "Convierte el grupo de nuevo en una oración con wenn."
           },
-          "prompt": "Beim Betreten des Labors tragen alle Handschuhe.",
+          "prompt": "Bei Ankunft der Lieferung prüfen wir die Menge.",
           "answers": [
-            "Wenn man das Labor betritt, tragen alle Handschuhe."
+            "Wenn die Lieferung ankommt, prüfen wir die Menge."
           ]
         },
         {
@@ -831,8 +833,8 @@
         "es": "Atributos con genitivo y con preposición detrás del sustantivo"
       },
       "explanation": {
-        "en": "A noun can be expanded after it. The genitive names the owner or the whole: 'die Leiterin der Abteilung', 'der Antrag der Studentin'. A prepositional attribute adds a topic or a relation: 'das Interesse an der Stelle', 'der Antrag auf Verlängerung', 'die Angst vor der Prüfung', 'die Hoffnung auf eine Zusage', 'die Zusammenarbeit mit der Firma'. The preposition usually belongs to the noun, as it belongs to the related verb or adjective, so learn them together: 'Interesse an', 'Antrag auf', 'Angst vor', 'Hoffnung auf'. In a chain the order is fixed: noun, genitive, then prepositional phrase, then a further genitive: 'der Antrag der Studentin auf Verlängerung der Frist'. A genitive after a genitive gets heavy, so after two links use von + dative or break the sentence: 'die Prüfung der Anträge von Studierenden'. Proper names: 'Annas Bericht' stands before the noun without an article, but 'der Bericht von Frau Kaya' is more usual after it.",
-        "es": "Un sustantivo puede ampliarse por detrás. El genitivo nombra al poseedor o al todo: 'die Leiterin der Abteilung', 'der Antrag der Studentin'. Un atributo con preposición añade un tema o una relación: 'das Interesse an der Stelle', 'der Antrag auf Verlängerung', 'die Angst vor der Prüfung', 'die Hoffnung auf eine Zusage', 'die Zusammenarbeit mit der Firma'. La preposición suele pertenecer al sustantivo, igual que al verbo o al adjetivo emparentado, así que aprende las parejas juntas: 'Interesse an', 'Antrag auf', 'Angst vor', 'Hoffnung auf'. En una cadena el orden es fijo: sustantivo, genitivo, grupo con preposición y, después, otro genitivo: 'der Antrag der Studentin auf Verlängerung der Frist'. Un genitivo detrás de otro pesa mucho; después de dos eslabones usa von + dativo o divide la frase: 'die Prüfung der Anträge von Studierenden'. Nombres propios: 'Annas Bericht' va delante del sustantivo sin artículo, pero 'der Bericht von Frau Kaya' es más habitual detrás."
+        "en": "A noun can be expanded after it. The genitive names the owner or the whole: 'die Leiterin der Abteilung', 'der Antrag der Studentin'. A prepositional attribute adds a topic or a relation: 'das Interesse an der Stelle', 'der Antrag auf Verlängerung', 'die Angst vor der Prüfung', 'die Hoffnung auf eine Zusage', 'die Zusammenarbeit mit der Firma'. The preposition usually belongs to the noun, as it belongs to the related verb or adjective, so learn them together: 'Interesse an', 'Antrag auf', 'Angst vor', 'Hoffnung auf'. In a chain the order is fixed: noun, genitive, then prepositional phrase, then a further genitive: 'der Antrag der Studentin auf Verlängerung der Frist'. A genitive after a genitive gets heavy, so after two links use von + dative or break the sentence: 'die Prüfung der Anträge von Studierenden'. Proper names: 'Annas Bericht' stands before the noun without an article, but 'der Bericht von Frau Berger' is more usual after it.",
+        "es": "Un sustantivo puede ampliarse por detrás. El genitivo nombra al poseedor o al todo: 'die Leiterin der Abteilung', 'der Antrag der Studentin'. Un atributo con preposición añade un tema o una relación: 'das Interesse an der Stelle', 'der Antrag auf Verlängerung', 'die Angst vor der Prüfung', 'die Hoffnung auf eine Zusage', 'die Zusammenarbeit mit der Firma'. La preposición suele pertenecer al sustantivo, igual que al verbo o al adjetivo emparentado, así que aprende las parejas juntas: 'Interesse an', 'Antrag auf', 'Angst vor', 'Hoffnung auf'. En una cadena el orden es fijo: sustantivo, genitivo, grupo con preposición y, después, otro genitivo: 'der Antrag der Studentin auf Verlängerung der Frist'. Un genitivo detrás de otro pesa mucho; después de dos eslabones usa von + dativo o divide la frase: 'die Prüfung der Anträge von Studierenden'. Nombres propios: 'Annas Bericht' va delante del sustantivo sin artículo, pero 'der Bericht von Frau Berger' es más habitual detrás."
       },
       "examples": [
         {
@@ -1015,8 +1017,8 @@
         "es": "Combinaciones de verbo y sustantivo (Funktionsverbgefüge)"
       },
       "explanation": {
-        "en": "A Funktionsverbgefüge is a fixed pair of a noun, often with a preposition, and a verb that has little meaning of its own. Together they say what one verb could say: 'eine Entscheidung treffen' is entscheiden. They are frequent in offices, contracts and reports. The noun carries the meaning; the verb adds only a small shade: treffen, stellen, nehmen, geben, kommen, bringen, stehen, finden. Learn them whole: 'einen Antrag stellen', 'in Anspruch nehmen', 'zur Verfügung stellen', 'in Betracht ziehen', 'Kritik üben', 'Stellung nehmen', 'in Kraft treten'. Several have a passive meaning with kommen or finden: 'zur Anwendung kommen' means 'is applied', 'Berücksichtigung finden' means 'is taken into account'. The verb cannot be exchanged freely: you do not 'machen' an Antrag or a Entscheidung. Because the noun is present, you can add an adjective: 'eine schnelle Entscheidung treffen'. Read them without effort, and use the ones you need in formal writing; in speech the single verb is often more natural.",
-        "es": "Un Funktionsverbgefüge es una pareja fija de un sustantivo, a menudo con preposición, y un verbo con poco significado propio. Juntos dicen lo que podría decir un solo verbo: 'eine Entscheidung treffen' equivale a entscheiden. Son frecuentes en oficinas, contratos e informes. El sustantivo aporta el significado; el verbo solo añade un matiz: treffen, stellen, nehmen, geben, kommen, bringen, stehen, finden. Apréndelos enteros: 'einen Antrag stellen', 'in Anspruch nehmen', 'zur Verfügung stellen', 'in Betracht ziehen', 'Kritik üben', 'Stellung nehmen', 'in Kraft treten'. Varios tienen sentido pasivo con kommen o finden: 'zur Anwendung kommen' significa 'se aplica', 'Berücksichtigung finden' significa 'se tiene en cuenta'. El verbo no se puede cambiar libremente: no se 'macht' un Antrag ni una Entscheidung. Como el sustantivo está presente, se puede añadir un adjetivo: 'eine schnelle Entscheidung treffen'. Aprende a leerlas sin esfuerzo y usa las que necesites al escribir en registro formal; al hablar, el verbo simple suele sonar más natural."
+        "en": "A Funktionsverbgefüge is a fixed pair of a noun, often with a preposition, and a verb that has little meaning of its own. Together they say what one verb could say: 'eine Entscheidung treffen' is entscheiden. They are frequent in offices, contracts and reports. The noun carries the meaning; the verb adds only a small shade: treffen, stellen, nehmen, geben, kommen, bringen, stehen, finden. Learn them whole: 'einen Antrag stellen', 'in Anspruch nehmen', 'zur Verfügung stellen', 'in Betracht ziehen', 'Kritik üben', 'Stellung nehmen', 'in Kraft treten'. Several have a passive meaning with kommen or finden: 'zur Anwendung kommen' means 'is applied', 'Berücksichtigung finden' means 'is taken into account'. The verb cannot be exchanged freely: you do not 'machen' einen Antrag or eine Entscheidung. Because the noun is present, you can add an adjective: 'eine schnelle Entscheidung treffen'. Read them without effort, and use the ones you need in formal writing; in speech the single verb is often more natural.",
+        "es": "Un Funktionsverbgefüge es una pareja fija de un sustantivo, a menudo con preposición, y un verbo con poco significado propio. Juntos dicen lo que podría decir un solo verbo: 'eine Entscheidung treffen' equivale a entscheiden. Son frecuentes en oficinas, contratos e informes. El sustantivo aporta el significado; el verbo solo añade un matiz: treffen, stellen, nehmen, geben, kommen, bringen, stehen, finden. Apréndelos enteros: 'einen Antrag stellen', 'in Anspruch nehmen', 'zur Verfügung stellen', 'in Betracht ziehen', 'Kritik üben', 'Stellung nehmen', 'in Kraft treten'. Varios tienen sentido pasivo con kommen o finden: 'zur Anwendung kommen' significa 'se aplica', 'Berücksichtigung finden' significa 'se tiene en cuenta'. El verbo no se puede cambiar libremente: no se 'macht' einen Antrag ni eine Entscheidung. Como el sustantivo está presente, se puede añadir un adjetivo: 'eine schnelle Entscheidung treffen'. Aprende a leerlas sin esfuerzo y usa las que necesites al escribir en registro formal; al hablar, el verbo simple suele sonar más natural."
       },
       "examples": [
         {
@@ -1823,8 +1825,8 @@
             "es"
           ],
           "why": {
-            "en": "Spanish 'como si' and English 'like if' lead to wie wenn. German uses als for unreal comparisons: als ob, als wenn or als alone. Wie wenn is rare and sounds old-fashioned.",
-            "es": "El 'como si' español y el 'like if' inglés llevan a wie wenn. El alemán usa als para las comparaciones irreales: als ob, als wenn o als solo. Wie wenn es raro y suena anticuado."
+            "en": "Spanish 'como si' and English 'like if' lead to wie wenn. German uses als for unreal comparisons: als ob, als wenn or als alone. Wie wenn is informal or regional, so avoid it in writing.",
+            "es": "El 'como si' español y el 'like if' inglés llevan a wie wenn. El alemán usa als para las comparaciones irreales: als ob, als wenn o als solo. Wie wenn es coloquial o regional, así que evítalo por escrito."
           }
         }
       ],
@@ -1944,8 +1946,8 @@
         "es": "Terminaciones del adjetivo después de viele, einige, mehrere, alle"
       },
       "explanation": {
-        "en": "After words that say how many, the adjective ending depends on the quantifier. After viele, einige, mehrere and wenige the adjective takes the same ending as the quantifier: viele neue Kollegen (nominative and accusative plural: -e), mit vielen neuen Kollegen (dative plural: -en), wegen vieler neuer Probleme (genitive plural: -er). These words do not behave like der, die, das, so the adjective is not in its weak form. After alle and beide the adjective is weak: alle neuen Kollegen, mit beiden neuen Kollegen. After ein paar, which never changes, the adjective shows the plural ending: ein paar neue Termine, mit ein paar neuen Kollegen. After etwas, nichts, viel, wenig and alles an adjective is written with a capital letter and ends in -es: etwas Neues, nichts Besonderes, viel Interessantes, alles Gute. The quantifier itself is declined only when it stands before a plural noun: viele, vielen, vieler. Before an uncountable singular, viel and wenig have no ending: viel Arbeit.",
-        "es": "Después de las palabras que indican cantidad, la terminación del adjetivo depende del cuantificador. Después de viele, einige, mehrere y wenige, el adjetivo lleva la misma terminación que el cuantificador: viele neue Kollegen (nominativo y acusativo plural: -e), mit vielen neuen Kollegen (dativo plural: -en), wegen vieler neuer Probleme (genitivo plural: -er). Estas palabras no se comportan como der, die, das, así que el adjetivo no va en forma débil. Después de alle y beide, el adjetivo es débil: alle neuen Kollegen, mit beiden neuen Kollegen. Después de ein paar, que nunca cambia, el adjetivo muestra la terminación del plural: ein paar neue Termine, mit ein paar neuen Kollegen. Después de etwas, nichts, viel, wenig y alles, un adjetivo se escribe con mayúscula y termina en -es: etwas Neues, nichts Besonderes, viel Interessantes, alles Gute. El propio cuantificador solo se declina delante de un sustantivo plural: viele, vielen, vieler. Delante de un singular incontable, viel y wenig no llevan terminación: viel Arbeit."
+        "en": "After words that say how many, the adjective ending depends on the quantifier. After viele, einige, mehrere and wenige the adjective takes the same ending as the quantifier: viele neue Kollegen (nominative and accusative plural: -e), mit vielen neuen Kollegen (dative plural: -en), wegen vieler neuer Probleme (genitive plural: -er). These words do not behave like der, die, das, so the adjective is not in its weak form. After alle and beide the adjective is weak: alle neuen Kollegen, mit beiden neuen Kollegen. After ein paar, which never changes, the adjective shows the plural ending: ein paar neue Termine, mit ein paar neuen Kollegen. After etwas, nichts, viel and wenig an adjective is written with a capital letter and ends in -es: etwas Neues, nichts Besonderes, viel Interessantes. After alles it ends in -e: alles Gute, alles Neue. The quantifier itself is declined only when it stands before a plural noun: viele, vielen, vieler. Before an uncountable singular, viel and wenig have no ending: viel Arbeit.",
+        "es": "Después de las palabras que indican cantidad, la terminación del adjetivo depende del cuantificador. Después de viele, einige, mehrere y wenige, el adjetivo lleva la misma terminación que el cuantificador: viele neue Kollegen (nominativo y acusativo plural: -e), mit vielen neuen Kollegen (dativo plural: -en), wegen vieler neuer Probleme (genitivo plural: -er). Estas palabras no se comportan como der, die, das, así que el adjetivo no va en forma débil. Después de alle y beide, el adjetivo es débil: alle neuen Kollegen, mit beiden neuen Kollegen. Después de ein paar, que nunca cambia, el adjetivo muestra la terminación del plural: ein paar neue Termine, mit ein paar neuen Kollegen. Después de etwas, nichts, viel y wenig, un adjetivo se escribe con mayúscula y termina en -es: etwas Neues, nichts Besonderes, viel Interessantes. Después de alles termina en -e: alles Gute, alles Neue. El propio cuantificador solo se declina delante de un sustantivo plural: viele, vielen, vieler. Delante de un singular incontable, viel y wenig no llevan terminación: viel Arbeit."
       },
       "examples": [
         {
@@ -2176,15 +2178,15 @@
           }
         },
         {
-          "wrong": "Ich habe den Bericht schreiben gemusst.",
-          "correct": "Ich habe den Bericht schreiben müssen.",
+          "wrong": "Ich bin müde, weil ich den Bericht noch schreiben müssen habe.",
+          "correct": "Ich bin müde, weil ich den Bericht noch habe schreiben müssen.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "English 'I have had to write' and Spanish 'he tenido que escribir' contain a participle, so learners add gemusst. With another infinitive the modal takes the infinitive form instead of the participle.",
-            "es": "El 'I have had to write' inglés y el 'he tenido que escribir' español contienen un participio, y por eso se añade gemusst. Con otro infinitivo el modal toma la forma del infinitivo en lugar del participio."
+            "en": "In a subordinate clause learners put every verb at the end, in the order of the English 'had to write'. With a double infinitive in the Perfekt, the conjugated habe stands before the two infinitives: habe schreiben müssen.",
+            "es": "En una subordinada se suele poner todos los verbos al final, en el orden del español 'tuve que escribir'. Con doble infinitivo en Perfekt, el verbo conjugado habe va delante de los dos infinitivos: habe schreiben müssen."
           }
         },
         {
@@ -2308,13 +2310,13 @@
     {
       "id": "g-zahlen-und-grafiken-beschreiben",
       "title": {
-        "de": "Zahlen und Grafiken beschreiben",
-        "en": "Describing figures and charts",
-        "es": "Describir cifras y gráficos"
+        "de": "Zahlen und Grafiken: Präpositionen und Vergleiche",
+        "en": "Figures and charts: prepositions and comparisons",
+        "es": "Cifras y gráficos: preposiciones y comparaciones"
       },
       "explanation": {
-        "en": "To describe a chart you need verbs and nouns for movement and the right prepositions for the numbers. Verbs: steigen, sinken, zunehmen, abnehmen, zurückgehen, sich verdoppeln. Nouns: der Anstieg, der Rückgang, die Zunahme, die Abnahme. Prepositions: um + accusative gives the size of the change ('um zehn Prozent steigen'), auf + accusative gives the new value ('auf 55 Prozent steigen'), von … auf names both ('von 40 auf 55 Prozent'), bei + dative says where a value stands ('liegt bei 12 Prozent'), zwischen … und … gives a range. Compare with im Vergleich zu + dative or gegenüber + dative: 'im Vergleich zum Vorjahr'. Approximate with etwa, rund, knapp, fast, über. Fractions: die Hälfte, ein Drittel, ein Viertel. Comparison: doppelt so viele wie, dreimal so hoch wie. Prozent has no ending and the verb stays singular after Prozent: 'Zehn Prozent sind zu wenig.' Describe present data in the Präsens, past data in the Präteritum or Perfekt. All figures in this course are invented.",
-        "es": "Para describir un gráfico necesitas verbos y sustantivos para el movimiento y las preposiciones correctas para los números. Verbos: steigen, sinken, zunehmen, abnehmen, zurückgehen, sich verdoppeln. Sustantivos: der Anstieg, der Rückgang, die Zunahme, die Abnahme. Preposiciones: um + acusativo da la magnitud del cambio ('um zehn Prozent steigen'), auf + acusativo da el nuevo valor ('auf 55 Prozent steigen'), von … auf nombra ambos ('von 40 auf 55 Prozent'), bei + dativo indica dónde está un valor ('liegt bei 12 Prozent'), zwischen … und … da un intervalo. Para comparar: im Vergleich zu + dativo o gegenüber + dativo: 'im Vergleich zum Vorjahr'. Para aproximar: etwa, rund, knapp, fast, über. Fracciones: die Hälfte, ein Drittel, ein Viertel. Comparación: doppelt so viele wie, dreimal so hoch wie. Prozent no lleva terminación y el verbo va en singular detrás: 'Zehn Prozent sind zu wenig.' Los datos actuales se describen en Präsens y los pasados en Präteritum o Perfekt. Todas las cifras de este curso son inventadas."
+        "en": "This point is about the grammar of figures. The prepositions carry the information. Um + accusative gives the size of a change ('um zehn Prozent steigen'), auf + accusative gives the new value ('auf 55 Prozent steigen'), von … auf names both ('von 40 auf 55 Prozent'), bei + dative says where a value stands ('liegt bei 12 Prozent'), and zwischen … und … gives a range. The same prepositions follow the nouns of change: 'ein Anstieg um fünf Prozentpunkte'. To compare figures use im Vergleich zu + dative or gegenüber + dative ('im Vergleich zum Vorjahr') and the pattern so … wie for multiples: 'doppelt so viele Bewerbungen wie im Vorjahr', 'dreimal so hoch wie'. Prozent has no plural ending, and the verb after a number with Prozent is plural: 'Zehn Prozent sind zu wenig.' Describe present data in the Präsens, past data in the Präteritum or Perfekt. The verbs and nouns of change (steigen, sinken, der Anstieg, der Rückgang) are vocabulary: look them up in the word list. All figures in this course are invented.",
+        "es": "Este punto trata la gramática de las cifras. Las preposiciones llevan la información. Um + acusativo da la magnitud de un cambio ('um zehn Prozent steigen'), auf + acusativo da el nuevo valor ('auf 55 Prozent steigen'), von … auf nombra ambos ('von 40 auf 55 Prozent'), bei + dativo indica dónde está un valor ('liegt bei 12 Prozent') y zwischen … und … da un intervalo. Las mismas preposiciones siguen a los sustantivos del cambio: 'ein Anstieg um fünf Prozentpunkte'. Para comparar cifras usa im Vergleich zu + dativo o gegenüber + dativo ('im Vergleich zum Vorjahr') y el patrón so … wie para los múltiplos: 'doppelt so viele Bewerbungen wie im Vorjahr', 'dreimal so hoch wie'. Prozent no tiene terminación de plural, y el verbo detrás de un número con Prozent va en plural: 'Zehn Prozent sind zu wenig.' Los datos actuales se describen en Präsens y los pasados en Präteritum o Perfekt. Los verbos y sustantivos del cambio (steigen, sinken, der Anstieg, der Rückgang) son vocabulario: búscalos en la lista de palabras. Todas las cifras de este curso son inventadas."
       },
       "examples": [
         {
@@ -2489,383 +2491,6 @@
       ],
       "sublevel": "B2.2",
       "order": 12
-    },
-    {
-      "id": "g-sprache-von-protokoll-und-bericht",
-      "title": {
-        "de": "Die Sprache von Protokoll und Bericht",
-        "en": "The language of minutes and reports",
-        "es": "El lenguaje del acta y del informe"
-      },
-      "explanation": {
-        "en": "Minutes and reports are written in a neutral, impersonal style. Three tools do most of the work. First, the es-passive and the passive without a subject, built on the placeholder es you know from B2.1: 'Es wurde beschlossen, die Frist zu verschieben.' 'Es nahmen fünf Personen teil.' The verb agrees with the noun that follows es: 'Es wurden drei Punkte besprochen.' Second, a consistent tense: minutes usually use the Präteritum for what happened and the Präsens for results and tasks, and avoid the Perfekt chains of speech. Third, short list entries without a full sentence: 'Verantwortlich: Frau Sommer. Frist: bis Freitag.' A report has a fixed order: Ziel, Vorgehen, Ergebnisse, Fazit, Empfehlung. Typical verbs: berichten, feststellen, sich zeigen, sich ergeben, empfehlen. Typical frames: 'Im Test zeigte sich, dass …', 'Es wurde festgestellt, dass …', 'Empfehlung: …'. Avoid I and we, personal opinion and strong adjectives; give figures and facts. Besprechen takes an accusative object, so there is no über: 'Die Kosten wurden besprochen.'",
-        "es": "Las actas y los informes se escriben en un estilo neutro e impersonal. Tres herramientas hacen casi todo el trabajo. Primero, la pasiva con es y la pasiva sin sujeto, basadas en el es de relleno que conoces de B2.1: 'Es wurde beschlossen, die Frist zu verschieben.' 'Es nahmen fünf Personen teil.' El verbo concuerda con el sustantivo que sigue a es: 'Es wurden drei Punkte besprochen.' Segundo, un tiempo verbal coherente: el acta suele usar el Präteritum para lo ocurrido y el Präsens para los resultados y las tareas, y evita las cadenas de Perfekt del habla. Tercero, entradas de lista breves sin frase completa: 'Verantwortlich: Frau Sommer. Frist: bis Freitag.' Un informe tiene un orden fijo: Ziel, Vorgehen, Ergebnisse, Fazit, Empfehlung. Verbos típicos: berichten, feststellen, sich zeigen, sich ergeben, empfehlen. Estructuras típicas: 'Im Test zeigte sich, dass …', 'Es wurde festgestellt, dass …', 'Empfehlung: …'. Evita yo y nosotros, la opinión personal y los adjetivos fuertes; da cifras y hechos. Besprechen lleva complemento en acusativo, así que no hay über: 'Die Kosten wurden besprochen.'"
-      },
-      "examples": [
-        {
-          "de": "Es wurde beschlossen, dass die Frist für die Abgabe um eine Woche verschoben wird.",
-          "en": "It was decided that the deadline will be postponed by a week.",
-          "es": "Se decidió aplazar el plazo de entrega una semana."
-        },
-        {
-          "de": "Es nahmen fünf Personen an der Besprechung teil.",
-          "en": "Five people took part in the meeting.",
-          "es": "En la reunión participaron cinco personas."
-        },
-        {
-          "de": "Herr Kaya berichtete über den Stand des Projekts.",
-          "en": "Mr Kaya reported on the state of the project.",
-          "es": "El señor Kaya informó sobre el estado del proyecto."
-        },
-        {
-          "de": "Im Test zeigte sich, dass die Software bei großen Dateien langsam arbeitet.",
-          "en": "The test showed that the software works slowly with large files.",
-          "es": "En la prueba se vio que el programa trabaja despacio con archivos grandes."
-        },
-        {
-          "de": "Verantwortlich: Frau Sommer. Frist: bis Freitag.",
-          "en": "Responsible: Ms Sommer. Deadline: by Friday.",
-          "es": "Responsable: la señora Sommer. Plazo: hasta el viernes."
-        },
-        {
-          "de": "Empfehlung: Das Team sollte die Schulung im Herbst wiederholen.",
-          "en": "Recommendation: the team should repeat the training in the autumn.",
-          "es": "Recomendación: el equipo debería repetir la formación en otoño."
-        }
-      ],
-      "typicalErrors": [
-        {
-          "wrong": "Es wurde beschlossen, dass die Frist wird verschoben.",
-          "correct": "Es wurde beschlossen, dass die Frist verschoben wird.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "The dass-clause is a subordinate clause, so the conjugated verb goes last. English 'that the deadline will be postponed' keeps the auxiliary early.",
-            "es": "La oración con dass es subordinada, así que el verbo conjugado va al final. El 'que el plazo se aplazará' español y el inglés ponen el auxiliar pronto."
-          }
-        },
-        {
-          "wrong": "Es wurde drei Punkte besprochen.",
-          "correct": "Es wurden drei Punkte besprochen.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "Es is only a placeholder here. The verb agrees with the real subject, drei Punkte, which is plural. Spanish 'se discutió' and English 'it was' suggest a singular verb.",
-            "es": "Es es solo un marcador de posición. El verbo concuerda con el sujeto real, drei Punkte, que es plural. El 'se discutió' español y el 'it was' inglés sugieren un verbo en singular."
-          }
-        },
-        {
-          "wrong": "Es wurde über die Kosten besprochen.",
-          "correct": "Die Kosten wurden besprochen.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "English 'discuss about' and Spanish 'hablar sobre' invite über. Besprechen takes a direct object: die Kosten besprechen. With über, use sprechen: 'Es wurde über die Kosten gesprochen.'",
-            "es": "El 'discuss about' inglés y el 'hablar sobre' español invitan a usar über. Besprechen lleva complemento directo: die Kosten besprechen. Con über se usa sprechen: 'Es wurde über die Kosten gesprochen.'"
-          }
-        }
-      ],
-      "prerequisites": [
-        "g-passive-past",
-        "g-subordinate-dass",
-        "g-praeteritum-regular",
-        "g-zahlen-und-grafiken-beschreiben"
-      ],
-      "errorTags": [
-        "verb-form",
-        "word-order",
-        "lexical"
-      ],
-      "drills": [
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Write it as minutes: es-passive in the Präteritum.",
-            "es": "Escríbelo como acta: pasiva con es en Präteritum."
-          },
-          "prompt": "Das Team beschließt, die Frist zu verschieben.",
-          "answers": [
-            "Es wurde beschlossen, die Frist zu verschieben."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Write it as minutes: start with Es and use the Präteritum.",
-            "es": "Escríbelo como acta: empieza con Es y usa el Präteritum."
-          },
-          "prompt": "Fünf Personen nehmen an der Besprechung teil.",
-          "answers": [
-            "Es nahmen fünf Personen an der Besprechung teil."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Write it as minutes: es-passive in the Präteritum.",
-            "es": "Escríbelo como acta: pasiva con es en Präteritum."
-          },
-          "prompt": "Wir haben drei Punkte besprochen.",
-          "answers": [
-            "Es wurden drei Punkte besprochen.",
-            "Drei Punkte wurden besprochen."
-          ]
-        },
-        {
-          "type": "complete",
-          "instruction": {
-            "en": "Fill in the participle of feststellen.",
-            "es": "Completa con el participio de feststellen."
-          },
-          "prompt": "Es wurde ___, dass die Software langsam ist.",
-          "answers": [
-            "festgestellt"
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Write it as a list entry without a verb.",
-            "es": "Escríbelo como una entrada de lista sin verbo."
-          },
-          "prompt": "Frau Sommer ist dafür zuständig und macht es bis Freitag.",
-          "answers": [
-            "Zuständig: Frau Sommer. Frist: bis Freitag.",
-            "Verantwortlich: Frau Sommer. Frist: bis Freitag."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Use the Präteritum, as in minutes.",
-            "es": "Usa el Präteritum, como en un acta."
-          },
-          "prompt": "Herr Kaya hat über den Stand berichtet.",
-          "answers": [
-            "Herr Kaya berichtete über den Stand."
-          ]
-        },
-        {
-          "type": "complete",
-          "instruction": {
-            "en": "Fill in the Präteritum of sich zeigen.",
-            "es": "Completa con el Präteritum de sich zeigen."
-          },
-          "prompt": "Im Test ___ sich, dass die Software bei großen Dateien langsam arbeitet.",
-          "answers": [
-            "zeigte"
-          ]
-        },
-        {
-          "type": "build",
-          "instruction": {
-            "en": "Put the words in order.",
-            "es": "Ordena las palabras."
-          },
-          "prompt": "Es / dass / wurde / die Frist / beschlossen, / verschoben wird",
-          "answers": [
-            "Es wurde beschlossen, dass die Frist verschoben wird."
-          ]
-        }
-      ],
-      "sublevel": "B2.2",
-      "order": 13
-    },
-    {
-      "id": "g-verhandeln-angebot-bedingung-kompromiss",
-      "title": {
-        "de": "Verhandeln: Angebot, Bedingung, Kompromiss",
-        "en": "Negotiating: offer, condition, compromise",
-        "es": "Negociar: oferta, condición, compromiso"
-      },
-      "explanation": {
-        "en": "In a negotiation you state what you want, set conditions and meet the other side half way. You already have the Konjunktiv II for polite requests and offers: 'Ich hätte gern …', 'Wir könnten Ihnen … anbieten.' Now add conditions. From B2.1 you know sofern, vorausgesetzt, dass and andernfalls; here you use them to bargain. New is 'unter der Bedingung, dass', which also sends the verb to the end: 'Ich arbeite zwölf Stunden, vorausgesetzt, dass ich die Zeiten selbst wählen kann.' Adverbs that link two main clauses take position one, so the verb comes next: andernfalls (otherwise), and new ones, im Gegenzug (in return), dafür (in exchange) and allerdings (however): 'Sie liefern bis Freitag, andernfalls suchen wir einen anderen Lieferanten.' Useful verbs: sich einigen auf + accusative, entgegenkommen + dative, verzichten auf + accusative, anbieten, ablehnen. Soften a refusal: 'Das ist leider nicht möglich.' Agree in part: 'Grundsätzlich ja, allerdings …'. At the end confirm: 'Dann halten wir fest: …'. Stay polite and firm; tone matters as much as grammar.",
-        "es": "En una negociación dices lo que quieres, pones condiciones y cedes a medias. Ya tienes el Konjunktiv II para peticiones y ofertas corteses: 'Ich hätte gern …', 'Wir könnten Ihnen … anbieten.' Ahora añade condiciones. Desde B2.1 conoces sofern, vorausgesetzt, dass y andernfalls; aquí los usas para regatear. Nuevo es 'unter der Bedingung, dass', que también manda el verbo al final: 'Ich arbeite zwölf Stunden, vorausgesetzt, dass ich die Zeiten selbst wählen kann.' Los adverbios que unen dos oraciones principales ocupan la primera posición, así que el verbo viene justo después: andernfalls (de lo contrario) y otros nuevos, im Gegenzug (a cambio), dafür (a cambio de eso) y allerdings (sin embargo): 'Sie liefern bis Freitag, andernfalls suchen wir einen anderen Lieferanten.' Verbos útiles: sich einigen auf + acusativo, entgegenkommen + dativo, verzichten auf + acusativo, anbieten, ablehnen. Suaviza una negativa: 'Das ist leider nicht möglich.' Acepta en parte: 'Grundsätzlich ja, allerdings …'. Al final confirma: 'Dann halten wir fest: …'. Sé cortés y firme; el tono importa tanto como la gramática."
-      },
-      "examples": [
-        {
-          "de": "Ich arbeite zwölf Stunden, vorausgesetzt, dass ich die Zeiten selbst wählen kann.",
-          "en": "I will work twelve hours, provided that I can choose the times myself.",
-          "es": "Trabajo doce horas, siempre que pueda elegir yo mismo los horarios."
-        },
-        {
-          "de": "Wir senken den Preis unter der Bedingung, dass Sie mehr bestellen.",
-          "en": "We will lower the price on condition that you order more.",
-          "es": "Bajamos el precio con la condición de que usted pida más."
-        },
-        {
-          "de": "Sie liefern bis Freitag, andernfalls suchen wir einen anderen Lieferanten.",
-          "en": "You deliver by Friday, otherwise we look for another supplier.",
-          "es": "Ustedes entregan antes del viernes; de lo contrario, buscamos otro proveedor."
-        },
-        {
-          "de": "Ich verzichte auf die Gehaltserhöhung; im Gegenzug wünsche ich mir flexiblere Arbeitszeiten.",
-          "en": "I will do without the pay rise; in return I would like more flexible working hours.",
-          "es": "Renuncio al aumento de sueldo; a cambio, me gustaría un horario más flexible."
-        },
-        {
-          "de": "Das ist grundsätzlich möglich, allerdings brauchen wir dafür mehr Zeit.",
-          "en": "That is possible in principle, but we need more time for it.",
-          "es": "En principio es posible, pero para ello necesitamos más tiempo."
-        },
-        {
-          "de": "Dann halten wir fest: Die Lieferung kommt am Dienstag, und wir zahlen nach der Prüfung.",
-          "en": "Then let us record this: the delivery arrives on Tuesday and we pay after the check.",
-          "es": "Entonces dejemos constancia: la entrega llega el martes y pagamos después de la revisión."
-        }
-      ],
-      "typicalErrors": [
-        {
-          "wrong": "Sie liefern bis Freitag, andernfalls wir suchen einen anderen Lieferanten.",
-          "correct": "Sie liefern bis Freitag, andernfalls suchen wir einen anderen Lieferanten.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "Andernfalls is an adverb in position one, so the verb must come second and the subject after it. English 'otherwise we look' and Spanish 'de lo contrario buscamos' keep the subject first.",
-            "es": "Andernfalls es un adverbio en primera posición, así que el verbo debe ir en segundo lugar y el sujeto después. El 'otherwise we look' inglés y el 'de lo contrario buscamos' español mantienen el sujeto primero."
-          }
-        },
-        {
-          "wrong": "Wir einigen uns mit einen Kompromiss.",
-          "correct": "Wir einigen uns auf einen Kompromiss.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "Sich einigen takes auf + accusative. Spanish 'ponerse de acuerdo en/con' and English 'agree on/with' lead to mit.",
-            "es": "Sich einigen lleva auf + acusativo. El 'ponerse de acuerdo en/con' español y el 'agree on/with' inglés llevan a mit."
-          }
-        },
-        {
-          "wrong": "Ich komme, vorausgesetzt, dass ich bekomme die Zeiten.",
-          "correct": "Ich komme, vorausgesetzt, dass ich die Zeiten bekomme.",
-          "l1": [
-            "en",
-            "es"
-          ],
-          "why": {
-            "en": "After 'vorausgesetzt, dass' the clause is subordinate and the verb goes to the end. English 'provided that I get the times' puts the verb in the middle.",
-            "es": "Después de 'vorausgesetzt, dass' la oración es subordinada y el verbo va al final. El 'siempre que reciba los horarios' español y el inglés lo ponen en medio."
-          }
-        }
-      ],
-      "prerequisites": [
-        "g-polite-konjunktiv",
-        "g-konjunktiv2-wishes-advice",
-        "g-subordinate-falls-sodass-indem",
-        "g-connectors-deshalb-trotzdem",
-        "g-connectors-condition",
-        "g-verbs-with-prepositions"
-      ],
-      "errorTags": [
-        "word-order",
-        "lexical",
-        "case"
-      ],
-      "drills": [
-        {
-          "type": "complete",
-          "instruction": {
-            "en": "Fill in the preposition.",
-            "es": "Completa con la preposición."
-          },
-          "prompt": "Wir einigen uns ___ einen Kompromiss.",
-          "answers": [
-            "auf"
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Join with vorausgesetzt, dass.",
-            "es": "Une las frases con vorausgesetzt, dass."
-          },
-          "prompt": "Ich arbeite zwölf Stunden. Ich kann die Zeiten selbst wählen.",
-          "answers": [
-            "Ich arbeite zwölf Stunden, vorausgesetzt, dass ich die Zeiten selbst wählen kann."
-          ]
-        },
-        {
-          "type": "build",
-          "instruction": {
-            "en": "Put the words in order.",
-            "es": "Ordena las palabras."
-          },
-          "prompt": "andernfalls / suchen / wir / Lieferanten / einen anderen",
-          "answers": [
-            "Andernfalls suchen wir einen anderen Lieferanten."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Rewrite with unter der Bedingung, dass.",
-            "es": "Reescribe con unter der Bedingung, dass."
-          },
-          "prompt": "Wir senken den Preis, wenn Sie mehr bestellen.",
-          "answers": [
-            "Wir senken den Preis unter der Bedingung, dass Sie mehr bestellen."
-          ]
-        },
-        {
-          "type": "complete",
-          "instruction": {
-            "en": "Fill in the Konjunktiv II of können for a polite offer.",
-            "es": "Completa con el Konjunktiv II de können para una oferta cortés."
-          },
-          "prompt": "Wir ___ Ihnen einen Rabatt anbieten.",
-          "answers": [
-            "könnten"
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Make the wish polite with hätte gern.",
-            "es": "Haz el deseo más cortés con hätte gern."
-          },
-          "prompt": "Ich möchte mehr Urlaub.",
-          "answers": [
-            "Ich hätte gern mehr Urlaub.",
-            "Ich hätte gerne mehr Urlaub."
-          ]
-        },
-        {
-          "type": "transform",
-          "instruction": {
-            "en": "Join with im Gegenzug.",
-            "es": "Une las frases con im Gegenzug."
-          },
-          "prompt": "Ich verzichte auf die Gehaltserhöhung. Ich möchte mehr Urlaub.",
-          "answers": [
-            "Ich verzichte auf die Gehaltserhöhung; im Gegenzug möchte ich mehr Urlaub.",
-            "Ich verzichte auf die Gehaltserhöhung, im Gegenzug möchte ich mehr Urlaub."
-          ]
-        },
-        {
-          "type": "say",
-          "instruction": {
-            "en": "Say aloud: confirm the agreement. Delivery on Tuesday, payment after the check.",
-            "es": "Dilo en voz alta: confirma el acuerdo. Entrega el martes, pago después de la revisión."
-          },
-          "prompt": "Dann halten wir fest: Lieferung Dienstag, Zahlung nach der Prüfung.",
-          "answers": [
-            "Dann halten wir fest: Die Lieferung kommt am Dienstag, und wir zahlen nach der Prüfung.",
-            "Dann halten wir fest: Die Lieferung kommt am Dienstag und wir zahlen nach der Prüfung."
-          ]
-        }
-      ],
-      "sublevel": "B2.2",
-      "order": 14
     }
   ],
   "vocabulary": [
@@ -9925,7 +9550,7 @@
       "lemma": "Schock",
       "pos": "noun",
       "article": "der",
-      "plural": "Schock",
+      "plural": "Schocks",
       "translations": {
         "en": [
           "shock"
@@ -11329,9 +10954,9 @@
         ]
       },
       "example": {
-        "de": "Die Firma hat mir für die Stelle zugesagt.",
-        "en": "The company has said yes to me for the job.",
-        "es": "La empresa me ha dado el sí para el puesto."
+        "de": "Die Firma hat mir die Stelle zugesagt.",
+        "en": "The company has promised me the job.",
+        "es": "La empresa me ha prometido el puesto."
       },
       "sublevel": "B2.2",
       "frequencyRank": 3390
@@ -13643,6 +13268,29 @@
       },
       "sublevel": "B2.2",
       "frequencyRank": 3787
+    },
+    {
+      "id": "v-sich-einigen-auf",
+      "lemma": "sich einigen auf",
+      "pos": "phrase",
+      "themes": [
+        "verhandeln-arbeit"
+      ],
+      "translations": {
+        "en": [
+          "to agree on"
+        ],
+        "es": [
+          "ponerse de acuerdo en"
+        ]
+      },
+      "example": {
+        "de": "Wir haben uns auf einen neuen Termin geeinigt.",
+        "en": "We have agreed on a new date.",
+        "es": "Nos hemos puesto de acuerdo en una nueva fecha."
+      },
+      "sublevel": "B2.2",
+      "frequencyRank": 15001
     }
   ],
   "talkScenarios": [
@@ -13654,11 +13302,11 @@
         "es": "Entrevista de trabajo para un puesto de estudiante trabajador"
       },
       "situation": {
-        "en": "You have applied for a working-student job in the planning department of a logistics company. Mr Brandt, the head of HR, invites you to a 15-minute interview. Present yourself and your motivation, describe an experience that fits, answer a difficult question about a weakness, name your salary expectation and ask questions of your own. The company, the job and all figures are invented for the exercise.",
-        "es": "Has solicitado un puesto de estudiante trabajador en el departamento de planificación de una empresa de logística. El señor Brandt, jefe de personal, te invita a una entrevista de 15 minutos. Preséntate y explica tu motivación, describe una experiencia que encaje, responde a una pregunta difícil sobre una debilidad, di tus expectativas de sueldo y haz tus propias preguntas. La empresa, el puesto y todas las cifras son inventados para el ejercicio."
+        "en": "You have applied for a working-student job in the planning department of a logistics company. Mr Winkler, the head of HR, invites you to a 15-minute interview. Present yourself and your motivation, describe an experience that fits, answer a difficult question about a weakness, name your salary expectation and ask questions of your own. The company, the job and all figures are invented for the exercise.",
+        "es": "Has solicitado un puesto de estudiante trabajador en el departamento de planificación de una empresa de logística. El señor Winkler, jefe de personal, te invita a una entrevista de 15 minutos. Preséntate y explica tu motivación, describe una experiencia que encaje, responde a una pregunta difícil sobre una debilidad, di tus expectativas de sueldo y haz tus propias preguntas. La empresa, el puesto y todas las cifras son inventados para el ejercicio."
       },
       "learnerRole": "Studentin oder Student, bewirbt sich als Werkstudent in der Planungsabteilung",
-      "partnerRole": "Herr Brandt, Personalleiter, sachlich und freundlich, stellt genaue Nachfragen",
+      "partnerRole": "Herr Winkler, Personalleiter, sachlich und freundlich, stellt genaue Nachfragen",
       "register": "Sie",
       "goals": [
         {
@@ -13686,18 +13334,17 @@
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
         "Die Stelle ist eine Werkstudentenstelle in der Planungsabteilung der Firma Nordlicht Logistik.",
-        "Die Arbeitszeit beträgt 15 Stunden pro Woche; die Zeiten werden mit dem Team abgesprochen.",
+        "Die Arbeitszeit beträgt 10 Stunden pro Woche; die Zeiten werden mit dem Team abgesprochen.",
         "Die Firma zahlt in diesem Beispiel 14 Euro pro Stunde.",
         "Zu den Aufgaben gehören die Planung von Lieferungen, das Auswerten von Tabellen und das Schreiben kurzer Berichte.",
         "Im Team arbeiten acht Personen; ein Tag pro Woche im Homeoffice ist möglich.",
         "Die Stelle beginnt frühestens am ersten April.",
         "Eine Entscheidung teilt die Firma innerhalb einer Woche per E-Mail mit.",
-        "Herr Brandt spricht nicht über Gesetze zu Arbeitszeiten oder Steuern."
+        "Herr Winkler spricht nicht über Gesetze zu Arbeitszeiten oder Steuern."
       ],
       "targetGrammar": [
         "g-nominalstil-satz-zu-nominalgruppe",
         "g-funktionsverbgefuege",
-        "g-verhandeln-angebot-bedingung-kompromiss",
         "g-doppelinfinitiv-nebensatz",
         "g-adjektivendungen-mengenwoerter"
       ],
@@ -13733,7 +13380,7 @@
         "maxTurns": 18
       },
       "expectedPartnerBehaviour": [
-        "Stays Herr Brandt for the whole interview and uses Sie.",
+        "Stays Herr Winkler for the whole interview and uses Sie.",
         "Uses only grammar up to B2.2, at most 50 words per turn, and asks one question at a time.",
         "Follows a rough order: introduction and motivation, experience, weakness, salary expectation, the learner's questions, closing.",
         "Asks a short follow-up question when an answer is very short or stays general.",
@@ -13759,7 +13406,7 @@
       ],
       "script": [
         {
-          "learner": "Guten Tag, Herr Brandt. Ich heiße Daniela Ortiz, ich komme aus Kolumbien und studiere im dritten Semester Maschinenbau. Ich interessiere mich für die Stelle, weil ich gern in der Planung arbeiten möchte.",
+          "learner": "Guten Tag, Herr Winkler. Ich heiße Daniela Ortiz, ich komme aus Kolumbien und studiere im dritten Semester Maschinenbau. Ich interessiere mich für die Stelle, weil ich gern in der Planung arbeiten möchte.",
           "expect": "Thanks the learner and asks about an experience that fits the job."
         },
         {
@@ -13797,15 +13444,15 @@
       "id": "ts-b22-lieferant-lieferverzug-verhandeln",
       "theme": "verhandeln-arbeit",
       "title": {
-        "en": "Negotiate a late delivery with a supplier",
-        "es": "Negocia un retraso en la entrega con un proveedor"
+        "en": "Negotiate a late print order with a print shop",
+        "es": "Negocia un retraso en un pedido de impresión con una imprenta"
       },
       "situation": {
-        "en": "You work part-time in the office of a small company. Twenty office chairs ordered for a workshop were due on Monday, but the supplier has just called to say they will be late. Explain why this is a problem, ask for a solution, react to the offers and confirm at the end what was agreed. The company, the order and all figures are invented.",
-        "es": "Trabajas a tiempo parcial en la oficina de una empresa pequeña. Las veinte sillas de oficina pedidas para un taller tenían que llegar el lunes, pero el proveedor acaba de llamar para decir que se retrasan. Explica por qué es un problema, pide una solución, reacciona a las ofertas y confirma al final lo acordado. La empresa, el pedido y todas las cifras son inventados."
+        "en": "You help organise the orientation week of a student council. Four hundred printed programme booklets are due on Friday, but the print shop has just called to say they will be late. Explain why this is a problem, ask for a solution, react to the offers and confirm at the end what was agreed. The print shop, the order and all figures are invented.",
+        "es": "Ayudas a organizar la semana de orientación de una asociación de estudiantes. Los cuatrocientos programas impresos tienen que llegar el viernes, pero la imprenta acaba de llamar para decir que se retrasan. Explica por qué es un problema, pide una solución, reacciona a las ofertas y confirma al final lo acordado. La imprenta, el pedido y todas las cifras son inventados."
       },
-      "learnerRole": "Werkstudent oder Werkstudentin im Büro einer kleinen Firma",
-      "partnerRole": "Herr Demir, Vertriebsmitarbeiter eines Möbelhändlers, höflich, aber auf sein Angebot bedacht",
+      "learnerRole": "Helferin oder Helfer im Büro der Fachschaft",
+      "partnerRole": "Herr Roth, Kundenberater einer Druckerei, höflich, aber auf sein Angebot bedacht",
       "register": "Sie",
       "goals": [
         {
@@ -13825,33 +13472,33 @@
           "es": "Confirma lo que habéis acordado y quién hace qué y para cuándo."
         }
       ],
-      "partnerOpening": "Guten Tag, hier spricht Demir. Ich muss Ihnen leider sagen, dass Ihre Lieferung später kommt. Was bedeutet das für Sie?",
+      "partnerOpening": "Guten Tag, hier spricht Roth von der Druckerei. Ich muss Ihnen leider sagen, dass Ihre Programmhefte später fertig werden. Was bedeutet das für Sie?",
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
-        "Bestellt wurden 20 Bürostühle für einen Workshop am Montag der übernächsten Woche.",
-        "Wegen eines Engpasses beim Hersteller kommen alle Stühle erst in zehn Tagen.",
-        "Eine Teillieferung von zehn Stühlen ist schon am Freitag dieser Woche möglich.",
-        "Herr Demir kann einen Preisnachlass von fünf Prozent anbieten; mehr muss sein Chef genehmigen.",
-        "Leihstühle gehören nicht zum Angebot der Firma.",
-        "Die Rechnung ist laut Vertrag vierzehn Tage nach der Lieferung fällig.",
-        "Herr Demir schickt nach dem Gespräch eine schriftliche Bestätigung per E-Mail."
+        "Bestellt wurden 400 Programmhefte für die Orientierungswoche, die am Montag der nächsten Woche beginnt.",
+        "Die Hefte sollten am Freitag dieser Woche kommen.",
+        "Wegen eines Maschinenschadens in der Druckerei werden alle Hefte erst in acht Tagen fertig.",
+        "Eine Teillieferung von 150 Heften ist schon am Freitag dieser Woche möglich.",
+        "Herr Roth kann einen Preisnachlass von sieben Prozent anbieten; mehr muss seine Chefin genehmigen.",
+        "Ein Expressdruck gegen Aufpreis gehört nicht zum Angebot der Druckerei.",
+        "Die Rechnung ist laut Vertrag zehn Tage nach der Lieferung fällig.",
+        "Herr Roth schickt nach dem Gespräch eine schriftliche Bestätigung per E-Mail."
       ],
       "targetGrammar": [
         "g-praepositionen-grund-einraeumung-bedingung",
         "g-praepositionen-zeit-mittel-zweck-bezug",
-        "g-verhandeln-angebot-bedingung-kompromiss",
         "g-funktionsverbgefuege"
       ],
       "usefulPhrases": [
         {
-          "de": "Aufgrund der Verzögerung können wir den Workshop nicht wie geplant durchführen.",
-          "en": "Because of the delay we cannot hold the workshop as planned.",
-          "es": "Debido al retraso no podemos realizar el taller como estaba previsto."
+          "de": "Aufgrund der Verzögerung können wir die Hefte nicht wie geplant am Montag verteilen.",
+          "en": "Because of the delay we cannot hand out the booklets on Monday as planned.",
+          "es": "Debido al retraso no podemos repartir los programas el lunes como estaba previsto."
         },
         {
-          "de": "Wir würden die zehn Stühle am Freitag gern nehmen, vorausgesetzt, dass der Rest bis nächsten Mittwoch eintrifft.",
-          "en": "We would like to take the ten chairs on Friday, provided that the rest arrives by next Wednesday.",
-          "es": "Nos gustaría quedarnos con las diez sillas del viernes, siempre que el resto llegue antes del próximo miércoles."
+          "de": "Wir würden die 150 Hefte am Freitag gern nehmen, vorausgesetzt, dass der Rest bis Montag eintrifft.",
+          "en": "We would like to take the 150 booklets on Friday, provided that the rest arrives by Monday.",
+          "es": "Nos gustaría quedarnos con los 150 programas del viernes, siempre que el resto llegue antes del lunes."
         },
         {
           "de": "Im Gegenzug erwarten wir einen Preisnachlass.",
@@ -13859,14 +13506,14 @@
           "es": "A cambio esperamos un descuento."
         },
         {
-          "de": "Andernfalls müssen wir den Auftrag bei einem anderen Händler erteilen.",
-          "en": "Otherwise we will have to place the order with another dealer.",
-          "es": "De lo contrario tendremos que hacer el pedido a otro distribuidor."
+          "de": "Andernfalls müssen wir den Auftrag bei einer anderen Druckerei erteilen.",
+          "en": "Otherwise we will have to place the order with another print shop.",
+          "es": "De lo contrario tendremos que hacer el pedido a otra imprenta."
         },
         {
-          "de": "Dann halten wir fest: Zehn Stühle am Freitag, zehn in zehn Tagen, fünf Prozent Preisnachlass.",
-          "en": "Then let us record this: ten chairs on Friday, ten in ten days, five percent discount.",
-          "es": "Entonces dejemos constancia: diez sillas el viernes, diez en diez días, cinco por ciento de descuento."
+          "de": "Dann halten wir fest: 150 Hefte am Freitag, 250 in acht Tagen, sieben Prozent Preisnachlass.",
+          "en": "Then let us record this: 150 booklets on Friday, 250 in eight days, seven percent discount.",
+          "es": "Entonces dejemos constancia: 150 programas el viernes, 250 en ocho días, siete por ciento de descuento."
         }
       ],
       "limits": {
@@ -13874,10 +13521,10 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Herr Demir, polite, and uses Sie throughout.",
+        "Stays Herr Roth, polite, and uses Sie throughout.",
         "Uses only grammar up to B2.2 and at most 50 words per turn.",
         "Offers the solutions in partnerFacts one at a time, not all at once, and reacts to the learner's conditions.",
-        "Does not agree to more than five percent without saying the boss must approve; names no other discount or date.",
+        "Does not agree to more than seven percent without saying the boss must approve; names no other discount or date.",
         "Ends by summing up the agreement and promising the written confirmation by email.",
         "Does not correct the learner's German."
       ],
@@ -13888,43 +13535,43 @@
           "why": "A legal claim that is not in partnerFacts; the Partner must not invent rules of German law."
         },
         {
-          "partnerTurn": "Ich verstehe Ihren Ärger sehr gut, und deshalb möchte ich Ihnen gleich eine Teillieferung am Freitag, einen Preisnachlass von zehn Prozent, kostenlose Leihstühle und eine Entschuldigung unseres Geschäftsführers anbieten, wenn Sie damit einverstanden sind.",
+          "partnerTurn": "Ich verstehe Ihren Ärger sehr gut, und deshalb möchte ich Ihnen gleich eine Teillieferung am Freitag, einen Preisnachlass von zwölf Prozent, einen kostenlosen Expressdruck und eine Entschuldigung unseres Geschäftsführers anbieten, wenn Sie damit einverstanden sind.",
           "breaks": "too-long",
-          "why": "Too long, and it offers a ten percent discount and loan chairs that are not in partnerFacts."
+          "why": "Too long, and it offers a twelve percent discount and an express print that are not in partnerFacts."
         },
         {
-          "partnerTurn": "Entschuldigung, aber dieser Satz ist grammatisch nicht ganz richtig. Sagen Sie bitte: 'Andernfalls suchen wir einen anderen Händler.'",
+          "partnerTurn": "Entschuldigung, aber dieser Satz ist grammatisch nicht ganz richtig. Sagen Sie bitte: 'Andernfalls suchen wir eine andere Druckerei.'",
           "breaks": "corrected-mid-conversation",
-          "why": "The supplier must not correct the learner; the Coach does that afterwards."
+          "why": "The print shop must not correct the learner; the Coach does that afterwards."
         }
       ],
       "script": [
         {
-          "learner": "Guten Tag, Herr Demir. Das ist ein Problem für uns. Am Montag haben wir einen Workshop und wir brauchen die Stühle bis Freitag.",
-          "expect": "Acknowledges the problem and explains the delay of ten days in simple words."
+          "learner": "Guten Tag, Herr Roth. Das ist ein Problem für uns. Am Montag beginnt die Orientierungswoche und wir brauchen die Hefte bis Freitag.",
+          "expect": "Acknowledges the problem and explains that all booklets will be ready in eight days."
         },
         {
-          "learner": "Zehn Tage ist zu lang. Gibt es eine andere Lösung?",
-          "expect": "Does not correct 'Zehn Tage ist'. Offers the partial delivery of ten chairs on Friday."
+          "learner": "Acht Tage sind zu lang. Gibt es eine andere Lösung?",
+          "expect": "Offers the partial delivery of 150 booklets on Friday."
         },
         {
-          "learner": "Entschuldigung, ich habe nicht alles verstanden. Wie viele Stühle kommen am Freitag?",
-          "expect": "Repeats slowly and simply: ten chairs on Friday."
+          "learner": "Entschuldigung, ich habe nicht alles verstanden. Wie viele Hefte kommen am Freitag?",
+          "expect": "Repeats slowly and simply: 150 booklets on Friday."
         },
         {
-          "learner": "Zehn Stühle reichen nicht. Haben Sie vielleicht Leihstühle für den Workshop?",
-          "expect": "Says that loan chairs are not part of the company's offer; does not invent another solution."
+          "learner": "150 Hefte reichen nicht. Können Sie vielleicht schneller drucken, auch gegen einen Aufpreis?",
+          "expect": "Says that express printing is not part of the print shop's offer; does not invent another solution."
         },
         {
-          "learner": "Dann nehmen wir die Teillieferung, vorausgesetzt, dass der Rest bis Mittwoch kommt. Im Gegenzug möchten wir einen Preisnachlass.",
-          "expect": "Says the rest comes in ten days, not by Wednesday; offers five percent and says more would need the boss's approval."
+          "learner": "Dann nehmen wir die Teillieferung, vorausgesetzt, dass der Rest bis Montag kommt. Im Gegenzug möchten wir einen Preisnachlass.",
+          "expect": "Says the rest is ready in eight days, not by Monday; offers seven percent and says more would need the boss's approval."
         },
         {
-          "learner": "Fünf Prozent ist zu wenig. Andernfalls wir suchen einen anderen Händler.",
+          "learner": "Sieben Prozent sind zu wenig. Andernfalls wir suchen eine andere Druckerei.",
           "expect": "Does not correct the word order. Stays polite, says he will ask his boss about more, but promises nothing."
         },
         {
-          "learner": "Gut, dann halten wir fest: Zehn Stühle am Freitag, zehn in zehn Tagen und fünf Prozent Nachlass. Ich möchte das schriftlich haben.",
+          "learner": "Gut, dann halten wir fest: 150 Hefte am Freitag, 250 in acht Tagen und sieben Prozent Nachlass. Ich möchte das schriftlich haben.",
           "expect": "Confirms the summary and promises a written confirmation by email after the call."
         }
       ],
@@ -13938,11 +13585,11 @@
         "es": "Negocia tu horario con el jefe de equipo"
       },
       "situation": {
-        "en": "You work 12 hours a week as a working student in a customer service team. Next semester a compulsory seminar takes place on two mornings. Ask your team leader, Mr Vogel, to change your hours, react to what he can offer and agree on a compromise. The team, the rules and all numbers are invented.",
-        "es": "Trabajas 12 horas por semana como estudiante trabajador en un equipo de atención al cliente. El próximo semestre hay un seminario obligatorio dos mañanas. Pide a tu jefe de equipo, el señor Vogel, que cambie tu horario, reacciona a lo que pueda ofrecerte y acordad un compromiso. El equipo, las normas y todos los números son inventados."
+        "en": "You work 8 hours a week as a student assistant in the dispatch team of an online shop. From next month a lab course takes place every Monday and Wednesday afternoon, exactly when you work now. Ask your team leader, Mr Steiner, to change your shifts, react to what he can offer and agree on a compromise. The shop, the rules and all numbers are invented.",
+        "es": "Trabajas 8 horas por semana como ayudante estudiantil en el equipo de envíos de una tienda en línea. A partir del mes que viene hay un curso de laboratorio todos los lunes y miércoles por la tarde, justo cuando trabajas ahora. Pide a tu jefe de equipo, el señor Steiner, que cambie tus turnos, reacciona a lo que pueda ofrecerte y acordad un compromiso. La tienda, las normas y todos los números son inventados."
       },
-      "learnerRole": "Werkstudent oder Werkstudentin im Kundenservice",
-      "partnerRole": "Herr Vogel, Teamleiter im Kundenservice, offen, aber auf die Besetzung am Telefon bedacht",
+      "learnerRole": "Studentische Hilfskraft im Versandteam eines Online-Shops",
+      "partnerRole": "Herr Steiner, Teamleiter im Versand, entgegenkommend, aber auf die Besetzung am Vormittag bedacht",
       "register": "Sie",
       "goals": [
         {
@@ -13958,32 +13605,31 @@
           "es": "Reacciona a una contraoferta y menciona una condición."
         },
         {
-          "en": "Agree on a compromise and ask for it in writing.",
-          "es": "Acordad un compromiso y pide que quede por escrito."
+          "en": "Agree on a compromise and ask for it to be entered in the shift plan.",
+          "es": "Acordad un compromiso y pide que se anote en el plan de turnos."
         }
       ],
-      "partnerOpening": "Hallo, nehmen Sie Platz. Sie wollten mit mir über Ihre Arbeitszeiten sprechen. Was haben Sie sich vorgestellt?",
+      "partnerOpening": "Guten Tag, kommen Sie herein. Sie wollten wegen Ihrer Schichten mit mir sprechen. Worum geht es?",
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
-        "Der Kundenservice braucht jeden Tag von 14 bis 18 Uhr mindestens vier Personen am Telefon.",
-        "Vormittags ist die Besetzung kleiner, sodass Herr Vogel dort flexibler sein kann.",
-        "In den Semesterferien sind bis zu 16 Wochenstunden möglich.",
-        "In der Vorlesungszeit kann Herr Vogel höchstens 12 Stunden pro Woche im Team anbieten.",
-        "Es gibt Gleitzeit: Wer Zeiten tauschen will, meldet das drei Tage vorher an.",
-        "Herr Vogel kann zwei Vormittage pro Woche gegen zwei Nachmittage tauschen, wenn das Team zustimmt.",
-        "Eine schriftliche Bestätigung schickt er bis Freitag per E-Mail."
+        "Im Versand sind von 8 bis 12 Uhr mindestens drei Personen nötig, weil dann die meisten Pakete rausgehen.",
+        "Nachmittags reichen zwei Personen, sodass Herr Steiner dort flexibler sein kann.",
+        "Im Moment arbeitet die Hilfskraft montags und mittwochs von 14 bis 18 Uhr, also acht Stunden pro Woche.",
+        "Herr Steiner kann die Schichten auf dienstags und freitags von 8 bis 12 Uhr legen, wenn die zwei anderen Hilfskräfte einverstanden sind.",
+        "In den Semesterferien sind bis zu 20 Wochenstunden möglich.",
+        "Wer eine Schicht tauschen will, sagt das eine Woche vorher im Team.",
+        "Herr Steiner trägt die neue Regelung bis Donnerstag in den Dienstplan ein."
       ],
       "targetGrammar": [
-        "g-verhandeln-angebot-bedingung-kompromiss",
         "g-praepositionen-grund-einraeumung-bedingung",
         "g-nominalstil-satz-zu-nominalgruppe",
         "g-doppelinfinitiv-nebensatz"
       ],
       "usefulPhrases": [
         {
-          "de": "Wegen eines Pflichtseminars kann ich am Dienstag und am Donnerstag nicht am Vormittag arbeiten.",
-          "en": "Because of a compulsory seminar I cannot work in the mornings on Tuesdays and Thursdays.",
-          "es": "Por un seminario obligatorio no puedo trabajar por las mañanas los martes y jueves."
+          "de": "Wegen eines Laborpraktikums kann ich ab nächstem Monat montags und mittwochs nicht mehr nachmittags arbeiten.",
+          "en": "Because of a lab course I can no longer work on Monday and Wednesday afternoons from next month.",
+          "es": "Por un curso de laboratorio ya no puedo trabajar los lunes y miércoles por la tarde a partir del mes que viene."
         },
         {
           "de": "Im Gegenzug könnte ich in den Semesterferien mehr Stunden übernehmen.",
@@ -13991,19 +13637,19 @@
           "es": "A cambio podría asumir más horas en las vacaciones del semestre."
         },
         {
-          "de": "Das wäre für mich nur möglich, wenn ich die Zeiten rechtzeitig tauschen kann.",
-          "en": "That would only be possible for me if I can swap the times in good time.",
-          "es": "Eso solo sería posible para mí si puedo cambiar los horarios con tiempo."
+          "de": "Ich könnte dienstags und freitags vormittags arbeiten, vorausgesetzt, dass ich die Schichten rechtzeitig tauschen kann.",
+          "en": "I could work on Tuesday and Friday mornings, provided that I can swap the shifts in good time.",
+          "es": "Podría trabajar los martes y viernes por la mañana, siempre que pueda cambiar los turnos con tiempo."
         },
         {
-          "de": "Ich hätte gern eine schriftliche Bestätigung der neuen Regelung.",
-          "en": "I would like a written confirmation of the new arrangement.",
-          "es": "Me gustaría una confirmación escrita del nuevo acuerdo."
+          "de": "Ich möchte Sie bitten, die neue Regelung in den Dienstplan einzutragen.",
+          "en": "I would like to ask you to enter the new arrangement in the shift plan.",
+          "es": "Quisiera pedirle que anote el nuevo acuerdo en el plan de turnos."
         },
         {
-          "de": "Ich habe die Termine im Seminar leider nicht verschieben können.",
-          "en": "Unfortunately I could not move the dates in the seminar.",
-          "es": "Por desgracia no he podido cambiar las fechas del seminario."
+          "de": "Ich habe die Termine im Laborpraktikum leider nicht verschieben können.",
+          "en": "Unfortunately I could not move the dates in the lab course.",
+          "es": "Por desgracia no he podido cambiar las fechas del curso de laboratorio."
         }
       ],
       "limits": {
@@ -14011,23 +13657,23 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Herr Vogel and uses Sie throughout.",
+        "Stays Herr Steiner and uses Sie throughout.",
         "Uses only grammar up to B2.2 and at most 50 words per turn.",
-        "Listens to the learner's reason first and then explains the staffing limit in the afternoon.",
-        "Offers only what is in partnerFacts: the swap of two mornings for two afternoons, up to 16 hours in the break, the notice of three days.",
-        "Says he must ask the team about the swap and promises a written confirmation by Friday; makes no promise about pay.",
+        "Listens to the learner's reason first and then explains the staffing limit in the morning.",
+        "Offers only what is in partnerFacts: two afternoons swapped for two mornings, up to 20 hours in the break, the notice of one week.",
+        "Says he must ask the two other student assistants about the swap and promises to enter the result in the shift plan by Thursday; makes no promise about pay.",
         "Does not correct the learner's German."
       ],
       "failureExamples": [
         {
-          "partnerTurn": "Als Werkstudent haben Sie nach dem Gesetz ein Recht auf flexible Arbeitszeiten rund um Ihre Pflichtveranstaltungen.",
+          "partnerTurn": "Als Hilfskraft haben Sie nach dem Gesetz ein Recht auf flexible Schichten rund um Ihre Pflichtveranstaltungen.",
           "breaks": "invented-facts",
           "why": "A legal claim that is not in partnerFacts; the Partner must not invent rights or rules of German law."
         },
         {
-          "partnerTurn": "Ja, sicher, kein Problem, Sie können in Zukunft einfach arbeiten, wann Sie wollen, ich erhöhe außerdem Ihren Stundenlohn und Sie bekommen jeden Freitag frei.",
+          "partnerTurn": "Ja, sicher, kein Problem, Sie können in Zukunft einfach arbeiten, wann Sie wollen, ich erhöhe außerdem Ihren Stundenlohn und Sie bekommen jeden Montag frei.",
           "breaks": "invented-facts",
-          "why": "Agrees at once and invents a pay rise and a free Friday that are not in partnerFacts."
+          "why": "Agrees at once and invents a pay rise and a free Monday that are not in partnerFacts."
         },
         {
           "partnerTurn": "Bevor wir weitermachen: 'Ich habe nicht kommen können' ist richtig, nicht 'nicht gekonnt'. Dann zurück zu Ihrem Anliegen.",
@@ -14037,28 +13683,28 @@
       ],
       "script": [
         {
-          "learner": "Guten Tag, Herr Vogel. Im nächsten Semester habe ich ein Pflichtseminar am Dienstag und am Donnerstag von 8 bis 12 Uhr. Deshalb kann ich an diesen Vormittagen nicht arbeiten.",
+          "learner": "Guten Tag, Herr Steiner. Ab nächstem Monat habe ich montags und mittwochs von 13 bis 17 Uhr ein Laborpraktikum. Deshalb kann ich an diesen Nachmittagen nicht arbeiten.",
           "expect": "Says he understands and asks which times the learner could work instead."
         },
         {
-          "learner": "Ich kann nachmittags arbeiten, aber nicht am Montag. Ich habe auch eine Vorlesung.",
-          "expect": "Does not correct the German. Explains that at least four people are needed on the phone from 14 to 18 o'clock."
+          "learner": "Ich kann vormittags arbeiten, aber nicht am Donnerstag. Ich habe auch eine Vorlesung.",
+          "expect": "Does not correct the German. Explains that at least three people are needed in the dispatch team from 8 to 12 o'clock."
         },
         {
           "learner": "Wie bitte? Können Sie das noch einmal sagen?",
-          "expect": "Repeats more slowly and simply: four people from 14 to 18 o'clock."
+          "expect": "Repeats more slowly and simply: three people from 8 to 12 o'clock."
         },
         {
           "learner": "Ich verstehe. Im Gegenzug könnte ich in den Semesterferien mehr Stunden machen.",
-          "expect": "Says up to 16 hours a week are possible in the break and that in the semester he can offer at most 12."
+          "expect": "Says up to 20 hours a week are possible in the break and that in the semester he can offer 8."
         },
         {
-          "learner": "Das wäre gut. Könnten wir zwei Vormittage gegen zwei Nachmittage tauschen, vorausgesetzt, dass ich es drei Tage vorher sage?",
-          "expect": "Says that is possible if the team agrees; names the notice of three days from partnerFacts."
+          "learner": "Das wäre gut. Könnten wir zwei Nachmittage gegen zwei Vormittage tauschen, vorausgesetzt, dass ich es eine Woche vorher sage?",
+          "expect": "Says that is possible if the two other student assistants agree; names the notice of one week from partnerFacts."
         },
         {
-          "learner": "Gut. Dann ich bringe die Zeiten vom Seminar morgen. Ich hätte gern eine schriftliche Bestätigung.",
-          "expect": "Does not correct 'dann ich bringe'. Promises a written confirmation by Friday by email."
+          "learner": "Gut. Dann ich bringe den Plan vom Praktikum morgen. Bitte tragen Sie die neue Regelung in den Dienstplan ein.",
+          "expect": "Does not correct 'dann ich bringe'. Promises to enter the arrangement in the shift plan by Thursday."
         },
         {
           "learner": "Vielen Dank. Ich möchte noch fragen: Gibt es für die Stunden in den Semesterferien einen anderen Lohn?",
@@ -14075,11 +13721,11 @@
         "es": "Informa sobre el avance de un proyecto y explica un gráfico"
       },
       "situation": {
-        "en": "You and two other students are doing a survey project for a company as part of your studies. Your supervisor, Dr Hartmann, asks for an interim report. Say what has been done, show the figures of the bar chart, name the main risk and suggest how to solve it. The project and all numbers are invented.",
-        "es": "Tú y otros dos estudiantes hacéis un proyecto de encuesta para una empresa como parte de vuestros estudios. Tu tutora, la doctora Hartmann, pide un informe intermedio. Di qué se ha hecho, muestra las cifras del gráfico de barras, nombra el riesgo principal y propón cómo resolverlo. El proyecto y todos los números son inventados."
+        "en": "You and two other students are doing a survey project for a company as part of your studies. Your supervisor, Dr Engel, asks for an interim report. Say what has been done, show the figures of the bar chart, name the main risk and suggest how to solve it. The project and all numbers are invented.",
+        "es": "Tú y otros dos estudiantes hacéis un proyecto de encuesta para una empresa como parte de vuestros estudios. Tu tutora, la doctora Engel, pide un informe intermedio. Di qué se ha hecho, muestra las cifras del gráfico de barras, nombra el riesgo principal y propón cómo resolverlo. El proyecto y todos los números son inventados."
       },
       "learnerRole": "Studentin oder Student, Mitglied im Projektteam",
-      "partnerRole": "Frau Dr. Hartmann, Betreuerin des Projekts, sachlich und kritisch, fragt genau nach",
+      "partnerRole": "Frau Dr. Engel, Betreuerin des Projekts, sachlich und kritisch, fragt genau nach",
       "register": "Sie",
       "goals": [
         {
@@ -14106,13 +13752,12 @@
         "Das Ziel sind 200 ausgefüllte Fragebögen bis Ende des Monats.",
         "Laut Balkendiagramm kamen in Woche 1 40 Antworten, in Woche 2 55 und in Woche 3 35 zurück.",
         "Der Rücklauf ist in Woche 3 gesunken, weil in dieser Woche keine Erinnerung verschickt wurde.",
-        "Frau Dr. Hartmann kann die Frist für die Befragung um eine Woche verlängern, aber nicht länger.",
+        "Frau Dr. Engel kann die Frist für die Befragung um eine Woche verlängern, aber nicht länger.",
         "Der Abschlussbericht ist erst zwei Wochen nach dem Ende der Befragung fällig.",
         "Sie möchte bis Freitag einen kurzen schriftlichen Zwischenbericht mit dem Balkendiagramm bekommen."
       ],
       "targetGrammar": [
         "g-zahlen-und-grafiken-beschreiben",
-        "g-sprache-von-protokoll-und-bericht",
         "g-erweitertes-partizip-2",
         "g-praepositionen-grund-einraeumung-bedingung"
       ],
@@ -14128,9 +13773,9 @@
           "es": "El gráfico de barras muestra que el número de respuestas bajó de 55 en la semana 2 a 35 en la semana 3."
         },
         {
-          "de": "Der Rückgang kommt vermutlich von der fehlenden Erinnerung.",
-          "en": "The fall probably comes from the missing reminder.",
-          "es": "El descenso viene probablemente de la falta de recordatorio."
+          "de": "Der Rückgang liegt vermutlich an der fehlenden Erinnerung.",
+          "en": "The fall is probably due to the missing reminder.",
+          "es": "El descenso se debe probablemente a la falta de recordatorio."
         },
         {
           "de": "Als Lösung schlagen wir vor, die Frist um eine Woche zu verlängern.",
@@ -14148,7 +13793,7 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Frau Dr. Hartmann and uses Sie.",
+        "Stays Frau Dr. Engel and uses Sie.",
         "Uses only grammar up to B2.2 and at most 50 words per turn.",
         "Asks one question at a time and asks for figures when the learner stays vague.",
         "Uses only the figures in partnerFacts; invents no further data, no further deadlines and no university rules.",
@@ -14174,12 +13819,12 @@
       ],
       "script": [
         {
-          "learner": "Guten Morgen, Frau Hartmann. Wir haben den Fragebogen entwickelt und in drei Wochen schon 130 Antworten bekommen. Das Ziel sind 200.",
+          "learner": "Guten Morgen, Frau Engel. Wir haben den Fragebogen entwickelt und in drei Wochen schon 130 Antworten bekommen. Das Ziel sind 200.",
           "expect": "Acknowledges the figures and asks about the trend over the weeks."
         },
         {
-          "learner": "Das Balkendiagramm zeigt: In Woche 1 gab es 40 Antworten, in Woche 2 sind es 55 und in Woche 3 nur 35. Die Zahl ist von 55 auf 35 zurückgegangen.",
-          "expect": "Does not correct 'sind es'. Asks for the reason for the fall in week 3."
+          "learner": "Das Balkendiagramm zeigt: In Woche 1 gab es 40 Antworten, in Woche 2 waren es 55 und in Woche 3 nur 35. Die Zahl ist von 55 auf 35 zurückgegangen.",
+          "expect": "Acknowledges the figures and asks for the reason for the fall in week 3."
         },
         {
           "learner": "Entschuldigung, können Sie die Frage einfacher sagen?",
@@ -14194,7 +13839,7 @@
           "expect": "Says an extension of one week is possible but no longer; asks what else is still open."
         },
         {
-          "learner": "Die zu erledigenden Aufgaben sind die Erinnerung und die Auswertung. Die Auswertung wird von Jonas gemacht, und ich schreibe den Zwischenbericht.",
+          "learner": "Die zu erledigenden Aufgaben sind die Erinnerung und die Auswertung. Die Auswertung wird von Tobias gemacht, und ich schreibe den Zwischenbericht.",
           "expect": "Notes who does what and asks for the written interim report with the chart by Friday."
         },
         {
@@ -14212,11 +13857,11 @@
         "es": "Corrige el acta con un compañero y aplaza un plazo"
       },
       "situation": {
-        "en": "After a team meeting your colleague Jonas sent round the minutes. You see that a deadline next to your task is wrong and that you are overloaded this week. Talk to him: clarify what was decided, ask him to correct the minutes and agree a realistic deadline. The team and the tasks are invented.",
-        "es": "Después de una reunión de equipo, tu compañero Jonas ha enviado el acta. Ves que el plazo junto a tu tarea es incorrecto y que esta semana estás sobrecargado. Habla con él: aclarad lo que se decidió, pídele que corrija el acta y acordad un plazo realista. El equipo y las tareas son inventados."
+        "en": "After a team meeting your colleague Tobias sent round the minutes. You see that a deadline next to your task is wrong and that you are overloaded this week. Talk to him: clarify what was decided, ask him to correct the minutes and agree a realistic deadline. The team and the tasks are invented.",
+        "es": "Después de una reunión de equipo, tu compañero Tobias ha enviado el acta. Ves que el plazo junto a tu tarea es incorrecto y que esta semana estás sobrecargado. Habla con él: aclarad lo que se decidió, pídele que corrija el acta y acordad un plazo realista. El equipo y las tareas son inventados."
       },
       "learnerRole": "Mitglied im Team, hat das Protokoll gelesen",
-      "partnerRole": "Jonas, Kollege und Protokollführer, freundlich, etwas gestresst",
+      "partnerRole": "Tobias, Kollege und Protokollführer, freundlich, etwas gestresst",
       "register": "du",
       "goals": [
         {
@@ -14240,16 +13885,15 @@
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
         "Im Protokoll steht bei Punkt 3: Angebote vergleichen, verantwortlich: du, Frist: Freitag.",
-        "Jonas hat sich in der Besprechung notiert, dass die Chefin Freitag gesagt hat.",
+        "Tobias hat sich in der Besprechung notiert, dass die Chefin Freitag gesagt hat.",
         "Die Chefin hat auch gesagt, dass man die Frist verschieben kann, wenn man sie früh genug informiert.",
-        "Jonas kann den Vergleich der Preise übernehmen, aber nur wenn du ihm die Angebote bis morgen früh schickst.",
-        "Jonas schickt ein korrigiertes Protokoll an den Verteiler, sobald ihr euch geeinigt habt.",
+        "Tobias kann den Vergleich der Preise übernehmen, aber nur wenn du ihm die Angebote bis morgen früh schickst.",
+        "Tobias schickt ein korrigiertes Protokoll an den Verteiler, sobald ihr euch geeinigt habt.",
         "Das Team trifft sich erst wieder in zwei Wochen."
       ],
       "targetGrammar": [
-        "g-sprache-von-protokoll-und-bericht",
-        "g-verhandeln-angebot-bedingung-kompromiss",
         "g-praepositionen-zeit-mittel-zweck-bezug",
+        "g-praepositionen-grund-einraeumung-bedingung",
         "g-als-ob-irrealer-vergleich"
       ],
       "usefulPhrases": [
@@ -14284,7 +13928,7 @@
         "maxTurns": 14
       },
       "expectedPartnerBehaviour": [
-        "Stays Jonas, a friendly colleague, and uses du.",
+        "Stays Tobias, a friendly colleague, and uses du.",
         "Uses only grammar up to B2.2 and at most 45 words per turn.",
         "Defends his note politely at first and says what the boss said, then accepts a solution.",
         "Offers to take over the price comparison only on the condition in partnerFacts.",
@@ -14310,7 +13954,7 @@
       ],
       "script": [
         {
-          "learner": "Hallo Jonas. Bei Punkt 3 steht, dass ich die Angebote bis Freitag vergleichen soll. Aber ich habe verstanden, dass die Frist der nächste Mittwoch ist.",
+          "learner": "Hallo Tobias. Bei Punkt 3 steht, dass ich die Angebote bis Freitag vergleichen soll. Aber ich habe verstanden, dass die Frist der nächste Mittwoch ist.",
           "expect": "Says that he noted Friday and that the boss said Friday; stays friendly."
         },
         {
@@ -14556,11 +14200,11 @@
               },
               {
                 "band": 2,
-                "descriptor": "Clear order: aim, results, conclusion, recommendation; mostly neutral style; uses connectors such as dagegen, deshalb and insgesamt."
+                "descriptor": "Clear order: aim, results, conclusion, recommendation; mostly neutral style; uses connectors such as dagegen, deshalb and insgesamt; one tense is kept for the results."
               },
               {
                 "band": 3,
-                "descriptor": "Clear, logical order with headings or markers; consistent neutral and impersonal style; connectors and references between the parts; the recommendation follows from the results."
+                "descriptor": "Clear, logical order (aim, method, results, conclusion, recommendation) with headings or markers; consistent neutral and impersonal style, for example with the passive or an es-construction ('Es wurde festgestellt, dass …') instead of I or we; one tense for what happened and another for results; the recommendation follows from the results."
               }
             ]
           },
@@ -14628,7 +14272,7 @@
         "minutes": 15,
         "points": 15,
         "material": {
-          "text": "Interne Mitteilung\nBetreff: Neue Regelung zum Arbeiten im Homeoffice\n\nLiebe Kolleginnen und Kollegen,\n\naufgrund der wachsenden Nachfrage nach flexiblen Arbeitsformen führt die Firma Nordlicht Logistik zum 1. September eine neue Regelung ein. Sie gilt für alle Angestellten, auch für Werkstudenten und Praktikanten. Alle Angaben in diesem Text sind für die Übung erfunden.\n\n1. Homeoffice: Das Arbeiten von zu Hause ist an bis zu zwei Tagen pro Woche möglich. Die Genehmigung erteilt der Teamleiter. Bei wichtigen Terminen im Büro kann er die Anwesenheit verlangen, vorausgesetzt, dass er mindestens zwei Tage vorher Bescheid gibt.\n\n2. Dienstgeräte: Die zur Verfügung gestellten Laptops und Handys dürfen nur für die Arbeit genutzt werden. Die Zugangsdaten dürfen nicht an andere Personen weitergegeben werden. Ein Verstoß gegen diese Regel führt zu einem Gespräch mit der Personalabteilung.\n\n3. Arbeitszeit: Die im Homeoffice geleisteten Stunden tragen Sie bitte bis zum Monatsende in die Zeitliste ein. Nicht eingetragene Stunden können nicht berücksichtigt werden.\n\nBei Fragen hinsichtlich der Regelung wenden Sie sich bitte an Frau Kaya in der Personalabteilung. Am 15. August findet ein Treffen für alle Interessierten statt.\n\nMit freundlichen Grüßen\nDie Geschäftsleitung"
+          "text": "Interne Mitteilung\nBetreff: Neue Regelung zum Arbeiten im Homeoffice\n\nLiebe Kolleginnen und Kollegen,\n\naufgrund der wachsenden Nachfrage nach flexiblen Arbeitsformen führt die Firma Nordlicht Logistik zum 1. September eine neue Regelung ein. Sie gilt für alle Angestellten, auch für Werkstudenten und Praktikanten. Alle Angaben in diesem Text sind für die Übung erfunden.\n\n1. Homeoffice: Das Arbeiten von zu Hause ist an bis zu zwei Tagen pro Woche möglich. Die Genehmigung erteilt der Teamleiter. Bei wichtigen Terminen im Büro kann er die Anwesenheit verlangen, vorausgesetzt, dass er mindestens zwei Tage vorher Bescheid gibt.\n\n2. Dienstgeräte: Die zur Verfügung gestellten Laptops und Handys dürfen nur für die Arbeit genutzt werden. Die Zugangsdaten dürfen nicht an andere Personen weitergegeben werden. Ein Verstoß gegen diese Regel führt zu einem Gespräch mit der Personalabteilung.\n\n3. Arbeitszeit: Die im Homeoffice geleisteten Stunden tragen Sie bitte bis zum Monatsende in die Zeitliste ein. Nicht eingetragene Stunden können nicht berücksichtigt werden.\n\nBei Fragen hinsichtlich der Regelung wenden Sie sich bitte an Frau Berger in der Personalabteilung. Am 15. August findet ein Treffen für alle Interessierten statt.\n\nMit freundlichen Grüßen\nDie Geschäftsleitung"
         },
         "items": [
           {
@@ -14699,10 +14343,10 @@
             "options": [
               "An den Teamleiter.",
               "An die Geschäftsleitung.",
-              "An Frau Kaya in der Personalabteilung."
+              "An Frau Berger in der Personalabteilung."
             ],
             "answer": [
-              "An Frau Kaya in der Personalabteilung."
+              "An Frau Berger in der Personalabteilung."
             ]
           }
         ]
@@ -14784,11 +14428,11 @@
         "id": "hoeren-verhandlung-laptops",
         "skill": "listening",
         "format": "Verhandlungsgespräch am Telefon: Auswahl",
-        "instructions": "Sie hören ein Telefongespräch zwischen Frau Kramer aus dem Einkauf einer Firma und Herrn Lenz, einem Händler. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben 1 bis 6. Welche Antwort passt?",
+        "instructions": "Sie hören ein Telefongespräch zwischen Frau Albrecht aus der Fachschaft einer Universität und Herrn Pohl von einem Catering-Service. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben 1 bis 6. Welche Antwort passt?",
         "minutes": 12,
         "points": 15,
         "material": {
-          "text": "Frau Kramer: Guten Tag, Herr Lenz. Es geht um unsere Bestellung von zwölf Laptops für die neuen Praktikanten.\nHerr Lenz: Guten Tag, Frau Kramer. Ja, leider gibt es einen Engpass beim Hersteller. Die Laptops kommen nicht wie geplant in einer Woche, sondern erst in drei Wochen.\nFrau Kramer: Drei Wochen sind zu lang. Die Praktikanten fangen schon am ersten Montag des Monats an. Könnten Sie wenigstens einen Teil früher liefern?\nHerr Lenz: Sechs Laptops kann ich in zehn Tagen schicken. Die anderen sechs kommen dann in drei Wochen.\nFrau Kramer: Das wäre eine Lösung, vorausgesetzt, dass Sie uns beim Preis entgegenkommen. Wegen der Verzögerung müssen wir die Einarbeitung neu planen.\nHerr Lenz: Ich kann Ihnen vier Prozent Preisnachlass anbieten. Mehr kann ich ohne meinen Chef nicht entscheiden.\nFrau Kramer: Vier Prozent sind uns zu wenig. Wir hatten an acht Prozent gedacht. Andernfalls müssen wir bei einem anderen Händler bestellen.\nHerr Lenz: Gut, ich frage meinen Chef noch heute. Ich rufe Sie morgen bis zehn Uhr zurück.\nFrau Kramer: Einverstanden. Und noch etwas: Die Rechnung sollte erst dreißig Tage nach der zweiten Lieferung fällig sein, nicht vierzehn Tage nach der ersten.\nHerr Lenz: Das ist nur möglich, wenn die zweite Lieferung nicht später als in drei Wochen kommt.\nFrau Kramer: Das ist in Ordnung. Dann halten wir fest: Sechs Laptops in zehn Tagen, sechs in drei Wochen, der Preisnachlass ist noch offen, und die Rechnung ist dreißig Tage nach der zweiten Lieferung fällig.\nHerr Lenz: Genau. Ich schicke Ihnen heute noch die Bestätigung per E-Mail.",
+          "text": "Frau Albrecht: Guten Tag, Herr Pohl. Es geht um das Essen für unseren Infoabend am Donnerstag in drei Wochen. Wir haben achtzig Portionen bestellt.\nHerr Pohl: Guten Tag, Frau Albrecht. Leider gibt es ein Problem. Wegen eines defekten Ofens in der Küche kann ich nur fünfzig warme Portionen liefern.\nFrau Albrecht: Fünfzig sind zu wenig. Schon über siebzig Gäste haben sich angemeldet. Gibt es eine andere Möglichkeit?\nHerr Pohl: Ich könnte dazu dreißig kalte Platten liefern. Die sind etwas günstiger als das warme Essen.\nFrau Albrecht: Das wäre eine Lösung, vorausgesetzt, dass Sie uns beim Preis entgegenkommen. Wir müssen die Gäste ja informieren, dass es nicht nur warmes Essen gibt.\nHerr Pohl: Ich kann Ihnen die Getränke kostenlos anbieten, unter der Bedingung, dass Sie die Bestellung bis Freitag bestätigen. Mehr kann ich ohne meine Chefin nicht entscheiden.\nFrau Albrecht: Das ist ein Anfang. Wir brauchen die Lieferung aber schon um sechzehn Uhr, nicht erst um siebzehn Uhr. Andernfalls schaffen wir den Aufbau nicht rechtzeitig.\nHerr Pohl: Sechzehn Uhr ist schwierig. Ich frage morgen früh den Fahrer und rufe Sie bis zwölf Uhr zurück.\nFrau Albrecht: Einverstanden. Und noch etwas: Die endgültige Zahl der Gäste kann ich Ihnen erst am Montag vor dem Infoabend sagen, nicht schon nächste Woche.\nHerr Pohl: Das geht, wenn Sie mir die Zahl bis zwölf Uhr schicken.\nFrau Albrecht: Gut. Dann halten wir fest: Fünfzig warme Portionen und dreißig kalte Platten, Getränke kostenlos, Lieferung möglichst schon um sechzehn Uhr, und die endgültige Gästezahl kommt am Montag bis zwölf Uhr.\nHerr Pohl: Genau. Ich schicke Ihnen heute noch die Bestätigung per E-Mail.",
           "playsAllowed": 2
         },
         "items": [
@@ -14797,77 +14441,77 @@
             "question": "1. Worum geht es in dem Gespräch?",
             "type": "multiple-choice",
             "options": [
-              "Um die Bestellung von Laptops für Praktikanten.",
-              "Um die Rechnung für neue Möbel.",
-              "Um die Reparatur eines alten Geräts."
+              "Um das Essen für einen Infoabend.",
+              "Um die Reservierung eines Restaurants.",
+              "Um die Reparatur eines Ofens."
             ],
             "answer": [
-              "Um die Bestellung von Laptops für Praktikanten."
+              "Um das Essen für einen Infoabend."
             ]
           },
           {
             "id": "grund-verzoegerung",
-            "question": "2. Warum kommen die Laptops später?",
+            "question": "2. Warum kann Herr Pohl nicht alle warmen Portionen liefern?",
             "type": "multiple-choice",
             "options": [
-              "Die Firma hat zu spät bestellt.",
-              "Beim Hersteller gibt es einen Engpass.",
-              "Der Transport dauert wegen Bauarbeiten länger."
+              "Es fehlt Personal in der Küche.",
+              "Ein Ofen in der Küche ist defekt.",
+              "Die Zutaten sind zu teuer geworden."
             ],
             "answer": [
-              "Beim Hersteller gibt es einen Engpass."
+              "Ein Ofen in der Küche ist defekt."
             ]
           },
           {
             "id": "teilloesung",
-            "question": "3. Was bietet Herr Lenz als Teillösung an?",
+            "question": "3. Was bietet Herr Pohl zusätzlich an?",
             "type": "multiple-choice",
             "options": [
-              "Alle zwölf Laptops in zwei Wochen.",
-              "Sechs Laptops in zehn Tagen.",
-              "Zwölf Leihgeräte sofort."
+              "Dreißig kalte Platten.",
+              "Dreißig warme Portionen am nächsten Tag.",
+              "Eine kleinere Bestellung zum halben Preis."
             ],
             "answer": [
-              "Sechs Laptops in zehn Tagen."
+              "Dreißig kalte Platten."
             ]
           },
           {
-            "id": "preisnachlass",
-            "question": "4. Wie reagiert Frau Kramer auf vier Prozent Preisnachlass?",
+            "id": "getraenke-bedingung",
+            "question": "4. Unter welcher Bedingung sind die Getränke kostenlos?",
             "type": "multiple-choice",
             "options": [
-              "Sie nimmt das Angebot sofort an.",
-              "Sie möchte acht Prozent.",
-              "Sie lehnt jeden Preisnachlass ab."
+              "Wenn Frau Albrecht die Bestellung bis Freitag bestätigt.",
+              "Wenn die Chefin von Herrn Pohl zustimmt.",
+              "Wenn die Gäste ihre Teller selbst abräumen."
             ],
             "answer": [
-              "Sie möchte acht Prozent."
+              "Wenn Frau Albrecht die Bestellung bis Freitag bestätigt."
             ]
           },
           {
-            "id": "aufgabe-lenz",
-            "question": "5. Was will Herr Lenz tun?",
+            "id": "forderung-lieferzeit",
+            "question": "5. Was verlangt Frau Albrecht außerdem?",
             "type": "multiple-choice",
             "options": [
-              "Seinen Chef fragen und morgen zurückrufen.",
-              "Frau Kramer morgen besuchen.",
-              "Die Bestellung heute ablehnen."
+              "Eine Rechnung vor dem Infoabend.",
+              "Eine Lieferung schon um sechzehn Uhr.",
+              "Eine zweite Lieferung am Abend."
             ],
             "answer": [
-              "Seinen Chef fragen und morgen zurückrufen."
+              "Eine Lieferung schon um sechzehn Uhr."
             ]
           },
           {
-            "id": "zahlungsziel-bedingung",
-            "question": "6. Unter welcher Bedingung ist das spätere Zahlungsziel möglich?",
+            "id": "gaestezahl",
+            "question": "6. Wann schickt Frau Albrecht die endgültige Gästezahl?",
             "type": "multiple-choice",
             "options": [
-              "Wenn die zweite Lieferung nicht später als in drei Wochen kommt.",
-              "Wenn Frau Kramer mehr Laptops bestellt.",
-              "Wenn der Chef von Herrn Lenz zustimmt."
+              "Am Montag vor dem Infoabend bis zwölf Uhr.",
+              "Schon nächste Woche am Freitag.",
+              "Am Donnerstag vor dem Infoabend um sechzehn Uhr."
             ],
             "answer": [
-              "Wenn die zweite Lieferung nicht später als in drei Wochen kommt."
+              "Am Montag vor dem Infoabend bis zwölf Uhr."
             ]
           }
         ]
@@ -14880,66 +14524,67 @@
         "minutes": 10,
         "points": 10,
         "material": {
-          "text": "So, ich fasse kurz zusammen, was wir heute beschlossen haben. Erstens: Die Frist für den Zwischenbericht wird um eine Woche verschoben, und zwar auf den 20. Juni. Zweitens: Jonas übernimmt die Auswertung der Umfrage. Dafür kümmert sich Mira um die Erinnerung an die Befragten. Sie schickt sie schon morgen. Drittens: Die Besprechung nächste Woche findet nicht im Büro statt, sondern virtuell, weil zwei Kollegen auf Dienstreise sind. Beginn ist um zehn Uhr. Viertens: Die Schulung kostet etwa 800 Euro. Die Entscheidung darüber treffen wir erst im nächsten Monat. Bitte lesen Sie bis dahin das Angebot. Das Protokoll schicke ich heute Nachmittag an den Verteiler.",
+          "text": "So, kurz zum Abschluss, was wir heute entschieden haben. Erstens: Der Infostand für die Erstsemester wird um zwei Tage vorverlegt, und zwar auf den 8. Oktober. Zweitens: Paul übernimmt die Plakate. Dafür kümmert sich Svenja um die Anmeldungen. Sie schickt die Liste schon übermorgen. Drittens: Das Treffen der Helferinnen und Helfer findet nicht in der Bibliothek statt, sondern im Hörsaal 3, weil dort mehr Platz ist. Beginn ist um neun Uhr. Viertens: Die neuen Plakatständer kosten etwa 450 Euro. Ob wir sie kaufen, entscheiden wir erst in zwei Wochen. Bitte vergleichen Sie bis dahin die Angebote. Das Protokoll wird heute Nachmittag an den Verteiler geschickt.",
           "playsAllowed": 2
         },
         "items": [
           {
-            "id": "frist",
-            "question": "1. Auf welches Datum wird die Frist für den Zwischenbericht verschoben?",
+            "id": "datum",
+            "question": "1. Auf welches Datum wird der Infostand vorverlegt?",
             "type": "short-answer",
             "answer": [
-              "20. Juni",
-              "auf den 20. Juni",
-              "zwanzigster Juni",
-              "auf den zwanzigsten Juni"
+              "8. Oktober",
+              "auf den 8. Oktober",
+              "achter Oktober",
+              "auf den achten Oktober"
             ]
           },
           {
-            "id": "auswertung",
-            "question": "2. Wer übernimmt die Auswertung der Umfrage?",
+            "id": "plakate",
+            "question": "2. Wer übernimmt die Plakate?",
             "type": "short-answer",
             "answer": [
-              "Jonas"
+              "Paul"
             ]
           },
           {
-            "id": "mira",
-            "question": "3. Was macht Mira morgen?",
+            "id": "anmeldeliste",
+            "question": "3. Was schickt Svenja übermorgen?",
             "type": "short-answer",
             "answer": [
-              "Sie schickt die Erinnerung",
-              "Sie schickt die Erinnerung an die Befragten",
-              "die Erinnerung schicken",
-              "Erinnerung schicken"
+              "die Liste",
+              "die Liste der Anmeldungen",
+              "die Anmeldungen",
+              "die Anmeldeliste"
             ]
           },
           {
-            "id": "besprechung-form",
-            "question": "4. Wie findet die Besprechung nächste Woche statt?",
+            "id": "treffen-ort",
+            "question": "4. Wo findet das Treffen der Helferinnen und Helfer statt?",
             "type": "short-answer",
             "answer": [
-              "virtuell",
-              "online"
+              "im Hörsaal 3",
+              "Hörsaal 3",
+              "in Hörsaal 3"
             ]
           },
           {
-            "id": "schulung-entscheidung",
-            "question": "5. Wann wird über die Schulung entschieden?",
+            "id": "entscheidung-plakatstaender",
+            "question": "5. Wann wird über die Plakatständer entschieden?",
             "type": "short-answer",
             "answer": [
-              "im nächsten Monat",
-              "nächsten Monat",
-              "erst im nächsten Monat"
+              "in zwei Wochen",
+              "erst in zwei Wochen"
             ]
           },
           {
             "id": "protokoll",
-            "question": "6. Wohin schickt die Teamleiterin das Protokoll?",
+            "question": "6. Wann wird das Protokoll verschickt?",
             "type": "short-answer",
             "answer": [
-              "an den Verteiler",
-              "Verteiler"
+              "heute Nachmittag",
+              "heute am Nachmittag",
+              "am Nachmittag"
             ]
           }
         ]
@@ -14948,7 +14593,7 @@
         "id": "sprechen-vorstellungsgespraech",
         "skill": "speaking",
         "format": "Vorstellungsgespräch führen",
-        "instructions": "Sie bewerben sich als Werkstudentin oder Werkstudent in der Planungsabteilung der Firma Nordlicht Logistik. Herr Brandt, der Personalleiter, führt mit Ihnen ein Vorstellungsgespräch. Stellen Sie sich vor und sagen Sie, warum Sie die Stelle möchten. Berichten Sie von einer Erfahrung, die zur Stelle passt, und sagen Sie, was Sie damit erreicht haben. Antworten Sie auf die Frage nach Ihren Schwächen. Nennen Sie Ihre Gehaltsvorstellung und begründen Sie sie. Stellen Sie am Ende mindestens zwei Fragen zur Stelle. Alle Angaben der Firma sind für die Übung erfunden.",
+        "instructions": "Sie bewerben sich als Werkstudentin oder Werkstudent in der Planungsabteilung der Firma Nordlicht Logistik. Herr Winkler, der Personalleiter, führt mit Ihnen ein Vorstellungsgespräch. Stellen Sie sich vor und sagen Sie, warum Sie die Stelle möchten. Berichten Sie von einer Erfahrung, die zur Stelle passt, und sagen Sie, was Sie damit erreicht haben. Antworten Sie auf die Frage nach Ihren Schwächen. Nennen Sie Ihre Gehaltsvorstellung und begründen Sie sie. Stellen Sie am Ende mindestens zwei Fragen zur Stelle. Alle Angaben der Firma sind für die Übung erfunden.",
         "minutes": 12,
         "points": 25,
         "talkScenario": "ts-b22-vorstellungsgespraech-werkstudent",
@@ -15013,7 +14658,7 @@
                 "rationale": "Task completion 1: avoids the salary expectation and asks no question about the job, so two of five parts are missing. Interaction 1: starts in English, searches for words, answers stay short. Grammar 1: 'weil sie ist interessant', 'in ein Büro', 'Telefon gemacht'. Vocabulary 1: simple and repetitive, 'Telefon gemacht' for 'telefoniert' shows missing job vocabulary."
               },
               {
-                "response": "Guten Tag, Herr Brandt. Mein Name ist Andrés, ich komme aus Ecuador und ich studiere Maschinenbau im dritten Semester. Die Stelle ist interessant für mich, weil ich möchte lernen über Planung.\nIch habe schon gearbeitet als Verkäufer. Ich habe mit Kunden gesprochen und Waren kontrolliert.\nMeine Stärke ist Teamarbeit. Eine Schwäche habe ich nicht, glaube ich.\nDas Gehalt ist normal für mich. Wie viel Sie zahlen?\nIch habe keine anderen Fragen.",
+                "response": "Guten Tag, Herr Winkler. Mein Name ist Andrés, ich komme aus Ecuador und ich studiere Maschinenbau im dritten Semester. Die Stelle ist interessant für mich, weil ich möchte lernen über Planung.\nIch habe schon gearbeitet als Verkäufer. Ich habe mit Kunden gesprochen und Waren kontrolliert.\nMeine Stärke ist Teamarbeit. Eine Schwäche habe ich nicht, glaube ich.\nDas Gehalt ist normal für mich. Wie viel Sie zahlen?\nIch habe keine anderen Fragen.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 2,
@@ -15038,7 +14683,7 @@
                 "rationale": "Task completion 2: all five parts are there; the experience has a result (fewer errors), the salary expectation has a reason, two questions are asked. Interaction 2: connected and polite answers of several sentences, no help needed. Grammar 1: repeated word order errors ('weil ich arbeiten in der Planung will', 'Dort ich habe', 'Jetzt ich frage') and no B2.2 structure; this pulls the grammar band down. Vocabulary 2: uses Gehaltsvorstellung, Schichten, Bestellungen, Homeoffice, keeps to Sie."
               },
               {
-                "response": "Guten Tag, Herr Brandt. Ich heiße Chris und ich komme aus Kanada. Ich studiere Informatik an der Universität in Leipzig, im sechsten Semester. Ich interessiere mich für die Stelle, weil ich möchte Erfahrung in einer Firma sammeln und weil Logistik ein wichtiges Thema ist.\nIch habe ein Praktikum in einer Firma gemacht, wo ich Daten ausgewertet habe. Ich habe eine Tabelle erstellt, und die Abteilungsleiterin war zufrieden mit mein Ergebnis.\nEine Schwäche ist, dass ich nicht gern präsentiere. Ich übe das jetzt vor Freunden.\nIch möchte 14 Euro pro Stunde verdienen. Das finde ich normal für einen Werkstudenten.\nWie sieht die Einarbeitung aus? Und wann bekomme ich eine Antwort?",
+                "response": "Guten Tag, Herr Winkler. Ich heiße Chris und ich komme aus Kanada. Ich studiere Informatik an der Universität in Leipzig, im sechsten Semester. Ich interessiere mich für die Stelle, weil ich möchte Erfahrung in einer Firma sammeln und weil Logistik ein wichtiges Thema ist.\nIch habe ein Praktikum in einer Firma gemacht, wo ich Daten ausgewertet habe. Ich habe eine Tabelle erstellt, und die Abteilungsleiterin war zufrieden mit mein Ergebnis.\nEine Schwäche ist, dass ich nicht gern präsentiere. Ich übe das jetzt vor Freunden.\nIch möchte 14 Euro pro Stunde verdienen. Das finde ich normal für einen Werkstudenten.\nWie sieht die Einarbeitung aus? Und wann bekomme ich eine Antwort?",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15048,7 +14693,7 @@
                 "rationale": "Task completion 2: covers all parts simply; the salary expectation has only a weak reason ('normal') and the questions are generic. Interaction 2: speaks without long pauses and answers in connected sentences. Grammar 2: mostly correct, with one verb-position error ('weil ich möchte') and one case error ('mit mein Ergebnis'). Vocabulary 1: correct but plain; repeats 'Firma' and uses few words of the field (Einarbeitung and Abteilungsleiterin are the exceptions)."
               },
               {
-                "response": "Guten Tag, Herr Brandt. Ich bin Lucía Romero aus Chile. Ich studiere Betriebswirtschaft im fünften Semester. Ich suche diese Stelle, weil ich in der Planung arbeiten möchte und weil die Firma einen guten Namen hat.\nLetztes Jahr habe ich bei einer Firma für Büromöbel gearbeitet. Ich habe Termine mit Lieferanten gemacht und die Lieferungen kontrolliert. Das war viel Verantwortung, aber ich habe es gut geschafft.\nMeine Schwäche ist, dass ich sehr ungeduldig bin. Wenn etwas nicht schnell geht, werde ich nervös. Ich versuche, mehr zu planen.\nAls Gehalt denke ich an 15 Euro, aber ich bin flexibel. Was ist üblich bei Ihnen?\nIch habe eine Frage: Welche Programme benutzen Sie? Und arbeiten Sie viel mit Kunden im Ausland?",
+                "response": "Guten Tag, Herr Winkler. Ich bin Lucía Romero aus Chile. Ich studiere Betriebswirtschaft im fünften Semester. Ich suche diese Stelle, weil ich in der Planung arbeiten möchte und weil die Firma einen guten Namen hat.\nLetztes Jahr habe ich bei einer Firma für Büromöbel gearbeitet. Ich habe Termine mit Lieferanten gemacht und die Lieferungen kontrolliert. Das war viel Verantwortung, aber ich habe es gut geschafft.\nMeine Schwäche ist, dass ich sehr ungeduldig bin. Wenn etwas nicht schnell geht, werde ich nervös. Ich versuche, mehr zu planen.\nAls Gehalt denke ich an 15 Euro, aber ich bin flexibel. Was ist üblich bei Ihnen?\nIch habe eine Frage: Welche Programme benutzen Sie? Und arbeiten Sie viel mit Kunden im Ausland?",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15063,7 +14708,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Guten Tag, Herr Brandt. Ich heiße Marta Ruiz, ich komme aus Spanien und studiere im sechsten Semester Maschinenbau. Mich interessiert die Stelle, weil ich in der Planung praktische Erfahrung sammeln und mein Wissen aus dem Studium anwenden möchte.\nIm letzten Jahr habe ich in einem Lager gearbeitet. Dort habe ich die Bestellungen kontrolliert und einen neuen Schichtplan entwickelt. Dadurch hat sich die Zeit bis zum Versand um etwa ein Viertel verkürzt.\nEine Schwäche von mir ist, dass ich mir manchmal zu viel vornehme. Ich habe gelernt, zuerst zu fragen, welche Aufgabe Priorität hat, und ich plane jeden Montag meine Woche.\nMeine Gehaltsvorstellung liegt bei 15 Euro pro Stunde, vorausgesetzt, dass die Aufgaben dem Anforderungsprofil entsprechen. Aufgrund meiner Erfahrung halte ich das für angemessen, aber ich bin gesprächsbereit.\nIch hätte noch zwei Fragen: Wie sieht die Einarbeitung aus, und mit welchen Programmen arbeitet das Team?",
+                "response": "Guten Tag, Herr Winkler. Ich heiße Marta Ruiz, ich komme aus Spanien und studiere im sechsten Semester Maschinenbau. Mich interessiert die Stelle, weil ich in der Planung praktische Erfahrung sammeln und mein Wissen aus dem Studium anwenden möchte.\nIm letzten Jahr habe ich in einem Lager gearbeitet. Dort habe ich die Bestellungen kontrolliert und einen neuen Schichtplan entwickelt. Dadurch hat sich die Zeit bis zum Versand um etwa ein Viertel verkürzt.\nEine Schwäche von mir ist, dass ich mir manchmal zu viel vornehme. Ich habe gelernt, zuerst zu fragen, welche Aufgabe Priorität hat, und ich plane jeden Montag meine Woche.\nMeine Gehaltsvorstellung liegt bei 15 Euro pro Stunde, vorausgesetzt, dass die Aufgaben dem Anforderungsprofil entsprechen. Aufgrund meiner Erfahrung halte ich das für angemessen, aber ich bin gesprächsbereit.\nIch hätte noch zwei Fragen: Wie sieht die Einarbeitung aus, und mit welchen Programmen arbeitet das Team?",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15073,7 +14718,7 @@
                 "rationale": "Task completion 3: convincing motivation, a concrete result with a figure, a weakness with a strategy, a justified salary expectation with a condition, two good questions. Interaction 3: fluent and well organised, keeps a professional tone. Grammar 3: correct subordinate clauses and Konjunktiv II, and B2.2 structures used naturally (vorausgesetzt, dass; aufgrund + genitive). Vocabulary 3: precise job vocabulary (Anforderungsprofil, Gehaltsvorstellung, Einarbeitung, Priorität)."
               },
               {
-                "response": "Guten Tag, Herr Brandt, vielen Dank für die Einladung. Ich bin Tom Evans, vierundzwanzig Jahre alt, aus Irland. Ich studiere Wirtschaftsinformatik im dritten Semester, und die Planung von Lieferungen interessiert mich besonders, weil man dort Zahlen und Organisation verbinden kann.\nBei meinem Nebenjob in einem Café musste ich oft Entscheidungen unter Zeitdruck treffen. Als unser Lieferant zu spät war, habe ich schnell einen Ersatz organisiert, sodass wir nie ohne Ware dastanden.\nZu meinen Schwächen gehört, dass ich anfangs zu perfektionistisch bin. Deshalb setze ich mir jetzt feste Fristen für jede Aufgabe.\nIch stelle mir 14 Euro pro Stunde vor. Ich weiß, dass das für Anfänger normal ist, aber ich bin bereit, schnell mehr Verantwortung zu übernehmen.\nDarf ich fragen, wie groß das Team ist und ob man im Homeoffice arbeiten kann?",
+                "response": "Guten Tag, Herr Winkler, vielen Dank für die Einladung. Ich bin Tom Evans, vierundzwanzig Jahre alt, aus Irland. Ich studiere Wirtschaftsinformatik im dritten Semester, und die Planung von Lieferungen interessiert mich besonders, weil man dort Zahlen und Organisation verbinden kann.\nBei meinem Nebenjob in einem Café musste ich oft Entscheidungen unter Zeitdruck treffen. Als unser Lieferant zu spät war, habe ich schnell einen Ersatz organisiert, sodass wir nie ohne Ware dastanden.\nZu meinen Schwächen gehört, dass ich anfangs zu perfektionistisch bin. Deshalb setze ich mir jetzt feste Fristen für jede Aufgabe.\nIch stelle mir 14 Euro pro Stunde vor. Ich weiß, dass das für Anfänger normal ist, aber ich bin bereit, schnell mehr Verantwortung zu übernehmen.\nDarf ich fragen, wie groß das Team ist und ob man im Homeoffice arbeiten kann?",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15083,7 +14728,7 @@
                 "rationale": "Task completion 3: every part with detail; the example (a late supplier) has a clear result. Interaction 3: smooth, thanks at the start, a polite closing question. Grammar 3: sodass, als-clause, dass-clauses and the Funktionsverbgefüge 'Entscheidungen treffen' used correctly. Vocabulary 2: appropriate and correct, but narrower than the first sample; it uses few words of the application field and no B2 noun phrases."
               },
               {
-                "response": "Guten Tag, Herr Brandt. Mein Name ist Luis Herrera, ich komme aus Mexiko und studiere im achten Semester, Entschuldigung, im neunten Semester Wirtschaftsingenieurwesen. Mich reizt die Stelle, weil sie Planung und Datenanalyse verbindet.\nIm Praktikum habe ich Tabellen zur Lagerbewegung ausgewertet und einen Bericht für die Abteilungsleiterin geschrieben. Aufgrund meines Berichts wurde der Bestand im Lager neu geordnet.\nIch sage manchmal nicht sofort, wenn ich Hilfe brauche. Deshalb habe ich beschlossen, bei Problemen nach spätestens einer Stunde nachzufragen.\nHinsichtlich des Gehalts halte ich 15 Euro für angemessen, falls die Arbeitszeiten flexibel sind. Im Gegenzug wäre ich bereit, in den Semesterferien mehr Stunden zu übernehmen.\nWelche Aufgaben würde ich in den ersten Wochen übernehmen? Und gibt es Möglichkeiten zur Weiterbildung?",
+                "response": "Guten Tag, Herr Winkler. Mein Name ist Luis Herrera, ich komme aus Mexiko und studiere im achten Semester, Entschuldigung, im neunten Semester Wirtschaftsingenieurwesen. Mich reizt die Stelle, weil sie Planung und Datenanalyse verbindet.\nIm Praktikum habe ich Tabellen zur Lagerbewegung ausgewertet und einen Bericht für die Abteilungsleiterin geschrieben. Aufgrund meines Berichts wurde der Bestand im Lager neu geordnet.\nIch sage manchmal nicht sofort, wenn ich Hilfe brauche. Deshalb habe ich beschlossen, bei Problemen nach spätestens einer Stunde nachzufragen.\nHinsichtlich des Gehalts halte ich 15 Euro für angemessen, falls die Arbeitszeiten flexibel sind. Im Gegenzug wäre ich bereit, in den Semesterferien mehr Stunden zu übernehmen.\nWelche Aufgaben würde ich in den ersten Wochen übernehmen? Und gibt es Möglichkeiten zur Weiterbildung?",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15228,24 +14873,24 @@
                 "rationale": "Task completion 3: all figures correct, the comparison 'mehr als eine Verdopplung', a ranking of the criticisms, a fazit that follows from the data, and a justified recommendation; about 140 words. Text structure 3: headed parts, impersonal style (Befragt wurden), the recommendation answers the criticism. Grammar 3: passive, nominal phrases (Verdopplung, Kritikpunkt), correct prepositions with figures, no errors. Vocabulary and spelling 3: precise (Anteil, entspricht, Kritikpunkt, beurteilen, ausstatten); spelling correct."
               },
               {
-                "response": "Kurzbericht: Homeoffice in der Firma Nordlicht Logistik\n\n1. Ziel: Dieser Bericht fasst die Ergebnisse einer Umfrage zum Homeoffice zusammen. 150 Beschäftigte haben teilgenommen.\n2. Ergebnisse: Vor einem Jahr arbeiteten 20 Prozent der Beschäftigten im Homeoffice, heute sind es 45 Prozent. Die Zufriedenheit ist hoch: 78 Prozent der Befragten sind zufrieden. Dagegen äußern 22 Prozent Unzufriedenheit. Am häufigsten wird der fehlende Kontakt zum Team kritisiert (38 Prozent), gefolgt von der technischen Ausstattung zu Hause (27 Prozent). Unklare Arbeitszeiten spielen mit 15 Prozent eine kleinere Rolle.\n3. Fazit: Das Homeoffice hat sich bewährt. Trotz der guten Werte besteht bei der Teamarbeit Verbesserungsbedarf.\n4. Empfehlung: Wir empfehlen, einen festen Bürotag pro Woche für das ganze Team einzuführen und für Homeoffice-Arbeitsplätze einen Zuschuss zu prüfen.",
+                "response": "Kurzbericht: Homeoffice in der Firma Nordlicht Logistik\n\n1. Ziel: Dieser Bericht fasst die Ergebnisse einer Umfrage zum Homeoffice zusammen. 150 Beschäftigte haben teilgenommen.\n2. Ergebnisse: Vor einem Jahr arbeiteten 20 Prozent der Beschäftigten im Homeoffice, heute sind es 45 Prozent. Die Zufriedenheit ist hoch: 78 Prozent der Befragten sind zufrieden. Dagegen äußern 22 Prozent Unzufriedenheit. Am häufigsten wird der fehlende Kontakt zum Team kritisiert (38 Prozent), gefolgt von der technischen Ausstattung zu Hause (27 Prozent). Unklare Arbeitszeiten spielen mit 15 Prozent eine kleinere Rolle.\n3. Fazit: Das Homeoffice hat sich bewährt. Trotz der guten Werte besteht bei der Teamarbeit Verbesserungsbedarf.\n4. Empfehlung: Empfohlen wird, einen festen Bürotag pro Woche für das ganze Team einzuführen und für Homeoffice-Arbeitsplätze einen Zuschuss zu prüfen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "text-structure": 3,
                   "grammar": 3,
                   "vocabulary-spelling": 3
                 },
-                "rationale": "Task completion 3: every figure, a clear ranking and a concrete, sensible recommendation; about 135 words. Text structure 3: numbered parts, neutral passive (wird kritisiert), connectors (dagegen, trotz). Grammar 3: varied tenses, passive, 'trotz + genitive', 'gefolgt von'; no errors. Vocabulary and spelling 3: precise and varied (bewährt, Verbesserungsbedarf, Zuschuss, äußern); 'Wir empfehlen' is slightly personal but accepted in a team report."
+                "rationale": "Task completion 3: every figure, a clear ranking and a concrete, sensible recommendation; about 135 words. Text structure 3: numbered parts, neutral passive (wird kritisiert), connectors (dagegen, trotz). Grammar 3: varied tenses, passive, 'trotz + genitive', 'gefolgt von'; no errors. Vocabulary and spelling 3: precise and varied (bewährt, Verbesserungsbedarf, Zuschuss, äußern); the recommendation is impersonal ('Empfohlen wird, …'), as the task asks."
               },
               {
-                "response": "Bericht zur Homeoffice-Umfrage\nIm Auftrag der Personalabteilung wurde eine Umfrage unter 150 Beschäftigten durchgeführt. Ziel war es, die Erfahrungen mit dem Homeoffice zu erfassen.\nDie Umfrage zeigt, dass sich der Anteil der Homeoffice-Nutzer seit dem letzten Jahr mehr als verdoppelt hat: Er stieg von 20 auf 45 Prozent. 78 Prozent der Befragten sind mit dieser Arbeitsform zufrieden. Die 22 Prozent Unzufriedenen kritisieren vor allem den fehlenden Kontakt zum Team (38 Prozent der Befragten) sowie die technische Ausstattung zu Hause (27 Prozent). Unklare Arbeitszeiten werden nur von 15 Prozent genannt.\nZusammenfassend lässt sich sagen, dass das Homeoffice bei den meisten gut ankommt. Aufgrund der Kritik am Teamkontakt empfehle ich, regelmäßige Treffen im Büro zu organisieren. Außerdem sollte die Firma prüfen, ob sie die Ausstattung zu Hause verbessern kann.",
+                "response": "Bericht zur Homeoffice-Umfrage\nIm Auftrag der Personalabteilung wurde eine Umfrage unter 150 Beschäftigten durchgeführt. Ziel war es, die Erfahrungen mit dem Homeoffice zu erfassen.\nDie Umfrage zeigt, dass sich der Anteil der Homeoffice-Nutzer seit dem letzten Jahr mehr als verdoppelt hat: Er stieg von 20 auf 45 Prozent. 78 Prozent der Befragten sind mit dieser Arbeitsform zufrieden. Die 22 Prozent Unzufriedenen kritisieren vor allem den fehlenden Kontakt zum Team (38 Prozent der Befragten) sowie die technische Ausstattung zu Hause (27 Prozent). Unklare Arbeitszeiten werden nur von 15 Prozent genannt.\nZusammenfassend lässt sich sagen, dass das Homeoffice bei den meisten gut ankommt. Aufgrund der Kritik am Teamkontakt wird empfohlen, regelmäßige Treffen im Büro zu organisieren. Außerdem sollte die Firma prüfen, ob sie die Ausstattung zu Hause verbessern kann.",
                 "criterionBands": {
                   "task-completion": 3,
                   "text-structure": 2,
                   "grammar": 3,
                   "vocabulary-spelling": 3
                 },
-                "rationale": "Task completion 3: all figures, the trend, a fazit and two recommendations with a reason. Text structure 2: logical, but no visible headings and 'empfehle ich' is personal. Grammar 3: passive, 'seit dem letzten Jahr', 'aufgrund der Kritik', correct subordinate clauses; very few slips. Vocabulary and spelling 3: precise (erfassen, Nutzer, Arbeitsform, zusammenfassend lässt sich sagen)."
+                "rationale": "Task completion 3: all figures, the trend, a fazit and two recommendations with a reason. Text structure 2: logical and impersonal ('wird empfohlen'), but no visible headings. Grammar 3: passive, 'seit dem letzten Jahr', 'aufgrund der Kritik', correct subordinate clauses; very few slips. Vocabulary and spelling 3: precise (erfassen, Nutzer, Arbeitsform, zusammenfassend lässt sich sagen)."
               }
             ]
           }
