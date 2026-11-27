@@ -2787,7 +2787,8 @@
           },
           "prompt": "Wir fliegen / nach Lissabon / im Mai / mit einer Freundin",
           "answers": [
-            "Wir fliegen im Mai mit einer Freundin nach Lissabon."
+            "Wir fliegen im Mai mit einer Freundin nach Lissabon.",
+            "Wir fliegen mit einer Freundin im Mai nach Lissabon."
           ]
         },
         {

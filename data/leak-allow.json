@@ -26,5 +26,10 @@
       "reason": "Fixed discourse formula for gaining time before answering a question."
     }
   ],
-  "scriptRuns": []
+  "scriptRuns": [
+    {
+      "phrase": "Vielen Dank für die Einladung",
+      "reason": "Fixed opening thanks of an interview; an anchor may open with it like the practice script does, and the next words must still differ."
+    }
+  ]
 }

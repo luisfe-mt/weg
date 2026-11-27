@@ -1156,14 +1156,15 @@
         {
           "type": "say",
           "instruction": {
-            "en": "Say aloud when you get up and when you go shopping.",
-            "es": "Di en voz alta a qué hora te levantas y cuándo haces la compra."
+            "en": "Say aloud when you call your mother and when you go shopping.",
+            "es": "Di en voz alta a qué hora llamas a tu madre y cuándo haces la compra."
           },
-          "prompt": "aufstehen: um sechs Uhr / einkaufen: am Samstag",
+          "prompt": "meine Mutter anrufen: um halb sechs / einkaufen: am Samstag",
           "answers": [
-            "Ich stehe um sechs Uhr auf. Am Samstag kaufe ich ein.",
-            "Ich stehe um sechs Uhr auf, und am Samstag kaufe ich ein.",
-            "Ich stehe um sechs Uhr auf. Ich kaufe am Samstag ein."
+            "Ich rufe meine Mutter um halb sechs an. Am Samstag kaufe ich ein.",
+            "Um halb sechs rufe ich meine Mutter an. Am Samstag kaufe ich ein.",
+            "Ich rufe um halb sechs meine Mutter an, und am Samstag kaufe ich ein.",
+            "Ich rufe meine Mutter um halb sechs an. Ich kaufe am Samstag ein."
           ]
         }
       ],
@@ -2273,7 +2274,7 @@
         {
           "de": "Ich habe gestern Abend lange gelernt.",
           "en": "I studied for a long time last night.",
-          "es": "Anoche estudié mucho rato."
+          "es": "Anoche estudié un buen rato."
         },
         {
           "de": "Was hast du gestern gemacht?",

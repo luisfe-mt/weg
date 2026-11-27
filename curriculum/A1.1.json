@@ -2389,7 +2389,7 @@
         {
           "de": "Ich möchte einen Saft, bitte.",
           "en": "I would like a juice, please.",
-          "es": "Quisiera un zumo, por favor."
+          "es": "Quisiera un jugo, por favor."
         },
         {
           "de": "Ich kaufe einen Apfel und eine Banane.",
@@ -8324,7 +8324,7 @@
       "example": {
         "de": "Mein Mitbewohner spricht gut Englisch.",
         "en": "My flatmate speaks good English.",
-        "es": "Mi compañero de piso habla bien inglés."
+        "es": "Mi compañero de casa habla bien inglés."
       },
       "sublevel": "A1.1",
       "frequencyRank": 2954
@@ -12250,7 +12250,7 @@
       "example": {
         "de": "Ich möchte einen Saft.",
         "en": "I would like a juice.",
-        "es": "Quisiera un zumo."
+        "es": "Quisiera un jugo."
       },
       "sublevel": "A1.1",
       "frequencyRank": 6902
