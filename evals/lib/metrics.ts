@@ -127,6 +127,19 @@ export function overallBand(criterionBands: Record<string, number>, weights: Rec
   return total ? Math.floor(sum / total + 0.5) : 0;
 }
 
+export const EXAMINER_MAX_FALSE_PASS = 0.05;
+
+/**
+ * Share of failing anchors the Examiner passes with high confidence. A low-confidence score never
+ * passes a gate on its own (a person checks it), so it is not a false pass: marking doubt is the
+ * right answer when unsure. An invalid reply gives no score and so no pass.
+ */
+export function falsePassRate(scored: Array<{ anchor: number; overall: number | undefined; low: boolean }>, passing: Set<number>) {
+  const failing = scored.filter((s) => !passing.has(s.anchor));
+  const falsePasses = failing.filter((s) => s.overall !== undefined && passing.has(s.overall) && !s.low).length;
+  return { failingAnchors: failing.length, falsePasses, rate: failing.length ? falsePasses / failing.length : 0 };
+}
+
 // ---- Partner -----------------------------------------------------------------
 
 // Words that are English and never German, so a German turn cannot contain them by accident.

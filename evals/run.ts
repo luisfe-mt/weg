@@ -71,6 +71,7 @@ const runs = models.flatMap((model) => {
         score: result.score,
         bar: result.bar,
         pass: result.pass,
+        limits: result.limits ?? [],
         items: result.items,
         invalid: result.invalid,
         extra: result.extra,

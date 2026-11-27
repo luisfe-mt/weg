@@ -128,8 +128,8 @@ The app uses AI in four roles, and each role has written rules plus a test it mu
 | --- | --- | --- | --- | --- |
 | **Partner** (Talk) | Plays the other person in a scenario at your level | Stay in role; speak only at your sublevel's vocabulary and grammar; keep turns short; slow down when asked | Switch to English unasked; correct you mid-conversation; invent facts about German law or offices | Level-fit rate on scripted test dialogues meets the bar |
 | **Coach** (feedback) | Comments after a turn or a text | Give a hint first so you can self-correct; then the fix with the rule named; limit to the 3 most important errors | Rewrite your whole text; praise without content; flag style as an error | Precision on gold learner sentences 75% or more |
-| **Generator** (input, drills) | Writes texts, audio scripts, drills | Use 95% or more known words; use today's grammar; natural German | Use words outside the allowed list beyond 5%; copy copyrighted texts | Coverage check passes automatically on every text |
-| **Examiner** (gates) | Scores gate tasks on the rubric | Score each criterion separately with a reason; mark low confidence | Pass a gate on a guess; give a CEFR "certificate" | Within one band of the human anchors on 80% of samples |
+| **Generator** (input, drills) | Writes texts, audio scripts, drills | Use 95% or more known words; use today's grammar; natural German | Use words outside the allowed list beyond 5%; copy copyrighted texts | 90% of texts reach 95% known words after one repair; the coverage check rejects every other text, so none is shown |
+| **Examiner** (gates) | Scores gate tasks on the rubric | Score each criterion separately with a reason; mark low confidence | Pass a gate on a guess; give a CEFR "certificate" | Within one band of the human anchors on 80% of samples, and 5% or fewer of failing anchors passed without a low-confidence mark |
 
 **Guardrails across all roles.**
 

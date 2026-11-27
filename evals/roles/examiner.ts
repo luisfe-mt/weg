@@ -1,7 +1,7 @@
 // Examiner: share of gate anchor samples scored within one band of the human anchor (bar 80%).
 // The anchors live in each sublevel's gate in curriculum/; every sample's band is the human score.
 import { sample, type GateTask, type Rubric } from "../lib/data.ts";
-import { overallBand } from "../lib/metrics.ts";
+import { EXAMINER_MAX_FALSE_PASS, falsePassRate, overallBand } from "../lib/metrics.ts";
 import { pct } from "./coach.ts";
 import type { RoleContext, RoleResult } from "./types.ts";
 
@@ -59,8 +59,11 @@ export async function runExaminer(ctx: RoleContext): Promise<RoleResult> {
   let criteriaWithin = 0;
   let criteriaTotal = 0;
   let passAgree = 0;
-  let falsePass = 0;
   let low = 0;
+  let disagreements = 0;
+  let flaggedDisagreements = 0;
+  // Pass or fail per item, so rubrics with different passing bands compare on one scale (1 = passes).
+  const passScores: Array<{ anchor: number; overall: number | undefined; low: boolean }> = [];
   let invalid = 0;
   let done = 0;
 
@@ -91,6 +94,7 @@ export async function runExaminer(ctx: RoleContext): Promise<RoleResult> {
         invalid++;
         failures.push(`${item.id}: invalid reply`);
         records.push({ id: item.id, anchor: item.band, invalid: true });
+        passScores.push({ anchor: passing.has(item.band) ? 1 : 0, overall: undefined, low: false });
       } else {
         const overall = overallBand(parsed.bands, weights);
         const diff = Math.abs(overall - item.band);
@@ -98,8 +102,11 @@ export async function runExaminer(ctx: RoleContext): Promise<RoleResult> {
         else failures.push(`${item.id}: scored ${overall}, anchor ${item.band} (${JSON.stringify(parsed.bands)})`);
         if (diff === 0) exact++;
         if (passing.has(overall) === passing.has(item.band)) passAgree++;
-        // A pass the human did not give, without a low-confidence mark, is the failure the north star forbids.
-        if (passing.has(overall) && !passing.has(item.band) && !parsed.low) falsePass++;
+        else {
+          disagreements++;
+          if (parsed.low) flaggedDisagreements++;
+        }
+        passScores.push({ anchor: passing.has(item.band) ? 1 : 0, overall: passing.has(overall) ? 1 : 0, low: parsed.low });
         if (parsed.low) low++;
         for (const c of item.rubric.criteria) {
           criteriaTotal++;
@@ -112,20 +119,24 @@ export async function runExaminer(ctx: RoleContext): Promise<RoleResult> {
   );
 
   const score = items.length ? within / items.length : 0;
+  // A pass the human did not give, without a low-confidence mark, is the failure the north star forbids.
+  const fp = falsePassRate(passScores, new Set([1]));
   return {
     role: "examiner",
     metric: "within one band",
     score,
     bar: EXAMINER_BAR,
-    pass: score >= EXAMINER_BAR,
+    pass: score >= EXAMINER_BAR && fp.rate <= EXAMINER_MAX_FALSE_PASS,
+    limits: [{ metric: "false pass", score: fp.rate, max: EXAMINER_MAX_FALSE_PASS }],
     items: items.length,
     invalid,
     extra: {
       exact: pct(exact / items.length),
       "criteria within one": pct(criteriaTotal ? criteriaWithin / criteriaTotal : 0),
       "pass/fail agree": pct(passAgree / items.length),
-      "unflagged false passes": String(falsePass),
+      "false passes": `${fp.falsePasses}/${fp.failingAnchors} failing anchors`,
       "low confidence": String(low),
+      "pass/fail disagreements marked low": `${flaggedDisagreements}/${disagreements}`,
     },
     failures: failures.sort().slice(0, 10),
     records: records.sort((a, b) => String((a as { id: string }).id).localeCompare(String((b as { id: string }).id))),

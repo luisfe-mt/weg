@@ -12,8 +12,8 @@ You measure whether a model with a prompt is good enough for one of Weg's four A
 | Role | Metric | Bar |
 | --- | --- | --- |
 | Coach | Precision of flagged errors on `gold/corrections.jsonl` | 75% or more |
-| Generator | Share of generated texts that pass the code coverage check | Every text at 95% or more known words |
-| Examiner | Scores within one band of the gate anchors | 80% of samples or more |
+| Generator | Share of generated texts at 95% or more known words after one repair (the code check rejects the rest) | 90% of texts or more |
+| Examiner | Scores within one band of the gate anchors; false passes: failing anchors passed with high confidence | 80% of samples or more; false passes 5% or less |
 | Partner | Level-fit rate on `gold/talk_scenarios.jsonl` scripts | The bar set in `evals/` |
 
 ## Steps

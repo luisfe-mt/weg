@@ -14,6 +14,8 @@ export interface Summary {
   score: number;
   bar: number;
   pass: boolean;
+  /** Metrics that must stay at or under max. Older results files have none. */
+  limits?: Array<{ metric: string; score: number; max: number }>;
   items: number;
   invalid: number;
   extra: Record<string, string>;
@@ -58,8 +60,8 @@ export function renderScoreboard(summaries: Summary[], currentVersions: Record<s
   const bars: Record<string, string> = {
     partner: "90% of partner turns fit the level",
     coach: "precision 75% or more",
-    generator: "every text at 95% known words (one retry)",
-    examiner: "80% of anchors within one band",
+    generator: "90% of texts at 95% known words after one repair",
+    examiner: "80% of anchors within one band, and 5% or fewer confident passes of failing anchors",
   };
   for (const role of ROLE_ORDER) {
     const v = currentVersions[role] ?? "?";
@@ -77,7 +79,7 @@ export function renderScoreboard(summaries: Summary[], currentVersions: Record<s
     const details = Object.entries(s.extra)
       .map(([k, v]) => `${k} ${v}`)
       .join("; ");
-    lines.push(`| ${s.role} | ${s.model} | ${s.promptVersion} | ${s.sample === null ? "full" : `sample ${s.sample}`} | ${s.date} | ${s.metric} | ${pct(s.score)} | ${pct(s.bar)} | ${s.pass ? "pass" : "**fail**"} | ${s.items} | ${s.invalid} | ${details} |`);
+    lines.push(`| ${s.role} | ${s.model} | ${s.promptVersion} | ${s.sample === null ? "full" : `sample ${s.sample}`} | ${s.date} | ${s.metric} | ${[pct(s.score), ...(s.limits ?? []).map((l) => `${l.metric} ${pct(l.score)}`)].join("; ")} | ${[`≥ ${pct(s.bar)}`, ...(s.limits ?? []).map((l) => `${l.metric} ≤ ${pct(l.max)}`)].join("; ")} | ${s.pass ? "pass" : "**fail**"} | ${s.items} | ${s.invalid} | ${details} |`);
   }
   lines.push("", "## Failures of the current prompt versions", "", "Up to ten per run, with gold or anchor ids, for the next prompt change.", "");
   for (const s of sorted.filter((x) => x.promptVersion === currentVersions[x.role] && x.failures.length)) {

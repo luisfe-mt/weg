@@ -5,8 +5,8 @@
 | Role | Input from the gold bank | Metric | Bar |
 | --- | --- | --- | --- |
 | Coach | `gold/corrections.jsonl`, one learner sentence per call | Precision of flags: a flag is true when it points at a gold error; any flag on a correct sentence or a `mustNotFlag` phrase is false. Recall is reported too. | Precision 75% |
-| Generator | `gold/leveled_texts.jsonl`: sublevel, text type, theme, grammar and length of each text, never the text | Share of texts at 95% known words or more, by the same coverage code as CI (`scripts/lib/lemma.mjs`), with one gateway retry that names the unknown words | Every text |
-| Examiner | Gate anchors in `curriculum/*.json` (the human-scored sample answers) | Overall band (weighted mean of criterion bands) within one band of the anchor | 80% of samples |
+| Generator | `gold/leveled_texts.jsonl`: sublevel, text type, theme, grammar and length of each text, never the text | Share of texts at 95% known words or more, by the same coverage code as CI (`scripts/lib/lemma.mjs`), with one repair that sends the draft back with its unknown words. The app's code check rejects the rest. | 90% of texts |
+| Examiner | Gate anchors in `curriculum/*.json` (the human-scored sample answers) | Overall band (weighted mean of criterion bands) within one band of the anchor; false passes: failing anchors scored as a pass without a low-confidence mark | 80% of samples, and false passes 5% or less |
 | Partner | `gold/talk_scenarios.jsonl`: the scripted learner lines are played one by one | Share of partner turns that fit: within the word limit, 90% known words, in German, no correction of the learner | 90% of turns |
 
 Gold items are test data. They go into the user message of a call as the input under test, never into a prompt file.

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { coachTotals, correctsLearner, flagMatches, foreignShare, overallBand, scoreCoachItem, turnProblems, wordCount } from "./metrics.ts";
+import { coachTotals, correctsLearner, falsePassRate, flagMatches, foreignShare, overallBand, scoreCoachItem, turnProblems, wordCount } from "./metrics.ts";
 
 describe("coach matching", () => {
   const s = "Heute ich gehe zur Uni.";
@@ -80,5 +80,22 @@ describe("partner turn checks", () => {
     expect(wordCount("– Guten Tag! Wie geht's?")).toBe(4);
     expect(turnProblems({ words: 20, maxWords: 12, coverage: 0.8, foreign: 0, corrects: false })).toEqual(["too-long (20/12)", "above-level (80% known)"]);
     expect(turnProblems({ words: 8, maxWords: 12, coverage: 1, foreign: 0, corrects: false })).toEqual([]);
+  });
+});
+
+describe("examiner false passes", () => {
+  const passing = new Set([2, 3]);
+  it("counts confident passes of failing anchors only", () => {
+    const scored = [
+      { anchor: 1, overall: 2, low: false }, // false pass
+      { anchor: 1, overall: 2, low: true }, // flagged: a person checks it, so it is not a pass
+      { anchor: 0, overall: 1, low: false },
+      { anchor: 1, overall: undefined, low: false }, // invalid reply: no score, no pass
+      { anchor: 3, overall: 2, low: false }, // passing anchor: not counted
+    ];
+    expect(falsePassRate(scored, passing)).toEqual({ failingAnchors: 4, falsePasses: 1, rate: 0.25 });
+  });
+  it("is zero when no anchor fails", () => {
+    expect(falsePassRate([{ anchor: 2, overall: 2, low: false }], passing).rate).toBe(0);
   });
 });
