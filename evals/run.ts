@@ -3,6 +3,7 @@
 //
 //   node evals/run.ts                                   every role on every model (full run)
 //   node evals/run.ts --role coach --model openai/gpt-oss-20b
+//   node evals/run.ts --role partner,generator,coach,examiner --in-order   the nightly run: roles in priority order
 //   node evals/run.ts --role coach --sample 40          quick sample: shown on the scoreboard as a sample, never admits a model
 //
 // The key comes from GROQ_API_KEY (environment or the git-ignored .env). It is never printed or written.
@@ -53,9 +54,12 @@ const today = new Date().toISOString().slice(0, 10);
 const slug = (s: string) => s.replace(/[^a-z0-9.]+/gi, "-");
 
 // Models run in parallel (their limits are separate); roles on one model share its rate-limited queue.
-const runs = models.flatMap((model) => {
+// With --in-order, a model's roles run one after another in the order of --role, so the daily token cap
+// is spent on the first roles first; once the cap is reached, the model's remaining roles are skipped.
+const inOrder = process.argv.includes("--in-order");
+const runs = models.map(async (model) => {
   const client = new RateLimitedClient(model, apiKey, path.join(root, "evals", ".cache"));
-  return wantRoles.map(async (role) => {
+  const runRole = async (role: string): Promise<"done" | "capped" | "failed"> => {
     const prompt = loadPrompt(role);
     const log = (line: string) => console.log(`[${model.id}] ${line}`);
     const started = Date.now();
@@ -81,11 +85,25 @@ const runs = models.flatMap((model) => {
       log(`${role}: ${result.metric} ${(result.score * 100).toFixed(1)}% (bar ${(result.bar * 100).toFixed(0)}%) ${result.pass ? "PASS" : "FAIL"} · ${result.items} items, ${result.invalid} invalid · ${Math.round((Date.now() - started) / 1000)} s · ${client.requests} calls, ${client.tokens} tokens, ${client.cached} from cache (model total)`);
       for (const [k, v] of Object.entries(result.extra)) log(`  ${k}: ${v}`);
       for (const f of result.failures.slice(0, 5)) log(`  ✗ ${f}`);
+      return "done";
     } catch (e) {
       // A run that stops part-way is not scored: a partial score would be a number nobody measured.
-      log(`${role}: stopped, not recorded: ${(e as Error).message.slice(0, 160)}. Run the same command again after the cap resets: finished calls are cached in evals/.cache/.`);
+      const message = (e as Error).message;
+      log(`${role}: stopped, not recorded: ${message.slice(0, 160)}. Run the same command again after the cap resets: finished calls are cached in evals/.cache/.`);
+      return message.startsWith("daily limit") ? "capped" : "failed";
     }
-  });
+  };
+  if (!inOrder) {
+    await Promise.all(wantRoles.map(runRole));
+    return;
+  }
+  for (const [i, role] of wantRoles.entries()) {
+    if ((await runRole(role)) === "capped") {
+      const rest = wantRoles.slice(i + 1);
+      if (rest.length) console.log(`[${model.id}] daily cap reached; skipped until the next run: ${rest.join(", ")}`);
+      return;
+    }
+  }
 });
 await Promise.all(runs);
 
