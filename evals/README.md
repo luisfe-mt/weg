@@ -18,13 +18,16 @@ The key comes from `GROQ_API_KEY`, from the environment or the git-ignored `.env
 ```
 node evals/run.ts                                    full run: every role on every model; updates results/ and scoreboard.md
 node evals/run.ts --role coach --model openai/gpt-oss-20b
-node evals/run.ts --role coach,partner --sample 30    quick check while changing a prompt: writes .runs/, not the scoreboard
+node evals/run.ts --role coach,partner --sample 30    quick check while changing a prompt: shown as a sample, never admits a model
 ```
 
-Groq's free tier allows about 8000 tokens a minute and 1000 requests a day per model. The client keeps a one-minute token window, retries 429 and 5xx with backoff, and stops a run on a daily cap. A run that stops part-way is not recorded. A full run of all four roles is about 800 calls per model and takes a few hours.
+Groq's free tier allows, per model, about 8000 tokens a minute, 1000 requests a day and **200,000 tokens a day**. The daily tokens are the real limit: a full run of the gold bank is roughly 300k tokens for the Coach, 1.4M for the Examiner, 0.5M for the Generator and 0.3M for the Partner, so a full run of one role on one model takes one to seven days of free quota.
+
+So every reply is cached in `evals/.cache/` (git-ignored) under a hash of the exact request. When the daily cap stops a run, the run is not recorded; run the same command the next day and it continues from the cache. A prompt change changes the hash, so everything is asked again. The client also keeps a one-minute token window and retries 429 and 5xx with backoff. An invalid reply is retried once, as the gateway does; a second invalid reply counts against the score.
 
 ## Files
 
 - `run.ts`: command line. `roles/`: one file per role. `lib/metrics.ts`: the scoring rules, unit-tested in `lib/metrics.test.ts`.
-- `results/<role>__<model>__v<version>.json`: summary and every item's parsed output for one full run. Committed, so a score can be audited.
+- `results/<role>__<model>__v<version>.json`: summary and every item's parsed output for one full run. Committed, so a score can be audited. Only a full run admits a model to a role.
+- `results/samples/…__n<N>.json`: sample runs, shown on the scoreboard for direction only.
 - `scoreboard.md`: generated from `results/`. Older prompt versions stay as history.

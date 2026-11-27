@@ -4,6 +4,11 @@
 //
 // Limits are per model: about 8000 tokens and 1000 requests a day at the time of writing. The client
 // keeps a one-minute token window under the limit, honours retry-after on 429, and backs off on 5xx.
+// The daily cap (about 200k tokens per model) is the real limit: a full run takes several days, so
+// replies are cached on disk and a rerun picks up where the cap stopped it.
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import path from "node:path";
 
 export interface ModelConfig {
   id: string;
@@ -32,20 +37,38 @@ export class RateLimitedClient {
   private queue: Promise<unknown> = Promise.resolve();
   requests = 0;
   tokens = 0;
+  cached = 0;
+  private readonly cacheDir: string;
 
   private readonly model: ModelConfig;
   private readonly apiKey: string;
 
-  constructor(model: ModelConfig, apiKey: string) {
+  constructor(model: ModelConfig, apiKey: string, cacheRoot: string) {
     this.model = model;
     this.apiKey = apiKey;
+    this.cacheDir = path.join(cacheRoot, model.id.replace(/[^a-z0-9.]+/gi, "-"));
   }
 
-  /** One chat completion that must return a JSON object. Calls to one model run one at a time. */
-  chat(messages: Message[], maxTokens: number): Promise<Reply> {
+  /**
+   * One chat completion that must return a JSON object. Calls to one model run one at a time.
+   * A reply is cached under a hash of the exact request (model, params, messages, attempt), so a run
+   * stopped by the daily token cap resumes where it stopped, and a prompt change re-asks everything.
+   */
+  async chat(messages: Message[], maxTokens: number, attempt = 0): Promise<Reply> {
+    const key = createHash("sha256")
+      .update(JSON.stringify([this.model.id, this.model.params ?? {}, maxTokens, attempt, messages]))
+      .digest("hex");
+    const file = path.join(this.cacheDir, `${key}.json`);
+    if (existsSync(file)) {
+      this.cached++;
+      return JSON.parse(readFileSync(file, "utf8")) as Reply;
+    }
     const run = this.queue.then(() => this.send(messages, maxTokens));
     this.queue = run.catch(() => undefined);
-    return run;
+    const reply = await run;
+    mkdirSync(this.cacheDir, { recursive: true });
+    writeFileSync(file, JSON.stringify(reply));
+    return reply;
   }
 
   /**
@@ -54,7 +77,7 @@ export class RateLimitedClient {
    */
   async chatJson(messages: Message[], maxTokens: number, accept: (o: Record<string, unknown>) => boolean = () => true): Promise<Record<string, unknown> | undefined> {
     for (let attempt = 0; attempt < 2; attempt++) {
-      const parsed = parseJsonObject((await this.chat(messages, maxTokens)).content);
+      const parsed = parseJsonObject((await this.chat(messages, maxTokens, attempt)).content);
       if (parsed && accept(parsed)) return parsed;
     }
     return undefined;

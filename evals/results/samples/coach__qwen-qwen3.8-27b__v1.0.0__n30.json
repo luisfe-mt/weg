@@ -1,0 +1,372 @@
+{
+  "role": "coach",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "1.0.0",
+  "date": "2026-11-27",
+  "sample": 30,
+  "metric": "precision",
+  "score": 0.9,
+  "bar": 0.75,
+  "pass": true,
+  "items": 30,
+  "invalid": 0,
+  "extra": {
+    "recall": "76.9%",
+    "flags": "20",
+    "false flags": "2",
+    "mustNotFlag hit": "0",
+    "correct sentences flagged": "0/7",
+    "note": "rescored with the evals of commit after 1.0.0 (fix must carry the gold fix)"
+  },
+  "failures": [
+    "gc-0001 missed: \"habe\"→\"bin\", \"\"→\"alt\" in \"Ich habe 24 Jahre.\"",
+    "gc-0011 missed: \"von\"→\"aus\" in \"Ich komme von Kolumbien.\"",
+    "gc-0031 false flag: \"habe\"→\"habe ... gespielt\" in \"Ich habe gestern Fußball spielen.\"",
+    "gc-0061 missed: \"für\"→\"seit\", \"Monate\"→\"Monaten\" in \"Ich lerne Deutsch für sechs Monate.\"",
+    "gc-0181 missed: \"Aktuell,\"→\"Aktuell\", \"ich wohne\"→\"wohne ich\" in \"Aktuell, ich wohne nicht in Berlin, sondern in Potsdam.\"",
+    "gc-0211 missed: \"zurückgekommt\"→\"zurückgekommen\" in \"Ich bin mit dem Zug nach Hause zurückgekommt.\"",
+    "gc-0271 missed: \"Schluss, ich möchte\"→\"Schluss möchte ich\" in \"Zum Schluss, ich möchte sagen, dass wir alle Verantwortung tragen.\""
+  ],
+  "records": [
+    {
+      "id": "gc-0001",
+      "flags": [
+        {
+          "wrong": "habe 24 Jahre",
+          "right": "bin 24 Jahre alt"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 2
+    },
+    {
+      "id": "gc-0011",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 1
+    },
+    {
+      "id": "gc-0021",
+      "flags": [
+        {
+          "wrong": "kostet",
+          "right": "kostet das"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0031",
+      "flags": [
+        {
+          "wrong": "habe",
+          "right": "habe ... gespielt"
+        }
+      ],
+      "trueFlags": 0,
+      "falseFlags": 1,
+      "found": 0,
+      "expected": 1
+    },
+    {
+      "id": "gc-0041",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    },
+    {
+      "id": "gc-0051",
+      "flags": [
+        {
+          "wrong": "mag sehr die",
+          "right": "mag die Stadt sehr"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0061",
+      "flags": [
+        {
+          "wrong": "für",
+          "right": "seit"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 2
+    },
+    {
+      "id": "gc-0071",
+      "flags": [
+        {
+          "wrong": "einen neuer",
+          "right": "einen neuen"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0081",
+      "flags": [
+        {
+          "wrong": "freue auf",
+          "right": "freue mich auf"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0091",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    },
+    {
+      "id": "gc-0101",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    },
+    {
+      "id": "gc-0111",
+      "flags": [
+        {
+          "wrong": "verliert",
+          "right": "verloren"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0121",
+      "flags": [
+        {
+          "wrong": "in",
+          "right": "für"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0131",
+      "flags": [
+        {
+          "wrong": "nicht weil",
+          "right": "nicht, weil"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0141",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    },
+    {
+      "id": "gc-0151",
+      "flags": [
+        {
+          "wrong": "ich war ein Kind",
+          "right": "ich ein Kind war"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0161",
+      "flags": [
+        {
+          "wrong": "Guten Kaffee",
+          "right": "Guter Kaffee"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0171",
+      "flags": [
+        {
+          "wrong": "ausfüllen",
+          "right": "ausgefüllt"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0181",
+      "flags": [
+        {
+          "wrong": "Aktuell, ich",
+          "right": "Aktuell wohne ich"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 2
+    },
+    {
+      "id": "gc-0191",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    },
+    {
+      "id": "gc-0201",
+      "flags": [
+        {
+          "wrong": "kommst pünktlich",
+          "right": "pünktlich kommst"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0211",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 1
+    },
+    {
+      "id": "gc-0221",
+      "flags": [
+        {
+          "wrong": "auf das",
+          "right": "vom"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0231",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    },
+    {
+      "id": "gc-0241",
+      "flags": [
+        {
+          "wrong": "sollen",
+          "right": "sollte"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0251",
+      "flags": [
+        {
+          "wrong": "hat",
+          "right": "haben"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0261",
+      "flags": [
+        {
+          "wrong": "wachsend",
+          "right": "wachsendes"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0271",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 1
+    },
+    {
+      "id": "gc-0281",
+      "flags": [
+        {
+          "wrong": "Verspetung",
+          "right": "Verspätung"
+        }
+      ],
+      "trueFlags": 1,
+      "falseFlags": 0,
+      "found": 1,
+      "expected": 1
+    },
+    {
+      "id": "gc-0291",
+      "flags": [],
+      "trueFlags": 0,
+      "falseFlags": 0,
+      "found": 0,
+      "expected": 0
+    }
+  ]
+}

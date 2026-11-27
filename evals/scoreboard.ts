@@ -1,6 +1,6 @@
 // Builds evals/scoreboard.md from the full-run summaries in evals/results/. One results file per
 // role, model and prompt version, so older prompt versions stay on the board as history.
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { loadPrompt, root } from "./lib/data.ts";
 
@@ -25,18 +25,23 @@ const pct = (x: number) => `${(x * 100).toFixed(1)}%`;
 const cmpVersion = (a: string, b: string) => a.localeCompare(b, "en", { numeric: true });
 
 export function readSummaries(dir = path.join(root, "evals", "results")): Summary[] {
-  return readdirSync(dir)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => {
+  const files = [
+    ...readdirSync(dir).filter((f) => f.endsWith(".json")),
+    ...(existsSync(path.join(dir, "samples")) ? readdirSync(path.join(dir, "samples")).filter((f) => f.endsWith(".json")).map((f) => path.join("samples", f)) : []),
+  ];
+  return files.map((f) => {
       const { records: _records, ...summary } = JSON.parse(readFileSync(path.join(dir, f), "utf8")) as Summary & { records: unknown };
       void _records;
       return summary;
     });
 }
 
-/** The model that serves a role: the first in models.json order (cheapest first) that passes with the current prompt. */
+/**
+ * The model that serves a role: the first in models.json order (cheapest first) that passes a full run
+ * with the current prompt. A sample run shows the direction; it never admits a model.
+ */
 export function servingModel(summaries: Summary[], role: string, currentVersion: string, modelOrder: string[]): string | undefined {
-  return modelOrder.find((m) => summaries.some((s) => s.role === role && s.model === m && s.promptVersion === currentVersion && s.pass));
+  return modelOrder.find((m) => summaries.some((s) => s.role === role && s.model === m && s.promptVersion === currentVersion && s.sample === null && s.pass));
 }
 
 export function renderScoreboard(summaries: Summary[], currentVersions: Record<string, string>, modelOrder: string[]): string {
@@ -60,19 +65,23 @@ export function renderScoreboard(summaries: Summary[], currentVersions: Record<s
     const v = currentVersions[role] ?? "?";
     lines.push(`| ${role} | ${v} | ${servingModel(summaries, role, v, modelOrder) ?? "**none passes: role blocked**"} | ${bars[role]} |`);
   }
-  lines.push("", "## Runs", "", "| Role | Model | Prompt | Date | Metric | Score | Bar | Result | Items | Invalid | Details |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |");
+  lines.push("", "## Runs", "", "| Role | Model | Prompt | Run | Date | Metric | Score | Bar | Result | Items | Invalid | Details |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |");
   const sorted = [...summaries].sort(
-    (a, b) => ROLE_ORDER.indexOf(a.role) - ROLE_ORDER.indexOf(b.role) || cmpVersion(b.promptVersion, a.promptVersion) || modelOrder.indexOf(a.model) - modelOrder.indexOf(b.model),
+    (a, b) =>
+      ROLE_ORDER.indexOf(a.role) - ROLE_ORDER.indexOf(b.role) ||
+      cmpVersion(b.promptVersion, a.promptVersion) ||
+      Number(a.sample !== null) - Number(b.sample !== null) ||
+      modelOrder.indexOf(a.model) - modelOrder.indexOf(b.model),
   );
   for (const s of sorted) {
     const details = Object.entries(s.extra)
       .map(([k, v]) => `${k} ${v}`)
       .join("; ");
-    lines.push(`| ${s.role} | ${s.model} | ${s.promptVersion} | ${s.date} | ${s.metric} | ${pct(s.score)} | ${pct(s.bar)} | ${s.pass ? "pass" : "**fail**"} | ${s.items} | ${s.invalid} | ${details} |`);
+    lines.push(`| ${s.role} | ${s.model} | ${s.promptVersion} | ${s.sample === null ? "full" : `sample ${s.sample}`} | ${s.date} | ${s.metric} | ${pct(s.score)} | ${pct(s.bar)} | ${s.pass ? "pass" : "**fail**"} | ${s.items} | ${s.invalid} | ${details} |`);
   }
   lines.push("", "## Failures of the current prompt versions", "", "Up to ten per run, with gold or anchor ids, for the next prompt change.", "");
   for (const s of sorted.filter((x) => x.promptVersion === currentVersions[x.role] && x.failures.length)) {
-    lines.push(`### ${s.role} · ${s.model} · ${s.promptVersion}`, "");
+    lines.push(`### ${s.role} · ${s.model} · ${s.promptVersion}${s.sample === null ? "" : ` · sample ${s.sample}`}`, "");
     for (const f of s.failures) lines.push(`- ${f.replace(/\|/g, "\\|")}`);
     lines.push("");
   }

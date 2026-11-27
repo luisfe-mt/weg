@@ -3,7 +3,7 @@
 //
 //   node evals/run.ts                                   every role on every model (full run)
 //   node evals/run.ts --role coach --model openai/gpt-oss-20b
-//   node evals/run.ts --role coach --sample 40          quick sample: written to evals/.runs/, not the scoreboard
+//   node evals/run.ts --role coach --sample 40          quick sample: shown on the scoreboard as a sample, never admits a model
 //
 // The key comes from GROQ_API_KEY (environment or the git-ignored .env). It is never printed or written.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -47,14 +47,14 @@ for (const r of wantRoles) if (!ROLES[r]) throw new Error(`unknown role ${r}`);
 if (!models.length) throw new Error(`no model matches ${wantModels?.join(",")}`);
 
 const specs = loadSpecs();
-const resultsDir = path.join(root, "evals", sampleSize ? ".runs" : "results");
+const resultsDir = path.join(root, "evals", "results", sampleSize ? "samples" : "");
 mkdirSync(resultsDir, { recursive: true });
 const today = new Date().toISOString().slice(0, 10);
 const slug = (s: string) => s.replace(/[^a-z0-9.]+/gi, "-");
 
 // Models run in parallel (their limits are separate); roles on one model share its rate-limited queue.
 const runs = models.flatMap((model) => {
-  const client = new RateLimitedClient(model, apiKey);
+  const client = new RateLimitedClient(model, apiKey, path.join(root, "evals", ".cache"));
   return wantRoles.map(async (role) => {
     const prompt = loadPrompt(role);
     const log = (line: string) => console.log(`[${model.id}] ${line}`);
@@ -76,20 +76,18 @@ const runs = models.flatMap((model) => {
         extra: result.extra,
         failures: result.failures,
       };
-      const file = path.join(resultsDir, `${role}__${slug(model.id)}__v${prompt.version}.json`);
+      const file = path.join(resultsDir, `${role}__${slug(model.id)}__v${prompt.version}${sampleSize ? `__n${sampleSize}` : ""}.json`);
       writeFileSync(file, JSON.stringify({ ...summary, records: result.records }, null, 2) + "\n");
-      log(`${role}: ${result.metric} ${(result.score * 100).toFixed(1)}% (bar ${(result.bar * 100).toFixed(0)}%) ${result.pass ? "PASS" : "FAIL"} · ${result.items} items, ${result.invalid} invalid · ${Math.round((Date.now() - started) / 1000)} s`);
+      log(`${role}: ${result.metric} ${(result.score * 100).toFixed(1)}% (bar ${(result.bar * 100).toFixed(0)}%) ${result.pass ? "PASS" : "FAIL"} · ${result.items} items, ${result.invalid} invalid · ${Math.round((Date.now() - started) / 1000)} s · ${client.requests} calls, ${client.tokens} tokens, ${client.cached} from cache (model total)`);
       for (const [k, v] of Object.entries(result.extra)) log(`  ${k}: ${v}`);
       for (const f of result.failures.slice(0, 5)) log(`  ✗ ${f}`);
     } catch (e) {
       // A run that stops part-way is not scored: a partial score would be a number nobody measured.
-      log(`${role}: stopped, not recorded: ${(e as Error).message}`);
+      log(`${role}: stopped, not recorded: ${(e as Error).message.slice(0, 160)}. Run the same command again after the cap resets: finished calls are cached in evals/.cache/.`);
     }
   });
 });
 await Promise.all(runs);
 
-if (!sampleSize) {
-  writeScoreboard();
-  console.log("Wrote evals/scoreboard.md");
-}
+writeScoreboard();
+console.log("Wrote evals/scoreboard.md");

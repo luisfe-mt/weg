@@ -1,6 +1,6 @@
 // Generator: share of texts at 95% or more known words, measured by the same coverage code CI uses.
 // Requests come from gold/leveled_texts.jsonl: its sublevel, text type, theme, grammar and length,
-// never its text. The gateway retries a failed text once, naming the unknown words, so a text
+// never its text. The gateway repairs a failed text once, sending the draft and its unknown words, so a text
 // passes if the first or the retried version reaches 95%. The bar is every text.
 import { LEVELS, gold, knownThrough, lemmas, sample, type GoldText, type Spec } from "../lib/data.ts";
 import { coverage } from "../../scripts/lib/lemma.mjs";
@@ -44,11 +44,11 @@ export async function runGenerator(ctx: RoleContext): Promise<RoleResult> {
       const grammar = spec.grammar.filter((g) => t.features.includes(g.id)).map((g) => ({ id: g.id, title: g.title.de ?? g.title.en }));
       const request = { sublevel, textType: t.textType, theme: t.theme, grammar, words: t.wordCount, allowedWordsAre: full ? "every word the learner knows" : "this sublevel's theme words only", allowedWords };
 
-      const attempt = async (avoidWords: string[]) => {
+      const attempt = async (repair?: { draft: string; replaceWords: string[] }) => {
         const reply = await ctx.client.chatJson(
           [
             { role: "system", content: ctx.prompt.system },
-            { role: "user", content: JSON.stringify(avoidWords.length ? { ...request, avoidWords } : request) },
+            { role: "user", content: JSON.stringify(repair ? { ...request, ...repair } : request) },
           ],
           3000,
           (o) => typeof o.text === "string" && o.text.trim() !== "",
@@ -59,8 +59,9 @@ export async function runGenerator(ctx: RoleContext): Promise<RoleResult> {
         return { text, share: c.tokens ? c.knownTokens / c.tokens : 0, unknown: [...new Set(c.unknown)] };
       };
 
-      const first = await attempt([]);
-      const second = first && first.share >= GENERATOR_MIN_COVERAGE ? undefined : await attempt(first?.unknown ?? []);
+      const first = await attempt();
+      // The gateway's one repair: the draft goes back with its unknown words, to be replaced in place.
+      const second = first && first.share >= GENERATOR_MIN_COVERAGE ? undefined : await attempt(first && { draft: first.text, replaceWords: first.unknown });
       if (!first && !second) invalid++;
       const okFirst = !!first && first.share >= GENERATOR_MIN_COVERAGE;
       const ok = okFirst || (!!second && second.share >= GENERATOR_MIN_COVERAGE);

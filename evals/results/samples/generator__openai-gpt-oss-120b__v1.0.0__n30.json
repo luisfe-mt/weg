@@ -1,0 +1,668 @@
+{
+  "role": "generator",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "1.0.0",
+  "date": "2026-11-27",
+  "sample": 30,
+  "metric": "texts at 95% known (with one retry)",
+  "score": 0.6,
+  "bar": 1,
+  "pass": false,
+  "items": 30,
+  "invalid": 0,
+  "extra": {
+    "first attempt": "50.0%"
+  },
+  "failures": [
+    "lt-a2-001 (A2.1): 94.3% then 94.7%; unknown: lassen, Sand, genießen, mitnehmen",
+    "lt-a2-004 (A2.1): 91.8% then 94.4%; unknown: eigen, Pflanze, verschönern, Zuhause",
+    "lt-a2-007 (A2.1): 92.4% then 81.1%; unknown: Plan, gültig, Sauberkeit, eigen, Reinigungsmittel, Wenn, bewohnen, werden",
+    "lt-a2-017 (A2.2): 88.5% then 90.0%; unknown: zurücklegen, Stadtverwaltung, Befragter, schalten, berücksichtigen, Lebensqualität, relevant",
+    "lt-b1-011 (B1.2): 94.2% then 89.4%; unknown: Praktikumsstelle, Marketing, ausgeschrieben, engagiert, einbringen, Fähigkeit, produktiv, mitarbeiten",
+    "lt-b1-014 (B1.2): 90.6% then 89.0%; unknown: Infrastruktur, zusammenarbeiten, bereitstellen, einführen, Zufriedenheit, abwechslungsreich, Ausstattung, kulturell",
+    "lt-b2-007 (B2.3): 94.3% then 94.1%; unknown: Ausschreibung, Innovationsmanager, mittelständisch, Effizienz, analytisch, strukturieren, Arbeitsweise, Schmied",
+    "lt-b2-011 (B2.2): 89.8% then 89.7%; unknown: Ausschreibung, Unternehmenswebseite, Aufgabenbeschreibung, exakt, reizen, interdisziplinär, Projektplanung, Erstellung",
+    "lt-b2-014 (B2.3): 89.4% then 93.3%; unknown: Gesundheitsbewusstsein, ausgewogen, frühzeitig, mental, rücken, Wohlbefinden, verknüpfen",
+    "lt-c1-004 (C1.2): 93.2% then 94.7%; unknown: Prüfungsanmeldung, zweifellos, Terminplanung, unbequem, unbemerkt, verbleiben"
+  ],
+  "records": [
+    {
+      "id": "lt-a1-001",
+      "sublevel": "A1.1",
+      "first": {
+        "share": 1,
+        "unknown": [],
+        "text": "Meine Familie ist klein. Ich habe eine Mutter und einen Vater. Meine Mutter ist Lehrer und mein Vater hat einen Job. Ich habe einen Bruder und eine Schwester. Wir wohnen zusammen in einer Wohnung. Wir sehen oft am Wochenende."
+      }
+    },
+    {
+      "id": "lt-a1-004",
+      "sublevel": "A1.1",
+      "first": {
+        "share": 1,
+        "unknown": [],
+        "text": "Das ist meine Wohnung. Sie ist klein und schön. Es gibt ein Zimmer. Ich habe einen Tisch und zwei Stühle. Die Miete ist nicht teuer. Ich möchte hier bleiben. Es ist gut für mich. Ich wohne mit meinem Freund."
+      }
+    },
+    {
+      "id": "lt-a1-007",
+      "sublevel": "A1.1",
+      "first": {
+        "share": 1,
+        "unknown": [],
+        "text": "– Hallo\n– Hallo. Hast du Hunger?\n– Ja, ich habe Hunger. Ich mag ein Brot und ein Wasser.\n– Hast du auch Durst?\n– Ja, ich habe Durst. Ich mag ein Kaffee.\n– Magst du Milch im Kaffee?\n– Nein, ich habe keine Milch. Ich mag keinen Zucker.\n– Hast du ein Stück Apfel?\n– Ja, ich habe ein Stück Apfel. Es ist gut.\n– Dann essen wir zusammen.\n– Ja, gern"
+      }
+    },
+    {
+      "id": "lt-a1-011",
+      "sublevel": "A1.2",
+      "first": {
+        "share": 0.9512195121951219,
+        "unknown": [
+          "Spaß",
+          "lachen"
+        ],
+        "text": "Am Samstag war ich im Park und ich habe ein Buch. Dann bin ich mit Freunden zum Fußball gehen. Wir haben viel Spaß und wir lachen. Danach war ich zu Hause und ich habe Musik hören. Es war ein schöner Tag."
+      }
+    },
+    {
+      "id": "lt-a1-014",
+      "sublevel": "A1.2",
+      "first": {
+        "share": 0.8888888888888888,
+        "unknown": [
+          "still",
+          "Wenn",
+          "dass"
+        ],
+        "text": "Bitte gehen Sie nicht laut in das Zimmer. Bitte bleiben Sie still. Wenn Sie etwas wollen, geben Sie bitte sagen. Wir wollen, dass jeder gut wohnen kann."
+      },
+      "retry": {
+        "share": 1,
+        "unknown": [],
+        "text": "Miete: Sie geben Name und Nummer in Formular. Sie können Euro geben. Sie sollen Euro geben bis zum ersten Tag. Sie dürfen Euro geben. Wir sind hier."
+      }
+    },
+    {
+      "id": "lt-a1-017",
+      "sublevel": "A1.2",
+      "first": {
+        "share": 0.9821428571428571,
+        "unknown": [
+          "Daten"
+        ],
+        "text": "Anna war gestern in ihrer Arbeit. Sie hatte einen neuen Person. Der Person kam früh und wollte ein großes Problem. Anna hat das Problem jetzt begonnen. Sie hat viele Papier gebracht und die Daten gesehen. Dann war das Treffen sehr gut. Der Mann war gut und hat ihr ein gutes Wort gegeben. Am Abend ist Anna nach Hause gegangen."
+      }
+    },
+    {
+      "id": "lt-a2-001",
+      "sublevel": "A2.1",
+      "first": {
+        "share": 0.9426229508196722,
+        "unknown": [
+          "vorher",
+          "Flugticket",
+          "Gate",
+          "Flugzeug",
+          "besichtigen",
+          "genießen",
+          "weil"
+        ],
+        "text": "Ich habe vorher mein Koffer gepackt und das Flugticket gebucht. Dann bin ich zum Flughafen gefahren und habe dort das Gate gefunden. Das Flugzeug ist pünktlich gestartet und wir sind nach Berlin geflogen. Am Flughafen habe ich ein Taxi genommen und bin zum Hotel gefahren. Das Hotel war sauber und das Zimmer war klein, aber gemütlich. Ich habe die Stadt besichtigt, das Museum besucht und am Abend am Strand am Meer gegessen. Danach bin ich zurück zum Hotel gegangen, habe das Zimmer aufgeräumt und bin früh schlafen gegangen. Am nächsten Tag habe ich das Frühstück im Hotel genossen und bin dann zum Bahnhof gefahren, weil ich den Zug nach München genommen habe. Ich habe die Reise sehr positiv erlebt und möchte bald wieder reisen."
+      },
+      "retry": {
+        "share": 0.9466666666666667,
+        "unknown": [
+          "lassen",
+          "Sand",
+          "genießen",
+          "mitnehmen"
+        ],
+        "text": "Ich habe meinen Koffer gepackt und das Gepäck im Hotel gelassen. Dann bin ich zum Flughafen gefahren. Der Flug war kurz, aber ich habe das Meer sofort gesehen. Danach bin ich zum Strand gelaufen und habe im Sand gesessen. Ich habe ein Buch gelesen und die Sonne genossen. Trotzdem war das Wetter manchmal kühl, deshalb habe ich eine Jacke mitgenommen. Am Abend bin ich zurück ins Hotel gegangen, habe das Zimmer aufgeräumt und dann geschlafen."
+      }
+    },
+    {
+      "id": "lt-a2-004",
+      "sublevel": "A2.1",
+      "first": {
+        "share": 0.9180327868852459,
+        "unknown": [
+          "weil",
+          "Wenn",
+          "Besuch",
+          "Stimmung",
+          "fühlen"
+        ],
+        "text": "Die Wohngemeinschaft ist klein. Wir haben einen großen Schrank und einen Teppich. Letzte Woche haben wir das Bad gebaut, weil das alte nicht mehr funktionierte. Jeden Tag putzen wir das Bad und spülen das Geschirr. Am Mittwoch staubsaugen wir den Teppich zusammen. Wenn Besuch kommt, öffnen wir die Tür sofort. Die Stimmung ist positiv und wir fühlen uns hier sehr wohl."
+      },
+      "retry": {
+        "share": 0.9444444444444444,
+        "unknown": [
+          "eigen",
+          "Pflanze",
+          "verschönern",
+          "Zuhause"
+        ],
+        "text": "In der Stadt gibt es eine kleine Wohngemeinschaft. Das Wohnzimmer steht in der Mitte und die Küche liegt rechts. Jeder Mitbewohner hat ein eigenes Zimmer, das sehr sauber und hell ist. Die Küche ist modern und hat einen großen Tisch, an dem wir oft zusammen essen. Ich helfe meinem Mitbewohner beim Putzen und danke ihm dafür. Auf dem Balkon hängen Pflanzen, die das Zimmer verschönern. Es ist ein gutes Zuhause für Studenten."
+      }
+    },
+    {
+      "id": "lt-a2-007",
+      "sublevel": "A2.1",
+      "first": {
+        "share": 0.9242424242424242,
+        "unknown": [
+          "beachten",
+          "Wechsel",
+          "vorgesehen",
+          "Wenn",
+          "ansprechen"
+        ],
+        "text": "– Liebe Mitbewohnerinnen und Mitbewohner, bitte beachtet die neuen Regeln für die Küche. Ab dem 1. Mai ist das Spülen nur noch im Wechsel vorgesehen. Jeder nutzt sein Geschirr und räumt danach sofort auf. Seit dem 15. April gilt ein neuer Putzplan: mein Teil ist am ersten Mittwoch im Monat, dein Teil am zweiten Mittwoch. Wenn ihr Fragen habt, könnt ihr mich gern ansprechen. Vielen Dank für eure Unterstützung."
+      },
+      "retry": {
+        "share": 0.8105263157894737,
+        "unknown": [
+          "Plan",
+          "gültig",
+          "Sauberkeit",
+          "eigen",
+          "Reinigungsmittel",
+          "Wenn",
+          "bewohnen",
+          "werden",
+          "wöchentlich",
+          "aktualisieren",
+          "reinigen",
+          "weil",
+          "benutzen",
+          "beachten",
+          "dass"
+        ],
+        "text": "– Liebe Mitbewohnerinnen und Mitbewohner, ab dem 3. Mai gilt ein neuer Putzplan. Der Plan ist ab sofort gültig und soll die Sauberkeit im Wohnzimmer verbessern. Bitte bringt eure eigenen Reinigungsmittel mit und legt sie in die Schublade neben dem Staubsauger. Wenn ihr Fragen habt, könnt ihr euch bei mir melden. Der Plan ist für jeden einzelnen Bewohner gleich und wird wöchentlich aktualisiert. Seit dem 1. Juni wird das Bad zusätzlich alle zwei Tage gereinigt, weil das Wasser oft benutzt wird. Bitte beachtet, dass ihr eure Schlüssel nach dem Putzen zurück in den Schlüsselkorb legt. Danke für eure Unterstützung!"
+      }
+    },
+    {
+      "id": "lt-a2-011",
+      "sublevel": "A2.2",
+      "first": {
+        "share": 0.95,
+        "unknown": [
+          "Option",
+          "verfügbar",
+          "bearbeiten"
+        ],
+        "text": "Sehr geehrte Damen und Herren,\nich bitte um Verlängerung des Antrags, weil die Laufzeit bald endet.\nIch möchte wissen, ob eine neue Bedingung möglich ist, dass die Kosten gleich bleiben.\nFalls eine Änderung nötig ist, bitte ich um Information, wenn die neue Tarif‑Option verfügbar ist.\nKönnten Sie mir bitte mitteilen, ob Sie die Anfrage bearbeiten können?\nMit freundlichen Grüßen"
+      }
+    },
+    {
+      "id": "lt-a2-014",
+      "sublevel": "A2.2",
+      "first": {
+        "share": 0.9595959595959596,
+        "unknown": [
+          "kennenlernen",
+          "klopfen",
+          "versprechen",
+          "Lautstärke"
+        ],
+        "text": "Ich habe gestern einen neuen Nachbarn kennengelernt, weil er laut geklopft hat. Er hat mir mitgeteilt, dass er aus einer anderen Stadt kommt und dass er noch nicht lange hier wohnt. Wir haben uns im Treppenhaus getroffen und er hat sich sofort vorgestellt. Der Nachbar ist sehr freundlich und er hilft mir oft, wenn ich die Tür öffnen muss. Ich habe ihm gesagt, dass ich seine Musik leise hören kann, weil ich sonst nicht schlafen kann. Er hat mir versprochen, dass er die Lautstärke reduzieren wird, wenn ich das Fenster öffne. Jetzt fühlen wir uns beide wohler im Haus."
+      }
+    },
+    {
+      "id": "lt-a2-017",
+      "sublevel": "A2.2",
+      "first": {
+        "share": 0.8854166666666666,
+        "unknown": [
+          "pendeln",
+          "ergeben",
+          "zurücklegen",
+          "belasten",
+          "Belastung",
+          "Befragter",
+          "Verkehrsmittel",
+          "einführen",
+          "Verkehr",
+          "entspannen",
+          "Luftqualität"
+        ],
+        "text": "Eine aktuelle Studie hat gezeigt, dass das Pendeln in der Stadt immer länger wird. Die Untersuchung hat ergeben, dass die Menschen mehr Kilometer zurücklegen, weil die Straßen stärker belastet sind. Wenn die Belastung steigt, dann wird das Risiko für Unfälle höher. Die meisten Befragten wünschen sich, dass die Stadt mehr öffentliche Verkehrsmittel anbietet, weil das sicherer und günstiger ist. Im Vergleich zu früheren Jahren ist die Situation jetzt deutlich gefährlicher. Die Behörden planen, dass neue Maßnahmen eingeführt werden, die den Verkehr entspannen und die Luftqualität verbessern. Das ist besonders wichtig, weil die Bevölkerung gesünder leben möchte."
+      },
+      "retry": {
+        "share": 0.9,
+        "unknown": [
+          "zurücklegen",
+          "Stadtverwaltung",
+          "Befragter",
+          "schalten",
+          "berücksichtigen",
+          "Lebensqualität",
+          "relevant"
+        ],
+        "text": "Eine aktuelle Studie hat gezeigt, dass die Menschen mehr Kilometer zu Fuß zurücklegen, wenn die Straßen sicherer sind. Die Ergebnisse sind besonders wichtig für die Stadtverwaltung, weil sie zeigen, dass ein besseres Licht die Unfallzahlen reduziert. Die meisten Befragten wünschen sich, dass die neuen Ampeln schneller schalten als die alten. Wenn die Behörden das berücksichtigen, können sie die Lebensqualität erhöhen. Die Studie ist absolut relevant für alle, die täglich unterwegs sind."
+      }
+    },
+    {
+      "id": "lt-b1-001",
+      "sublevel": "B1.1",
+      "first": {
+        "share": 0.9509803921568627,
+        "unknown": [
+          "Aufregung",
+          "erwachen",
+          "fröhlich",
+          "Müdigkeit",
+          "erkunden"
+        ],
+        "text": "Als ich im Herbst nach Berlin flog, landete ich am Flughafen Tegel und fühlte sofort die Aufregung. Ich hatte lange darauf gewartet, weil meine Freunde dort einen kleinen Auftritt organisierten. Während ich im Zug nach Mitte fuhr, sah ich die Stadt langsam erwachen. Obwohl es regnete, war die Stimmung trotzdem fröhlich. Ich traf meine Freundin Lena, die mir sofort die besten Cafés zeigte. Wir diskutierten über die Zukunft und planten, am nächsten Tag das Museum zu besuchen. Nachdem wir das Essen genossen hatten, gingen wir zurück zum Hotel, das bereits für uns vorbereitet war. Trotz der Müdigkeit versprach ich, die Stadt noch intensiver zu erkunden."
+      }
+    },
+    {
+      "id": "lt-b1-004",
+      "sublevel": "B1.1",
+      "first": {
+        "share": 0.9519230769230769,
+        "unknown": [
+          "Planet",
+          "zahlreich",
+          "umsetzbar",
+          "belasten",
+          "Einzelner"
+        ],
+        "text": "Ich halte den Umweltschutz für grundsätzlich wichtig, weil er die Zukunft unseres Planeten sichert. Die Organisation, die nachhaltige Projekte unterstützt, erhält viel Unterstützung von Politikern und der Öffentlichkeit. Viele Menschen, die sich für Klimaschutz engagieren, diskutieren über die besten Maßnahmen. Es gibt zwar Kritik, sondern auch zahlreiche Alternativen, die praktisch umsetzbar sind. Wegen des Klimawandels steigen die Temperaturen, und die Hitze belastet die Natur. Trotz der hohen Kosten für Solarzellen und umweltfreundliche Verkehrsmittel investieren immer mehr Unternehmen in grüne Technik. Während der Debatte im Parlament wird deutlich, dass die Verantwortung bei jedem Einzelnen liegt. Ich bin überzeugt, dass wir gemeinsam die Umwelt schützen können."
+      }
+    },
+    {
+      "id": "lt-b1-007",
+      "sublevel": "B1.1",
+      "first": {
+        "share": 0.9692307692307692,
+        "unknown": [
+          "alternativ",
+          "Lied",
+          "Atmosphäre",
+          "Werbung"
+        ],
+        "text": "– Hallo Anna, hast du den Plan für das Fest schon erstellt?\n– Ja, ich habe den Plan gestern diskutiert und die Organisation beraten.\n– Wer wird den Auftritt übernehmen? Ich habe gehört, dass die Band aus London kommt.\n– Die Band ist britisch, aber wir haben auch eine alternative Gruppe aus Berlin, die traditionelle Lieder spielt.\n– Das klingt spannend, weil wir dann verschiedene Musikrichtungen haben.\n– Genau, und die Auswahl der Künstler ist wesentlich für den Erfolg.\n– Wir müssen die Verbindung zwischen den Auftritten und dem Essen planen, sonst fehlt die Atmosphäre.\n– Stimmt, die Verantwortung liegt bei mir, aber ich werde die Aufgabe mit dem Team teilen.\n– Super, dann können wir die Veranstaltung während des Sommers stattfinden lassen, wenn das Wetter schön ist.\n– Ja, und wir sollten die Werbung auf der Homepage veröffentlichen, damit alle Besucher informiert sind."
+      }
+    },
+    {
+      "id": "lt-b1-011",
+      "sublevel": "B1.2",
+      "first": {
+        "share": 0.941747572815534,
+        "unknown": [
+          "Schmied",
+          "ausgeschrieben",
+          "Fähigkeit",
+          "einbringen",
+          "rechtzeitig",
+          "dankbar"
+        ],
+        "text": "Sehr geehrte Frau Schmidt,\n\nich bewerbe mich hiermit um die ausgeschriebene Stelle. Durch mein bisheriges Engagement im Club habe ich umfassende Erfahrung im Umgang mit Software und im Betreuen von Projekten gesammelt. Ich würde mich freuen, wenn ich meine Fähigkeiten in Ihrem Unternehmen einbringen könnte, um die Umsetzung Ihrer Vorhaben zu erleichtern.\n\nFalls meine Unterlagen überzeugen, würde ich gern zu einem Vorstellungsgespräch eingeladen werden. Damit ich mich optimal vorbereiten kann, wäre es sinnvoll, wenn mir die genauen Termine rechtzeitig mitgeteilt würden.\n\nIch wäre Ihnen dankbar, wenn Sie mir eine Rückmeldung geben könnten, sodass ich meine weiteren Schritte planen kann.\n\nMit freundlichen Grüßen\nAnna Müller"
+      },
+      "retry": {
+        "share": 0.8942307692307693,
+        "unknown": [
+          "Praktikumsstelle",
+          "Marketing",
+          "ausgeschrieben",
+          "engagiert",
+          "einbringen",
+          "Fähigkeit",
+          "produktiv",
+          "mitarbeiten",
+          "senden",
+          "Berücksichtigung",
+          "Schmied"
+        ],
+        "text": "Sehr geehrte Frau Müller,\n\nich bewerbe mich hiermit um die Praktikumsstelle im Bereich Marketing, die in Ihrer Stellenanzeige ausgeschrieben wurde. Die Aufgaben können durch ein engagiertes Team unterstützt werden, wobei das Projektteam die Verantwortung übernehmen darf. Ich würde mich freuen, wenn ich die Möglichkeit bekäme, meine Kenntnisse im Umgang mit Software und digitalen Medien einzubringen, um die Unternehmensziele zu erreichen. Um meine Fähigkeiten zu erweitern, habe ich bereits an mehreren Workshops teilgenommen, sodass ich sofort produktiv mitarbeiten kann. Falls weitere Unterlagen benötigt werden, sende ich diese gerne zu. Ich danke Ihnen für die Berücksichtigung meiner Bewerbung und hoffe auf eine positive Rückmeldung.\n\nMit freundlichen Grüßen\nAnna Schmidt"
+      }
+    },
+    {
+      "id": "lt-b1-014",
+      "sublevel": "B1.2",
+      "first": {
+        "share": 0.9058823529411765,
+        "unknown": [
+          "bereitstellen",
+          "frühzeitig",
+          "Bedürfnis",
+          "Digitalisierung",
+          "Arbeitsmarkt",
+          "kulturell",
+          "Vielfalt",
+          "mitwirken"
+        ],
+        "text": "Wenn das Volk mehr in Bildung investiert, wäre die Zukunft stabiler. Je mehr Mittel bereitgestellt werden, desto stärker könnte das Engagement des Volkes sein. Es ist sinnvoll, möglichst frühzeitig neue Technologie zu fördern, damit die Industrie langfristig wachsen kann. Man sollte die Reform so gestalten, dass sie die Bedürfnisse aller Menschen berücksichtigt und die Digitalisierung erleichtert. Ein umfassender Ansatz würde nicht nur den Arbeitsmarkt verbessern, sondern auch die kulturelle Vielfalt stärken. Deshalb wäre es wichtig, dass jeder bereit ist, aktiv mitzuwirken und Ideen zu vermitteln."
+      },
+      "retry": {
+        "share": 0.89,
+        "unknown": [
+          "Infrastruktur",
+          "zusammenarbeiten",
+          "bereitstellen",
+          "einführen",
+          "Zufriedenheit",
+          "abwechslungsreich",
+          "Ausstattung",
+          "kulturell",
+          "Bedürfnis",
+          "gezielt",
+          "anpassen"
+        ],
+        "text": "Der Club plant, die digitale Infrastruktur zu erweitern, damit die Mitglieder noch stärker zusammenarbeiten können. Wenn die Finanzierung früher bereitgestellt würde, könnte man sofort neue Software einführen und die Kommunikation verbessern. Je mehr Mitglieder teilnehmen, desto größer wird das Engagement und desto schneller steigt die Zufriedenheit. Die Veranstalter wollen die Aktivitäten möglichst abwechslungsreich gestalten, um die Gemeinschaft zu stärken. Es wäre sinnvoll, ein umfassendes Konzept zu entwickeln, das sowohl die technische Ausstattung als auch die kulturellen Angebote berücksichtigt. Wenn man die Bedürfnisse der Mitglieder genauer spüren würde, könnte man das Angebot gezielt anpassen und die Zukunft des Clubs nachhaltig sichern."
+      }
+    },
+    {
+      "id": "lt-b1-017",
+      "sublevel": "B1.2",
+      "first": {
+        "share": 0.9692307692307692,
+        "unknown": [
+          "Sponsor",
+          "Ausstattung",
+          "umgehend",
+          "Zufriedenheit"
+        ],
+        "text": "– Hallo, ich bin Anna und betreue den neuen Club. Wir wollen die Teilnahme möglichst erhöhen, damit mehr Menschen den Club besuchen.\n– Das klingt gut. Wie wird das organisiert?\n– Die Veranstaltungen werden vom Veranstalter geplant und anschließend vom Team betreut. Es wird ein umfassendes Programm angeboten, das sowohl musikalisch als auch sportlich ist.\n– Ich wünsche, dass die Finanzierung ausreichend wäre, damit wir die Technik verbessern könnten.\n– Wenn wir mehr Sponsoren gewinnen, könnten wir die Software erweitern und die Ausstattung erleichtern.\n– Wir sollten die Mitglieder bitten, ihre Ideen zu spüren und uns zu verraten, was ihnen wichtig ist.\n– Dann können wir die Vorschläge aufnehmen und umgehend umsetzen, um die Zufriedenheit zu erhöhen.\n– Ich würde empfehlen, dass wir die Kommunikation verbessern, damit jeder jederzeit informiert ist.\n– Das ist selbstverständlich und wird von allen unterstützt."
+      }
+    },
+    {
+      "id": "lt-b2-001",
+      "sublevel": "B2.1",
+      "first": {
+        "share": 0.9916666666666667,
+        "unknown": [
+          "zulassen"
+        ],
+        "text": "Ich bin der Meinung, dass die Hochschule ein wichtiger Faktor für die persönliche Entwicklung ist. Viele Wissenschaftler betonen, dass das Lernen dort nicht nur Wissen, sondern auch ein bewusstes Verständnis der Realität vermittelt. Der Ministerium‑Bericht sagt, er sei der Ansicht, dass die Infrastruktur der Hochschule weiter ausgebaut werden müsse, um die Belastung der Studierenden zu verringern. Auch wenn die Kosten momentan hoch sind, sollte man die Möglichkeit nutzen, sich elektronisch zu registrieren und die Förderungen zu beantragen. Man kann sich von erfahrenen Professoren beraten lassen, sodass man die Prinzipien der Wissenschaft besser integrieren kann. Es ist wichtig, dass man sich nicht nur auf die Noten konzentriert, sondern auch die Begegnung mit internationalen Studierenden zulässt, weil das die Perspektive erweitert."
+      }
+    },
+    {
+      "id": "lt-b2-004",
+      "sublevel": "B2.2",
+      "first": {
+        "share": 0.9444444444444444,
+        "unknown": [
+          "vorliegend",
+          "Betreuungssituation",
+          "Vorjahr",
+          "zurückführen",
+          "psychologisch",
+          "Steuerung",
+          "Ressource"
+        ],
+        "text": "Der vorliegende Bericht analysiert die aktuelle Betreuungssituation an der Universität. Die Erhebung basiert auf einer Stichprobe von 200 Befragten, die im letzten Halbjahr teilgenommen haben. Die Ergebnisse zeigen, dass der Aufwand für individuelle Beratung im Durchschnitt 45 Minuten pro Studierendem beträgt, wobei die Länge der Sitzungen stark schwankt. Im Vergleich zum Vorjahr ist der Aufwand um 12 Prozentpunkte gestiegen, was auf die Erweiterung des Betreuungsangebots zurückzuführen ist. Die Grafik in Form eines Balkendiagramms verdeutlicht den Unterschied zwischen den Fachbereichen. Besonders auffällig ist der hohe Bedarf an psychologischer Therapie, der bei 30 Prozent der Befragten angegeben wurde. Die Universität plant, die Ausstattung der Beratungsräume zu erneuern und zusätzliche Fachkräfte einzustellen, um den Rückstand zu verringern. Die Umsetzung soll im nächsten Semester erfolgen, wobei die Kosten durch eine gezielte Steuerung der Ressourcen gedeckt werden."
+      },
+      "retry": {
+        "share": 0.9545454545454546,
+        "unknown": [
+          "Einschreibung",
+          "Vorjahr",
+          "Studiengebühr",
+          "detailliert"
+        ],
+        "text": "Der Bericht analysiert die aktuelle Einschreibung an der Universität. Die Erhebung basiert auf einer Stichprobe von 1.200 Befragten. Der Mittelwert liegt bei 68 % der Zielgruppe, was einen Anstieg von 5 Prozentpunkten gegenüber dem Vorjahr bedeutet. Die Kurve im Balkendiagramm zeigt, dass die Zahl der Studienanfänger im Vergleich zu den Abschlüssen um 12 % höher ist. Der Durchschnitt der Studiengebühren beträgt 1.200 Euro, während die Kosten für das Praktikum nur 300 Euro betragen. Die Datenbank enthält detaillierte Einzelheiten zur Finanzierung und zur Betreuung. Die Ergebnisse werden im Abschlussbericht dargelegt und sollen die zukünftige Planung der Studienordnung unterstützen."
+      }
+    },
+    {
+      "id": "lt-b2-007",
+      "sublevel": "B2.3",
+      "first": {
+        "share": 0.9428571428571428,
+        "unknown": [
+          "Praktikumsstelle",
+          "Projektplanung",
+          "verantwortungsbewusst",
+          "zielorientiert",
+          "bereichern",
+          "Schmied"
+        ],
+        "text": "Frau Müller,\nBitte erlauben Sie mir, meine Bewerbung für die Praktikumsstelle einzureichen. Ich habe bereits Erfahrung im Bereich Innovation und Entwicklung gesammelt. Meine Kompetenz umfasst effiziente Projektplanung, detaillierte Dokumentation und die Fähigkeit, komplexe Aufgaben zu überwinden. Ich strebe danach, in Ihrem Unternehmen aktiv zu motivieren und neue Ideen zu etablieren. Meine bisherigen Projekte zeigen, dass ich verantwortungsbewusst und zielorientiert vorgehen kann. Ich bin zuversichtlich, dass meine Fähigkeiten Ihr Team bereichern und zu einer stetigen Verbesserung beitragen. Bitte lassen Sie mich wissen, wann ein persönliches Gespräch möglich ist. Ich freue mich auf Ihre Rückmeldung und danke Ihnen für die Anerkennung meiner Bewerbung.\nMit freundlichen Grüßen\nAnna Schmidt"
+      },
+      "retry": {
+        "share": 0.9411764705882353,
+        "unknown": [
+          "Ausschreibung",
+          "Innovationsmanager",
+          "mittelständisch",
+          "Effizienz",
+          "analytisch",
+          "strukturieren",
+          "Arbeitsweise",
+          "Schmied"
+        ],
+        "text": "Sehr geehrte Frau Müller,\n\nmit großem Interesse habe ich Ihre Ausschreibung auf der Internetseite der Agentur gelesen und möchte mich hiermit um die Position als Innovationsmanager bewerben. In meiner bisherigen Tätigkeit als Entwickler bei einer mittelständischen Institution konnte ich mehrfach die Effizienz von Projekten steigern und dabei die Kompetenz meines Teams erweitern. Durch gezielte Motivation und klare Kommunikation habe ich die Zusammenarbeit verbessert und die Rendite der Abteilung nachhaltig erhöht. Meine Erfahrung im Umgang mit komplexen Serverstrukturen sowie meine Fähigkeit, innovative Konzepte zu entwickeln, ermöglichen es mir, die Vision Ihres Unternehmens zu unterstützen. Ich bin zuversichtlich, dass ich mit meinem analytischen Ansatz und meiner strukturierten Arbeitsweise einen wertvollen Beitrag leisten kann.\n\nIch freue mich auf die Möglichkeit, meine Qualifikationen in einem persönlichen Gespräch zu erläutern, und danke Ihnen für die Anerkennung meiner Bewerbung.\n\nMit freundlichen Grüßen\n\nJohann Schmidt"
+      }
+    },
+    {
+      "id": "lt-b2-011",
+      "sublevel": "B2.2",
+      "first": {
+        "share": 0.8984375,
+        "unknown": [
+          "Ausschreibung",
+          "mehrjährig",
+          "Projektmanagement",
+          "Kompetenz",
+          "Durchführung",
+          "effizient",
+          "Ressource",
+          "Erstellung",
+          "fundiert",
+          "Entscheidungsgrundlage",
+          "signifikant",
+          "Kundenzufriedenheit",
+          "Schmied"
+        ],
+        "text": "Sehr geehrte Frau Müller,\n\nmit großem Interesse habe ich Ihre Ausschreibung für die Position des Projektmanagers auf Ihrer Webseite gelesen. Durch meine mehrjährige Erfahrung im Bereich Projektmanagement, insbesondere in der Betreuung von Großprojekten, bringe ich die erforderlichen Kompetenzen mit. Meine bisherigen Tätigkeiten umfassen die Planung, Durchführung und Kontrolle von Projekten, wobei ich stets auf eine effiziente Nutzung von Ressourcen und eine termingerechte Umsetzung geachtet habe.\n\nBesonders hervorzuheben ist meine Fähigkeit zur Analyse von Datenbanken und zur Erstellung von Ergebnisberichten, die eine fundierte Entscheidungsgrundlage bieten. Darüber hinaus habe ich erfolgreich mehrere Kampagnen geleitet, die zu einer signifikanten Steigerung der Kundenzufriedenheit führten.\n\nIch bin überzeugt, dass meine Qualifikationen und meine Motivation einen wertvollen Beitrag zu Ihrem Unternehmen leisten. Über die Möglichkeit eines persönlichen Gesprächs würde ich mich sehr freuen.\n\nMit freundlichen Grüßen,\nAnna Schmidt"
+      },
+      "retry": {
+        "share": 0.8970588235294118,
+        "unknown": [
+          "Ausschreibung",
+          "Unternehmenswebseite",
+          "Aufgabenbeschreibung",
+          "exakt",
+          "reizen",
+          "interdisziplinär",
+          "Projektplanung",
+          "Erstellung",
+          "Durchführung",
+          "Betriebswirtschaft",
+          "Kostenkontrolle",
+          "Qualitätsmanagement",
+          "Zeitmanagement",
+          "Schmied"
+        ],
+        "text": "Sehr geehrte Frau Müller,\n\nmit großem Interesse habe ich Ihre Ausschreibung für die Position des Projektkoordinators auf der Unternehmenswebseite gelesen. Die darin enthaltene Aufgabenbeschreibung entspricht exakt meinem beruflichen Hintergrund und meinen persönlichen Stärken. Besonders reizt mich die Möglichkeit, die Betreuung von interdisziplinären Teams zu übernehmen und den Aufwand für die Projektplanung zu reduzieren. Meine bisherige Erfahrung umfasst die Analyse von Datenbanken, die Erstellung von Ergebnisberichten sowie die Durchführung von Präsentationen vor interessierten Stakeholdern. Durch meine Ausbildung im Bereich Betriebswirtschaft habe ich ein tiefes Verständnis für die Bedeutung von Zielgruppen, Kostenkontrolle und Qualitätsmanagement entwickelt. Ich bin überzeugt, dass meine Fähigkeiten in der Organisation, im Zeitmanagement und in der Kommunikation einen nachhaltigen Beitrag zum Erfolg Ihres Unternehmens leisten werden.\n\nIch freue mich auf die Gelegenheit, meine Motivation und meine Qualifikationen in einem persönlichen Gespräch näher zu erläutern.\n\nMit freundlichen Grüßen\n\nAnna Schmidt"
+      }
+    },
+    {
+      "id": "lt-b2-014",
+      "sublevel": "B2.3",
+      "first": {
+        "share": 0.8943089430894309,
+        "unknown": [
+          "Lebensbereich",
+          "anwendbar",
+          "Fitness",
+          "intelligent",
+          "Algorithmus",
+          "personalisieren",
+          "Trainingspläne",
+          "verständlich",
+          "erfrischt",
+          "mental",
+          "Check",
+          "abstrakt",
+          "greifbar"
+        ],
+        "text": "In der heutigen Gesellschaft ist die Gesundheit ein zentrales Thema, das durchaus Einfluss auf viele Lebensbereiche hat. Wissenschaftliche Forschung gewährt immer wieder neue Erkenntnisse, die wirksam und praktisch anwendbar sind. Ein Beispiel dafür ist die Entwicklung einer innovativen App, die Menschen dabei unterstützt, ihre Fitness zu steigern und gleichzeitig Stress zu reduzieren. Die App nutzt intelligente Algorithmen, um personalisierte Trainingspläne zu erstellen, die ziemlich flexibel und leicht verständlich sind. Nutzer berichten, dass sie sich nach dem Training erfrischt und motiviert fühlen, was wiederum die mentale Gesundheit stärkt. Darüber hinaus bietet die Plattform regelmäßige Gesundheits‑Checks, die online durchgeführt werden können, und gibt klare Empfehlungen, um langfristig gesund zu bleiben. So wird Gesundheit nicht nur ein abstraktes Konzept, sondern ein greifbarer Teil des Alltags."
+      },
+      "retry": {
+        "share": 0.9333333333333333,
+        "unknown": [
+          "Gesundheitsbewusstsein",
+          "ausgewogen",
+          "frühzeitig",
+          "mental",
+          "rücken",
+          "Wohlbefinden",
+          "verknüpfen"
+        ],
+        "text": "Gesundheit ist ein Thema, das uns alle ziemlich beschäftigt. In den letzten Jahren hat sich das Gesundheitsbewusstsein durchaus verändert. Viele Menschen achten eher auf eine ausgewogene Ernährung und etwas mehr Bewegung. Gleichzeitig gibt es neue Forschungsergebnisse, die zeigen, dass Stress die körperliche Verfassung stark beeinflussen kann. Ärzte betonen, dass regelmäßige Vorsorgeuntersuchungen wichtig sind, um Krankheiten frühzeitig zu erkennen. Auch die mentale Gesundheit wird immer mehr in den Fokus gerückt, weil sie eng mit dem körperlichen Wohlbefinden verknüpft ist. Innovative Programme motivieren die Bevölkerung, gesündere Gewohnheiten zu entwickeln. Letztlich hängt ein gesunder Lebensstil von vielen Faktoren ab, aber jeder kann kleine Schritte unternehmen, um seine Gesundheit zu stärken."
+      }
+    },
+    {
+      "id": "lt-b2-017",
+      "sublevel": "B2.3",
+      "first": {
+        "share": 1,
+        "unknown": [],
+        "text": "Gewähren Anerkennung Fakt Wandel regieren Masse quasi cool Sponsor geheim motivieren Verfassung Posten Finger überwinden regulär nachdenken wahrnehmen Treffpunkt ehrlich inhaltlich Zugriff Rendite Abenteuer beruhigen oftmals Tourismus effizient erstmal weshalb juristisch Exemplar stetig Institution hinterher Kompetenz vorübergehend detailliert Entwickler Transport wirksam Innovation fit real beeindruckend Internetseite Skandal Bitte statistisch zuversichtlich zugänglich kriegen vollkommen rechtfertigen Versammlung Organisator Fortsetzung schrumpfen erkennbar Unterhaltung ausdrücklich Besonderheit Tatsache Schulter Server Lob Vorgehen Pressemitteilung überarbeiten Geschäftsjahr beheben Blume Spekulation ausbrechen Freundschaft Überprüfung ausgerechnet Anpassung zeitlich aggressiv Agentur Enttäuschung vergrößern aktivieren Lehre spenden Gegend Jahresende Kapazität erhoffen Feiertag Herstellung dementsprechend Warnung streben Dokumentation vorzeitig plus unterhalten hinein etliche Aufregung nochmal beauftragen dortig Arbeitslosigkeit angesagt lieb Zuschuss anschauen belohnen Handlung ewig bewahren ansteigen erfreulich Zuhause beruhen agieren etablieren Komponente Eingriff Nerv Decke Kilogramm erholen Äußerung bestens erweisen via Zufall übersehen Amtszeit ausgleichen platzen personell Unsicherheit Ressource Solidarität Besitz befassen optimieren derjenige öfter einschränken Behinderung wunderschön Vermögen reichlich ausweiten ordnen verkürzen auseinander Frucht radikal Schulden sofortig erkranken Störung auffallen einnehmen Rand bekämpfen Impuls Rahmenbedingung verständigen malen Geduld ausrichten Sparkasse abschaffen Hürde vorantreiben Vision Werkzeug Reifen Entlastung würdigen problemlos Begeisterung Konferenz Lokal Anruf schrecklich winken einschalten Architekt Warnstreik verantworten Mund theoretisch auffordern Griff Magazin anbringen fantastisch optisch Rechner Vorgänger Unterkunft Export anlässlich separat Bestimmung definitiv Kaufpreis verschaffen Insolvenz auslegen begrenzt Plakat zusammenstellen Applaus ablegen Strich Zeug neutral ferner Gegenwart Neuerung beherrschen Schließung vergleichsweise Vortag bemerkenswert Ehefrau aufhalten Ehre Ausgang lagern Ernst auftauchen exakt Gewitter Original überholen Distanz zurückziehen unterrichten ernsthaft kombinieren Beobachtung anwesend lenken Kita vorn freigeben zurückweisen ignorieren drin Defizit Träger Szenario korrekt Künstlerin Durchbruch Aufschwung einigen ärztlich versetzen berühren Mitgliederversammlung gespannt gesundheitlich grob Pleite rasant Konzentration ungeklärt zurückhaltend Handwerk prognostizieren Altstadt klug verwalten Vereinigung Provinz regelrecht Persönlichkeit binnen Trick Revision Medienbericht Allianz Religion Gymnasium Studio Bedrohung mischen Rettung Zusammenstoß Rückruf Anrufbeantworter Durchwahl Zentrale Warteschleife Kundendienst Kundennummer Bestellnummer Rechnungsbetrag Mahngebühr Gutschrift Kulanz Rückerstattung Entschädigung Schadenersatz Gewährleistung Beanstandung beanstanden Bearbeitungszeit Lieferfrist Paketdienst Rückgabe Wartezeit Versandkosten Absprache Anweisung Checkliste Arbeitsschritt Anleitung Arbeitsablauf Aufgabenliste Aufgabenverteilung Übergabe Abrechnung abrechnen Spesen Reisekosten Kassenbon einarbeiten Fristverlängerung Merkblatt Ablage abheften Posteingang Postfach Weiterleitung Signatur Datensicherung Gruppenarbeit Dienstplan Großraumbüro Betriebsklima Vorwurf Rücksicht rücksichtsvoll sachlich förmlich unhöflich unfreundlich schroff Höflichkeit Umgangston Tonfall Ausdrucksweise Umgangssprache Redewendung Abkürzung Tippfehler Rechtschreibung Satzzeichen Komma Pünktlichkeit Kollegialität duzen siezen Vermittler Strang Schlauch Nagel Inventur Flexibilität Betriebsausflug Telefongespräch Prämie Rezeption Lieferwagen Zeiterfassung Anwesenheitsliste Niederlassung Quartal Attest Geschäftsführung Einkauf Hacker Foyer Tagung Empfang Schild Ausführung Zelt Tanz Küste Planet Galerie Virus Motorrad Fußgänger Montagabend Dienstagabend Donnerstagabend Sonntagabend Geschehen Rauch Burg Zelle Feind Scheibe bedecken erfreuen schleichen"
+      }
+    },
+    {
+      "id": "lt-c1-001",
+      "sublevel": "C1.1",
+      "retry": {
+        "share": 0.9553571428571429,
+        "unknown": [
+          "unvermuteter",
+          "Wahrnehmung",
+          "kostengünstig",
+          "Wissenschaftlerin",
+          "verlässlich"
+        ],
+        "text": "In der heutigen Wissenschaft ist es häufig seltsam, dass scheinbar milde Experimente zu äußerst dynamischen Ergebnissen führen. Forscherinnen und Forscher berichten, dass ein einzelner, unvermuteter Befund das gesamte Forschungsfeld plötzlich lebendig macht. Ein Beispiel dafür ist die kürzlich veröffentlichte Studie über die Wirkung von transparenten Materialien auf die Wahrnehmung von Farben. Die Ergebnisse waren nicht nur überraschend, sondern auch äußerst hilfreich für die Entwicklung neuer, kostengünstiger Analysemethoden. Gleichzeitig zeigte sich, dass manche etablierte Theorien, obwohl sie bisher als bewährt galten, in manchen Fällen problematisch und sogar überflüssig sein können. Deshalb ist es wichtig, dass Wissenschaftlerinnen und Wissenschaftler mutig bleiben, kritisch hinterfragen und ihre Methoden kontinuierlich verbessern, um langfristig verlässliche und verständliche Erkenntnisse zu erzielen."
+      }
+    },
+    {
+      "id": "lt-c1-004",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.9322033898305084,
+        "unknown": [
+          "Prüfungsanmeldung",
+          "unkompliziert",
+          "verwirren",
+          "nachreichen",
+          "absurd",
+          "langwierig",
+          "ärgerlich",
+          "Effizienz"
+        ],
+        "text": "Sehr geehrte Damen und Herren,\n\nich schreibe Ihnen, weil ich die aktuelle Prüfungsanmeldung als überraschend unkompliziert empfinde – fast schon herausragend einfach, obwohl sie in Wirklichkeit eher verwirrend ist. Die Formulare sind übersichtlich gestaltet, jedoch muss man jedes Mal zufällig ein weiteres Dokument nachreichen, was den Prozess zwar bequem, aber gleichzeitig absurd langwierig macht.\n\nIch habe bereits mehrfach versucht, die Unterlagen rechtzeitig einzureichen, doch jedes Mal erschien eine neue Anforderung, die ich erst nach intensiver Recherche finden konnte. Das ist zwar nicht tragisch, aber durchaus ärgerlich und lässt mich an der Effizienz der Verwaltung zweifeln.\n\nIch bitte Sie daher, die Abläufe zu prüfen und künftig klarer zu kommunizieren, damit Studierende nicht mehr permanent im Unklaren bleiben.\n\nMit freundlichen Grüßen,\nMax Mustermann"
+      },
+      "retry": {
+        "share": 0.9469026548672567,
+        "unknown": [
+          "Prüfungsanmeldung",
+          "zweifellos",
+          "Terminplanung",
+          "unbequem",
+          "unbemerkt",
+          "verbleiben"
+        ],
+        "text": "Sehr geehrte Damen und Herren,\n\nich schreibe Ihnen bezüglich der bevorstehenden Prüfungsanmeldung, die laut Ihrem Schreiben erst in zwei Monaten eröffnet wird. Angesichts der immensen Zahl an Studierenden, die sich rechtzeitig anmelden möchten, erscheint dieser Zeitraum erstaunlich komfortabel und zugleich ein wenig tragisch für diejenigen, die nicht zufällig bereits alle Unterlagen bereit haben. Die systematische Vorgehensweise Ihrer Verwaltung ist zweifellos herausragend, jedoch könnte eine etwas flexiblere Terminplanung die Situation für uns Studierende deutlich weniger unbequem machen. Die aktuelle Lage ist durchaus beachtlich, jedoch nicht unbemerkt. Ich bitte Sie daher, im Sinne einer vielseitigen und intelligenten Lösung, die Frist zu verkürzen. Für Ihre Aufmerksamkeit danke ich Ihnen im Voraus und verbleibe\n\nmit freundlichen Grüßen\n\nMax Mustermann"
+      }
+    },
+    {
+      "id": "lt-c1-007",
+      "sublevel": "C1.1",
+      "first": {
+        "share": 0.9690721649484536,
+        "unknown": [
+          "vergangen",
+          "Sprachsituation",
+          "Formulierung"
+        ],
+        "text": "Im vergangenen Quartal wurde ein Bericht erstellt, unterstützt durch umfangreiche Datenanalysen, der die aktuelle Sprachsituation im Unternehmen beschreibt. Durch die Einführung neuer Kommunikationsrichtlinien, die als besonders verständlich gelten, sollte die interne Verständigung verbessert werden. Die Ergebnisse zeigen, dass die Mitarbeitenden die klaren Formulierungen als hilfreich empfinden, während einige kritisieren, dass die Vorgaben zu strikt sind. Einige Abteilungen erweisen sich als besonders dynamisch, andere bleiben eher konservativ. Die Nutzung von Fachtermini erscheint teilweise überflüssig, doch bleibt sie für bestimmte Projekte maßgeblich. Empfohlen wird, die Richtlinien wöchentlich zu überprüfen, um unnötige Missverständnisse zu vermeiden und die Kommunikation langfristig lebendig und effizient zu gestalten."
+      }
+    },
+    {
+      "id": "lt-c1-011",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.9375,
+        "unknown": [
+          "verwirren",
+          "Isolation",
+          "Augenmerk",
+          "fachlich",
+          "überlasten",
+          "unflexibel",
+          "solcher",
+          "lebenswert"
+        ],
+        "text": "Ich finde, dass die moderne Menschheit zunehmend vielseitig und gleichzeitig verwirrend ist. Viele Menschen erleben das Leben als bequem und gleichzeitig tragisch, weil die wirtschaftlichen Bedingungen oft ungewiss bleiben. Ein entscheidender Faktor ist die permanente Digitalisierung, die sowohl intelligent als auch gefährlich sein kann. Sie ermöglicht einerseits schnelle Kommunikation, andererseits führt sie zu einer gewissen sozialen Isolation, die oft als peinlich empfunden wird. Deshalb sollte die Politik mehr Augenmerk auf ein ausgewogenes Bildungssystem legen, das nicht nur fachlich, sondern auch psychologisch stärkt. Ein weiteres Beispiel ist das Bildungssystem, das derzeit oft als überlastet und unflexibel gilt. Eine mögliche Lösung wäre, dass die Arbeitsgruppe für Weiterentwicklung innovative Konzepte entwickelt, die sowohl praktisch als auch kreativ sind. Solche Maßnahmen könnten die Zukunft nicht nur sicherer, sondern auch deutlich lebenswerter machen."
+      },
+      "retry": {
+        "share": 0.9126984126984127,
+        "unknown": [
+          "Teilhabe",
+          "zusammenführen",
+          "beengend",
+          "oberflächlich",
+          "tiefgründige",
+          "anstreben",
+          "Ungleichheit",
+          "entmutigen",
+          "weiterarbeiten",
+          "bereichern",
+          "Zusammenhalt"
+        ],
+        "text": "Die aktuelle Diskussion über die gesellschaftliche Teilhabe ist äußerst vielversprechend, weil sie unterschiedliche Perspektiven zusammenführt. Viele Menschen empfinden das aktuelle System als beengend, doch ich halte es für entscheidend, dass wir nicht nur oberflächliche Lösungen anbieten, sondern tiefgründige, systematische Veränderungen anstreben. Ein intelligenter Ansatz wäre, die vorhandenen Ressourcen vielseitig zu nutzen und gleichzeitig die sozialen Ungleichheiten zu verringern. Dabei sollte die Politik nicht nur kurzfristig, sondern dauerhaft handeln, um nachhaltige Verbesserungen zu erzielen. Es ist wichtig, dass wir uns nicht von tragischen Ereignissen entmutigen lassen, sondern mit robustem Optimismus weiterarbeiten. Letztendlich kann ein konstruktiver Dialog, der auf klaren Fakten basiert, das Vertrauen stärken und die Gesellschaft insgesamt stabilisieren. Zusätzlich sollten wir die kulturelle Vielfalt fördern, weil sie das soziale Gefüge bereichert und langfristig zu mehr Zusammenhalt führt."
+      }
+    },
+    {
+      "id": "lt-c1-014",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.975,
+        "unknown": [
+          "wiewohl",
+          "fundiert",
+          "Lernender"
+        ],
+        "text": "Das Bildungssystem steht vor einer bevorstehenden Reform, die das Lehrplan‑Design vielseitig und systematisch neu ausrichten soll. Wenngleich die aktuelle Lehrplan‑Struktur bereits beeindruckend ist, wiewohl sie in vielen Bereichen robust wirkt, könnte sie dennoch nicht alle pädagogischen Anforderungen erfüllen. Eine mögliche Lösung wäre, dass die Lehrpläne stärker psychologisch fundiert und gleichzeitig ökonomisch effizient gestaltet würden. So würde man etwa die Lernziele klarer definieren und die Unterrichtsmethoden komfortabel anpassen. Ein weiterer Schritt könnte die Einführung von Ganztagsschulen sein, die sowohl die Arbeitsbelastung der Lehrkräfte reduzieren als auch die Lernzeit für die Schüler verlängern würde. Wenn man diese Maßnahmen konsequent umsetzt, könnte das Bildungssystem langfristig nachhaltiger und lebenslang orientiert werden, was sowohl für die Lernenden als auch für die Gesellschaft von großem Nutzen wäre."
+      }
+    },
+    {
+      "id": "lt-c1-017",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.9439252336448598,
+        "unknown": [
+          "bereichern",
+          "Verkehrsanbindung",
+          "solcher",
+          "Widerstandskraft",
+          "bereichernder",
+          "sinnlich"
+        ],
+        "text": "Ich halte Reisen für ein herausragendes Erlebnis, weil es sowohl geistig als auch körperlich bereichernd ist. Die bevorstehende Reise nach einer auswärtigen Stadt war besonders komfortabel, da die Unterkunft sehr bequem und die Verkehrsanbindung übersichtlich war. Vielseitige Aktivitäten ermöglichen ein intensives, psychologisches Wachstum und fördern die intelligente Auseinandersetzung mit fremden Kulturen. Manchmal kann ein steiler Aufstieg tragisch wirken, wenn man wütend oder unglücklich ist, doch solche Momente sind oft beachtlich, weil sie die persönliche Widerstandskraft stärken. Die abwechslungsreiche Landschaft ist nicht nur schön, sondern auch beeindruckend und bietet zahlreiche spielerische Möglichkeiten. Insgesamt ist Reisen ein immens bereichernder, gesunder und sinnlicher Prozess, der das Leben langfristig positiv beeinflusst."
+      },
+      "retry": {
+        "share": 0.9112903225806451,
+        "unknown": [
+          "Horizont",
+          "touristisch",
+          "bereichern",
+          "reizvoll",
+          "organierter",
+          "Trip",
+          "herausfordernd",
+          "trüben",
+          "authentisch",
+          "unterhaltsam",
+          "lebensverändernd"
+        ],
+        "text": "Ich halte Reisen für eine äußerst vielseitige und beeindruckende Möglichkeit, den eigenen Horizont zu erweitern. Oft ist das Ziel nicht nur touristisch, sondern auch psychologisch und geistig bereichernd, weil man neue Kulturen erlebt und dabei intelligente Gespräche führt. Besonders reizvoll finde ich die Kombination aus komfortablen Unterkünften und abwechslungsreichen Aktivitäten, die das Erlebnis sowohl bequem als auch spielerisch machen. Ein gut organierter Trip kann sogar systematisch dazu beitragen, Vorurteile abzubauen und ein tieferes Verständnis für die gesellschaftlichen Zusammenhänge zu entwickeln. Natürlich gibt es auch herausfordernde Momente, etwa wenn das Wetter plötzlich trüb wird oder die Route steil ist, doch gerade diese Situationen machen das Abenteuer authentisch und lebendig. Insgesamt bin ich der Meinung, dass Reisen nicht nur unterhaltsam, sondern auch langfristig lebensverändernd sein kann."
+      }
+    }
+  ]
+}
