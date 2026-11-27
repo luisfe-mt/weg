@@ -1,0 +1,5 @@
+{
+  "about": "Fixed formulas that may appear in curriculum/ although a gold item also uses them. Only set phrases a learner must learn word for word (greetings, letter formulas, service openers) belong here, each with a reason. A content sentence never does. Read by scripts/check-leaks.mjs.",
+  "goldSentences": [],
+  "scriptRuns": []
+}

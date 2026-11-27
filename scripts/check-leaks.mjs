@@ -6,12 +6,14 @@
 //   2. No gate anchor copies a practice script: an anchor sample shares no run of 6 or more words with a
 //      learner line or useful phrase of a talk scenario that a session practises (one no gate task uses).
 //
+// Reviewed fixed formulas (greetings, letter formulas) are exempt through data/leak-allow.json.
+//
 //   node scripts/check-leaks.mjs
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
-import { drillSentences, goldCopies, goldIndex, longestSharedRun } from "./lib/leaks.mjs";
+import { drillSentences, goldCopies, goldIndex, longestSharedRun, words } from "./lib/leaks.mjs";
 
 export const GOLD_MIN_WORDS = 5;
 export const SCRIPT_MAX_RUN = 5;
@@ -32,7 +34,10 @@ for (const s of readJsonl("gold/talk_scenarios.jsonl")) {
   gold.push({ id: s.id, text: s.partnerOpening });
   for (const line of s.script) gold.push({ id: s.id, text: line.learner });
 }
+const allow = JSON.parse(readFileSync(path.join(root, "data", "leak-allow.json"), "utf8"));
 const index = goldIndex(gold, GOLD_MIN_WORDS);
+for (const a of allow.goldSentences) index.delete(words(a.sentence).join(" "));
+const allowedPhrases = allow.scriptRuns.map((a) => a.phrase);
 
 const files = readdirSync(path.join(root, "curriculum"))
   .filter((f) => f.endsWith(".json"))
@@ -78,7 +83,7 @@ for (const { file, spec } of specs) {
     for (const a of t.anchors ?? []) {
       a.samples.forEach((sample, i) => {
         for (const line of practiceLines) {
-          const run = longestSharedRun(sample.response, line.text);
+          const run = longestSharedRun(sample.response, line.text, allowedPhrases);
           if (run > SCRIPT_MAX_RUN) {
             errors.push(`${file}: gate task ${t.id}, band ${a.band}, sample ${i + 1} shares ${run} words with practice scenario ${line.id}: "${line.text}"`);
           }

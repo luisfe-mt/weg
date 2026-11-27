@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 // @ts-expect-error -- plain Node module shared with the content scripts; it has no type declarations.
-import { drillSentences, goldCopies, goldIndex, longestSharedRun, sentences, words } from "./leaks.mjs";
+import { cutPhrases, drillSentences, goldCopies, goldIndex, longestSharedRun, sentences, words } from "./leaks.mjs";
 
 describe("words and sentences", () => {
   it("ignores case and punctuation", () => {
@@ -44,5 +44,17 @@ describe("shared run", () => {
   });
   it("is zero for texts with no word in common", () => {
     expect(longestSharedRun("Guten Tag.", "Hallo du.")).toBe(0);
+  });
+});
+
+describe("allowed phrases", () => {
+  it("cut a formula out so it cannot make up a shared run", () => {
+    const a = "Vielen Dank für die Einladung. Ich habe drei Jahre gearbeitet.";
+    const b = "Vielen Dank für die Einladung, ich freue mich.";
+    expect(longestSharedRun(a, b)).toBe(6);
+    expect(longestSharedRun(a, b, ["Vielen Dank für die Einladung"])).toBe(0);
+  });
+  it("leave the rest of the text in runs", () => {
+    expect(cutPhrases("Guten Tag, ich komme aus Chile.", ["guten tag"])).toEqual([["ich", "komme", "aus", "chile"]]);
   });
 });

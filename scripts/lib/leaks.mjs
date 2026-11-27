@@ -62,10 +62,38 @@ export function goldCopies(text, index) {
   return hits;
 }
 
-/** Length of the longest run of consecutive words two texts share. */
-export function longestSharedRun(a, b) {
-  const x = words(a);
-  const y = words(b);
+/**
+ * The text as runs of words with each allowed phrase cut out, so a reviewed formula
+ * ("vielen dank für die einladung") cannot make up part of a shared run.
+ */
+export function cutPhrases(text, phrases) {
+  let parts = [words(text)];
+  for (const phrase of phrases.map(words)) {
+    parts = parts.flatMap((p) => {
+      const out = [];
+      let start = 0;
+      for (let i = 0; i + phrase.length <= p.length; i++) {
+        if (phrase.every((w, k) => p[i + k] === w)) {
+          out.push(p.slice(start, i));
+          start = i + phrase.length;
+          i = start - 1;
+        }
+      }
+      out.push(p.slice(start));
+      return out.filter((x) => x.length);
+    });
+  }
+  return parts;
+}
+
+/** Length of the longest run of consecutive words two texts share, never across an allowed phrase. */
+export function longestSharedRun(a, b, allowed = []) {
+  let best = 0;
+  for (const x of cutPhrases(a, allowed)) for (const y of cutPhrases(b, allowed)) best = Math.max(best, sharedRun(x, y));
+  return best;
+}
+
+function sharedRun(x, y) {
   let best = 0;
   let prev = new Array(y.length + 1).fill(0);
   for (let i = 1; i <= x.length; i++) {
