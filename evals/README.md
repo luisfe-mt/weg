@@ -31,3 +31,14 @@ So every reply is cached in `evals/.cache/` (git-ignored) under a hash of the ex
 - `results/<role>__<model>__v<version>.json`: summary and every item's parsed output for one full run. Committed, so a score can be audited. Only a full run admits a model to a role.
 - `results/samples/…__n<N>.json`: sample runs, shown on the scoreboard for direction only.
 - `scoreboard.md`: generated from `results/`. Older prompt versions stay as history.
+
+## Nightly runs
+
+`.github/workflows/nightly-evals.yml` runs every night at 02:17 UTC, and can also be started by hand from the Actions tab. It starts from `main` and restores earlier progress: results from the `eval-scoreboard` branch, and the reply cache from the `eval-cache` branch. It then runs `node evals/run.ts --role partner,generator,coach,examiner --in-order`, so each model spends its daily tokens on those roles in that order and skips the rest once its cap is hit.
+
+Each night it force-pushes two branches:
+
+- `eval-scoreboard`: main plus one commit with `results/` and `scoreboard.md`. It keeps one open pull request, "Eval scoreboard", up to date.
+- `eval-cache`: a single commit holding only the cache. It never reaches main.
+
+Nothing is pushed to `main`. A person merges the scoreboard pull request.

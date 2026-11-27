@@ -1,0 +1,123 @@
+# Nightly evals: resumes evals/run.ts within Groq's free daily cap (about 200k tokens per model) and
+# keeps one open pull request, "Eval scoreboard", on the eval-scoreboard branch. It never pushes to main:
+# the scoreboard reaches main only when a person merges that pull request.
+#
+# Each night starts from main (so it measures the current prompts and metrics), restores the results
+# from eval-scoreboard and the reply cache from eval-cache, runs the roles in priority order, then
+# force-pushes eval-scoreboard as main plus one commit (results and scoreboard only) and eval-cache as a
+# single commit holding only the cache. Cached replies are never asked again, so each night continues
+# where the cap stopped the last one. The cache never reaches main: it is generated, and main ignores it.
+name: Nightly evals
+
+on:
+  schedule:
+    # 02:17 UTC: off the hour, when runners are less busy. Groq's daily window is rolling, so the
+    # previous night's tokens are free again by now.
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: nightly-evals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  BRANCH: eval-scoreboard
+  CACHE_BRANCH: eval-cache
+  # Priority: Partner has never run, then Generator 1.1.0, then the full Coach and Examiner runs.
+  ROLES: partner,generator,coach,examiner
+
+jobs:
+  evals:
+    name: Resume evals within the daily cap
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          # Node 24 runs the TypeScript in evals/ without a build step.
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Check the gold bank first
+        # Scores against an invalid gold bank mean nothing.
+        run: npm run validate
+
+      - name: Restore progress from the eval branches
+        run: |
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git fetch --no-tags origin "$BRANCH"
+            if git cat-file -e "origin/$BRANCH:evals/results" 2>/dev/null; then git checkout "origin/$BRANCH" -- evals/results; fi
+          fi
+          mkdir -p evals/.cache
+          if git ls-remote --exit-code --heads origin "$CACHE_BRANCH" >/dev/null; then
+            git fetch --no-tags origin "$CACHE_BRANCH"
+            git archive "origin/$CACHE_BRANCH" | tar -x -C evals/.cache
+          fi
+          echo "Cached replies: $(find evals/.cache -name '*.json' | wc -l)"
+
+      - name: Run evals in priority order
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node evals/run.ts --role "$ROLES" --in-order | tee eval-run.log
+
+      - name: Save the reply cache to its own branch
+        # Even on a night that changed no score, the cache holds the calls made before the cap: save it.
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          [ -d evals/.cache ] && [ -n "$(ls -A evals/.cache)" ] || exit 0
+          # A separate index keeps the cache out of the working branch: one commit whose tree is only the cache.
+          export GIT_INDEX_FILE="$RUNNER_TEMP/cache-index"
+          git --work-tree=evals/.cache add -A -f .
+          commit=$(git commit-tree "$(git write-tree)" -m "Eval reply cache ($(date -u +%Y-%m-%d))")
+          git push --force origin "$commit:refs/heads/$CACHE_BRANCH"
+
+      - name: Commit progress to the eval branch
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add evals/results evals/scoreboard.md
+          if git diff --cached --quiet; then
+            echo "Nothing new tonight."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -q -m "Update the eval scoreboard ($(date -u +%Y-%m-%d))" -m "Nightly run of node evals/run.ts --role $ROLES --in-order."
+          git push --force origin "$BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the Eval scoreboard pull request
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Nightly eval progress, pushed by .github/workflows/nightly-evals.yml. Merge it to put the scoreboard on main; only a full run admits a model to a role."
+            echo
+            sed -n '/^## Who serves each role/,/^## Runs/p' evals/scoreboard.md | sed '$d'
+            echo "## Tonight"
+            echo
+            echo '```'
+            grep -E ': (within|precision|texts|level-fit)|stopped, not recorded|daily cap reached' eval-run.log || echo "No role finished tonight."
+            echo '```'
+            echo
+            echo "Only evals/results/ and evals/scoreboard.md change here. The reply cache lives on the eval-cache branch and never reaches main."
+          } > pr-body.md
+          number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh pr edit "$number" --body-file pr-body.md
+          elif ! gh pr create --head "$BRANCH" --base main --title "Eval scoreboard" --body-file pr-body.md; then
+            echo "::warning::Could not open the pull request. The branch $BRANCH is pushed. Allow GitHub Actions to create pull requests (Settings → Actions → General), or open it by hand."
+          fi
