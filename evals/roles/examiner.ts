@@ -1,6 +1,5 @@
 // Examiner: share of gate anchor samples scored within one band of the human anchor (bar 80%).
 // The anchors live in each sublevel's gate in curriculum/; every sample's band is the human score.
-import { parseJsonObject } from "../lib/client.ts";
 import { sample, type GateTask, type Rubric } from "../lib/data.ts";
 import { overallBand } from "../lib/metrics.ts";
 import { pct } from "./coach.ts";
@@ -77,14 +76,15 @@ export async function runExaminer(ctx: RoleContext): Promise<RoleResult> {
         },
         response: item.response,
       };
-      const reply = await ctx.client.chat(
+      const reply = await ctx.client.chatJson(
         [
           { role: "system", content: ctx.prompt.system },
           { role: "user", content: JSON.stringify(input) },
         ],
-        1500,
+        3000,
+        (o) => bandsOf(o, item.rubric) !== undefined,
       );
-      const parsed = bandsOf(parseJsonObject(reply.content), item.rubric);
+      const parsed = bandsOf(reply, item.rubric);
       const weights = Object.fromEntries(item.rubric.criteria.map((c) => [c.id, c.weight]));
       const passing = new Set(item.rubric.bands.filter((b) => b.passing).map((b) => b.band));
       if (!parsed) {

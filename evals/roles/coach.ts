@@ -1,6 +1,5 @@
 // Coach: precision (bar 75%) and recall on gold/corrections.jsonl. Correct sentences and mustNotFlag
 // phrases are the false-flag tests: any flag on them lowers precision.
-import { parseJsonObject } from "../lib/client.ts";
 import { gold, sample } from "../lib/data.ts";
 import { coachTotals, scoreCoachItem, type CoachItemScore, type Flag } from "../lib/metrics.ts";
 import type { RoleContext, RoleResult } from "./types.ts";
@@ -27,14 +26,15 @@ export async function runCoach(ctx: RoleContext): Promise<RoleResult> {
       const input = { level: item.level, l1: item.l1, lang: item.l1, text: item.learnerSentence };
       let flags: Flag[] | undefined;
       try {
-        const reply = await ctx.client.chat(
+        const reply = await ctx.client.chatJson(
           [
             { role: "system", content: ctx.prompt.system },
             { role: "user", content: JSON.stringify(input) },
           ],
-          900,
+          1200,
+          (o) => flagsOf(o) !== undefined,
         );
-        flags = flagsOf(parseJsonObject(reply.content));
+        flags = flagsOf(reply);
       } catch (e) {
         ctx.log(`coach ${item.id}: ${(e as Error).message}`);
         throw e;

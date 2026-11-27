@@ -1,7 +1,7 @@
 // Partner: level-fit rate over every partner turn in the scripted dialogues of gold/talk_scenarios.jsonl.
 // A turn fits when it is within the scenario's word limit, at least 90% of its words are known at the
 // sublevel, it stays in German and it does not correct the learner. The bar is 90% of turns.
-import { parseJsonObject, type Message } from "../lib/client.ts";
+import type { Message } from "../lib/client.ts";
 import { gold, knownThrough, lemmas, sample, type GoldScenario } from "../lib/data.ts";
 import { correctsLearner, foreignShare, turnProblems, wordCount } from "../lib/metrics.ts";
 import { coverage, tokenize, candidates } from "../../scripts/lib/lemma.mjs";
@@ -52,8 +52,8 @@ export async function runPartner(ctx: RoleContext): Promise<RoleResult> {
       for (const [i, line] of s.script.entries()) {
         messages.push({ role: "user", content: line.learner });
         learnerSoFar.push(line.learner);
-        const reply = await ctx.client.chat(messages, 800);
-        const say = parseJsonObject(reply.content)?.say;
+        const reply = await ctx.client.chatJson(messages, 1200, (o) => typeof o.say === "string" && o.say.trim() !== "");
+        const say = reply?.say;
         turns++;
         if (typeof say !== "string" || !say.trim()) {
           invalid++;

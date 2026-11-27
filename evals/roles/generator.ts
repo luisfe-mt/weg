@@ -2,7 +2,6 @@
 // Requests come from gold/leveled_texts.jsonl: its sublevel, text type, theme, grammar and length,
 // never its text. The gateway retries a failed text once, naming the unknown words, so a text
 // passes if the first or the retried version reaches 95%. The bar is every text.
-import { parseJsonObject } from "../lib/client.ts";
 import { LEVELS, gold, knownThrough, lemmas, sample, type GoldText, type Spec } from "../lib/data.ts";
 import { coverage } from "../../scripts/lib/lemma.mjs";
 import { pct } from "./coach.ts";
@@ -46,14 +45,15 @@ export async function runGenerator(ctx: RoleContext): Promise<RoleResult> {
       const request = { sublevel, textType: t.textType, theme: t.theme, grammar, words: t.wordCount, allowedWordsAre: full ? "every word the learner knows" : "this sublevel's theme words only", allowedWords };
 
       const attempt = async (avoidWords: string[]) => {
-        const reply = await ctx.client.chat(
+        const reply = await ctx.client.chatJson(
           [
             { role: "system", content: ctx.prompt.system },
             { role: "user", content: JSON.stringify(avoidWords.length ? { ...request, avoidWords } : request) },
           ],
-          2500,
+          3000,
+          (o) => typeof o.text === "string" && o.text.trim() !== "",
         );
-        const text = parseJsonObject(reply.content)?.text;
+        const text = reply?.text;
         if (typeof text !== "string" || !text.trim()) return undefined;
         const c = coverage(text, k, data);
         return { text, share: c.tokens ? c.knownTokens / c.tokens : 0, unknown: [...new Set(c.unknown)] };

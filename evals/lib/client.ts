@@ -48,6 +48,18 @@ export class RateLimitedClient {
     return run;
   }
 
+  /**
+   * A call whose reply must be a JSON object the caller accepts. Like the app gateway (ARCHITECTURE.md),
+   * an invalid reply is retried once; a second invalid reply is returned as undefined and counts as a failure.
+   */
+  async chatJson(messages: Message[], maxTokens: number, accept: (o: Record<string, unknown>) => boolean = () => true): Promise<Record<string, unknown> | undefined> {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const parsed = parseJsonObject((await this.chat(messages, maxTokens)).content);
+      if (parsed && accept(parsed)) return parsed;
+    }
+    return undefined;
+  }
+
   private async waitForBudget(need: number) {
     // Never plan more than 90% of the minute: the estimate is rough and other runs may share the key.
     const budget = this.model.tokensPerMinute * 0.9;
