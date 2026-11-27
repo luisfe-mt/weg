@@ -52,7 +52,7 @@ describe("allowed phrases", () => {
     const a = "Vielen Dank für die Einladung. Ich habe drei Jahre gearbeitet.";
     const b = "Vielen Dank für die Einladung, ich freue mich.";
     expect(longestSharedRun(a, b)).toBe(6);
-    expect(longestSharedRun(a, b, ["Vielen Dank für die Einladung"])).toBe(0);
+    expect(longestSharedRun(a, b, ["Vielen Dank für die Einladung"])).toBe(1);
   });
   it("leave the rest of the text in runs", () => {
     expect(cutPhrases("Guten Tag, ich komme aus Chile.", ["guten tag"])).toEqual([["ich", "komme", "aus", "chile"]]);
