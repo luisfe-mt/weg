@@ -2287,9 +2287,9 @@
             "en": "Start the sentence with the time expression.",
             "es": "Empieza la frase con la expresión de tiempo."
           },
-          "prompt": "Der Kurs beginnt um neun Uhr.",
+          "prompt": "Mein Deutschkurs beginnt um zehn Uhr.",
           "answers": [
-            "Um neun Uhr beginnt der Kurs."
+            "Um zehn Uhr beginnt mein Deutschkurs."
           ]
         },
         {
@@ -2372,8 +2372,8 @@
         "es": "El acusativo con ein, kein, mein; möchte"
       },
       "explanation": {
-        "en": "The thing you have, need or buy is the object of the sentence, and German marks it with the accusative case. Good news first: only masculine nouns change. ein becomes einen, kein becomes keinen, mein becomes meinen (and dein, sein, ihr, Ihr likewise): 'Ich brauche einen Stift.' 'Ich habe keinen Laptop.' 'Hast du deinen Ausweis?' Feminine, neuter and plural stay as they are: 'Ich brauche eine Tasche, ein Heft und zwei Stifte.' You need this after the most useful verbs of everyday life: haben, brauchen, kaufen, nehmen, essen, trinken, and after es gibt (there is): 'Gibt es hier einen Supermarkt?' To order or ask politely, use möchte (would like). Learn it as a fixed form with a noun: ich möchte, du möchtest, er, sie, es möchte, wir möchten, ihr möchtet, sie, Sie möchten. 'Ich möchte einen Kaffee, bitte.' It is much more polite than will, which does not mean will in English but want.",
-        "es": "Lo que tienes, necesitas o compras es el complemento directo de la frase, y el alemán lo marca con el caso acusativo. Primero la buena noticia: solo cambian los masculinos. ein pasa a einen, kein a keinen, mein a meinen (y lo mismo dein, sein, ihr, Ihr): 'Ich brauche einen Stift.' 'Ich habe keinen Laptop.' 'Hast du deinen Ausweis?' Los femeninos, los neutros y los plurales no cambian: 'Ich brauche eine Tasche, ein Heft und zwei Stifte.' Lo necesitas con los verbos más útiles del día a día: haben, brauchen, kaufen, nehmen, essen, trinken, y con es gibt (hay): 'Gibt es hier einen Supermarkt?' Para pedir algo con cortesía se usa möchte (quisiera, me gustaría). Apréndelo como forma fija con un sustantivo: ich möchte, du möchtest, er, sie, es möchte, wir möchten, ihr möchtet, sie, Sie möchten. 'Ich möchte einen Kaffee, bitte.' Es mucho más cortés que 'ich will', que equivale a 'quiero' dicho de forma muy directa."
+        "en": "The thing you have, need or buy is the object of the sentence, and German marks it with the accusative case. Good news first: only masculine nouns change. ein becomes einen, kein becomes keinen, mein becomes meinen (and dein, sein, ihr, Ihr likewise): 'Ich brauche einen Stift.' 'Ich habe keinen Laptop.' 'Hast du deinen Ausweis?' Feminine, neuter and plural stay as they are: 'Ich brauche eine Tasche, ein Heft und zwei Stifte.' You need this after the most useful verbs of everyday life: haben, brauchen, kaufen, nehmen, essen, trinken, and after es gibt (there is): 'Gibt es hier einen Supermarkt?' To order or ask politely, use möchte (would like). Learn it as a fixed form with a noun: ich möchte, du möchtest, er, sie, es möchte, wir möchten, ihr möchtet, sie, Sie möchten. 'Ich möchte einen Saft, bitte.' It is much more polite than will, which does not mean will in English but want.",
+        "es": "Lo que tienes, necesitas o compras es el complemento directo de la frase, y el alemán lo marca con el caso acusativo. Primero la buena noticia: solo cambian los masculinos. ein pasa a einen, kein a keinen, mein a meinen (y lo mismo dein, sein, ihr, Ihr): 'Ich brauche einen Stift.' 'Ich habe keinen Laptop.' 'Hast du deinen Ausweis?' Los femeninos, los neutros y los plurales no cambian: 'Ich brauche eine Tasche, ein Heft und zwei Stifte.' Lo necesitas con los verbos más útiles del día a día: haben, brauchen, kaufen, nehmen, essen, trinken, y con es gibt (hay): 'Gibt es hier einen Supermarkt?' Para pedir algo con cortesía se usa möchte (quisiera, me gustaría). Apréndelo como forma fija con un sustantivo: ich möchte, du möchtest, er, sie, es möchte, wir möchten, ihr möchtet, sie, Sie möchten. 'Ich möchte einen Saft, bitte.' Es mucho más cortés que 'ich will', que equivale a 'quiero' dicho de forma muy directa."
       },
       "examples": [
         {
@@ -2387,9 +2387,9 @@
           "es": "No tengo portátil."
         },
         {
-          "de": "Ich möchte einen Kaffee, bitte.",
-          "en": "I would like a coffee, please.",
-          "es": "Quisiera un café, por favor."
+          "de": "Ich möchte einen Saft, bitte.",
+          "en": "I would like a juice, please.",
+          "es": "Quisiera un zumo, por favor."
         },
         {
           "de": "Ich kaufe einen Apfel und eine Banane.",
@@ -2421,15 +2421,15 @@
           }
         },
         {
-          "wrong": "Ich möchte ein Kaffee, bitte.",
-          "correct": "Ich möchte einen Kaffee, bitte.",
+          "wrong": "Ich möchte ein Saft, bitte.",
+          "correct": "Ich möchte einen Saft, bitte.",
           "l1": [
             "en",
             "es"
           ],
           "why": {
-            "en": "What you order is the object, and Kaffee is masculine (der Kaffee), so ein becomes einen.",
-            "es": "Lo que pides es el complemento directo y Kaffee es masculino (der Kaffee), así que ein pasa a einen."
+            "en": "What you order is the object, and Saft is masculine (der Saft), so ein becomes einen.",
+            "es": "Lo que pides es el complemento directo y Saft es masculino (der Saft), así que ein pasa a einen."
           }
         },
         {
@@ -2516,9 +2516,9 @@
             "en": "Replace the noun with the one in brackets.",
             "es": "Cambia el sustantivo por el que está entre paréntesis."
           },
-          "prompt": "Ich möchte ein Wasser, bitte. (Saft)",
+          "prompt": "Ich möchte ein Brötchen, bitte. (Apfel)",
           "answers": [
-            "Ich möchte einen Saft, bitte."
+            "Ich möchte einen Apfel, bitte."
           ]
         },
         {
@@ -3179,9 +3179,9 @@
         ]
       },
       "example": {
-        "de": "Der Kurs beginnt um neun Uhr.",
-        "en": "The course starts at nine o'clock.",
-        "es": "El curso empieza a las nueve."
+        "de": "Ich komme um acht Uhr.",
+        "en": "I am coming at eight o'clock.",
+        "es": "Vengo a las ocho."
       },
       "sublevel": "A1.1",
       "frequencyRank": 30
@@ -8322,9 +8322,9 @@
         ]
       },
       "example": {
-        "de": "Ich spreche Englisch und ein bisschen Deutsch.",
-        "en": "I speak English and a little German.",
-        "es": "Hablo inglés y un poco de alemán."
+        "de": "Mein Mitbewohner spricht gut Englisch.",
+        "en": "My flatmate speaks good English.",
+        "es": "Mi compañero de piso habla bien inglés."
       },
       "sublevel": "A1.1",
       "frequencyRank": 2954
@@ -14526,9 +14526,9 @@
       ],
       "usefulPhrases": [
         {
-          "de": "Ich möchte einen Kaffee, bitte.",
-          "en": "I would like a coffee, please.",
-          "es": "Quisiera un café, por favor."
+          "de": "Ich nehme einen Kaffee, bitte.",
+          "en": "I'll have a coffee, please.",
+          "es": "Para mí, un café, por favor."
         },
         {
           "de": "Und ein Brötchen mit Käse.",
@@ -14586,7 +14586,7 @@
       ],
       "script": [
         {
-          "learner": "Guten Morgen. Ich möchte ein Kaffee, bitte.",
+          "learner": "Guten Morgen. Ich nehme ein Kaffee, bitte.",
           "expect": "Does not correct 'ein Kaffee'. Asks one short question, for example whether with milk."
         },
         {
@@ -15229,7 +15229,7 @@
                 "rationale": "Task completion 1: most points but no free time, about one minute, the first name is spelt instead of the surname and the number breaks off. Interaction 1: frequent pauses and restarts, a list without linking. Grammar 1: ich habe zwanzig drei Jahre, ich studieren and zwei Bruder are basic errors, though most sentences are recognisable. Vocabulary 2: Maschinenbau, Arabisch, Schwester and ein bisschen are right; zwanzig drei shows that compound numbers are not known yet."
               },
               {
-                "response": "Hello … Hallo. My name … mein Name ist Emily. Ich bin von Kanada. Ich bin einundzwanzig. Ich bin ein Student in Heidelberg, ich studieren History … Geschichte. Ich spreche Englisch und Französisch. Ich bin lernen Deutsch. In meine Freizeit ich spiele Fußball. Emily: E-M-I-L-Y. Meine Nummer ist null eins fünf … zwei … sorry, zwei drei vier.",
+                "response": "Hello … Hallo. My name … mein Name ist Emily. Ich bin von Kanada. Ich bin einundzwanzig. Ich bin ein Student in Heidelberg, ich studieren History … Geschichte. Ich spreche Englisch und Französisch. Ich bin lernen Deutsch. In meine Freizeit ich spiele Fußball. Emily: E-M-I-L-Y. Meine Nummer ist null eins sechs … zwei … sorry, zwei drei vier.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 1,
@@ -15254,7 +15254,7 @@
             "band": 2,
             "samples": [
               {
-                "response": "Guten Tag. Mein Name ist Mateo Díaz. Ich bin zwanzig Jahre alt. Ich komme aus Kolumbien, aus Medellín. Jetzt wohne ich in Köln. Ich studiere Informatik. Meine Muttersprache ist Spanisch, ich spreche auch Englisch und ein bisschen Deutsch. Ich habe ein Bruder und eine Schwester. Mein Bruder ist sechzehn. Meine Eltern wohnen in Medellín. Am Wochenende ich spiele Fußball und ich koche gern. Mein Nachname: D-I-A-Z. Meine Telefonnummer ist null eins sieben sechs, drei vier, fünf fünf, eins zwei.",
+                "response": "Guten Tag. Mein Name ist Mateo Díaz. Ich bin zwanzig Jahre alt. Ich komme aus Kolumbien, aus Medellín. Jetzt wohne ich in Köln. Ich studiere Informatik. Meine Muttersprache ist Spanisch, ich spreche auch Englisch und ein bisschen Deutsch. Ich habe ein Bruder und zwei Schwestern. Mein Bruder ist sechzehn. Meine Eltern wohnen in Medellín. Am Wochenende ich spiele Fußball und ich koche gern. Mein Nachname: D-I-A-Z. Meine Telefonnummer ist null eins sechs sieben, drei vier, fünf fünf, eins zwei.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
@@ -15264,7 +15264,7 @@
                 "rationale": "Task completion 3: every prompt point, the surname spelt and a complete number. Interaction 2: steady but simple, a row of short sentences linked by und and auch. Grammar 2: present tense and mein, meine are right; ich habe ein Bruder (einen) and Am Wochenende ich spiele are typical errors that do not hide the meaning. Vocabulary 2: enough words for every point, but a narrow range."
               },
               {
-                "response": "Hi, äh, hallo. Ich heiße Daniel Brown. Brown: B-R-O-W-N. Ich bin dreiundzwanzig Jahre alt. Ich komme aus England, aus Leeds. Ich wohne in Leipzig, in eine WG. Ich studiere Physik. Ich spreche Englisch und ein bisschen Spanisch. Jetzt lerne ich Deutsch. Meine Familie ist klein: meine Mutter, meine Vater und ich. Meine Mutter ist Ärztin. Ich habe keine Geschwister. In meine Freizeit ich höre Musik und ich lese. Meine Nummer ist null eins fünf zwei, acht acht, sieben null, drei drei.",
+                "response": "Hi, äh, hallo. Ich heiße Daniel Brown. Brown: B-R-O-W-N. Ich bin dreiundzwanzig Jahre alt. Ich komme aus England, aus Leeds. Ich wohne in Leipzig, in eine WG. Ich studiere Physik. Ich spreche Englisch und ein bisschen Spanisch. Jetzt lerne ich Deutsch. Meine Familie ist klein: meine Mutter, meine Vater und ich. Meine Mutter ist Ärztin. Ich habe keine Geschwister. In meine Freizeit ich höre Musik und ich lese. Meine Nummer ist null eins sechs zwei, acht acht, sieben null, drei drei.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15299,7 +15299,7 @@
                 "rationale": "Task completion 3: all points with small details (three siblings, the parents' jobs, an opinion on German), clear spelling and number, about two minutes. Interaction 3: a steady flow, linked with und, aber and oder, two sentences start with a time. Grammar 3: verb second after Jetzt and Am Wochenende, arbeitet als, drei Geschwister; mit meine Mitbewohner is the only slip. Vocabulary 3: Muttersprache, Geschwister, Ingenieur, schwer, aber schön."
               },
               {
-                "response": "Hallo! Ich heiße James Miller. Miller schreibt man M-I-L-L-E-R. Ich bin neunzehn und ich komme aus den USA, aus Boston. Jetzt wohne ich in Berlin. Ich bin Student und ich studiere Wirtschaft. Ich spreche Englisch und Spanisch, und Deutsch lerne ich jeden Tag. Meine Eltern wohnen in Boston. Ich habe eine Schwester, sie heißt Emma und sie ist sechzehn. Ich habe auch einen Hund, er heißt Max. Am Montag und am Mittwoch arbeite ich als Kellner. In meine Freizeit spiele ich Basketball und ich höre Musik. Meine Nummer ist null eins fünf neun, eins zwei, drei vier, fünf sechs.",
+                "response": "Hallo! Ich heiße James Miller. Miller schreibt man M-I-L-L-E-R. Ich bin neunzehn und ich komme aus den USA, aus Boston. Jetzt wohne ich in Berlin. Ich bin Student und ich studiere Wirtschaft. Ich spreche Englisch und Spanisch, und Deutsch lerne ich jeden Tag. Meine Eltern wohnen in Boston. Ich habe eine Schwester, sie heißt Emma und sie ist sechzehn. Ich habe auch einen Hund, er heißt Max. Am Montag und am Mittwoch arbeite ich als Kellner. In meine Freizeit spiele ich Basketball und ich höre Musik. Meine Nummer ist null eins sechs neun, eins zwei, drei vier, fünf sechs.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,

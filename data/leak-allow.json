@@ -1,5 +1,30 @@
 {
   "about": "Fixed formulas that may appear in curriculum/ although a gold item also uses them. Only set phrases a learner must learn word for word (greetings, letter formulas, service openers) belong here, each with a reason. A content sentence never does. Read by scripts/check-leaks.mjs.",
-  "goldSentences": [],
+  "goldSentences": [
+    {
+      "sentence": "Was kann ich für Sie tun?",
+      "reason": "Standard opener of a clerk at a counter or on the phone; learners must recognise it word for word."
+    },
+    {
+      "sentence": "Wie kann ich Ihnen helfen?",
+      "reason": "Standard service opener of an office or help desk; there is no other natural wording."
+    },
+    {
+      "sentence": "Sehr geehrte Damen und Herren,",
+      "reason": "The fixed salutation of a formal letter to an unknown recipient; taught as a vocabulary lemma and required in formal writing tasks."
+    },
+    {
+      "sentence": "Vielen Dank für Ihre Hilfe.",
+      "reason": "Fixed formal thanks at the end of a call or letter, taught next to Mit freundlichen Grüßen."
+    },
+    {
+      "sentence": "Vielen Dank für die Einladung.",
+      "reason": "Fixed opening thanks of an interview or panel; learners use it word for word."
+    },
+    {
+      "sentence": "Das ist eine gute Frage.",
+      "reason": "Fixed discourse formula for gaining time before answering a question."
+    }
+  ],
   "scriptRuns": []
 }

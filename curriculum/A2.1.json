@@ -698,8 +698,8 @@
           }
         },
         {
-          "wrong": "Ich habe meine Mutter geanrufen.",
-          "correct": "Ich habe meine Mutter angerufen.",
+          "wrong": "Ich habe gestern die Praxis geanrufen.",
+          "correct": "Ich habe gestern die Praxis angerufen.",
           "l1": [
             "en",
             "es"
@@ -2047,9 +2047,9 @@
             "en": "Put the adjective before the noun.",
             "es": "Pon el adjetivo delante del sustantivo."
           },
-          "prompt": "Ich habe einen Mitbewohner. Er ist neu.",
+          "prompt": "Ich kaufe einen Laptop. Er ist neu.",
           "answers": [
-            "Ich habe einen neuen Mitbewohner."
+            "Ich kaufe einen neuen Laptop."
           ]
         },
         {
@@ -11167,7 +11167,7 @@
       },
       "example": {
         "de": "Wie ist das Passwort für das WLAN?",
-        "en": "What is the wifi password?",
+        "en": "What's the password for the wifi?",
         "es": "¿Cuál es la contraseña del wifi?"
       },
       "sublevel": "A2.1",
@@ -13032,7 +13032,7 @@
             "band": 2,
             "samples": [
               {
-                "response": "Am Samstag ich habe lange geschlafen. Dann ich habe eingekauft im Supermarkt. Am Nachmittag ich bin mit meine Freunde in den Park gegangen, wir haben Fußball gespielt. Es war sehr lustig. Am Abend wir haben einen Film gesehen. Am Sonntag ich habe gelernt für die Prüfung. Äh... und ich habe gekocht.\n[Frage 1] Das Wetter war gut. Viel Sonne.\n[Frage 2] Am Sonntag ich lerne oder ich koche.",
+                "response": "Am Samstag ich habe bis elf Uhr geschlafen. Dann ich habe eingekauft im Supermarkt. Am Nachmittag ich bin mit meine Freunde in den Park gegangen, wir haben Fußball gespielt. Es war sehr lustig. Am Abend wir haben einen Film gesehen. Am Sonntag ich habe gelernt für die Prüfung. Äh... und ich habe gekocht.\n[Frage 1] Das Wetter war gut. Viel Sonne.\n[Frage 2] Am Sonntag ich lerne oder ich koche.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -13067,7 +13067,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Also, am Samstag habe ich lange geschlafen, bis zehn Uhr. Dann habe ich mit meiner Mitbewohnerin gefrühstückt. Danach sind wir zusammen auf den Markt gegangen und haben Obst und Gemüse gekauft. Am Nachmittag musste ich zwei Stunden für meine Klausur lernen, das war nicht so schön. Am Abend hat mein Kommilitone Geburtstag gefeiert. Wir waren ungefähr zwanzig Leute und haben bis zwei Uhr getanzt. Am Sonntag war ich sehr müde. Trotzdem bin ich mit dem Fahrrad zum See gefahren und habe dort ein Buch gelesen.\n[Frage 1] Am Samstag hat es geregnet, aber am Sonntag hat die Sonne geschienen.\n[Frage 2] Normalerweise schlafe ich lange, und dann rufe ich meine Familie in Chile an.",
+                "response": "Also, am Samstag habe ich bis zehn Uhr geschlafen. Dann habe ich mit meiner Mitbewohnerin gefrühstückt. Danach sind wir zusammen auf den Markt gegangen und haben Obst und Gemüse gekauft. Am Nachmittag musste ich zwei Stunden für meine Klausur lernen, das war nicht so schön. Am Abend hat mein Kommilitone Geburtstag gefeiert. Wir waren ungefähr zwanzig Leute und haben bis zwei Uhr getanzt. Am Sonntag war ich sehr müde. Trotzdem bin ich mit dem Fahrrad zum See gefahren und habe dort ein Buch gelesen.\n[Frage 1] Am Samstag hat es geregnet, aber am Sonntag hat die Sonne geschienen.\n[Frage 2] Normalerweise schlafe ich lange, und dann rufe ich meine Familie in Chile an.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -13166,7 +13166,7 @@
                 "rationale": "Task completion 1: says what he did and that it was nice, but there is no suggestion; about 25 words. Coherence 1: short sentences with only und. Grammar 1: present tense for the past, der Hafen as an object and a missing article before Wetter. Vocabulary and spelling 1: basic words only, spelling correct."
               },
               {
-                "response": "Liebe Sofia, Hamburg war sehr gut!!! Wir haben gemacht viele Sachen, wir haben gegeht zu die Hafen und museum. Ich habe gekauft souvenirs. Und du, was hast du gemacht? Bye\nMaría",
+                "response": "Liebe Sofia, Hamburg war sehr gut!!! Wir haben gemacht viele Sachen, wir haben gegeht zu die Hafen und museum. Ich habe gekauft souvenirs. Und was hast du gemacht? Bye\nMaría",
                 "criterionBands": {
                   "task-completion": 1,
                   "coherence": 1,

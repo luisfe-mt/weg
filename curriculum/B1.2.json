@@ -16513,14 +16513,14 @@
                 "rationale": "Task completion 3: thanks, apology, reason and a concrete alternative in the right register; about 40 words. Coherence 2: clear and linked with weil, aber and wenn, but a little stiff. Grammar 2: correct throughout with könnte, but only simple structures. Vocabulary and spelling 2: fitting set phrases; nothing beyond them."
               },
               {
-                "response": "Hallo Frau Wagner,\nes tut mir leid, aber am Samstag kann ich leider nicht. Ich muss meine Wohnung abgeben, weil ich umziehe. Vielleicht kann Jana die Schicht machen? Sie hat gesagt, dass sie mehr Stunden möchte.\nViele Grüße\nDaniel",
+                "response": "Hallo Frau Wagner,\nes tut mir leid, aber ich kann am Samstag leider nicht. Ich muss meine Wohnung abgeben, weil ich umziehe. Vielleicht kann Jana die Schicht machen? Sie hat gesagt, dass sie mehr Stunden möchte.\nViele Grüße\nDaniel",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-spelling": 2
                 },
-                "rationale": "Task completion 2: apology, reason and an alternative (a colleague) are clear; 'Hallo' is acceptable for a team leader but 'kann ich leider nicht' without a verb is a little casual; about 40 words. Coherence 2: aber, weil and dass link the ideas. Grammar 2: correct but simple. Vocabulary and spelling 2: 'die Schicht machen' is plain; otherwise fitting."
+                "rationale": "Task completion 2: apology, reason and an alternative (a colleague) are clear; 'Hallo' is acceptable for a team leader but 'ich kann am Samstag leider nicht' without a verb is a little casual; about 40 words. Coherence 2: aber, weil and dass link the ideas. Grammar 2: correct but simple. Vocabulary and spelling 2: 'die Schicht machen' is plain; otherwise fitting."
               },
               {
                 "response": "Sehr geehrte Frau Wagner,\nentschuldigen Sie bitte, aber am Samstag kann ich die Schicht nicht übernehmen. Ich habe meinem Freund versprochen, bei seinem Umzug zu helfen. Wäre es möglich, dass ich nächste Woche einen Tag mehr arbeite?\nMit freundlichen Grüße\nKarina",
@@ -16558,7 +16558,7 @@
                 "rationale": "Task completion 3: apology, reason and a concrete counter-offer; polite register; about 40 words. Coherence 3: aber, weil and the colon lead naturally to the offer. Grammar 3: correct, with würde gern and a Konjunktiv II suggestion. Vocabulary and spelling 3: fitting phrases (zusätzliche Schicht, Wie wäre es); no errors."
               },
               {
-                "response": "Liebe Frau Wagner,\nentschuldigen Sie bitte die späte Antwort. Am Samstag kann ich leider nicht einspringen, denn ich halte an dem Tag ein Referat an der Uni. Meine Kollegin Mia hätte aber Zeit, ich habe sie schon gefragt. Sonst könnte ich gern Freitagabend kommen.\nHerzliche Grüße\nLeonie",
+                "response": "Liebe Frau Wagner,\nentschuldigen Sie bitte die späte Antwort. Leider kann ich am Samstag nicht einspringen, denn ich halte an dem Tag ein Referat an der Uni. Meine Kollegin Mia hätte aber Zeit, ich habe sie schon gefragt. Sonst könnte ich gern Freitagabend kommen.\nHerzliche Grüße\nLeonie",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
