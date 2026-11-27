@@ -2837,14 +2837,14 @@
         "es": "Pronombres relativos en genitivo: dessen y deren"
       },
       "explanation": {
-        "en": "To say whose something is, German uses the genitive of the relative pronoun: dessen for a masculine or neuter owner, deren for a feminine or plural owner. 'Der Kollege, dessen Auto kaputt ist, kommt mit dem Bus.' 'Die Kollegin, deren Bericht ich lese, sitzt im Büro nebenan.' Two rules. First, the pronoun follows the owner, the person or thing before the comma, not the noun that is owned: 'die Frau, deren Sohn …', although Sohn is masculine. Second, dessen or deren already does the work of the article, so the owned noun has no article after it: never 'dessen das Auto'. The owned noun keeps the ending its job in the clause needs, for example the -n of the dative plural: 'der Chef, mit dessen Kollegen ich gesprochen habe'. A preposition stands in front of the whole group: 'der Kollege, mit dessen Hilfe ich die Wohnung gefunden habe'. Do not use wessen here: it only asks a question ('Wessen Auto ist das?'). Dessen and deren are common in writing and a little formal in speech.",
-        "es": "Para decir de quién es algo, el alemán usa el genitivo del pronombre relativo: dessen si el poseedor es masculino o neutro, deren si es femenino o plural. 'Der Kollege, dessen Auto kaputt ist, kommt mit dem Bus.' ('El compañero cuyo coche está estropeado viene en autobús.') 'Die Kollegin, deren Bericht ich lese, sitzt im Büro nebenan.' Dos reglas. Primera: el pronombre concuerda con el poseedor, la persona o cosa que va antes de la coma, y no con lo poseído, al revés que 'cuyo / cuya': 'die Frau, deren Sohn …', aunque Sohn sea masculino. Segunda: dessen o deren ya hace de artículo, así que el sustantivo poseído no lleva artículo detrás: nunca 'dessen das Auto'. Ese sustantivo conserva la terminación que le pide su función en la oración, por ejemplo la -n del dativo plural: 'der Chef, mit dessen Kollegen ich gesprochen habe'. La preposición va delante de todo el grupo: 'der Kollege, mit dessen Hilfe ich die Wohnung gefunden habe'. No uses wessen: solo sirve para preguntar ('Wessen Auto ist das?'). Dessen y deren son frecuentes por escrito y algo formales al hablar."
+        "en": "To say whose something is, German uses the genitive of the relative pronoun: dessen for a masculine or neuter owner, deren for a feminine or plural owner. 'Der Nachbar, dessen Hund nachts bellt, ist verreist.' Two rules. First, the pronoun follows the owner, the person or thing before the comma, not the noun that is owned: 'die Frau, deren Sohn …', although Sohn is masculine. Second, dessen or deren already does the work of the article, so the owned noun has no article after it: never 'dessen das Auto'. The owned noun keeps the ending its job in the clause needs, for example the -n of the dative plural: 'die Freunde, mit deren Kindern wir spielen'. An adjective after dessen or deren has strong endings: 'dessen neues Auto', 'deren neuer Chef'. Do not use wessen here: it only asks a question ('Wessen Auto ist das?').",
+        "es": "Para decir de quién es algo, el alemán usa el genitivo del pronombre relativo: dessen si el poseedor es masculino o neutro, deren si es femenino o plural. 'Der Nachbar, dessen Hund nachts bellt, ist verreist.' ('El vecino cuyo perro ladra por la noche está de viaje.') Dos reglas. Primera: el pronombre concuerda con el poseedor, la persona o cosa que va antes de la coma, y no con lo poseído, al revés que 'cuyo / cuya': 'die Frau, deren Sohn …', aunque Sohn sea masculino. Segunda: dessen o deren ya hace de artículo, así que el sustantivo poseído no lleva artículo detrás: nunca 'dessen das Auto'. Ese sustantivo conserva la terminación que le pide su función en la oración, por ejemplo la -n del dativo plural: 'die Freunde, mit deren Kindern wir spielen' ('los amigos con cuyos hijos jugamos'). Un adjetivo tras dessen o deren lleva terminaciones fuertes: 'dessen neues Auto', 'deren neuer Chef'. No uses wessen: solo sirve para preguntar ('Wessen Auto ist das?')."
       },
       "examples": [
         {
-          "de": "Der Kollege, dessen Auto kaputt ist, kommt heute mit dem Bus.",
-          "en": "The colleague whose car is broken is coming by bus today.",
-          "es": "El compañero cuyo coche está estropeado viene hoy en autobús."
+          "de": "Der Nachbar, dessen Hund nachts bellt, ist verreist.",
+          "en": "The neighbour whose dog barks at night is away.",
+          "es": "El vecino cuyo perro ladra por la noche está de viaje."
         },
         {
           "de": "Die Kollegin, deren Bericht ich gerade lese, sitzt im Büro nebenan.",
@@ -2902,15 +2902,14 @@
           }
         },
         {
-          "wrong": "Die Studentin, die ihre Arbeit ausgezeichnet wurde, kommt aus Chile.",
-          "correct": "Die Studentin, deren Arbeit ausgezeichnet wurde, kommt aus Chile.",
+          "wrong": "Die Ärztin, die ihre Praxis im Zentrum liegt, ist beliebt.",
+          "correct": "Die Ärztin, deren Praxis im Zentrum liegt, ist beliebt.",
           "l1": [
-            "en",
             "es"
           ],
           "why": {
-            "en": "In speech both languages let the pronoun and a possessive stand side by side ('the student who her work won a prize'; 'la estudiante que su trabajo ganó un premio'). German has one word for both jobs: deren replaces the possessive and the article.",
-            "es": "En el habla ambas lenguas dejan el pronombre y un posesivo uno junto a otro ('la estudiante que su trabajo ganó un premio'; en inglés 'the student who her work won a prize'). El alemán tiene una sola palabra para las dos funciones: deren sustituye al posesivo y al artículo."
+            "en": "Spanish speakers often say 'la médica que su consulta …', pronoun plus possessive. German has one word for both jobs: deren.",
+            "es": "En español coloquial se dice \"la médica que su consulta está en el centro\": pronombre más posesivo. El alemán tiene una sola palabra: deren."
           }
         },
         {
@@ -2955,7 +2954,7 @@
             "en": "Write dessen or deren.",
             "es": "Escribe dessen o deren."
           },
-          "prompt": "Der Kollege, ___ Auto kaputt ist, kommt mit dem Bus.",
+          "prompt": "Der Student, ___ Fahrrad gestohlen wurde, ist traurig.",
           "answers": [
             "dessen"
           ]
@@ -3010,9 +3009,9 @@
             "en": "Join the two sentences with dessen or deren.",
             "es": "Une las dos frases con dessen o deren."
           },
-          "prompt": "Die Firma sucht Mitarbeiter. Ihr Angebot ist sehr gut.",
+          "prompt": "Ich kenne eine Firma. Ihr Angebot ist sehr gut.",
           "answers": [
-            "Die Firma, deren Angebot sehr gut ist, sucht Mitarbeiter."
+            "Ich kenne eine Firma, deren Angebot sehr gut ist."
           ]
         },
         {
@@ -3032,9 +3031,9 @@
             "en": "Put the words in order.",
             "es": "Ordena las palabras."
           },
-          "prompt": "das / ist / die Kollegin / deren / Bericht / ich / gelesen / habe",
+          "prompt": "das / ist / der Chef / dessen / neues / Büro / im ersten Stock / liegt",
           "answers": [
-            "Das ist die Kollegin, deren Bericht ich gelesen habe."
+            "Das ist der Chef, dessen neues Büro im ersten Stock liegt."
           ]
         },
         {

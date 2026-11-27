@@ -13318,9 +13318,9 @@
           "es": "Me he dado cuenta de que la lista solo estuvo lista por la tarde dos veces."
         },
         {
-          "de": "Wie siehst du das? Gibt es einen Grund dafür?",
-          "en": "How do you see it? Is there a reason for it?",
-          "es": "¿Cómo lo ves tú? ¿Hay algún motivo?"
+          "de": "Was sagst du dazu? Gibt es einen Grund dafür?",
+          "en": "What do you say to that? Is there a reason for it?",
+          "es": "¿Qué dices a eso? ¿Hay algún motivo?"
         },
         {
           "de": "Das verstehe ich schon, aber für mich ist das eben schwierig.",
@@ -13778,11 +13778,11 @@
         "es": "Ayuda a una clienta que recibió la talla equivocada"
       },
       "situation": {
-        "en": "You work in the customer service of an online shop for sports clothes called Sportwelt Süd (an invented company). Frau Lindner calls: she ordered a rain jacket in size M, but size L arrived. She needs the jacket for a hike on Saturday, today is Tuesday, and yesterday she asked for a call back that never came. She is annoyed but polite. Apologise, find out the details, say what the company can offer and agree on the next step. Use Sie. Everything about the company is invented for this exercise.",
-        "es": "Trabajas en el servicio de atención al cliente de una tienda en línea de ropa deportiva llamada Sportwelt Süd (una empresa inventada). Llama la señora Lindner: pidió una chaqueta impermeable en la talla M, pero llegó la L. Necesita la chaqueta para una excursión el sábado, hoy es martes, y ayer pidió que la llamaran, pero nadie lo hizo. Está molesta pero es educada. Pide disculpas, averigua los detalles, di qué puede ofrecer la empresa y acordad el siguiente paso. Usa Sie. Todo lo que se dice de la empresa es inventado para este ejercicio."
+        "en": "You work in the customer service of an online shop for sports clothes called Sportwelt Süd (an invented company). Frau Köhler calls: she ordered a rain jacket in size M, but size L arrived. She needs the jacket for a hike on Saturday, today is Tuesday, and yesterday she asked for a call back that never came. She is annoyed but polite. Apologise, find out the details, say what the company can offer and agree on the next step. Use Sie. Everything about the company is invented for this exercise.",
+        "es": "Trabajas en el servicio de atención al cliente de una tienda en línea de ropa deportiva llamada Sportwelt Süd (una empresa inventada). Llama la señora Köhler: pidió una chaqueta impermeable en la talla M, pero llegó la L. Necesita la chaqueta para una excursión el sábado, hoy es martes, y ayer pidió que la llamaran, pero nadie lo hizo. Está molesta pero es educada. Pide disculpas, averigua los detalles, di qué puede ofrecer la empresa y acordad el siguiente paso. Usa Sie. Todo lo que se dice de la empresa es inventado para este ejercicio."
       },
       "learnerRole": "Mitarbeiterin oder Mitarbeiter im Kundenservice von Sportwelt Süd",
-      "partnerRole": "Frau Lindner, Kundin, verärgert, aber höflich; braucht die Jacke bis Samstag",
+      "partnerRole": "Frau Köhler, Kundin, verärgert, aber höflich; braucht die Jacke bis Samstag",
       "register": "Sie",
       "goals": [
         {
@@ -13802,17 +13802,17 @@
           "es": "Aclara qué pasa con la chaqueta equivocada, acordad el siguiente paso y resúmelo antes de terminar la llamada."
         }
       ],
-      "partnerOpening": "Guten Tag, hier spricht Lindner. Ich habe vor sechs Tagen bei Ihnen eine Regenjacke in Größe M bestellt, und geliefert wurde Größe L. Gestern habe ich um einen Rückruf gebeten, aber es hat sich niemand gemeldet. Und ich brauche die Jacke am Samstag!",
+      "partnerOpening": "Guten Tag, hier spricht Köhler. Ich habe vor sechs Tagen bei Ihnen eine Regenjacke in Größe M bestellt, und geliefert wurde Größe L. Gestern habe ich um einen Rückruf gebeten, aber es hat sich niemand gemeldet. Und ich brauche die Jacke am Samstag!",
       "partnerFacts": [
         "Alles in diesem Gespräch ist für die Übung erfunden.",
-        "Frau Lindner hat die Jacke vor sechs Tagen bestellt; die Bestellnummer lautet SW-2093.",
+        "Frau Köhler hat die Jacke vor sechs Tagen bestellt; die Bestellnummer lautet SW-2093.",
         "Bestellt war Größe M, angekommen ist Größe L. Heute ist Dienstag.",
         "Sie braucht die Jacke für eine Wanderung am kommenden Samstag.",
         "Sie hat gestern bei der Hotline um einen Rückruf gebeten; niemand hat zurückgerufen.",
         "Sportwelt Süd kann Größe M per Expressversand schicken (Größe M ist auf Lager) oder den Kaufpreis erstatten; die Kundin darf wählen.",
         "Die Jacke in Größe M wäre in zwei Werktagen da, also bis Donnerstag; die Erstattung dauert etwa sieben Tage.",
         "Die falsche Jacke muss zurückgeschickt werden; das Rücksendeetikett kommt per E-Mail, und die Versandkosten übernimmt die Firma.",
-        "Frau Lindner wählt den Expressversand, wenn die Jacke bis Donnerstag kommt, und möchte eine Bestätigung per E-Mail."
+        "Frau Köhler wählt den Expressversand, wenn die Jacke bis Donnerstag kommt, und möchte eine Bestätigung per E-Mail."
       ],
       "targetGrammar": [
         "g-register-address-and-greeting",
@@ -13852,7 +13852,7 @@
         "maxTurns": 16
       },
       "expectedPartnerBehaviour": [
-        "Stays Frau Lindner, a customer, and uses Sie; annoyed at first but polite, and calmer when the learner apologises and offers a solution.",
+        "Stays Frau Köhler, a customer, and uses Sie; annoyed at first but polite, and calmer when the learner apologises and offers a solution.",
         "Mentions the Saturday deadline early and returns to it when the learner names the delivery time.",
         "Gives the order number and the wrong size only when asked; does not repeat the whole story each turn.",
         "Chooses the express shipment only if the jacket arrives by Thursday; asks what to do with the wrong jacket.",
@@ -13872,12 +13872,12 @@
         {
           "partnerTurn": "Hey, kannst du das mal checken? Das nervt echt voll.",
           "breaks": "left-role",
-          "why": "Frau Lindner switches to du and slang; she keeps Sie and a polite, clear register."
+          "why": "Frau Köhler switches to du and slang; she keeps Sie and a polite, clear register."
         }
       ],
       "script": [
         {
-          "learner": "Guten Tag, Frau Lindner, Kundenservice von Sportwelt Süd, mein Name ist Kim Novak. Ich bedaure sehr, dass niemand zurückgerufen hat.",
+          "learner": "Guten Tag, Frau Köhler, Kundenservice von Sportwelt Süd, mein Name ist Kim Novak. Ich bedaure sehr, dass niemand zurückgerufen hat.",
           "expect": "Confirms that she waited for the call back and asks the learner to solve the problem."
         },
         {
@@ -13936,7 +13936,7 @@
         "Alles in diesem Gespräch ist für die Übung erfunden.",
         "Der Infotag ist in drei Wochen. Alle 120 Einladungen sind per E-Mail verschickt, und zwei Seminarräume sind reserviert.",
         "Die Plakate sind noch nicht in der Druckerei; sie sollten bis Mittwoch dort sein.",
-        "Der Grund für die Verzögerung: Die Druckerei hat die Datei zurückgeschickt, weil das Format nicht gepasst hat; die Plakate müssen neu angepasst werden, das dauert etwa zwei Tage.",
+        "Der Grund für die Verzögerung: Die Druckerei hat die Datei zurückgeschickt, weil das Format nicht gepasst hat; die Plakate müssen neu angepasst werden, das dauert etwa zwei Tage, und Frau Winter hat erst ab Mittwoch Zeit.",
         "Der Praktikant oder die Praktikantin braucht Hilfe von Frau Winter aus der Pressestelle, damit das Format diesmal stimmt.",
         "Ein neuer Termin am nächsten Montag wäre für Herrn Albrecht in Ordnung.",
         "Herr Albrecht hat am Donnerstag von 9 bis 10 Uhr Zeit für eine Besprechung über das Programm."
@@ -14013,14 +14013,14 @@
         },
         {
           "learner": "Dafür bräuchte ich kurz Unterstützung durch Frau Winter von der Pressestelle, damit das Format diesmal stimmt.",
-          "expect": "Agrees to ask Frau Winter; asks for a realistic new date."
+          "expect": "Agrees to ask Frau Winter, who is free only from Wednesday; asks for a realistic new date."
         },
         {
-          "learner": "Ich bin ziemlich sicher, dass wir die Plakate bis Montag abgeben können. Ist das in Ordnung?",
-          "expect": "Says Monday is fine; does not name a different date."
+          "learner": "Ich bin ziemlich sicher, dass wir die Plakate bis Montag abgeben können. Ist das in Ordnung? Und hätten Sie diese Woche kurz Zeit für das Programm?",
+          "expect": "Says Monday is fine; says quickly and in few words that he has time on Thursday morning."
         },
         {
-          "learner": "Entschuldigung, wann hätten Sie am Donnerstag Zeit? Ich habe die Uhrzeit nicht verstanden.",
+          "learner": "Entschuldigung, wann genau? Ich habe die Uhrzeit nicht verstanden.",
           "expect": "Repeats slowly: Thursday from 9 to 10 a.m."
         },
         {
@@ -14914,7 +14914,7 @@
                 "rationale": "Task completion 2: all points are present and clear; 137 words, near the target. Coherence 2: the passive and the weil-clause link the ideas, with some short jumps. Grammar 2: 'innerhalb fünf Werktage' (innerhalb von fünf Werktagen), 'weil wir müssen' (verb position) and 'Grüße' (Grüßen) are errors that do not hide the meaning; the passive 'geschickt wurde' is right. Vocabulary and register 2: formal and consistent, with Bescheid sagen as a good set phrase; 'zahlen Ihnen das Geld zurück' is plain."
               },
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Es tut mir sehr leid, dass die Armlehne vom Stuhl gebrochen war. Ich entschuldige mich auch für die späte Antwort: Ihre erste Mail wurde leider an einer anderen Abteilung geschickt, und dort hat sie keiner bearbeitet. Das hätte nicht passieren sollen. Ich verstehe, dass Sie sehr verärgert sind.\n\nAls Lösung können wir Ihnen einen neuen Stuhl liefern. Das dauert fünf Werktage. Möchten Sie lieber Ihr Geld zurück, bekommen Sie die Erstattung in etwa zehn Tagen. Die Entscheidung liegt ganz bei Ihnen.\n\nKönnten Sie mir bitte bis Freitag antworten, welche Lösung Sie bevorzugen? Danach kann ich alles sofort veranlassen. Wir hoffen, dass wir das Problem so schnell lösen können. Sollten Sie vorher noch Fragen haben, erreichen Sie mich jederzeit unter der Nummer in meiner Signatur.\n\nMit freundlichen Grüßen\nTomás Vega",
+                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Es tut mir wirklich leid, dass die Armlehne vom Stuhl gebrochen war. Ich entschuldige mich auch für die späte Antwort: Ihre erste Mail wurde leider an einer anderen Abteilung geschickt, und dort hat sie keiner bearbeitet. Das hätte nicht passieren sollen. Ich verstehe, dass Sie sehr verärgert sind.\n\nAls Lösung können wir Ihnen einen neuen Stuhl liefern. Das dauert fünf Werktage. Möchten Sie lieber Ihr Geld zurück, bekommen Sie die Erstattung in etwa zehn Tagen. Die Entscheidung liegt ganz bei Ihnen.\n\nKönnten Sie mir bitte bis Freitag antworten, welche Lösung Sie bevorzugen? Danach kann ich alles sofort veranlassen. Wir hoffen, dass wir das Problem so schnell lösen können. Sollten Sie vorher noch Fragen haben, erreichen Sie mich jederzeit unter der Nummer in meiner Signatur.\n\nMit freundlichen Grüßen\nTomás Vega",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
@@ -14949,7 +14949,7 @@
                 "rationale": "Task completion 3: all points in detail with a clear request, 131 words, on target. Coherence 3: a clear line from apology to request, with a good use of Entweder/Oder and 'was etwa zehn Tage dauert'. Grammar 3: only one slip ('so lang' instead of so lange); Konjunktiv II for politeness and a was-relative clause are correct. Vocabulary and register 3: warm and formal at once; 'sich um etwas kümmern' and 'ausdrücklich' are natural."
               },
               {
-                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Wir bedauern sehr, dass Ihr Stuhl beschädigt geliefert wurde, und wir entschuldigen uns dafür, dass Sie so lange auf eine Antwort warten mussten. Ihre erste Mail ist bei uns leider in der falschen Abteilung gelandet, daher hat sie niemand rechtzeitig gelesen. Das ist ärgerlich, und wir möchten es wiedergutmachen.\n\nWir möchten Ihnen zwei Lösungen anbieten. Zum einen schicken wir Ihnen einen neuen Stuhl, den Sie innerhalb von fünf Werktagen erhalten. Zum anderen können wir Ihnen den Kaufpreis erstatten. Die Erstattung dauert in der Regel etwa zehn Tage. Beide Möglichkeiten stehen Ihnen offen.\n\nBitte lassen Sie uns bis Freitag wissen, für welche Möglichkeit Sie sich entscheiden. Wir kümmern uns dann umgehend darum und melden uns, sobald alles auf dem Weg ist.\n\nMit freundlichen Grüßen\nSofía Marín\nKundenservice Bürowelt Nord",
+                "response": "Sehr geehrte Frau Sommer,\n\nvielen Dank für Ihre Nachricht. Wir bedauern sehr, dass Ihr Stuhl beschädigt geliefert wurde, und wir entschuldigen uns dafür, dass Sie auf unsere Antwort so lange warten mussten. Ihre erste Mail ist bei uns leider in der falschen Abteilung gelandet, daher hat sie niemand rechtzeitig gelesen. Das ist ärgerlich, und wir möchten es wiedergutmachen.\n\nWir möchten Ihnen zwei Lösungen anbieten. Zum einen schicken wir Ihnen einen neuen Stuhl, den Sie innerhalb von fünf Werktagen erhalten. Zum anderen können wir Ihnen den Kaufpreis erstatten. Die Erstattung dauert in der Regel etwa zehn Tage. Beide Möglichkeiten stehen Ihnen offen.\n\nBitte lassen Sie uns bis Freitag wissen, für welche Möglichkeit Sie sich entscheiden. Wir kümmern uns dann umgehend darum und melden uns, sobald alles auf dem Weg ist.\n\nMit freundlichen Grüßen\nSofía Marín\nKundenservice Bürowelt Nord",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
@@ -15121,7 +15121,7 @@
         "id": "sprechen-kundenanruf-beschwerde",
         "skill": "speaking",
         "format": "Rollenspiel am Telefon: eine Kundenbeschwerde bearbeiten",
-        "instructions": "Sie arbeiten im Kundenservice von Sportwelt Süd (eine erfundene Firma). Eine verärgerte Kundin, Frau Lindner, ruft an, weil sie die falsche Größe einer Regenjacke bekommen hat und vergeblich auf einen Rückruf gewartet hat. Sie braucht die Jacke am Samstag. Begrüßen Sie sie professionell, entschuldigen Sie sich und lassen Sie sie das Problem schildern. Fragen Sie nach der Bestellnummer und den Einzelheiten. Erklären Sie, was die Firma tun kann, und nennen Sie einen Zeitrahmen. Klären Sie, was mit der falschen Jacke geschieht, einigen Sie sich auf den nächsten Schritt und fassen Sie ihn am Ende zusammen. Sie siezen Frau Lindner.",
+        "instructions": "Sie arbeiten im Kundenservice von Sportwelt Süd (eine erfundene Firma). Eine verärgerte Kundin, Frau Köhler, ruft an, weil sie die falsche Größe einer Regenjacke bekommen hat und vergeblich auf einen Rückruf gewartet hat. Sie braucht die Jacke am Samstag. Begrüßen Sie sie professionell, entschuldigen Sie sich und lassen Sie sie das Problem schildern. Fragen Sie nach der Bestellnummer und den Einzelheiten. Erklären Sie, was die Firma tun kann, und nennen Sie einen Zeitrahmen. Klären Sie, was mit der falschen Jacke geschieht, einigen Sie sich auf den nächsten Schritt und fassen Sie ihn am Ende zusammen. Sie siezen Frau Köhler.",
         "minutes": 6,
         "points": 9,
         "talkScenario": "ts-b23-gate-hotline-falsche-groesse",
@@ -15131,7 +15131,7 @@
             "band": 0,
             "samples": [
               {
-                "response": "Ja, Frau Lindner. Jacke falsch. Wir ... neu. Okay. Tschüss.",
+                "response": "Ja, Frau Köhler. Jacke falsch. Wir ... neu. Okay. Tschüss.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -15141,7 +15141,7 @@
                 "rationale": "Task completion 0: no apology, no questions about the order, no time frame, no summary. Interaction and fluency 0: fragments, no reaction to what the customer says. Grammar 0: no sentence has a verb in a correct form. Vocabulary and register 0: 'Ja' and 'Tschüss' with an annoyed customer; almost no content words."
               },
               {
-                "response": "Hallo, Frau Lindner. Entschuldigung. Sorry. Größe ... M. Wir schicken ... zwei Tage. Gut? Danke.",
+                "response": "Hallo, Frau Köhler. Entschuldigung. Sorry. Größe ... M. Wir schicken ... zwei Tage. Gut? Danke.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -15151,7 +15151,7 @@
                 "rationale": "Task completion 0: apologises and names two days, but asks nothing, offers no choice and does not sum up. Interaction and fluency 0: single words with pauses; the customer has to guess. Grammar 0: only one conjugated verb. Vocabulary and register 1: Entschuldigung is polite and 'Größe M' fits, but 'sorry' is English and 'Hallo' is too casual."
               },
               {
-                "response": "Guten Tag, Frau Lindner. Die Größe ist nicht richtig. Das ist schade. Wir haben M. Sie bekommen M. Auf Wiederhören.",
+                "response": "Guten Tag, Frau Köhler. Die Größe ist nicht richtig. Das ist schade. Wir haben M. Sie bekommen M. Auf Wiederhören.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -15166,7 +15166,7 @@
             "band": 1,
             "samples": [
               {
-                "response": "Guten Tag, Frau Lindner. Es tut mir leid. Wie ist Ihre Nummer von Bestellung?\nAh, Größe L. Wir können senden Größe M oder Sie bekommen Geld zurück.\nDie Jacke kommt in zwei Tage. Geld sieben Tage.\nGut, ich schreibe Ihnen eine E-Mail. Auf Wiederhören.",
+                "response": "Guten Tag, Frau Köhler. Es tut mir leid. Wie ist Ihre Nummer von Bestellung?\nAh, Größe L. Wir können senden Größe M oder Sie bekommen Geld zurück.\nDie Jacke kommt in zwei Tage. Geld sieben Tage.\nGut, ich schreibe Ihnen eine E-Mail. Auf Wiederhören.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
@@ -15176,24 +15176,24 @@
                 "rationale": "Task completion 1: asks for the number, offers both options with times, but gives no real apology for the missing call back and no summary. Interaction and fluency 1: short answers after each question, no initiative; does not react to the problem with Saturday. Grammar 1: 'Nummer von Bestellung', 'Wir können senden Größe M', 'in zwei Tage'. Vocabulary and register 1: Sie and the greeting fit, but the words are basic and 'senden' is stiff."
               },
               {
-                "response": "Hallo Frau Lindner, hier ist Tomás. Ich weiß nicht, warum niemand angerufen hat. Wie ist die Bestellnummer? Die Größe ist falsch? Okay. Wir schicken die richtige Jacke oder Sie wollen Geld, was Sie möchten. Ich schicke E-Mail.",
+                "response": "Hallo Frau Köhler, hier ist Tomás. Ich weiß nicht, warum niemand angerufen hat. Wie ist die Bestellnummer? Die Größe ist falsch? Okay. Wir schicken die richtige Jacke oder Sie wollen Geld, was Sie möchten. Ich schicke E-Mail.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 2,
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 1: asks for the number and offers both options, but gives no apology, no time frame and no summary. Interaction and fluency 2: keeps the call going and reacts to what Frau Lindner says. Grammar 1: 'Ich weiß nicht, warum niemand angerufen hat' is fine, but 'oder Sie wollen Geld, was Sie möchten' is a wrong construction and 'Ich schicke E-Mail' lacks an article. Vocabulary and register 1: 'Hallo' and 'hier ist Tomás' are too casual for an annoyed customer."
+                "rationale": "Task completion 1: asks for the number and offers both options, but gives no apology, no time frame and no summary. Interaction and fluency 2: keeps the call going and reacts to what Frau Köhler says. Grammar 1: 'Ich weiß nicht, warum niemand angerufen hat' is fine, but 'oder Sie wollen Geld, was Sie möchten' is a wrong construction and 'Ich schicke E-Mail' lacks an article. Vocabulary and register 1: 'Hallo' and 'hier ist Tomás' are too casual for an annoyed customer."
               },
               {
-                "response": "Guten Tag, Frau Lindner. Es tut mir sehr leid wegen dem Fehler. Ich brauche Ihre Nummer von der Bestellung. ... Okay. Wir schicken Ihnen eine Jacke in Größe M in zwei Werktage. Wenn Sie wollen Geld zurück, das dauert sieben Tage. Was möchten Sie?",
+                "response": "Guten Tag, Frau Köhler. Es tut mir sehr leid wegen dem Fehler. Ich brauche Ihre Nummer von der Bestellung. ... Okay. Wir schicken Ihnen eine Jacke in Größe M in zwei Werktage. Wenn Sie wollen Geld zurück, das dauert sieben Tage. Was möchten Sie?",
                 "criterionBands": {
-                  "task-completion": 2,
+                  "task-completion": 1,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 2: apology, order number, both options and time frames; there is no summary and no e-mail confirmation. Interaction and fluency 1: long pause after the number and little reaction to the customer's deadline. Grammar 1: 'wegen dem', 'in zwei Werktage', 'Wenn Sie wollen Geld zurück' (verb position). Vocabulary and register 1: Sie and 'Es tut mir sehr leid' fit, but the wording stays basic and the sentences are very short."
+                "rationale": "Task completion 1: apology, order number, both options with times, but no agreed next step, nothing about the wrong jacket and no summary. Interaction and fluency 1: long pause after the number and little reaction to the customer's deadline. Grammar 1: 'wegen dem', 'in zwei Werktage', 'Wenn Sie wollen Geld zurück' (verb position). Vocabulary and register 1: Sie and 'Es tut mir sehr leid' fit, but the wording stays basic and the sentences are very short."
               }
             ]
           },
@@ -15201,7 +15201,7 @@
             "band": 2,
             "samples": [
               {
-                "response": "Guten Tag, Frau Lindner, hier spricht Leyla Aydin vom Kundenservice. Bitte entschuldigen Sie vielmals, dass niemand zurückgerufen hat.\nKönnten Sie mir bitte sagen, wie Ihre Bestellnummer lautet? Und welche Größe ist angekommen?\nDas verstehe ich, vor allem wegen Samstag. Wir können Ihnen die Jacke in Größe M per Express schicken, oder wir erstatten Ihnen den Preis.\nDie Jacke kommt dann innerhalb von zwei Werktagen. Die Erstattung dauert etwa sieben Tage.\nAlso, ich schicke Ihnen heute eine Bestätigung per E-Mail. Passt das für Sie?",
+                "response": "Guten Tag, Frau Köhler, hier spricht Leyla Aydin vom Kundenservice. Bitte entschuldigen Sie vielmals, dass niemand zurückgerufen hat.\nKönnten Sie mir bitte sagen, wie Ihre Bestellnummer lautet? Und welche Größe ist angekommen?\nDas verstehe ich, vor allem wegen Samstag. Wir können Ihnen die Jacke in Größe M per Express schicken, oder wir erstatten Ihnen den Preis.\nDie Jacke kommt dann innerhalb von zwei Werktagen. Die Erstattung dauert etwa sieben Tage.\nAlso, ich schicke Ihnen heute eine Bestätigung per E-Mail. Passt das für Sie?",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15211,7 +15211,7 @@
                 "rationale": "Task completion 2: every goal is reached in a simple way; the summary is only a short confirmation. Interaction and fluency 2: reacts to the customer and asks for the details, with a few pauses. Grammar 2: mostly correct, including the dass-clause, the indirect question and polite Konjunktiv II; 'wegen Samstag' is colloquial. Vocabulary and register 2: fitting, formal and polite, with 'erstatten' as a good word."
               },
               {
-                "response": "Guten Tag Frau Lindner. Entschuldigung, dass wir nicht zurückgerufen haben. Das ist nicht in Ordnung. Können Sie mir sagen die Bestellnummer, bitte?\nOkay, Sie haben Größe L bekommen. Das ist ärgerlich. Wir haben zwei Möglichkeiten. Wir schicken Ihnen die Jacke in Größe M mit Express, in zwei Werktagen, oder Sie bekommen das Geld zurück, etwa sieben Tage.\nIch verstehe. Dann schicken wir die neue Jacke. Ich schicke Ihnen eine E-Mail mit dem Etikett für die Rücksendung. Die Kosten übernehmen wir.",
+                "response": "Guten Tag Frau Köhler. Entschuldigung, dass wir nicht zurückgerufen haben. Das ist nicht in Ordnung. Können Sie mir sagen die Bestellnummer, bitte?\nOkay, Sie haben Größe L bekommen. Das ist ärgerlich. Wir haben zwei Möglichkeiten. Wir schicken Ihnen die Jacke in Größe M mit Express, in zwei Werktagen, oder Sie bekommen das Geld zurück, etwa sieben Tage.\nIch verstehe. Dann schicken wir die neue Jacke. Ich schicke Ihnen eine E-Mail mit dem Etikett für die Rücksendung. Die Kosten übernehmen wir.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15221,7 +15221,7 @@
                 "rationale": "Task completion 2: apology, details, two options with times and the return label; the closing summary is missing. Interaction and fluency 2: reacts to what the customer says and keeps going. Grammar 2: 'Können Sie mir sagen die Bestellnummer' has the wrong order, but the rest is correct. Vocabulary and register 2: polite and consistent; 'mit Express' is slightly off ('per Express')."
               },
               {
-                "response": "Guten Tag, Frau Lindner. Ich bin Mehmet vom Kundenservice. Bitte entschuldigen Sie die Unannehmlichkeiten. Ihre Bitte um Rückruf hat bei uns leider untergegangen.\nWie lautet denn Ihre Bestellnummer? Und welche Größe steht auf dem Etikett?\nAlso, ich schlage vor, wir schicken Ihnen die Jacke in M per Express. Oder wäre Ihnen eine Erstattung lieber?\nDie Jacke ist in zwei Werktagen bei Ihnen, also rechtzeitig vor Samstag. Bei der Erstattung dauert es etwa sieben Tage. Dann halten wir fest: Sie bekommen die Jacke in M, und die Bestätigung kommt heute noch per E-Mail.",
+                "response": "Guten Tag, Frau Köhler. Ich bin Mehmet vom Kundenservice. Bitte entschuldigen Sie die Unannehmlichkeiten. Ihre Bitte um Rückruf hat bei uns leider untergegangen.\nWie lautet denn Ihre Bestellnummer? Und welche Größe steht auf dem Etikett?\nAlso, ich schlage vor, wir schicken Ihnen die Jacke in M per Express. Oder wäre Ihnen eine Erstattung lieber?\nDie Jacke ist in zwei Werktagen bei Ihnen, also rechtzeitig vor Samstag. Bei der Erstattung dauert es etwa sieben Tage. Dann halten wir fest: Sie bekommen die Jacke in M, und die Bestätigung kommt heute noch per E-Mail.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15236,17 +15236,17 @@
             "band": 3,
             "samples": [
               {
-                "response": "Guten Tag, Frau Lindner, hier spricht Tomás Vega vom Kundenservice von Sportwelt Süd. Es tut mir wirklich leid, dass man Ihnen die falsche Größe geschickt hat und dass der Rückruf ausgeblieben ist. Ich kümmere mich gleich darum.\nDarf ich Sie um Ihre Bestellnummer bitten und fragen, welche Größe bei Ihnen angekommen ist?\nDas kann ich gut verstehen, gerade weil Sie die Jacke am Samstag brauchen. Wir haben zwei Möglichkeiten: Entweder schicken wir Ihnen noch heute Größe M per Express, oder wir erstatten Ihnen den Kaufpreis.\nDie Jacke wäre spätestens am Donnerstag bei Ihnen, die Erstattung dauert etwa sieben Tage. Das Rücksendeetikett für die falsche Jacke schicke ich Ihnen per E-Mail, für Sie entstehen keine Kosten.\nIch fasse noch einmal zusammen: Sie bekommen Größe M bis Donnerstag, und die Bestätigung kommt heute per E-Mail. Stimmt das so?",
+                "response": "Guten Tag, Frau Köhler, hier spricht Tomás Vega vom Kundenservice von Sportwelt Süd. Es tut mir wirklich leid, dass man Ihnen die falsche Größe geschickt hat und dass der Rückruf ausgeblieben ist. Ich kümmere mich gleich darum.\nDarf ich Sie um Ihre Bestellnummer bitten und fragen, welche Größe bei Ihnen angekommen ist?\nDas kann ich gut verstehen, gerade weil Sie die Jacke am Samstag brauchen. Wir haben zwei Möglichkeiten: Entweder schicken wir Ihnen noch heute Größe M per Express, oder wir erstatten Ihnen den Kaufpreis.\nDie Jacke wäre spätestens am Donnerstag bei Ihnen, die Erstattung dauert etwa sieben Tage. Das Rücksendeetikett für die falsche Jacke schicke ich Ihnen per E-Mail, für Sie entstehen keine Kosten.\nDann halten wir es so fest: Die Jacke in M ist spätestens am Donnerstag bei Ihnen, und per E-Mail erhalten Sie noch heute die Bestätigung. Habe ich das richtig verstanden?",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: every goal fully reached, including the wrong jacket, with a closing summary and a check. Interaction and fluency 3: connected turns, reacts with empathy to the Saturday deadline and checks understanding. Grammar 3: dass-clauses, indirect question, Entweder/oder and Konjunktiv II are correct. Vocabulary and register 3: a natural, calm service register with erstatten, Kaufpreis, Rücksendeetikett and 'Ich fasse zusammen'."
+                "rationale": "Task completion 3: every goal fully reached, including the wrong jacket, with a closing summary and a check. Interaction and fluency 3: connected turns, reacts with empathy to the Saturday deadline and checks understanding. Grammar 3: dass-clauses, indirect question, Entweder/oder and Konjunktiv II are correct. Vocabulary and register 3: a natural, calm service register with erstatten, Kaufpreis, Rücksendeetikett and a clear spoken summary with a check."
               },
               {
-                "response": "Guten Tag, Frau Lindner. Mein Name ist Leyla Aydin, ich arbeite im Kundenservice. Vielen Dank für Ihren Anruf, und bitte verzeihen Sie, dass Sie auf Ihren Rückruf vergeblich gewartet haben.\nDürfte ich Sie nach der Bestellnummer fragen? Und wie ist die Jacke bei Ihnen angekommen?\nAh, Größe L statt M. Das ist natürlich ärgerlich, vor allem so kurz vor Ihrer Wanderung. Ich möchte Ihnen zwei Lösungen anbieten: die richtige Größe per Expressversand oder die Erstattung des Kaufpreises.\nDie Jacke wäre in zwei Werktagen bei Ihnen, das Geld bekämen Sie in etwa einer Woche zurück. Was wäre Ihnen lieber?\nGut, so gehen wir vor: Ich lasse die Jacke noch heute per Express losschicken, die falsche Jacke können Sie kostenlos zurücksenden, und die Bestätigung erhalten Sie per E-Mail.",
+                "response": "Guten Tag, Frau Köhler. Mein Name ist Leyla Aydin, ich arbeite im Kundenservice. Vielen Dank für Ihren Anruf, und bitte verzeihen Sie, dass Sie auf Ihren Rückruf vergeblich gewartet haben.\nDürfte ich Sie nach der Bestellnummer fragen? Und wie ist die Jacke bei Ihnen angekommen?\nAh, Größe L statt M. Das ist natürlich ärgerlich, vor allem so kurz vor Ihrer Wanderung. Ich möchte Ihnen zwei Lösungen anbieten: die richtige Größe per Expressversand oder die Erstattung des Kaufpreises.\nDie Jacke wäre in zwei Werktagen bei Ihnen, das Geld bekämen Sie in etwa einer Woche zurück. Was wäre Ihnen lieber?\nGut, so gehen wir vor: Ich lasse die Jacke noch heute per Express losschicken, die falsche Jacke können Sie kostenlos zurücksenden, und die Bestätigung erhalten Sie per E-Mail.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15256,14 +15256,14 @@
                 "rationale": "Task completion 3: all goals fully reached and the agreement is summed up. Interaction and fluency 3: picks up the detail 'kurz vor Ihrer Wanderung' and keeps the turns connected. Grammar 3: indirect question, Konjunktiv II ('dürfte', 'wäre', 'bekämen') and the nominal phrase 'die Erstattung des Kaufpreises' are correct. Vocabulary and register 3: natural expressions such as 'verzeihen Sie' and 'losschicken lassen'."
               },
               {
-                "response": "Guten Tag, Frau Lindner, hier ist Mehmet Aydin vom Kundenservice. Ich kann gut verstehen, dass Sie verärgert sind. Entschuldigen Sie bitte, dass Ihr Anruf gestern nicht beantwortet wurde.\nKönnen Sie mir die Bestellnummer sagen? Dann schaue ich sofort im System nach.\nEs wurde also Größe L geliefert. Das ist uns wirklich unangenehm. Wir können Ihnen Größe M per Express schicken, oder Sie bekommen den Kaufpreis zurück. Ganz wie Sie möchten.\nDie Jacke wird bis Donnerstag geliefert. Für die Rücksendung der falsche Jacke bekommen Sie von mir ein Etikett per E-Mail. Also, ich fasse zusammen: Größe M per Express bis Donnerstag, das Etikett kommt per E-Mail, und die Versandkosten übernehmen wir.",
+                "response": "Guten Tag, Frau Köhler, hier ist Mehmet Aydin vom Kundenservice. Ich kann gut verstehen, dass Sie verärgert sind. Entschuldigen Sie bitte, dass Ihr Anruf gestern nicht beantwortet wurde.\nKönnen Sie mir die Bestellnummer sagen? Dann schaue ich sofort im System nach.\nEs wurde also Größe L geliefert. Das ist uns wirklich unangenehm. Wir können Ihnen Größe M per Express schicken, oder Sie bekommen den Kaufpreis zurück. Ganz wie Sie möchten.\nDie Jacke wird bis Donnerstag geliefert. Für die Rücksendung der falsche Jacke bekommen Sie von mir ein Etikett per E-Mail. Also, ich fasse zusammen: Größe M per Express bis Donnerstag, das Etikett kommt per E-Mail, und die Versandkosten übernehmen wir.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 2,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: every goal is reached and summed up. Interaction and fluency 3: reacts to the customer's feelings and to the deadline, speaks smoothly. Grammar 2: 'der falsche Jacke' (adjective ending after the genitive) is a slip under speed; the passive and the subordinate clauses are otherwise right. Vocabulary and register 3: polite and natural ('Das ist uns unangenehm', 'Ganz wie Sie möchten', 'Ich fasse zusammen')."
+                "rationale": "Task completion 3: every goal is reached and summed up. Interaction and fluency 3: reacts to the customer's feelings and to the deadline, speaks smoothly. Grammar 2: 'der falsche Jacke' (adjective ending after the genitive) is a slip under speed; the passive and the subordinate clauses are otherwise right. Vocabulary and register 3: polite and natural ('Das ist uns unangenehm', 'Ganz wie Sie möchten', 'Ich fasse zusammen'). 'Ihr Anruf gestern nicht beantwortet wurde' misstates the missing call-back (a call-back never came; the customer's call was answered), a slip."
               }
             ]
           }
@@ -15293,14 +15293,14 @@
                 "rationale": "Task completion 0: no report of what is done, no reason for the delay, no request, no new date. Interaction and fluency 0: single words and pauses; the partner has to guess. Grammar 0: no sentence. Vocabulary and register 0: the greeting fits, but there are almost no content words."
               },
               {
-                "response": "Ja, die Plakate sind nicht fertig. Problem mit Format. Ich brauche Hilfe. Montag.",
+                "response": "Guten Morgen. Plakate … nicht fertig. Format … Problem. Hilfe … Frau … äh … Montag?",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 0: mentions the problem, help and Monday as single words, but does not say what is done or whom or why. Interaction and fluency 0: no connected speech, no reaction to the questions. Grammar 0: the only full sentence is 'die Plakate sind nicht fertig'. Vocabulary and register 1: Plakate and Format fit, but the words are too few."
+                "rationale": "Task completion 0: only hints at the delayed posters, the format and a date; nothing on what is done, the reason or the need. Interaction and fluency 0: fragments with pauses. Grammar 0: no conjugated verb. Vocabulary and register 1: Plakate, Format and Hilfe fit but there are too few words."
               },
               {
                 "response": "Guten Morgen, Herr Albrecht. Ich mag den Infotag. Die Hochschule ist schön. Es gibt viele Räume. Danke.",
@@ -15320,12 +15320,12 @@
               {
                 "response": "Guten Morgen, Herr Albrecht. Die Einladungen sind weg. Die Plakate sind nicht fertig, ich brauche zwei Tage.\nWarum? Die Druckerei hat gesagt Format falsch. Wir müssen neu machen.\nIch brauche Frau Winter. Montag ist gut.",
                 "criterionBands": {
-                  "task-completion": 1,
+                  "task-completion": 2,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 1: says what is done, the reason and a date, but the report is thin and the meeting on Thursday is not discussed. Interaction and fluency 1: answers each question briefly, no initiative. Grammar 1: 'hat gesagt Format falsch' (verb position), 'Wir müssen neu machen' (missing object). Vocabulary and register 1: Sie-form is kept, but the words are basic (weg, machen)."
+                "rationale": "Task completion 2: reports what is done, the delay, the reason, the need and a date, very thinly. Interaction and fluency 1: answers each question briefly, no initiative. Grammar 1: 'hat gesagt Format falsch' (verb position), 'Wir müssen neu machen' (missing object). Vocabulary and register 1: Sie-form is kept, but the words are basic (weg, machen)."
               },
               {
                 "response": "Guten Morgen. Ja, ich habe die Einladungen geschickt, 120 Stück. Aber die Plakate sind noch nicht fertig. Weil die Druckerei hat das Format abgelehnt, und wir müssen machen noch einmal.\nIch möchte ein Gespräch mit der Winter von Pressestelle. Ich weiß nicht, ob ich bis Montag fertig bin. Vielleicht Dienstag.",
@@ -15360,7 +15360,7 @@
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: every goal is reached in a simple way; the final summary is short. Interaction and fluency 2: answers each question and asks for confirmation. Grammar 2: 'um … zu', weil-clause and Sie-forms mostly correct; 'Die Verzögerung ist passiert' is plain. Vocabulary and register 2: fitting and polite, with Einladungen and reserviert."
+                "rationale": "Task completion 2: every goal is reached in a simple way; the final summary is short. Interaction and fluency 2: answers each question and asks for confirmation. Grammar 2: 'um … zu', weil-clause and Sie-forms mostly correct; 'Die Verzögerung ist passiert' is a lexical error (it should be 'ist entstanden'). Vocabulary and register 2: fitting and polite, with Einladungen and reserviert."
               },
               {
                 "response": "Guten Morgen, Herr Albrecht. Wir haben alle 120 Einladungen verschickt und die Räume reserviert. Die Plakate sind noch nicht in der Druckerei, wir brauchen dafür etwa zwei Tage.\nDer Grund ist, dass die Druckerei unser Format nicht annehmen konnte. Das haben wir erst gestern erfahren.\nIch brauche ein kurzes Gespräch mit Frau Winter. Sie soll das Format prüfen.\nIch denke, Montag ist realistisch. Und könnten wir am Donnerstag über das Programm sprechen?",
@@ -15373,14 +15373,14 @@
                 "rationale": "Task completion 2: report, reason, need and date are all given; the final summary is missing. Interaction and fluency 2: connected turns, reacts to the questions. Grammar 2: mostly correct; 'Sie soll das Format prüfen' is fine; 'das haben wir erst gestern erfahren' invents a detail but is correct German. Vocabulary and register 2: formal and fitting, no hedging words."
               },
               {
-                "response": "Guten Morgen, Herr Albrecht. Beim Infotag sind wir fast fertig. Alle Einladungen sind raus, nur bei den Plakaten gab es leider einen Fehler, weil das Format nicht gepasst hat.\nDeshalb können wir sie nicht bis Mittwoch abgeben. Es wäre gut, wenn Frau Winter uns helfen könnte, damit das Format diesmal stimmt.\nIch rechne damit, dass wir bis Montag fertig sind. Hätten Sie am Donnerstag einen Moment, damit wir das Programm besprechen können?\nGut, dann machen wir es so.",
+                "response": "Guten Morgen, Herr Albrecht. Beim Infotag sind wir fast fertig. Alle Einladungen sind raus, nur bei den Plakaten gab es leider einen Fehler, weil das Format nicht gepasst hat.\nDeshalb können wir sie nicht bis Mittwoch abgeben. Es wäre gut, wenn Frau Winter uns helfen könnte, damit das Format diesmal stimmt.\nIch rechne damit, dass wir bis Montag fertig sind. Hätten Sie am Donnerstagvormittag einen Moment? Dann könnten wir das Programm durchgehen.\nGut, dann machen wir es so.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
                   "grammar": 3,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: reason, need, new date and the Thursday meeting are given, but the number of invitations and the rooms are left out. Interaction and fluency 2: short exchange with a few pauses. Grammar 3: weil-, damit-, dass- and um … zu-clauses and Konjunktiv II are correct. Vocabulary and register 2: hedging with 'fast' and 'leider' is used, but the range is narrow."
+                "rationale": "Task completion 2: reason, need, new date and the Thursday meeting are given, but the number of invitations and the rooms are left out. Interaction and fluency 2: short exchange with a few pauses. Grammar 3: weil-, damit-, dass- and wenn-clauses and Konjunktiv II are correct. Vocabulary and register 2: hedging with 'fast' and 'leider' is used, but the range is narrow."
               }
             ]
           },
@@ -15388,7 +15388,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Guten Morgen, Herr Albrecht. Die Einladungen sind alle verschickt, 120 Stück, und die beiden Seminarräume sind reserviert. Nur die Plakate verzögern sich leider: Sie werden erst Anfang nächster Woche gedruckt.\nDer Grund ist, dass die Druckerei unser Format nicht verarbeiten konnte. Wir mussten die Dateien neu anlegen.\nDabei könnte uns Frau Winter aus der Pressestelle unterstützen, damit sie das Format noch einmal kontrolliert. Ich bin zuversichtlich, dass wir die Plakate dann bis Montag abgeben.\nWäre es möglich, am Donnerstag zwischen neun und zehn das Programm durchzusprechen?\nDann halten wir fest: Plakate bis Montag in der Druckerei, Programmbesprechung am Donnerstag um neun.",
+                "response": "Guten Morgen, Herr Albrecht. Die Einladungen sind alle verschickt, 120 Stück, und die beiden Seminarräume sind reserviert. Nur die Plakate verzögern sich leider: Sie werden erst Anfang nächster Woche gedruckt.\nDer Grund ist, dass die Druckerei unser Format nicht verarbeiten konnte. Wir mussten die Dateien neu anlegen.\nDabei könnte uns Frau Winter aus der Pressestelle unterstützen, damit sie das Format noch einmal kontrolliert. Ich bin zuversichtlich, dass wir die Plakate dann bis Montag abgeben.\nWäre es möglich, am Donnerstag zwischen neun und zehn das Programm durchzusprechen?\nDann ist alles klar: Am Montag liegen die Dateien bei der Druckerei, und am Donnerstagmorgen reden wir über das Programm.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15398,24 +15398,24 @@
                 "rationale": "Task completion 3: all goals fully reached with figures, reason, need, date and a closing summary. Interaction and fluency 3: connected turns that answer the question and take the initiative with the Thursday proposal. Grammar 3: dass- and damit-clauses, Konjunktiv II and the passive are correct. Vocabulary and register 3: a natural report register (verzögern, verarbeiten, unterstützen, zuversichtlich)."
               },
               {
-                "response": "Guten Morgen, Herr Albrecht. Ein kurzer Überblick: Die Einladungen sind raus, die Räume sind gebucht, und die Vorbereitung läuft gut. Bei den Plakaten gibt es allerdings ein Problem. Die Druckerei hat die Datei abgelehnt, weil das Format nicht stimmte; wir mussten sie komplett überarbeiten.\nHier wäre die Hilfe von Frau Winter aus der Pressestelle sehr nützlich, denn sie kennt die Vorgaben der Druckerei. Wenn sie sich die Datei heute noch ansieht, können wir sie bis Montag abgeben.\nIm Gegenzug würde ich Ihnen am Donnerstag gern den Programmentwurf zeigen, falls Sie zwischen neun und zehn Zeit haben.\nIch fasse zusammen: Montag Plakate, Donnerstag Programm.",
+                "response": "Guten Morgen, Herr Albrecht. Ein kurzer Überblick: Die Einladungen sind raus, die Räume sind gebucht, und die Vorbereitung läuft gut. Bei den Plakaten gibt es allerdings ein Problem. Die Druckerei hat die Datei abgelehnt, weil das Format nicht stimmte; wir mussten sie komplett überarbeiten.\nHier wäre die Hilfe von Frau Winter aus der Pressestelle sehr nützlich, denn sie kennt die Vorgaben der Druckerei. Wenn sie sich die Datei heute noch ansieht, können wir sie bis Montag abgeben.\nAußerdem würde ich Ihnen am Donnerstag gern den Programmentwurf zeigen, falls Sie zwischen neun und zehn Zeit haben.\nKurz zusammengefasst: Montag gehen die Plakate raus, Donnerstag sprechen wir über das Programm.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: every point is reported fully, with a proposal and a closing summary. Interaction and fluency 3: structured, natural turns that lead the conversation. Grammar 3: 'wenn sie sich die Datei ansieht', falls- and weil-clauses and Konjunktiv II are correct. Vocabulary and register 3: 'Überblick', 'Vorgaben' and 'Im Gegenzug' are natural; the hedging is well placed."
+                "rationale": "Task completion 3: every point is reported fully, with a proposal and a closing summary. Interaction and fluency 3: structured, natural turns that lead the conversation. Grammar 3: 'wenn sie sich die Datei ansieht', falls- and weil-clauses and Konjunktiv II are correct. Vocabulary and register 3: 'Überblick', 'Vorgaben' and 'allerdings' are natural; the hedging is well placed."
               },
               {
-                "response": "Guten Morgen, Herr Albrecht. Insgesamt liegen wir gut in der Zeit: Die Einladungen sind verschickt und die Räume reserviert. Nur die Plakate hängen noch.\nDer Grund ist banal: Die Druckerei hat das Format nicht akzeptiert, und wir mussten die Datei neu aufsetzen. Dadurch haben wir zwei Tage verloren.\nIch würde gern Frau Winter um Hilfe bitten, weil das Format muss genau stimmen. Dann können wir bis Montag abgeben.\nPasst Ihnen Donnerstag um neun für das Programm?\nSuper, dann halten wir fest: Plakate Montag, Programm Donnerstag.",
+                "response": "Guten Morgen, Herr Albrecht. Insgesamt liegen wir gut in der Zeit: Die Einladungen sind verschickt und die Räume reserviert. Nur bei den Plakaten hängt es noch.\nDer Grund ist banal: Die Druckerei hat das Format nicht akzeptiert, und wir mussten die Datei neu aufsetzen. Dadurch haben wir zwei Tage verloren.\nIch würde gern Frau Winter um Hilfe bitten, weil das Format muss genau stimmen. Dann können wir bis Montag abgeben.\nPasst Ihnen Donnerstag um neun für das Programm?\nPerfekt, dann bleibt es dabei: Montag die Plakate, Donnerstag das Programm.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 2,
                   "vocabulary-register": 3
                 },
-                "rationale": "Task completion 3: a full report with reason, need, date and a closing summary. Interaction and fluency 3: confident and connected, with a spoken-style question at the end. Grammar 2: 'weil das Format muss genau stimmen' has the wrong verb position; the rest is correct. Vocabulary and register 3: 'in der Zeit liegen', 'neu aufsetzen', 'banal' and 'festhalten' are natural."
+                "rationale": "Task completion 3: a full report with reason, need, date and a closing summary. Interaction and fluency 3: confident and connected, with a spoken-style question at the end. Grammar 2: 'weil das Format muss genau stimmen' has the wrong verb position; the rest is correct. Vocabulary and register 3: 'in der Zeit liegen', 'neu aufsetzen', 'banal' and 'dann bleibt es dabei' are natural."
               }
             ]
           }
@@ -15492,12 +15492,12 @@
               {
                 "response": "Samir, hast du kurz Zeit? Ich habe ein Problem mit der Schicht. Du bist spät dreimal. Warum? ... Ah, der Bus. Okay, das verstehe ich. Aber ich muss auch um halb drei in der Uni sein. Wir können früher machen die Übergabe?",
                 "criterionBands": {
-                  "task-completion": 2,
+                  "task-completion": 1,
                   "interaction-fluency": 2,
                   "grammar": 1,
                   "vocabulary-register": 1
                 },
-                "rationale": "Task completion 2: states the problem, asks for Samir's side and proposes an earlier handover; no concrete agreement. Interaction and fluency 2: reacts to Samir and asks a question. Grammar 1: 'Du bist spät dreimal' and 'Wir können früher machen die Übergabe?' have the wrong word order. Vocabulary and register 1: du-register fits, but the words are very basic."
+                "rationale": "Task completion 1: states the problem, asks for Samir's side and floats an earlier handover, but nothing is agreed on who does what by when. Interaction and fluency 2: reacts to Samir and asks a question. Grammar 1: 'Du bist spät dreimal' and 'Wir können früher machen die Übergabe?' have the wrong word order. Vocabulary and register 1: du-register fits, but the words are very basic."
               }
             ]
           },
@@ -15515,17 +15515,17 @@
                 "rationale": "Task completion 2: problem, Samir's side, a solution and an agreement; the closing summary is short. Interaction and fluency 2: reacts to the partner and asks for his idea. Grammar 2: mostly correct with dass- and weil-clauses. Vocabulary and register 2: du-register fits and the tone is not accusing."
               },
               {
-                "response": "Hallo Samir, hast du kurz Zeit? Mir ist aufgefallen, dass du in den letzten Wochen dreimal später zur Übergabe gekommen bist. Das war für mich schwierig, weil ich musste dann an der Kasse bleiben.\nWie siehst du das? Gibt es einen Grund?\nAch so, deine Buslinie fährt wegen der Baustelle anders. Das wusste ich nicht. Wie wäre es, wenn du einen früheren Bus nimmst?\nAm Mittwoch geht das nicht? Dann schreib mir bitte kurz, wenn du später kommst, damit ich Bescheid weiß.\nGut. Und wir schauen in zwei Wochen, ob es klappt, ja?",
+                "response": "Hallo Samir, hast du kurz Zeit? Mir ist aufgefallen, dass du in den letzten Wochen dreimal später zur Übergabe gekommen bist. Das war für mich schwierig, weil ich musste dann an der Kasse bleiben.\nWoran liegt es denn? Gibt es einen Grund?\nAch so, deine Buslinie fährt wegen der Baustelle anders. Das wusste ich nicht. Wie wäre es, wenn du einen früheren Bus nimmst?\nAm Mittwoch geht das nicht? Dann gib mir bitte vorher Bescheid, falls es später wird, damit ich planen kann.\nGut. Und wir schauen in zwei Wochen, ob es klappt, ja?",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 3,
                   "grammar": 2,
                   "vocabulary-register": 2
                 },
-                "rationale": "Task completion 2: all goals reached, but the closing summary is missing (the last turn is a check, not a summary). Interaction and fluency 3: natural turns that ask for Samir's view and react to it. Grammar 2: 'weil ich musste dann …' has the wrong verb position (spoken style); dass-, ob- and damit-clauses are otherwise correct. Vocabulary and register 2: a good tone with 'Mir ist aufgefallen' and 'Bescheid wissen', but few small words."
+                "rationale": "Task completion 2: all goals reached, but the closing summary is missing (the last turn is a check, not a summary). Interaction and fluency 3: natural turns that ask for Samir's view and react to it. Grammar 2: 'weil ich musste dann …' has the wrong verb position (spoken style); dass-, ob- and damit-clauses are otherwise correct. Vocabulary and register 2: a good tone with 'Mir ist aufgefallen' and 'Bescheid geben', but few small words."
               },
               {
-                "response": "Samir, kann ich kurz mit dir sprechen? Es geht um die Übergabe um zwei. Ich finde es ein bisschen schwierig, dass du in den letzten Wochen so oft später gekommen bist. Ich musste an der Kasse warten.\nDu hast die Baustelle, das verstehe ich schon. Aber vielleicht können wir etwas ändern.\nDu kannst früher fahren? Das wäre super. Dann machen wir am Mittwoch eine Ausnahme, und du schreibst mich eine Nachricht.\nGut. Also: ab Montag fährst du früher, am Mittwoch schreibst du mir, und in zwei Wochen sprechen wir noch einmal.",
+                "response": "Samir, kann ich kurz mit dir sprechen? Es geht um die Übergabe um zwei. Ich finde es ein bisschen schwierig, dass du in den letzten Wochen so oft später gekommen bist. Ich musste an der Kasse warten.\nDu hast die Baustelle, das verstehe ich schon. Aber vielleicht können wir etwas ändern.\nDu kannst früher fahren? Das wäre super. Dann machen wir am Mittwoch eine Ausnahme, und du schreibst mich eine Nachricht.\nGut, dann machen wir das so: Du nimmst nächste Woche den früheren Bus. Wenn es am Mittwoch nicht klappt, meldest du dich kurz. Und nach zwei Wochen sprechen wir noch einmal darüber.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -15540,7 +15540,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Danke, dass du dir Zeit nimmst, Samir. Ich muss etwas ansprechen, das mir nicht egal ist: die Übergabe um zwei. In den letzten zwei Wochen bist du dreimal erst gegen Viertel nach gekommen, und ich musste so lange an der Kasse bleiben. Dadurch habe ich meine Vorlesung fast verpasst, und das war für mich ziemlich stressig.\nDas verstehe ich, die Baustelle ist wirklich lästig. Aber ich würde gern eine Lösung finden, bei der keiner von uns Stress hat. Hast du einen Vorschlag?\nDas klingt gut. Dann nimmst du ab Montag den früheren Bus, und am Mittwoch gibst du mir spätestens um halb zwei Bescheid, falls es später wird. Dann kann ich mich darauf einstellen.\nAlso, so machen wir es: Du bist ab Montag um Viertel vor zwei da, am Mittwoch gibst du mir Bescheid, und in zwei Wochen schauen wir, ob es besser läuft.",
+                "response": "Danke, dass du dir Zeit nimmst, Samir. Ich muss etwas ansprechen, das mir nicht egal ist: die Übergabe um zwei. In den letzten zwei Wochen bist du dreimal erst gegen Viertel nach gekommen, und ich musste so lange an der Kasse bleiben. Dadurch habe ich meine Vorlesung fast verpasst, und das war für mich ziemlich stressig.\nDas verstehe ich, die Baustelle ist wirklich lästig. Aber ich würde gern eine Lösung finden, bei der keiner von uns Stress hat. Hast du einen Vorschlag?\nDas klingt gut. Dann nimmst du ab Montag den früheren Bus, und am Mittwoch gibst du mir spätestens um halb zwei Bescheid, falls es später wird. Dann kann ich mich darauf einstellen.\nGut, dann sieht der Plan so aus: Nächste Woche stehst du um Viertel vor zwei an der Kasse. Falls es mittwochs später wird, sagst du mir bis halb zwei Bescheid, und nach zwei Wochen sehen wir, ob es besser läuft.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15550,7 +15550,7 @@
                 "rationale": "Task completion 3: states the problem without blame, asks for his view, proposes a solution and sums up who does what. Interaction and fluency 3: connected, calm turns that react to Samir. Grammar 3: relative clause 'bei der keiner von uns Stress hat', dass- and ob-clauses and the separable verbs are correct. Vocabulary and register 3: natural conversation words such as 'ansprechen', 'lästig' and 'sich darauf einstellen'."
               },
               {
-                "response": "Hast du kurz Zeit, Samir? Ich muss mal etwas klären, aber es ist nichts Dramatisches. Es geht um unsere Übergabe: Du warst in den letzten zwei Wochen dreimal etwas später da, und ich konnte nicht pünktlich gehen. Mir geht es nicht um Schuld, sondern um eine Lösung.\nAch so, deine Linie wurde wegen der Baustelle umgeleitet, das wusste ich nicht. Das ist wirklich blöd für dich. Was meinst du, wie wir das lösen können?\nGut, dann versuch ab Montag den früheren Bus. Und falls es am Mittwoch nicht geht, schreibst du mir einfach kurz, dann kann ich mich darauf einstellen.\nPrima, dann haben wir das Problem schnell vom Tisch. Kurz zusammengefasst: Ab Montag früherer Bus, am Mittwoch eine Nachricht, und in zwei Wochen ziehen wir Bilanz.",
+                "response": "Hast du kurz Zeit, Samir? Ich muss mal etwas klären, aber es ist nichts Dramatisches. Es geht um unsere Übergabe: Du warst in den letzten zwei Wochen dreimal etwas später da, und ich konnte nicht pünktlich gehen. Mir geht es nicht um Schuld, sondern um eine Lösung.\nAch so, deine Linie wurde wegen der Baustelle umgeleitet, das wusste ich nicht. Das ist wirklich blöd für dich. Was meinst du, wie wir das lösen können?\nGut, dann versuch ab Montag den früheren Bus. Und falls es am Mittwoch nicht geht, schreibst du mir einfach kurz, dann kann ich mich darauf einstellen.\nPrima, dann haben wir das Problem schnell vom Tisch. Kurz gesagt: Nächste Woche nimmst du den früheren Bus, mittwochs reicht mir eine kurze Nachricht, und nach zwei Wochen ziehen wir Bilanz.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -15560,7 +15560,7 @@
                 "rationale": "Task completion 3: states the problem without blame, listens, proposes and sums up. Interaction and fluency 3: natural, quick reactions. Grammar 3: the passive 'wurde … umgeleitet', falls- and wie-clauses and Perfekt/Präteritum are correct. Vocabulary and register 3: modal particles (mal, einfach) and the idioms 'vom Tisch haben' and 'Bilanz ziehen' are used naturally."
               },
               {
-                "response": "Samir, hast du einen Moment? Ich wollte mit dir über die Übergabe reden. Du warst dreimal erst um Viertel nach zwei da, und ich musste deshalb länger bleiben. Das ist nicht dramatisch, aber ich habe danach gleich Vorlesung.\nAh, die Baustelle und die Buslinie. Das verstehe ich. Wie wäre es, wenn du einen früheren Bus nimmst?\nAm Mittwoch warten ich dann nur bis Viertel nach zwei, wenn du doch länger brauchst. Dafür sagst du mir bis halb zwei kurz Bescheid.\nOkay, dann ist alles klar: Früherer Bus ab Montag, am Mittwoch eine Nachricht, und wir reden in zwei Wochen noch mal.",
+                "response": "Samir, hast du einen Moment? Ich wollte mit dir über die Übergabe reden. Du warst dreimal erst um Viertel nach zwei da, und ich musste deshalb länger bleiben. Das ist nicht dramatisch, aber ich habe danach gleich Vorlesung.\nAh, die Baustelle und die Buslinie. Das verstehe ich. Wie wäre es, wenn du einen früheren Bus nimmst?\nAm Mittwoch warten ich dann nur bis Viertel nach zwei, wenn du doch länger brauchst. Dafür sagst du mir bis halb zwei kurz Bescheid.\nOkay, dann ist alles klar: Du kommst mit dem früheren Bus, mittwochs gibst du kurz Bescheid, und nach zwei Wochen sprechen wir wieder darüber.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,

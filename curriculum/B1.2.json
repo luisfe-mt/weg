@@ -268,9 +268,9 @@
     "Deutsch im Blick is not cited as a source: its table of contents was not opened for this spec, so no chapter could be matched to these grammar points. All grammar explanations are original.",
     "Frequency window 1401-1800: 313 lemmas are taught here and 53 by earlier sublevels (366 of 400, 91.5%). Left out: 34 that are no learner words or news vocabulary above B1 (mutmaßlich, R, E, K, P, F, Er, Wenn, Nein, Zweiter, Ganzes, Nachrichten, Linke, Einsatzkraft, derweil, genannt, bergen, alarmieren, werten, Truppe, tätigen, Index, Ermittler, Leiche, Schuss, Klub, Anschlag, Frankfurter, militärisch, Wolf, Flamme, Hesse, Jürgen, bedürfen).",
     "B1.1 handed Beruf, Fest and vermissen to this sublevel, but A1.1 (Beruf) and A2.1 (Fest, vermissen) already teach them, so they are not repeated here. The other hand-offs (Heimat, Traum, Lebensmittel, zunehmen, Ansicht, zustimmen, Eintritt, Journalist, streng, total, Süden) are included.",
-    "Gate anchors are written, not human-rated: all 72 samples (6 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of each sample's criterion bands was kept within half a band of its anchor band. The two scenario-based speaking tasks use two scenarios that only the gate uses (ts-b12-gate-wg-willkommensessen and ts-b12-gate-rueckfragen-kaan); the practice scenarios ts-b12-abschied-planen and ts-b12-fragen-zur-praesentation are for the Talk screen. The anchors of these two tasks were rewritten for the new situations with the same bands as before, and a script checked that no anchor sentence equals or shares a five-word run with a line in any scenario's script or usefulPhrases.",
+    "Gate anchors are written, not human-rated: all 72 samples (6 productive tasks, 4 bands, 3 samples each) need a German teacher or trained rater to confirm the bands before the Examiner eval relies on them. The weighted mean of each sample's criterion bands was kept within half a band of its anchor band. The two scenario-based speaking tasks use two scenarios that only the gate uses (ts-b12-gate-wg-willkommensessen and ts-b12-gate-rueckfragen-kaan); the practice scenarios ts-b12-abschied-planen and ts-b12-fragen-zur-praesentation are for the Talk screen. The anchors of these two tasks were rewritten for the new situations with the same bands as before, and a script checked that no anchor shares a run of six words with a line in any scenario's script or usefulPhrases.",
     "The mock exam imitates the task types of the Goethe and telc B1 exams with original texts; its timing (about 2 hours for the receptive and writing parts) and point split (25 per skill) are Weg design choices, not the official ones, and the readiness verdict built on it has not been calibrated against real exam results.",
-    "The speaking presentation task (sprechen-thema-praesentieren) is a monologue without a talk scenario; the app needs a recording flow for it. The follow-up task uses ts-b12-gate-rueckfragen-kaan, whose topic matches the presentation topic (cars in city centres), so the two must be run in that order.",
+    "The speaking presentation task (sprechen-thema-praesentieren) is a monologue without a talk scenario; the app needs a recording flow for it. The follow-up task uses ts-b12-gate-rueckfragen-kaan, whose topic matches the presentation topic (lectures as videos on the internet), so the two must be run in that order. No practice scenario, theme example or gold item uses this topic.",
     "A few words in the receptive gate texts are not taught anywhere on the path (Stadthalle, Regionalexpress, Frühschicht, gratis, Sommersemester, Kaffeepause, markieren, naiv, Soziologie, Medienwissenschaft); they are inferable from context or not needed for any item. Text coverage of the spec is 99.1%.",
     "Lemma and form choices to confirm: das Tausend (Wiktionary also has die), adjectival nouns entered as Verletzter, Abgeordneter, Auszubildender, Geflüchteter, Studierender, Reisender with plurals in -e; plurals Homeoffices, Fragebögen, Labore, Werkstätten; pendeln with haben/sein.",
     "No IPA is given for any vocabulary item. No gold corrections were written for this sublevel.",
@@ -15229,7 +15229,7 @@
         "Tarek kocht gern eine Gemüsesuppe, hat aber keinen großen Topf.",
         "Die Nachbarin im ersten Stock hat einen großen Topf, den man leihen könnte.",
         "Tarek hat am Freitag bis 18 Uhr ein Seminar und kann erst danach einkaufen; am Samstagvormittag hilft er Mia beim Umzug.",
-        "Tarek findet, dass jeder von der WG zehn Euro für das Essen geben könnte; die Nachbarn zahlen nichts."
+        "Tarek findet, dass jeder aus der WG zehn Euro für das Essen geben könnte; die Nachbarn zahlen nichts."
       ],
       "targetGrammar": [
         "g-konjunktiv2-forms",
@@ -15329,11 +15329,11 @@
         "es": "Responde a los comentarios y preguntas de un compañero tras tu exposición"
       },
       "situation": {
-        "en": "You have just given a short presentation in your German course on the topic 'Should cars be banned from city centres?'. You talked about your own situation, about your home country and about advantages and disadvantages. Now your course mate Kaan gives you feedback and asks questions. Thank him, react to the feedback, explain one point again in simpler words, answer his counter-argument politely and say honestly when you do not know something.",
-        "es": "Acabas de hacer una exposición breve en tu curso de alemán sobre el tema '¿Deberían prohibirse los coches en el centro de las ciudades?'. Has hablado de tu propia situación, de tu país y de las ventajas y desventajas. Ahora tu compañero de curso Kaan te da su valoración y te hace preguntas. Dale las gracias, reacciona a sus comentarios, explica un punto de nuevo con palabras más sencillas, responde con cortesía a su contraargumento y di con sinceridad cuándo no sabes algo."
+        "en": "You have just given a short presentation in your German course on the topic 'Should lectures also be offered as videos on the internet?'. You talked about your own situation, about your home country and about advantages and disadvantages. Now your course mate Kaan gives you feedback and asks questions. Thank him, react to the feedback, explain one point again in simpler words, answer his counter-arguments politely and say honestly when you do not know something.",
+        "es": "Acabas de hacer una exposición breve en tu curso de alemán sobre el tema '¿Deberían ofrecerse las clases magistrales también en vídeo por internet?'. Has hablado de tu propia situación, de tu país y de las ventajas y desventajas. Ahora tu compañero de curso Kaan te da su valoración y te hace preguntas. Dale las gracias, reacciona a sus comentarios, explica un punto de nuevo con palabras más sencillas, responde con cortesía a sus contraargumentos y di con sinceridad cuándo no sabes algo."
       },
       "learnerRole": "Kursteilnehmerin oder Kursteilnehmer nach der eigenen Präsentation",
-      "partnerRole": "Kaan, Kursteilnehmer, höflich und neugierig, arbeitet am Wochenende in einem Geschäft",
+      "partnerRole": "Kaan, Kursteilnehmer, höflich und neugierig, geht gern in die Vorlesung",
       "register": "du",
       "goals": [
         {
@@ -15345,8 +15345,8 @@
           "es": "Explica de nuevo las ventajas y desventajas con palabras más sencillas."
         },
         {
-          "en": "Answer his counter-argument about shops and older people, politely.",
-          "es": "Responde con cortesía a su contraargumento sobre las tiendas y las personas mayores."
+          "en": "Answer his counter-arguments about contact with others, questions to the lecturer and internet at home, politely.",
+          "es": "Responde con cortesía a sus contraargumentos sobre el contacto con los demás, las preguntas al profesor y el internet en casa."
         },
         {
           "en": "Give an example from your home country.",
@@ -15363,8 +15363,9 @@
         "Er fand den Aufbau klar und das Beispiel aus dem Heimatland gut.",
         "Er fand, dass die Lernerin oder der Lerner oft auf den Zettel geschaut und manchmal zu leise gesprochen hat.",
         "Er hat den Teil über Vor- und Nachteile nicht ganz verstanden und bittet darum, ihn noch einmal in einfachen Worten zu erklären.",
-        "Kaan arbeitet am Wochenende in einem Geschäft in der Innenstadt. Er meint, dass die Geschäfte ohne Autos weniger Kunden hätten und dass ältere Menschen nicht weit laufen könnten.",
-        "Kaan fragt einmal nach einer Zahl, die nicht in der Präsentation war: wie viele Menschen in der Hauptstadt des Heimatlandes jeden Tag mit Bus oder U-Bahn fahren. Er kennt die Zahl selbst nicht."
+        "Kaan geht gern in die Vorlesung. Er meint, dass Studierende ohne Hörsaal keinen Kontakt zu den anderen hätten und dass man dem Dozenten keine Fragen stellen könnte.",
+        "Wenn die Lernerin oder der Lerner darauf geantwortet hat, ergänzt Kaan: Nicht alle Studierenden haben zu Hause schnelles Internet oder einen ruhigen Platz zum Lernen.",
+        "Kaan fragt einmal nach einer Zahl, die nicht in der Präsentation war: wie viele Studierende an der größten Uni in der Hauptstadt des Heimatlandes schon Vorlesungsvideos sehen. Er kennt die Zahl selbst nicht."
       ],
       "targetGrammar": [
         "g-konjunktiv2-conditions",
@@ -15385,19 +15386,19 @@
           "es": "Lo intento de nuevo con palabras sencillas."
         },
         {
-          "de": "Das stimmt, aber wenn die Busse öfter fahren würden, bräuchten viele kein Auto.",
-          "en": "That is true, but if the buses ran more often, many people would not need a car.",
-          "es": "Es verdad, pero si los autobuses pasaran más a menudo, mucha gente no necesitaría coche."
+          "de": "Das stimmt, aber wenn die Dozenten jede Woche eine Fragestunde anbieten würden, könnten alle ihre Fragen stellen.",
+          "en": "That is true, but if the lecturers offered a question hour every week, everyone could ask their questions.",
+          "es": "Es verdad, pero si los profesores ofrecieran una hora de preguntas cada semana, todos podrían hacer sus preguntas."
         },
         {
-          "de": "Für ältere Menschen könnte es Ausnahmen geben, sodass sie nicht weit laufen müssen.",
-          "en": "There could be exceptions for older people, so that they do not have to walk far.",
-          "es": "Podría haber excepciones para las personas mayores, de modo que no tengan que andar mucho."
+          "de": "Wer zu Hause kein gutes Internet hat, könnte die Videos in der Uni ansehen, sodass niemand ausgeschlossen wird.",
+          "en": "Whoever does not have good internet at home could watch the videos at the university, so that nobody is left out.",
+          "es": "Quien no tenga buen internet en casa podría ver los vídeos en la universidad, de modo que nadie quede excluido."
         },
         {
-          "de": "Das ist eine gute Frage. Die Zahl kenne ich nicht, aber ich kann sie nachschauen.",
-          "en": "That is a good question. I do not know the number, but I can look it up.",
-          "es": "Es una buena pregunta. No conozco la cifra, pero puedo buscarla."
+          "de": "Darauf habe ich keine Antwort: Die Zahl kenne ich nicht, aber ich kann sie nachschauen.",
+          "en": "I have no answer to that: I do not know the number, but I can look it up.",
+          "es": "No tengo respuesta a eso: no conozco la cifra, pero puedo buscarla."
         }
       ],
       "limits": {
@@ -15409,13 +15410,13 @@
         "Uses only grammar up to B1.2 and at most 35 words per turn.",
         "Gives one positive and one critical piece of feedback, then asks one question at a time.",
         "Asks for the part about advantages and disadvantages to be explained again and accepts a simpler explanation.",
-        "Brings one counter-argument from partnerFacts (shops, older people) and listens to the learner's answer without giving up his view at once.",
-        "Accepts 'I do not know' calmly when he asks for the number of passengers, and does not supply a number himself.",
+        "Brings the counter-arguments from partnerFacts one after the other (first contact with others and questions to the lecturer, then internet and a quiet place at home) and listens to the learner's answer without giving up his view at once.",
+        "Accepts 'I do not know' calmly when he asks for the number of students, and does not supply a number himself.",
         "Does not correct the learner's German."
       ],
       "failureExamples": [
         {
-          "partnerTurn": "In deinem Land fahren jeden Tag fünf Millionen Menschen mit der U-Bahn, das habe ich gelesen.",
+          "partnerTurn": "In deinem Land sehen jede Woche fünf Millionen Studierende Vorlesungsvideos, das habe ich gelesen.",
           "breaks": "invented-facts",
           "why": "Kaan must not supply a statistic; partnerFacts say he asks for a number he does not know."
         },
@@ -15436,20 +15437,20 @@
           "expect": "Accepts the reaction and asks the learner to explain the advantages and disadvantages again in simple words."
         },
         {
-          "learner": "Die Luft wird besser, und es gibt weniger Lärm. Aber manche Leute brauchen ein Auto.",
-          "expect": "Shows he has understood and brings his counter-argument: shops would lose customers."
+          "learner": "Man kann die Vorlesung noch einmal sehen, und man spart Zeit. Aber dann bleiben viele zu Hause.",
+          "expect": "Shows he has understood and brings his counter-arguments: no contact with other students and no chance to ask the lecturer a question."
         },
         {
           "learner": "Sorry, kannst du das bitte langsamer sagen?",
-          "expect": "Repeats the counter-argument more slowly and in shorter sentences, in German."
+          "expect": "Repeats the counter-arguments more slowly and in shorter sentences, in German."
         },
         {
-          "learner": "Ich verstehe. Aber wenn es mehr Busse geben würde, die Leute kommen auch ohne Auto in die Stadt.",
-          "expect": "Does not correct the word order. Reacts to the argument and adds that older people cannot walk far."
+          "learner": "Ich verstehe. Aber wenn es jede Woche eine Fragestunde gäbe, die Studenten können auch Fragen stellen.",
+          "expect": "Does not correct the word order. Reacts to the argument and adds that not all students have fast internet or a quiet place at home."
         },
         {
-          "learner": "Für ältere Leute sollte es Ausnahmen geben. In meinem Land haben viele Städte einen autofreien Sonntag.",
-          "expect": "Shows interest, then asks how many people in the capital use bus or underground every day."
+          "learner": "Dann sollten die Videos auch in der Uni laufen. In meinem Land haben viele Unis dafür einen Raum.",
+          "expect": "Shows interest, then asks how many students at the biggest university in the capital already watch lecture videos."
         },
         {
           "learner": "Die Zahl weiß ich leider nicht. Ich kann sie später suchen und dir schreiben.",
@@ -16608,10 +16609,10 @@
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 1,
-                  "grammar": 0,
+                  "grammar": 1,
                   "vocabulary": 0
                 },
-                "rationale": "Task completion 0: accepts Saturday and offers bread, but leaves every decision and every task to the partner; no place, no money. Interaction 1: reacts and asks the partner's opinion once, but does not keep the planning going. Grammar 0: fragments; 'Was du machst?' with wrong word order; 'ich kaufen'. Vocabulary 0: very few words for the task; Spanish filler."
+                "rationale": "Task completion 0: accepts Saturday and offers bread, but leaves every decision and every task to the partner; no place, no money. Interaction 1: reacts and asks the partner's opinion once, but does not keep the planning going. Grammar 1: simple main clauses ('Ich mag Essen', 'Ich habe Prüfung') but wrong verb position ('Was du machst?', 'Freitag ich habe') and 'ich kaufen'. Vocabulary 0: very few words for the task; Spanish filler."
               }
             ]
           },
@@ -16689,7 +16690,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Ja, unbedingt! Mia kennt hier noch niemanden, da sollten wir sie richtig willkommen heißen.\nSamstagabend wäre ideal, denn am Morgen zieht sie erst ein und braucht Ruhe. Wie findest du es, wenn wir um sieben im Wohnzimmer essen? Die Küche ist leider zu klein, sodass wir dort nicht alle sitzen könnten.\nDa Mia kein Fleisch isst, schlage ich eine Gemüsesuppe vor. Wenn du kochst, kümmere ich mich um Brot und Getränke. Du brauchst auch nicht zu putzen, das übernehme ich.\nEin großer Topf fehlt uns noch. Ich könnte die Nachbarin im ersten Stock bitten, uns einen zu leihen.\nWenn jeder von uns zehn Euro gibt, reicht das sicher, sogar für einen Nachtisch.\nGut, dann fassen wir zusammen: Samstag um sieben im Wohnzimmer, du kochst und kaufst am Freitag ein, ich putze, leihe den Topf und besorge Brot und Getränke.",
+                "response": "Ja, unbedingt! Mia kennt hier noch niemanden, da sollten wir sie richtig willkommen heißen.\nSamstagabend wäre ideal, denn am Morgen zieht sie erst ein und braucht Ruhe. Wie findest du es, wenn wir um sieben im Wohnzimmer essen? Die Küche ist leider zu klein, sodass wir dort nicht alle sitzen könnten.\nDa Mia kein Fleisch isst, schlage ich eine Gemüsesuppe vor. Wenn du kochst, kümmere ich mich um Brot und Getränke. Du brauchst auch nicht zu putzen, das übernehme ich.\nEin großer Topf fehlt uns noch. Ich könnte die Nachbarin im ersten Stock bitten, uns einen zu leihen.\nWenn jeder von uns zehn Euro gibt, reicht das sicher, sogar für einen Nachtisch.\nGut, dann halten wir fest: Samstag um sieben im Wohnzimmer, du kochst und kaufst am Freitag ein, ich putze, leihe den Topf und besorge Brot und Getränke.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -16699,17 +16700,17 @@
                 "rationale": "Task completion 3: every point agreed with reasons, details (the pot, a dessert) and a full summary. Interaction 3: takes the initiative, weighs the kitchen politely, links own turns to the partner's offers, long connected turns. Grammar 3: Konjunktiv II, sodass, wenn and nicht brauchen zu all correct. Vocabulary 3: idiomatic (willkommen heißen, vorschlagen, leihen, besorgen, Nachtisch)."
               },
               {
-                "response": "Hallo Tarek, ja, daran habe ich auch schon gedacht.\nIm Wohnzimmer wäre es gemütlicher als in der Küche, die ist für fünf Personen wirklich zu eng. Ich würde vorschlagen, dass wir am Samstag um sieben anfangen, sobald Mia ausgepackt hat.\nSuppe klingt toll! Ich kann am Samstagnachmittag das Bad und die Küche putzen, falls du am Freitag einkaufst.\nFür den Topf hätte ich eine Idee: Die Nachbarin im ersten Stock hat bestimmt einen. Was meinst du? … Okay, dann frage ich sie heute Abend. Ich schicke außerdem den Nachbarn eine Nachricht, damit sie pünktlich kommen.\nAlso: du kochst und kaufst ein, ich putze und kümmere mich um den Topf. Und wer sagt ein paar Worte zur Begrüßung? Vielleicht du, du kennst Mia schon länger.",
+                "response": "Hallo Tarek, ja, daran habe ich auch schon gedacht.\nIm Wohnzimmer wäre es gemütlicher als in der Küche, die ist für fünf Personen wirklich zu eng. Ich würde vorschlagen, dass wir am Samstag um sieben anfangen, sobald Mia ausgepackt hat.\nSuppe klingt toll! Ich kann am Samstagnachmittag das Bad und die Küche putzen, falls du am Freitag einkaufst.\nFür den Topf hätte ich eine Idee: Die Nachbarin im ersten Stock hat bestimmt einen. Was meinst du? … Okay, dann frage ich sie heute Abend. Ich schicke außerdem den Nachbarn eine Nachricht, damit sie pünktlich kommen.\nWenn jeder von uns zehn Euro gibt, reicht das auch für Getränke, die ich am Samstagmorgen besorge. Also: du kochst und kaufst ein, ich putze, besorge die Getränke und kümmere mich um den Topf. Und wer sagt ein paar Worte zur Begrüßung? Vielleicht du, du kennst Mia schon länger.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: all points settled, tasks divided, summary, and even a new idea (a few words of welcome). Interaction 3: offers alternatives, asks the partner's view and acts on it, fluent with only short pauses. Grammar 3: dass, sobald, falls, damit, hätte and würde vorschlagen used correctly. Vocabulary 3: varied and precise (gemütlich, auspacken, außerdem, Begrüßung)."
+                "rationale": "Task completion 3: time, place, menu, drinks, cost, shopping, cleaning and the pot are settled and summed up, plus a new idea (words of welcome). Interaction 3: offers alternatives, asks the partner's view and acts on it, fluent with only short pauses. Grammar 3: dass, sobald, falls, damit, hätte and würde vorschlagen used correctly. Vocabulary 3: varied and precise (gemütlich, auspacken, außerdem, Begrüßung)."
               },
               {
-                "response": "Stimmt, das sollten wir machen. Hast du schon eine Idee?\nWir könnten auch Pizza bestellen, aber selbst kochen ist persönlicher, und es kostet weniger.\nDie Küche ist zu klein, oder? Dann nehmen wir das Wohnzimmer. Samstag, sieben Uhr.\nDu kochst eine Suppe? Das ist super. Und weil du am Freitag erst nach sechs einkaufen kannst, putze ich schon am Nachmittag das Bad.\nWas den Topf betrifft: Ich frage die Nachbarin. Je größer der Topf, desto besser, weil wir viele sind. Zehn Euro pro Person sind fair.\nGut, ich fasse zusammen: Samstag, neunzehn Uhr, Wohnzimmer. Du kochst die Suppe, ich bringe Brot mit, und das Geld sammle ich morgen ein.",
+                "response": "Stimmt, das sollten wir machen. Hast du schon eine Idee?\nWir könnten auch Pizza bestellen, aber selbst kochen ist persönlicher, und es kostet weniger.\nDie Küche ist zu klein, oder? Dann nehmen wir das Wohnzimmer. Samstag, sieben Uhr.\nDu kochst eine Suppe? Das ist super. Und weil du am Freitag erst nach sechs einkaufen kannst, putze ich schon am Nachmittag das Bad.\nWas den Topf betrifft: Ich frage die Nachbarin. Je größer der Topf, desto besser, weil wir viele sind. Zehn Euro pro Person sind fair.\nAlso, damit alles klar ist: Samstag, neunzehn Uhr, Wohnzimmer. Du kochst die Suppe, ich bringe Brot mit, und das Geld sammle ich morgen ein.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -16726,7 +16727,7 @@
         "id": "sprechen-thema-praesentieren",
         "skill": "speaking",
         "format": "Ein Thema präsentieren",
-        "instructions": "Sie sollen in Ihrem Deutschkurs ein Thema präsentieren. Das Thema ist: Autos in der Innenstadt – verbieten oder nicht? Sprechen Sie etwa drei bis vier Minuten. Ihre Präsentation hat fünf Teile: Stellen Sie das Thema vor und sagen Sie, worüber Sie sprechen. Berichten Sie von Ihrer Situation oder einem Erlebnis. Berichten Sie von der Situation in Ihrem Heimatland und geben Sie Beispiele. Nennen Sie Vor- und Nachteile und sagen Sie Ihre Meinung. Beenden Sie Ihre Präsentation und bedanken Sie sich bei den Zuhörern. Sie haben vorher 15 Minuten Zeit zur Vorbereitung.",
+        "instructions": "Sie sollen in Ihrem Deutschkurs ein Thema präsentieren. Das Thema ist: Sollten Vorlesungen auch als Video im Internet angeboten werden? Sprechen Sie etwa drei bis vier Minuten. Ihre Präsentation hat fünf Teile: Stellen Sie das Thema vor und sagen Sie, worüber Sie sprechen. Berichten Sie von Ihrer Situation oder einem Erlebnis. Berichten Sie von der Situation in Ihrem Heimatland und geben Sie Beispiele. Nennen Sie Vor- und Nachteile und sagen Sie Ihre Meinung. Beenden Sie Ihre Präsentation und bedanken Sie sich bei den Zuhörern. Sie haben vorher 15 Minuten Zeit zur Vorbereitung.",
         "minutes": 4,
         "points": 8,
         "rubricId": "speaking",
@@ -16735,7 +16736,7 @@
             "band": 0,
             "samples": [
               {
-                "response": "Mein Thema ist … Auto. Auto in Stadt. Äh … ich habe kein Auto. Ich fahre Fahrrad. In Brasil viele Autos. Sehr viele. Äh … ja. Danke.",
+                "response": "Mein Thema ist … Video. Vorlesung im Internet? Äh … ich habe Laptop. Ich lerne zu Hause. In Brasil Vorlesung nicht Internet. Äh … ja. Danke.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -16745,17 +16746,17 @@
                 "rationale": "Task completion 0: the topic is named and two parts are touched in one phrase each; no advantages, disadvantages or opinion; about 25 words. Fluency 0: long pauses, fragments. Grammar 0: almost no complete sentences. Vocabulary 0: only the most basic words."
               },
               {
-                "response": "Hello, my topic is cars. Sorry. Ich spreche über Autos in die Stadt. In Deutschland … ich fahre mit Bus, das ist gut. In meine Land, India, the traffic is very bad, sehr viel … wie sagt man … noise. Ich denke … Autos nicht gut. Danke.",
+                "response": "Hello, my topic is lectures online. Sorry. Ich spreche über Vorlesung im Internet. In Deutschland … ich sehe Video, das ist gut. In meine Land, India, the internet is very slow, sehr viel … wie sagt man … problems. Ich denke … Video gut. Danke.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary": 0
                 },
-                "rationale": "Task completion 1: introduction, own situation, home country and an opinion appear in a sentence each, but without examples, advantages or disadvantages; well under a minute. Fluency 0: repeated switches into English and long searches. Grammar 0: fragments and case errors. Vocabulary 0: key content (traffic, noise) in English."
+                "rationale": "Task completion 1: introduction, own situation, home country and an opinion appear in a sentence each, but without examples, advantages or disadvantages; well under a minute. Fluency 0: repeated switches into English and long searches. Grammar 0: fragments and case errors. Vocabulary 0: key content (lectures online, problems) in English."
               },
               {
-                "response": "Ich präsentiere Thema Autos. Ich finde, Autos sind schlecht für die Umwelt. Fahrrad ist besser. Bus ist auch gut. Autos sind laut. Ich habe kein Auto. Ende. Danke schön.",
+                "response": "Ich präsentiere Thema Vorlesung im Internet. Ich finde, Video ist gut für Studenten. Ich kann Video zwei Mal sehen. Das ist praktisch. Ich wohne weit von der Uni. Ende. Danke schön.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 1,
@@ -16770,34 +16771,34 @@
             "band": 1,
             "samples": [
               {
-                "response": "Hallo, ich möchte über das Thema Autos in der Innenstadt sprechen. Zuerst meine Situation: Ich wohne in Köln und ich habe kein Auto. Ich fahre mit dem Fahrrad zur Uni, das ist schnell und billig. In mein Land, Mexiko, ist es anders. In Mexiko-Stadt fahren alle mit dem Auto, weil der Bus ist nicht sicher. Es gibt viel Stau und die Luft ist sehr schlecht. Der Vorteil vom Verbot ist, die Luft ist besser. Der Nachteil ist … äh … für alte Leute ist es schwer. Ich denke, ein Verbot ist gut. Danke.",
+                "response": "Hallo, ich möchte über das Thema Vorlesungen im Internet sprechen. Sollen Vorlesungen auch als Video online sein? Zuerst meine Situation: Ich wohne in Köln und arbeite am Abend im Supermarkt. Manchmal kann ich nicht zur Vorlesung kommen, und das ist ein Problem. In mein Land, Mexiko, ist es anders. An meiner Uni in Puebla gibt es keine Videos, weil die Professoren haben keine Zeit. Der Vorteil ist, man kann die Vorlesung zweimal sehen. Der Nachteil ist … äh … Studenten bleiben zu Hause. Das ist ein Problem. Ich denke, Videos sind gut, aber nur zusätzlich. Danke.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 2: all five parts are present, but each in one or two sentences; well under three minutes. Fluency 1: a list read out with little linking; a long pause for the disadvantage. Grammar 1: 'In mein Land', verb second after weil, 'Der Vorteil … ist, die Luft ist besser'. Vocabulary 1: everyday words; 'Verbot' and 'Stau' are there, but little range."
+                "rationale": "Task completion 2: all five parts are present, but each in one or two sentences; well under three minutes. Fluency 1: a list read out with little linking; a long pause for the disadvantage. Grammar 1: 'In mein Land', verb second after weil, 'Der Vorteil ist, man kann die Vorlesung zweimal sehen'. Vocabulary 1: everyday words; 'Vorlesung' and 'Professoren' are there, but little range."
               },
               {
-                "response": "Guten Tag. Mein Thema ist Autos in der Stadt. Ich bin Studentin in Freiburg. In Freiburg ich brauche kein Auto, weil die Stadt ist klein. Viele Leute fahren Rad. In Nigeria, in Lagos, es ist ganz anders. Die Straßen sind sehr voll, man steht drei Stunden in Stau. Ein Verbot ist dort nicht möglich, weil es gibt nicht gute Busse. Vorteile … weniger Lärm. Nachteile … die Geschäfte haben weniger Kunden, vielleicht. Meine Meinung: in Deutschland ja, in Nigeria nein. Danke für Ihre Aufmerksamkeit.",
+                "response": "Guten Tag. Mein Thema ist die Vorlesung als Video. Ich bin Studentin in Freiburg. In Freiburg ich sehe oft Videos, weil die Vorlesung ist am Morgen um acht. Viele Leute machen das auch. In Nigeria, in Lagos, es ist ganz anders. Das Internet ist oft weg, und zu Hause gibt es oft keinen Strom. Vorlesungen als Video ist dort nicht möglich, weil es gibt zu wenig Computer. Vorteile … Video noch einmal sehen. Nachteile … man kann keine Fragen stellen, vielleicht. Meine Meinung: in Deutschland ja, in Nigeria nein. Danke für Ihre Aufmerksamkeit.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 1: all parts are named and the opinion is interesting, but advantages and disadvantages are single words and the talk lasts about a minute. Fluency 1: hesitant, with fragments ('Vorteile … weniger Lärm'). Grammar 1: verb position is wrong in most sentences ('In Freiburg ich brauche', weil with verb second, 'es ist ganz anders'). Vocabulary 2: fitting topic words (Stau, Lärm, Kunden, Verbot) and a fixed closing phrase."
+                "rationale": "Task completion 1: all parts are named and the opinion is interesting, but advantages and disadvantages are short fragments and the talk lasts about a minute. Fluency 1: hesitant, with fragments ('Vorteile … Video noch einmal sehen'). Grammar 1: verb position is wrong in most sentences ('In Freiburg ich sehe', weil with verb second, 'es ist ganz anders'). Vocabulary 2: fitting topic words (Internet, Strom, Computer, Fragen stellen) and a fixed closing phrase."
               },
               {
-                "response": "Hallo zusammen. Heute ich spreche über Autos in Innenstadt. Ich komme aus Spanien, aus Sevilla. Ich habe in Sevilla ein Auto, aber hier nicht. Hier ich gehe zu Fuß. In Sevilla … äh … die Altstadt ist schon ohne Autos, in viele Straßen. Das ist schön für Touristen. Ich finde … es ist gut, wenn weniger Autos sind. Aber, äh, für Leute aus dem Dorf ist es schwierig, sie müssen mit Auto kommen. Also … ich weiß nicht. Danke.",
+                "response": "Hallo zusammen. Heute ich spreche über Vorlesung im Internet. Ich komme aus Spanien, aus Sevilla. In Sevilla gehe ich immer in die Uni, aber hier habe ich viele Videos. Hier ich sehe Videos zu Hause. In Sevilla … äh … die Professoren machen keine Videos, nur Vorlesung in der Uni. Das ist schwer für Studenten mit Arbeit. Ich finde … es ist gut, wenn der Professor macht Video. Aber, äh, für die Professoren ist es viel Arbeit, sie müssen eine Kamera kaufen. Also … ich weiß nicht. Danke.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 1: introduction, own situation and home country are there, one advantage and one disadvantage, but no clear opinion ('ich weiß nicht') and no real ending. Fluency 1: frequent fillers and restarts. Grammar 1: verb third after Heute and Hier, missing articles, 'wenn weniger Autos sind' without es. Vocabulary 1: basic words; 'Altstadt' and 'Dorf' help."
+                "rationale": "Task completion 1: introduction, own situation and home country are there, one advantage and one disadvantage, but no clear opinion ('ich weiß nicht') and no real ending. Fluency 1: frequent fillers and restarts. Grammar 1: verb third after Heute and Hier, missing articles, wenn-clause with the verb in second position. Vocabulary 1: basic words; 'Professoren' and 'Kamera' help."
               }
             ]
           },
@@ -16805,34 +16806,34 @@
             "band": 2,
             "samples": [
               {
-                "response": "Guten Tag, ich möchte heute über die Frage sprechen, ob Autos in der Innenstadt verboten werden sollten. Zuerst erzähle ich von meiner Situation, dann von meinem Heimatland, und am Ende sage ich meine Meinung.\nIch wohne in Leipzig und habe kein Auto. Ich fahre mit der Straßenbahn oder mit dem Fahrrad. Das ist billig und meistens schnell. Nur im Winter ist es manchmal unangenehm.\nIn meinem Land, in Kolumbien, ist die Situation anders. In Bogotá gibt es sehr viele Autos und viel Stau. Aber es gibt auch eine gute Idee: Am Sonntag werden viele große Straßen für Autos geschlossen, und dann fahren tausende Menschen mit dem Rad.\nEin Vorteil von einem Verbot ist, dass die Luft besser wird und es weniger Lärm gibt. Ein Nachteil ist, dass manche Menschen das Auto brauchen, zum Beispiel alte Menschen oder Handwerker. Meiner Meinung nach sollte man Autos nicht ganz verbieten, aber es sollte weniger geben.\nDas war meine Präsentation. Vielen Dank fürs Zuhören.",
+                "response": "Guten Tag, ich möchte heute über die Frage sprechen, ob Vorlesungen auch als Video im Internet angeboten werden sollten. Zuerst erzähle ich von meiner Situation, dann von meinem Heimatland, und am Ende sage ich meine Meinung.\nIch wohne in Leipzig und arbeite zweimal pro Woche in einem Café. Wenn meine Schicht mit einer Vorlesung zusammenfällt, kann ich nicht hingehen. Dann brauche ich ein Video, sonst verpasse ich viel.\nIn meinem Land, in Kolumbien, ist die Situation anders. In Bogotá werden fast alle Vorlesungen nur im Hörsaal gehalten, und die Säle sind oft überfüllt. Es gibt aber auch einige Dozenten, die ihre Vorlesung aufnehmen, und dann sehen Tausende Studierende sie später.\nEin Vorteil von so einem Angebot ist, dass man schwierige Stellen zweimal anschauen kann. Ein Nachteil ist, dass manche Studierende dann nicht mehr zur Uni kommen und niemanden kennenlernen. Meiner Meinung nach sollte man Videos anbieten, aber den Hörsaal nicht ersetzen, und es sollte mehr geben.\nDas war meine Präsentation. Vielen Dank fürs Zuhören.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: all five parts, with an overview, an example from home, pros and cons and a nuanced opinion. Fluency 2: clearly structured and continuous, but sounds learnt by heart and leans on simple sentences. Grammar 2: passive and dass-clauses correct; 'es sollte weniger geben' is incomplete; 'von einem Verbot' instead of the genitive. Vocabulary 2: adequate topic words (Straßenbahn, Lärm, Handwerker) and presentation phrases; little variety."
+                "rationale": "Task completion 3: all five parts, with an overview, an example from home, pros and cons and a nuanced opinion. Fluency 2: clearly structured and continuous, but sounds learnt by heart and leans on simple sentences. Grammar 2: passive and dass-clauses correct; 'es sollte mehr geben' is incomplete; 'von so einem Angebot' instead of the genitive. Vocabulary 2: adequate topic words (Hörsaal, Dozenten, aufnehmen) and presentation phrases; little variety."
               },
               {
-                "response": "Hallo, mein Thema heute ist: Autos in der Innenstadt – verbieten oder nicht?\nZu meiner Situation: Ich arbeite neben dem Studium in einem Lager außerhalb von der Stadt. Ich muss um sechs Uhr da sein, und um diese Zeit fährt kein Bus. Deshalb brauche ich ein Auto, obwohl ich das nicht so gut finde.\nIn der Türkei, in Istanbul, gibt es sehr viel Verkehr. Viele Leute fahren zwei Stunden zur Arbeit. Ein Verbot gibt es nicht, aber es wurde eine neue Metro gebaut, und das hilft ein bisschen.\nVorteile sind klar: weniger Lärm, bessere Luft, mehr Platz für Fahrräder und Cafés. Aber die Nachteile sind auch wichtig. Wenn man früh oder spät arbeitet, wie ich, man hat keine andere Möglichkeit.\nIch denke, ein Verbot ist nur gut, wenn die Busse und Bahnen besser werden. Danke schön. Haben Sie Fragen?",
+                "response": "Hallo, mein Thema heute ist: Sollten Vorlesungen auch als Video im Internet angeboten werden?\nZu meiner Situation: Ich arbeite neben dem Studium in einem Lager. Ich fange um sechs Uhr an, und meine erste Vorlesung ist um acht. Deshalb komme ich oft zu spät, obwohl ich das nicht gut finde. Ich wohne außerhalb von der Stadt und brauche eine Stunde zur Uni.\nIn der Türkei, in Istanbul, ist das anders. Viele Unis stellen die Vorlesungen ins Internet. Vor einigen Jahren wurde eine neue Plattform gebaut, und das hilft vielen Studierenden, die arbeiten.\nVorteile sind klar: Man kann in seinem Tempo lernen, spart Zeit und kann schwierige Stellen wiederholen. Aber die Nachteile sind auch wichtig. Wenn alle zu Hause bleiben, man hat keinen Kontakt mehr zu den anderen und zu den Dozenten.\nIch denke, Videos sind nur gut, wenn die Dozenten auch Fragen beantworten und es noch Treffen im Hörsaal gibt. Danke schön. Haben Sie Fragen?",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: all parts, a personal example that leads to a clear conditional opinion. Fluency 2: coherent with deshalb, obwohl, aber, wenn; some pauses. Grammar 2: obwohl, passive Präteritum and wenn are correct, but 'außerhalb von der Stadt' and 'man hat' after the wenn-clause are errors. Vocabulary 2: fitting words (Verkehr, Möglichkeit, Metro); the list of advantages is simple."
+                "rationale": "Task completion 3: all parts, a personal example that leads to a clear conditional opinion. Fluency 2: coherent with deshalb, obwohl, aber, wenn; some pauses. Grammar 2: obwohl, passive Präteritum and wenn are correct, but 'außerhalb von der Stadt' and 'man hat' after the wenn-clause (instead of 'hat man') are errors. Vocabulary 2: fitting words (Plattform, Tempo, Kontakt); the list of advantages is simple."
               },
               {
-                "response": "Guten Morgen. Ich spreche über Autos in der Stadt. Ich habe drei Teile: meine Situation, mein Land und meine Meinung.\nIch wohne in einem Wohnheim am Rand von Bonn. Ich fahre jeden Tag mit dem Bus. Der Bus ist oft voll und manchmal zu spät, aber ich finde es okay.\nIn China, in meiner Stadt Chengdu, gibt es viele Elektroautos und Elektroroller. Die Autos sind leise, aber trotzdem gibt es viel Stau. Die Regierung hat Regeln gemacht: An manchen Tagen darf man mit bestimmten Nummern nicht fahren.\nWenn es weniger Autos gäbe, wären die Städte ruhiger und sicherer für Kinder. Aber die Leute, die weit weg wohnen, brauchen ein Auto. Und die Geschäfte in der Stadt verlieren vielleicht Kunden.\nIch finde, man sollte zuerst die Busse verbessern. Danke für Ihre Aufmerksamkeit.",
+                "response": "Guten Morgen. Ich spreche über Vorlesungen als Video im Internet. Ich habe drei Teile: meine Situation, mein Land und meine Meinung.\nIch wohne in einem Wohnheim am Rand von Bonn. Ich gehe fast jeden Tag in die Vorlesung. Manchmal gibt es auch Videos, aber ich finde es okay, nicht jedes Mal.\nIn China, an meiner Uni in Chengdu, gibt es eine Plattform, auf der man alle Vorlesungen sehen kann. Dort sind viele Studenten online, und die Uni hat Regeln gemacht: An manchen Tagen darf man nur mit einem besonderen Konto hinein.\nWenn es mehr Videos gäbe, hätten die Studenten mehr Zeit und könnten besser lernen. Aber die Studenten, die zu Hause bleiben, sehen die anderen nicht mehr. Und die Dozenten müssen vielleicht mehr Arbeit machen.\nIch finde, man sollte zuerst nur die großen Vorlesungen aufnehmen. Danke für Ihre Aufmerksamkeit.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
                   "grammar": 3,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 2: all parts are present and organised, but the own experience and the opinion stay brief; a little under three minutes. Fluency 2: steady, simple linking. Grammar 3: Konjunktiv II condition, relative clause and modal verbs correct. Vocabulary 2: adequate (Regierung, Regeln, verbessern); 'mit bestimmten Nummern' is vague but understandable."
+                "rationale": "Task completion 2: all parts are present and organised, but the own experience and the opinion stay brief; a little under three minutes. Fluency 2: steady, simple linking. Grammar 3: Konjunktiv II condition, relative clauses and modal verbs correct. Vocabulary 2: adequate (Plattform, Konto, Dozenten); 'mit einem besonderen Konto' is vague but understandable."
               }
             ]
           },
@@ -16840,27 +16841,27 @@
             "band": 3,
             "samples": [
               {
-                "response": "Guten Tag zusammen. In meiner Präsentation geht es um eine Frage, über die gerade viele Städte diskutieren: Sollten Autos aus der Innenstadt verschwinden? Ich erzähle zuerst kurz von meinen eigenen Erfahrungen, danach vergleiche ich mit meinem Heimatland Peru, und zum Schluss nenne ich Vor- und Nachteile und meine Meinung.\nAls ich nach Münster gekommen bin, war ich überrascht, wie viele Menschen hier mit dem Rad fahren. Inzwischen fahre ich auch fast alles mit dem Rad, und ich vermisse kein Auto.\nIn Lima ist das ganz anders. Die Busse sind voll, und Radwege gibt es kaum. Wer es sich leisten kann, fährt Auto, sodass die Straßen ständig verstopft sind. Ein Verbot würde dort im Moment nicht funktionieren, weil es keine Alternative gibt.\nDie Vorteile sind meiner Meinung nach klar: Je weniger Autos in der Stadt fahren, desto sauberer ist die Luft und desto mehr Platz gibt es für Menschen. Andererseits muss man an Menschen denken, die nicht gut laufen können, und an Lieferungen für die Geschäfte.\nDeshalb bin ich für eine autofreie Innenstadt, aber mit Ausnahmen und mit besseren Bussen. Vielen Dank für Ihre Aufmerksamkeit. Ich beantworte gern Ihre Fragen.",
+                "response": "Guten Tag zusammen. In meiner Präsentation geht es um eine Frage, die an vielen Unis diskutiert wird: Sollten Vorlesungen auch als Video im Internet angeboten werden? Ich erzähle zuerst kurz von meinen eigenen Erfahrungen, danach vergleiche ich mit meinem Heimatland Peru, und zum Schluss nenne ich Vor- und Nachteile und meine Meinung.\nAls ich nach Münster gekommen bin, war ich überrascht, wie viele Dozenten ihre Vorlesung aufnehmen. Inzwischen sehe ich schwierige Teile immer noch einmal an, und ich verstehe viel mehr als früher.\nIn Lima ist das ganz anders. An vielen Unis gibt es kaum Videos, und die Hörsäle sind so voll, dass manche Studierende auf dem Boden sitzen. Wer weit draußen wohnt, braucht zwei Stunden pro Weg, sodass er sehr müde ankommt. Videos würden dort sicher helfen, aber nur, wenn das Internet zu Hause stabil ist.\nDie Vorteile sind meiner Meinung nach klar: Je öfter man eine Vorlesung ansehen kann, desto besser versteht man sie, und desto weniger Stress gibt es vor den Klausuren. Andererseits muss man an die Studierenden denken, die dann niemanden mehr kennenlernen, und an die Dozenten, die Fragen aus dem Saal brauchen.\nDeshalb bin ich für Videos, aber nur zusätzlich zur Vorlesung vor Ort und mit festen Zeiten für Fragen. Vielen Dank für Ihre Aufmerksamkeit. Ich beantworte gern Ihre Fragen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: all five parts, clearly announced, with a personal story, a contrasting example from home, balanced arguments and a nuanced conclusion; about three and a half minutes. Fluency 3: natural, well-linked delivery with signposting (zuerst, danach, zum Schluss, andererseits). Grammar 3: als-clause, relative clauses, sodass, Konjunktiv II and je … desto all correct. Vocabulary 3: precise and varied (verstopft, sich leisten, Ausnahmen, Lieferungen)."
+                "rationale": "Task completion 3: all five parts, clearly announced, with a personal story, a contrasting example from home, balanced arguments and a nuanced conclusion; about three and a half minutes. Fluency 3: natural, well-linked delivery with signposting (zuerst, danach, zum Schluss, andererseits). Grammar 3: als-clause, relative clauses, passive, sodass, Konjunktiv II and je … desto all correct. Vocabulary 3: precise and varied (stabil, vor Ort, zusätzlich, kennenlernen)."
               },
               {
-                "response": "Hallo, ich freue mich, dass ich heute über ein Thema sprechen darf, das mich jeden Tag betrifft: Autos in der Innenstadt.\nIch arbeite als Aushilfe bei einem Lieferdienst und fahre mit dem Lastenrad durch die Stadt. Ich merke jeden Tag, wie gefährlich es ist, wenn Autos zu schnell fahren oder auf dem Radweg parken.\nIn Vietnam, wo ich herkomme, gibt es vor allem Motorroller. In Hanoi wurde vor einigen Jahren diskutiert, ob man sie in der Innenstadt verbieten soll. Viele Menschen waren dagegen, weil sie mit dem Roller arbeiten und Geld verdienen.\nWenn man über ein Verbot spricht, sollte man also beide Seiten sehen. Einerseits wären die Straßen sicherer und ruhiger. Andererseits brauchen Handwerker, Pflegekräfte und Menschen mit Kindern oft ein Auto.\nIch persönlich würde Autos nicht ganz verbieten, sondern die Innenstadt Schritt für Schritt umbauen: mehr Radwege, günstige Tickets und Parkplätze am Stadtrand. Damit bin ich am Ende. Danke fürs Zuhören!",
+                "response": "Hallo, ich freue mich, dass ich heute über ein Thema sprechen darf, das mich jeden Tag betrifft: Vorlesungen als Video.\nIch arbeite als studentische Hilfskraft in der Medienstelle der Uni und schneide Vorlesungsvideos. Ich merke jeden Tag, wie viele Studierende ein Video mehrmals ansehen und wie viel Mühe sich manche Dozenten dafür geben.\nIn Vietnam, wo ich herkomme, gibt es vor allem große Hörsäle ohne Technik. In Hanoi wurde vor einigen Jahren diskutiert, ob man Vorlesungen per Video übertragen soll. Viele Studierende waren dafür, aber die Uni hatte kein Geld für die Kameras.\nWenn man über Videos spricht, sollte man also beide Seiten sehen. Einerseits hätten Studierende mit Job oder Kindern mehr Freiheit. Andererseits brauchen viele den Kontakt zu den Dozenten und müssen Fragen stellen können.\nIch persönlich würde Vorlesungen nicht komplett ins Internet verlegen, sondern Schritt für Schritt anfangen: zuerst nur die großen Grundlagenvorlesungen, mit einer Fragestunde pro Woche und einem Chat. Damit bin ich am Ende. Danke fürs Zuhören!",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: every part is covered with a vivid personal angle, an example from home, both sides and a concrete proposal. Fluency 3: connected and lively, with clear transitions. Grammar 3: relative clauses, passive Präteritum, indirect question, Konjunktiv II and nicht … sondern correct. Vocabulary 3: varied and precise (Lastenrad, Pflegekräfte, Schritt für Schritt, Stadtrand)."
+                "rationale": "Task completion 3: every part is covered with a vivid personal angle, an example from home, both sides and a concrete proposal. Fluency 3: connected and lively, with clear transitions. Grammar 3: relative clauses, passive Präteritum, indirect question, Konjunktiv II and nicht … sondern correct. Vocabulary 3: varied and precise (Hilfskraft, übertragen, Grundlagenvorlesung, Schritt für Schritt)."
               },
               {
-                "response": "Guten Tag. Mein Thema ist die Frage, ob Autos in der Innenstadt verboten werden sollten. Ich spreche über meine Erfahrung, über Indien und über Vor- und Nachteile.\nIch habe in Deutschland kein Auto, weil ich es nicht brauche. Zur Uni fahre ich zwanzig Minuten mit der S-Bahn. Wenn ich aber meine Freunde auf dem Land besuche, ist es ohne Auto schwierig, denn der Bus fährt nur zweimal am Tag.\nIn Delhi ist die Luft im Winter oft so schlecht, dass die Schulen geschlossen werden. Deshalb hat die Stadt schon versucht, an bestimmten Tagen nur die Hälfte der Autos fahren zu lassen.\nFür ein Verbot spricht vor allem die Gesundheit. Dagegen spricht, dass viele Menschen auf das Auto angewiesen sind. Ich finde, in großen Städten mit guten Bussen und Bahnen sollte man es ausprobieren. Danke schön.",
+                "response": "Guten Tag. Mein Thema ist die Frage, ob Vorlesungen auch als Video im Internet angeboten werden sollten. Ich spreche über meine Erfahrung, über Indien und über Vor- und Nachteile.\nIch sehe in Deutschland oft Vorlesungsvideos, weil mein Stundenplan sehr voll ist. Wenn ich aber eine Frage habe, ist es schwierig, denn der Dozent antwortet nur in der Sprechstunde.\nIn Delhi ist das Internet in manchen Stadtteilen so schlecht, dass viele Studierende kein Video sehen können. Deshalb hat die Uni beschlossen, die Vorlesungen im Hörsaal weiterlaufen zu lassen. Die Videos werden zusätzlich ins Netz gestellt.\nFür Videos spricht vor allem, dass viele Studierende auf flexible Zeiten angewiesen sind. Dagegen spricht, dass der Kontakt zu den Dozenten verloren geht und nicht alle schnelles Internet haben. Ich finde, an großen Unis sollte man es ausprobieren. Danke schön.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -16887,7 +16888,7 @@
             "band": 0,
             "samples": [
               {
-                "response": "Danke.\nJa. Leise … sorry.\nÄh … Vorteil … I don't know how to say.\nSorry, what?\nIch weiß nicht.",
+                "response": "Danke.\nJa. Leise … sorry.\nÄh … Vorteil … I don't know how to say.\nSorry, what?\nIch weiß nicht, sorry.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -16897,17 +16898,17 @@
                 "rationale": "Task completion 0: no reaction to the feedback, no explanation of the point, no answer to the counter-argument. Interaction 0: single words and English. Grammar 0: no sentence of its own. Vocabulary 0: cannot explain a point from the own talk."
               },
               {
-                "response": "Danke, danke.\nVorteile … Luft gut. Nachteil … Auto, no Auto, Leute nicht kommen.\nGeschäfte? Ja, vielleicht. Ich weiß nicht.\nIn Mexiko? Viele Busse. Sehr viele.\nZahl? Nein, ich weiß nicht.",
+                "response": "Danke, danke.\nVorteile … Video, noch einmal sehen. Nachteil … Uni, nicht gehen, Leute nicht sehen.\nFragen? Ja, vielleicht. Ich weiß nicht.\nIn Mexiko? Wenig Video. Nur Papier.\nZahl? Nein, ich weiß nicht.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
                   "grammar": 0,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 0: the key points are only hinted at and the number question is answered honestly, but the feedback and the counter-argument get no real reaction. Interaction 0: fragments with long pauses, an English phrase. Grammar 0: no complete sentences. Vocabulary 1: a few relevant words (Luft, Geschäfte, Busse)."
+                "rationale": "Task completion 0: the key points are only hinted at and the number question is answered honestly, but the feedback and the counter-argument get no real reaction. Interaction 0: fragments with long pauses, an English phrase. Grammar 0: no complete sentences. Vocabulary 1: a few relevant words (Video, Uni, Leute, Fragen)."
               },
               {
-                "response": "Thank you. Ja, ich war nervös.\nVorteil … es ist … cleaner, sauber? Luft.\nNo, no, ich denke Geschäfte ist okay.\nWeil … Leute gehen.\nOkay.",
+                "response": "Thank you. Ja, ich war nervös.\nVorteil … it is … repeat, wieder? Video.\nNo, no, ich denke Internet ist okay.\nWeil … Leute haben.\nOkay.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 1,
@@ -16922,34 +16923,34 @@
             "band": 1,
             "samples": [
               {
-                "response": "Danke! Ja, am Anfang ich habe leise gesprochen.\nEin Vorteil ist: Die Luft ist besser. Ein Nachteil ist: Autos sind weg, und die Leute können nicht fahren.\nJa, für Geschäfte ist das schwierig. Aber Leute können mit Bus kommen.\nEntschuldigung, noch einmal bitte?\nAh, ältere Leute. Ich denke, für alte Mensch gibt es kleine Busse. In meine Stadt es gibt das.\nWie viele Menschen? Das weiß ich nicht.",
+                "response": "Danke! Ja, am Anfang ich habe leise gesprochen.\nEin Vorteil ist: Man kann die Vorlesung später sehen. Ein Nachteil ist: Die Studenten bleiben zu Hause, und sie sehen keine Leute.\nJa, das ist nicht gut. Aber die Dozenten machen Zeit für Fragen, dann geht das.\nEntschuldigung, noch einmal bitte?\nAh, nicht alle haben Internet. Ich denke, es gibt eine Raum in der Uni mit Computer. In meine Stadt es gibt das.\nWie viele Studenten? Das weiß ich nicht.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 2: reacts to the feedback, explains advantage and disadvantage, answers the counter-argument and the questions, all very briefly. Interaction 1: answers but never develops a point; one request for repetition. Grammar 1: 'am Anfang ich habe', 'alte Mensch', 'In meine Stadt es gibt'. Vocabulary 1: basic words; 'Autos sind weg' is a simple way to say 'verboten'."
+                "rationale": "Task completion 2: reacts to the feedback, explains advantage and disadvantage, answers the counter-arguments and the questions, all very briefly. Interaction 1: answers but never develops a point; one request for repetition. Grammar 1: 'am Anfang ich habe', 'eine Raum', 'In meine Stadt es gibt'. Vocabulary 1: basic words; 'Zeit machen für Fragen' is a simple way to say 'Zeit für Fragen einplanen'."
               },
               {
-                "response": "Oh, danke für dein Feedback. Ja, ich schaue viel auf Zettel, wenn ich bin nervös.\nVorteile und Nachteile … das ist, was gut ist und was nicht gut ist. Weniger Autos ist gut für Luft, aber manche Leute brauchen Auto.\nDu sagst, Geschäfte verlieren Kunden. Ja, das kann sein. Aber in Spanien die Geschäfte sind auch in Fußgängerzone.\nZahl von Leute in Madrid? Hm … ich glaube, sehr viel. Drei Millionen? Ich bin nicht sicher.",
+                "response": "Oh, danke für dein Feedback. Ja, ich schaue viel auf Zettel, wenn ich bin nervös.\nVorteile und Nachteile … das ist, was gut ist und was nicht gut ist. Video ist gut für Studenten, aber sie kommen nicht mehr zur Uni.\nDu sagst, man kann keine Fragen stellen. Ja, das kann sein. Aber in Spanien die Professoren antworten auch per E-Mail.\nZahl von Studenten in Madrid? Hm … ich glaube, sehr viel. Tausend? Ich bin nicht sicher.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 2,
                   "grammar": 1,
                   "vocabulary": 1
                 },
-                "rationale": "Task completion 1: reacts and explains, but invents an uncertain number instead of saying clearly that it is not known, and the counter-argument is answered in one sentence. Interaction 2: takes up the partner's words ('Du sagst …') and keeps going. Grammar 1: verb position wrong in the wenn-clause and after 'in Spanien', missing articles. Vocabulary 1: simple words, 'Zahl von Leute'."
+                "rationale": "Task completion 1: reacts and explains, but invents an uncertain number instead of saying clearly that it is not known, and the counter-argument is answered in one sentence. Interaction 2: takes up the partner's words ('Du sagst …') and keeps going. Grammar 1: verb position wrong in the wenn-clause and after 'in Spanien', missing articles. Vocabulary 1: simple words, 'sehr viel' for 'sehr viele'."
               },
               {
-                "response": "Danke. Ja, das stimmt, ich habe oft auf mein Zettel geschaut.\nVorteile … das ist, wo … äh … was gut ist für die Stadt, und Nachteile, was schlecht ist. Ja.\nSorry, kannst du langsamer sprechen?\nAh, alte Leute. Ja, sie können nicht weit gehen, ich weiß. Aber nicht in die Innenstadt, finde ich.\nIn Indien es gibt Rikschas, das sind kleine Taxis.\nDie Zahl weiß ich nicht, sorry.",
+                "response": "Danke. Ja, das stimmt, ich habe oft auf mein Zettel geschaut.\nVorteile … das ist, wo … äh … was gut ist für die Uni, und Nachteile, was schlecht ist. Ja.\nSorry, kannst du langsamer sprechen?\nAh, Fragen an den Professor. Ja, ich weiß. Aber man kann eine E-Mail schreiben, finde ich.\nIn Indien es gibt Videos in Internet, das ist normal.\nDie Zahl weiß ich nicht, sorry.",
                 "criterionBands": {
                   "task-completion": 1,
                   "interaction-fluency": 1,
                   "grammar": 1,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 1: all prompts are touched, but the explanation of the key point stays vague and the example from home is only named. Interaction 1: asks for slower speech, but long searches and 'sorry' interrupt the flow. Grammar 1: 'auf mein Zettel', 'in die Innenstadt' for location, 'In Indien es gibt'. Vocabulary 2: Innenstadt, Rikschas and the polite reactions are there."
+                "rationale": "Task completion 1: all prompts are touched, but the explanation of the key point stays vague and the example from home is only named. Interaction 1: asks for slower speech, but long searches and 'sorry' interrupt the flow. Grammar 1: 'auf mein Zettel', 'in Internet' for 'im Internet', 'In Indien es gibt'. Vocabulary 2: Professor, E-Mail, Videos and the polite reactions are there."
               }
             ]
           },
@@ -16957,34 +16958,34 @@
             "band": 2,
             "samples": [
               {
-                "response": "Danke für die Rückmeldung! Ja, am Anfang war ich wirklich zu leise. Nächstes Mal schaue ich weniger auf den Zettel.\nEin Vorteil ist, dass die Luft in der Stadt besser wird. Ein Nachteil ist, dass manche Leute ihr Ziel dann nur schwer erreichen.\nDu hast recht, wenn weniger Kunden kämen, hätten die Geschäfte ein Problem. Aber ich denke, wenn es mehr Busse gäbe, würden viele trotzdem in die Stadt fahren.\nIn meiner Stadt in Peru gibt es eine Straße, wo samstags keine Autos fahren dürfen. Dort sind die Geschäfte voll.\nWie viele Menschen in Lima täglich mit dem Bus fahren, kann ich leider nicht sagen. Ich kann es nachschauen.",
+                "response": "Danke für die Rückmeldung! Ja, am Anfang war ich wirklich zu leise. Nächstes Mal schaue ich weniger auf den Zettel.\nEin Vorteil ist, dass man die Vorlesung so oft ansehen kann, wie man will. Ein Nachteil ist, dass man dem Dozenten nicht direkt Fragen stellen kann.\nDu hast recht, wenn alle zu Hause blieben, hätten sie keinen Kontakt mehr. Aber ich denke, wenn es feste Zeiten für Fragen gäbe, würden viele trotzdem in die Uni kommen.\nIn meiner Stadt in Peru gibt es eine Uni, an der die Vorlesungen auch aufgenommen werden. Dort gibt es zusätzlich eine Fragestunde im Hörsaal.\nWie viele Studierende in Lima die Videos sehen, kann ich leider nicht sagen. Ich kann es nachschauen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: reacts to the feedback, explains both sides, answers the counter-argument with a condition, gives an example and says honestly what is not known. Interaction 2: reacts to every point and repairs smoothly; the turns are adequate but do not lead the conversation. Grammar 2: dass-clauses, Konjunktiv II conditions and an indirect question correct; overall correct but cautious. Vocabulary 2: fitting words (erreichen, nachschauen)."
+                "rationale": "Task completion 3: reacts to the feedback, explains both sides, answers the counter-argument with a condition, gives an example and says honestly what is not known. Interaction 2: reacts to every point and repairs smoothly; the turns are adequate but do not lead the conversation. Grammar 2: dass-clauses, Konjunktiv II conditions and an indirect question correct; overall correct but cautious. Vocabulary 2: fitting words (Fragestunde, aufgenommen, nachschauen)."
               },
               {
-                "response": "Danke, das ist nett. Ja, ich habe leise gesprochen, weil ich so nervös war.\nDie Vorteile und die Nachteile, das sind zwei Seiten. Gut ist, dass es weniger Lärm gibt. Schlecht ist, dass für Lieferungen und für Handwerker die Straße zu ist.\nEntschuldigung, kannst du die Frage bitte wiederholen? … Ah, okay. Ja, das ist ein guter Punkt. Aber man könnte für ältere Menschen Ausnahmen machen. Oder einen kleinen Bus.\nIn Mexiko gibt es das am Sonntag, die Straßen sind dann nur für Fahrräder. Das ist sehr schön.\nDie Zahl? Die kenne ich leider nicht.",
+                "response": "Danke, das ist nett. Ja, ich habe leise gesprochen, weil ich so nervös war.\nDie Vorteile und die Nachteile, das sind zwei Seiten. Gut ist, dass man lernen kann, wenn die Vorlesung ist zu früh. Schlecht ist, dass man nicht direkt mit den anderen sprechen kann.\nEntschuldigung, kannst du die Frage bitte wiederholen? … Ah, okay. Ja, das ist ein guter Punkt. Aber man könnte einen Computerraum an der Uni einrichten. Oder Leihgeräte für die Studierenden.\nIn Mexiko gibt es das schon: Viele Unis geben Laptops für ein Semester. Das ist sehr schön.\nDie Zahl? Die kenne ich leider nicht.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: every prompt is handled, including an example and an alternative for older people. Interaction 2: asks for repetition and acknowledges the point before answering; some short answers. Grammar 2: weil-, dass- and könnte-sentences correct; 'die Straße zu ist' is colloquial; 'Oder einen kleinen Bus' is a fragment. Vocabulary 2: Ausnahmen and Lärm are good; otherwise simple."
+                "rationale": "Task completion 3: every prompt is handled, including an example and an alternative for students without internet. Interaction 2: asks for repetition and acknowledges the point before answering; some short answers. Grammar 2: weil-, dass- and könnte-sentences correct; 'wenn die Vorlesung ist zu früh' has the wrong verb position; 'Oder Leihgeräte für die Studierenden' is a fragment. Vocabulary 2: Computerraum and Leihgeräte are good; otherwise simple."
               },
               {
-                "response": "Danke für dein Feedback. Ja, ich habe am Anfang leise gesprochen, das weiß ich.\nEin Vorteil ist: Es gibt weniger Abgase. Ein Nachteil ist: Man kann nicht mit dem Auto in die Stadt fahren.\nHmm, die Geschäfte. Ich verstehe dein Argument, aber ich glaube, dass die Leute auch mit dem Bus einkaufen gehen können, wenn der Bus oft kommt.\nIn Spanien wir haben in vielen Städten eine Fußgängerzone. Dort sind viele Cafés und Leute.\nWie viele Menschen mit dem Bus fahren? Ich weiß es nicht, tut mir leid.",
+                "response": "Danke für dein Feedback. Ja, ich habe am Anfang leise gesprochen, das weiß ich.\nEin Vorteil ist: Man kann die Vorlesung wiederholen. Ein Nachteil ist: Man hat keinen Kontakt mehr zu den Dozenten.\nHmm, die Fragen. Ich verstehe dein Argument, aber ich glaube, dass die Studenten auch per E-Mail fragen können, wenn sie ein Problem haben.\nIn Spanien wir haben in vielen Städten Unis, die alle Vorlesungen im Internet haben. Dort sind viele Studenten, und es funktioniert gut.\nWie viele Menschen Videos sehen? Ich weiß es nicht, tut mir leid.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
                   "grammar": 2,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 2: all prompts are answered, but the answers stay short and the counter-argument is answered with only one idea. Interaction 2: acknowledges Kaan's point ('Ich verstehe dein Argument') and continues in German. Grammar 2: dass and wenn correct; 'In Spanien wir haben'. Vocabulary 2: adequate; Abgase is good, the rest is simple."
+                "rationale": "Task completion 2: all prompts are answered, but the answers stay short and the counter-argument is answered with only one idea. Interaction 2: acknowledges Kaan's point ('Ich verstehe dein Argument') and continues in German. Grammar 2: dass and wenn correct; 'In Spanien wir haben'. Vocabulary 2: adequate; 'Kontakt zu den Dozenten' is good, the rest is simple."
               }
             ]
           },
@@ -16992,34 +16993,34 @@
             "band": 3,
             "samples": [
               {
-                "response": "Vielen Dank für die Rückmeldung, das hilft mir. Du hast recht, ich habe am Anfang zu leise gesprochen und zu oft auf meinen Zettel geschaut. Das muss ich noch üben.\nIch erkläre es gern noch einmal einfacher: Ein Vorteil ist, dass die Luft sauberer wird und die Straßen ruhiger sind. Ein Nachteil ist, dass manche Menschen, die ein Auto wirklich brauchen, nicht mehr in die Stadt kommen können.\nDas ist ein wichtiger Punkt. Ich möchte auch nicht, dass die Geschäfte darunter leiden. Aber wenn Busse und Bahnen öfter fahren würden, kämen viele Kunden auch ohne Auto. Und für ältere Menschen wären Haltestellen direkt vor den Geschäften möglich, sodass niemand weit laufen muss.\nIn Mexiko-Stadt werden an manchen Sonntagen große Straßen für Autos gesperrt. Dann gehen viele Familien spazieren und kaufen dabei ein.\nWie viele Menschen jeden Tag mit Bus oder Metro fahren, weiß ich ehrlich gesagt nicht. Ich schaue es aber gern nach und schreibe dir.",
+                "response": "Vielen Dank für die Rückmeldung, das hilft mir. Du hast recht, ich habe am Anfang zu leise gesprochen und zu oft auf meinen Zettel geschaut. Das muss ich noch üben.\nIch erkläre es gern noch einmal einfacher: Ein Vorteil ist, dass man schwierige Teile so oft ansehen kann, wie man möchte. Ein Nachteil ist, dass man die anderen Studierenden seltener trifft, mit denen man zusammen lernen könnte.\nDas ist ein wichtiger Punkt. Ich möchte auch nicht, dass die Fragen verloren gehen. Aber wenn es einen festen Termin im Hörsaal gäbe, würden viele trotzdem kommen. Und für Studierende ohne gutes Internet könnte die Uni Plätze mit Computern bereithalten, sodass niemand benachteiligt wird.\nIn Mexiko-Stadt werden an manchen Unis die Vorlesungen aufgenommen und danach kostenlos ins Netz gestellt. Dann können auch Leute zuschauen, die weit weg wohnen.\nWie viele Studierende dort die Videos sehen, weiß ich ehrlich gesagt nicht. Ich schaue es aber gern nach und schreibe dir.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: thanks and accepts the feedback, restates the point more simply, answers the counter-argument with several ideas, gives a concrete example and handles the unknown number honestly. Interaction 3: builds on each of Kaan's turns, long connected answers. Grammar 3: relative clauses, Konjunktiv II, sodass, passive and indirect question all correct. Vocabulary 3: precise and varied (sauberer, leiden, Haltestellen, nachschauen)."
+                "rationale": "Task completion 3: thanks and accepts the feedback, restates the point more simply, answers the counter-arguments with several ideas, gives a concrete example and handles the unknown number honestly. Interaction 3: builds on each of Kaan's turns, long connected answers. Grammar 3: relative clauses, Konjunktiv II, sodass, passive and indirect question all correct. Vocabulary 3: precise and varied (benachteiligt, bereithalten, zuschauen, nachschauen)."
               },
               {
-                "response": "Danke schön, das ist eine hilfreiche Rückmeldung. Beim nächsten Mal übe ich den Anfang laut, damit ich nicht so leise bin.\nKurz gesagt: Ohne Autos ist die Stadt ruhiger und gesünder, aber man kommt schwerer mit großen Einkäufen nach Hause. Das ist der Nachteil.\nIch verstehe, was du meinst. Wenn man in einem Laden arbeitet, sieht man jeden Tag, wie wichtig die Kunden sind. Trotzdem denke ich, dass viele Menschen lieber in einer ruhigen Straße einkaufen. Die Geschäfte könnten zum Beispiel einen Lieferservice anbieten, sodass die schweren Sachen nach Hause gebracht werden.\nIn meiner Heimat gibt es so etwas schon: Am Wochenende gehört das Zentrum den Fußgängern.\nDie genaue Zahl kenne ich leider nicht. Das wäre aber eine gute Ergänzung für meinen Vortrag, ich suche sie später heraus.",
+                "response": "Danke schön, das ist eine hilfreiche Rückmeldung. Beim nächsten Mal übe ich den Anfang laut, damit ich nicht so leise bin.\nKurz gesagt: Mit Videos lernt man flexibler und in seinem eigenen Tempo, aber man trifft weniger Leute. Das ist der Nachteil.\nIch verstehe, was du meinst. Wenn man gern in die Vorlesung geht, vermisst man den Kontakt sofort. Trotzdem denke ich, dass viele nur deshalb kommen, weil sie müssen. Die Dozenten könnten zum Beispiel Gruppenarbeit im Hörsaal anbieten, sodass man sich dort wirklich austauscht. Und die Fragen sollten im Chat gesammelt werden.\nIn meiner Heimat gibt es so etwas schon: An vielen Unis kann man die Vorlesung am Abend als Video nachholen.\nDie genaue Zahl kenne ich leider nicht. Das wäre aber eine gute Ergänzung für meinen Vortrag, ich suche sie später heraus.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 3
                 },
-                "rationale": "Task completion 3: every prompt handled with detail and a constructive proposal. Interaction 3: shows understanding of Kaan's view before disagreeing, natural and fluent. Grammar 3: damit, wenn, trotzdem, dass, sodass and a passive correct. Vocabulary 3: idiomatic (kurz gesagt, Lieferservice, schwere Einkäufe, heraussuchen)."
+                "rationale": "Task completion 3: every prompt handled with detail and a constructive proposal. Interaction 3: shows understanding of Kaan's view before disagreeing, natural and fluent. Grammar 3: damit, wenn, trotzdem, dass, sodass and a passive correct. Vocabulary 3: idiomatic (kurz gesagt, sich austauschen, nachholen, heraussuchen)."
               },
               {
-                "response": "Danke, Kaan. Ja, das habe ich gemerkt: Je mehr ich auf den Zettel schaue, desto leiser spreche ich.\nZu Vorteilen und Nachteilen: Weniger Autos bedeuten weniger Lärm und bessere Luft. Dafür ist es für manche Leute schwieriger, die Stadt zu erreichen.\nDa hast du teilweise recht. Für Geschäfte ist es am Anfang oft schwer. Aber in vielen Städten kommen sogar mehr Kunden, solange die Geschäfte gut mit Bus und Bahn zu erreichen sind.\nIn Lima gibt es neben dem Hauptplatz eine Straße nur für Fußgänger, und dort sind die Geschäfte immer voll.\nWie viele Menschen es genau sind, kann ich nicht sagen, dafür müsste ich in der Statistik nachsehen.",
+                "response": "Danke, Kaan. Ja, das habe ich gemerkt: Je mehr ich auf den Zettel schaue, desto leiser spreche ich.\nZu Vorteilen und Nachteilen: Videos bedeuten mehr Freiheit und weniger Zeitdruck. Dafür ist es schwieriger, Fragen zu stellen und neue Leute kennenzulernen.\nDa hast du teilweise recht. Ohne Hörsaal fehlt der Kontakt. Aber an vielen Unis ist es kaum ein Problem, solange es feste Zeiten für Fragen gibt.\nIn Lima gibt es eine Uni, die ihre Vorlesungen aufnimmt, und trotzdem sind die Hörsäle dort erstaunlich voll.\nWie viele Studierende dort die Videos sehen, kann ich nicht sagen, dafür müsste ich bei der Uni nachfragen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
                   "grammar": 3,
                   "vocabulary": 2
                 },
-                "rationale": "Task completion 3: every prompt handled, with a personal observation and an example. Interaction 3: confident, links to Kaan's words, keeps the exchange going. Grammar 3: je … desto, solange, a zu-infinitive and müsste correct. Vocabulary 2: mostly fitting; 'Lärm' and 'bessere Luft' are simple and the range is narrower than in the other band-3 samples."
+                "rationale": "Task completion 3: every prompt handled, with a personal observation and an example. Interaction 3: confident, links to Kaan's words, keeps the exchange going. Grammar 3: je … desto, solange, a zu-infinitive and müsste correct. Vocabulary 2: mostly fitting; 'Freiheit' and 'Fragen stellen' are simple and the range is narrower than in the other band-3 samples."
               }
             ]
           }
