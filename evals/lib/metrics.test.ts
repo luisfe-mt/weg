@@ -8,8 +8,20 @@ describe("coach matching", () => {
   it("counts a flag on the gold span as true", () => {
     expect(flagMatches(s, { wrong: "ich gehe", right: "gehe ich" }, gold[0]!)).toBe(true);
   });
-  it("counts a flag that only overlaps the gold span as true", () => {
-    expect(flagMatches(s, { wrong: "Heute ich", right: "Heute gehe" }, gold[0]!)).toBe(true);
+  it("counts a flag that only overlaps the gold span as true when its fix holds the gold fix", () => {
+    expect(flagMatches(s, { wrong: "Heute ich gehe", right: "Heute gehe ich" }, gold[0]!)).toBe(true);
+  });
+  it("counts a flag at the right spot with a wrong fix as false", () => {
+    const g = { wrong: "um", right: "damit" };
+    const sent = "Ich spare Geld, um meine Eltern mich besuchen können.";
+    expect(flagMatches(sent, { wrong: "um meine Eltern mich besuchen können", right: "um meine Eltern mich besuchen zu können" }, g)).toBe(false);
+    expect(flagMatches(sent, { wrong: "um", right: "damit" }, g)).toBe(true);
+  });
+  it("accepts a deletion when the fix drops the word", () => {
+    const g = { wrong: "sie ", right: "" };
+    const sent = "Die Leute, die ich hier kenne, sie sind sehr freundlich.";
+    expect(flagMatches(sent, { wrong: "kenne, sie sind", right: "kenne, sind" }, g)).toBe(true);
+    expect(flagMatches(sent, { wrong: "sie sind", right: "sie ist" }, g)).toBe(false);
   });
   it("counts a flag elsewhere as false", () => {
     expect(flagMatches(s, { wrong: "zur Uni", right: "in die Uni" }, gold[0]!)).toBe(false);

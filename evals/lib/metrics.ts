@@ -45,15 +45,26 @@ const overlaps = (a: Array<[number, number]>, b: Array<[number, number]>): boole
 export function flagMatches(sentence: string, flag: Flag, gold: GoldError): boolean {
   const flagSpans = spans(sentence, flag.wrong);
   if (gold.wrong) {
-    if (overlaps(flagSpans, spans(sentence, gold.wrong))) return true;
-    // A flag that quotes the text slightly differently still names the same words.
     const fw = new Set(tokens(flag.wrong));
-    return tokens(gold.wrong).some((w) => fw.has(w) && w.length > 2) && tokens(flag.right).some((w) => tokens(gold.right).includes(w));
+    // A flag that quotes the text slightly differently (no exact substring) still names the same words.
+    const samePlace = overlaps(flagSpans, spans(sentence, gold.wrong)) || (!flagSpans.length && tokens(gold.wrong).some((w) => fw.has(w) && w.length > 2));
+    return samePlace && fixHolds(flag, gold);
   }
   const added = tokens(gold.right);
   const fixed = new Set(tokens(flag.right));
   const before = new Set(tokens(flag.wrong));
   return added.length > 0 && added.every((w) => fixed.has(w) && !before.has(w));
+}
+
+/**
+ * The flag's fix carries the gold fix: every word of the gold replacement is in it, or, for a word that
+ * must go, the fix drops it. A hint at the right spot with a wrong fix teaches the wrong German.
+ */
+function fixHolds(flag: Flag, gold: GoldError): boolean {
+  const fixed = tokens(flag.right);
+  if (gold.right) return tokens(gold.right).every((w) => fixed.includes(w));
+  const count = (list: string[], w: string) => list.filter((x) => x === w).length;
+  return tokens(gold.wrong).some((w) => count(fixed, w) < count(tokens(flag.wrong), w));
 }
 
 /**
