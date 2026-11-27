@@ -77,10 +77,11 @@ export function scoreCoachItem(sentence: string, gold: GoldError[], mustNotFlag:
   const mustNotFlagHits: string[] = [];
   for (const flag of flags) {
     // The gold bank decides: a flag on a gold error is true even if it also brushes a protected phrase.
-    const hit = gold.findIndex((g) => flagMatches(sentence, flag, g));
-    if (hit >= 0) {
+    const hits = gold.flatMap((g, i) => (flagMatches(sentence, flag, g) ? [i] : []));
+    if (hits.length) {
       trueFlags++;
-      found.add(hit);
+      // One flag may fix two neighbouring errors ("habe 24 Jahre" → "bin 24 Jahre alt"); both are found.
+      for (const i of hits) found.add(i);
       continue;
     }
     const flagSpans = spans(sentence, flag.wrong);

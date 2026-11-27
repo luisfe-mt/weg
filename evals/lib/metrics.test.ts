@@ -47,6 +47,11 @@ describe("coach item and totals", () => {
     expect(t.recall).toBe(0.5);
     expect(t.falseFlags).toBe(1);
   });
+  it("credits every gold error one flag fixes", () => {
+    const gold = [{ wrong: "habe", right: "bin" }, { wrong: "", right: "alt" }];
+    const r = scoreCoachItem("Ich habe 24 Jahre.", gold, [], [{ wrong: "habe 24 Jahre", right: "bin 24 Jahre alt" }]);
+    expect(r).toMatchObject({ trueFlags: 1, found: 2, expected: 2 });
+  });
   it("gives a silent model a precision of 0, not a free pass", () => {
     expect(coachTotals([scoreCoachItem("Ich habe Hund.", [{ wrong: "Hund", right: "einen Hund" }], [], [])]).precision).toBe(0);
   });
