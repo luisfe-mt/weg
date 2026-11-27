@@ -52,7 +52,7 @@ Dependencies point one way: screens → engine → ports ← adapters. The engin
 | `npm run tauri dev` | Run the app with hot reload |
 | `npm run check` | Lint, typecheck, tests and content validation: run before every commit |
 | `npm run lint` · `npm run typecheck` · `npm test` | The parts of `check`, one at a time |
-| `npm run validate` | Validate schemas, fixtures, `curriculum/` and `gold/`, then the frequency and coverage checks |
+| `npm run validate` | Validate schemas, fixtures, `curriculum/` and `gold/`, then the frequency, coverage and leak checks (no gold sentence in `curriculum/`, no anchor copying a practice script) |
 | `npm run lemma -- <word …>` | Look up base word, frequency rank, gender and plural in `data/lemma/` |
 | `npm run build:lemma` | Rebuild `data/lemma/` from the pinned Wiktionary and Leipzig downloads in `.cache/` |
 | `npm run test:watch` | Vitest in watch mode |

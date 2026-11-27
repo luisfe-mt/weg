@@ -1,0 +1,29 @@
+{
+  "about": "Models the evals try, cheapest first. All are on Groq's free tier (about 8000 tokens per minute and 1000 requests per day per model when this list was written). params are sent with every request. A model serves a role in the app only when evals/scoreboard.md shows it passing that role's bar with the current prompt version.",
+  "models": [
+    {
+      "id": "openai/gpt-oss-20b",
+      "provider": "groq",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "free": true,
+      "tokensPerMinute": 8000,
+      "params": { "reasoning_effort": "low" }
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "provider": "groq",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "free": true,
+      "tokensPerMinute": 8000,
+      "params": {}
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "free": true,
+      "tokensPerMinute": 8000,
+      "params": { "reasoning_effort": "low" }
+    }
+  ]
+}

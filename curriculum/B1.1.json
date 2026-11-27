@@ -2462,8 +2462,8 @@
         "es": "lassen + infinitivo"
       },
       "explanation": {
-        "en": "lassen is a common verb with three main meanings, and it works like a modal: lassen in position two, the infinitive at the end. First, having something done by someone else: 'Ich lasse mein Fahrrad reparieren' means a repair shop does it, not you. Second, allowing: 'Meine Chefin lässt mich heute früher gehen.' Third, with no infinitive, leaving something somewhere: 'Ich lasse das Handy zu Hause.' The forms: ich lasse, du lässt, er lässt; Präteritum ließ. In the Perfekt, when there is an infinitive, lassen stays an infinitive too: 'Ich habe mein Fahrrad reparieren lassen', not gelassen. Without an infinitive the participle is gelassen: 'Ich habe die Jacke im Bus gelassen.' And 'Lass uns …' or 'Lasst uns …' makes a suggestion, like English 'Let's': 'Lass uns morgen die Einkäufe machen.' When something is done for you to your own body, add a dative pronoun: 'Ich lasse mir die Haare schneiden.'",
-        "es": "lassen es un verbo muy frecuente con tres significados principales, y funciona como un modal: lassen en segunda posición y el infinitivo al final. Primero, mandar hacer algo a otra persona: 'Ich lasse mein Fahrrad reparieren' quiere decir que lo arregla un taller, no tú. Segundo, permitir: 'Meine Chefin lässt mich heute früher gehen.' Tercero, sin infinitivo, dejar algo en un sitio: 'Ich lasse das Handy zu Hause.' Las formas: ich lasse, du lässt, er lässt; en Präteritum ließ. En el Perfekt, cuando hay un infinitivo, lassen se queda también en infinitivo: 'Ich habe mein Fahrrad reparieren lassen', no gelassen. Sin infinitivo el participio es gelassen: 'Ich habe die Jacke im Bus gelassen.' Y 'Lass uns …' o 'Lasst uns …' sirve para proponer algo, como '¡Vamos a …!': 'Lass uns morgen die Einkäufe machen.' Cuando se trata de tu propio cuerpo, añade un pronombre en dativo: 'Ich lasse mir die Haare schneiden', lo que en español se dice simplemente 'me corto el pelo'."
+        "en": "lassen is a common verb with three main meanings, and it works like a modal: lassen in position two, the infinitive at the end. First, having something done by someone else: 'Ich lasse mein Fahrrad reparieren' means a repair shop does it, not you. Second, allowing: 'Meine Chefin lässt mich heute früher gehen.' Third, with no infinitive, leaving something somewhere: 'Ich lasse das Handy zu Hause.' The forms: ich lasse, du lässt, er lässt; Präteritum ließ. In the Perfekt, when there is an infinitive, lassen stays an infinitive too: 'Ich habe meinen Laptop reparieren lassen', not gelassen. Without an infinitive the participle is gelassen: 'Ich habe die Jacke im Bus gelassen.' And 'Lass uns …' or 'Lasst uns …' makes a suggestion, like English 'Let's': 'Lass uns morgen die Einkäufe machen.' When something is done for you to your own body, add a dative pronoun: 'Ich lasse mir die Haare schneiden.'",
+        "es": "lassen es un verbo muy frecuente con tres significados principales, y funciona como un modal: lassen en segunda posición y el infinitivo al final. Primero, mandar hacer algo a otra persona: 'Ich lasse mein Fahrrad reparieren' quiere decir que lo arregla un taller, no tú. Segundo, permitir: 'Meine Chefin lässt mich heute früher gehen.' Tercero, sin infinitivo, dejar algo en un sitio: 'Ich lasse das Handy zu Hause.' Las formas: ich lasse, du lässt, er lässt; en Präteritum ließ. En el Perfekt, cuando hay un infinitivo, lassen se queda también en infinitivo: 'Ich habe meinen Laptop reparieren lassen', no gelassen. Sin infinitivo el participio es gelassen: 'Ich habe die Jacke im Bus gelassen.' Y 'Lass uns …' o 'Lasst uns …' sirve para proponer algo, como '¡Vamos a …!': 'Lass uns morgen die Einkäufe machen.' Cuando se trata de tu propio cuerpo, añade un pronombre en dativo: 'Ich lasse mir die Haare schneiden', lo que en español se dice simplemente 'me corto el pelo'."
       },
       "examples": [
         {
@@ -2511,8 +2511,8 @@
           }
         },
         {
-          "wrong": "Ich habe mein Fahrrad reparieren gelassen.",
-          "correct": "Ich habe mein Fahrrad reparieren lassen.",
+          "wrong": "Ich habe meinen Laptop reparieren gelassen.",
+          "correct": "Ich habe meinen Laptop reparieren lassen.",
           "l1": [
             "en",
             "es"
@@ -7009,9 +7009,9 @@
         ]
       },
       "example": {
-        "de": "Das Ergebnis der Umfrage war überraschend.",
-        "en": "The result of the survey was surprising.",
-        "es": "El resultado de la encuesta fue sorprendente."
+        "de": "Die Nachricht kam für alle überraschend.",
+        "en": "The news came as a surprise to everyone.",
+        "es": "La noticia fue una sorpresa para todos."
       },
       "sublevel": "B1.1",
       "frequencyRank": 1212
@@ -15029,7 +15029,7 @@
                 "rationale": "Task completion 3: every point is settled with suggestions and reasons, the budget and the partner's working hours are taken into account, and the plan is summed up. Interaction 3: asks, accepts the objection, proposes alternatives and checks agreement. Grammar 3: two correct relative clauses, obwohl, lass uns and a polite würde; no errors that disturb. Vocabulary 3: varied and precise (verdient, vorschlagen, zusammengefasst, einverstanden, etwas Vegetarisches)."
               },
               {
-                "response": "Yes … ich meine, ja, natürlich! Wir müssen etwas für Ana machen.\nSamstag passt mir gut. Am Freitag kann ich auch nicht, weil ich eine Prüfung am Morgen danach habe.\nIch würde die Kneipe nehmen, ehrlich gesagt. Im Hof müssen wir um zehn aufhören, und Ana tanzt so gern. Was meinst du?\nOkay, das stimmt, fünfzig Euro sind viel. Wie wäre es mit einem Kompromiss: Wir feiern im Hof, und um zehn gehen alle, die noch tanzen wollen, in die Kneipe. Dort zahlt jeder selbst.\nZum Essen: Empanadas, Salat und dein Kuchen. Die Empanadas lassen wir liefern, das ist einfacher.\nAls Geschenk schlage ich ein Fotobuch vor. Ich habe schon viele Fotos von dem letzten Sommer.\nOkay, ich fasse zusammen: Samstag, sieben Uhr, Hof, danach Kneipe. Ich kümmere mich um das Essen und das Fotobuch. Du kaufst die Getränke, bringst den Lautsprecher und schreibst allen eine Nachricht.",
+                "response": "Yes … ich meine, ja, natürlich! Wir müssen etwas für Ana machen.\nSamstag passt mir gut. Am Freitag kann ich auch nicht, weil ich eine Prüfung am Morgen danach habe.\nIch würde die Kneipe nehmen, ehrlich gesagt. Im Hof müssen wir um zehn aufhören, und Ana tanzt so gern. Was meinst du?\nOkay, das stimmt, fünfzig Euro sind viel. Vielleicht machen wir einen Kompromiss: Wir feiern im Hof, und um zehn gehen alle, die noch tanzen wollen, in die Kneipe. Dort zahlt jeder selbst.\nZum Essen: Empanadas, Salat und dein Kuchen. Die Empanadas lassen wir liefern, das ist einfacher.\nAls Geschenk schlage ich ein Fotobuch vor. Ich habe schon viele Fotos von dem letzten Sommer.\nOkay, ich fasse zusammen: Samstag, sieben Uhr, Hof, danach Kneipe. Ich kümmere mich um das Essen und das Fotobuch. Du kaufst die Getränke, bringst den Lautsprecher und schreibst allen eine Nachricht.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,

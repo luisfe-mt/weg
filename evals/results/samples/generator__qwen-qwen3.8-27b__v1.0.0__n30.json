@@ -1,0 +1,646 @@
+{
+  "role": "generator",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "1.0.0",
+  "date": "2026-11-27",
+  "sample": 30,
+  "metric": "texts at 95% known (with one retry)",
+  "score": 0.8666666666666667,
+  "bar": 1,
+  "pass": false,
+  "items": 30,
+  "invalid": 0,
+  "extra": {
+    "first attempt": "60.0%"
+  },
+  "failures": [
+    "lt-a1-017 (A1.2): 94.3% then 94.3%; unknown: Laden, Fahrt, Kollege, zufrieden",
+    "lt-a2-017 (A2.2): 0.0% then 94.8%; unknown: unzufrieden, zuverlässig, Tunnel, Fahrt, genießen, Ritual, Verkehr, froh",
+    "lt-b2-004 (B2.2): 89.7% then 0.0%; unknown: auswerten, wider, erfreulich, verlässlich, final, informativ, hilfreich, korrekt",
+    "lt-c1-007 (C1.1): 94.6% then 94.3%; unknown: Sprachverwendung, renommiert, widersprüchlich, Betrachtung, Fachsprache, Komplexität, Methodik, einwandfrei"
+  ],
+  "records": [
+    {
+      "id": "lt-a1-001",
+      "sublevel": "A1.1",
+      "first": {
+        "share": 0.96,
+        "unknown": [
+          "Ingenieur",
+          "Arzt",
+          "lieben"
+        ],
+        "text": "Ich heiße Anna. Ich bin Studentin. Ich habe eine kleine Familie. Mein Vater heißt Thomas. Er ist Ingenieur. Meine Mutter heißt Lisa. Sie ist Ärztin. Ich habe einen Bruder. Er heißt Ben. Er ist Student. Ich habe eine Schwester. Sie heißt Mia. Sie ist jung. Wir wohnen in Berlin. Wir haben ein Haus. Das Haus ist groß. Wir haben einen Hund. Er heißt Max. Max ist nett. Ich liebe meine Familie. Sie ist sehr wichtig für mich. Wir sind zusammen. Das ist schön."
+      }
+    },
+    {
+      "id": "lt-a1-004",
+      "sublevel": "A1.1",
+      "first": {
+        "share": 0.9558823529411765,
+        "unknown": [
+          "Bett",
+          "bequem",
+          "froh"
+        ],
+        "text": "Ich wohne in einer kleinen Wohnung. Die Wohnung ist neu und sehr schön. Mein Zimmer ist groß. Ich habe ein Bett und einen Tisch. Der Tisch ist nicht klein. Ich habe auch einen Stuhl. Der Stuhl ist bequem. Meine Mitbewohnerin heißt Anna. Sie ist nett. Wir kochen zusammen. Das Essen ist lecker. Ich trinke gern Kaffee. Der Kaffee ist warm. Die Miete ist nicht teuer. Ich bin sehr froh."
+      }
+    },
+    {
+      "id": "lt-a1-007",
+      "sublevel": "A1.1",
+      "first": {
+        "share": 0.9736842105263158,
+        "unknown": [
+          "zahlen",
+          "paar"
+        ],
+        "text": "– Hallo! Möchtest du einen Kaffee?\n– Ja, bitte. Und du?\n– Nein, danke. Ich habe keinen Durst.\n– Hast du Hunger?\n– Ja, ich habe Hunger. Ich möchte ein Brötchen.\n– Gut. Möchtest du auch ein Stück Kuchen?\n– Ja, sehr gern. Der Kuchen ist lecker.\n– Wir haben auch Tee. Möchtest du Tee?\n– Nein, ich trinke nur Kaffee.\n– Okay. Was kostet das?\n– Das kostet drei Euro und fünfzig Cent.\n– Gut. Ich zahle bar.\n– Danke. Hier ist deine Tüte.\n– Danke dir. Auf Wiedersehen!"
+      }
+    },
+    {
+      "id": "lt-a1-011",
+      "sublevel": "A1.2",
+      "first": {
+        "share": 0.9661016949152542,
+        "unknown": [
+          "Spaziergang",
+          "glücklich"
+        ],
+        "text": "Gestern war das Wetter schön. Ich hatte Lust auf einen Spaziergang. Mein Freund kam zu mir. Wir gingen in den Park. Dort sahen wir viele Leute. Es war ein schöner Tag. Wir tranken Kaffee und aßen Kuchen. Der Kuchen war lecker. Dann fuhren wir mit dem Bus nach Hause. Ich war müde, aber glücklich. Es war ein guter Tag."
+      }
+    },
+    {
+      "id": "lt-a1-014",
+      "sublevel": "A1.2",
+      "first": {
+        "share": 0.9078947368421053,
+        "unknown": [
+          "dieser",
+          "Regel",
+          "link",
+          "räumen",
+          "wenn",
+          "Müll"
+        ],
+        "text": "Hallo zusammen! Bitte lest diese Regeln. Wir wohnen in einer großen Wohnung. Die Küche ist auf der linken Seite. Bitte räumen Sie den Tisch ab. Sie dürfen hier nicht rauchen. Sie sollen die Fenster schließen, wenn es kalt ist. Wir möchten zusammen kochen. Bitte bringen Sie Obst mit. Der Müll steht neben der Tür. Bitte nehmen Sie ihn mit. Wir müssen die Miete pünktlich zahlen. Bitte rufen Sie mich an, wenn Sie ein Problem haben. Danke!"
+      },
+      "retry": {
+        "share": 0.9523809523809523,
+        "unknown": [
+          "räumen",
+          "wenn"
+        ],
+        "text": "Hallo zusammen! Bitte räumen Sie das Zimmer auf. Sie dürfen hier nicht rauchen. Bitte stellen Sie die Schuhe in den Schrank. Wir müssen die Miete am ersten Tag im Monat zahlen. Bitte rufen Sie mich an, wenn Sie ein Problem haben. Danke!"
+      }
+    },
+    {
+      "id": "lt-a1-017",
+      "sublevel": "A1.2",
+      "first": {
+        "share": 0.9425287356321839,
+        "unknown": [
+          "froh",
+          "glücklich",
+          "verdienen",
+          "sparen",
+          "dankbar"
+        ],
+        "text": "Ich heiße Anna. Ich bin Studentin. Ich wohne in Berlin. Ich brauche Geld. Ich suche einen Job. Ich habe eine E-Mail bekommen. Das Unternehmen heißt Tech. Ich habe ein Gespräch. Ich war dort. Ich hatte einen Termin. Ich habe gut gesprochen. Ich habe viele Fragen bekommen. Ich habe geantwortet. Ich habe den Job bekommen. Ich bin sehr froh. Ich arbeite jetzt dort. Ich fahre mit dem Bus. Ich komme pünktlich. Ich bin müde. Aber ich bin glücklich. Ich verdiene gut. Ich kann sparen. Ich bin dankbar. Das ist mein Leben."
+      },
+      "retry": {
+        "share": 0.9428571428571428,
+        "unknown": [
+          "Laden",
+          "Fahrt",
+          "Kollege",
+          "zufrieden"
+        ],
+        "text": "Ich habe einen neuen Job. Ich arbeite in einem kleinen Café. Der Laden ist sehr nett. Ich beginne um acht Uhr. Ich trinke Kaffee und esse ein Brötchen. Dann fahre ich mit dem Bus zur Arbeit. Die Fahrt dauert zwanzig Minuten. Ich bin pünktlich. Meine Kollegin heißt Anna. Sie ist sehr freundlich. Wir sprechen viel. Ich lerne neue Wörter. Am Abend bin ich müde. Ich gehe nach Hause. Ich bin zufrieden."
+      }
+    },
+    {
+      "id": "lt-a2-001",
+      "sublevel": "A2.1",
+      "first": {
+        "share": 0.902200488997555,
+        "unknown": [
+          "Fahrt",
+          "froh",
+          "glücklich",
+          "Heimat",
+          "werden",
+          "klappen",
+          "zufrieden",
+          "perfekt",
+          "Erlebnis",
+          "empfehlen",
+          "genießen",
+          "Kultur",
+          "lustig",
+          "lachen",
+          "Stimmung",
+          "Traum",
+          "erfüllen",
+          "stolz",
+          "Erinnerung",
+          "wunderbar",
+          "wertvoll"
+        ],
+        "text": "Ich habe im Sommer nach Italien gereist. Zuvor habe ich meinen Koffer gepackt. Ich habe das Hotel gebucht. Der Flug war schnell. Ich bin am Flughafen angekommen. Danach habe ich mein Gepäck geholt. Ich habe das Taxi genommen. Die Fahrt war kurz. Ich bin im Hotel angekommen. Das Zimmer war sauber. Ich habe die Stadt besucht. Ich habe viele Sehenswürdigkeiten gesehen. Das Essen hat gut geschmeckt. Ich habe Pizza gegessen. Der Strand war schön. Das Meer war blau. Ich habe Fotos gemacht. Die Bilder sind toll. Ich habe meine Tante angerufen. Sie war sehr froh. Ich habe ihr Grüße geschickt. Die Reise war erfolgreich. Ich habe viel Spaß gehabt. Deshalb war ich sehr glücklich. Trotzdem war ich müde. Ich habe gut geschlafen. Am nächsten Tag bin ich wieder geflogen. Ich habe das Land verlassen. Ich habe die Heimat vermisst. Aber die Erfahrung war groß. Ich werde bald wieder reisen. Das ist meine Idee. Ich habe es geplant. Es hat geklappt. Ich bin zufrieden. Die Situation war perfekt. Ich habe alles erlebt. Es war ein tolles Erlebnis. Ich empfehle diese Reise. Jeder sollte das machen. Es ist einfach schön. Ich habe es genossen. Die Zeit war kurz. Aber sie war wichtig. Ich habe viel gelernt. Die Kultur ist anders. Die Leute sind nett. Ich habe Freunde gefunden. Wir haben zusammen gegessen. Das war lustig. Ich habe gelacht. Die Stimmung war gut. Ich habe das Land geliebt. Es war mein Traum. Ich habe ihn erfüllt. Ich bin stolz. Die Reise war mein Sieg. Ich habe es geschafft. Es hat geklappt. Ich bin froh. Die Erinnerung bleibt. Ich denke oft daran. Es war wunderbar. Ich habe es geliebt. Die Reise war perfekt. Ich habe alles gesehen. Ich habe alles erlebt. Es war toll. Ich bin glücklich. Die Reise war mein Traum. Ich habe ihn gelebt. Es war schön. Ich habe es genossen. Die Zeit war kurz. Aber sie war wertvoll. Ich habe viel gelernt. Die Kultur ist anders. Die Leute sind nett. Ich habe Freunde gefunden. Wir haben zusammen gegessen. Das war lustig. Ich habe gelacht. Die Stimmung war gut. Ich habe das Land geliebt. Es war mein Traum. Ich habe ihn erfüllt. Ich bin stolz. Die Reise war mein Sieg. Ich habe es geschafft. Es hat geklappt. Ich bin froh. Die Erinnerung bleibt. Ich denke oft daran. Es war wunderbar. Ich habe es geliebt. Die Reise war perfekt. Ich habe alles gesehen. Ich habe alles erlebt. Es war toll. Ich bin glücklich."
+      },
+      "retry": {
+        "share": 0.9612676056338029,
+        "unknown": [
+          "prüfen",
+          "Ordnung",
+          "Aussicht",
+          "fotografieren",
+          "Ausstellung",
+          "Fahrt",
+          "Erlebnis",
+          "genießen"
+        ],
+        "text": "Ich habe im Sommer nach Berlin gereist. Zuvor habe ich meinen Koffer gepackt. Ich habe das Hotel gebucht. Der Flug war knapp. Deshalb habe ich sofort das Gepäck gesucht. Es war dort. Ich habe das Ticket geprüft. Es war in Ordnung. Ich bin zum Flughafen gefahren. Dort habe ich gewartet. Der Start war pünktlich. Ich habe das Fenster gewählt. Die Aussicht war schön. In Berlin habe ich die Sehenswürdigkeit besucht. Ich habe das Gebäude fotografiert. Es war interessant. Danach habe ich das Museum gesehen. Die Ausstellung war groß. Ich habe viele Bilder aufgenommen. Am Abend habe ich das Hotel verlassen. Ich habe die Stadt verlassen. Es war eine gute Erfahrung. Ich habe das Wetter geliebt. Es war warm. Ich habe das Meer vermisst. Aber die Stadt war schön. Ich habe das nächste Mal wieder reisen wollen. Die Reise war erfolgreich. Ich habe das Gepäck wieder gepackt. Es war leicht. Ich habe das Hotel verlassen. Ich habe den Zug genommen. Die Fahrt war kurz. Ich bin nach Hause gefahren. Es war ein guter Tag. Ich habe das Erlebnis genossen. Ich habe das Foto geschickt. Meine Tante hat es gesehen. Sie hat es geliebt. Ich habe das nächste Mal wieder reisen wollen. Die Reise war schön. Ich habe das Wetter geliebt. Es war warm. Ich habe das Meer vermisst. Aber die Stadt war schön. Ich habe das nächste Mal wieder reisen wollen. Die Reise war erfolgreich. Ich habe das Gepäck wieder gepackt. Es war leicht. Ich habe das Hotel verlassen. Ich habe den Zug genommen. Die Fahrt war kurz. Ich bin nach Hause gefahren. Es war ein guter Tag. Ich habe das Erlebnis genossen. Ich habe das Foto geschickt. Meine Tante hat es gesehen. Sie hat es geliebt."
+      }
+    },
+    {
+      "id": "lt-a2-004",
+      "sublevel": "A2.1",
+      "first": {
+        "share": 0.897119341563786,
+        "unknown": [
+          "Kissen",
+          "Boden",
+          "scharf",
+          "benutzen",
+          "täglich",
+          "Luft",
+          "atmen",
+          "ruhig",
+          "Zuhause",
+          "fühlen",
+          "Licht",
+          "vergehen",
+          "glücklich",
+          "perfekt",
+          "zufrieden",
+          "ruhen",
+          "träumen",
+          "dankbar",
+          "Schatz",
+          "schützen",
+          "froh",
+          "Herz"
+        ],
+        "text": "Ich wohne in einer kleinen Wohnung. Die Wohnung ist modern und hell. Mein Zimmer ist groß. Das Bett steht in der Mitte. Auf dem Bett liegen zwei Kissen. Der Teppich liegt auf dem Boden. Er ist sauber. Ich putze den Teppich oft. Die Schublade ist voll. Ich lege die Bücher in die Schublade. Das Messer liegt auf dem Tisch. Es ist scharf. Ich benutze es täglich. Das Fenster ist offen. Die Luft ist frisch. Ich atme tief ein. Die Stadt ist laut. Aber meine Wohnung ist ruhig. Ich mag es hier. Es ist mein Zuhause. Ich fühle mich wohl. Die Wände sind weiß. Das Licht ist warm. Ich lese gerne hier. Die Zeit vergeht schnell. Ich bin glücklich. Die Wohnung ist klein, aber schön. Ich habe alles, was ich brauche. Es ist perfekt für mich. Ich liebe mein Leben hier. Es ist einfach und gut. Ich bin zufrieden. Die Wohnung ist mein Ort. Ich ruhe mich aus. Ich träume hier. Es ist mein Glück. Ich bin dankbar. Die Wohnung ist mein Schatz. Ich schütze sie. Sie ist wichtig. Ich bin froh. Die Wohnung ist mein Herz. Ich lebe hier. Ich bin zu Hause. Es ist schön. Ich bin glücklich. Die Wohnung ist mein Leben. Ich bin frei. Ich bin ruhig. Ich bin stark. Die Wohnung ist mein Kraft. Ich bin gut. Die Wohnung ist mein Glück. Ich bin frei. Ich bin ruhig. Ich bin stark. Die Wohnung ist mein Kraft. Ich bin gut."
+      },
+      "retry": {
+        "share": 0.9629629629629629,
+        "unknown": [
+          "Decke",
+          "Licht",
+          "Luft",
+          "atmen"
+        ],
+        "text": "Ich wohne in einer kleinen Wohnung. Die Wohnung ist knapp, aber sie ist sauber. Mein Bett steht in der Mitte. Auf dem Bett liegen zwei Decken. Der Stuhl steht neben dem Tisch. Auf dem Tisch liegt ein Buch. Ich lese das Buch gerne. Die Lampe hängt an der Decke. Das ist wichtig. Ich brauche das Licht. Die Schublade ist voll. Ich muss aufräumen. Der Staubsauger steht in der Ecke. Ich staubsaugen den Teppich. Das ist meine Aufgabe. Die Spülmaschine ist voll. Ich spüle das Geschirr. Das ist nicht schön. Ich putze die Küche. Die Küche ist klein. Ich habe ein Fenster. Das Fenster ist offen. Die Luft ist frisch. Ich atme tief. Das ist gut. Ich bin müde. Ich lege mich ins Bett. Ich schlafe gut. Morgen ist ein neuer Tag. Ich freue mich darauf."
+      }
+    },
+    {
+      "id": "lt-a2-007",
+      "sublevel": "A2.1",
+      "first": {
+        "share": 0.9264705882352942,
+        "unknown": [
+          "benutzen",
+          "eigen",
+          "dass",
+          "klappen"
+        ],
+        "text": "Liebe Mitbewohner, wir müssen den Putzplan ändern. Der erste Tag ist der 15. Mai. Ihr müsst den Staubsauger benutzen. Bitte spült das Geschirr sofort. Der zweite Tag ist der 22. Mai. Wir putzen die Küche. Der dritte Tag ist der 29. Mai. Wir räumen die Schublade auf. Bitte benutzt euer eigenes Messer. Das ist wichtig für die Sicherheit. Wir hoffen, dass es klappt. Danke für eure Hilfe. Bis bald, die WG."
+      },
+      "retry": {
+        "share": 0.9761904761904762,
+        "unknown": [
+          "reinigen",
+          "Hausmeister"
+        ],
+        "text": "Liebe Mitbewohner, der Putzplan ist wichtig. Am ersten Dienstag im Monat müssen wir putzen. Ich habe die Küche gereinigt. Du musst das Bad sauber machen. Wir spülen das Geschirr zusammen. Der Staubsauger ist in der Küche. Bitte nicht vergessen! Der Termin ist am 15. Mai. Wir treffen uns um 18 Uhr. Das ist sehr wichtig für uns alle. Danke für eure Hilfe. Wir wohnen hier zusammen. Bitte haltet euch an die Regeln. Die Wohnung muss sauber sein. Wir freuen uns auf euch. Bis bald, Euer Hausmeister."
+      }
+    },
+    {
+      "id": "lt-a2-011",
+      "sublevel": "A2.2",
+      "first": {
+        "share": 0.9875,
+        "unknown": [
+          "Schmied"
+        ],
+        "text": "Sehr geehrte Damen und Herren, ich schreibe Ihnen, weil ich meinen Vertrag verlängern möchte. Ich wohne seit zwei Jahren in dieser Wohnung und bin sehr zufrieden. Deshalb frage ich, ob eine Verlängerung möglich ist. Ich weiß, dass die Frist bald abläuft. Bitte teilen Sie mir mit, welche Unterlagen nötig sind. Ich kann die Kopie des Mietvertrags und die Bescheinigung sofort abgeben. Wenn Sie einen Termin wünschen, kann ich kommen. Ich bitte Sie, mir schriftlich zu antworten. Mit freundlichen Grüßen, Anna Schmidt"
+      }
+    },
+    {
+      "id": "lt-a2-014",
+      "sublevel": "A2.2",
+      "first": {
+        "share": 0.9776119402985075,
+        "unknown": [
+          "versprechen",
+          "froh",
+          "zuhören"
+        ],
+        "text": "Mein neuer Nachbar wohnt im dritten Stock. Er ist sehr laut. Ich bin nicht mehr zufrieden, weil er jeden Abend Musik macht. Ich merke, dass er die Ruhe stört. Ich muss mich beeilen und höflich sein. Ich klingel an seiner Tür. Er öffnet und schaut mich an. Ich sage, dass ich mich ärgere. Er entschuldigt sich sofort. Er verspricht, leiser zu sein. Ich bin froh, dass er zuhört. Wir reden noch kurz. Er ist ein netter Mensch. Ich wünsche ihm einen guten Tag. Die Stimmung ist jetzt besser. Ich gehe zurück in meine Wohnung. Ich bin müde, aber zufrieden. Der Streit ist vorbei. Ich hoffe, dass es so bleibt. Wir sind jetzt gute Nachbarn. Das ist wichtig für mich. Ich fühle mich sicher. Die Ruhe ist wieder da. Ich kann jetzt schlafen. Gute Nacht."
+      }
+    },
+    {
+      "id": "lt-a2-017",
+      "sublevel": "A2.2",
+      "retry": {
+        "share": 0.948051948051948,
+        "unknown": [
+          "unzufrieden",
+          "zuverlässig",
+          "Tunnel",
+          "Fahrt",
+          "genießen",
+          "Ritual",
+          "Verkehr",
+          "froh"
+        ],
+        "text": "Ich fahre jeden Tag mit der U-Bahn zur Arbeit. Die Strecke ist länger als der Weg zu Fuß. Wenn die Bahn Verspätung hat, bin ich unzufrieden. Ich weiß, dass der Bus schneller ist. Der Bus ist aber teurer als die U-Bahn. Ich finde, dass die U-Bahn besser ist. Sie ist zuverlässig. Manchmal ist die Luft im Tunnel schlecht. Dann öffne ich das Fenster. Das ist wichtig. Ich möchte nicht krank werden. Die Fahrt dauert ungefähr zwanzig Minuten. Das ist kurz. Ich genieße die Zeit. Ich lese eine Zeitung. Oder ich höre Musik. Das ist mein Ritual. Es gibt mir Ruhe. Die Kollegen fragen mich oft: Warum fährst du nicht mit dem Auto? Ich sage: Das Auto ist langsamer. Es gibt viel Verkehr. Die U-Bahn ist schneller. Außerdem ist sie grüner. Ich spare Geld. Das ist ein großer Vorteil. Ich bin froh, dass ich diese Wahl habe. Es ist meine Entscheidung. Ich bin zufrieden damit."
+      }
+    },
+    {
+      "id": "lt-b1-001",
+      "sublevel": "B1.1",
+      "first": {
+        "share": 0.9533333333333334,
+        "unknown": [
+          "lebendig",
+          "vielfältig",
+          "überraschen",
+          "vergehen",
+          "motivieren",
+          "hilfsbereit",
+          "Heimat"
+        ],
+        "text": "Ich landete in Berlin, nachdem ich lange auf den Flug gewartet hatte. Obwohl es regnete, war ich glücklich. Während ich auf den Bus wartete, dachte ich an meine neue Wohnung. Ich hatte das Haus schon gesehen, bevor ich ankam. Es war klein, aber gemütlich. Ich fuhr mit dem Bus in die Innenstadt. Die Stadt war riesig und lebendig. Ich sah viele Menschen, Autos und Fahrräder. Am Abend ging ich in eine Kneipe. Dort traf ich einen Bekannten. Wir tranken ein Bier und sprachen über die Stadt. Er sagte, dass Berlin sehr vielfältig ist. Ich war überrascht, wie schnell die Zeit verging. Am nächsten Tag begann ich meine Arbeit. Ich war nervös, aber motiviert. Ich wusste, dass es wichtig war, freundlich zu sein. Ich lernte schnell neue Wörter. Die Leute waren sehr hilfsbereit. Ich fühlte mich willkommen. Es war ein guter Anfang. Ich freute mich auf die Zukunft. Berlin war jetzt meine neue Heimat."
+      }
+    },
+    {
+      "id": "lt-b1-004",
+      "sublevel": "B1.1",
+      "first": {
+        "share": 0.9555555555555556,
+        "unknown": [
+          "verursachen",
+          "Umstieg",
+          "lokal",
+          "Strang"
+        ],
+        "text": "Ich bin der Meinung, dass jeder Mensch Verantwortung für die Umwelt trägt. Viele Menschen, die täglich Auto fahren, verursachen viel Abfall. Obwohl sie das wissen, ändern sie ihre Gewohnheit nicht. Die Regierung, die neue Gesetze verabschiedet, muss handeln. Trotz der hohen Kosten ist der Umstieg auf Solarzellen wichtig. Während wir Plastik vermeiden, sollten wir auch auf Mülltrennung achten. Die Initiative, die lokale Projekte fördert, ist ein gutes Beispiel. Viele Bürger, die sich engagieren, zeigen, dass Veränderung möglich ist. Wir müssen gemeinsam an einem Strang ziehen, um die Zukunft zu sichern."
+      }
+    },
+    {
+      "id": "lt-b1-007",
+      "sublevel": "B1.1",
+      "first": {
+        "share": 0.9790209790209791,
+        "unknown": [
+          "wunderschön",
+          "empfinden",
+          "zubereiten"
+        ],
+        "text": "– Hallo! Was machst du am Wochenende?\n– Ich organisiere eine kleine Feier. Es ist die Feier des Frühlings.\n– Das klingt spannend. Wo findet sie statt?\n– Im Park. Der Park, in dem wir uns treffen, ist wunderschön.\n– Wer ist eingeladen?\n– Alle Freunde und die Leute, die ich kenne. Die Gäste, denen ich die Einladung schicke, freuen sich sehr.\n– Was ist das Ziel der Veranstaltung?\n– Wir wollen die Natur genießen. Die Freude, die wir empfinden, ist wichtig.\n– Und was gibt es zu essen?\n– Es gibt ein Buffet. Das Essen, das wir zubereiten, ist vegetarisch.\n– Das ist gut für die Umwelt. Wir müssen den Müll trennen.\n– Ja, das ist eine Voraussetzung. Wir wollen nicht verschwenden.\n– Wer ist für die Musik verantwortlich?\n– Ein Musiker, der sehr gut spielt, kommt. Die Musik, die er macht, ist entspannend.\n– Das ist perfekt. Ich komme gerne mit.\n– Super! Wir sehen uns dort."
+      }
+    },
+    {
+      "id": "lt-b1-011",
+      "sublevel": "B1.2",
+      "first": {
+        "share": 0.9873417721518988,
+        "unknown": [
+          "senden"
+        ],
+        "text": "Sehr geehrte Damen und Herren, ich bewerbe mich um die Stelle als Aushilfe. Ich bin flexibel und belastbar. Damit ich die Arbeit gut erledigen kann, muss ich mich auf die Aufgaben konzentrieren. Es ist wichtig, dass die Kommunikation im Team funktioniert. Falls Sie Fragen haben, können Sie mich jederzeit telefonisch erreichen. Ich würde mich freuen, wenn ich Sie im Vorstellungsgespräch überzeugen könnte. Bitte senden Sie mir eine Rückmeldung, sobald die Entscheidung getroffen ist. Ich danke Ihnen für Ihre Zeit."
+      }
+    },
+    {
+      "id": "lt-b1-014",
+      "sublevel": "B1.2",
+      "first": {
+        "share": 0.9456521739130435,
+        "unknown": [
+          "optimistisch",
+          "Beste",
+          "Neues",
+          "neugierig",
+          "großartig",
+          "froh",
+          "dankbar",
+          "fokussieren",
+          "motivieren",
+          "wunderbar"
+        ],
+        "text": "Ich denke oft an die Zukunft. Wenn ich mehr Zeit hätte, würde ich mehr reisen. Je mehr ich lerne, desto besser wird mein Deutsch. Ich möchte einen neuen Job finden. Es ist wichtig, sich zu bewerben. Ich würde gerne im Homeoffice arbeiten. Das wäre ideal für mich. Wenn das Wetter besser wäre, würde ich öfter draußen sein. Ich hoffe, dass alles gut wird. Die Zukunft ist voller Möglichkeiten. Ich bin optimistisch. Ich werde mein Bestes geben. Es ist nie zu spät, um zu starten. Ich freue mich auf die nächsten Schritte. Jeder Tag bringt etwas Neues. Ich bin bereit für die Herausforderungen. Die Zukunft gehört denen, die daran glauben. Ich glaube an mich. Es wird gut werden. Ich habe große Pläne. Ich werde sie umsetzen. Die Zukunft ist hell. Ich bin voller Hoffnung. Es wird ein gutes Jahr. Ich freue mich sehr. Die Zukunft wartet auf mich. Ich bin bereit. Es wird spannend. Ich bin neugierig. Die Zukunft ist offen. Ich bin optimistisch. Es wird gut. Ich bin sicher. Die Zukunft ist mein. Ich bin bereit. Es wird großartig. Ich freue mich. Die Zukunft ist da. Ich bin bereit. Es wird schön. Ich bin froh. Die Zukunft ist hell. Ich bin dankbar. Es wird gut. Ich bin ruhig. Die Zukunft ist klar. Ich bin fokussiert. Es wird erfolgreich. Ich bin motiviert. Die Zukunft ist nah. Ich bin bereit. Es wird perfekt. Ich bin glücklich. Die Zukunft ist jetzt. Ich bin hier. Es wird wunderbar. Ich bin stolz. Die Zukunft ist mein Traum. Ich bin bereit. Es wird ein Erfolg. Ich bin dankbar. Die Zukunft ist hell. Ich bin optimistisch. Es wird gut. Ich bin sicher. Die Zukunft ist mein. Ich bin bereit. Es wird großartig. Ich freue mich. Die Zukunft ist da. Ich bin bereit. Es wird schön. Ich bin froh. Die Zukunft ist hell. Ich bin dankbar. Es wird gut. Ich bin ruhig. Die Zukunft ist klar. Ich bin fokussiert. Es wird erfolgreich. Ich bin motiviert. Die Zukunft ist nah. Ich bin bereit. Es wird perfekt. Ich bin glücklich. Die Zukunft ist jetzt. Ich bin hier. Es wird wunderbar. Ich bin stolz. Die Zukunft ist mein Traum. Ich bin bereit. Es wird ein Erfolg. Ich bin dankbar."
+      },
+      "retry": {
+        "share": 0.9770114942528736,
+        "unknown": [
+          "Grünfläche",
+          "gespannt"
+        ],
+        "text": "Ich denke oft an die Zukunft. Wenn ich mehr Zeit hätte, würde ich jeden Tag Sport machen. Je mehr ich lerne, desto besser wird meine Arbeit. Ich möchte ein neues Haus bauen. Es wäre schön, wenn die Stadt mehr Grünflächen hätte. Dann könnte ich dort spazieren gehen. Ich plane, einen Kurs zu besuchen. Das würde mir helfen, meine Sprache zu verbessern. Wenn das Wetter besser wäre, würde ich öfter draußen sein. Ich hoffe, dass alles gut wird. Die Zukunft ist voller Möglichkeiten. Ich bin gespannt, was kommt."
+      }
+    },
+    {
+      "id": "lt-b1-017",
+      "sublevel": "B1.2",
+      "first": {
+        "share": 0.9931506849315068,
+        "unknown": [
+          "ärgerlich"
+        ],
+        "text": "– Hallo Lena, wie läuft die Vorbereitung?\n– Gut. Ich muss die Folien noch drucken. Der Beamer funktioniert nicht.\n– Das ist ärgerlich. Wir müssen das Problem lösen.\n– Ich rate dir, den Techniker zu rufen. Er kann helfen.\n– Gut. Und die Gliederung? Ist sie fertig?\n– Ja. Ich habe sie zusammengefasst. Die Zuhörer sollen alles verstehen.\n– Das ist wichtig. Du solltest ruhig sprechen.\n– Ich versuche es. Ich will nicht nervös wirken.\n– Du machst das gut. Die Grafik ist sehr schön.\n– Danke. Ich habe sie selbst erstellt. Das Diagramm ist klar.\n– Super. Was ist mit dem Feedback?\n– Ich habe eine Rückmeldung bekommen. Der Chef war zufrieden.\n– Das ist eine gute Nachricht. Er hat gelobt.\n– Ja. Er sagte, die Struktur sei optimal.\n– Toll. Dann können wir anfangen. Die Zeit ist knapp.\n– Stimmt. Wir müssen los. Die Sitzung beginnt gleich.\n– Okay. Viel Erfolg. Du schaffst das.\n– Danke. Ich bin mir sicher. Es wird klappen."
+      }
+    },
+    {
+      "id": "lt-b2-001",
+      "sublevel": "B2.1",
+      "first": {
+        "share": 0.9770114942528736,
+        "unknown": [
+          "einander",
+          "anspruchsvoll",
+          "weiterbilden",
+          "Berufseinstieg",
+          "Geruch",
+          "Anstrengung"
+        ],
+        "text": "Viele Studenten vermuten, dass das Studium sehr schwer ist. Ich denke jedoch, dass es sich lohnt. Auch wenn die Prüfungsordnung streng ist, bleibt man motiviert. Die Hochschule verlangt, dass man die Module ernst nimmt. Es ist wichtig, die Lektüre zu lesen. Wenngleich die Zeit knapp ist, muss man die Seminararbeit abgeben. Die Dozenten sagen, dass die Leistung entscheidend ist. Man sollte die Hypothese prüfen. Die These muss belegt werden. Folglich ist die Argumentation zentral. Dennoch bleibt die Stimmung gut. Die Kommilitonen helfen einander. Die Zusammenarbeit ist wertvoll. Man muss die Fristen beachten. Die Prüfung ist anspruchsvoll. Die Note ist wichtig. Die Zukunft ist offen. Man kann sich weiterbilden. Die Qualifikation ist hoch. Der Berufseinstieg gelingt. Die Chancen sind gut. Die Vielfalt ist groß. Die Gerechtigkeit ist da. Die Chancengleichheit besteht. Die Einigung ist möglich. Der Konsens ist da. Die Überzeugung ist stark. Die Haltung ist klar. Die Sichtweise ist breit. Der Gesichtspunkt ist fair. Der Grundsatz ist gut. Die Annahme ist nah. Die Tendenz ist positiv. Die Stellung ist klar. Die Anmerkung ist wichtig. Der Rückblick ist gut. Das Klischee ist falsch. Der Einzelfall zählt. Die Voraussetzung ist klar. Die Entwicklung ist gut. Der Einsatz ist groß. Die Zahl ist hoch. Das Gesamt ist gut. Die Verfügung ist klar. Das Ergebnis ist gut. Der Geruch ist gut. Das Einsetzen ist gut. Das Jeweilig ist gut. Das Verfahren ist gut. Das Setzen ist gut. Der Umsatz ist gut. Die Zufriedenheit ist gut. Die Bezahlung ist gut. Die Befragung ist gut. Die Umstellung ist gut. Die Anstrengung ist gut. Das Archiv ist gut."
+      }
+    },
+    {
+      "id": "lt-b2-004",
+      "sublevel": "B2.2",
+      "first": {
+        "share": 0.896875,
+        "unknown": [
+          "auswerten",
+          "wider",
+          "erfreulich",
+          "verlässlich",
+          "final",
+          "informativ",
+          "hilfreich",
+          "korrekt",
+          "gründlich",
+          "valide",
+          "nachvollziehbar",
+          "fundiert",
+          "verständlich",
+          "präzise",
+          "exakt",
+          "logisch",
+          "konsistent",
+          "plausibel"
+        ],
+        "text": "Dieser Bericht analysiert die Entwicklung der Studierenden. Die Zahl ist deutlich gestiegen. Im ersten Halbjahr lag der Durchschnitt bei 500. Im zweiten Halbjahr betrug er 600. Das ist ein Zuwachs von 20 Prozent. Die Kurve zeigt einen klaren Sprung. Wir haben die Daten sorgfältig ausgewertet. Die Erhebung basiert auf einer großen Stichprobe. Die Ergebnisse sind eindeutig. Die Quote der Absolventen ist ebenfalls gestiegen. Dies spiegelt die hohe Qualität wider. Die Stadtverwaltung hat die Zahlen bestätigt. Es gibt keinen Grund zur Sorge. Die Tendenz ist positiv. Wir erwarten weiteres Wachstum. Die Prognose ist optimistisch. Die Zahlen stützen unsere Strategie. Die Analyse ist abgeschlossen. Das Resultat ist erfreulich. Die Entwicklung ist kontinuierlich. Wir sind zufrieden mit dem Verlauf. Die Daten sind verlässlich. Die Grafik ist klar. Die Übersicht hilft beim Verständnis. Die Zahlen sprechen für sich. Die Steigerung ist spürbar. Die Zukunft sieht gut aus. Die Maßnahmen waren effektiv. Die Priorität war klar. Die Umsetzung war termingerecht. Die Ergebnisse sind überzeugend. Die Analyse ist abgeschlossen. Die Zahlen sind final. Die Entwicklung ist positiv. Die Tendenz bleibt stabil. Die Prognose ist realistisch. Die Daten sind aktuell. Die Grafik ist informativ. Die Übersicht ist hilfreich. Die Zahlen sind korrekt. Die Analyse ist gründlich. Die Ergebnisse sind valide. Die Entwicklung ist nachvollziehbar. Die Tendenz ist klar. Die Prognose ist fundiert. Die Daten sind verlässlich. Die Grafik ist verständlich. Die Übersicht ist klar. Die Zahlen sind präzise. Die Analyse ist exakt. Die Ergebnisse sind sicher. Die Entwicklung ist logisch. Die Tendenz ist konsistent. Die Prognose ist plausibel. Die Daten sind aktuell. Die Grafik ist informativ. Die Übersicht ist hilfreich. Die Zahlen sind korrekt. Die Analyse ist gründlich. Die Ergebnisse sind valide. Die Entwicklung ist nachvollziehbar. Die Tendenz ist klar. Die Prognose ist fundiert. Die Daten sind verlässlich. Die Grafik ist verständlich. Die Übersicht ist klar. Die Zahlen sind präzise. Die Analyse ist exakt. Die Ergebnisse sind sicher. Die Entwicklung ist logisch. Die Tendenz ist konsistent. Die Prognose ist plausibel."
+      }
+    },
+    {
+      "id": "lt-b2-007",
+      "sublevel": "B2.3",
+      "first": {
+        "share": 0.9504950495049505,
+        "unknown": [
+          "Projektmanager",
+          "besondere",
+          "meistern",
+          "bereichern",
+          "Weber"
+        ],
+        "text": "Sehr geehrte Frau Müller, ich schreibe Ihnen, weil ich den Posten als Projektmanager sehr interessant finde. Ich habe Ihre Anzeige auf der Internetseite gesehen und bin sofort motiviert. Meine Kompetenz passt gut zu Ihren Anforderungen. Ich arbeite effizient und beherrsche die nötigen Werkzeuge. Zudem bin ich flexibel und kann schnell auf Änderungen reagieren. In meiner letzten Stelle habe ich ein großes Projekt erfolgreich abgeschlossen. Das war eine besondere Herausforderung, aber ich habe sie gemeistert. Ich bin zuversichtlich, dass ich Ihr Team bereichern kann. Ich freue mich auf ein persönliches Gespräch und stehe für Rückfragen gerne zur Verfügung. Mit freundlichen Grüßen, Thomas Weber"
+      }
+    },
+    {
+      "id": "lt-b2-011",
+      "sublevel": "B2.2",
+      "first": {
+        "share": 0.9583333333333334,
+        "unknown": [
+          "ausgeschrieben",
+          "Projektmanagement",
+          "Teamführung"
+        ],
+        "text": "Sehr geehrte Damen und Herren, hiermit bewerbe ich mich um die ausgeschriebene Stelle. Ich bringe langjährige Erfahrung im Projektmanagement mit. Meine Stärken liegen in der Teamführung und der termingerechten Umsetzung von Aufgaben. Ich bin belastbar und arbeite selbstständig. Die Zusammenarbeit mit verschiedenen Abteilungen ist für mich selbstverständlich. Ich kann nachweisen, dass ich komplexe Projekte erfolgreich abgeschlossen habe. Meine Qualifikationen entsprechen den Anforderungen. Ich freue mich auf ein persönliches Gespräch. Mit freundlichen Grüßen, Max Mustermann"
+      }
+    },
+    {
+      "id": "lt-b2-014",
+      "sublevel": "B2.3",
+      "retry": {
+        "share": 0.953757225433526,
+        "unknown": [
+          "Spaziergang",
+          "Luxus",
+          "Notwendigkeit",
+          "leistungsfähig",
+          "bewältigen",
+          "Müdigkeit",
+          "frühzeitig",
+          "wohlfühlen"
+        ],
+        "text": "Viele Menschen achten heute stärker auf ihre Gesundheit. Das ist ein erkennbarer Wandel. Oftmals fehlt die Zeit für Sport. Deshalb ist es wichtig, sich zu erholen. Ein Spaziergang an der frischen Luft wirkt beruhigend. Man sollte auch auf die Ernährung achten. Gemüse und Obst sind gesund. Der Arzt rät zu regelmäßigen Kontrollen. Das ist durchaus sinnvoll. Viele fühlen sich besser, wenn sie aktiv sind. Bewegung ist kein Luxus, sondern eine Notwendigkeit. Man muss nicht jeden Tag ins Studio gehen. Ein kurzer Weg zu Fuß reicht oft schon. Die Konzentration am Arbeitsplatz steigt dadurch. Auch der Schlaf ist entscheidend. Wer gut schläft, ist am nächsten Tag leistungsfähiger. Stress kann man besser bewältigen, wenn man Pausen macht. Ein kurzer Moment der Ruhe hilft enorm. Man sollte die Warnungen des Körpers ernst nehmen. Kopfschmerzen oder Müdigkeit sind Signale. Es ist klug, frühzeitig zu handeln. Die Gesundheit ist das größte Vermögen. Man kann sie nicht einfach kaufen. Sie muss gepflegt werden. Jeder Tag ist eine Chance. Nutze sie, um dich wohlzufühlen. Das Leben wird dadurch viel schöner."
+      }
+    },
+    {
+      "id": "lt-b2-017",
+      "sublevel": "B2.3",
+      "first": {
+        "share": 0.9480968858131488,
+        "unknown": [
+          "Montagmorgen",
+          "ärgerlich",
+          "produktiv",
+          "durchhalten",
+          "mutig",
+          "lebendig",
+          "vorzüglich",
+          "prächtig",
+          "glänzen",
+          "strahlen",
+          "leuchten",
+          "funkeln"
+        ],
+        "text": "Montagmorgen. Ich sitze im Großraumbüro. Der Kaffee ist kalt. Das ist ärgerlich. Ich schaue auf meinen Bildschirm. Viele Mails. Ich muss schnell arbeiten. Mein Chef kommt. Er sagt: 'Guten Morgen.' Ich antworte höflich. Wir sprechen über den Dienstplan. Es gibt eine Änderung. Ich bin überrascht. Aber ich bin flexibel. Das ist wichtig. Wir haben eine Besprechung. Alle sind anwesend. Wir besprechen die Aufgabenverteilung. Ich nehme Notizen. Der Tonfall ist sachlich. Das gefällt mir. Wir sind ein gutes Team. Die Kollegialität ist stark. Wir helfen uns gegenseitig. Am Nachmittag gibt es eine Pause. Ich gehe in die Kantine. Das Essen ist gut. Ich rede mit meiner Kollegin. Wir lachen. Der Stress ist weg. Ich bin entspannt. Der Tag war lang. Aber er war produktiv. Ich bin zufrieden. Morgen geht es weiter. Ich bin motiviert. Die Arbeit macht Spaß. Das ist schön. Ich freue mich auf den nächsten Tag. Der Alltag ist okay. Man muss nur durchhalten. Es ist kein Problem. Ich bin stark. Ich schaffe das. Jeden Tag. Ohne Pause. Aber mit Freude. Das ist mein Weg. Mein Job. Mein Leben. Einfach so. Jeden Morgen. Neue Kraft. Neue Ideen. Neue Ziele. Ich bin bereit. Für alles. Was kommt. Ich bin stark. Und klug. Und mutig. Das ist gut. So geht es weiter. Jeden Tag. Ohne Ende. Aber mit Sinn. Mit Zweck. Mit Freude. Das ist alles. Was zählt. Der Rest ist egal. Ich bin hier. Ich bin jetzt. Das ist genug. Für heute. Für morgen. Für immer. So ist es. So bleibt es. So wird es sein. Immer. Für alle. Für mich. Für uns. Gemeinsam. Stark. Mutig. Klug. Frei. Lebendig. Echt. Wahr. Gut. Schön. Wunderbar. Fantastisch. Perfekt. Ideal. Optimal. Bestens. Hervorragend. Ausgezeichnet. Vorzüglich. Prächtig. Glänzend. Strahlend. Leuchtend. Funkelnd. Funkelnd. Funkelnd."
+      },
+      "retry": {
+        "share": 0.9706275033377837,
+        "unknown": [
+          "eisern",
+          "angespannt",
+          "befolgen",
+          "Nachweis",
+          "abwehren",
+          "aufhängen",
+          "wiegen",
+          "archivieren",
+          "wiederherstellen",
+          "scannen",
+          "kopieren",
+          "faxen",
+          "mailen",
+          "posten",
+          "liken"
+        ],
+        "text": "Der neue Chef ist ein echtes Abenteuer. Er regiert das Team mit eiserner Hand. Wir müssen uns anpassen. Das ist ein Fakt. Er erwartet volle Konzentration. Oftmals wirkt er schroff. Sein Tonfall ist streng. Wir müssen rücksichtsvoll sein. Das Betriebsklima ist angespannt. Er will effizient arbeiten. Wir müssen die Fristen einhalten. Das ist eine Hürde. Wir streben nach Erfolg. Er motiviert uns mit klaren Zielen. Wir müssen die Aufgabenliste prüfen. Die Übergabe ist wichtig. Wir müssen die Dokumentation ablegen. Das ist ein Arbeitsablauf. Wir müssen die Spesen abrechnen. Das ist eine Pflicht. Wir müssen die Checkliste nutzen. Das ist ein Werkzeug. Wir müssen die Anweisung befolgen. Das ist eine Regel. Wir müssen die Absprache treffen. Das ist ein Schritt. Wir müssen die Weiterleitung prüfen. Das ist ein Vorgang. Wir müssen die Signatur setzen. Das ist ein Detail. Wir müssen die Datensicherung starten. Das ist ein Schutz. Wir müssen die Gruppenarbeit planen. Das ist ein Team. Wir müssen den Dienstplan einhalten. Das ist eine Zeit. Wir müssen die Zeiterfassung nutzen. Das ist ein System. Wir müssen die Anwesenheitsliste prüfen. Das ist ein Nachweis. Wir müssen die Niederlassung kennen. Das ist ein Ort. Wir müssen das Quartal planen. Das ist eine Zeit. Wir müssen das Attest einreichen. Das ist ein Dokument. Wir müssen die Geschäftsführung informieren. Das ist eine Pflicht. Wir müssen den Einkauf planen. Das ist ein Prozess. Wir müssen den Hacker abwehren. Das ist ein Schutz. Wir müssen das Foyer nutzen. Das ist ein Raum. Wir müssen die Tagung vorbereiten. Das ist ein Event. Wir müssen den Empfang gestalten. Das ist ein Ort. Wir müssen das Schild aufhängen. Das ist ein Zeichen. Wir müssen die Ausführung prüfen. Das ist ein Schritt. Wir müssen das Zelt aufbauen. Das ist ein Ort. Wir müssen den Tanz planen. Das ist ein Event. Wir müssen die Küste besuchen. Das ist ein Ort. Wir müssen den Planeten kennen. Das ist ein Ort. Wir müssen die Galerie besuchen. Das ist ein Ort. Wir müssen das Virus bekämpfen. Das ist ein Schutz. Wir müssen das Motorrad fahren. Das ist ein Fahrzeug. Wir müssen den Fußgänger beachten. Das ist ein Mensch. Wir müssen den Montagabend planen. Das ist eine Zeit. Wir müssen den Dienstagabend planen. Das ist eine Zeit. Wir müssen den Donnerstagabend planen. Das ist eine Zeit. Wir müssen den Sonntagabend planen. Das ist eine Zeit. Wir müssen das Geschehen beobachten. Das ist ein Prozess. Wir müssen den Rauch sehen. Das ist ein Zeichen. Wir müssen die Burg besuchen. Das ist ein Ort. Wir müssen die Zelle kennen. Das ist ein Ort. Wir müssen den Feind bekämpfen. Das ist ein Gegner. Wir müssen die Scheibe putzen. Das ist ein Gegenstand. Wir müssen die Decke streichen. Das ist ein Teil. Wir müssen das Kilogramm wiegen. Das ist eine Einheit. Wir müssen die Blume pflanzen. Das ist ein Pflanze. Wir müssen den Server starten. Das ist ein Gerät. Wir müssen die Pressemitteilung schreiben. Das ist ein Text. Wir müssen die Pressemitteilung prüfen. Das ist ein Schritt. Wir müssen die Pressemitteilung freigeben. Das ist ein Schritt. Wir müssen die Pressemitteilung senden. Das ist ein Schritt. Wir müssen die Pressemitteilung ablegen. Das ist ein Schritt. Wir müssen die Pressemitteilung archivieren. Das ist ein Schritt. Wir müssen die Pressemitteilung löschen. Das ist ein Schritt. Wir müssen die Pressemitteilung wiederherstellen. Das ist ein Schritt. Wir müssen die Pressemitteilung drucken. Das ist ein Schritt. Wir müssen die Pressemitteilung scannen. Das ist ein Schritt. Wir müssen die Pressemitteilung kopieren. Das ist ein Schritt. Wir müssen die Pressemitteilung faxen. Das ist ein Schritt. Wir müssen die Pressemitteilung mailen. Das ist ein Schritt. Wir müssen die Pressemitteilung posten. Das ist ein Schritt. Wir müssen die Pressemitteilung teilen. Das ist ein Schritt. Wir müssen die Pressemitteilung kommentieren. Das ist ein Schritt. Wir müssen die Pressemitteilung liken. Das ist ein Schritt. Wir müssen die Pressemitteilung speichern. Das ist ein Schritt. Wir müssen die Pressemitteilung löschen. Das ist ein Schritt. Wir müssen die Pressemitteilung wiederherstellen. Das ist ein Schritt. Wir müssen die Pressemitteilung drucken. Das ist ein Schritt. Wir müssen die Pressemitteilung scannen. Das ist ein Schritt. Wir müssen die Pressemitteilung kopieren. Das ist ein Schritt. Wir müssen die Pressemitteilung faxen. Das ist ein Schritt. Wir müssen die Pressemitteilung mailen. Das ist ein Schritt. Wir müssen die Pressemitteilung posten. Das ist ein Schritt. Wir müssen die Pressemitteilung teilen. Das ist ein Schritt. Wir müssen die Pressemitteilung kommentieren. Das ist ein Schritt. Wir müssen die Pressemitteilung liken. Das ist ein Schritt. Wir müssen die Pressemitteilung speichern. Das ist ein Schritt."
+      }
+    },
+    {
+      "id": "lt-c1-001",
+      "sublevel": "C1.1",
+      "first": {
+        "share": 0.9880597014925373,
+        "unknown": [
+          "Einordnung",
+          "unbegründet",
+          "Herangehensweise",
+          "Differenzierung",
+          "Polemik",
+          "Anmahnung",
+          "Logik"
+        ],
+        "text": "Die neue Studie ist außergewöhnlich. Die Forscherin hat die Daten gründlich ausgewertet. Die Korrelation ist deutlich. Viele Leser halten die Methode für plausibel. Die Aussagekraft ist hoch. Die Primärquelle ist klar. Die Sekundärliteratur fehlt. Die Forschungsfrage ist relevant. Die Kernthese ist stark. Die Argumentationskette ist schlüssig. Die Beweisführung ist stark. Die Überzeugungskraft ist groß. Die Differenz ist klein. Die Gewichtung ist fair. Die Einordnung ist gut. Die Relativierung fehlt. Die Verallgemeinerung ist falsch. Die Plagiat-Vorwürfe sind unbegründet. Die Gutachter sind zufrieden. Die Überarbeitung ist nötig. Das Verzeichnis ist vollständig. Die Fachliteratur ist aktuell. Die Literaturrecherche ist gründlich. Die qualitative Methode ist gut. Die quantitative Methode ist klar. Die empirische Basis ist stark. Die methodische Herangehensweise ist sauber. Die stichhaltigen Belege fehlen. Die schlüssigen Folgerungen sind da. Die nachvollziehbaren Schritte sind klar. Die plausiblen Erklärungen sind gut. Die Zweifel sind gering. Die Hinterfragung ist wichtig. Die Differenzierung ist nötig. Die Relativierung fehlt. Die Einordnung ist gut. Die Gewichtung ist fair. Die Aufgreifung ist klar. Die Folgerung ist stark. Die Erörterung ist tief. Die Erhebung ist breit. Die Gewichtung ist gut. Die Primärquelle ist klar. Die Sekundärliteratur fehlt. Die Kernthese ist stark. Die Leitfrage ist klar. Die Belegstelle ist gut. Die Literaturangabe ist korrekt. Die Quellenangabe ist vollständig. Die Quellenkritik ist streng. Der Fachaufsatz ist gut. Die Studienlage ist klar. Die Forschungslücke ist groß. Der Untersuchungsgegenstand ist neu. Die Erhebungsmethode ist gut. Die Fallstudie ist tief. Der Schlussteil ist klar. Die Zwischenbilanz ist fair. Der Gedankengang ist klar. Die Argumentationskette ist stark. Der Lösungsansatz ist gut. Die Gegenüberstellung ist klar. Die Beweisführung ist stark. Die Überzeugungskraft ist groß. Die Rechtfertigung ist klar. Der Verweis ist gut. Das Hinzufügen ist klar. Die Abwägung ist fair. Der Kernpunkt ist klar. Der Meinungsbeitrag ist gut. Der Leserbrief ist klar. Der Befürworter ist laut. Der Appell ist stark. Der Einspruch ist klar. Der Vorbehalt ist gut. Der Missstand ist klar. Der Kritikpunkt ist fair. Die Einseitigkeit fehlt. Die Ausgewogenheit ist gut. Die Polemik fehlt. Die Zuspitzung ist klar. Die Anmahnung ist laut. Die Entgegnung ist klar. Das Beipflichten ist gut. Das Beschwichtigen fehlt. Die Sachlichkeit ist klar. Der Fachvortrag ist gut. Der Gastvortrag ist klar. Die Ringvorlesung ist breit. Die Podiumsdiskussion ist lebendig. Das Podium ist voll. Der Diskussionsbeitrag ist gut. Das Thesenpapier ist klar. Das Handout ist hilfreich. Das Fachgespräch ist tief. Der Referent ist gut. Die Referentin ist klar. Die Rednerin ist stark. Die Zuhörerin ist aufmerksam. Die Vortragende ist gut. Die Zuhörerschaft ist ruhig. Die Gesprächsrunde ist klar. Der Podiumsgast ist bekannt. Die Anschaulichkeit ist gut. Die Prägnanz ist klar. Die Mitreißende Wirkung fehlt. Die Einleuchtende Logik ist da. Das Nachfragen ist gut. Das Anknüpfen ist klar. Das Abschweifen fehlt. Das Überblicken ist gut. Die Vermittlerin ist klar. Die Vermittlung ist gut. Die Schlichtung ist fair. Der Streitfall ist klar. Der Gegenvorschlag ist gut. Das Nachgeben ist klar. Das Schlichten ist gut. Das Beharren ist stark. Das Einlenken ist fair. Der Spielraum ist groß. Die Gegenleistung ist klar. Die Unverbindlichkeit fehlt. Die Gegenseite ist klar. Die Bereitschaft ist gut. Die Kompromissbereitschaft ist da. Die Verständigung ist klar. Die Eskalation fehlt. Die Deeskalation ist gut. Das Vermittlungsgespräch ist klar. Der Verhandlungsführer ist gut. Die Eingangsbestätigung ist da. Hiermit ist klar. Diesbezüglich ist gut. Anbei ist klar. Beiliegend ist gut. Die Erwiderung ist klar. Die Bezugnahme ist gut. Der Beschwerdebrief ist klar. Überdies ist klar. Mithin ist gut. Indes ist klar. Wonach ist gut. Wodurch ist klar. Die Masterarbeit ist gut. Die Bachelorarbeit ist klar. Der Zweitgutachter ist streng. Das Kolloquium ist lebendig. Der Abgabetermin ist nah. Die Schreibphase ist anstrengend. Die Schreibblockade ist klar. Die Rohfassung ist gut. Der Nachweis ist klar. Der Gegenbeweis fehlt. Die Tragweite ist groß. Die Folgerung ist stark. Das Wort erteilen ist klar. Zur Abstimmung stellen ist gut. Auf den Punkt bringen ist klar. Zu bedenken geben ist gut. Bezug nehmen auf ist klar. Der rote Faden ist gut. Zu Wort kommen ist klar. Ins Wort fallen ist schlecht. In Kauf nehmen ist klar. Zur Sprache bringen ist gut. Den Standpunkt vertreten ist klar. Ausreden lassen ist gut. Pro und Kontra ist klar."
+      }
+    },
+    {
+      "id": "lt-c1-004",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.9649122807017544,
+        "unknown": [
+          "ärgerlich",
+          "Logik"
+        ],
+        "text": "Sehr geehrte Damen und Herren, ich schreibe Ihnen, weil ich eine Frage habe. Die Gebühren sind hoch. Das ist ärgerlich. Ich verstehe die Logik nicht. Die Verwaltung arbeitet langsam. Das ist peinlich. Ich warte seit Wochen. Das ist enttäuschend. Bitte antworten Sie schnell. Ich brauche Klarheit. Das ist zwingend. Vielen Dank im Voraus. Mit freundlichen Grüßen, Max Müller"
+      }
+    },
+    {
+      "id": "lt-c1-007",
+      "sublevel": "C1.1",
+      "first": {
+        "share": 0.9457831325301205,
+        "unknown": [
+          "Sprachverwendung",
+          "widersprüchlich",
+          "Interpretation",
+          "subjektiv",
+          "objektiv",
+          "gängig",
+          "solcher",
+          "überbewerten",
+          "strukturieren",
+          "konstruktiv",
+          "Dynamik",
+          "präzise",
+          "Methodik",
+          "vertiefen",
+          "Beteiligter",
+          "förderlich",
+          "zielführend",
+          "akademisch",
+          "folgen",
+          "Anstrengung",
+          "logisch",
+          "solid",
+          "valide"
+        ],
+        "text": "Die aktuelle Studie zur Sprachverwendung scheint zunächst widersprüchlich. Die Daten gelten als belastbar, doch die Interpretation erweist sich als problematisch. Viele Forscherinnen nutzen Partizipialkonstruktionen, um komplexe Zusammenhänge zu verdeutlichen. Diese Methode ist hilfreich, wenn man vorsichtig behaupten möchte. Oft scheinen die Ergebnisse überraschend, gleichwohl sind sie nachvollziehbar. Die Autorin differenziert zwischen subjektiven Eindrücken und objektiven Fakten. Sie hinterfragt die gängigen Annahmen und relativiert deren Tragweite. Ein solcher Ansatz ist anspruchsvoll, aber notwendig. Die Leserschaft muss die Argumentationskette sorgfältig prüfen. Oftmals wird die Kernthese durch Sekundärliteratur gestützt. Die Quellenkritik spielt dabei eine maßgebliche Rolle. Man sollte die Aussagekraft der Primärquellen nicht überbewerten. Stattdessen gilt es, die Forschungslücke klar zu benennen. Die Verfasserin appelliert an die Sachlichkeit der Diskussion. Sie fordert, die Gegenüberstellung der Positionen ausgewogen zu gestalten. So lässt sich die Überzeugungskraft des Textes steigern. Die Resonanz auf den Vortrag war positiv. Die Zuhörerschaft diskutierte die Thesen engagiert. Die Moderation half, die Debatte strukturiert zu führen. Am Ende stand ein konstruktives Zwischenfazit. Die Teilnehmer einigten sich auf einen Kompromiss. Dieser Prozess zeigt die Dynamik des Fachdiskurses. Die Sprache bleibt dabei das zentrale Werkzeug. Sie ermöglicht es, komplexe Inhalte präzise zu vermitteln. Die Transparenz der Methodik ist dabei entscheidend. Nur so kann die Wissenschaft ihre Stabilität bewahren. Die weitere Forschung wird diese Aspekte vertiefen. Die Ergebnisse dürften relevant für die Praxis sein. Die Umsetzung erfordert jedoch Zeit und Ressourcen. Die Beteiligten müssen ihre Erwartungen anpassen. Die Zusammenarbeit zwischen den Disziplinen ist dabei förderlich. Die gemeinsame Arbeit an der Lösung ist zielführend. Die Sprache verbindet die Beteiligten. Sie schafft ein gemeinsames Verständnis. Die Kommunikation bleibt der Schlüssel zum Erfolg. Die akademische Freiheit schützt diesen Prozess. Die Institutionen unterstützen die Forschung. Die Mittel sind begrenzt, aber vorhanden. Die Prioritäten müssen gesetzt werden. Die Strategie ist klar. Die Umsetzung folgt. Die Ergebnisse werden veröffentlicht. Die Öffentlichkeit wird informiert. Die Diskussion geht weiter. Die Sprache lebt. Die Wissenschaft wächst. Die Zukunft ist offen. Die Möglichkeiten sind vielfältig. Die Herausforderungen sind groß. Die Chancen sind gleich. Die Anstrengung lohnt sich. Die Arbeit zahlt sich aus. Die Erkenntnis bleibt. Die Wirkung ist nachhaltig. Die Veränderung ist sichtbar. Die Entwicklung ist positiv. Die Perspektive ist hell. Die Hoffnung ist groß. Die Zukunft ist hell. Die Sprache ist stark. Die Wissenschaft ist lebendig. Die Forschung ist aktiv. Die Zusammenarbeit ist eng. Die Kommunikation ist offen. Die Diskussion ist fair. Die Argumentation ist klar. Die Struktur ist logisch. Die Methode ist solide. Die Daten sind sicher. Die Quellen sind geprüft. Die Ergebnisse sind valide. Die Schlussfolgerung ist schlüssig. Die Empfehlung ist sinnvoll. Die Umsetzung ist möglich. Die Wirkung ist positiv. Die Zukunft ist hell. Die Sprache ist stark. Die Wissenschaft ist lebendig. Die Forschung ist aktiv. Die Zusammenarbeit ist eng. Die Kommunikation ist offen. Die Diskussion ist fair. Die Argumentation ist klar. Die Struktur ist logisch. Die Methode ist solide. Die Daten sind sicher. Die Quellen sind geprüft. Die Ergebnisse sind valide. Die Schlussfolgerung ist schlüssig. Die Empfehlung ist sinnvoll. Die Umsetzung ist möglich. Die Wirkung ist positiv. Die Zukunft ist hell."
+      },
+      "retry": {
+        "share": 0.9430051813471503,
+        "unknown": [
+          "Sprachverwendung",
+          "renommiert",
+          "widersprüchlich",
+          "Betrachtung",
+          "Fachsprache",
+          "Komplexität",
+          "Methodik",
+          "einwandfrei",
+          "Klarheit",
+          "angeregt",
+          "Muss"
+        ],
+        "text": "Die aktuelle Studie zur Sprachverwendung in der Wissenschaft ist bemerkenswert. Die Verfasserin, eine renommierte Forscherin, hat die Daten gründlich ausgewertet. Die Ergebnisse scheinen zunächst widersprüchlich, doch bei genauerer Betrachtung erweisen sie sich als schlüssig. Die Kernthese lautet, dass die Kommunikation in der Forschung oft zu komplex ist. Viele Studierende empfinden die Fachsprache als problematisch. Die Autorin plädiert für eine einfachere Ausdrucksweise. Sie verweist auf zahlreiche Beispiele aus der Literatur. Die Argumentationskette ist nachvollziehbar und stichhaltig. Gleichwohl bleibt die Frage offen, wie man die Komplexität reduzieren kann. Die Studie liefert einen wichtigen Beitrag zur Diskussion. Die Resonanz in der Fachwelt ist positiv. Viele Kollegen befürworten die Vorschläge. Die Arbeit gilt als Meilenstein in der Linguistik. Die Methodik ist transparent und einwandfrei. Die Datenerhebung erfolgte über einen langen Zeitraum. Die Stichprobe ist groß genug, um verallgemeinern zu können. Die Ergebnisse sind aussagekräftig. Die Studie wird in vielen Kursen verwendet. Sie hilft den Studierenden, ihre Texte zu verbessern. Die Autorin betont die Notwendigkeit von Klarheit. Sie warnt vor überflüssigem Fachjargon. Die Arbeit ist ein wertvoller Fund für die Forschung. Die Leserschaft wird angeregt, über die eigene Sprache nachzudenken. Die Studie ist ein Muss für alle, die in der Wissenschaft arbeiten."
+      }
+    },
+    {
+      "id": "lt-c1-011",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.9632352941176471,
+        "unknown": [
+          "Meinungsbildung",
+          "Kriminalität",
+          "Toleranz",
+          "Vertrauensverlust",
+          "Zusammenhalt"
+        ],
+        "text": "Die gesellschaftliche Dynamik ist derzeit enorm. Viele Bürger fühlen sich durch die politischen Entscheidungen verunsichert. Es ist zwingend, dass wir auf Augenhöhe kommunizieren. Die Medien spielen eine entscheidende Rolle bei der Meinungsbildung. Oft wird pauschal gegen bestimmte Gruppen argumentiert. Das ist nicht tragfähig. Wir müssen differenziert nachdenken. Die Kausalität zwischen Armut und Kriminalität ist komplex. Man darf nicht voreilig Schlüsse ziehen. Ein konstruktiver Dialog ist das Gebot der Stunde. Wir sollten ein Zeichen setzen für Toleranz. Die Verantwortungsbereiche der Politik sind klar definiert. Dennoch fehlt oft die Klarheit in der Umsetzung. Die Bürger erwarten, dass die Entscheidungsträger ihre Versprechen einhalten. Sonst droht ein Vertrauensverlust. Das wäre gravierend für den gesellschaftlichen Zusammenhalt. Wir müssen am Ball bleiben und aktiv werden. Nur so können wir die Herausforderungen meistern. Die Zukunft liegt in unseren Händen. Lasst uns gemeinsam handeln."
+      }
+    },
+    {
+      "id": "lt-c1-014",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.9896907216494846,
+        "unknown": [
+          "Bürokratie"
+        ],
+        "text": "Wenngleich das Bildungssystem oft kritisiert wird, so ist die Reform auch notwendig. Mag der Druck auf Lehrkräfte auch groß sein, bleibt die Qualität entscheidend. Wir müssen die Lehrerausbildung evaluieren, um tragfähige Lösungen zu finden. Konjunktiv II erlaubt höfliche Kritik: Man könnte die Ganztagsschule ausweiten. Wiewohl die Kosten hoch sind, ist die Investition sinnvoll. So wichtig die Theorie auch ist, die Praxis darf nicht fehlen. Wir sollten die Lehrpläne anpassen, um die Schüler besser zu fördern. Abgesehen von der Bürokratie, zählt das Lernen. Die Schulreform muss auf Augenhöhe verhandelt werden. Nur so können wir ein Zeichen setzen und die Zukunft sichern."
+      }
+    },
+    {
+      "id": "lt-c1-017",
+      "sublevel": "C1.2",
+      "first": {
+        "share": 0.946058091286307,
+        "unknown": [
+          "herrschen",
+          "Hektik",
+          "Navigation",
+          "Unbekannte",
+          "einlassen",
+          "inner",
+          "Wandlung",
+          "Gedächtnis",
+          "Illusion",
+          "durchbrechen",
+          "kostbar",
+          "Dankbarkeit",
+          "Neugier",
+          "formen",
+          "materiell",
+          "unschätzbar",
+          "Atemzug",
+          "Essenz",
+          "endlos"
+        ],
+        "text": "Reisen sind heute oft ein kommerzielles Produkt. Viele Urlauber suchen Entspannung, finden aber nur Stress. Die Werbung verspricht Freiheit, doch die Realität ist anders. Man muss sich anmelden, Tickets kaufen und Routen planen. Das ist zwingend. Oft fehlt die Zeit für echte Begegnungen. Stattdessen herrscht Hektik. Die Abhängigkeit von Apps ist immens. Ohne Navigation verliert man die Orientierung. Das ist peinlich. Echte Reisen erfordern Mut. Man muss sich auf das Unbekannte einlassen. Das ist herausragend. Wer nur Fotos macht, verfehlt den Kern. Reisen sind eine innere Wandlung. Sie fordern uns heraus. Wir müssen unsere Komfortzone verlassen. Das ist nicht leicht. Aber es lohnt sich. Echte Erlebnisse bleiben im Gedächtnis. Sie prägen uns. Reisen sind mehr als nur Transport. Sie sind eine Einladung zum Nachdenken. Wir sollten kritisch sein. Nicht alles ist, wie es scheint. Die Illusion der Freiheit ist stark. Wir müssen sie durchbrechen. Nur dann wird die Reise zum Erlebnis. Das ist mein Standpunkt. Ich vertrete ihn klar. Reisen sind eine Chance. Wir sollten sie nutzen. Mit Augenmaß und Herz. Das ist die wahre Freiheit. Sie ist kostbar. Wir müssen sie wahren. Jeder Schritt zählt. Jede Begegnung ist wertvoll. Reisen sind ein Geschenk. Wir sollten es annehmen. Mit Dankbarkeit und Neugier. Das ist die beste Haltung. Sie führt zu tieferen Erfahrungen. Reisen sind ein Weg zu sich selbst. Das ist die eigentliche Reise. Sie endet nie. Sie beginnt immer wieder. Das ist faszinierend. Wir sollten es genießen. Mit allen Sinnen. Das ist die wahre Bedeutung von Reisen. Sie sind ein Teil unseres Lebens. Sie formen uns. Sie machen uns reicher. Nicht materiell, sondern geistig. Das ist der wahre Gewinn. Er ist unschätzbar. Wir sollten ihn schätzen. Mit jedem Schritt. Mit jedem Blick. Mit jedem Atemzug. Das ist die Essenz. Sie ist einfach. Und tief. Reisen sind ein Spiegel. Sie zeigen uns, wer wir sind. Das ist die größte Entdeckung. Sie ist persönlich. Und einzigartig. Wir sollten sie feiern. Mit Stolz und Freude. Das ist die wahre Reise. Sie ist endlos. Und schön. Wir sollten sie antreten. Mit Mut und Liebe. Das ist die beste Entscheidung. Sie ist richtig. Und gut. Reisen sind ein Geschenk. Wir sollten es annehmen. Mit offenen Armen. Das ist die wahre Freiheit. Sie ist kostbar. Wir müssen sie wahren. Jeder Schritt zählt. Jede Begegnung ist wertvoll. Reisen sind ein Teil unseres Lebens. Sie formen uns. Sie machen uns reicher. Nicht materiell, sondern geistig. Das ist der wahre Gewinn. Er ist unschätzbar. Wir sollten ihn schätzen. Mit jedem Schritt. Mit jedem Blick. Mit jedem Atemzug. Das ist die Essenz. Sie ist einfach. Und tief. Reisen sind ein Spiegel. Sie zeigen uns, wer wir sind. Das ist die größte Entdeckung. Sie ist persönlich. Und einzigartig. Wir sollten sie feiern. Mit Stolz und Freude. Das ist die wahre Reise. Sie ist endlos. Und schön. Wir sollten sie antreten. Mit Mut und Liebe. Das ist die beste Entscheidung. Sie ist richtig. Und gut."
+      },
+      "retry": {
+        "share": 0.9621212121212122,
+        "unknown": [
+          "inner",
+          "Erwartungshaltung",
+          "zunichtemachen",
+          "Anspannung",
+          "urteilen"
+        ],
+        "text": "Viele Urlauber glauben, dass Reisen automatisch zu innerer Ruhe führt. Das ist jedoch eine gefährliche Verallgemeinerung. Oft entsteht gerade auf der Etappe durch fremde Kulturen ein erheblicher Leistungsdruck. Man möchte alles sehen, fotografieren und verstehen. Diese Erwartungshaltung kann die Entspannung zunichtemachen. Stattdessen spürt man eine unterschwellige Anspannung. Es ist wichtig, den eigenen Anspruch zu hinterfragen. Nicht jede Reise muss ein herausragendes Erlebnis sein. Manchmal ist es klug, einfach zu ruhen und die Umgebung zu genießen. Wer das Wort ergreift und seine Grenzen akzeptiert, findet oft mehr Klarheit. Die wahre Schönheit liegt nicht im perfekten Bild, sondern im Moment. Man sollte nicht pauschal urteilen, ob eine Reise gelungen ist. Entscheidend ist, wie man die Erfahrungen verarbeitet. Nur so kann man aus der Erfahrung lernen und wachsen. Das ist der eigentliche Mehrwert einer Reise."
+      }
+    }
+  ]
+}

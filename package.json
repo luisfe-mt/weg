@@ -8,11 +8,11 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p evals/tsconfig.json",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate": "node scripts/validate-content.mjs && node scripts/check-coverage.mjs",
+    "validate": "node scripts/validate-content.mjs && node scripts/check-coverage.mjs && node scripts/check-leaks.mjs",
     "check": "npm run lint && npm run typecheck && npm run test && npm run validate",
     "build:lemma": "node scripts/build-lemma-data.mjs",
     "lemma": "node scripts/lemma.mjs"

@@ -166,3 +166,5 @@ Thumbs.db
 # Optional model downloads never belong in git
 models/
 *.onnx
+
+evals/.cache/

@@ -991,14 +991,14 @@
         "es": "Verbos separables"
       },
       "explanation": {
-        "en": "Many everyday verbs have a small prefix that is stressed and splits off: anrufen, aufstehen, einkaufen, ankommen, abholen, mitkommen, absagen. In a normal sentence in the present, the verb stands in second place and the prefix goes to the very end: 'Ich stehe um sieben Uhr auf.' 'Ich rufe dich morgen an.' Everything else sits between the two parts, like in the bracket of a modal verb. In a question the same happens: 'Wann kommt der Zug an?' 'Kommst du mit?' When a modal verb is in second place, the separable verb stands at the end as one word: 'Ich muss morgen früh aufstehen.' 'Kannst du mich abholen?' How do you know if a verb splits? Listen to the stress. In anrufen, aufstehen and einkaufen the stress is on the prefix, and these split. Verbs that begin with be-, ver- or er-, such as bezahlen, verstehen or besuchen, are never split: 'Ich bezahle jetzt.'",
-        "es": "Muchos verbos cotidianos llevan un pequeño prefijo acentuado que se separa: anrufen, aufstehen, einkaufen, ankommen, abholen, mitkommen, absagen. En una oración normal en presente, el verbo va en segunda posición y el prefijo se va al final del todo: 'Ich stehe um sieben Uhr auf.' 'Ich rufe dich morgen an.' Todo lo demás queda entre las dos partes, como en el marco de los verbos modales. En una pregunta pasa lo mismo: 'Wann kommt der Zug an?' 'Kommst du mit?' Cuando hay un modal en segunda posición, el verbo separable va al final y en una sola palabra: 'Ich muss morgen früh aufstehen.' 'Kannst du mich abholen?' ¿Cómo sabes si un verbo se separa? Escucha el acento. En anrufen, aufstehen y einkaufen el acento cae en el prefijo, y esos se separan. Los verbos que empiezan por be-, ver- o er-, como bezahlen, verstehen o besuchen, no se separan nunca: 'Ich bezahle jetzt.'"
+        "en": "Many everyday verbs have a small prefix that is stressed and splits off: anrufen, aufstehen, einkaufen, ankommen, abholen, mitkommen, absagen. In a normal sentence in the present, the verb stands in second place and the prefix goes to the very end: 'Am Montag stehe ich früh auf.' 'Ich rufe heute meine Schwester an.' Everything else sits between the two parts, like in the bracket of a modal verb. In a question the same happens: 'Wann kommt der Zug an?' 'Kommst du mit?' When a modal verb is in second place, the separable verb stands at the end as one word: 'Ich muss morgen früh aufstehen.' 'Kannst du mich abholen?' How do you know if a verb splits? Listen to the stress. In anrufen, aufstehen and einkaufen the stress is on the prefix, and these split. Verbs that begin with be-, ver- or er-, such as bezahlen, verstehen or besuchen, are never split: 'Ich bezahle jetzt.'",
+        "es": "Muchos verbos cotidianos llevan un pequeño prefijo acentuado que se separa: anrufen, aufstehen, einkaufen, ankommen, abholen, mitkommen, absagen. En una oración normal en presente, el verbo va en segunda posición y el prefijo se va al final del todo: 'Am Montag stehe ich früh auf.' 'Ich rufe heute meine Schwester an.' Todo lo demás queda entre las dos partes, como en el marco de los verbos modales. En una pregunta pasa lo mismo: 'Wann kommt der Zug an?' 'Kommst du mit?' Cuando hay un modal en segunda posición, el verbo separable va al final y en una sola palabra: 'Ich muss morgen früh aufstehen.' 'Kannst du mich abholen?' ¿Cómo sabes si un verbo se separa? Escucha el acento. En anrufen, aufstehen y einkaufen el acento cae en el prefijo, y esos se separan. Los verbos que empiezan por be-, ver- o er-, como bezahlen, verstehen o besuchen, no se separan nunca: 'Ich bezahle jetzt.'"
       },
       "examples": [
         {
-          "de": "Ich stehe um sieben Uhr auf.",
-          "en": "I get up at seven o'clock.",
-          "es": "Me levanto a las siete."
+          "de": "Am Montag stehe ich früh auf.",
+          "en": "On Monday I get up early.",
+          "es": "El lunes me levanto temprano."
         },
         {
           "de": "Rufst du die Praxis an?",
@@ -1028,8 +1028,8 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Ich anrufe dich morgen.",
-          "correct": "Ich rufe dich morgen an.",
+          "wrong": "Ich anrufe heute meine Schwester.",
+          "correct": "Ich rufe heute meine Schwester an.",
           "l1": [
             "en",
             "es"
@@ -1040,14 +1040,14 @@
           }
         },
         {
-          "wrong": "Ich stehe auf um sieben Uhr.",
-          "correct": "Ich stehe um sieben Uhr auf.",
+          "wrong": "Ich stehe auf um halb acht.",
+          "correct": "Ich stehe um halb acht auf.",
           "l1": [
             "en"
           ],
           "why": {
-            "en": "English keeps the particle next to the verb: 'I get up at seven'. In German the prefix goes to the end of the clause, after the time.",
-            "es": "El inglés deja la partícula junto al verbo: 'I get up at seven'. En alemán el prefijo va al final de la oración, detrás de la hora."
+            "en": "English keeps the particle next to the verb: 'I get up at half past seven'. In German the prefix goes to the end of the clause, after the time.",
+            "es": "El inglés deja la partícula junto al verbo: 'I get up at half past seven'. En alemán el prefijo va al final de la oración, detrás de la hora."
           }
         },
         {
@@ -1156,14 +1156,15 @@
         {
           "type": "say",
           "instruction": {
-            "en": "Say aloud when you get up and when you go shopping.",
-            "es": "Di en voz alta a qué hora te levantas y cuándo haces la compra."
+            "en": "Say aloud when you call your mother and when you go shopping.",
+            "es": "Di en voz alta a qué hora llamas a tu madre y cuándo haces la compra."
           },
-          "prompt": "aufstehen: um sieben Uhr / einkaufen: am Samstag",
+          "prompt": "meine Mutter anrufen: um halb sechs / einkaufen: am Samstag",
           "answers": [
-            "Ich stehe um sieben Uhr auf. Am Samstag kaufe ich ein.",
-            "Ich stehe um sieben Uhr auf, und am Samstag kaufe ich ein.",
-            "Ich stehe um sieben Uhr auf. Ich kaufe am Samstag ein."
+            "Ich rufe meine Mutter um halb sechs an. Am Samstag kaufe ich ein.",
+            "Um halb sechs rufe ich meine Mutter an. Am Samstag kaufe ich ein.",
+            "Ich rufe um halb sechs meine Mutter an, und am Samstag kaufe ich ein.",
+            "Ich rufe meine Mutter um halb sechs an. Ich kaufe am Samstag ein."
           ]
         }
       ],
@@ -2266,14 +2267,14 @@
         "es": "El Perfekt con haben: verbos regulares"
       },
       "explanation": {
-        "en": "When Germans talk about what they did, they usually use the Perfekt. It has two parts and makes a bracket, like a modal verb: haben in second place, conjugated, and the participle at the very end. 'Ich habe am Wochenende viel gelernt.' 'Was hast du gestern gemacht?' For regular verbs the participle is ge- plus the stem plus -t: machen becomes gemacht, kaufen becomes gekauft, kochen becomes gekocht, spielen becomes gespielt, wohnen becomes gewohnt. If the stem ends in -t or -d, add -et so you can say it: arbeiten becomes gearbeitet, warten becomes gewartet. The Perfekt covers several English and Spanish past tenses at once: 'Ich habe gekocht' can mean I cooked, I have cooked, cociné or he cocinado. In everyday speech it is the normal past. For sein and haben themselves you keep using war and hatte. Verbs with a separable prefix, with be- or ver-, or ending in -ieren follow later.",
-        "es": "Cuando los alemanes cuentan lo que hicieron, normalmente usan el Perfekt. Tiene dos partes y forma un marco, como los modales: haben en segunda posición, conjugado, y el participio al final del todo. 'Ich habe am Wochenende viel gelernt.' 'Was hast du gestern gemacht?' En los verbos regulares el participio es ge- más la raíz más -t: machen pasa a gemacht, kaufen a gekauft, kochen a gekocht, spielen a gespielt, wohnen a gewohnt. Si la raíz termina en -t o -d, se añade -et para poder pronunciarlo: arbeiten pasa a gearbeitet, warten a gewartet. El Perfekt cubre a la vez varios pasados del español: 'Ich habe gekocht' puede ser cociné, he cocinado o cocinaba en algunos contextos. En la lengua hablada es el pasado normal. Para sein y haben sigues usando war y hatte. Los verbos con prefijo separable, con be- o ver-, o terminados en -ieren vendrán más adelante. Ojo: el participio no va junto a haben como en 'he cocinado', sino al final."
+        "en": "When Germans talk about what they did, they usually use the Perfekt. It has two parts and makes a bracket, like a modal verb: haben in second place, conjugated, and the participle at the very end. 'Ich habe gestern Abend lange gelernt.' 'Was hast du gestern gemacht?' For regular verbs the participle is ge- plus the stem plus -t: machen becomes gemacht, kaufen becomes gekauft, kochen becomes gekocht, spielen becomes gespielt, wohnen becomes gewohnt. If the stem ends in -t or -d, add -et so you can say it: arbeiten becomes gearbeitet, warten becomes gewartet. The Perfekt covers several English and Spanish past tenses at once: 'Ich habe gekocht' can mean I cooked, I have cooked, cociné or he cocinado. In everyday speech it is the normal past. For sein and haben themselves you keep using war and hatte. Verbs with a separable prefix, with be- or ver-, or ending in -ieren follow later.",
+        "es": "Cuando los alemanes cuentan lo que hicieron, normalmente usan el Perfekt. Tiene dos partes y forma un marco, como los modales: haben en segunda posición, conjugado, y el participio al final del todo. 'Ich habe gestern Abend lange gelernt.' 'Was hast du gestern gemacht?' En los verbos regulares el participio es ge- más la raíz más -t: machen pasa a gemacht, kaufen a gekauft, kochen a gekocht, spielen a gespielt, wohnen a gewohnt. Si la raíz termina en -t o -d, se añade -et para poder pronunciarlo: arbeiten pasa a gearbeitet, warten a gewartet. El Perfekt cubre a la vez varios pasados del español: 'Ich habe gekocht' puede ser cociné, he cocinado o cocinaba en algunos contextos. En la lengua hablada es el pasado normal. Para sein y haben sigues usando war y hatte. Los verbos con prefijo separable, con be- o ver-, o terminados en -ieren vendrán más adelante. Ojo: el participio no va junto a haben como en 'he cocinado', sino al final."
       },
       "examples": [
         {
-          "de": "Ich habe am Wochenende viel gelernt.",
-          "en": "I studied a lot at the weekend.",
-          "es": "El fin de semana estudié mucho."
+          "de": "Ich habe gestern Abend lange gelernt.",
+          "en": "I studied for a long time last night.",
+          "es": "Anoche estudié un buen rato."
         },
         {
           "de": "Was hast du gestern gemacht?",
@@ -2303,8 +2304,8 @@
       ],
       "typicalErrors": [
         {
-          "wrong": "Ich habe gekauft eine Jacke.",
-          "correct": "Ich habe eine Jacke gekauft.",
+          "wrong": "Ich habe gekauft ein Fahrrad.",
+          "correct": "Ich habe ein Fahrrad gekauft.",
           "l1": [
             "en",
             "es"
@@ -2355,9 +2356,9 @@
             "en": "Put the sentence in the Perfekt.",
             "es": "Pon la frase en Perfekt."
           },
-          "prompt": "Ich kaufe eine Jacke.",
+          "prompt": "Ich kaufe Brot und Käse.",
           "answers": [
-            "Ich habe eine Jacke gekauft."
+            "Ich habe Brot und Käse gekauft."
           ]
         },
         {
@@ -9499,9 +9500,9 @@
         ]
       },
       "example": {
-        "de": "Ich stehe um sieben Uhr auf.",
-        "en": "I get up at seven o'clock.",
-        "es": "Me levanto a las siete."
+        "de": "Am Wochenende stehe ich spät auf.",
+        "en": "At the weekend I get up late.",
+        "es": "El fin de semana me levanto tarde."
       },
       "sublevel": "A1.2",
       "frequencyRank": 6786
@@ -11360,7 +11361,7 @@
             "band": 3,
             "samples": [
               {
-                "response": "Guten Tag, hier ist Ana López. Ich möchte bitte einen Termin bei Frau Dr. Becker machen.\nIch habe Halsschmerzen, und gestern hatte ich Fieber.\nAm Donnerstag kann ich leider nicht, denn ich habe am Vormittag Kurs. Geht es am Freitag?\nUm 14.30 Uhr? Ja, das passt.\nLópez. Ich buchstabiere: L, O, P, E, Z.\nSoll ich die Versichertenkarte mitbringen?\nGut. Also am Freitag um 14.30 Uhr, und ich komme zehn Minuten früher. Vielen Dank, auf Wiederhören!",
+                "response": "Guten Tag, hier ist Ana López. Ich möchte bitte einen Termin bei Frau Dr. Becker machen.\nIch habe Halsschmerzen, und gestern hatte ich Fieber.\nAm Donnerstag geht es leider nicht, denn ich habe am Vormittag Kurs. Geht es am Freitag?\nUm 14.30 Uhr? Ja, das passt.\nLópez. Ich buchstabiere: L, O, P, E, Z.\nSoll ich die Versichertenkarte mitbringen?\nGut. Also am Freitag um 14.30 Uhr, und ich komme zehn Minuten früher. Vielen Dank, auf Wiederhören!",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -11380,7 +11381,7 @@
                 "rationale": "Task completion 3: all goals are reached, including the check-back. Interaction 3: asks whether today is free, repairs a misunderstanding with 'Können Sie das bitte wiederholen?' and confirms. Grammar 3: modal bracket and separable verb are correct; the only slip is the missing 'am' in 'Donnerstag kann ich nicht', which is acceptable spoken German. Vocabulary 2: wiederholen and halb drei are good, but 'die Karte', 'Super' and 'tschüss' are general or too casual for the practice."
               },
               {
-                "response": "Guten Tag, hier spricht Mateo García. Ich möchte einen Termin machen, es ist ein bisschen dringend.\nIch habe Fieber und Halsschmerzen, und ich bin sehr müde.\nAm Donnerstag muss ich zum Kurs gehen. Haben Sie am Freitag einen Termin frei?\nFreitag um 14.30 Uhr ist gut.\nGarcía: G, A, R, C, I, A.\nIch habe die Versichertenkarte, aber ich bin neu in der Praxis. Muss ich ein Formular ausfüllen?\nOkay. Freitag, 14.30 Uhr, zehn Minuten früher. Vielen Dank, auf Wiederhören.",
+                "response": "Guten Tag, hier spricht Mateo Herrera. Ich möchte einen Termin machen, es ist ein bisschen dringend.\nIch habe Fieber und Halsschmerzen, und ich bin sehr müde.\nAm Donnerstag muss ich zum Kurs gehen. Haben Sie am Freitag einen Termin frei?\nFreitag um 14.30 Uhr ist gut.\nHerrera: H, E, R, R, E, R, A.\nIch habe die Versichertenkarte, aber ich bin neu in der Praxis. Muss ich ein Formular ausfüllen?\nOkay. Freitag, 14.30 Uhr, zehn Minuten früher. Vielen Dank, auf Wiederhören.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,
@@ -11539,14 +11540,14 @@
                 "rationale": "Task completion 3: reason, day, time and what he brings are all clear; 41 words. Coherence 3: aber, und and a clear order make it read as one message. Grammar 3: verb-second after 'Aber am Freitag', the modal bracket and the separable 'mitbringen' at the end are correct. Vocabulary and spelling 3: Schicht and Nachtisch go beyond the basic words and are spelled correctly."
               },
               {
-                "response": "Liebe Lena, danke für deine Nachricht! Am Freitag kann ich leider nicht, denn ich bin krank. Ich war gestern beim Arzt und habe Fieber. Kannst du am Dienstag? Dann bringe ich eine Tortilla mit, ich koche gern! Liebe Grüse, Lucía",
+                "response": "Liebe Lena, danke für deine Nachricht! Leider kann ich am Freitag nicht, denn ich bin krank. Ich war gestern beim Arzt und habe Fieber. Kannst du am Dienstag? Dann bringe ich eine Tortilla mit, ich koche gern! Liebe Grüse, Lucía",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
                   "grammar": 3,
                   "vocabulary-spelling": 2
                 },
-                "rationale": "Task completion 3: reason, new day and what she brings are clear; 37 words. Coherence 3: denn and 'Dann' tie the message together naturally. Grammar 3: 'kann ich leider nicht', 'denn ich bin krank', 'Ich war gestern beim Arzt' and 'bringe … mit' are correct. Vocabulary and spelling 2: the words fit, but 'Grüse' is misspelled for 'Grüße'; 'Kannst du am Dienstag?' is colloquial but natural between friends."
+                "rationale": "Task completion 3: reason, new day and what she brings are clear; 37 words. Coherence 3: denn and 'Dann' tie the message together naturally. Grammar 3: 'Leider kann ich am Freitag nicht', 'denn ich bin krank', 'Ich war gestern beim Arzt' and 'bringe … mit' are correct. Vocabulary and spelling 2: the words fit, but 'Grüse' is misspelled for 'Grüße'; 'Kannst du am Dienstag?' is colloquial but natural between friends."
               }
             ]
           }

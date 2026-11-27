@@ -369,9 +369,9 @@
             "en": "Join the two sentences with weil. Mind the modal verb.",
             "es": "Une las dos frases con weil. Atención al verbo modal."
           },
-          "prompt": "Ich komme heute nicht. Ich muss arbeiten.",
+          "prompt": "Ich gehe heute nicht ins Kino. Ich muss lernen.",
           "answers": [
-            "Ich komme heute nicht, weil ich arbeiten muss."
+            "Ich gehe heute nicht ins Kino, weil ich lernen muss."
           ]
         },
         {
@@ -1057,8 +1057,8 @@
           }
         },
         {
-          "wrong": "Ich stehe mich um sieben Uhr auf.",
-          "correct": "Ich stehe um sieben Uhr auf.",
+          "wrong": "Ich stehe mich jeden Morgen früh auf.",
+          "correct": "Ich stehe jeden Morgen früh auf.",
           "l1": [
             "es"
           ],
@@ -1140,9 +1140,9 @@
             "en": "Change the subject to: Meine Mitbewohnerin",
             "es": "Cambia el sujeto a: Meine Mitbewohnerin"
           },
-          "prompt": "Ich fühle mich heute nicht gut.",
+          "prompt": "Ich fühle mich hier sehr wohl.",
           "answers": [
-            "Meine Mitbewohnerin fühlt sich heute nicht gut."
+            "Meine Mitbewohnerin fühlt sich hier sehr wohl."
           ]
         },
         {
@@ -1179,14 +1179,14 @@
         "es": "Verbos reflexivos con dativo"
       },
       "explanation": {
-        "en": "When a reflexive verb also has an accusative object, the reflexive pronoun moves into the dative. Compare 'Ich wasche mich' (I wash myself) with 'Ich wasche mir die Hände' (I wash my hands): the hands are the accusative object, so the person becomes mir. Only two forms change: mich becomes mir and dich becomes dir. All the others (sich, uns, euch, sich) look the same in both cases. German uses this pattern with parts of the body and clothes, and with the article, not a possessive: 'Ich ziehe mir die Jacke an.' Some very useful verbs always work like this: sich etwas ansehen (to have a look at something), sich etwas überlegen (to think something over), sich etwas merken (to remember something), sich etwas leisten (to afford something), sich etwas kaufen. So you say 'Ich sehe mir die Wohnung an' and 'Das kann ich mir nicht leisten.'",
-        "es": "Cuando un verbo reflexivo lleva además un objeto en acusativo, el pronombre reflexivo pasa al dativo. Compara 'Ich wasche mich' (me lavo) con 'Ich wasche mir die Hände' (me lavo las manos): las manos son el objeto en acusativo, así que la persona pasa a ser mir. Solo cambian dos formas: mich pasa a mir y dich pasa a dir. Las demás (sich, uns, euch, sich) son iguales en los dos casos. El español dice 'me' en ambas frases, por eso hay que fijarse: si hay otro objeto, es mir. Como en español, con partes del cuerpo y ropa se usa el artículo, no el posesivo: 'Ich ziehe mir die Jacke an.' Algunos verbos muy útiles funcionan siempre así: sich etwas ansehen (mirar algo con atención), sich etwas überlegen (pensarse algo), sich etwas merken (quedarse con un dato), sich etwas leisten (permitirse algo), sich etwas kaufen. Se dice 'Ich sehe mir die Wohnung an' y 'Das kann ich mir nicht leisten.'"
+        "en": "When a reflexive verb also has an accusative object, the reflexive pronoun moves into the dative. Compare 'Ich wasche mich' (I wash myself) with 'Ich wasche mir das Gesicht' (I wash my face): the face is the accusative object, so the person becomes mir. Only two forms change: mich becomes mir and dich becomes dir. All the others (sich, uns, euch, sich) look the same in both cases. German uses this pattern with parts of the body and clothes, and with the article, not a possessive: 'Ich ziehe mir die Jacke an.' Some very useful verbs always work like this: sich etwas ansehen (to have a look at something), sich etwas überlegen (to think something over), sich etwas merken (to remember something), sich etwas leisten (to afford something), sich etwas kaufen. So you say 'Ich sehe mir die Wohnung an' and 'Das kann ich mir nicht leisten.'",
+        "es": "Cuando un verbo reflexivo lleva además un objeto en acusativo, el pronombre reflexivo pasa al dativo. Compara 'Ich wasche mich' (me lavo) con 'Ich wasche mir das Gesicht' (me lavo la cara): la cara es el objeto en acusativo, así que la persona pasa a ser mir. Solo cambian dos formas: mich pasa a mir y dich pasa a dir. Las demás (sich, uns, euch, sich) son iguales en los dos casos. El español dice 'me' en ambas frases, por eso hay que fijarse: si hay otro objeto, es mir. Como en español, con partes del cuerpo y ropa se usa el artículo, no el posesivo: 'Ich ziehe mir die Jacke an.' Algunos verbos muy útiles funcionan siempre así: sich etwas ansehen (mirar algo con atención), sich etwas überlegen (pensarse algo), sich etwas merken (quedarse con un dato), sich etwas leisten (permitirse algo), sich etwas kaufen. Se dice 'Ich sehe mir die Wohnung an' y 'Das kann ich mir nicht leisten.'"
       },
       "examples": [
         {
-          "de": "Ich wasche mir die Hände.",
-          "en": "I am washing my hands.",
-          "es": "Me lavo las manos."
+          "de": "Ich wasche mir das Gesicht.",
+          "en": "I am washing my face.",
+          "es": "Me lavo la cara."
         },
         {
           "de": "Ich sehe mir die Wohnung am Samstag an.",
@@ -1255,7 +1255,7 @@
             "en": "mich or mir?",
             "es": "¿mich o mir?"
           },
-          "prompt": "Ich wasche ___ die Hände.",
+          "prompt": "Ich putze ___ die Zähne.",
           "answers": [
             "mir"
           ]
@@ -1411,8 +1411,8 @@
           }
         },
         {
-          "wrong": "Ich denke oft in meine Familie.",
-          "correct": "Ich denke oft an meine Familie.",
+          "wrong": "Ich denke jeden Tag in meine Eltern.",
+          "correct": "Ich denke jeden Tag an meine Eltern.",
           "l1": [
             "es"
           ],
@@ -1871,9 +1871,9 @@
             "en": "Put the words in order.",
             "es": "Ordena las palabras."
           },
-          "prompt": "bitte / können / langsamer / Sie / sprechen / ?",
+          "prompt": "bitte / kannst / langsamer / du / fahren / ?",
           "answers": [
-            "Können Sie bitte langsamer sprechen?"
+            "Kannst du bitte langsamer fahren?"
           ]
         },
         {
@@ -2365,9 +2365,9 @@
             "en": "Make the request more polite with Könnten Sie …?",
             "es": "Haz la petición más cortés con Könnten Sie …?"
           },
-          "prompt": "Wiederholen Sie das bitte.",
+          "prompt": "Erklären Sie das bitte.",
           "answers": [
-            "Könnten Sie das bitte wiederholen?"
+            "Könnten Sie das bitte erklären?"
           ]
         },
         {
@@ -8981,9 +8981,9 @@
         ]
       },
       "example": {
-        "de": "Ich möchte ein Konto eröffnen.",
-        "en": "I would like to open an account.",
-        "es": "Quiero abrir una cuenta."
+        "de": "Für die Miete brauche ich ein deutsches Konto.",
+        "en": "I need a German account for the rent.",
+        "es": "Para el alquiler necesito una cuenta alemana."
       },
       "sublevel": "A2.2",
       "frequencyRank": 2462
@@ -9832,9 +9832,9 @@
         ]
       },
       "example": {
-        "de": "Mein Fahrrad steht im Keller.",
-        "en": "My bicycle is in the cellar.",
-        "es": "Mi bicicleta está en el sótano."
+        "de": "Unsere Waschmaschine steht im Keller.",
+        "en": "Our washing machine is in the cellar.",
+        "es": "Nuestra lavadora está en el sótano."
       },
       "sublevel": "A2.2",
       "frequencyRank": 1870
@@ -10775,9 +10775,9 @@
         ]
       },
       "example": {
-        "de": "Ich möchte mich für die Verspätung entschuldigen.",
-        "en": "I would like to apologise for the delay.",
-        "es": "Quiero disculparme por el retraso."
+        "de": "Er hat sich für den Lärm entschuldigt.",
+        "en": "He apologised for the noise.",
+        "es": "Se disculpó por el ruido."
       },
       "sublevel": "A2.2",
       "frequencyRank": 3453
@@ -13601,7 +13601,7 @@
                 "rationale": "Task completion 0: no purpose, no clarification, no arrangement in German. Interaction 0: leaves German after the first turn and stays in English. Grammar 0: no German sentence. Vocabulary 0: two German words; all content is carried by English."
               },
               {
-                "response": "Guten Tag. Ich heiße Mateo. Ich komme aus Kolumbien. Ich bin Student.\nJa.\nJa, gut.\nNein.\nTschüss.",
+                "response": "Guten Tag. Ich heiße Mateo. Ich komme aus Mexiko. Ich bin Student.\nJa.\nJa, gut.\nNein.\nTschüss.",
                 "criterionBands": {
                   "task-completion": 0,
                   "interaction-fluency": 0,
@@ -13671,7 +13671,7 @@
                 "rationale": "Task completion 2: understands the missing certificate, chooses email and repeats the deadline; the purpose is stated only roughly. Interaction 2: asks for slower speech, weighs the two options and gives a reason; the opening slips into English for one word. Grammar 2: one correct weil-clause; main clauses mostly work, with order errors after 'oder' and after 'Donnerstag' and missing accusative endings. Vocabulary 2: enough office words; 'für mein Aufenthaltstitel' instead of a verb for extending."
               },
               {
-                "response": "Guten Tag. Ich möchte meinen Aufenthaltstitel verlängern. Hier sind meine Papiere.\nWelche Dokument fehlt?\nIch habe nur die Karte von der Krankenkasse. Ich habe nicht gewusst, dass ich brauche eine Bescheinigung.\nKönnen Sie bitte langsamer sprechen? … Ah, Donnerstag oder E-Mail.\nIch komme am Donnerstag um neun Uhr. Wo ist der Schalter?\nDanke, auf Wiedersehen.",
+                "response": "Guten Tag. Ich möchte meinen Aufenthaltstitel verlängern. Hier sind meine Papiere.\nWelche Dokument fehlt?\nIch habe nur die Karte von der Krankenkasse. Ich habe nicht gewusst, dass ich brauche eine Bescheinigung.\nKönnen Sie bitte langsam sprechen? … Ah, Donnerstag oder E-Mail.\nIch komme am Donnerstag um neun Uhr. Wo ist der Schalter?\nDanke, auf Wiedersehen.",
                 "criterionBands": {
                   "task-completion": 2,
                   "interaction-fluency": 2,
@@ -13696,7 +13696,7 @@
                 "rationale": "Task completion 3: every goal is reached without help, including the check at the end. Interaction 3: asks own questions (which document, whether a new appointment is needed) and confirms the result. Grammar 3: weil and dass with the verb last, an indirect question, könnte and noch nicht, all correct. Vocabulary 3: verlängern, fehlen, mitbringen, abgeben are used precisely."
               },
               {
-                "response": "Guten Tag, mein Name ist Lucía Ortega. Ich möchte meinen Aufenthaltstitel verlängern, hier sind meine Unterlagen.\nWie bitte? Können Sie das bitte wiederholen? Ich weiß nicht, was eine Bescheinigung ist.\nAh, ich verstehe, ein Papier von meiner Krankenkasse. Das habe ich leider nicht dabei, weil die Krankenkasse hat mir nur die Karte geschickt.\nWissen Sie, ob ich kann das Papier diese Woche bringen?\nAm Donnerstag um neun Uhr kann ich kommen. Zu welchem Schalter muss ich gehen?\nSchalter vier, am Donnerstag um neun, ohne Termin. Ist das richtig? Danke schön, auf Wiedersehen.",
+                "response": "Guten Tag, mein Name ist Paula Ortega. Ich möchte meinen Aufenthaltstitel verlängern, hier sind meine Unterlagen.\nWie bitte? Können Sie das bitte wiederholen? Ich weiß nicht, was eine Bescheinigung ist.\nAh, ich verstehe, ein Papier von meiner Krankenkasse. Das habe ich leider nicht dabei, weil die Krankenkasse hat mir nur die Karte geschickt.\nWissen Sie, ob ich kann das Papier diese Woche bringen?\nAm Donnerstag um neun Uhr kann ich kommen. Zu welchem Schalter muss ich gehen?\nSchalter vier, am Donnerstag um neun, ohne Termin. Ist das richtig? Danke schön, auf Wiedersehen.",
                 "criterionBands": {
                   "task-completion": 3,
                   "interaction-fluency": 3,

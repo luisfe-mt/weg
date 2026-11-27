@@ -1120,10 +1120,10 @@
             "en": "Say what would be different. Start with Wenn.",
             "es": "Di qué sería distinto. Empieza con Wenn."
           },
-          "prompt": "Ich habe kein Auto. Deshalb fahre ich mit dem Bus.",
+          "prompt": "Mein Fahrrad ist kaputt. Deshalb gehe ich zu Fuß.",
           "answers": [
-            "Wenn ich ein Auto hätte, würde ich nicht mit dem Bus fahren.",
-            "Wenn ich ein Auto hätte, würde ich nicht mehr mit dem Bus fahren."
+            "Wenn mein Fahrrad nicht kaputt wäre, würde ich nicht zu Fuß gehen.",
+            "Wenn mein Fahrrad nicht kaputt wäre, würde ich mit dem Rad fahren."
           ]
         },
         {
@@ -1143,9 +1143,9 @@
             "en": "Fill in the Konjunktiv II of the verb in brackets.",
             "es": "Completa con el Konjunktiv II del verbo entre paréntesis."
           },
-          "prompt": "Wenn ich mehr Geld ___, würde ich weniger arbeiten. (haben)",
+          "prompt": "Wenn die Miete billiger ___, würde ich allein wohnen. (sein)",
           "answers": [
-            "hätte"
+            "wäre"
           ]
         },
         {
@@ -1154,9 +1154,9 @@
             "en": "Fill in the Konjunktiv II of the verb in brackets.",
             "es": "Completa con el Konjunktiv II del verbo entre paréntesis."
           },
-          "prompt": "Wenn das Wetter besser ___, würden wir draußen essen. (sein)",
+          "prompt": "Wenn wir einen Balkon ___, würden wir draußen frühstücken. (haben)",
           "answers": [
-            "wäre"
+            "hätten"
           ]
         },
         {
@@ -1176,9 +1176,9 @@
             "en": "Put the words in order. Start with Wenn.",
             "es": "Ordena las palabras. Empieza con Wenn."
           },
-          "prompt": "Wenn / ich / Zeit / hätte / würde / ich / mitkommen",
+          "prompt": "Wenn / der Bus / pünktlich / käme / würde / ich / ihn / nehmen",
           "answers": [
-            "Wenn ich Zeit hätte, würde ich mitkommen."
+            "Wenn der Bus pünktlich käme, würde ich ihn nehmen."
           ]
         },
         {
@@ -1675,9 +1675,9 @@
             "en": "Join the sentences with um … zu.",
             "es": "Une las frases con um … zu."
           },
-          "prompt": "Ich lerne Deutsch. Ich will in Deutschland arbeiten.",
+          "prompt": "Ich gehe in die Bibliothek. Ich will in Ruhe lesen.",
           "answers": [
-            "Ich lerne Deutsch, um in Deutschland zu arbeiten."
+            "Ich gehe in die Bibliothek, um in Ruhe zu lesen."
           ]
         },
         {
@@ -2423,9 +2423,9 @@
             "en": "Join the sentences with indem.",
             "es": "Une las frases con indem."
           },
-          "prompt": "Ich lerne Deutsch. Ich spreche viel mit meinen Kollegen.",
+          "prompt": "Mein Mitbewohner verbessert sein Spanisch. Er sieht viele Serien auf Spanisch.",
           "answers": [
-            "Ich lerne Deutsch, indem ich viel mit meinen Kollegen spreche."
+            "Mein Mitbewohner verbessert sein Spanisch, indem er viele Serien auf Spanisch sieht."
           ]
         },
         {
@@ -2458,7 +2458,7 @@
             "en": "Fill in the conjunction that means 'since'.",
             "es": "Completa con la conjunción que significa 'desde que'."
           },
-          "prompt": "___ ich in der WG wohne, koche ich viel mehr.",
+          "prompt": "___ ich in Leipzig arbeite, sehe ich meine Familie seltener.",
           "answers": [
             "Seitdem",
             "Seit"
@@ -2782,12 +2782,13 @@
         {
           "type": "build",
           "instruction": {
-            "en": "Put the words in order. Start with Ich fahre.",
-            "es": "Ordena las palabras. Empieza con Ich fahre."
+            "en": "Put the words in order. Start with Wir fliegen.",
+            "es": "Ordena las palabras. Empieza con Wir fliegen."
           },
-          "prompt": "Ich fahre / nach Hamburg / morgen / mit dem Zug",
+          "prompt": "Wir fliegen / nach Lissabon / im Mai / mit einer Freundin",
           "answers": [
-            "Ich fahre morgen mit dem Zug nach Hamburg."
+            "Wir fliegen im Mai mit einer Freundin nach Lissabon.",
+            "Wir fliegen mit einer Freundin im Mai nach Lissabon."
           ]
         },
         {
@@ -16513,14 +16514,14 @@
                 "rationale": "Task completion 3: thanks, apology, reason and a concrete alternative in the right register; about 40 words. Coherence 2: clear and linked with weil, aber and wenn, but a little stiff. Grammar 2: correct throughout with könnte, but only simple structures. Vocabulary and spelling 2: fitting set phrases; nothing beyond them."
               },
               {
-                "response": "Hallo Frau Wagner,\nes tut mir leid, aber am Samstag kann ich leider nicht. Ich muss meine Wohnung abgeben, weil ich umziehe. Vielleicht kann Jana die Schicht machen? Sie hat gesagt, dass sie mehr Stunden möchte.\nViele Grüße\nDaniel",
+                "response": "Hallo Frau Wagner,\nes tut mir leid, aber ich kann am Samstag leider nicht. Ich muss meine Wohnung abgeben, weil ich umziehe. Vielleicht kann Jana die Schicht machen? Sie hat gesagt, dass sie mehr Stunden möchte.\nViele Grüße\nDaniel",
                 "criterionBands": {
                   "task-completion": 2,
                   "coherence": 2,
                   "grammar": 2,
                   "vocabulary-spelling": 2
                 },
-                "rationale": "Task completion 2: apology, reason and an alternative (a colleague) are clear; 'Hallo' is acceptable for a team leader but 'kann ich leider nicht' without a verb is a little casual; about 40 words. Coherence 2: aber, weil and dass link the ideas. Grammar 2: correct but simple. Vocabulary and spelling 2: 'die Schicht machen' is plain; otherwise fitting."
+                "rationale": "Task completion 2: apology, reason and an alternative (a colleague) are clear; 'Hallo' is acceptable for a team leader but 'ich kann am Samstag leider nicht' without a verb is a little casual; about 40 words. Coherence 2: aber, weil and dass link the ideas. Grammar 2: correct but simple. Vocabulary and spelling 2: 'die Schicht machen' is plain; otherwise fitting."
               },
               {
                 "response": "Sehr geehrte Frau Wagner,\nentschuldigen Sie bitte, aber am Samstag kann ich die Schicht nicht übernehmen. Ich habe meinem Freund versprochen, bei seinem Umzug zu helfen. Wäre es möglich, dass ich nächste Woche einen Tag mehr arbeite?\nMit freundlichen Grüße\nKarina",
@@ -16558,7 +16559,7 @@
                 "rationale": "Task completion 3: apology, reason and a concrete counter-offer; polite register; about 40 words. Coherence 3: aber, weil and the colon lead naturally to the offer. Grammar 3: correct, with würde gern and a Konjunktiv II suggestion. Vocabulary and spelling 3: fitting phrases (zusätzliche Schicht, Wie wäre es); no errors."
               },
               {
-                "response": "Liebe Frau Wagner,\nentschuldigen Sie bitte die späte Antwort. Am Samstag kann ich leider nicht einspringen, denn ich halte an dem Tag ein Referat an der Uni. Meine Kollegin Mia hätte aber Zeit, ich habe sie schon gefragt. Sonst könnte ich gern Freitagabend kommen.\nHerzliche Grüße\nLeonie",
+                "response": "Liebe Frau Wagner,\nentschuldigen Sie bitte die späte Antwort. Leider kann ich am Samstag nicht einspringen, denn ich halte an dem Tag ein Referat an der Uni. Meine Kollegin Mia hätte aber Zeit, ich habe sie schon gefragt. Sonst könnte ich gern Freitagabend kommen.\nHerzliche Grüße\nLeonie",
                 "criterionBands": {
                   "task-completion": 3,
                   "coherence": 3,
