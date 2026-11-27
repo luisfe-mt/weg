@@ -39,7 +39,7 @@ describe("gold copies", () => {
 
 describe("shared run", () => {
   it("counts the longest run of identical words", () => {
-    expect(longestSharedRun("Am Samstag kann ich leider nicht kommen.", "Leider kann ich am Samstag nicht.")).toBe(3);
+    expect(longestSharedRun("Am Samstag kann ich leider nicht kommen.", "Leider kann ich am Samstag nicht.")).toBe(2);
     expect(longestSharedRun("Am Samstag kann ich leider nicht, denn ich muss arbeiten.", "Am Samstag kann ich leider nicht.")).toBe(6);
   });
   it("is zero for texts with no word in common", () => {
