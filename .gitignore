@@ -166,3 +166,6 @@ Thumbs.db
 # Optional model downloads never belong in git
 models/
 *.onnx
+
+# Eval sample runs (quick checks while changing a prompt); full runs go to evals/results/
+evals/.runs/
