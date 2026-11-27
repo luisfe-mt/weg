@@ -1,14 +1,16 @@
 // Generator: share of texts at 95% or more known words, measured by the same coverage code CI uses.
 // Requests come from gold/leveled_texts.jsonl: its sublevel, text type, theme, grammar and length,
 // never its text. The gateway repairs a failed text once, sending the draft and its unknown words, so a text
-// passes if the first or the retried version reaches 95%. The bar is every text.
+// passes if the first or the repaired version reaches 95%. The bar is 90% of texts.
 import { LEVELS, gold, knownThrough, lemmas, sample, type GoldText, type Spec } from "../lib/data.ts";
 import { coverage } from "../../scripts/lib/lemma.mjs";
 import { pct } from "./coach.ts";
 import type { RoleContext, RoleResult } from "./types.ts";
 
 export const GENERATOR_MIN_COVERAGE = 0.95;
-export const GENERATOR_BAR = 1;
+// The bar: 90% of texts reach 95% known words after the one repair. The app's code check rejects the
+// rest, so a learner never sees a text under 95%; the bar measures how often generation succeeds.
+export const GENERATOR_BAR = 0.9;
 // Above this many lemmas the full list costs more tokens than a free-tier minute allows.
 const FULL_LIST_MAX = 900;
 

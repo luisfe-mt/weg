@@ -19,6 +19,8 @@ export interface RoleResult {
   items: number;
   /** Items whose call failed (transport or invalid JSON); they count against the score, never skipped. */
   invalid: number;
+  /** Further metrics that must stay at or under a maximum for the role to pass (Examiner false passes). */
+  limits?: Array<{ metric: string; score: number; max: number }>;
   /** Secondary numbers shown next to the main metric. */
   extra: Record<string, string>;
   /** Up to ten failures with gold ids, for the scoreboard and for the next prompt change. */
