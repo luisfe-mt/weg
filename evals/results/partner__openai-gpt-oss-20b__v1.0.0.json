@@ -1,0 +1,976 @@
+{
+  "role": "partner",
+  "model": "openai/gpt-oss-20b",
+  "promptVersion": "1.0.0",
+  "date": "2026-11-28",
+  "sample": null,
+  "metric": "level-fit turns",
+  "score": 0.87,
+  "bar": 0.9,
+  "pass": false,
+  "limits": [],
+  "items": 100,
+  "invalid": 0,
+  "extra": {
+    "scenarios": "20",
+    "above-level": "9",
+    "too-long": "4",
+    "switched-language": "1"
+  },
+  "failures": [
+    "ts-a11-bibliotheksausweis turn 4: too-long (15/12) [lauten]: \"Ihr Nachname ist O-L-I-V-E-I-R-A. Sie studieren Biologie. Der Ausweis kostet nichts. Wie lautet Ihre Adresse?\"",
+    "ts-a12-fundbuero-rucksack turn 1: above-level (71% known) [welcher, beschreiben]: \"Welcher Rucksack? Bitte beschreiben. Wann war er?\"",
+    "ts-a21-fahrrad-gebraucht-kaufen turn 4: above-level (89% known) [passen]: \"Morgen ab 17 Uhr bei Schillerstraße 12. Passt das für dich?\"",
+    "ts-a21-friseur-termin turn 4: above-level (75% known) [Haarschnitt]: \"Der Haarschnitt kostet 28 Euro.\"",
+    "ts-a22-krankenkasse-karte turn 2: too-long (28/25) [dahin, E]: \"Vielen Dank, Frau Fernández. Ihre Karte wurde am Montag verschickt und kommt in dieser Woche. Bis dahin kann ich Ihnen eine Bescheinigung per E‑Mail schicken. Möchten Sie das?\"",
+    "ts-a22-krankenkasse-karte turn 3: above-level (83% known) [vorzeigen, E, Ordnung]: \"Sie können die Bescheinigung beim Arzt vorzeigen. Ich schicke sie gleich per E‑Mail. Ist das in Ordnung?\"",
+    "ts-a22-paket-nachbar turn 2: too-long (27/25) [oh]: \"Oh, das tut mir leid. Meine Tochter hat das Paket angenommen, weil der Flur voll war. Ich kann es jetzt holen. Darf ich es für Sie abholen?\"",
+    "ts-b11-zugausfall-reisezentrum turn 2: too-long (37/35): \"Verbindung 1 fährt um 11:15 Uhr, Sie steigen in Hannover um und kommen um 14:05 Uhr an. Verbindung 2 fährt um 12:42 Uhr direkt und kommt um 14:50 Uhr an. Welche Verbindung passt besser zu Ihrem Termin?\"",
+    "ts-b11-zugausfall-reisezentrum turn 3: above-level (87% known) [Rückerstattung, vornehmen, zurücksenden]: \"Ich kann leider keine Rückerstattung direkt vornehmen. Ich gebe Ihnen ein Formular, das Sie ausfüllen und zurücksenden können. Der Betrag wird dann erstattet.\"",
+    "ts-b11-zugausfall-reisezentrum turn 4: above-level (83% known) [Abfahrt, Abfahrt, Option]: \"Verbindung 1: Abfahrt 11:15 Uhr, Umsteigen in Hannover, Ankunft 14:05 Uhr. Verbindung 2: Abfahrt 12:42 Uhr, direkt, Ankunft 14:50 Uhr. Welche Option wählen Sie?\""
+  ],
+  "records": [
+    {
+      "id": "ts-a11-bibliotheksausweis",
+      "sublevel": "A1.1",
+      "turns": [
+        {
+          "learner": "Guten Tag. Ja, ich brauche ein Ausweis.",
+          "expect": "Does not correct 'ein Ausweis'. Asks for the name.",
+          "partner": "Wie heißt Sie? Und was studieren Sie?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich heiße Mariana Oliveira.",
+          "expect": "Asks her to spell the surname, in a short question.",
+          "partner": "Wie buchstabieren Sie Ihren Nachnamen? Und was studieren Sie?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Sorry, can you say that in English?",
+          "expect": "Stays in German and repeats the request in simpler words.",
+          "partner": "Wie buchstabieren Sie Ihren Nachnamen? Und was studieren Sie?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "O-L-I-V-E-I-R-A. Ich studiere Biologie.",
+          "expect": "Accepts the answer and asks for the address or says the card is ready soon.",
+          "partner": "Ihr Nachname ist O-L-I-V-E-I-R-A. Sie studieren Biologie. Der Ausweis kostet nichts. Wie lautet Ihre Adresse?",
+          "problems": [
+            "too-long (15/12)"
+          ],
+          "unknown": [
+            "lauten"
+          ]
+        },
+        {
+          "learner": "Was kostet der Ausweis?",
+          "expect": "Says that the card costs nothing.",
+          "partner": "Der Ausweis kostet nichts.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-a11-mitbewohner-kueche",
+      "sublevel": "A1.1",
+      "turns": [
+        {
+          "learner": "Ja, ich bin neu. Ich heiße Diego.",
+          "expect": "Greets Diego, gives his own name and asks one short question.",
+          "partner": "Hallo Diego, ich bin Jonas. Ich komme aus Kiel.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich komme von Chile. Und du?",
+          "expect": "Does not correct 'von Chile'. Says he comes from Kiel.",
+          "partner": "Ich studiere Physik. Und du?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Bitte langsam. Ich verstehe nicht.",
+          "expect": "Repeats the last information in fewer, simpler words.",
+          "partner": "Ich studiere Physik. Und du?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Was studierst du?",
+          "expect": "Says he studies Physik and asks what Diego studies.",
+          "partner": "Ich studiere Physik.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "What is the wifi password?",
+          "expect": "Answers in German that the password is on the fridge.",
+          "partner": "Das WLAN-Passwort steht am Kühlschrank.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-a12-apotheke-erkaeltung",
+      "sublevel": "A1.2",
+      "turns": [
+        {
+          "learner": "Guten Tag. Ich habe Halsschmerzen und ich bin müde.",
+          "expect": "Reacts kindly and offers the lozenges or the tea.",
+          "partner": "Haben Sie Halsschmerzen? Möchten Sie Halsbonbons?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Haben Sie Antibiotika? Ich will Antibiotika.",
+          "expect": "Says antibiotics need a prescription from a doctor. Suggests nothing beyond partnerFacts.",
+          "partner": "Antibiotika gibt es nur mit Rezept vom Arzt. Haben Sie ein Rezept?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wie oft muss ich nehmen die Bonbons?",
+          "expect": "Does not correct the word order. Says five times a day.",
+          "partner": "Sie können die Halsbonbons fünfmal am Tag nehmen.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Können Sie bitte langsamer sprechen?",
+          "expect": "Repeats the dosage slowly in one short sentence.",
+          "partner": "Sie können die Bonbons fünfmal am Tag nehmen.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich nehme die Bonbons und den Tee. Was kostet das?",
+          "expect": "Says 7 Euro.",
+          "partner": "Die Halsbonbons kosten vier Euro, der Kräutertee drei Euro. Insgesamt sieben Euro. Möchten Sie bezahlen?",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-a12-fundbuero-rucksack",
+      "sublevel": "A1.2",
+      "turns": [
+        {
+          "learner": "Guten Tag. Ich habe mein Rucksack verloren.",
+          "expect": "Does not correct 'mein Rucksack'. Asks one question, such as the colour or the place.",
+          "partner": "Welcher Rucksack? Bitte beschreiben. Wann war er?",
+          "problems": [
+            "above-level (71% known)"
+          ],
+          "unknown": [
+            "welcher",
+            "beschreiben"
+          ]
+        },
+        {
+          "learner": "Er ist schwarz. Ich war heute in der Straßenbahn, Linie 4.",
+          "expect": "Asks what is in the backpack.",
+          "partner": "Schwarz, Linie 4, heute. Sie können ihn bis 18 Uhr abholen. Haben Sie einen Ausweis?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "¿Puede repetir, por favor?",
+          "expect": "Repeats the question in German, more simply.",
+          "partner": "Schwarz, Linie 4, heute. Abholen bis 18 Uhr. Ausweis?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Im Rucksack sind ein Laptop und eine Flasche.",
+          "expect": "Confirms that the backpack is there.",
+          "partner": "Laptop und Flasche. Sie brauchen einen Ausweis, um ihn abzuholen.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Kann ich heute kommen?",
+          "expect": "Says until 18 Uhr today and that an Ausweis is needed.",
+          "partner": "Ja, Sie können heute kommen. Bis 18 Uhr. Bringen Sie bitte Ihren Ausweis mit.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-a21-fahrrad-gebraucht-kaufen",
+      "sublevel": "A2.1",
+      "turns": [
+        {
+          "learner": "Ja, hallo. Wie alt ist das Fahrrad?",
+          "expect": "Says it is three years old and adds one detail.",
+          "partner": "Es ist drei Jahre alt. Und du hast Fragen?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ist alles in Ordnung? Ich habe gestern ein anderes Fahrrad gesehen, aber es war kaputt.",
+          "expect": "Says the brakes are new and the rear light is broken.",
+          "partner": "Alles gut, nur das Licht hinten ist kaputt. Wie viel willst du dafür bezahlen?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "90 Euro ist zu viel für mich. Ich gebe dir 60.",
+          "expect": "Refuses 60 and makes a counter-offer of 75 or more.",
+          "partner": "Nein, ich verkaufe es nicht für weniger als 75 Euro. Wie wäre es mit 80 Euro?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Okay, 75. Wann kann ich es abholen? Morgen ich muss bis 16 Uhr arbeiten.",
+          "expect": "Does not correct the word order. Says tomorrow from 17 Uhr at Schillerstraße 12.",
+          "partner": "Morgen ab 17 Uhr bei Schillerstraße 12. Passt das für dich?",
+          "problems": [
+            "above-level (89% known)"
+          ],
+          "unknown": [
+            "passen"
+          ]
+        },
+        {
+          "learner": "Can you keep it for me until next week?",
+          "expect": "Answers in German and offers only tomorrow from 17 Uhr.",
+          "partner": "Ich kann es bis nächste Woche nicht behalten. Wir treffen uns morgen um 17 Uhr.",
+          "problems": [],
+          "unknown": [
+            "behalten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-a21-friseur-termin",
+      "sublevel": "A2.1",
+      "turns": [
+        {
+          "learner": "Guten Tag, ich möchte einen Termin zum Haareschneiden.",
+          "expect": "Offers Wednesday at 10 Uhr.",
+          "partner": "Guten Tag! Haben Sie einen Termin am Mittwoch um 10 Uhr?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Am Mittwoch kann ich nicht, ich muss zu Uni gehen.",
+          "expect": "Does not correct 'zu Uni'. Offers Friday at 15:30.",
+          "partner": "Wie wäre es am Freitag um 15:30 Uhr?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wie bitte? Noch einmal langsam, bitte.",
+          "expect": "Repeats day and time slowly in one short sentence.",
+          "partner": "Wie wäre es am Freitag um 15:30 Uhr?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Freitag ist gut. Was kostet das?",
+          "expect": "Says 28 Euro.",
+          "partner": "Der Haarschnitt kostet 28 Euro.",
+          "problems": [
+            "above-level (75% known)"
+          ],
+          "unknown": [
+            "Haarschnitt"
+          ]
+        },
+        {
+          "learner": "Haben Sie auch einen Termin zum Färben?",
+          "expect": "Says that colouring is not possible this week.",
+          "partner": "Leider ist Färben in dieser Woche nicht möglich.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-a22-krankenkasse-karte",
+      "sublevel": "A2.2",
+      "turns": [
+        {
+          "learner": "Guten Tag, ich warte auf meine Karte, aber sie ist noch nicht gekommen.",
+          "expect": "Asks for name and date of birth.",
+          "partner": "Guten Tag. Darf ich Ihren Namen und Ihr Geburtsdatum haben, bitte?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Mein Name ist Lucía Fernández, ich bin am 3. April 2001 geboren.",
+          "expect": "Says the card was sent on Monday and comes this week.",
+          "partner": "Vielen Dank, Frau Fernández. Ihre Karte wurde am Montag verschickt und kommt in dieser Woche. Bis dahin kann ich Ihnen eine Bescheinigung per E‑Mail schicken. Möchten Sie das?",
+          "problems": [
+            "too-long (28/25)"
+          ],
+          "unknown": [
+            "dahin",
+            "E"
+          ]
+        },
+        {
+          "learner": "Ich habe morgen einen Termin beim Arzt. Was mache ich ohne Karte?",
+          "expect": "Offers to send a certificate by e-mail today.",
+          "partner": "Sie können die Bescheinigung beim Arzt vorzeigen. Ich schicke sie gleich per E‑Mail. Ist das in Ordnung?",
+          "problems": [
+            "above-level (83% known)"
+          ],
+          "unknown": [
+            "vorzeigen",
+            "E",
+            "Ordnung"
+          ]
+        },
+        {
+          "learner": "Muss ich den Arzt selbst bezahlen, wenn ich keine Karte habe?",
+          "expect": "Does not state a rule about costs. Points to the certificate again.",
+          "partner": "Ich weiß nicht genau, aber Sie können den Arzt fragen. Ich schicke Ihnen die Bescheinigung, damit Sie beim Arzt vorzeigen können.",
+          "problems": [],
+          "unknown": [
+            "vorzeigen"
+          ]
+        },
+        {
+          "learner": "Bitte sprechen Sie langsamer, ich lerne noch Deutsch.",
+          "expect": "Repeats the main point slowly in one or two short sentences.",
+          "partner": "Ich weiß nicht genau. Fragen Sie den Arzt. Ich schicke Ihnen die Bescheinigung.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-a22-paket-nachbar",
+      "sublevel": "A2.2",
+      "turns": [
+        {
+          "learner": "Guten Abend, ich bin Ihre neue Nachbarin aus dem zweiten Stock. Ich glaube, dass Sie haben mein Paket.",
+          "expect": "Does not correct the word order. Is unsure and asks which parcel.",
+          "partner": "Guten Abend, Frau Müller. Ich habe gestern keine Pakete erhalten. Vielleicht hat meine Tochter etwas angenommen. Darf ich kurz nachsehen?",
+          "problems": [],
+          "unknown": [
+            "nachsehen"
+          ]
+        },
+        {
+          "learner": "Auf dem Zettel steht, dass das Paket bei Herrn Brandt ist.",
+          "expect": "Remembers that his daughter took a parcel yesterday.",
+          "partner": "Oh, das tut mir leid. Meine Tochter hat das Paket angenommen, weil der Flur voll war. Ich kann es jetzt holen. Darf ich es für Sie abholen?",
+          "problems": [
+            "too-long (27/25)"
+          ],
+          "unknown": [
+            "oh"
+          ]
+        },
+        {
+          "learner": "Entschuldigung, ich habe das nicht verstanden. Können Sie das langsamer sagen?",
+          "expect": "Repeats more slowly in short sentences.",
+          "partner": "Meine Tochter hat das Paket angenommen, weil der Flur voll war. Ich kann es jetzt holen. Darf ich es für Sie abholen?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Könnten Sie es bitte holen? Ich warte hier.",
+          "expect": "Says the parcel is in the cellar and that he will fetch it now.",
+          "partner": "Ja, gerne. Ich gehe jetzt in den Keller. Bitte warten Sie kurz. Danke für Ihre Geduld.",
+          "problems": [],
+          "unknown": [
+            "Geduld"
+          ]
+        },
+        {
+          "learner": "Vielen Dank! Wenn Sie mal ein Paket bekommen, nehme ich es auch gern an.",
+          "expect": "Reacts in a friendly way and ends the conversation.",
+          "partner": "Vielen Dank, das ist nett. Haben Sie sonst noch etwas, das ich für Sie tun kann?",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-b11-wg-casting",
+      "sublevel": "B1.1",
+      "turns": [
+        {
+          "learner": "Hallo! Ich bin Tomás, ich komme aus Argentinien und mache hier meinen Master. Als ich nach Deutschland gekommen bin, habe ich zuerst im Wohnheim gewohnt.",
+          "expect": "Reacts with interest and asks one follow-up question.",
+          "partner": "Cool, Tomás! Wie lange willst du hier wohnen und was machst du gern in deiner Freizeit?",
+          "problems": [],
+          "unknown": [
+            "cool"
+          ]
+        },
+        {
+          "learner": "Wie viel kostet das Zimmer, und was ist in dem Preis drin?",
+          "expect": "Says 380 Euro warm.",
+          "partner": "Das Zimmer kostet 380 Euro warm. Das heißt, Heizung, Wasser, Strom und Internet sind drin.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich habe eine Katze. Ist das ein Problem?",
+          "expect": "Says clearly but kindly that pets are not allowed.",
+          "partner": "Leider sind Haustiere in der WG nicht erlaubt. Du könntest aber vielleicht einen Freund bitten, die Katze zu betreuen.",
+          "problems": [],
+          "unknown": [
+            "betreuen"
+          ]
+        },
+        {
+          "learner": "Ok… honestly, can we continue in English? It's easier.",
+          "expect": "Stays in German, kindly, and offers to speak more simply.",
+          "partner": "Nein, wir bleiben bei Deutsch. Du kannst gern weiter fragen.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Bis wann entscheidet ihr euch?",
+          "expect": "Says they decide by Sunday.",
+          "partner": "Wir entscheiden bis Sonntag. Dann wissen wir, ob du einziehen kannst.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-b11-zugausfall-reisezentrum",
+      "sublevel": "B1.1",
+      "turns": [
+        {
+          "learner": "Guten Tag. Mein Zug nach Leipzig ist ausgefallen, obwohl ich ihn schon vor zwei Wochen gebucht habe.",
+          "expect": "Confirms the cancellation and offers to look for another connection.",
+          "partner": "Das tut mir leid. Haben Sie einen Termin in Leipzig?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich muss um 15 Uhr in Leipzig sein, weil ich ein Vorstellungsgespräch habe. Welcher Zug ist besser?",
+          "expect": "Gives both connections with arrival times.",
+          "partner": "Verbindung 1 fährt um 11:15 Uhr, Sie steigen in Hannover um und kommen um 14:05 Uhr an. Verbindung 2 fährt um 12:42 Uhr direkt und kommt um 14:50 Uhr an. Welche Verbindung passt besser zu Ihrem Termin?",
+          "problems": [
+            "too-long (37/35)"
+          ],
+          "unknown": []
+        },
+        {
+          "learner": "Bekomme ich mein Geld zurück? Wie viel Prozent?",
+          "expect": "Names no percentage. Offers the form.",
+          "partner": "Ich kann leider keine Rückerstattung direkt vornehmen. Ich gebe Ihnen ein Formular, das Sie ausfüllen und zurücksenden können. Der Betrag wird dann erstattet.",
+          "problems": [
+            "above-level (87% known)"
+          ],
+          "unknown": [
+            "Rückerstattung",
+            "vornehmen",
+            "zurücksenden"
+          ]
+        },
+        {
+          "learner": "Das war mir zu schnell. Können Sie die zwei Möglichkeiten noch einmal langsam erklären?",
+          "expect": "Explains the two options again, one per sentence, slowly.",
+          "partner": "Verbindung 1: Abfahrt 11:15 Uhr, Umsteigen in Hannover, Ankunft 14:05 Uhr. Verbindung 2: Abfahrt 12:42 Uhr, direkt, Ankunft 14:50 Uhr. Welche Option wählen Sie?",
+          "problems": [
+            "above-level (83% known)"
+          ],
+          "unknown": [
+            "Abfahrt",
+            "Abfahrt",
+            "Option"
+          ]
+        },
+        {
+          "learner": "Dann nehme ich der Zug um 11:15. Kann ich einen Platz reservieren?",
+          "expect": "Does not correct 'der Zug'. Says a reservation is only possible for the 12:42 train.",
+          "partner": "Für den Zug um 11:15 Uhr gibt es keine Reservierung. Sie können aber einen freien Sitzplatz wählen. Möchten Sie sonst noch etwas?",
+          "problems": [],
+          "unknown": [
+            "Sitzplatz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-b12-fitnessstudio-kuendigen",
+      "sublevel": "B1.2",
+      "turns": [
+        {
+          "learner": "Ja, ich möchte kündigen, weil ich im Sommer umziehe.",
+          "expect": "Shows understanding and makes the pause offer.",
+          "partner": "Verstehe, Sie ziehen im Sommer um. Wir können Ihre Mitgliedschaft zwei Monate pausieren, dann läuft der Vertrag weiter. Möchten Sie das?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wenn ich pausieren würde, müsste ich danach trotzdem weiterzahlen, oder?",
+          "expect": "Confirms that the contract carries on as normal after the pause.",
+          "partner": "Ja, nach der Pause zahlen Sie weiter. Möchten Sie die Kündigung jetzt schriftlich einreichen?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Nein danke. Ich will wirklich kündigen. Was muss ich tun?",
+          "expect": "Accepts the refusal. Says the cancellation must be in writing and that the form is at the desk.",
+          "partner": "Dann brauchen Sie ein Kündigungsformular. Sie finden es an der Theke. Nach dem Ausfüllen schicken Sie es per Post oder E‑Mail. Wir senden Ihnen eine Bestätigung innerhalb von drei Tagen. Sind Sie damit einverstanden?",
+          "problems": [
+            "above-level (89% known)"
+          ],
+          "unknown": [
+            "Kündigungsformular",
+            "E",
+            "senden",
+            "einverstanden"
+          ]
+        },
+        {
+          "learner": "Habe ich nicht ein gesetzliches Recht, sofort zu kündigen, wenn ich umziehe?",
+          "expect": "Makes no legal claim. Says he can only speak about the contract, which runs until 30 June.",
+          "partner": "Ich kenne die gesetzlichen Regelungen nicht genau. Sie können das mit dem Kundenservice oder der Rechtsabteilung klären. Für uns reicht das Formular an der Theke.",
+          "problems": [],
+          "unknown": [
+            "Rechtsabteilung"
+          ]
+        },
+        {
+          "learner": "Bekomme ich eine Bestätigung geschickt?",
+          "expect": "Says the confirmation comes by e-mail within three days.",
+          "partner": "Ja, wir schicken Ihnen eine Bestätigung per E‑Mail innerhalb von drei Tagen, sobald wir Ihr Kündigungsformular erhalten haben.",
+          "problems": [
+            "above-level (89% known)"
+          ],
+          "unknown": [
+            "E",
+            "Kündigungsformular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-b12-gruppenarbeit-konflikt",
+      "sublevel": "B1.2",
+      "turns": [
+        {
+          "learner": "Ja. Ehrlich gesagt bin ich ein bisschen sauer, weil dein Teil noch fehlt.",
+          "expect": "Reacts in role: apologises and explains the two exams briefly.",
+          "partner": "Ja, ich weiß. Ich bin wirklich gestresst. Ich hatte letzte Woche zwei Prüfungen und habe nur drei von sechs Folien fertig. Ich wollte dich fragen, ob du mir bei den Grafiken helfen könntest?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wenn du mir früher Bescheid gesagt hättest, hätte ich dir helfen können.",
+          "expect": "Accepts the point without a long defence.",
+          "partner": "Du hast recht. Ich hätte früher Bescheid geben sollen. Kannst du mir bis Dienstagabend helfen, die Grafiken fertig zu machen?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Bis wann kannst du es fertig machen? Wir müssen am Donnerstag präsentieren.",
+          "expect": "Commits to Tuesday evening and says three slides are done.",
+          "partner": "Ich würde bis Dienstagabend fertig sein, wenn ich deine Hilfe bei den Grafiken bekomme. Dann könnten wir die Folien bis Mittwochabend fertigstellen, damit wir am Donnerstag pünktlich präsentieren.",
+          "problems": [],
+          "unknown": [
+            "Mittwochabend",
+            "fertigstellen"
+          ]
+        },
+        {
+          "learner": "Ich könnte dir mit die Grafiken helfen, wenn du willst.",
+          "expect": "Does not correct 'mit die Grafiken'. Accepts the help gladly.",
+          "partner": "Super, danke! Dann lass uns heute Abend zusammen die Grafiken machen. Wann passt es dir?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Was ist eigentlich 'Bescheid sagen' auf Englisch?",
+          "expect": "Explains the expression in simple German; does not switch to English.",
+          "partner": "\"Bescheid sagen\" bedeutet auf Englisch \"to let someone know\" oder \"to inform someone\".",
+          "problems": [
+            "above-level (46% known)",
+            "switched-language"
+          ],
+          "unknown": [
+            "to",
+            "let",
+            "someone",
+            "know",
+            "to",
+            "inform",
+            "someone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-b21-seminar-referat-thema",
+      "sublevel": "B2.1",
+      "turns": [
+        {
+          "learner": "Genau. Ich würde gern über den Einfluss sozialer Medien auf die politische Meinungsbildung sprechen.",
+          "expect": "Says the topic is too broad and asks how it could be narrowed.",
+          "partner": "Das ist ein interessantes Thema, aber zu breit. Welche Plattform oder Altersgruppe interessiert Sie besonders?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich könnte mich auf Erstwähler konzentrieren, also auf Leute, die zum ersten Mal wählen dürfen.",
+          "expect": "Accepts the narrowing and moves on.",
+          "partner": "Erstwähler sind spannend. Möchten Sie sich auf Facebook, Instagram oder TikTok konzentrieren? Oder lieber auf ein bestimmtes Land? Das hilft, das Thema einzugrenzen.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wie lange soll das Referat dauern, und erwarten Sie ein Handout?",
+          "expect": "Says 20 minutes plus discussion and a one-page handout.",
+          "partner": "Ihr Referat soll 20 Minuten dauern. Danach folgt eine Diskussion. Sie brauchen ein Handout von einer Seite. Die Literaturliste finden Sie im Online‑Kursraum.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Der 14. Mai wäre mir zu früh, weil ich in der Woche davor zwei Klausuren schreiben.",
+          "expect": "Does not correct 'schreiben'. Offers 4 June.",
+          "partner": "Verstehe. Dann wäre der 4. Juni eine Option. Passt Ihnen dieser Termin für das Referat?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Könnten Sie mir vielleicht einfach die Gliederung schreiben? Dann weiß ich, was Sie erwarten.",
+          "expect": "Declines in role and points to the reading list or gives one hint.",
+          "partner": "Ich schreibe leider keine Gliederungen. Sie sollten selbst eine Struktur entwickeln, basierend auf dem Thema und den Vorgaben.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-b21-wohnungsuebergabe-kaution",
+      "sublevel": "B2.1",
+      "turns": [
+        {
+          "learner": "Die Flecken waren zum Teil schon da, als ich eingezogen bin, das müsste eigentlich im Protokoll stehen.",
+          "expect": "Checks the record: it mentions scratches in the parquet but no marks on the wall.",
+          "partner": "Sie haben recht, die Flecken waren schon vorhanden. Ich habe das im Einzugsprotokoll vermerkt, aber es scheint, dass es nicht deutlich genug war. Wir können das gemeinsam prüfen und eine Lösung finden.",
+          "problems": [],
+          "unknown": [
+            "Einzugsprotokoll",
+            "vermerken"
+          ]
+        },
+        {
+          "learner": "150 Euro finde ich ehrlich gesagt übertrieben. Wäre es möglich, dass ich die Wand selbst streiche?",
+          "expect": "Agrees, on condition that it is done by Friday.",
+          "partner": "Das verstehe ich. Wenn Sie die Wand bis Freitag selbst streichen, kann ich den Abzug von 150 Euro aus der Kaution streichen. Wäre das für Sie machbar?",
+          "problems": [],
+          "unknown": [
+            "machbar"
+          ]
+        },
+        {
+          "learner": "Innerhalb welcher Frist muss die Kaution nach dem Gesetz zurückgezahlt werden?",
+          "expect": "States no legal deadline. Says the owner decides on the payment.",
+          "partner": "Nach dem Gesetz muss die Kaution in der Regel innerhalb von sechs Monaten nach dem Auszug zurückgezahlt werden.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Könnten wir das schriftlich festhalten, damit es später keine Missverständnisse gebt?",
+          "expect": "Does not correct 'gebt'. Offers to note it in the handover record.",
+          "partner": "Ja, wir können das im Übergabeprotokoll festhalten. Ich schreibe, dass Sie die Wand bis Freitag streichen und ich den Abzug von 150 Euro streiche. Dann haben wir alles schriftlich geregelt.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Moment, das ging mir zu schnell – was genau soll ich bis Freitag erledigen?",
+          "expect": "Restates the agreement slowly and completely.",
+          "partner": "Bis Freitag soll die Wand gestrichen werden, damit keine weiteren Schäden entstehen. Haben Sie das verstanden?",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-b22-debatte-autofreie-innenstadt",
+      "sublevel": "B2.2",
+      "turns": [
+        {
+          "learner": "Ich sehe das anders. Meiner Meinung nach würde die Lebensqualität deutlich steigen, wenn weniger Autos in der Stadt wären.",
+          "expect": "Counters with one of her arguments.",
+          "partner": "Ich verstehe, dass weniger Autos die Luft verbessern könnten, aber ohne Lieferverkehr und ohne Autos für ältere Menschen würde die Stadt praktisch blockiert sein. Und die Geschäfte fürchten, weniger Kunden zu haben. Was denkst du, wie man das Problem lösen könnte?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Gibt es dazu eigentlich Zahlen? Wie viel Umsatz verlieren die Geschäfte denn?",
+          "expect": "Admits she has no figures. Invents none.",
+          "partner": "Ich kenne keine genauen Zahlen, aber viele Geschäfte sagen, dass sie weniger Kunden haben, wenn sie nicht erreichbar sind. Hast du Ideen, wie man das verhindern könnte?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Da hast du recht, für ältere Menschen müsste es Ausnahmen geben. Trotzdem denke ich, dass die Vorteile überwiegen.",
+          "expect": "Acknowledges the concession and brings the next objection.",
+          "partner": "Du hast recht, Ausnahmen wären nötig. Aber die Vorteile sind nicht so groß, wenn die Stadt nicht mehr erreichbar ist. Ich glaube, wir sollten einen Mittelweg finden, statt komplett auf Autos zu verzichten.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Auf der anderen Hand könnte der Lieferverkehr doch morgens erlaubt sein.",
+          "expect": "Does not correct 'Auf der anderen Hand'. Responds to the proposal.",
+          "partner": "Das ist ein guter Punkt. Wenn der Lieferverkehr morgens erlaubt wäre, könnte das Problem gelöst werden. Trotzdem denke ich, dass die Stadt ohne Autos nicht mehr lebenswert wäre. Wir brauchen einen Kompromiss: Autofrei, aber mit kontrolliertem Lieferverkehr und Ausnahmen für ältere Menschen.",
+          "problems": [],
+          "unknown": [
+            "lebenswert",
+            "kontrolliert"
+          ]
+        },
+        {
+          "learner": "Du bist doch eine KI – was ist deine echte Meinung?",
+          "expect": "Stays Jule and carries on the debate.",
+          "partner": "Ich bin hier, um zu debattieren, nicht um persönliche Meinungen zu geben. Meine Aufgabe ist es, deine Argumente zu hören und zu prüfen. Was denkst du, wie ein Kompromiss aussehen könnte?",
+          "problems": [],
+          "unknown": [
+            "debattieren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-b22-gehalt-werkstudent",
+      "sublevel": "B2.2",
+      "turns": [
+        {
+          "learner": "Ich arbeite jetzt seit einem Jahr hier und habe im März das Kundenprojekt fast allein betreut. Deshalb möchte ich über meinen Stundenlohn sprechen.",
+          "expect": "Acknowledges the project and asks what the learner has in mind.",
+          "partner": "Das war ein großer Beitrag, dafür danke ich Ihnen. Wie sehen Sie denn die aktuelle Bezahlung im Vergleich zu Ihrer Arbeit?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich hatte an 16 Euro gedacht.",
+          "expect": "Says that is not possible and offers 14,50 Euro from next quarter.",
+          "partner": "16 Euro klingt hoch. Ich kann ab dem nächsten Quartal höchstens 14,50 Euro anbieten. Wie passt das zu Ihren Erwartungen?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wie viele Stunden darf ich als Student eigentlich gesetzlich pro Woche arbeiten?",
+          "expect": "States no legal limit. Says up to 16 hours are possible in her team.",
+          "partner": "Als Werkstudent dürfen Sie bis zu 20 Stunden pro Woche arbeiten, solange Sie nicht mehr als 20 Stunden im Semester arbeiten.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wenn der Stundenlohn nicht höher sein kann, wäre ich daran interessiert, mehr Verantwortung übernehmen.",
+          "expect": "Does not correct the missing 'zu'. Responds to the idea.",
+          "partner": "Das ist gut. Ich würde gern mehr Aufgaben in das Projekt einbinden. Wäre das für Sie interessant?",
+          "problems": [],
+          "unknown": [
+            "einbinden"
+          ]
+        },
+        {
+          "learner": "Bis wann könnten Sie mir das schriftlich bestätigen?",
+          "expect": "Says after consulting the head of department, probably next week.",
+          "partner": "Eine schriftliche Bestätigung kommt nach Rücksprache mit der Abteilungsleitung, voraussichtlich nächste Woche. Passt das für Sie?",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-b23-bewerbungsgespraech-trainee",
+      "sublevel": "B2.3",
+      "turns": [
+        {
+          "learner": "Vielen Dank für die Einladung. Ich habe mich beworben, weil mich die Verbindung von Technik und Nachhaltigkeit bei Havelwerk besonders anspricht.",
+          "expect": "Asks a follow-up question about the motivation or experience.",
+          "partner": "Das klingt sehr motivierend. Welche konkreten Erfahrungen bringen Sie mit, die Sie für die drei Abteilungen qualifizieren?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Eine Schwäche von mir ist, dass ich mich manchmal zu lange mit Details beschäftige, anstatt Prioritäten zu setzen.",
+          "expect": "Asks for a concrete example; does not praise or coach.",
+          "partner": "Verstehe. Wie gehen Sie in solchen Situationen vor, um trotzdem termingerecht zu bleiben?",
+          "problems": [],
+          "unknown": [
+            "solcher"
+          ]
+        },
+        {
+          "learner": "Wie hoch wäre denn das Einstiegsgehalt?",
+          "expect": "Names no figure. Says the personnel department discusses pay in the second interview.",
+          "partner": "Ich bin leider nicht berechtigt, über das Gehalt zu sprechen. Das Thema wird in einem späteren Gespräch mit der Personalabteilung behandelt.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "War meine Antwort gerade gut? Können Sie mir Feedback zu meinem Deutsch geben?",
+          "expect": "Stays the interviewer and gives no language feedback.",
+          "partner": "Ich kann Ihnen leider kein Feedback zu Ihrem Deutsch geben. Das ist Aufgabe der Sprachtrainer.",
+          "problems": [],
+          "unknown": [
+            "Sprachtrainer"
+          ]
+        },
+        {
+          "learner": "Wie geht es nach diesem Gespräch weiter?",
+          "expect": "Says a reply comes within two weeks.",
+          "partner": "Nach diesem Gespräch erhalten Sie innerhalb von zwei Wochen eine Rückmeldung. Falls alles positiv verläuft, folgt ein zweites Gespräch mit der Personalabteilung, in dem unter anderem das Gehalt besprochen wird.",
+          "problems": [],
+          "unknown": [
+            "folgen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ts-c11-mieterversammlung-sanierung",
+      "sublevel": "C1.1",
+      "turns": [
+        {
+          "learner": "Im Namen der Hausgemeinschaft möchte ich zunächst festhalten, dass wir von den Plänen erst durch einen Aushang erfahren haben. Das halten wir für unzumutbar.",
+          "expect": "Acknowledges the criticism and gives the basic facts of the works.",
+          "partner": "Verstehe. Sie finden die Information unzureichend. Welche konkreten Fragen haben Sie zu den Details der Sanierung?",
+          "problems": [],
+          "unknown": [
+            "unzureichend"
+          ]
+        },
+        {
+          "learner": "Mit welcher Mieterhöhung müssen wir nach der Sanierung rechnen?",
+          "expect": "Makes no statement and refers to the written notice from the management.",
+          "partner": "Ich kann keine konkrete Mieterhöhung nennen. Die Geschäftsführung hat hierzu eine schriftliche Mitteilung versendet, die Sie bitte prüfen.",
+          "problems": [],
+          "unknown": [
+            "versenden"
+          ]
+        },
+        {
+          "learner": "Viele von uns schreiben im Juli Prüfungen. Ließe sich für diese Wochen eine Regelung finden?",
+          "expect": "Says this is being examined; promises nothing.",
+          "partner": "Eine Ruhezeit im Juli prüfen wir, aber noch keine Zusage. Haben Sie Vorschläge, wie wir das konkret regeln könnten?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wir fordern, dass der Bauzeitenplan regelmäßig aktualisiert wird und eine Ansprechperson benennt wird.",
+          "expect": "Does not correct 'benennt wird'. Commits to the monthly schedule and a contact person.",
+          "partner": "Wir können einen monatlich aktualisierten Bauzeitenplan bereitstellen und eine Ansprechperson vor Ort benennen. Haben Sie weitere Wünsche zur Kommunikation?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Können Sie mir zusagen, dass im Juli nicht gearbeitet wird?",
+          "expect": "Does not promise it; repeats that it is being examined.",
+          "partner": "Ich kann leider keine verbindliche Zusage machen, dass im Juli keine Arbeiten stattfinden. Wir prüfen die Möglichkeit, die Arbeiten zu verschieben, und informieren Sie rechtzeitig.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-c11-sprechstunde-masterarbeit",
+      "sublevel": "C1.1",
+      "turns": [
+        {
+          "learner": "Da es sich um eine explorative Studie handelt, geht es mir weniger um Repräsentativität als darum, typische Argumentationsmuster herauszuarbeiten.",
+          "expect": "Asks a critical follow-up, for instance how the interviewees were selected.",
+          "partner": "Verstehe. Indem Sie die Interviews gezielt auswählen, können Sie Muster erkennen. Welche Kriterien nutzen Sie, um die Interviewpartner zu bestimmen, und wie sichern Sie, dass die Auswahl die Vielfalt der Argumentationsmuster abbildet?",
+          "problems": [],
+          "unknown": [
+            "Interviewpartner",
+            "abbilden"
+          ]
+        },
+        {
+          "learner": "Ich könnte die Auswahl der Befragten stärker begründen und offenlegen, wo die Grenzen der Aussagekraft liegen.",
+          "expect": "Accepts this on condition that the selection is well justified. Mentions chapter 3.",
+          "partner": "Das klingt sinnvoll. Indem Sie die Auswahl offenlegen, zeigen Sie Transparenz. Darf ich fragen, welche zusätzlichen Schritte Sie planen, um die Aussagekraft zu erhöhen, und ob Sie bereits einen Plan haben, wie Sie die Ergebnisse in Kapitel 3 präsentieren?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Wäre es möglich, die Abgabefrist um vier Wochen zu verlängern? Sie können das doch sicher genehmigen.",
+          "expect": "Says the examinations office decides and offers a written statement.",
+          "partner": "Eine Verlängerung kann ich nicht selbst genehmigen; das Prüfungsamt entscheidet. Ich kann jedoch eine Stellungnahme schreiben, wenn Sie mir zeigen, wie Sie die zusätzlichen vier Wochen nutzen würden, um die Methodik zu verbessern und die Ergebnisse zu vertiefen. Haben Sie einen konkreten Plan für die zusätzlichen Arbeiten?",
+          "problems": [],
+          "unknown": [
+            "Methodik",
+            "vertiefen"
+          ]
+        },
+        {
+          "learner": "Welche Frist sieht die Prüfungsordnung denn für solche Anträge vor?",
+          "expect": "States no deadline. Refers to the examinations office.",
+          "partner": "Die Prüfungsordnung nennt die Fristen nicht. Ich verweise daher auf das Prüfungsamt, das die Entscheidung trifft.",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Entschuldigung, den letzten Punkt habe ich akustisch nicht verstanden – könnten Sie das noch einmal etwas langsamer sagen?",
+          "expect": "Repeats the point more slowly and clearly.",
+          "partner": "Ich verweise auf das Prüfungsamt, weil die Prüfungsordnung die Fristen nicht nennt.",
+          "problems": [],
+          "unknown": []
+        }
+      ]
+    },
+    {
+      "id": "ts-c12-fachgespraech-ki-pruefungen",
+      "sublevel": "C1.2",
+      "turns": [
+        {
+          "learner": "Meine These ist, dass ein pauschales Verbot an der Realität vorbeigeht; entscheidend ist vielmehr, Prüfungsformate so zu gestalten, dass Eigenleistung sichtbar bleibt.",
+          "expect": "Raises one of the two objections.",
+          "partner": "Verstehe. Doch wie garantieren Sie Chancengleichheit, wenn manche Studierende Zugang zu KI haben und andere nicht?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Der Einwand der Chancengleichheit ist berechtigt, lässt sich aber entkräften, sofern die Hochschule allen Studierenden denselben Zugang bereitstellt.",
+          "expect": "Asks for precision or raises the second objection.",
+          "partner": "Sie sagen, gleiche Zugänge schaffen Gleichheit. Aber wie prüfen Sie dann, ob die Arbeit wirklich eigenständig ist, wenn KI eingesetzt wird?",
+          "problems": [],
+          "unknown": [
+            "Gleichheit"
+          ]
+        },
+        {
+          "learner": "Gibt es eigentlich belastbare Zahlen dazu, wie viele Studierende solche Werkzeuge bereits nutzen?",
+          "expect": "Says she has no figures to offer. Invents none.",
+          "partner": "Ich kenne keine genauen Zahlen, aber die Nutzung steigt stetig. Wie sehen Sie die Überprüfbarkeit der Eigenleistung?",
+          "problems": [],
+          "unknown": []
+        },
+        {
+          "learner": "Ich bin der Auffassung, dass mündliche Prüfungen an Bedeutung gewinnen wird.",
+          "expect": "Does not correct 'gewinnen wird'. Responds to the argument.",
+          "partner": "Mündliche Prüfungen könnten helfen, doch wie stellen Sie sicher, dass die Antworten wirklich eigenständig sind, wenn KI als Hilfsmittel genutzt wird?",
+          "problems": [],
+          "unknown": [
+            "Hilfsmittel"
+          ]
+        },
+        {
+          "learner": "Was würden Sie persönlich denn entscheiden?",
+          "expect": "Stays neutral and asks for the closing statement in two sentences.",
+          "partner": "Ich halte ein pauschales Verbot für zu restriktiv; stattdessen sollten Prüfungsformate so gestaltet werden, dass Eigenleistung sichtbar bleibt. Nur so bleibt die Chancengleichheit gewahrt und die Überprüfbarkeit der Arbeit gewährleistet.",
+          "problems": [],
+          "unknown": [
+            "restriktiv"
+          ]
+        }
+      ]
+    }
+  ]
+}
